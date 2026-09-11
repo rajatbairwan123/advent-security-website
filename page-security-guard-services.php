@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-
 <main class="security-page">
 
     <!-- =========================================
@@ -9,49 +8,66 @@
 
     <section class="security-hero">
 
-        <div class="hero-content">
+        <div class="container-fluid">
+            <div class="row g-0">
 
-            <div class="hero-inner">
+                <!-- Hero Content -->
+                <div class="col-lg-5 d-flex align-items-center">
 
-                <span class="eyebrow">SECURITY SERVICES</span>
+                    <div class="hero-content w-100">
 
-                <h1>
-                    Security guard<br>
-                    services across<br>
-                    <span>Australia &amp; NZ.</span>
-                </h1>
+                        <div class="hero-inner">
 
-                <p>
-                    Professional, reliable and highly trained security personnel
-                    to protect your people, assets and property.
-                </p>
+                            <span class="eyebrow">
+                                SECURITY SERVICES
+                            </span>
 
-                <div class="hero-buttons">
+                            <h1>
+                                Security guard<br>
+                                services across<br>
+                                <span>Australia &amp; NZ.</span>
+                            </h1>
 
-                    <a href="#quote" class="btn btn-primary">
-                        <span>REQUEST A QUOTE</span>
-                        <span class="btn-arrow">→</span>
-                    </a>
+                            <p>
+                                Professional, reliable and highly trained security personnel
+                                to protect your people, assets and property.
+                            </p>
 
-                    <a href="#contact" class="btn btn-outline">
-                        <span>TALK TO OUR TEAM</span>
-                        <span class="btn-arrow">→</span>
-                    </a>
+                            <div class="hero-buttons">
+
+                                <a href="#quote" class="advent-btn advent-btn-primary">
+                                    <span>REQUEST A QUOTE</span>
+                                    <span class="btn-arrow">→</span>
+                                </a>
+
+                                <a href="#contact" class="advent-btn advent-btn-outline">
+                                    <span>TALK TO OUR TEAM</span>
+                                    <span class="btn-arrow">→</span>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Hero Image -->
+                <div class="col-lg-7">
+
+                    <div class="hero-image">
+
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/assets/images/security-guard-hero.webp"
+                            alt="Security guard">
+
+                    </div>
 
                 </div>
 
             </div>
-
-        </div>
-
-
-        <!-- IMAGE WILL BE ADDED LATER -->
-
-        <div class="hero-image">
-            <img
-                src="<?php echo get_template_directory_uri(); ?>/assets/images/security-guard-hero.webp"
-                alt="Security guard"
-            >
         </div>
 
     </section>
@@ -63,59 +79,74 @@
 
     <section class="content-section qualified-section">
 
-        <div class="container section-grid">
+        <div class="container">
 
-            <div class="section-content">
+            <div class="row align-items-center g-5">
 
-                <span class="eyebrow">QUALIFIED SECURITY PERSONNEL</span>
+                <div class="col-lg-6">
 
-                <h2>
-                    Experienced.<br>
-                    Professional.<br>
-                    Trusted.
-                </h2>
+                    <div class="section-content">
 
-                <p>
-                    Security personnel are often the first point of contact for
-                    tenants, and therefore must present a smart, friendly and
-                    helpful demeanour. Presentation in public is a key
-                    consideration when ensuring security corporate clients need
-                    assurance that personnel are well presented, well-mannered,
-                    ethical and physically capable at all times.
-                </p>
+                        <span class="eyebrow">
+                            QUALIFIED SECURITY PERSONNEL
+                        </span>
 
-                <a href="#services" class="btn btn-outline">
-                    OUR SECURITY SERVICES <span class="btn-arrow">→</span>
-                </a>
+                        <h2>
+                            Experienced.<br>
+                            Professional.<br>
+                            Trusted.
+                        </h2>
 
-            </div>
+                        <p>
+                            Security personnel are often the first point of contact for
+                            tenants, and therefore must present a smart, friendly and
+                            helpful demeanour. Presentation in public is a key
+                            consideration when ensuring security corporate clients need
+                            assurance that personnel are well presented, well-mannered,
+                            ethical and physically capable at all times.
+                        </p>
 
+                        <a href="#services" class="advent-btn advent-btn-outline">
+                            <span>OUR SECURITY SERVICES</span>
+                            <span class="btn-arrow">→</span>
+                        </a>
 
-            <div class="feature-list">
+                    </div>
 
-                <div class="feature-item">
-                    <span class="feature-icon">01</span>
-                    <span>Trained and vetted personnel</span>
                 </div>
 
-                <div class="feature-item">
-                    <span class="feature-icon">02</span>
-                    <span>Professional appearance</span>
-                </div>
 
-                <div class="feature-item">
-                    <span class="feature-icon">03</span>
-                    <span>Customer focused approach</span>
-                </div>
+                <div class="col-lg-6">
 
-                <div class="feature-item">
-                    <span class="feature-icon">04</span>
-                    <span>Industry compliant</span>
-                </div>
+                    <div class="feature-list">
 
-                <div class="feature-item">
-                    <span class="feature-icon">05</span>
-                    <span>Available Australia wide</span>
+                        <div class="feature-item">
+                            <span class="feature-icon">01</span>
+                            <span>Trained and vetted personnel</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <span class="feature-icon">02</span>
+                            <span>Professional appearance</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <span class="feature-icon">03</span>
+                            <span>Customer focused approach</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <span class="feature-icon">04</span>
+                            <span>Industry compliant</span>
+                        </div>
+
+                        <div class="feature-item">
+                            <span class="feature-icon">05</span>
+                            <span>Available Australia wide</span>
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
@@ -131,37 +162,50 @@
 
     <section class="content-section service-highlight" id="services">
 
-        <div class="container section-grid image-left">
+        <div class="container">
 
-            <!-- Image later -->
-            <div class="image-placeholder illustration-placeholder">
-                
-            </div>
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+
+                    <div class="image-placeholder illustration-placeholder"></div>
+
+                </div>
 
 
-            <div class="section-content">
+                <div class="col-lg-6">
 
-                <span class="eyebrow">PREMIER SECURITY GUARD SERVICES</span>
+                    <div class="section-content">
 
-                <h2>
-                    More than just<br>
-                    a presence.
-                </h2>
+                        <span class="eyebrow">
+                            PREMIER SECURITY GUARD SERVICES
+                        </span>
 
-                <p>
-                    Advent Security is committed to providing a professional and
-                    responsive security service. Our security guards are trained
-                    to the highest industry standards and equipped to respond to
-                    a range of security situations, from theft and vandalism to
-                    emergency incidents.
-                </p>
+                        <h2>
+                            More than just<br>
+                            a presence.
+                        </h2>
 
-                <ul class="check-list">
-                    <li>Static guarding and mobile patrols</li>
-                    <li>Uniformed and plain-clothes personnel</li>
-                    <li>Concierge and customer service</li>
-                    <li>Event security and crowd control</li>
-                </ul>
+                        <p>
+                            Advent Security is committed to providing a professional and
+                            responsive security service. Our security guards are trained
+                            to the highest industry standards and equipped to respond to
+                            a range of security situations, from theft and vandalism to
+                            emergency incidents.
+                        </p>
+
+                        <ul class="check-list">
+
+                            <li>Static guarding and mobile patrols</li>
+                            <li>Uniformed and plain-clothes personnel</li>
+                            <li>Concierge and customer service</li>
+                            <li>Event security and crowd control</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
 
             </div>
 
@@ -176,34 +220,46 @@
 
     <section class="content-section track-record">
 
-        <div class="container section-grid">
+        <div class="container">
 
-            <div class="section-content">
+            <div class="row align-items-center g-5">
 
-                <span class="eyebrow">PROVEN TRACK RECORD</span>
+                <div class="col-lg-6">
 
-                <h2>
-                    Expertise you<br>
-                    can rely on.
-                </h2>
+                    <div class="section-content">
 
-                <p>
-                    With more than 18 years of accumulated experience in the
-                    industry, Advent Security has developed an enviable
-                    reputation and is trusted by clients to deliver security
-                    guard services to meet a diverse range of security needs.
-                </p>
+                        <span class="eyebrow">
+                            PROVEN TRACK RECORD
+                        </span>
 
-                <a href="#about" class="btn btn-outline">
-                    LEARN MORE ABOUT US <span class="btn-arrow">→</span>
-                </a>
+                        <h2>
+                            Expertise you<br>
+                            can rely on.
+                        </h2>
 
-            </div>
+                        <p>
+                            With more than 18 years of accumulated experience in the
+                            industry, Advent Security has developed an enviable
+                            reputation and is trusted by clients to deliver security
+                            guard services to meet a diverse range of security needs.
+                        </p>
+
+                        <a href="#about" class="advent-btn advent-btn-outline">
+                            <span>LEARN MORE ABOUT US</span>
+                            <span class="btn-arrow">→</span>
+                        </a>
+
+                    </div>
+
+                </div>
 
 
-            <!-- Image later -->
-            <div class="image-placeholder wide-placeholder">
-                
+                <div class="col-lg-6">
+
+                    <div class="image-placeholder wide-placeholder"></div>
+
+                </div>
+
             </div>
 
         </div>
@@ -217,52 +273,97 @@
 
     <section class="content-section solutions-section">
 
-        <div class="container section-grid">
+        <div class="container">
 
-            <div class="section-content">
+            <div class="row align-items-center g-5">
 
-                <span class="eyebrow">OUR SECURITY GUARD SERVICES</span>
+                <div class="col-lg-6">
 
-                <h2>
-                    Comprehensive<br>
-                    security solutions.
-                </h2>
+                    <div class="section-content">
 
-                <p>
-                    Our highly trained security personnel provide tailored
-                    solutions for a wide range of environments, including
-                    construction sites, events, retail centres, corporate
-                    offices and more.
-                </p>
+                        <span class="eyebrow">
+                            OUR SECURITY GUARD SERVICES
+                        </span>
 
-            </div>
+                        <h2>
+                            Comprehensive<br>
+                            security solutions.
+                        </h2>
+
+                        <p>
+                            Our highly trained security personnel provide tailored
+                            solutions for a wide range of environments, including
+                            construction sites, events, retail centres, corporate
+                            offices and more.
+                        </p>
+
+                    </div>
+
+                </div>
 
 
-            <div class="service-cards">
+                <div class="col-lg-6">
 
-                <a href="#" class="service-card">
-                    <span class="card-number">01</span>
-                    <h3>Construction<br>Site Security</h3>
-                    <span class="card-arrow">↗</span>
-                </a>
+                    <div class="service-cards">
 
-                <a href="#" class="service-card">
-                    <span class="card-number">02</span>
-                    <h3>Event<br>Security</h3>
-                    <span class="card-arrow">↗</span>
-                </a>
+                        <a href="#" class="service-card">
 
-                <a href="#" class="service-card">
-                    <span class="card-number">03</span>
-                    <h3>Retail &amp; Shopping<br>Centre Security</h3>
-                    <span class="card-arrow">↗</span>
-                </a>
+                            <span class="card-number">01</span>
 
-                <a href="#" class="service-card">
-                    <span class="card-number">04</span>
-                    <h3>Corporate &amp;<br>Commercial</h3>
-                    <span class="card-arrow">↗</span>
-                </a>
+                            <h3>
+                                Construction<br>
+                                Site Security
+                            </h3>
+
+                            <span class="card-arrow">↗</span>
+
+                        </a>
+
+
+                        <a href="#" class="service-card">
+
+                            <span class="card-number">02</span>
+
+                            <h3>
+                                Event<br>
+                                Security
+                            </h3>
+
+                            <span class="card-arrow">↗</span>
+
+                        </a>
+
+
+                        <a href="#" class="service-card">
+
+                            <span class="card-number">03</span>
+
+                            <h3>
+                                Retail &amp; Shopping<br>
+                                Centre Security
+                            </h3>
+
+                            <span class="card-arrow">↗</span>
+
+                        </a>
+
+
+                        <a href="#" class="service-card">
+
+                            <span class="card-number">04</span>
+
+                            <h3>
+                                Corporate &amp;<br>
+                                Commercial
+                            </h3>
+
+                            <span class="card-arrow">↗</span>
+
+                        </a>
+
+                    </div>
+
+                </div>
 
             </div>
 
@@ -279,7 +380,9 @@
 
         <div class="container">
 
-            <span class="eyebrow">SECURITY SERVICES ACROSS AUSTRALIA</span>
+            <span class="eyebrow">
+                SECURITY SERVICES ACROSS AUSTRALIA
+            </span>
 
             <h2>
                 Local expertise.<br>
@@ -287,61 +390,97 @@
             </h2>
 
 
-            <div class="location-grid">
+            <div class="row g-0 location-grid">
 
-                <article class="location-card">
-                    <span>01</span>
-                    <h3>Construction Site Security – Melbourne</h3>
+                <div class="col-md-6">
 
-                    <p>
-                        Construction sites are highly vulnerable to theft,
-                        vandalism and unauthorised access. Our security
-                        personnel help protect your site, equipment and assets.
-                    </p>
+                    <article class="location-card">
 
-                    <a href="#">Learn more →</a>
-                </article>
+                        <span>01</span>
 
+                        <h3>
+                            Construction Site Security – Melbourne
+                        </h3>
 
-                <article class="location-card">
-                    <span>02</span>
-                    <h3>Event Security Services – Sydney</h3>
+                        <p>
+                            Construction sites are highly vulnerable to theft,
+                            vandalism and unauthorised access. Our security
+                            personnel help protect your site, equipment and assets.
+                        </p>
 
-                    <p>
-                        Managing safety at events requires experienced
-                        professionals who understand crowd management,
-                        emergency response and visitor safety.
-                    </p>
+                        <a href="#">Learn more →</a>
 
-                    <a href="#">Learn more →</a>
-                </article>
+                    </article>
+
+                </div>
 
 
-                <article class="location-card">
-                    <span>03</span>
-                    <h3>Retail &amp; Shopping Centre Security – Brisbane</h3>
+                <div class="col-md-6">
 
-                    <p>
-                        Retail environments require a visible security presence
-                        while maintaining a professional customer experience.
-                    </p>
+                    <article class="location-card">
 
-                    <a href="#">Learn more →</a>
-                </article>
+                        <span>02</span>
+
+                        <h3>
+                            Event Security Services – Sydney
+                        </h3>
+
+                        <p>
+                            Managing safety at events requires experienced
+                            professionals who understand crowd management,
+                            emergency response and visitor safety.
+                        </p>
+
+                        <a href="#">Learn more →</a>
+
+                    </article>
+
+                </div>
 
 
-                <article class="location-card">
-                    <span>04</span>
-                    <h3>Corporate &amp; Commercial Security Services Australia</h3>
+                <div class="col-md-6">
 
-                    <p>
-                        We provide tailored security solutions for corporate
-                        offices, commercial buildings and business facilities
-                        across Australia.
-                    </p>
+                    <article class="location-card">
 
-                    <a href="#">Learn more →</a>
-                </article>
+                        <span>03</span>
+
+                        <h3>
+                            Retail &amp; Shopping Centre Security – Brisbane
+                        </h3>
+
+                        <p>
+                            Retail environments require a visible security presence
+                            while maintaining a professional customer experience.
+                        </p>
+
+                        <a href="#">Learn more →</a>
+
+                    </article>
+
+                </div>
+
+
+                <div class="col-md-6">
+
+                    <article class="location-card">
+
+                        <span>04</span>
+
+                        <h3>
+                            Corporate &amp; Commercial Security Services Australia
+                        </h3>
+
+                        <p>
+                            We provide tailored security solutions for corporate
+                            offices, commercial buildings and business facilities
+                            across Australia.
+                        </p>
+
+                        <a href="#">Learn more →</a>
+
+                    </article>
+
+                </div>
 
             </div>
 
@@ -360,9 +499,13 @@
 
             <div class="industries-intro">
 
-                <span class="eyebrow">INDUSTRIES WE SUPPORT</span>
+                <span class="eyebrow">
+                    INDUSTRIES WE SUPPORT
+                </span>
 
-                <h2>Security for real workplaces.</h2>
+                <h2>
+                    Security for real workplaces.
+                </h2>
 
                 <p>
                     Every site is different. We tailor our security guard
@@ -373,36 +516,95 @@
             </div>
 
 
-            <div class="industry-grid">
+            <div class="row g-0 industry-grid">
 
-                <div class="industry-card">
-                    <h3>Corporate &amp; Commercial</h3>
-                    <p>Staff, visitors and multi-tenant buildings.</p>
+                <div class="col-md-6">
+
+                    <div class="industry-card">
+
+                        <h3>Corporate &amp; Commercial</h3>
+
+                        <p>
+                            Staff, visitors and multi-tenant buildings.
+                        </p>
+
+                    </div>
+
                 </div>
 
-                <div class="industry-card">
-                    <h3>Warehousing &amp; Logistics</h3>
-                    <p>Loading areas, staff entry and restricted zones.</p>
+
+                <div class="col-md-6">
+
+                    <div class="industry-card">
+
+                        <h3>Warehousing &amp; Logistics</h3>
+
+                        <p>
+                            Loading areas, staff entry and restricted zones.
+                        </p>
+
+                    </div>
+
                 </div>
 
-                <div class="industry-card">
-                    <h3>Healthcare</h3>
-                    <p>Controlled access to sensitive areas.</p>
+
+                <div class="col-md-6">
+
+                    <div class="industry-card">
+
+                        <h3>Healthcare</h3>
+
+                        <p>
+                            Controlled access to sensitive areas.
+                        </p>
+
+                    </div>
+
                 </div>
 
-                <div class="industry-card">
-                    <h3>Education</h3>
-                    <p>Staff, students and campus facilities.</p>
+
+                <div class="col-md-6">
+
+                    <div class="industry-card">
+
+                        <h3>Education</h3>
+
+                        <p>
+                            Staff, students and campus facilities.
+                        </p>
+
+                    </div>
+
                 </div>
 
-                <div class="industry-card">
-                    <h3>Government</h3>
-                    <p>Secure facilities and compliance requirements.</p>
+
+                <div class="col-md-6">
+
+                    <div class="industry-card">
+
+                        <h3>Government</h3>
+
+                        <p>
+                            Secure facilities and compliance requirements.
+                        </p>
+
+                    </div>
+
                 </div>
 
-                <div class="industry-card">
-                    <h3>Retail &amp; Multi-site</h3>
-                    <p>Consistent security across multiple locations.</p>
+
+                <div class="col-md-6">
+
+                    <div class="industry-card">
+
+                        <h3>Retail &amp; Multi-site</h3>
+
+                        <p>
+                            Consistent security across multiple locations.
+                        </p>
+
+                    </div>
+
                 </div>
 
             </div>
@@ -418,39 +620,53 @@
 
     <section class="content-section why-advent">
 
-        <div class="container section-grid">
+        <div class="container">
 
-            <div class="section-content">
+            <div class="row align-items-center g-5">
 
-                <span class="eyebrow">WHY CHOOSE ADVENT SECURITY?</span>
+                <div class="col-lg-6">
 
-                <h2>
-                    A safer<br>
-                    tomorrow.
-                </h2>
+                    <div class="section-content">
 
-                <p>
-                    Licensed and vetted security professionals, backed by
-                    experience and a customer-focused approach.
-                </p>
+                        <span class="eyebrow">
+                            WHY CHOOSE ADVENT SECURITY?
+                        </span>
 
-                <ul class="check-list">
-                    <li>Licensed and trained security professionals</li>
-                    <li>National coverage across Australia &amp; NZ</li>
-                    <li>Responsive and reliable service</li>
-                    <li>Tailored solutions to meet your needs</li>
-                </ul>
+                        <h2>
+                            A safer<br>
+                            tomorrow.
+                        </h2>
 
-                <a href="#contact" class="btn btn-primary">
-                    CONTACT US TODAY <span class="btn-arrow">→</span>
-                </a>
+                        <p>
+                            Licensed and vetted security professionals, backed by
+                            experience and a customer-focused approach.
+                        </p>
 
-            </div>
+                        <ul class="check-list">
+
+                            <li>Licensed and trained security professionals</li>
+                            <li>National coverage across Australia &amp; NZ</li>
+                            <li>Responsive and reliable service</li>
+                            <li>Tailored solutions to meet your needs</li>
+
+                        </ul>
+
+                        <a href="#contact" class="advent-btn advent-btn-primary">
+                            <span>CONTACT US TODAY</span>
+                            <span class="btn-arrow">→</span>
+                        </a>
+
+                    </div>
+
+                </div>
 
 
-            <!-- Image later -->
-            <div class="image-placeholder wide-placeholder">
-                
+                <div class="col-lg-6">
+
+                    <div class="image-placeholder wide-placeholder"></div>
+
+                </div>
+
             </div>
 
         </div>
@@ -468,11 +684,21 @@
 
             <div class="faq-header">
 
-                <span class="eyebrow">FAQ</span>
+                <div>
 
-                <h2>Frequently asked questions</h2>
+                    <span class="eyebrow">
+                        FAQ
+                    </span>
 
-                <a href="#">View all FAQs →</a>
+                    <h2>
+                        Frequently asked questions
+                    </h2>
+
+                </div>
+
+                <a href="#">
+                    View all FAQs →
+                </a>
 
             </div>
 
@@ -480,6 +706,7 @@
             <div class="faq-list">
 
                 <details>
+
                     <summary>
                         What can an unarmed security guard carry?
                         <span>+</span>
@@ -491,10 +718,12 @@
                         requirements. This can include communication devices,
                         torches and other approved security equipment.
                     </p>
+
                 </details>
 
 
                 <details>
+
                     <summary>
                         How much does it cost to hire a security guard?
                         <span>+</span>
@@ -505,10 +734,12 @@
                         hours, number of personnel, duties and level of risk.
                         Contact our team for an assessment and tailored quote.
                     </p>
+
                 </details>
 
 
                 <details>
+
                     <summary>
                         Do security guards carry firearms in Australia?
                         <span>+</span>
@@ -519,10 +750,12 @@
                         Security personnel operate according to applicable
                         licensing, regulatory and operational requirements.
                     </p>
+
                 </details>
 
 
                 <details>
+
                     <summary>
                         Do I need a security guard for my business?
                         <span>+</span>
@@ -533,10 +766,12 @@
                         business would benefit from security personnel and what
                         level of coverage is appropriate.
                     </p>
+
                 </details>
 
 
                 <details>
+
                     <summary>
                         Can you provide security guards across multiple cities?
                         <span>+</span>
@@ -547,10 +782,12 @@
                         Australia and New Zealand, subject to location and
                         service requirements.
                     </p>
+
                 </details>
 
 
                 <details>
+
                     <summary>
                         Can you provide 24/7 security coverage?
                         <span>+</span>
@@ -560,6 +797,7 @@
                         Yes. Security coverage can be tailored to your required
                         operating hours, including continuous 24/7 coverage.
                     </p>
+
                 </details>
 
             </div>
@@ -575,26 +813,36 @@
 
     <section class="assessment-cta" id="quote">
 
-        <div class="container cta-inner">
+        <div class="container">
 
-            <div>
-                <span class="eyebrow">NEED SECURITY GUARD SERVICES?</span>
+            <div class="cta-inner">
 
-                <h2>Request a security assessment.</h2>
+                <div>
+
+                    <span class="eyebrow">
+                        NEED SECURITY GUARD SERVICES?
+                    </span>
+
+                    <h2>
+                        Request a security assessment.
+                    </h2>
+
+                </div>
+
+                <a href="#contact" class="advent-btn advent-btn-dark">
+
+                    <span>REQUEST A QUOTE</span>
+
+                    <span class="btn-arrow">→</span>
+
+                </a>
+
             </div>
-
-            <a href="#contact" class="btn btn-dark">
-                REQUEST A QUOTE <span>→</span>
-            </a>
 
         </div>
 
     </section>
 
 </main>
-
-
-<?php get_footer(); ?>
-
 
 <?php get_footer(); ?>

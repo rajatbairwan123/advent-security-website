@@ -13,69 +13,69 @@
 
 <body <?php body_class(); ?>>
 
-<?php wp_body_open(); ?>
+    <?php wp_body_open(); ?>
 
 
-<header class="site-header">
+    <header class="site-header">
 
-    <div class="container header-inner">
+        <div class="container header-inner">
 
 
-        <!-- Logo -->
+            <!-- Logo -->
 
-        <div class="site-logo">
+            <div class="site-logo">
 
-            <?php if (has_custom_logo()) : ?>
+                <?php if (has_custom_logo()) : ?>
 
-                <?php the_custom_logo(); ?>
+                    <?php the_custom_logo(); ?>
 
-            <?php else : ?>
+                <?php else : ?>
 
-                <a href="<?php echo esc_url(home_url('/')); ?>">
-                    <strong>ADVENT</strong>
-                    <span>SECURITY</span>
-                </a>
+                    <a href="<?php echo esc_url(home_url('/')); ?>">
+                        <strong>ADVENT</strong>
+                        <span>SECURITY</span>
+                    </a>
 
-            <?php endif; ?>
+                <?php endif; ?>
+
+            </div>
+
+
+            <!-- Navigation -->
+
+            <nav class="main-navigation">
+
+                <?php
+
+                wp_nav_menu(array(
+                    'theme_location' => 'primary',
+                    'container'      => false,
+                    'fallback_cb'    => false
+                ));
+
+                ?>
+
+            </nav>
+
+
+            <!-- Quote Button -->
+
+            <a href="#quote" class="quote-button">
+                REQUEST A QUOTE
+                <span>→</span>
+            </a>
+
+
+            <!-- Mobile Menu Button -->
+
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
 
         </div>
 
-
-        <!-- Navigation -->
-
-        <nav class="main-navigation">
-
-            <?php
-
-            wp_nav_menu(array(
-                'theme_location' => 'primary',
-                'container'      => false,
-                'fallback_cb'    => false
-            ));
-
-            ?>
-
-        </nav>
-
-
-        <!-- Quote Button -->
-
-        <a href="#quote" class="quote-button">
-            REQUEST A QUOTE
-            <span>→</span>
-        </a>
-
-
-        <!-- Mobile Menu Button -->
-
-        <button class="mobile-menu-toggle" aria-label="Toggle navigation">
-
-            <span></span>
-            <span></span>
-            <span></span>
-
-        </button>
-
-    </div>
-
-</header>
+    </header>
