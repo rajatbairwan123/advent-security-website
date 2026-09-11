@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+
+<head>
+
+    <meta charset="<?php bloginfo('charset'); ?>">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <?php wp_head(); ?>
+
+</head>
+
+<body <?php body_class(); ?>>
+
+<?php wp_body_open(); ?>
+
+
+<header class="site-header">
+
+    <div class="container header-inner">
+
+
+        <!-- Logo -->
+
+        <div class="site-logo">
+
+            <?php if (has_custom_logo()) : ?>
+
+                <?php the_custom_logo(); ?>
+
+            <?php else : ?>
+
+                <a href="<?php echo esc_url(home_url('/')); ?>">
+                    <strong>ADVENT</strong>
+                    <span>SECURITY</span>
+                </a>
+
+            <?php endif; ?>
+
+        </div>
+
+
+        <!-- Navigation -->
+
+        <nav class="main-navigation">
+
+            <?php
+
+            wp_nav_menu(array(
+                'theme_location' => 'primary',
+                'container'      => false,
+                'fallback_cb'    => false
+            ));
+
+            ?>
+
+        </nav>
+
+
+        <!-- Quote Button -->
+
+        <a href="#quote" class="quote-button">
+            REQUEST A QUOTE
+            <span>→</span>
+        </a>
+
+
+        <!-- Mobile Menu Button -->
+
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+    </div>
+
+</header>
