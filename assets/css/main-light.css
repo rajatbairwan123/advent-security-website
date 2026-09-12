@@ -35,6 +35,7 @@ body {
     color: var(--text);
     font-family: "Inter", Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    padding-top: 72px;
 }
 
 img {
@@ -70,17 +71,25 @@ button:focus-visible {
 
 .site-header {
     height: 72px;
+    width: 100%;
+
     background: #fff;
     border-bottom: 1px solid var(--border);
-    position: relative;
-    z-index: 100;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 1000;
 }
 
 .header-inner {
     height: 100%;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     gap: 30px;
 }
 
@@ -1175,6 +1184,10 @@ button:focus-visible {
 
     .site-header {
         height: 65px;
+    }
+
+    body {
+        padding-top: 65px;
     }
 
     .main-navigation {
