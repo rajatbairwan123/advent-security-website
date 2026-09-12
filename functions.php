@@ -107,8 +107,18 @@ function advent_security_assets()
         '1.0.0'
     );
 
+    if (
+        is_page('security-consulting') ||
+        is_page_template('page-security-consulting.php')
+    ) {
 
-
+        wp_enqueue_style(
+            'advent-security-consulting',
+            get_template_directory_uri() . '/assets/css/security-consulting.css',
+            array('advent-responsive'),
+            '1.0.1'
+        );
+    }
 
     /*
      * Bootstrap JavaScript Bundle
