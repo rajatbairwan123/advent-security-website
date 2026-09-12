@@ -7,12 +7,16 @@
     ========================================== -->
 
     <section class="security-hero">
+
         <div class="container-fluid">
+
             <div class="row g-0 align-items-stretch">
 
                 <!-- Hero Content -->
                 <div class="col-lg-6">
+
                     <div class="hero-content">
+
                         <div class="hero-inner">
 
                             <span class="eyebrow">
@@ -20,15 +24,16 @@
                             </span>
 
                             <h1>
-                                Professional Corporate
-                                <span>Concierge Security</span>
-                                Services
+                                Corporate Concierge
+                                <span>Security Services</span>
+                                Across Australia
                             </h1>
 
                             <p>
-                                Combine professional front-of-house service with
-                                effective security, visitor management and site
-                                support for corporate and commercial environments.
+                                Professional concierge security that combines
+                                front-of-house customer service with visitor
+                                management, access control and practical site
+                                security for corporate and commercial environments.
                             </p>
 
                             <div class="hero-buttons">
@@ -47,22 +52,32 @@
                             </div>
 
                         </div>
+
                     </div>
+
                 </div>
+
 
                 <!-- Hero Image -->
                 <div class="col-lg-6">
+
                     <div class="hero-image">
 
                         <img
-                            src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/corporate-concierge-services.webp'); ?>"
+                            src="<?php echo esc_url(
+                                        get_template_directory_uri() .
+                                            '/assets/images/corporate-concierge-banner.webp'
+                                    ); ?>"
                             alt="Corporate concierge security officer providing front-of-house security services">
 
                     </div>
+
                 </div>
 
             </div>
+
         </div>
+
     </section>
 
 
@@ -82,33 +97,34 @@
                     <div class="section-content">
 
                         <span class="eyebrow">
-                            CORPORATE CONCIERGE SECURITY
+                            WHAT IS CORPORATE CONCIERGE SECURITY?
                         </span>
 
                         <h2>
-                            Security that makes a
-                            professional first impression.
+                            Professional concierge service
+                            with security at its core.
                         </h2>
 
                         <p>
-                            Corporate concierge security combines front-of-house
-                            customer service with professional security
+                            Corporate concierge security combines a professional
+                            front-of-house presence with practical security
                             responsibilities. Concierge security officers can
-                            welcome visitors, manage access, assist employees
-                            and contractors, respond to enquiries and support
-                            everyday site security procedures.
+                            welcome and process visitors, manage contractor
+                            access, assist employees, respond to enquiries and
+                            support the day-to-day security requirements of a site.
                         </p>
 
                         <p>
-                            For corporate and commercial environments, the right
-                            concierge service provides a welcoming experience
-                            while maintaining awareness of security, safety and
-                            access requirements.
+                            The service is designed to create a professional,
+                            welcoming first point of contact without losing sight
+                            of access control, site security, incident monitoring
+                            and the safety of people and property.
                         </p>
 
                     </div>
 
                 </div>
+
 
                 <!-- Feature List -->
                 <div class="col-lg-6">
@@ -117,7 +133,7 @@
 
                         <div class="feature-item">
                             <span class="feature-icon">01</span>
-                            Professional front-of-house presence
+                            Professional front-of-house security
                         </div>
 
                         <div class="feature-item">
@@ -132,7 +148,7 @@
 
                         <div class="feature-item">
                             <span class="feature-icon">04</span>
-                            CCTV and security monitoring
+                            CCTV and incident monitoring
                         </div>
 
                         <div class="feature-item">
@@ -166,23 +182,24 @@
 
             <div class="row align-items-end mb-5">
 
-                <div class="col-lg-7">
+                <div class="col-lg-8">
 
                     <div class="section-content">
 
                         <span class="eyebrow">
-                            OUR CONCIERGE SERVICES
+                            OUR CORPORATE CONCIERGE SERVICES
                         </span>
 
                         <h2>
-                            More than a welcome desk.
+                            More than a reception desk.
                         </h2>
 
                         <p>
                             Advent Security concierge personnel combine
-                            professional customer service with practical
-                            security responsibilities to support the people,
-                            visitors and operations within your facility.
+                            customer service, communication and security
+                            responsibilities to support visitors, employees,
+                            contractors, management and the day-to-day
+                            operation of your facility.
                         </p>
 
                     </div>
@@ -206,9 +223,9 @@
                     </h3>
 
                     <p>
-                        Welcome and process visitors, contractors and other
-                        authorised personnel while supporting site access
-                        procedures and security requirements.
+                        Professionally greet and process visitors, contractors
+                        and other authorised personnel while following your
+                        site's access and security procedures.
                     </p>
 
                     <span class="card-arrow">→</span>
@@ -229,8 +246,8 @@
 
                     <p>
                         Provide a professional first point of contact for
-                        employees, visitors and tenants while maintaining
-                        awareness of site security and safety.
+                        visitors, employees, tenants and guests while maintaining
+                        awareness of security and access requirements.
                     </p>
 
                     <span class="card-arrow">→</span>
@@ -246,12 +263,12 @@
                     </span>
 
                     <h3>
-                        Employee & Tenant Assistance
+                        Employee Customer Service
                     </h3>
 
                     <p>
-                        Assist employees and tenants with enquiries and
-                        day-to-day requirements while contributing to a
+                        Support employees and tenants with day-to-day enquiries
+                        and assistance while contributing to a professional,
                         secure and welcoming workplace environment.
                     </p>
 
@@ -272,9 +289,9 @@
                     </h3>
 
                     <p>
-                        Handle enquiries and provide appropriate administrative
-                        and concierge support as part of the site's daily
-                        operations.
+                        Handle enquiries from visitors, customers and employees
+                        and provide appropriate administrative and concierge
+                        assistance as part of daily site operations.
                     </p>
 
                     <span class="card-arrow">→</span>
@@ -290,13 +307,13 @@
                     </span>
 
                     <h3>
-                        CCTV & Security Monitoring
+                        CCTV & Incident Monitoring
                     </h3>
 
                     <p>
-                        Monitor CCTV systems and respond to incidents in line
-                        with established site procedures, providing relevant
-                        information for investigation and reporting.
+                        Monitor CCTV systems where required and support incident
+                        investigation, reporting and established site procedures
+                        when security events occur.
                     </p>
 
                     <span class="card-arrow">→</span>
@@ -316,9 +333,9 @@
                     </h3>
 
                     <p>
-                        Support contractor and vendor access by supervising
-                        authorised personnel and helping maintain site
-                        security procedures.
+                        Supervise and escort authorised contractors and vendors
+                        to help control access to designated areas and maintain
+                        site security requirements.
                     </p>
 
                     <span class="card-arrow">→</span>
@@ -334,13 +351,13 @@
                     </span>
 
                     <h3>
-                        Ad Hoc Concierge Support
+                        Ad Hoc Concierge Duties
                     </h3>
 
                     <p>
-                        Provide flexible concierge assistance based on the
-                        changing operational requirements of your workplace
-                        or facility.
+                        Provide flexible concierge assistance for additional
+                        operational requirements that arise during the normal
+                        running of your workplace or facility.
                     </p>
 
                     <span class="card-arrow">→</span>
@@ -360,9 +377,9 @@
                     </h3>
 
                     <p>
-                        Work collaboratively with management and employees to
-                        support communication, security procedures and a
-                        professional workplace environment.
+                        Maintain effective communication with management and
+                        employees so security procedures can be incorporated
+                        smoothly into everyday workplace operations.
                     </p>
 
                     <span class="card-arrow">→</span>
@@ -392,8 +409,11 @@
                     <div class="image-placeholder illustration-placeholder">
 
                         <img
-                            src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/corporate-concierge-security.webp'); ?>"
-                            alt="Corporate concierge security services">
+                            src="<?php echo esc_url(
+                                        get_template_directory_uri() .
+                                            '/assets/images/security-premier.webp'
+                                    ); ?>"
+                            alt="Corporate concierge security officer supporting workplace security">
 
                     </div>
 
@@ -406,25 +426,27 @@
                     <div class="section-content">
 
                         <span class="eyebrow">
-                            SECURITY + SERVICE
+                            SECURITY + CUSTOMER SERVICE
                         </span>
 
                         <h2>
-                            A professional welcome backed by security expertise.
+                            A professional welcome backed
+                            by security expertise.
                         </h2>
 
                         <p>
-                            Corporate concierge officers can play an important
-                            role in creating the first impression of your
-                            organisation while supporting practical security
-                            requirements throughout the site.
+                            Concierge security personnel often become one of the
+                            first points of contact for everyone entering a
+                            workplace or facility. Their role therefore extends
+                            beyond monitoring a doorway or reception area.
                         </p>
 
                         <p>
-                            By combining customer service, communication and
+                            By combining customer service with professional
                             security responsibilities, concierge personnel can
-                            become an integrated part of your workplace
-                            operations.
+                            help create a welcoming environment while supporting
+                            access management, visitor processing, contractor
+                            control and site security procedures.
                         </p>
 
                         <ul class="check-list">
@@ -438,7 +460,7 @@
                             </li>
 
                             <li>
-                                Support for workplace security procedures
+                                Reception and front-of-house support
                             </li>
 
                             <li>
@@ -447,6 +469,10 @@
 
                             <li>
                                 CCTV and incident monitoring
+                            </li>
+
+                            <li>
+                                Support for established site procedures
                             </li>
 
                         </ul>
@@ -463,14 +489,14 @@
 
 
     <!-- =========================================
-         INTEGRATED CAPABILITIES
+         INTEGRATED SECURITY
     ========================================== -->
 
     <section class="content-section">
 
         <div class="container">
 
-            <div class="row">
+            <div class="row align-items-center g-5">
 
                 <div class="col-lg-6">
 
@@ -481,20 +507,38 @@
                         </span>
 
                         <h2>
-                            Concierge services designed around your site.
+                            Concierge security that works
+                            with your existing systems.
                         </h2>
 
                         <p>
-                            Concierge security can work alongside your existing
-                            workplace procedures and security systems. Advent
-                            can tailor the service around the responsibilities,
-                            access requirements and operational needs of your
-                            facility.
+                            Corporate concierge services can form part of a
+                            broader security strategy. The responsibilities of
+                            concierge personnel can be aligned with your site's
+                            access procedures, visitor management processes,
+                            security systems and operational requirements.
+                        </p>
+
+                        <p>
+                            Where required, concierge security can also be
+                            supported by Advent Security's broader
+                            <a href="<?php echo esc_url(
+                                            home_url('/security-guard-services/')
+                                        ); ?>">
+                                security guard services
+                            </a>
+                            and
+                            <a href="<?php echo esc_url(
+                                            home_url('/electronic-security-systems/')
+                                        ); ?>">
+                                electronic security systems
+                            </a>.
                         </p>
 
                     </div>
 
                 </div>
+
 
                 <div class="col-lg-6">
 
@@ -542,7 +586,7 @@
 
 
     <!-- =========================================
-         INDUSTRIES / ENVIRONMENTS
+         WORKPLACE ENVIRONMENTS
     ========================================== -->
 
     <section class="industries-section location-services">
@@ -552,17 +596,17 @@
             <div class="industries-intro">
 
                 <span class="eyebrow">
-                    WHERE WE PROVIDE CONCIERGE SECURITY
+                    WHERE CONCIERGE SECURITY FITS
                 </span>
 
                 <h2>
-                    Built for professional environments.
+                    Designed for professional environments.
                 </h2>
 
                 <p>
-                    Corporate concierge security can support a range of
-                    environments where customer service, access management
-                    and security need to work together.
+                    Corporate concierge security is suited to environments
+                    where professional customer service, controlled access
+                    and security responsibilities need to work together.
                 </p>
 
             </div>
@@ -570,6 +614,7 @@
 
             <div class="row g-0 industry-grid">
 
+                <!-- Industry 01 -->
                 <div class="col-md-6 col-lg-4">
 
                     <article class="industry-card">
@@ -579,8 +624,9 @@
                         </h3>
 
                         <p>
-                            Professional front-of-house support, visitor
-                            management and workplace security.
+                            Front-of-house security, visitor management and
+                            professional workplace support for corporate
+                            offices and business premises.
                         </p>
 
                     </article>
@@ -588,6 +634,7 @@
                 </div>
 
 
+                <!-- Industry 02 -->
                 <div class="col-md-6 col-lg-4">
 
                     <article class="industry-card">
@@ -597,8 +644,9 @@
                         </h3>
 
                         <p>
-                            Support tenants, visitors and building operations
-                            with professional concierge security.
+                            Support visitors, tenants, contractors and building
+                            operations while maintaining a professional security
+                            presence.
                         </p>
 
                     </article>
@@ -606,6 +654,7 @@
                 </div>
 
 
+                <!-- Industry 03 -->
                 <div class="col-md-6 col-lg-4">
 
                     <article class="industry-card">
@@ -615,8 +664,8 @@
                         </h3>
 
                         <p>
-                            Concierge and security support for residents,
-                            visitors, contractors and building management.
+                            Concierge security support for residents, visitors,
+                            contractors and building management.
                         </p>
 
                     </article>
@@ -624,6 +673,7 @@
                 </div>
 
 
+                <!-- Industry 04 -->
                 <div class="col-md-6 col-lg-4">
 
                     <article class="industry-card">
@@ -633,8 +683,9 @@
                         </h3>
 
                         <p>
-                            Support for visitor access, site security and
-                            professional front-of-house requirements.
+                            Professional front-of-house support, visitor access
+                            management and site security for healthcare
+                            environments.
                         </p>
 
                     </article>
@@ -642,6 +693,7 @@
                 </div>
 
 
+                <!-- Industry 05 -->
                 <div class="col-md-6 col-lg-4">
 
                     <article class="industry-card">
@@ -651,8 +703,8 @@
                         </h3>
 
                         <p>
-                            Professional visitor management and security
-                            support for government environments.
+                            Visitor management, access procedures and professional
+                            security support for government environments.
                         </p>
 
                     </article>
@@ -660,17 +712,19 @@
                 </div>
 
 
+                <!-- Industry 06 -->
                 <div class="col-md-6 col-lg-4">
 
                     <article class="industry-card">
 
                         <h3>
-                            Commercial Workplaces
+                            Multi-Tenant Facilities
                         </h3>
 
                         <p>
-                            Flexible concierge security designed around the
-                            needs of modern workplaces and facilities.
+                            A consistent front-of-house security presence for
+                            properties serving multiple occupants, visitors
+                            and service providers.
                         </p>
 
                     </article>
@@ -703,14 +757,23 @@
                         </span>
 
                         <h2>
-                            Concierge service with security at its core.
+                            Concierge service with security
+                            at its core.
                         </h2>
 
                         <p>
-                            Advent Security combines professional security
-                            personnel with tailored site procedures to help
-                            businesses create a secure and professional
-                            environment.
+                            Advent Security provides concierge security as part
+                            of a broader approach to protecting people, premises
+                            and business operations. Our personnel can be
+                            integrated into the day-to-day requirements of your
+                            facility while maintaining a professional and
+                            customer-focused presence.
+                        </p>
+
+                        <p>
+                            The service can be tailored around your site's
+                            responsibilities, access requirements, visitor
+                            processes and security procedures.
                         </p>
 
                         <ul class="check-list">
@@ -728,7 +791,7 @@
                             </li>
 
                             <li>
-                                Integrated security capabilities
+                                CCTV and security monitoring
                             </li>
 
                             <li>
@@ -736,7 +799,7 @@
                             </li>
 
                             <li>
-                                Support across major Australian locations
+                                Security services across Australia and New Zealand
                             </li>
 
                         </ul>
@@ -751,8 +814,11 @@
                     <div class="image-placeholder wide-placeholder">
 
                         <img
-                            src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/corporate-concierge-team.webp'); ?>"
-                            alt="Advent Security corporate concierge team">
+                            src="<?php echo esc_url(
+                                        get_template_directory_uri() .
+                                            '/assets/images/track-record-section-security.webp'
+                                    ); ?>"
+                            alt="Advent Security corporate concierge security team">
 
                     </div>
 
@@ -801,17 +867,17 @@
                 <details>
 
                     <summary>
-                        What is corporate concierge security?
+                        What are corporate concierge security services?
                         <span>+</span>
                     </summary>
 
                     <p>
-                        Corporate concierge security combines professional
-                        front-of-house customer service with security
-                        responsibilities. Concierge security officers can
-                        welcome visitors, manage access, assist employees and
-                        contractors, respond to enquiries and support site
-                        security procedures.
+                        Corporate concierge security services combine
+                        front-of-house customer service with professional
+                        security responsibilities. Concierge security officers
+                        can welcome visitors, manage access, support employees
+                        and contractors, respond to enquiries and assist with
+                        site security procedures.
                     </p>
 
                 </details>
@@ -826,11 +892,12 @@
                     </summary>
 
                     <p>
-                        Depending on the requirements of the site, concierge
-                        security officers can manage visitors and contractors,
-                        support access control, answer enquiries, assist
-                        employees and tenants, monitor CCTV and respond to
-                        security incidents.
+                        A corporate concierge security officer can manage
+                        visitors and contractors, support access control,
+                        provide reception and concierge assistance, respond
+                        to enquiries, assist employees and tenants, monitor
+                        CCTV and support incident reporting and site security
+                        procedures.
                     </p>
 
                 </details>
@@ -840,15 +907,16 @@
                 <details>
 
                     <summary>
-                        Can concierge officers manage visitors and contractors?
+                        Do concierge security officers manage visitors and contractors?
                         <span>+</span>
                     </summary>
 
                     <p>
-                        Yes. Visitor and contractor management can form an
-                        important part of a corporate concierge security
-                        service, including access procedures, contractor
-                        sign-in and supervision of authorised personnel.
+                        Yes. Visitor and contractor management is an important
+                        part of concierge security. Officers can greet and
+                        process visitors, support access procedures, manage
+                        contractor sign-ins and supervise or escort authorised
+                        contractors and vendors where required.
                     </p>
 
                 </details>
@@ -858,15 +926,16 @@
                 <details>
 
                     <summary>
-                        Can corporate concierge services include CCTV and access control?
+                        Can corporate concierge security include CCTV and access control?
                         <span>+</span>
                     </summary>
 
                     <p>
-                        Concierge security services can work alongside
-                        security systems such as CCTV and access control.
-                        Officers can monitor systems and follow established
-                        site procedures for security incidents and reporting.
+                        Yes. Concierge security personnel can work alongside
+                        existing CCTV and access control systems. Depending on
+                        the site's requirements, officers can monitor systems,
+                        follow established security procedures and support
+                        incident investigation and reporting.
                     </p>
 
                 </details>
@@ -876,16 +945,17 @@
                 <details>
 
                     <summary>
-                        Which businesses can use corporate concierge security?
+                        What types of workplaces use concierge security?
                         <span>+</span>
                     </summary>
 
                     <p>
                         Corporate concierge security can be suitable for
                         corporate offices, commercial buildings, residential
-                        towers, healthcare facilities, government facilities
-                        and other professional environments requiring both
-                        customer service and security support.
+                        towers, healthcare facilities and government facilities.
+                        It is particularly useful where organisations need a
+                        professional front-of-house presence together with
+                        practical security responsibilities.
                     </p>
 
                 </details>
@@ -895,15 +965,35 @@
                 <details>
 
                     <summary>
+                        Can concierge security be combined with other security services?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Yes. Corporate concierge services can form part of a
+                        broader security solution and can be supported by
+                        professional security guard services and electronic
+                        security systems such as CCTV, access control and
+                        alarm monitoring.
+                    </p>
+
+                </details>
+
+
+                <!-- FAQ 07 -->
+                <details>
+
+                    <summary>
                         Does Advent Security provide concierge security across Australia?
                         <span>+</span>
                     </summary>
 
                     <p>
-                        Advent Security provides security services across major
-                        Australian locations. Concierge requirements can be
-                        discussed with the Advent Security team to determine
-                        the appropriate service for your site.
+                        Yes. Advent Security provides concierge security
+                        services across Australia and New Zealand. Service
+                        requirements can be discussed with the Advent Security
+                        team to determine the appropriate personnel,
+                        responsibilities and coverage for your facility.
                     </p>
 
                 </details>
@@ -916,7 +1006,7 @@
 
 
     <!-- =========================================
-         ASSESSMENT CTA
+         FINAL CTA
     ========================================== -->
 
     <section class="assessment-cta" id="quote">
@@ -932,13 +1022,14 @@
                     </span>
 
                     <h2>
-                        Let's design the right concierge service for your site.
+                        Need a professional concierge
+                        security service for your site?
                     </h2>
 
                 </div>
 
                 <a href="<?php echo esc_url(home_url('/contact/')); ?>"
-                    class="advent-btn-dark">
+                    class="advent-btn advent-btn-dark">
 
                     GET IN TOUCH
 

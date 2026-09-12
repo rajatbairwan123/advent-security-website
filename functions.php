@@ -39,33 +39,75 @@ function advent_security_assets()
 
 
     /*
-     * Theme Main dark CSS
-     *
-     * Loaded after Bootstrap so our custom CSS
-     * can override Bootstrap where necessary.
+     * Advent Global Design System
      */
-    // wp_enqueue_style(
-    //     'advent-security-main',
-    //     get_template_directory_uri() . '/assets/css/main.css',
-    //     array('bootstrap', 'advent-security-inter'),
-    //     '1.0'
-    // );
-
-    // Theme Support Light Mode css
-    // wp_enqueue_style(
-    //     'advent-security-main',
-    //     get_template_directory_uri() . '/assets/css/main-light.css',
-    //     array('bootstrap', 'advent-security-inter'),
-    //     '1.0'
-    // );
-
-    // Theme switcher support css
     wp_enqueue_style(
-        'advent-security-main',
-        get_template_directory_uri() . '/assets/css/main-switch.css',
-        array('bootstrap', 'advent-security-inter'),
-        '1.0'
+        'advent-global',
+        get_template_directory_uri() . '/assets/css/global.css',
+        array('bootstrap'),
+        '1.0.0'
     );
+
+
+    /*
+     * Reusable Components
+     */
+    wp_enqueue_style(
+        'advent-components',
+        get_template_directory_uri() . '/assets/css/components.css',
+        array('advent-global'),
+        '1.0.0'
+    );
+
+
+    /*
+     * Header
+     */
+    wp_enqueue_style(
+        'advent-header',
+        get_template_directory_uri() . '/assets/css/header.css',
+        array('advent-global'),
+        '1.0.0'
+    );
+
+
+    /*
+     * Footer
+     */
+    wp_enqueue_style(
+        'advent-footer',
+        get_template_directory_uri() . '/assets/css/footer.css',
+        array('advent-global'),
+        '1.0.0'
+    );
+
+
+    /*
+     * Security Page
+     */
+    wp_enqueue_style(
+        'advent-security',
+        get_template_directory_uri() . '/assets/css/security.css',
+        array(
+            'advent-components',
+            'advent-header',
+            'advent-footer'
+        ),
+        '1.0.0'
+    );
+
+
+    /*
+     * Responsive
+     */
+    wp_enqueue_style(
+        'advent-responsive',
+        get_template_directory_uri() . '/assets/css/responsive.css',
+        array('advent-security'),
+        '1.0.0'
+    );
+
+
 
 
     /*

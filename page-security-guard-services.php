@@ -162,7 +162,14 @@
 
                 <div class="col-lg-6">
 
-                    <div class="image-placeholder illustration-placeholder"></div>
+                    <div class="image-placeholder illustration-placeholder">
+                        <img
+                            src="<?php echo esc_url(
+                                        get_template_directory_uri() .
+                                            '/assets/images/security-premier.webp'
+                                    ); ?>"
+                            alt="Corporate concierge security officer supporting workplace security">
+                    </div>
 
                 </div>
 
@@ -256,7 +263,16 @@
 
                 <div class="col-lg-6">
 
-                    <div class="image-placeholder wide-placeholder"></div>
+                    <div class="image-placeholder wide-placeholder">
+                        <img
+                            src="<?php echo esc_url(
+                                        get_template_directory_uri() .
+                                            '/assets/images/track-record-section-security.webp'
+                                    ); ?>"
+                            alt="Advent Security corporate concierge security team">
+                    </div>
+
+
 
                 </div>
 
@@ -671,7 +687,14 @@
 
                 <div class="col-lg-6">
 
-                    <div class="image-placeholder wide-placeholder"></div>
+                    <div class="image-placeholder wide-placeholder">
+                        <img
+                            src="<?php echo esc_url(
+                                        get_template_directory_uri() .
+                                            '/assets/images/track-record-section-security.webp'
+                                    ); ?>"
+                            alt="Advent Security corporate concierge security team">
+                    </div>
 
                 </div>
 

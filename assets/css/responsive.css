@@ -1,0 +1,658 @@
+/* =========================================================
+   ADVENT SECURITY
+   RESPONSIVE STYLES
+========================================================= */
+
+/* =========================================================
+   LARGE TABLET / SMALL DESKTOP
+========================================================= */
+
+@media (max-width: 1100px) {
+    /* -----------------------------------------------------
+       HEADER
+    ----------------------------------------------------- */
+
+    .header-inner {
+        gap: 50px;
+    }
+
+    .main-navigation > ul {
+        gap: 20px;
+    }
+
+    .main-navigation a {
+        font-size: 10px;
+        letter-spacing: 0.4px;
+    }
+
+    .header-actions {
+        gap: 18px;
+    }
+
+    .theme-toggle {
+        width: 38px;
+        height: 38px;
+        flex-basis: 38px;
+    }
+
+    /* -----------------------------------------------------
+       FOOTER
+    ----------------------------------------------------- */
+
+    .footer-grid {
+        grid-template-columns:
+            1.5fr
+            1fr
+            1fr
+            1fr;
+
+        row-gap: 55px;
+    }
+
+    .footer-brand {
+        grid-column: span 2;
+    }
+
+    .footer-contact {
+        padding-left: 0;
+    }
+}
+
+/* =========================================================
+   SMALL LAPTOP
+========================================================= */
+
+@media (min-width: 992px) and (max-width: 1300.98px) {
+    /* -----------------------------------------------------
+       HERO
+    ----------------------------------------------------- */
+
+    .hero-content {
+        min-height: 600px;
+
+        padding: 0 25px;
+    }
+
+    .security-hero h1 {
+        font-size: 52px;
+        letter-spacing: -2px;
+    }
+
+    .security-hero p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .hero-buttons {
+        gap: 12px;
+    }
+
+    .security-hero .advent-btn {
+        width: 195px;
+
+        min-width: 0;
+
+        padding: 0 16px;
+
+        gap: 15px;
+
+        font-size: 11px;
+    }
+
+    .hero-image {
+        height: 600px;
+    }
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991.98px) {
+    /* -----------------------------------------------------
+       HERO
+    ----------------------------------------------------- */
+
+    .hero-content {
+        min-height: auto;
+
+        padding: 70px 0 65px;
+    }
+
+    .hero-inner {
+        max-width: none;
+    }
+
+    .security-hero .eyebrow {
+        margin-bottom: 20px;
+
+        font-size: 11px;
+        letter-spacing: 2.5px;
+    }
+
+    .security-hero h1 {
+        font-size: 47px;
+        line-height: 0.96;
+        letter-spacing: -2px;
+    }
+
+    .security-hero p {
+        margin-top: 25px;
+
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .hero-buttons {
+        margin-top: 30px;
+    }
+
+    .hero-image {
+        height: 500px;
+
+        border-top: 1px solid var(--color-border-dark);
+    }
+
+    /* -----------------------------------------------------
+       CONTENT
+    ----------------------------------------------------- */
+
+    .content-section {
+        padding: 80px 0;
+    }
+
+    /* -----------------------------------------------------
+       SERVICES
+    ----------------------------------------------------- */
+
+    .service-cards {
+        margin-top: 10px;
+    }
+
+    /* -----------------------------------------------------
+       FOOTER
+    ----------------------------------------------------- */
+
+    .footer-contact {
+        padding-left: 0;
+    }
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767.98px) {
+    /* -----------------------------------------------------
+       GLOBAL
+    ----------------------------------------------------- */
+
+    body {
+        padding-top: var(--mobile-header-height);
+    }
+
+    /* -----------------------------------------------------
+       HEADER
+    ----------------------------------------------------- */
+
+    .site-header {
+        height: var(--mobile-header-height);
+    }
+
+    .header-inner {
+        position: relative;
+
+        gap: 0;
+    }
+
+    .site-logo img {
+        height: 48px;
+        max-width: 175px;
+    }
+
+    .header-actions {
+        margin-left: auto;
+
+        display: flex;
+        align-items: center;
+
+        gap: 15px;
+    }
+
+    /* -----------------------------------------------------
+       QUOTE BUTTON
+    ----------------------------------------------------- */
+
+    .quote-button {
+        display: none;
+    }
+
+    /* -----------------------------------------------------
+       THEME TOGGLE
+    ----------------------------------------------------- */
+
+    .theme-toggle {
+        width: 42px;
+        height: 42px;
+        flex-basis: 42px;
+    }
+
+    .theme-toggle-icon,
+    .theme-toggle-icon svg {
+        width: 17px;
+        height: 17px;
+    }
+
+    /* -----------------------------------------------------
+       MOBILE MENU BUTTON
+    ----------------------------------------------------- */
+
+    .mobile-menu-toggle {
+        display: block;
+    }
+
+    /* -----------------------------------------------------
+       MOBILE NAVIGATION
+    ----------------------------------------------------- */
+
+    .main-navigation {
+        display: none;
+
+        position: absolute;
+
+        top: 100%;
+        left: 0;
+
+        width: 100%;
+
+        background: var(--color-surface-alt);
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .main-navigation.mobile-active {
+        display: block;
+    }
+
+    .main-navigation > ul {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+        gap: 0;
+
+        margin: 0;
+        padding: 10px 0;
+
+        list-style: none;
+    }
+
+    .main-navigation > ul > li {
+        width: 100%;
+    }
+
+    .main-navigation > ul > li > a {
+        display: flex;
+        align-items: center;
+
+        width: 100%;
+
+        padding: 15px 30px;
+
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.6px;
+    }
+
+    .main-navigation > ul > li > a:hover {
+        background: var(--color-primary);
+        color: #050505;
+    }
+
+    /* -----------------------------------------------------
+       MOBILE SUBMENU
+    ----------------------------------------------------- */
+
+    .main-navigation .sub-menu {
+        position: static;
+
+        display: none;
+
+        width: 100%;
+        min-width: 0;
+
+        margin: 0;
+        padding: 0;
+
+        background: var(--color-surface-alt);
+        border: 0;
+
+        opacity: 1;
+        visibility: visible;
+
+        transform: none;
+    }
+
+    .main-navigation .menu-item-has-children:hover > .sub-menu {
+        display: none;
+    }
+
+    .main-navigation .menu-item-has-children.mobile-submenu-open > .sub-menu {
+        display: block;
+    }
+
+    .main-navigation .sub-menu li {
+        width: 100%;
+    }
+
+    .main-navigation .sub-menu li a {
+        display: block;
+
+        width: 100%;
+
+        padding: 13px 50px;
+
+        color: var(--color-text);
+
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.4px;
+        line-height: 1.4;
+
+        text-transform: uppercase;
+    }
+
+    .main-navigation .sub-menu li a:hover {
+        background: var(--color-primary);
+        color: #050505;
+    }
+
+    /* -----------------------------------------------------
+       SERVICES ARROW
+    ----------------------------------------------------- */
+
+    .main-navigation .menu-item-has-children > a::after {
+        margin-left: auto;
+    }
+
+    /* -----------------------------------------------------
+       HERO
+    ----------------------------------------------------- */
+
+    .hero-content {
+        padding: 65px 0 60px;
+    }
+
+    .security-hero h1 {
+        font-size: 46px;
+        line-height: 0.95;
+        letter-spacing: -1.8px;
+    }
+
+    .security-hero p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+
+        gap: 12px;
+    }
+
+    .advent-btn {
+        width: 100%;
+
+        min-width: 0;
+        min-height: 54px;
+
+        padding: 0 18px;
+    }
+
+    .hero-image {
+        height: 400px;
+    }
+
+    /* -----------------------------------------------------
+       CONTENT
+    ----------------------------------------------------- */
+
+    .content-section,
+    .industries-section {
+        padding: 65px 0;
+    }
+
+    .section-content h2,
+    .industries-intro h2,
+    .faq-header h2 {
+        margin-bottom: 22px;
+
+        font-size: 38px;
+        line-height: 0.98;
+        letter-spacing: -1.2px;
+    }
+
+    .section-content p,
+    .industries-intro p {
+        font-size: 15px;
+        line-height: 1.65;
+    }
+
+    /* -----------------------------------------------------
+       IMAGE
+    ----------------------------------------------------- */
+
+    .image-placeholder {
+        min-height: 320px;
+    }
+
+    /* -----------------------------------------------------
+       FEATURE LIST
+    ----------------------------------------------------- */
+
+    .feature-list {
+        border-left: 0;
+    }
+
+    .feature-item {
+        min-height: 60px;
+
+        padding: 0 15px;
+
+        font-size: 14px;
+    }
+
+    /* -----------------------------------------------------
+       SERVICE CARDS
+    ----------------------------------------------------- */
+
+    .service-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card {
+        min-height: 160px;
+    }
+
+    .service-card h3 {
+        font-size: 18px;
+    }
+
+    /* -----------------------------------------------------
+       LOCATION
+    ----------------------------------------------------- */
+
+    .location-card {
+        min-height: auto;
+
+        padding: 25px;
+    }
+
+    .location-card h3 {
+        font-size: 20px;
+    }
+
+    .location-card p {
+        font-size: 14px;
+    }
+
+    /* -----------------------------------------------------
+       INDUSTRIES
+    ----------------------------------------------------- */
+
+    .industry-card {
+        min-height: auto;
+
+        padding: 25px;
+    }
+
+    .industry-card h3 {
+        font-size: 17px;
+    }
+
+    .industry-card p {
+        font-size: 14px;
+    }
+
+    /* -----------------------------------------------------
+       CHECK LIST
+    ----------------------------------------------------- */
+
+    .check-list li {
+        font-size: 14px;
+    }
+
+    /* -----------------------------------------------------
+       FAQ
+    ----------------------------------------------------- */
+
+    .faq-section {
+        padding: 75px 0;
+    }
+
+    .faq-header {
+        align-items: flex-start;
+        flex-direction: column;
+
+        gap: 20px;
+
+        margin-bottom: 40px;
+    }
+
+    .faq-list summary {
+        min-height: 75px;
+
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .faq-list summary span {
+        width: 34px;
+        height: 34px;
+        flex-basis: 34px;
+
+        margin-left: 20px;
+
+        font-size: 19px;
+    }
+
+    .faq-list details[open] summary {
+        padding-bottom: 18px;
+    }
+
+    .faq-list details p {
+        padding: 0 0 28px;
+
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    /* -----------------------------------------------------
+       CTA
+    ----------------------------------------------------- */
+
+    .assessment-cta {
+        padding: 40px 0;
+    }
+
+    .cta-inner {
+        align-items: flex-start;
+        flex-direction: column;
+
+        gap: 25px;
+    }
+
+    .assessment-cta h2 {
+        font-size: 34px;
+    }
+
+    .assessment-cta .advent-btn {
+        width: 100%;
+    }
+
+    /* -----------------------------------------------------
+       FOOTER
+    ----------------------------------------------------- */
+
+    .footer-main {
+        padding: 55px 0 45px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+
+        gap: 45px 25px;
+    }
+
+    .footer-brand {
+        grid-column: span 2;
+
+        padding-right: 0;
+    }
+
+    .footer-brand p {
+        max-width: 300px;
+    }
+
+    .footer-column h3,
+    .footer-contact h3 {
+        margin-bottom: 18px;
+    }
+
+    .footer-column a {
+        font-size: 11px;
+    }
+
+    .footer-contact {
+        grid-column: span 2;
+
+        padding: 25px 0 0;
+
+        border-top: 1px solid #2a2a2a;
+    }
+
+    .footer-phone {
+        font-size: 27px;
+    }
+
+    .footer-bottom {
+        padding: 25px 0;
+    }
+
+    .footer-bottom-inner {
+        align-items: flex-start;
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    .footer-legal {
+        flex-wrap: wrap;
+
+        gap: 15px 20px;
+    }
+
+    .theme-dark .footer-contact {
+        border-top-color: #222222;
+    }
+}
