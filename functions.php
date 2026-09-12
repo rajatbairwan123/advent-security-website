@@ -39,14 +39,30 @@ function advent_security_assets()
 
 
     /*
-     * Theme Main CSS
+     * Theme Main dark CSS
      *
      * Loaded after Bootstrap so our custom CSS
      * can override Bootstrap where necessary.
      */
+    // wp_enqueue_style(
+    //     'advent-security-main',
+    //     get_template_directory_uri() . '/assets/css/main.css',
+    //     array('bootstrap', 'advent-security-inter'),
+    //     '1.0'
+    // );
+
+    // Theme Support Light Mode css
+    // wp_enqueue_style(
+    //     'advent-security-main',
+    //     get_template_directory_uri() . '/assets/css/main-light.css',
+    //     array('bootstrap', 'advent-security-inter'),
+    //     '1.0'
+    // );
+
+    // Theme switcher support css
     wp_enqueue_style(
         'advent-security-main',
-        get_template_directory_uri() . '/assets/css/main.css',
+        get_template_directory_uri() . '/assets/css/main-switch.css',
         array('bootstrap', 'advent-security-inter'),
         '1.0'
     );

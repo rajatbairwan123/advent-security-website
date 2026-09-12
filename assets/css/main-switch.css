@@ -3,12 +3,15 @@
 ========================================= */
 
 :root {
-    --black: #050505;
-    --dark: #0a0a0a;
+    --black: #ffffff;
+    --dark: #f7f7f7;
     --yellow: #ffc400;
-    --white: #ffffff;
-    --border: #242424;
-    --gray: #b5b5b5;
+    --white: #111111;
+    --border: #e3e3e3;
+    --gray: #666666;
+    --text: #171717;
+    --muted: #666666;
+    --soft: #f7f7f7;
 }
 
 html {
@@ -28,8 +31,8 @@ body,
 
 body {
     margin: 0;
-    background: var(--black);
-    color: var(--white);
+    background: #fff;
+    color: var(--text);
     font-family: "Inter", Arial, Helvetica, sans-serif;
     line-height: 1.5;
 }
@@ -67,7 +70,7 @@ button:focus-visible {
 
 .site-header {
     height: 72px;
-    background: var(--black);
+    background: #fff;
     border-bottom: 1px solid var(--border);
     position: relative;
     z-index: 100;
@@ -150,8 +153,98 @@ button:focus-visible {
     display: block;
     width: 25px;
     height: 2px;
-    background: #fff;
+    background: var(--text);
     margin: 5px 0;
+}
+
+/* =========================================================
+   THEME SWITCHER
+========================================================= */
+
+.theme-toggle {
+    width: 42px;
+    height: 42px;
+
+    flex: 0 0 42px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+
+    background: transparent;
+    border: 1px solid var(--border);
+
+    color: var(--text);
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        border-color 0.3s ease,
+        transform 0.2s ease;
+}
+
+.theme-toggle:hover {
+    background: var(--yellow);
+    border-color: var(--yellow);
+    color: #111111;
+
+    transform: translateY(-1px);
+}
+
+.theme-toggle-icon {
+    width: 18px;
+    height: 18px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-toggle-icon svg {
+    width: 18px;
+    height: 18px;
+}
+
+.theme-icon-moon {
+    display: none;
+}
+
+.theme-dark .theme-icon-sun {
+    display: none;
+}
+
+.theme-dark .theme-icon-moon {
+    display: inline-flex;
+}
+
+/* Keep the navbar compact on smaller desktop widths. */
+
+@media (max-width: 1100px) {
+    .theme-toggle {
+        width: 38px;
+        height: 38px;
+        flex-basis: 38px;
+    }
+}
+
+/* Mobile: the theme switch remains available next to the menu icon. */
+
+@media (max-width: 767.98px) {
+    .theme-toggle {
+        width: 38px;
+        height: 38px;
+        flex-basis: 38px;
+    }
+
+    .theme-toggle-icon,
+    .theme-toggle-icon svg {
+        width: 17px;
+        height: 17px;
+    }
 }
 
 /* =========================================
@@ -159,7 +252,7 @@ button:focus-visible {
 ========================================= */
 
 .security-hero {
-    background: var(--black);
+    background: #fff;
     border-bottom: 1px solid var(--border);
 }
 
@@ -192,7 +285,7 @@ button:focus-visible {
 .security-hero h1 {
     max-width: 680px;
     margin: 0;
-    color: #fff;
+    color: #111111;
     font-size: clamp(55px, 5vw, 76px);
     font-weight: 600;
     line-height: 0.96;
@@ -208,7 +301,7 @@ button:focus-visible {
 .security-hero p {
     max-width: 590px;
     margin: 35px 0 0;
-    color: #b8b8b8;
+    color: #5f5f5f;
     font-size: 17px;
     line-height: 1.65;
 }
@@ -239,7 +332,7 @@ button:focus-visible {
 
     border: 1px solid var(--yellow);
 
-    color: #fff;
+    color: var(--text);
 
     font-size: 13px;
     font-weight: 700;
@@ -261,7 +354,7 @@ button:focus-visible {
 
 .advent-btn-primary:hover {
     background: #fff;
-    border-color: #fff;
+    border-color: var(--text);
     color: #050505;
 }
 
@@ -275,7 +368,7 @@ button:focus-visible {
     overflow: hidden;
 
     background: transparent;
-    color: #fff;
+    color: #171717;
 
     z-index: 1;
 }
@@ -325,10 +418,10 @@ button:focus-visible {
 .advent-btn-dark {
     min-width: 220px;
 
-    background: #050505;
+    background: #fff;
     border-color: #050505;
 
-    color: #fff;
+    color: var(--text);
 }
 
 .advent-btn-dark:hover {
@@ -379,7 +472,7 @@ button:focus-visible {
 
     margin-bottom: 30px;
 
-    color: #b5b5b5;
+    color: var(--muted);
 
     font-size: 16px;
     line-height: 1.65;
@@ -393,7 +486,7 @@ button:focus-visible {
     width: 100%;
     min-height: 420px;
 
-    background: linear-gradient(135deg, #171717, #090909);
+    background: linear-gradient(135deg, #f2f2f2, #fafafa);
 
     border: 1px solid var(--border);
 
@@ -419,7 +512,7 @@ button:focus-visible {
 ========================================= */
 
 .feature-list {
-    border-left: 1px solid #333;
+    border-left: 1px solid var(--border);
 }
 
 .feature-item {
@@ -465,7 +558,7 @@ button:focus-visible {
 
     margin-bottom: 14px;
 
-    color: #ddd;
+    color: #3f3f3f;
 
     font-size: 15px;
     line-height: 1.5;
@@ -543,7 +636,7 @@ button:focus-visible {
 ========================================= */
 
 .location-services {
-    background: #080808;
+    background: var(--soft);
 }
 
 .location-services > .container > h2 {
@@ -588,7 +681,7 @@ button:focus-visible {
 .location-card p {
     margin-bottom: 22px;
 
-    color: #999;
+    color: #707070;
 
     font-size: 15px;
     line-height: 1.65;
@@ -596,7 +689,7 @@ button:focus-visible {
 
 .location-card a {
     color: var(--yellow);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /* =========================================
@@ -640,7 +733,7 @@ button:focus-visible {
 .industry-card p {
     margin: 0;
 
-    color: #888;
+    color: #707070;
 
     font-size: 14px;
     line-height: 1.5;
@@ -651,7 +744,7 @@ button:focus-visible {
 ========================================= */
 
 .why-advent {
-    background: #080808;
+    background: var(--soft);
 }
 
 /* =========================================
@@ -715,7 +808,7 @@ button:focus-visible {
 
     list-style: none;
 
-    color: #fff;
+    color: var(--text);
 
     font-size: 17px;
     font-weight: 500;
@@ -788,7 +881,7 @@ button:focus-visible {
 
     padding: 0 70px 32px 0;
 
-    color: #a9a9a9;
+    color: #707070;
 
     font-size: 15px;
     line-height: 1.75;
@@ -845,13 +938,13 @@ button:focus-visible {
 ========================================= */
 
 .site-footer {
-    background: #050505;
+    background: #111111;
     color: #fff;
 }
 
 .footer-main {
     padding: 75px 0 65px;
-    border-bottom: 1px solid #222;
+    border-bottom: 1px solid #2a2a2a;
 }
 
 .footer-grid {
@@ -902,7 +995,7 @@ button:focus-visible {
 .footer-brand p {
     max-width: 230px;
 
-    color: #8d8d8d;
+    color: #b0b0b0;
 
     font-size: 12px;
     line-height: 1.6;
@@ -934,7 +1027,7 @@ button:focus-visible {
 }
 
 .footer-column a {
-    color: #8f8f8f;
+    color: #a0a0a0;
 
     font-size: 11px;
 
@@ -971,7 +1064,7 @@ button:focus-visible {
 .footer-contact p {
     margin: 0 0 25px;
 
-    color: #8d8d8d;
+    color: #b0b0b0;
 
     font-size: 11px;
     line-height: 1.6;
@@ -1018,7 +1111,7 @@ button:focus-visible {
 .footer-bottom p {
     margin: 0;
 
-    color: #666;
+    color: #777;
 
     font-size: 10px;
 }
@@ -1032,7 +1125,7 @@ button:focus-visible {
 }
 
 .footer-legal a {
-    color: #666;
+    color: #777;
 
     font-size: 10px;
 
@@ -1052,10 +1145,10 @@ button:focus-visible {
 
     padding: 6px 12px;
 
-    border: 1px solid #292929;
+    border: 1px solid #333;
     border-radius: 20px;
 
-    color: #777;
+    color: #888;
 
     font-size: 9px;
 }
@@ -1106,7 +1199,7 @@ button:focus-visible {
     .hero-content {
         min-height: auto;
 
-        padding: 70px 24px 65px;
+        padding: 70px 0px 65px;
     }
 
     .hero-inner {
@@ -1141,7 +1234,7 @@ button:focus-visible {
     .hero-image {
         height: 500px;
 
-        border-top: 1px solid #222;
+        border-top: 1px solid #2a2a2a;
     }
 
     /* Sections */
@@ -1189,7 +1282,7 @@ button:focus-visible {
     /* Hero */
 
     .hero-content {
-        padding: 65px 20px 60px;
+        padding: 65px 0px 60px;
     }
 
     .security-hero h1 {
@@ -1426,7 +1519,7 @@ button:focus-visible {
 
         padding: 25px 0 0;
 
-        border-top: 1px solid #222;
+        border-top: 1px solid #2a2a2a;
     }
 
     .footer-phone {
@@ -1486,5 +1579,377 @@ button:focus-visible {
 
     .hero-image {
         height: 600px;
+    }
+}
+
+/* =========================================================
+   OPTIONAL DARK THEME
+   ---------------------------------------------------------
+   Default theme: LIGHT
+   To enable dark theme, add the class "theme-dark" to <body>:
+       <body class="theme-dark">
+
+   JavaScript can toggle this class:
+       document.body.classList.toggle('theme-dark');
+
+   The CSS transition below makes the switch feel smoother.
+========================================================= */
+
+body,
+.site-header,
+.security-hero,
+.content-section,
+.location-services,
+.industries-section,
+.why-advent,
+.faq-section,
+.site-footer,
+.image-placeholder,
+.feature-item,
+.service-card,
+.location-card,
+.industry-card,
+.faq-list summary,
+.faq-list details p {
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        border-color 0.3s ease;
+}
+
+/* -----------------------------------------
+   DARK COLOR VARIABLES
+----------------------------------------- */
+
+.theme-dark {
+    --black: #050505;
+    --dark: #0a0a0a;
+    --yellow: #ffc400;
+    --white: #ffffff;
+    --border: #242424;
+    --gray: #b5b5b5;
+    --text: #ffffff;
+    --muted: #b5b5b5;
+    --soft: #080808;
+}
+
+/* -----------------------------------------
+   GLOBAL
+----------------------------------------- */
+
+body.theme-dark {
+    background: var(--black);
+    color: var(--text);
+}
+
+/* -----------------------------------------
+   HEADER
+----------------------------------------- */
+
+.theme-dark .site-header {
+    background: var(--black);
+    border-bottom-color: var(--border);
+}
+
+.theme-dark .mobile-menu-toggle span {
+    background: #fff;
+}
+
+/* -----------------------------------------
+   HERO
+----------------------------------------- */
+
+.theme-dark .security-hero {
+    background: var(--black);
+    border-bottom-color: var(--border);
+}
+
+.theme-dark .security-hero h1 {
+    color: #fff;
+}
+
+.theme-dark .security-hero p {
+    color: #b8b8b8;
+}
+
+.theme-dark .hero-image {
+    border-top-color: #222;
+}
+
+/* -----------------------------------------
+   BUTTONS
+----------------------------------------- */
+
+.theme-dark .advent-btn {
+    color: #fff;
+}
+
+.theme-dark .advent-btn-primary {
+    background: var(--yellow);
+    color: #050505;
+}
+
+.theme-dark .advent-btn-primary:hover {
+    background: #fff;
+    border-color: #fff;
+    color: #050505;
+}
+
+.theme-dark .advent-btn-outline {
+    background: transparent;
+    color: #fff;
+}
+
+.theme-dark .advent-btn-dark {
+    background: #050505;
+    border-color: #050505;
+    color: #fff;
+}
+
+.theme-dark .advent-btn-dark:hover {
+    background: transparent;
+    color: #fff;
+}
+
+/* -----------------------------------------
+   COMMON CONTENT
+----------------------------------------- */
+
+.theme-dark .content-section {
+    background: var(--black);
+    border-bottom-color: var(--border);
+}
+
+.theme-dark .section-content p,
+.theme-dark .industries-intro p {
+    color: #b5b5b5;
+}
+
+/* -----------------------------------------
+   IMAGE PLACEHOLDERS
+----------------------------------------- */
+
+.theme-dark .image-placeholder {
+    /* background: linear-gradient(135deg, #171717, #090909); */
+    border-color: var(--border);
+}
+
+/* -----------------------------------------
+   FEATURE LIST
+----------------------------------------- */
+
+.theme-dark .feature-list {
+    border-left-color: #333;
+}
+
+.theme-dark .feature-item {
+    border-bottom-color: var(--border);
+    color: #fff;
+}
+
+.theme-dark .feature-item:first-child {
+    border-top-color: var(--border);
+}
+
+/* -----------------------------------------
+   CHECK LIST
+----------------------------------------- */
+
+.theme-dark .check-list li {
+    color: #ddd;
+}
+
+/* -----------------------------------------
+   SERVICE CARDS
+----------------------------------------- */
+
+.theme-dark .service-cards {
+    border-top-color: var(--border);
+    border-left-color: var(--border);
+}
+
+.theme-dark .service-card {
+    border-right-color: var(--border);
+    border-bottom-color: var(--border);
+    color: #fff;
+}
+
+.theme-dark .service-card:hover {
+    background: var(--yellow);
+    color: #000;
+}
+
+/* -----------------------------------------
+   LOCATION SERVICES
+----------------------------------------- */
+
+.theme-dark .location-services {
+    background: #080808;
+}
+
+.theme-dark .location-grid {
+    border-top-color: var(--border);
+    border-left-color: var(--border);
+}
+
+.theme-dark .location-card {
+    border-right-color: var(--border);
+    border-bottom-color: var(--border);
+    color: #fff;
+}
+
+.theme-dark .location-card p {
+    color: #999;
+}
+
+/* -----------------------------------------
+   INDUSTRIES
+----------------------------------------- */
+
+.theme-dark .industries-section {
+    background: var(--black);
+}
+
+.theme-dark .industry-grid {
+    border-top-color: var(--border);
+    border-left-color: var(--border);
+}
+
+.theme-dark .industry-card {
+    border-right-color: var(--border);
+    border-bottom-color: var(--border);
+}
+
+.theme-dark .industry-card p {
+    color: #888;
+}
+
+/* -----------------------------------------
+   WHY ADVENT
+----------------------------------------- */
+
+.theme-dark .why-advent {
+    background: #080808;
+}
+
+/* -----------------------------------------
+   FAQ
+----------------------------------------- */
+
+.theme-dark .faq-section {
+    background: var(--black);
+    border-bottom-color: var(--border);
+}
+
+.theme-dark .faq-list {
+    border-top-color: var(--border);
+}
+
+.theme-dark .faq-list details {
+    border-bottom-color: var(--border);
+}
+
+.theme-dark .faq-list summary {
+    color: #fff;
+}
+
+.theme-dark .faq-list details p {
+    color: #a9a9a9;
+}
+
+.theme-dark .faq-list details[open] summary span {
+    color: #050505;
+}
+
+/* -----------------------------------------
+   CTA
+----------------------------------------- */
+
+.theme-dark .assessment-cta {
+    background: var(--yellow);
+    color: #000;
+}
+
+.theme-dark .assessment-cta .eyebrow {
+    color: #000;
+}
+
+/* -----------------------------------------
+   FOOTER
+----------------------------------------- */
+
+.theme-dark .site-footer {
+    background: #050505;
+    color: #fff;
+}
+
+.theme-dark .footer-main {
+    border-bottom-color: #222;
+}
+
+.theme-dark .footer-logo {
+    color: #fff;
+}
+
+.theme-dark .footer-brand p,
+.theme-dark .footer-contact p {
+    color: #8d8d8d;
+}
+
+.theme-dark .footer-column h3,
+.theme-dark .footer-contact h3 {
+    color: #fff;
+}
+
+.theme-dark .footer-column a {
+    color: #8f8f8f;
+}
+
+.theme-dark .footer-contact-link {
+    color: #fff;
+}
+
+.theme-dark .footer-bottom p,
+.theme-dark .footer-legal a {
+    color: #666;
+}
+
+.theme-dark .footer-powered {
+    border-color: #292929;
+    color: #777;
+}
+
+/* -----------------------------------------
+   MOBILE DARK-THEME OVERRIDES
+----------------------------------------- */
+
+@media (max-width: 767.98px) {
+    .theme-dark .footer-contact {
+        border-top-color: #222;
+    }
+}
+
+/* -----------------------------------------
+   OPTIONAL SYSTEM-PREFERENCE SUPPORT
+   Only applies when no explicit theme class
+   has been selected.
+----------------------------------------- */
+
+@media (prefers-color-scheme: dark) {
+    body:not(.theme-light):not(.theme-dark) {
+        /* Keep LIGHT as the default for the client preview.
+           Add .theme-dark explicitly to enable dark mode. */
+        color-scheme: light;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .header-inner {
+        position: relative;
+    }
+
+    .theme-toggle {
+        margin-left: auto;
+        margin-right: 15px;
     }
 }
