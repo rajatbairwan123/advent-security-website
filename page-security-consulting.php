@@ -96,9 +96,10 @@ get_header();
         <div class="container">
 
             <!-- Breadcrumb -->
-            <div class="consulting-breadcrumb">
+            <!-- <div class="security-breadcrumb">
 
-                <a href="<?php echo esc_url(home_url('/')); ?>">
+                <a href="<?php //echo esc_url(home_url('/')); 
+                            ?>">
                     Home
                 </a>
 
@@ -108,7 +109,7 @@ get_header();
                     Security Consulting
                 </span>
 
-            </div>
+            </div> -->
 
 
             <div class="row align-items-start g-5">

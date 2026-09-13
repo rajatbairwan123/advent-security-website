@@ -120,6 +120,19 @@ function advent_security_assets()
         );
     }
 
+    if (
+        is_page('alarm-monitoring') ||
+        is_page_template('page-alarm-monitoring-response.php')
+    ) {
+
+        wp_enqueue_style(
+            'advent-alarm-monitoring',
+            get_template_directory_uri() . '/assets/css/alarm-monitoring.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
     /*
      * Bootstrap JavaScript Bundle
      *

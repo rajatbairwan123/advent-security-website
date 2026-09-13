@@ -1,0 +1,325 @@
+/* =========================================================
+   ADVENT SECURITY
+   ALARM MONITORING PAGE STYLES
+========================================================= */
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.alarm-monitoring-hero {
+    background: var(--color-bg);
+}
+
+.alarm-monitoring-hero-image {
+    height: 680px;
+    background: var(--color-surface);
+}
+
+.alarm-monitoring-hero-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+.alarm-monitoring-intro {
+    background: var(--color-bg);
+}
+
+.alarm-breadcrumb {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 70px;
+    color: var(--color-text-light);
+    font-size: 12px;
+}
+
+.alarm-breadcrumb a {
+    color: var(--color-primary);
+}
+
+.alarm-intro-heading h2 {
+    max-width: 520px;
+}
+
+.alarm-feature-list {
+    margin-top: 70px;
+}
+
+/* =========================================================
+   SERVICES
+========================================================= */
+
+.alarm-services-section {
+    background: var(--color-surface);
+}
+
+.alarm-services-intro {
+    max-width: 760px;
+    margin-bottom: 55px;
+}
+
+.alarm-service-cards {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.alarm-service-cards .service-card {
+    min-height: 250px;
+}
+
+.alarm-service-cards .service-card p {
+    max-width: 480px;
+    margin-top: 18px;
+    color: var(--color-text-light);
+    font-size: 15px;
+    line-height: 1.65;
+}
+
+.alarm-service-cards .service-card:hover p {
+    color: #000000;
+}
+
+/* =========================================================
+   BENEFITS
+========================================================= */
+
+.alarm-benefits-section {
+    background: var(--color-bg);
+}
+
+.alarm-benefits-section .feature-list {
+    border-left: 0;
+}
+
+.alarm-benefits-section .feature-item {
+    min-height: 110px;
+    padding: 20px 0;
+    gap: 28px;
+}
+
+.alarm-benefits-section .feature-item p {
+    margin: 7px 0 0;
+    color: var(--color-text-light);
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+.alarm-benefits-section .feature-item strong {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* =========================================================
+   AUSTRALIA-WIDE COVERAGE
+========================================================= */
+
+.alarm-location-section {
+    background: var(--color-surface);
+}
+
+.alarm-location-section > .container > h2 {
+    max-width: 800px;
+}
+
+/* =========================================================
+   INDUSTRIES
+========================================================= */
+
+.alarm-industries-section {
+    background: var(--color-bg);
+}
+
+/* =========================================================
+   HOW ALARM MONITORING WORKS
+========================================================= */
+
+.alarm-process-section {
+    background: var(--color-surface);
+}
+
+.alarm-process {
+    border-top: 1px solid var(--color-border);
+}
+
+.alarm-process-step {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    gap: 25px;
+    padding: 28px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.alarm-process-step > span {
+    color: var(--color-primary);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.alarm-process-step h3 {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.alarm-process-step p {
+    max-width: 650px;
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 15px;
+    line-height: 1.65;
+}
+
+/* =========================================================
+   ALARM + CCTV INTEGRATION
+========================================================= */
+
+.alarm-integration-section {
+    background: var(--color-bg);
+}
+
+.alarm-integration-section .advent-btn {
+    margin-top: 12px;
+}
+
+.alarm-response-flow {
+    border: 1px solid var(--color-border);
+}
+
+.alarm-response-flow > div {
+    min-height: 82px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    padding: 0 25px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.alarm-response-flow > div:last-child {
+    border-bottom: 0;
+}
+
+.alarm-response-flow span {
+    color: var(--color-primary);
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.alarm-response-flow strong {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* =========================================================
+   WHY ADVENT
+========================================================= */
+
+.alarm-why-section {
+    background: var(--color-surface);
+}
+
+.alarm-why-section .check-list {
+    margin: 0;
+}
+
+/* =========================================================
+   FAQ
+========================================================= */
+
+.alarm-faq-section {
+    background: var(--color-bg);
+}
+
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+.theme-dark .alarm-monitoring-hero,
+.theme-dark .alarm-monitoring-intro,
+.theme-dark .alarm-benefits-section,
+.theme-dark .alarm-integration-section,
+.theme-dark .alarm-industries-section,
+.theme-dark .alarm-faq-section {
+    background: var(--color-bg);
+}
+
+.theme-dark .alarm-services-section,
+.theme-dark .alarm-location-section,
+.theme-dark .alarm-process-section,
+.theme-dark .alarm-why-section {
+    background: var(--color-surface);
+}
+
+.theme-dark .alarm-service-cards .service-card:hover p {
+    color: #000000;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 991.98px) {
+    .alarm-monitoring-hero-image {
+        height: 500px;
+    }
+
+    .alarm-breadcrumb {
+        margin-bottom: 50px;
+    }
+
+    .alarm-feature-list {
+        margin-top: 50px;
+    }
+
+    .alarm-service-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .alarm-process-step {
+        grid-template-columns: 55px 1fr;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .alarm-monitoring-hero-image {
+        height: 380px;
+    }
+
+    .alarm-breadcrumb {
+        margin-bottom: 40px;
+    }
+
+    .alarm-feature-list {
+        margin-top: 40px;
+    }
+
+    .alarm-service-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .alarm-service-cards .service-card {
+        min-height: 220px;
+    }
+
+    .alarm-process-step {
+        grid-template-columns: 42px 1fr;
+        gap: 16px;
+        padding: 24px 0;
+    }
+
+    .alarm-process-step h3 {
+        font-size: 18px;
+    }
+
+    .alarm-response-flow > div {
+        min-height: 70px;
+    }
+}

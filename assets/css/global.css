@@ -125,7 +125,7 @@ body {
 
 body {
     margin: 0;
-    padding-top: var(--header-height);
+    padding-top: 62px;
 
     background: var(--color-bg);
     color: var(--color-text);
@@ -234,5 +234,15 @@ body,
 @media (prefers-color-scheme: dark) {
     body:not(.theme-light):not(.theme-dark) {
         color-scheme: light;
+    }
+}
+
+/* =========================================================
+   LARGE DESKTOP HEADER OFFSET
+========================================================= */
+
+@media (min-width: 1400px) {
+    body {
+        padding-top: 48px;
     }
 }

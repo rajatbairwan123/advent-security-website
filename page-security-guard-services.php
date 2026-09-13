@@ -71,6 +71,22 @@
 
         <div class="container">
 
+            <!-- Breadcrumb -->
+            <!-- <div class="security-breadcrumb">
+
+                <a href="<?php //echo esc_url(home_url('/')); 
+                            ?>">
+                    Home
+                </a>
+
+                <span> / </span>
+
+                <span>
+                    Security Guard Services
+                </span>
+
+            </div> -->
+
             <div class="row align-items-center g-5">
 
                 <div class="col-lg-6">

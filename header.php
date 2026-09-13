@@ -8,6 +8,23 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Prevent theme flash on page load -->
+    <script>
+        (function() {
+            try {
+                var savedTheme = localStorage.getItem('adventTheme');
+
+                if (savedTheme === 'dark') {
+                    document.documentElement.classList.add('theme-dark');
+                } else {
+                    document.documentElement.classList.add('theme-light');
+                }
+            } catch (error) {
+                document.documentElement.classList.add('theme-light');
+            }
+        })();
+    </script>
+
     <?php wp_head(); ?>
 
 </head>
@@ -56,7 +73,6 @@
                 ?>
 
             </nav>
-
 
             <!-- Header Actions -->
             <div class="header-actions">
