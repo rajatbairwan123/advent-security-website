@@ -26,6 +26,19 @@ function advent_security_assets()
         null
     );
 
+    // Cloud Monitoring only
+    if (is_page('cloud-monitoring') || is_page('video-analytics') || is_page_template('page-cloud-monitoring.php') || is_page_template('page-video-analytics.php')) {
+
+        wp_enqueue_style(
+            'advent-cloud-monitoring-fonts',
+            'https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap',
+            array(),
+            null
+        );
+    }
+
+
+
 
     /*
      * Bootstrap CSS
@@ -140,6 +153,30 @@ function advent_security_assets()
         wp_enqueue_style(
             'advent-access-control',
             get_template_directory_uri() . '/assets/css/access-control.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+    if (
+        is_page('Cloud Monitoring') ||
+        is_page_template('page-cloud-monitoring.php')
+    ) {
+
+        wp_enqueue_style(
+            'advent-cloud-monitoring',
+            get_template_directory_uri() . '/assets/css/cloud-monitoring.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+    if (
+        is_page('Video Analytics') ||
+        is_page_template('page-video-analytics.php')
+    ) {
+
+        wp_enqueue_style(
+            'advent-video-analytics',
+            get_template_directory_uri() . '/assets/css/video-analytics.css',
             array('advent-responsive'),
             '1.0.0'
         );

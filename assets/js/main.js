@@ -34,14 +34,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const themeToggle = document.querySelector(".theme-toggle");
     const body = document.body;
+    const root = document.documentElement;
 
     if (themeToggle) {
         const savedTheme = localStorage.getItem("advent-theme");
 
         if (savedTheme === "dark") {
             body.classList.add("theme-dark");
+            root.classList.remove("light");
         } else {
             body.classList.remove("theme-dark");
+            root.classList.add("light");
         }
 
         function updateThemeToggle() {
@@ -63,11 +66,19 @@ document.addEventListener("DOMContentLoaded", function () {
         updateThemeToggle();
 
         themeToggle.addEventListener("click", function () {
-            body.classList.toggle("theme-dark");
+            const isDark = !body.classList.contains("theme-dark");
 
-            const isDark = body.classList.contains("theme-dark");
+            if (isDark) {
+                body.classList.add("theme-dark");
+                root.classList.remove("light");
 
-            localStorage.setItem("advent-theme", isDark ? "dark" : "light");
+                localStorage.setItem("advent-theme", "dark");
+            } else {
+                body.classList.remove("theme-dark");
+                root.classList.add("light");
+
+                localStorage.setItem("advent-theme", "light");
+            }
 
             updateThemeToggle();
         });

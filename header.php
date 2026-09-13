@@ -66,11 +66,11 @@
 
                 <ul>
 
-                    <li>
+                    <!-- <li>
                         <a href="#about">
                             About
                         </a>
-                    </li>
+                    </li> -->
 
                     <li>
                         <a href="<?php echo esc_url(
@@ -104,11 +104,11 @@
                         </a>
                     </li>
 
-                    <li>
+                    <!-- <li>
                         <a href="#contact">
                             Contact
                         </a>
-                    </li>
+                    </li> -->
 
                 </ul>
 
