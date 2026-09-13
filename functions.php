@@ -27,7 +27,7 @@ function advent_security_assets()
     );
 
     // Cloud Monitoring only
-    if (is_page('cloud-monitoring') || is_page('video-analytics') || is_page_template('page-cloud-monitoring.php') || is_page_template('page-video-analytics.php')) {
+    if (is_page('cloud-monitoring') || is_page('video-analytics') || is_page_template('page-cloud-monitoring.php') || is_page_template('page-video-analytics.php') || is_page('cctv') || is_page_template('page-cctv.php') || is_page('Alarm Systems') || is_page_template('page-alarm-systems.php') || is_page('License Plate Recognition') || is_page_template('page-license-plate-recognition.php')) {
 
         wp_enqueue_style(
             'advent-cloud-monitoring-fonts',
@@ -36,9 +36,6 @@ function advent_security_assets()
             null
         );
     }
-
-
-
 
     /*
      * Bootstrap CSS
@@ -177,6 +174,42 @@ function advent_security_assets()
         wp_enqueue_style(
             'advent-video-analytics',
             get_template_directory_uri() . '/assets/css/video-analytics.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+    if (
+        is_page('CCTV') ||
+        is_page_template('page-cctv.php')
+    ) {
+
+        wp_enqueue_style(
+            'advent-cctv',
+            get_template_directory_uri() . '/assets/css/cctv.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+    if (
+        is_page('Alarm Systems') ||
+        is_page_template('page-alarm-systems.php')
+    ) {
+
+        wp_enqueue_style(
+            'advent-alarm-systems',
+            get_template_directory_uri() . '/assets/css/alarm-systems.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+    if (
+        is_page('License Plate Recognition') ||
+        is_page_template('page-license-plate-recognition.php')
+    ) {
+
+        wp_enqueue_style(
+            'advent-license-plate-recognition',
+            get_template_directory_uri() . '/assets/css/license-plate-recognition.css',
             array('advent-responsive'),
             '1.0.0'
         );
