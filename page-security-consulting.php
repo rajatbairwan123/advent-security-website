@@ -122,7 +122,7 @@ get_header();
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri()
-                                            . '/assets/images/security-consulting-advisor.webp'
+                                            . '/assets/images/Security-Risk-Assessment-Briefing.webp'
                                     ); ?>"
                             alt="Security consulting and advisory services">
 
@@ -464,7 +464,7 @@ get_header();
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri()
-                                            . '/assets/images/active-armed-offender-protection.webp'
+                                            . '/assets/images/Security-Guard-Directs-Office-Evacuation.webp'
                                     ); ?>"
                             alt="Active armed offender protection planning">
 

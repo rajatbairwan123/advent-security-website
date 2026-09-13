@@ -182,7 +182,7 @@
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/security-premier.webp'
+                                            '/assets/images/Advent-Security-Entrance-Patrol.webp'
                                     ); ?>"
                             alt="Corporate concierge security officer supporting workplace security">
                     </div>
@@ -283,7 +283,7 @@
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/track-record-section-security.webp'
+                                            '/assets/images/Corporate-Security-Patrol-in-Modern-Lobby.webp'
                                     ); ?>"
                             alt="Advent Security corporate concierge security team">
                     </div>

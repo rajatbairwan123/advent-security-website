@@ -411,7 +411,7 @@
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/security-premier.webp'
+                                            '/assets/images/Corporate-Lobby-Security-Reception.webp'
                                     ); ?>"
                             alt="Corporate concierge security officer supporting workplace security">
 
@@ -816,7 +816,7 @@
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/track-record-section-security.webp'
+                                            '/assets/images/Welcoming-Security-at-the-Modern-Lobby.webp'
                                     ); ?>"
                             alt="Advent Security corporate concierge security team">
 

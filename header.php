@@ -62,22 +62,73 @@
 
 
             <!-- Navigation -->
-            <nav class="main-navigation">
+            <nav class="main-navigation" aria-label="Primary Navigation">
 
-                <?php
-                wp_nav_menu(array(
-                    'theme_location' => 'primary',
-                    'container'      => false,
-                    'fallback_cb'    => false
-                ));
-                ?>
+                <ul>
+
+                    <li>
+                        <a href="#about">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="<?php echo esc_url(
+                                        home_url('/security-guard-services/')
+                                    ); ?>">
+                            Security Guard Services
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="<?php echo esc_url(
+                                        home_url('/corporate-concierge-services/')
+                                    ); ?>">
+                            Corporate Concierge
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="<?php echo esc_url(
+                                        home_url('/security-consulting/')
+                                    ); ?>">
+                            Security Consulting
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="<?php echo esc_url(
+                                        home_url('/electronic-security/')
+                                    ); ?>">
+                            Electronic Security
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
 
             </nav>
 
             <!-- Header Actions -->
             <div class="header-actions">
 
+                <!-- Quote Button -->
+
+                <a
+                    href="<?php echo esc_url(home_url('/contact/')); ?>"
+                    class="quote-button">
+                    REQUEST A QUOTE
+                    <span>→</span>
+                </a>
+
+
                 <!-- Theme Switcher -->
+
                 <button
                     type="button"
                     class="theme-toggle"
@@ -86,29 +137,47 @@
                     aria-pressed="false"
                     title="Switch theme">
 
-                    <span class="theme-toggle-icon theme-icon-sun" aria-hidden="true">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <span
+                        class="theme-toggle-icon theme-icon-sun"
+                        aria-hidden="true">
+
+                        <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.8">
                             <circle cx="12" cy="12" r="4"></circle>
+
                             <path d="M12 2v2.2M12 19.8V22M4.93 4.93l1.56 1.56M17.51 17.51l1.56 1.56M2 12h2.2M19.8 12H22M4.93 19.07l1.56-1.56M17.51 6.49l1.56-1.56"></path>
                         </svg>
+
                     </span>
 
-                    <span class="theme-toggle-icon theme-icon-moon" aria-hidden="true">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+
+                    <span
+                        class="theme-toggle-icon theme-icon-moon"
+                        aria-hidden="true">
+
+                        <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.8">
                             <path d="M20.2 15.4A8.5 8.5 0 0 1 8.6 3.8 8.6 8.6 0 1 0 20.2 15.4Z"></path>
                         </svg>
+
                     </span>
 
                 </button>
 
-                <!-- Quote Button -->
-                <a href="#quote" class="quote-button">
-                    REQUEST A QUOTE
-                    <span>→</span>
-                </a>
 
                 <!-- Mobile Menu Button -->
-                <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+
+                <button
+                    type="button"
+                    class="mobile-menu-toggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">
                     <span></span>
                     <span></span>
                     <span></span>

@@ -132,6 +132,18 @@ function advent_security_assets()
             '1.0.0'
         );
     }
+    if (
+        is_page('access-control') ||
+        is_page_template('page-access-control.php')
+    ) {
+
+        wp_enqueue_style(
+            'advent-access-control',
+            get_template_directory_uri() . '/assets/css/access-control.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
 
     /*
      * Bootstrap JavaScript Bundle

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Advent Security Footer
  */
@@ -6,119 +7,255 @@
 
 <footer class="site-footer">
 
+    <!-- =====================================================
+         FOOTER MAIN
+    ====================================================== -->
+
     <div class="footer-main">
 
         <div class="container footer-grid">
 
-            <!-- BRAND -->
+            <!-- =================================================
+                 SOCIAL LINKS
+            ================================================== -->
 
-            <div class="footer-brand">
+            <div class="footer-social">
 
-                <a href="<?php echo esc_url(home_url('/')); ?>" class="footer-logo">
-                    <span>ADVENT</span>
-                    <strong>SECURITY</strong>
+                <a
+                    href="#"
+                    class="footer-social-link"
+                    aria-label="LinkedIn">
+                    in
                 </a>
 
-                <p>
-                    Trusted security solutions across Australia and New Zealand,
-                    protecting people, assets and places.
-                </p>
+                <a
+                    href="#"
+                    class="footer-social-link"
+                    aria-label="Facebook">
+                    f
+                </a>
+
+                <a
+                    href="#"
+                    class="footer-social-link"
+                    aria-label="Instagram">
+                    ◎
+                </a>
 
             </div>
 
 
-            <!-- THE ADVENT GROUP -->
+            <!-- =================================================
+                 THE ADVENT GROUP
+            ================================================== -->
 
             <div class="footer-column">
 
                 <h3>THE ADVENT GROUP</h3>
 
                 <ul>
-                    <li><a href="#">About Advent</a></li>
-                    <li><a href="#">Advent Security</a></li>
-                    <li><a href="#">Advent Facilities</a></li>
-                    <li><a href="#">Management</a></li>
-                    <li><a href="#">Newsroom</a></li>
+                    <li>
+                        <a href="#">About Advent</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Our Businesses</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Our Partners</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Careers</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Leadership Team</a>
+                    </li>
                 </ul>
 
             </div>
 
 
-            <!-- SECURITY SERVICES -->
+            <!-- =================================================
+                 SECURITY SERVICES
+            ================================================== -->
 
             <div class="footer-column">
 
                 <h3>SECURITY SERVICES</h3>
 
                 <ul>
-                    <li><a href="#">Security Guard Services</a></li>
-                    <li><a href="#">Corporate Concierge</a></li>
-                    <li><a href="#">Event Security</a></li>
-                    <li><a href="#">Cash in Transit</a></li>
-                    <li><a href="#">Retail Security</a></li>
-                    <li><a href="#">Construction Security</a></li>
+                    <li>
+                        <a href="<?php echo esc_url(home_url('/security-guard-services/')); ?>">
+                            Security Guard
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Corporate Concierge
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Electronic Security
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="<?php echo esc_url(home_url('/security-consulting/')); ?>">
+                            Security Consulting
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="<?php echo esc_url(home_url('/alarm-monitoring-response/')); ?>">
+                            Alarm Monitoring
+                        </a>
+                    </li>
                 </ul>
 
             </div>
 
 
-            <!-- ELECTRONIC SECURITY -->
+            <!-- =================================================
+                 ELECTRONIC SECURITY
+            ================================================== -->
 
             <div class="footer-column">
 
                 <h3>ELECTRONIC SECURITY</h3>
 
                 <ul>
-                    <li><a href="#">CCTV Systems</a></li>
-                    <li><a href="#">Access Control</a></li>
-                    <li><a href="#">Alarm Systems</a></li>
-                    <li><a href="#">Visitor Management</a></li>
-                    <li><a href="#">Integrated Security Solutions</a></li>
-                    <li><a href="#">Boom Gates</a></li>
-                    <li><a href="#">License Plate Recognition</a></li>
-                    <li><a href="#">Cloud Monitoring</a></li>
+                    <li>
+                        <a href="#">
+                            CCTV Systems
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Access Control
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Alarm Systems
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Intercom Systems
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Cloud Monitoring
+                        </a>
+                    </li>
                 </ul>
 
             </div>
 
 
-            <!-- INDUSTRIES -->
+            <!-- =================================================
+                 INDUSTRIES
+            ================================================== -->
 
             <div class="footer-column">
 
                 <h3>INDUSTRIES</h3>
 
                 <ul>
-                    <li><a href="#">Commercial</a></li>
-                    <li><a href="#">Government</a></li>
-                    <li><a href="#">Healthcare</a></li>
-                    <li><a href="#">Retail</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Logistics</a></li>
-                    <li><a href="#">Maritime</a></li>
+                    <li>
+                        <a href="#">Commercial</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Government</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Healthcare</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Retail</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Aviation</a>
+                    </li>
                 </ul>
 
             </div>
 
 
-            <!-- CONTACT -->
+            <!-- =================================================
+                 RESOURCES
+            ================================================== -->
+
+            <div class="footer-column">
+
+                <h3>RESOURCES</h3>
+
+                <ul>
+                    <li>
+                        <a href="#">News &amp; Insights</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Case Studies</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Brochures</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Downloads</a>
+                    </li>
+
+                    <li>
+                        <a href="#">FAQs</a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <!-- =================================================
+                 QUICK CONTACT
+            ================================================== -->
 
             <div class="footer-contact">
 
-                <h3>GET IN TOUCH</h3>
+                <h3>QUICK CONTACT</h3>
 
-                <a href="tel:1800464166" class="footer-phone">
+                <a
+                    href="#"
+                    class="footer-location">
+                    <span class="footer-contact-icon">⌖</span>
+                    Our Locations
+                </a>
+
+                <a
+                    href="tel:1800464166"
+                    class="footer-phone">
+                    <span class="footer-contact-icon">☎</span>
                     1800 464 166
                 </a>
 
-                <p>
-                    Australia &amp; New Zealand<br>
-                    24/7, 365 Days
-                </p>
-
-                <a href="#quote" class="footer-contact-link">
-                    CONTACT US →
-                </a>
+                <div class="footer-hours">
+                    <span class="footer-contact-icon">▦</span>
+                    <span>24/7 / 365 Days</span>
+                </div>
 
             </div>
 
@@ -127,27 +264,48 @@
     </div>
 
 
-    <!-- FOOTER BOTTOM -->
+    <!-- =====================================================
+         FOOTER BOTTOM
+    ====================================================== -->
 
     <div class="footer-bottom">
 
         <div class="container footer-bottom-inner">
 
             <p>
-                © <?php echo date('Y'); ?> Advent Security. All rights reserved.
+                © <?php echo date('Y'); ?> Advent Security. All Rights Reserved.
             </p>
+
 
             <div class="footer-legal">
 
-                <a href="#">Privacy Policy</a>
+                <a href="#">
+                    Privacy Policy
+                </a>
 
-                <a href="#">Terms of Use</a>
+                <a href="#">
+                    Terms &amp; Conditions
+                </a>
 
-                <span class="footer-powered">
-                    <span>✦</span> Powered by Netlify
-                </span>
+                <a href="#">
+                    Website Policy
+                </a>
+
+                <a href="#">
+                    Sitemap
+                </a>
 
             </div>
+
+
+            <!-- Back To Top -->
+
+            <a
+                href="#"
+                class="footer-back-top"
+                aria-label="Back to top">
+                ↑
+            </a>
 
         </div>
 
@@ -159,4 +317,5 @@
 <?php wp_footer(); ?>
 
 </body>
+
 </html>
