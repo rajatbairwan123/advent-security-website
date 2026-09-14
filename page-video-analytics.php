@@ -30,7 +30,7 @@ get_header(); ?>
                     <p class="lead">Video analytics is software-based analysis of live or recorded video. Instead of treating a camera feed as something that must be watched or searched manually, analytics can examine the scene for specific objects, movements, rules or events.</p>
                     <p style="margin-top:20px">Some analytics run on compatible cameras at the edge; others run on servers, appliances or video-management platforms. The exact capability depends on the selected technology, camera, processing architecture, scene conditions and configuration.</p>
                     <p style="margin-top:20px">CCTV captures and records what the camera sees. Video analytics adds interpretation to selected video feeds so defined events or patterns can be detected and acted on.</p>
-                </div><img alt="Operator reviewing video analytics on multiple security screens" class="split-image" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/image5.png'); ?>"
+                </div><img alt="Operator reviewing video analytics on multiple security screens" class="split-image" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/video-analytics/image5.webp'); ?>"
                     alt="" />
             </div>
         </div>
@@ -68,7 +68,7 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="analytics-visual">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/image3.png'); ?>" alt="Security professional reviewing CCTV and video analytics at a workstation">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/video-analytics/image3.png'); ?>" alt="Security professional reviewing CCTV and video analytics at a workstation">
                     <div class="analytics-overlay"><span class="overlay-dot"></span>
                         <div><strong>From footage to insight</strong><small>Identify defined events and get to the footage that matters.</small></div>
                     </div>
@@ -149,7 +149,7 @@ get_header(); ?>
                         <div class="feature"><strong>Queue awareness</strong><span>Identify when queues are forming in selected environments.</span></div>
                         <div class="feature"><strong>Vehicle counting</strong><span>Track vehicle movement through defined locations.</span></div>
                     </div>
-                </div><img alt="People moving through a retail environment" class="split-image" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/image17.png'); ?>" />
+                </div><img alt="People moving through a retail environment" class="split-image" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/video-analytics/image17.webp'); ?>" />
             </div>
             <p style="margin-top:25px">For dedicated footfall, occupancy and visitor-intelligence requirements, these use cases may sit alongside Advent's Visitor Analytics / Management offering.</p>
         </div>
@@ -225,7 +225,7 @@ get_header(); ?>
                 <h2>Make video analytics part of the <span class="gold">bigger picture.</span></h2>
                 <p class="lead" style="margin-top:25px">Video analytics can work alongside the other electronic security systems used across a site. The right combination depends on the equipment, integrations and security outcomes required.</p>
                 <div class="arch-links"><a class="arch-link" href="/advent-electronics/cctv-systems/">CCTV Systems</a><a class="arch-link" href="/advent-electronics/access-control/">Access Control</a><a class="arch-link" href="/advent-electronics/alarm-systems/">Alarm Systems</a><a class="arch-link" href="/advent-electronics/license-plate-recognition/">LPR / ANPR</a><a class="arch-link" href="/advent-electronics/boom-gates/">Boom Gates</a><a class="arch-link" href="/advent-electronics/cloud-monitoring/">Cloud Monitoring</a><a class="arch-link" href="/advent-electronics/visitor-management/">Visitor Management</a><a class="arch-link" href="/advent-electronics/integrated-security-solutions/">Integrated Security</a></div>
-            </div><img alt="Australian commercial facility with integrated electronic security systems" class="split-image" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/image18.png'); ?>" />
+            </div><img alt="Australian commercial facility with integrated electronic security systems" class="split-image" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/video-analytics/image18.webp'); ?>" />
         </div>
     </section>
     <section class="section">

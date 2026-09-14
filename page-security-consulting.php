@@ -71,7 +71,7 @@ get_header();
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri()
-                                            . '/assets/images/security-consulting-banner.webp'
+                                            . '/assets/images/security-consulting/security-consulting-banner.webp'
                                     ); ?>"
                             alt="Security consulting services in Australia">
 
@@ -122,7 +122,7 @@ get_header();
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri()
-                                            . '/assets/images/Security-Risk-Assessment-Briefing.webp'
+                                            . '/assets/images/security-consulting/Security-Risk-Assessment-Briefing.webp'
                                     ); ?>"
                             alt="Security consulting and advisory services">
 
@@ -464,7 +464,7 @@ get_header();
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri()
-                                            . '/assets/images/Security-Guard-Directs-Office-Evacuation.webp'
+                                            . '/assets/images/security-consulting/Security-Guard-Directs-Office-Evacuation.webp'
                                     ); ?>"
                             alt="Active armed offender protection planning">
 

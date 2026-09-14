@@ -6,6 +6,7 @@
 .access-control-page {
     width: 100%;
     overflow: hidden;
+
     background: var(--color-bg);
     color: var(--color-text);
 }
@@ -21,6 +22,7 @@
     grid-template-columns: 46% 54%;
 
     background: var(--color-bg);
+
     border-bottom: 1px solid var(--color-border);
 }
 
@@ -31,12 +33,14 @@
     padding: 80px 70px 80px max(36px, calc((100vw - 1440px) / 2));
 
     min-width: 0;
+
     box-sizing: border-box;
 }
 
 .access-control-hero-copy .container {
     width: 100%;
     max-width: none;
+
     margin: 0;
     padding: 0;
 }
@@ -77,6 +81,7 @@
 .access-control-hero .hero-actions {
     display: flex;
     align-items: center;
+
     gap: 14px;
     flex-wrap: wrap;
 }
@@ -92,7 +97,7 @@
 .access-control-hero-image {
     min-height: 620px;
 
-    background-image: url("../images/employee.png");
+    background-image: url("../images/access-control/employee.webp");
 
     background-position: center;
     background-size: cover;
@@ -194,6 +199,7 @@
 
 .access-control-benefit:hover {
     padding-left: 8px;
+
     color: var(--color-primary);
 }
 
@@ -223,7 +229,6 @@
     padding-bottom: 55px;
 
     padding-left: max(80px, calc((100vw - 1310px) / 2));
-
     padding-right: 55px;
 
     min-width: 0;
@@ -274,7 +279,7 @@
     height: 535px;
     min-height: 535px;
 
-    background-image: url("../images/access-reader.png");
+    background-image: url("../images/access-control/access-reader.png");
 
     background-position: center;
     background-size: cover;
@@ -297,11 +302,11 @@
 
 .access-control-tech-grid {
     display: grid;
-    grid-template-columns: 0.9fr 2fr;
+    grid-template-columns: 0.85fr 1.6fr;
 
-    gap: 70px;
+    gap: 80px;
 
-    align-items: center;
+    align-items: start;
 }
 
 .access-control-tech h2 {
@@ -318,15 +323,19 @@
     letter-spacing: -2.5px;
 }
 
-.access-control-tech p {
-    max-width: 500px;
+.access-control-tech-grid > div:first-child > p {
+    max-width: 520px;
 
-    margin: 0;
+    margin: 0 0 18px;
 
     color: var(--color-text-muted);
 
     font-size: 16px;
     line-height: 1.7;
+}
+
+.access-control-tech-grid > div:first-child > p:last-child {
+    margin-bottom: 0;
 }
 
 /* =========================================================
@@ -335,26 +344,34 @@
 
 .access-control-tech-list {
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
 
+    border-top: 1px solid var(--color-border);
     border-left: 1px solid var(--color-border);
 }
 
+/* =========================================================
+   TECHNOLOGY ITEM
+========================================================= */
+
 .access-control-tech-item {
-    min-height: 150px;
+    position: relative;
+
     min-width: 0;
+    min-height: 235px;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 
-    padding: 24px 20px;
-
-    border-right: 1px solid var(--color-border);
-    border-top: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border);
+    padding: 28px 26px;
 
     background: transparent;
+
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+
+    box-sizing: border-box;
 
     transition:
         background-color var(--transition-normal),
@@ -364,8 +381,32 @@
 
 .access-control-tech-item:hover {
     background: var(--color-bg);
+
     border-color: var(--color-primary);
+
     transform: translateY(-3px);
+}
+
+/* =========================================================
+   MOBILE CREDENTIALS - PRIMARY TECHNOLOGY
+========================================================= */
+
+.access-control-tech-item:first-child {
+    grid-column: span 2;
+
+    min-height: 265px;
+
+    background: var(--color-bg);
+
+    border-color: var(--color-primary);
+}
+
+.access-control-tech-item:first-child strong {
+    font-size: 17px;
+}
+
+.access-control-tech-item:first-child p {
+    max-width: 620px;
 }
 
 /* =========================================================
@@ -373,8 +414,8 @@
 ========================================================= */
 
 .access-control-icon {
-    width: 38px;
-    height: 38px;
+    width: 42px;
+    height: 42px;
 
     display: grid;
     place-items: center;
@@ -385,8 +426,8 @@
 }
 
 .access-control-icon svg {
-    width: 34px;
-    height: 34px;
+    width: 36px;
+    height: 36px;
 
     fill: none;
 
@@ -397,12 +438,18 @@
     stroke-linejoin: round;
 }
 
+/* =========================================================
+   TECHNOLOGY TITLE
+========================================================= */
+
 .access-control-tech-item strong {
     display: block;
 
+    margin-bottom: 10px;
+
     color: var(--color-text);
 
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
 
     line-height: 1.35;
@@ -410,6 +457,146 @@
 
 .access-control-tech-item:hover strong {
     color: var(--color-primary);
+}
+
+/* =========================================================
+   TECHNOLOGY DESCRIPTION
+========================================================= */
+
+.access-control-tech-item p {
+    max-width: 100%;
+
+    margin: 0;
+
+    color: var(--color-text-muted);
+
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* =========================================================
+   LIGHTING & ALARM INTEGRATION
+========================================================= */
+
+.access-control-lighting {
+    padding: 105px 0;
+
+    background: var(--color-bg);
+
+    border-bottom: 1px solid var(--color-border);
+}
+
+.access-control-lighting-grid {
+    display: grid;
+    grid-template-columns: 1fr 0.85fr;
+
+    gap: 90px;
+
+    align-items: center;
+}
+
+.access-control-lighting-copy .eyebrow {
+    margin-bottom: 22px;
+}
+
+.access-control-lighting-copy h2 {
+    max-width: 720px;
+
+    margin-bottom: 25px;
+
+    color: var(--color-text);
+
+    font-size: clamp(38px, 4vw, 58px);
+    font-weight: 600;
+
+    line-height: 1.02;
+    letter-spacing: -2.5px;
+}
+
+.access-control-lighting-copy p {
+    max-width: 700px;
+
+    margin: 0 0 18px;
+
+    color: var(--color-text-muted);
+
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.access-control-lighting-copy p:last-of-type {
+    margin-bottom: 30px;
+}
+
+/* =========================================================
+   LIGHTING BENEFITS
+========================================================= */
+
+.access-control-lighting-benefits {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.access-control-lighting-benefit {
+    min-height: 185px;
+
+    padding: 26px;
+
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+
+    box-sizing: border-box;
+
+    transition:
+        background-color var(--transition-normal),
+        border-color var(--transition-normal),
+        transform var(--transition-normal);
+}
+
+.access-control-lighting-benefit:hover {
+    background: var(--color-surface);
+
+    border-color: var(--color-primary);
+
+    transform: translateY(-3px);
+}
+
+.access-control-lighting-benefit strong {
+    display: block;
+
+    margin-bottom: 10px;
+
+    color: var(--color-text);
+
+    font-size: 16px;
+    font-weight: 600;
+
+    line-height: 1.3;
+}
+
+.access-control-lighting-benefit strong::before {
+    content: "";
+
+    display: block;
+
+    width: 28px;
+    height: 3px;
+
+    margin-bottom: 18px;
+
+    background: var(--color-primary);
+}
+
+.access-control-lighting-benefit p {
+    margin: 0;
+
+    color: var(--color-text-muted);
+
+    font-size: 14px;
+    line-height: 1.6;
 }
 
 /* =========================================================
@@ -587,6 +774,7 @@
 
 .access-control-industry:hover {
     background: var(--color-bg);
+
     border-color: var(--color-primary);
 
     transform: translateY(-3px);
@@ -640,7 +828,7 @@
     height: 440px;
     min-height: 440px;
 
-    background-image: url("../images/approach-office.png");
+    background-image: url("../images/access-control/hero-access-control.webp");
 
     background-position: center;
     background-size: cover;
@@ -739,7 +927,6 @@
 
     margin-bottom: 12px;
 
-    border: 0;
     border-radius: 50%;
 
     background: var(--color-primary);
@@ -819,6 +1006,10 @@
     align-items: center;
 }
 
+/*
+ * CTA background is intentionally primary/yellow,
+ * so the heading remains dark for contrast.
+ */
 .access-control-cta h2 {
     color: #171717;
 }
@@ -837,8 +1028,15 @@
     background: var(--color-surface);
 }
 
+.theme-dark .access-control-tech-item:first-child {
+    background: var(--color-bg);
+
+    border-color: var(--color-primary);
+}
+
 .theme-dark .access-control-tech-item:hover,
-.theme-dark .access-control-industry:hover {
+.theme-dark .access-control-industry:hover,
+.theme-dark .access-control-lighting-benefit:hover {
     background: #101010;
 }
 
@@ -878,17 +1076,19 @@
     }
 
     .access-control-intro-grid,
-    .access-control-integration-grid {
+    .access-control-integration-grid,
+    .access-control-lighting-grid {
         gap: 55px;
     }
 
     .access-control-tech-grid {
         grid-template-columns: 1fr;
+
         gap: 50px;
     }
 
     .access-control-tech-list {
-        grid-template-columns: repeat(5, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .access-control-split-copy {
@@ -915,7 +1115,9 @@
 ========================================================= */
 
 @media (max-width: 991.98px) {
-    /* HERO */
+    /* =====================================================
+       HERO
+    ===================================================== */
 
     .access-control-hero {
         grid-template-columns: 1fr;
@@ -952,7 +1154,9 @@
         border-top: 1px solid var(--color-border);
     }
 
-    /* INTRO */
+    /* =====================================================
+       INTRO
+    ===================================================== */
 
     .access-control-intro {
         padding: 80px 0;
@@ -975,7 +1179,9 @@
         padding-top: 18px;
     }
 
-    /* SPLIT */
+    /* =====================================================
+       SPLIT
+    ===================================================== */
 
     .access-control-split {
         grid-template-columns: 1fr;
@@ -988,7 +1194,7 @@
     }
 
     .access-control-split-copy {
-        padding: 70px 0;
+        padding: 70px 24px;
     }
 
     .access-control-split-copy h2 {
@@ -1009,17 +1215,49 @@
         border-top: 1px solid var(--color-border);
     }
 
-    /* TECHNOLOGY */
+    /* =====================================================
+       TECHNOLOGY
+    ===================================================== */
 
     .access-control-tech {
         padding: 80px 0;
     }
 
-    .access-control-tech-list {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+    .access-control-tech-grid {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
     }
 
-    /* INTEGRATION */
+    .access-control-tech-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .access-control-tech-item:first-child {
+        grid-column: span 2;
+    }
+
+    /* =====================================================
+       LIGHTING
+    ===================================================== */
+
+    .access-control-lighting {
+        padding: 80px 0;
+    }
+
+    .access-control-lighting-grid {
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+    }
+
+    .access-control-lighting-copy h2 {
+        max-width: 750px;
+    }
+
+    /* =====================================================
+       INTEGRATION
+    ===================================================== */
 
     .access-control-integration {
         padding: 80px 0;
@@ -1031,7 +1269,9 @@
         gap: 50px;
     }
 
-    /* INDUSTRIES */
+    /* =====================================================
+       INDUSTRIES
+    ===================================================== */
 
     .access-control-industries {
         padding: 80px 0;
@@ -1049,7 +1289,9 @@
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    /* APPROACH */
+    /* =====================================================
+       APPROACH
+    ===================================================== */
 
     .access-control-approach {
         grid-template-columns: 1fr;
@@ -1072,7 +1314,7 @@
     }
 
     .access-control-approach-copy {
-        padding: 75px 0;
+        padding: 75px 24px;
     }
 
     .access-control-approach-copy h2 {
@@ -1102,8 +1344,8 @@
         width: 100%;
         max-width: 100%;
 
-        padding-left: 24px;
-        padding-right: 24px;
+        /* padding-left: 24px;
+        padding-right: 24px; */
 
         box-sizing: border-box;
     }
@@ -1114,13 +1356,17 @@
 
     .access-control-hero-copy {
         width: 100%;
-        padding: 65px 24px;
+
+        /* padding: 65px 24px; */
+
         box-sizing: border-box;
     }
 
     .access-control-hero-copy h1 {
         max-width: 100%;
+
         font-size: clamp(44px, 12vw, 62px);
+
         letter-spacing: -2px;
     }
 
@@ -1130,6 +1376,7 @@
 
     .access-control-hero-image {
         width: 100%;
+
         height: 390px;
         min-height: 390px;
     }
@@ -1139,12 +1386,14 @@
     ===================================================== */
 
     .access-control-intro {
-        padding: 65px 24px;
+        /* padding: 65px 24px; */
+
         box-sizing: border-box;
     }
 
     .access-control-intro-grid {
         grid-template-columns: 1fr;
+
         gap: 45px;
     }
 
@@ -1164,12 +1413,15 @@
 
     .access-control-split-copy {
         padding: 65px 24px;
+
         box-sizing: border-box;
     }
 
     .access-control-split-copy h2 {
         max-width: 100%;
+
         font-size: clamp(40px, 10vw, 54px);
+
         letter-spacing: -2px;
     }
 
@@ -1179,6 +1431,7 @@
 
     .access-control-split-image {
         width: 100%;
+
         height: 360px;
         min-height: 360px;
     }
@@ -1188,12 +1441,14 @@
     ===================================================== */
 
     .access-control-tech {
-        padding: 65px 24px;
+        /* padding: 65px 24px; */
+
         box-sizing: border-box;
     }
 
     .access-control-tech-grid {
         grid-template-columns: 1fr;
+
         gap: 45px;
     }
 
@@ -1201,17 +1456,77 @@
         font-size: clamp(36px, 9vw, 50px);
     }
 
+    .access-control-tech-list {
+        grid-template-columns: 1fr;
+    }
+
+    .access-control-tech-item {
+        min-height: auto;
+
+        padding: 25px 22px;
+    }
+
+    .access-control-tech-item:first-child {
+        grid-column: auto;
+
+        min-height: auto;
+    }
+
+    .access-control-tech-item:first-child p {
+        max-width: 100%;
+    }
+
+    /* =====================================================
+       LIGHTING
+    ===================================================== */
+
+    .access-control-lighting {
+        /* padding: 65px 24px; */
+
+        box-sizing: border-box;
+    }
+
+    .access-control-lighting-grid {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .access-control-lighting-copy h2 {
+        max-width: 100%;
+
+        font-size: clamp(36px, 9vw, 50px);
+    }
+
+    .access-control-lighting-copy p {
+        max-width: 100%;
+
+        font-size: 16px;
+    }
+
+    .access-control-lighting-benefits {
+        grid-template-columns: 1fr;
+    }
+
+    .access-control-lighting-benefit {
+        min-height: auto;
+
+        padding: 24px;
+    }
+
     /* =====================================================
        INTEGRATION
     ===================================================== */
 
     .access-control-integration {
-        padding: 65px 24px;
+        /* padding: 65px 24px; */
+
         box-sizing: border-box;
     }
 
     .access-control-integration-grid {
         grid-template-columns: 1fr;
+
         gap: 45px;
     }
 
@@ -1224,12 +1539,14 @@
     ===================================================== */
 
     .access-control-industries {
-        padding: 65px 24px;
+        /* padding: 65px 24px; */
+
         box-sizing: border-box;
     }
 
     .access-control-industry-head {
         grid-template-columns: 1fr;
+
         gap: 25px;
     }
 
@@ -1253,6 +1570,7 @@
 
     .access-control-approach-image {
         width: 100%;
+
         height: 360px;
         min-height: 360px;
 
@@ -1262,11 +1580,13 @@
 
     .access-control-approach-copy {
         padding: 65px 24px;
+
         box-sizing: border-box;
     }
 
     .access-control-approach-copy h2 {
         max-width: 100%;
+
         font-size: clamp(38px, 9vw, 50px);
     }
 
@@ -1280,6 +1600,7 @@
 
     .access-control-steps {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+
         width: 100%;
     }
 
@@ -1296,6 +1617,7 @@
 
     .access-control-step:nth-child(2n) {
         padding-left: 18px;
+
         border-right: 0;
     }
 
@@ -1308,35 +1630,42 @@
     ===================================================== */
 
     .access-control-faq {
-        padding: 65px 24px;
+        /* padding: 65px 24px; */
+
         box-sizing: border-box;
     }
 }
+
 /* =========================================================
    SMALL MOBILE
 ========================================================= */
 
 @media (max-width: 575.98px) {
-    .access-control-page .container {
+    /* .access-control-page .container {
         padding-left: 20px;
         padding-right: 20px;
-    }
+    } */
 
-    .access-control-hero-copy {
+    /* .access-control-hero-copy {
         padding-left: 20px;
         padding-right: 20px;
-    }
+    } */
 
-    .access-control-intro,
+    /* .access-control-intro,
     .access-control-split-copy,
     .access-control-tech,
+    .access-control-lighting,
     .access-control-integration,
     .access-control-industries,
     .access-control-approach-copy,
     .access-control-faq {
         padding-left: 20px;
         padding-right: 20px;
-    }
+    } */
+
+    /* =====================================================
+       HERO
+    ===================================================== */
 
     .access-control-hero-copy h1 {
         font-size: 44px;
@@ -1347,22 +1676,47 @@
         min-height: 330px;
     }
 
+    /* =====================================================
+       HEADINGS
+    ===================================================== */
+
     .access-control-intro h2,
     .access-control-tech h2,
+    .access-control-lighting-copy h2,
     .access-control-integration h2,
     .access-control-industry-head h2,
     .access-control-approach-copy h2 {
         font-size: 38px;
     }
 
-    .access-control-tech-list {
-        grid-template-columns: 1fr 1fr;
+    /* =====================================================
+       TECHNOLOGY
+    ===================================================== */
+
+    /* .access-control-tech-item {
+        padding: 24px 20px;
+    } */
+
+    /* =====================================================
+       LIGHTING
+    ===================================================== */
+
+    .access-control-lighting-benefit {
+        padding: 22px 20px;
     }
+
+    /* =====================================================
+       APPROACH IMAGE
+    ===================================================== */
 
     .access-control-approach-image {
         height: 320px;
         min-height: 320px;
     }
+
+    /* =====================================================
+       APPROACH STEPS
+    ===================================================== */
 
     .access-control-steps {
         grid-template-columns: 1fr;
@@ -1379,6 +1733,10 @@
     .access-control-step:last-child {
         border-bottom: 0;
     }
+
+    .access-control-step:not(:first-child) {
+        padding: 22px 0px;
+    }
 }
 
 /* =========================================================
@@ -1389,8 +1747,10 @@
     .access-control-page .container {
         width: 100%;
         max-width: 100%;
+
         padding-left: 24px;
         padding-right: 24px;
+
         box-sizing: border-box;
     }
 }

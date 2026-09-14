@@ -139,37 +139,37 @@ get_header(); ?>
                 <article class="camera-card">
                     <img
                         alt="CCTV camera monitoring a commercial site"
-                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/cctv-2.png'); ?>" />
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/cctv/cctv-2.webp'); ?>" />
                     <div class="label">Fixed &amp; dome cameras</div>
                 </article>
                 <article class="camera-card">
                     <img
                         alt="CCTV coverage at a loading area"
-                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/cctv-3.png'); ?>" />
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/cctv/cctv-3.png'); ?>" />
                     <div class="label">Bullet cameras</div>
                 </article>
                 <article class="camera-card">
                     <img
                         alt="PTZ camera overlooking an industrial site"
-                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/cctv-8.png'); ?>" />
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/cctv/cctv-8.png'); ?>" />
                     <div class="label">PTZ cameras</div>
                 </article>
                 <article class="camera-card">
                     <img
                         alt="CCTV camera monitoring an entry point"
-                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/cctv-9.png'); ?>" />
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/cctv/cctv-9.png'); ?>" />
                     <div class="label">Specialist applications</div>
                 </article>
                 <article class="camera-card">
                     <img
                         alt="Commercial interior monitored by CCTV"
-                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/cctv-10.png'); ?>" />
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/cctv/cctv-10.webp'); ?>" />
                     <div class="label">Indoor coverage</div>
                 </article>
                 <article class="camera-card">
                     <img
                         alt="Wide commercial site CCTV coverage"
-                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/cctv-13.png'); ?>" />
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/cctv/cctv-13.webp'); ?>" />
                     <div class="label">
                         Perimeter &amp; wide-area views
                     </div>

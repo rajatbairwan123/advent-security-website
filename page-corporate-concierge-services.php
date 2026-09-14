@@ -66,7 +66,7 @@
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/corporate-concierge-banner.webp'
+                                            '/assets/images/corporate-concierge-services/corporate-concierge-banner.webp'
                                     ); ?>"
                             alt="Corporate concierge security officer providing front-of-house security services">
 
@@ -411,7 +411,7 @@
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/Corporate-Lobby-Security-Reception.webp'
+                                            '/assets/images/corporate-concierge-services/Corporate-Lobby-Security-Reception.webp'
                                     ); ?>"
                             alt="Corporate concierge security officer supporting workplace security">
 
@@ -816,7 +816,7 @@
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/Welcoming-Security-at-the-Modern-Lobby.webp'
+                                            '/assets/images/corporate-concierge-services/Welcoming-Security-at-the-Modern-Lobby.webp'
                                     ); ?>"
                             alt="Advent Security corporate concierge security team">
 

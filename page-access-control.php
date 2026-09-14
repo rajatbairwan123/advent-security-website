@@ -141,6 +141,403 @@ get_header();
 
 
     <!-- =====================================================
+         ACCESS TECHNOLOGY
+         Client requested order:
+         1. Mobile credentials
+         2. Facial recognition
+         3. Biometric readers
+         4. Card / Fob
+         5. PIN access
+    ====================================================== -->
+
+    <section class="access-control-tech">
+
+        <div class="container">
+
+            <div class="access-control-tech-grid">
+
+                <div>
+
+                    <div class="eyebrow">
+                        Access technology
+                    </div>
+
+                    <h2>
+                        Flexible technology for the way
+                        people access your site.
+                    </h2>
+
+                    <p>
+                        From mobile credentials and facial recognition
+                        to biometric, card, fob and PIN access, we can
+                        combine technologies to suit your site, users
+                        and level of security.
+                    </p>
+
+                    <p>
+                        Modern access solutions can also make access
+                        more convenient while reducing the need for
+                        physical credentials.
+                    </p>
+
+                </div>
+
+
+                <div class="access-control-tech-list">
+
+                    <!-- =================================================
+                         1. MOBILE CREDENTIALS
+                    ================================================== -->
+
+                    <div class="access-control-tech-item">
+
+                        <div class="access-control-icon">
+
+                            <svg
+                                viewBox="0 0 48 48"
+                                aria-hidden="true">
+
+                                <rect
+                                    x="13"
+                                    y="5"
+                                    width="22"
+                                    height="38"
+                                    rx="4">
+                                </rect>
+
+                                <path d="M20 10h8"></path>
+
+                                <circle
+                                    cx="24"
+                                    cy="37"
+                                    r="1.5">
+                                </circle>
+
+                            </svg>
+
+                        </div>
+
+                        <strong>
+                            Mobile Credentials
+                        </strong>
+
+                        <p>
+                            Use a smartphone as an access credential,
+                            giving your team a convenient way to enter
+                            without carrying additional cards or fobs.
+                            Mobile credentials can also help reduce the
+                            need for physical plastic credentials and
+                            the waste associated with replacing them.
+                        </p>
+
+                    </div>
+
+
+                    <!-- =================================================
+                         2. FACIAL RECOGNITION
+                    ================================================== -->
+
+                    <div class="access-control-tech-item">
+
+                        <div class="access-control-icon">
+
+                            <svg
+                                viewBox="0 0 48 48"
+                                aria-hidden="true">
+
+                                <path d="M17 11h-5a2 2 0 0 0-2 2v5"></path>
+
+                                <path d="M31 11h5a2 2 0 0 1 2 2v5"></path>
+
+                                <path d="M17 37h-5a2 2 0 0 1-2-2v-5"></path>
+
+                                <path d="M31 37h5a2 2 0 0 0 2-2v-5"></path>
+
+                                <circle
+                                    cx="24"
+                                    cy="22"
+                                    r="7">
+                                </circle>
+
+                                <path d="M19 32c2-3 8-3 10 0"></path>
+
+                            </svg>
+
+                        </div>
+
+                        <strong>
+                            Facial Recognition
+                        </strong>
+
+                        <p>
+                            Facial recognition can provide a convenient,
+                            touch-free way to verify authorised users
+                            and manage access to controlled areas.
+                        </p>
+
+                    </div>
+
+
+                    <!-- =================================================
+                         3. BIOMETRIC READERS
+                    ================================================== -->
+
+                    <div class="access-control-tech-item">
+
+                        <div class="access-control-icon">
+
+                            <svg
+                                viewBox="0 0 48 48"
+                                aria-hidden="true">
+
+                                <path d="M17 19c0-5 3-8 7-8s7 3 7 8"></path>
+
+                                <path d="M13 23c0-8 4-13 11-13s11 5 11 13"></path>
+
+                                <path d="M17 28c0-5 2-8 7-8s7 3 7 8"></path>
+
+                                <path d="M21 33c0-3 1-5 3-5s3 2 3 5"></path>
+
+                                <path d="M11 29c0 8 4 12 13 12s13-4 13-12"></path>
+
+                            </svg>
+
+                        </div>
+
+                        <strong>
+                            Biometric Readers
+                        </strong>
+
+                        <p>
+                            Biometric readers provide another layer of
+                            identity verification for environments where
+                            stronger access controls are required.
+                        </p>
+
+                    </div>
+
+
+                    <!-- =================================================
+                         4. CARD & FOB ACCESS
+                    ================================================== -->
+
+                    <div class="access-control-tech-item">
+
+                        <div class="access-control-icon">
+
+                            <svg
+                                viewBox="0 0 48 48"
+                                aria-hidden="true">
+
+                                <rect
+                                    x="7"
+                                    y="11"
+                                    width="34"
+                                    height="26"
+                                    rx="3">
+                                </rect>
+
+                                <path d="M7 18h34M12 30h10"></path>
+
+                            </svg>
+
+                        </div>
+
+                        <strong>
+                            Card &amp; Fob Access
+                        </strong>
+
+                        <p>
+                            A familiar and practical option for
+                            businesses that need straightforward,
+                            controlled access for staff and visitors.
+                        </p>
+
+                    </div>
+
+
+                    <!-- =================================================
+                         5. PIN ACCESS
+                    ================================================== -->
+
+                    <div class="access-control-tech-item">
+
+                        <div class="access-control-icon">
+
+                            <svg
+                                viewBox="0 0 48 48"
+                                aria-hidden="true">
+
+                                <rect
+                                    x="10"
+                                    y="5"
+                                    width="28"
+                                    height="38"
+                                    rx="4">
+                                </rect>
+
+                                <circle cx="17" cy="15" r="1.5"></circle>
+                                <circle cx="24" cy="15" r="1.5"></circle>
+                                <circle cx="31" cy="15" r="1.5"></circle>
+
+                                <circle cx="17" cy="22" r="1.5"></circle>
+                                <circle cx="24" cy="22" r="1.5"></circle>
+                                <circle cx="31" cy="22" r="1.5"></circle>
+
+                                <circle cx="17" cy="29" r="1.5"></circle>
+                                <circle cx="24" cy="29" r="1.5"></circle>
+                                <circle cx="31" cy="29" r="1.5"></circle>
+
+                            </svg>
+
+                        </div>
+
+                        <strong>
+                            PIN Access
+                        </strong>
+
+                        <p>
+                            PIN access provides a simple way to control
+                            entry where a physical credential may not
+                            be required.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         LIGHTING & ALARM INTEGRATION
+         NEW CLIENT-REQUESTED CONTENT
+    ====================================================== -->
+
+    <section class="access-control-lighting">
+
+        <div class="container">
+
+            <div class="access-control-lighting-grid">
+
+                <div class="access-control-lighting-copy">
+
+                    <div class="eyebrow">
+                        Smarter site management
+                    </div>
+
+                    <h2>
+                        Security that can help reduce
+                        energy waste.
+                    </h2>
+
+                    <p>
+                        Your access control and alarm system can also
+                        interface with lighting controls to help
+                        automate what happens when your site is
+                        armed or disarmed.
+                    </p>
+
+                    <p>
+                        When the alarm is armed as the last person
+                        leaves, lighting can be controlled as part
+                        of the process. When the site is disarmed,
+                        lighting can be restored as required.
+                    </p>
+
+                    <p>
+                        This can help prevent lights being accidentally
+                        left on, reducing unnecessary electricity
+                        consumption and helping lower ongoing energy
+                        costs.
+                    </p>
+
+                    <a
+                        class="advent-btn"
+                        href="<?php echo esc_url(
+                                    home_url('/contact/')
+                                ); ?>">
+
+                        TALK TO OUR TEAM
+
+                        <span class="btn-arrow">→</span>
+
+                    </a>
+
+                </div>
+
+
+                <div class="access-control-lighting-benefits">
+
+                    <div class="access-control-lighting-benefit">
+
+                        <strong>
+                            Reduce power consumption
+                        </strong>
+
+                        <p>
+                            Avoid unnecessary lighting when your site
+                            is unoccupied.
+                        </p>
+
+                    </div>
+
+
+                    <div class="access-control-lighting-benefit">
+
+                        <strong>
+                            Reduce electricity costs
+                        </strong>
+
+                        <p>
+                            Smarter lighting control can help reduce
+                            avoidable energy use across your site.
+                        </p>
+
+                    </div>
+
+
+                    <div class="access-control-lighting-benefit">
+
+                        <strong>
+                            Reduce your carbon footprint
+                        </strong>
+
+                        <p>
+                            Using less electricity can contribute to
+                            lower energy-related emissions.
+                        </p>
+
+                    </div>
+
+
+                    <div class="access-control-lighting-benefit">
+
+                        <strong>
+                            Automate when the site is secured
+                        </strong>
+
+                        <p>
+                            Connect lighting behaviour with your
+                            alarm arming and disarming process.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
          DESIGNED FOR YOUR ENVIRONMENT
     ====================================================== -->
 
@@ -195,222 +592,6 @@ get_header();
 
 
     <!-- =====================================================
-         ACCESS TECHNOLOGY
-    ====================================================== -->
-
-    <section class="access-control-tech">
-
-        <div class="container">
-
-            <div class="access-control-tech-grid">
-
-                <div>
-
-                    <div class="eyebrow">
-                        Access technology
-                    </div>
-
-                    <h2>
-                        Flexible technology for every environment.
-                    </h2>
-
-                    <p>
-                        We use trusted access control technologies
-                        that can be combined to suit your site,
-                        users and level of security.
-                    </p>
-
-                </div>
-
-
-                <div class="access-control-tech-list">
-
-                    <!-- CARD & FOB -->
-
-                    <div class="access-control-tech-item">
-
-                        <div class="access-control-icon">
-
-                            <svg
-                                viewBox="0 0 48 48"
-                                aria-hidden="true">
-
-                                <rect
-                                    x="7"
-                                    y="11"
-                                    width="34"
-                                    height="26"
-                                    rx="3">
-                                </rect>
-
-                                <path d="M7 18h34M12 30h10"></path>
-
-                            </svg>
-
-                        </div>
-
-                        <strong>
-                            Card &amp; Fob Access
-                        </strong>
-
-                    </div>
-
-
-                    <!-- PIN -->
-
-                    <div class="access-control-tech-item">
-
-                        <div class="access-control-icon">
-
-                            <svg
-                                viewBox="0 0 48 48"
-                                aria-hidden="true">
-
-                                <rect
-                                    x="10"
-                                    y="5"
-                                    width="28"
-                                    height="38"
-                                    rx="4">
-                                </rect>
-
-                                <circle cx="17" cy="15" r="1.5"></circle>
-                                <circle cx="24" cy="15" r="1.5"></circle>
-                                <circle cx="31" cy="15" r="1.5"></circle>
-
-                                <circle cx="17" cy="22" r="1.5"></circle>
-                                <circle cx="24" cy="22" r="1.5"></circle>
-                                <circle cx="31" cy="22" r="1.5"></circle>
-
-                                <circle cx="17" cy="29" r="1.5"></circle>
-                                <circle cx="24" cy="29" r="1.5"></circle>
-                                <circle cx="31" cy="29" r="1.5"></circle>
-
-                            </svg>
-
-                        </div>
-
-                        <strong>
-                            PIN Access
-                        </strong>
-
-                    </div>
-
-
-                    <!-- MOBILE -->
-
-                    <div class="access-control-tech-item">
-
-                        <div class="access-control-icon">
-
-                            <svg
-                                viewBox="0 0 48 48"
-                                aria-hidden="true">
-
-                                <rect
-                                    x="13"
-                                    y="5"
-                                    width="22"
-                                    height="38"
-                                    rx="4">
-                                </rect>
-
-                                <path d="M20 10h8"></path>
-
-                                <circle
-                                    cx="24"
-                                    cy="37"
-                                    r="1.5">
-                                </circle>
-
-                            </svg>
-
-                        </div>
-
-                        <strong>
-                            Mobile Credentials
-                        </strong>
-
-                    </div>
-
-
-                    <!-- BIOMETRIC -->
-
-                    <div class="access-control-tech-item">
-
-                        <div class="access-control-icon">
-
-                            <svg
-                                viewBox="0 0 48 48"
-                                aria-hidden="true">
-
-                                <path d="M17 19c0-5 3-8 7-8s7 3 7 8"></path>
-
-                                <path d="M13 23c0-8 4-13 11-13s11 5 11 13"></path>
-
-                                <path d="M17 28c0-5 2-8 7-8s7 3 7 8"></path>
-
-                                <path d="M21 33c0-3 1-5 3-5s3 2 3 5"></path>
-
-                                <path d="M11 29c0 8 4 12 13 12s13-4 13-12"></path>
-
-                            </svg>
-
-                        </div>
-
-                        <strong>
-                            Biometric Readers
-                        </strong>
-
-                    </div>
-
-
-                    <!-- FACIAL -->
-
-                    <div class="access-control-tech-item">
-
-                        <div class="access-control-icon">
-
-                            <svg
-                                viewBox="0 0 48 48"
-                                aria-hidden="true">
-
-                                <path d="M17 11h-5a2 2 0 0 0-2 2v5"></path>
-
-                                <path d="M31 11h5a2 2 0 0 1 2 2v5"></path>
-
-                                <path d="M17 37h-5a2 2 0 0 1-2-2v-5"></path>
-
-                                <path d="M31 37h5a2 2 0 0 0 2-2v-5"></path>
-
-                                <circle
-                                    cx="24"
-                                    cy="22"
-                                    r="7">
-                                </circle>
-
-                                <path d="M19 32c2-3 8-3 10 0"></path>
-
-                            </svg>
-
-                        </div>
-
-                        <strong>
-                            Facial Recognition
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =====================================================
          INTEGRATED SECURITY
     ====================================================== -->
 
@@ -435,9 +616,9 @@ get_header();
                         For many organisations, access control is
                         one part of a wider security strategy. It
                         can be integrated with CCTV systems, alarm
-                        monitoring and other site-specific controls
-                        to give you greater visibility and a more
-                        coordinated response.
+                        monitoring, lighting controls and other
+                        site-specific controls to give you greater
+                        visibility and a more coordinated response.
                     </p>
 
                     <a
@@ -797,8 +978,8 @@ get_header();
 
                     <summary>
 
-                        Can access control be integrated with CCTV
-                        and alarm systems?
+                        Can access control be integrated with CCTV,
+                        alarm and lighting systems?
 
                         <span>+</span>
 
@@ -807,8 +988,71 @@ get_header();
                     <p>
                         Yes. Access control can form part of a
                         broader electronic security environment
-                        alongside CCTV, alarm monitoring and other
-                        systems.
+                        alongside CCTV, alarm monitoring, lighting
+                        controls and other systems.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+
+                        What types of access credentials are available?
+
+                        <span>+</span>
+
+                    </summary>
+
+                    <p>
+                        Depending on your site and requirements,
+                        access can be managed using mobile
+                        credentials, facial recognition, biometric
+                        readers, cards, fobs or PINs.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+
+                        Can mobile credentials replace access cards
+                        and fobs?
+
+                        <span>+</span>
+
+                    </summary>
+
+                    <p>
+                        Mobile credentials can allow users to access
+                        a site using their smartphone, reducing the
+                        need for physical cards or fobs where the
+                        chosen system supports mobile access.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+
+                        Can access control help reduce energy use?
+
+                        <span>+</span>
+
+                    </summary>
+
+                    <p>
+                        Where the system is integrated with suitable
+                        lighting controls, lighting can be managed
+                        as part of the alarm arming and disarming
+                        process. This can help reduce unnecessary
+                        lighting, electricity consumption and
+                        associated operating costs.
                     </p>
 
                 </details>

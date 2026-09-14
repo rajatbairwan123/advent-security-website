@@ -89,7 +89,7 @@ get_header(); ?>
                     class="split-image"
                     src="<?php echo esc_url(
                                 get_template_directory_uri()
-                                    . '/assets/images/image2.png'
+                                    . '/assets/images/cloud-monitoring/image2.png'
                             ); ?>" />
             </div>
         </div>
@@ -122,7 +122,7 @@ get_header(); ?>
                 class="split-image"
                 src="<?php echo esc_url(
                             get_template_directory_uri()
-                                . '/assets/images/image7.png'
+                                . '/assets/images/cloud-monitoring/image7.webp'
                         ); ?>" />
         </div>
     </section>
@@ -358,7 +358,7 @@ get_header(); ?>
                 class="split-image"
                 src="<?php echo esc_url(
                             get_template_directory_uri()
-                                . '/assets/images/image6.png'
+                                . '/assets/images/cloud-monitoring/image6.webp'
                         ); ?>" />
         </div>
     </section>
@@ -707,7 +707,7 @@ get_header(); ?>
             </div>
             <div class="cta-actions">
                 <a
-                    class="advent-btn primary"
+                    class="advent-btn advent-btn-dark"
                     href="/contact/?service=cloud-security-assessment">
                     <span>Book a Cloud Security Assessment</span>
                     <b class="arrow">→</b>
@@ -720,24 +720,5 @@ get_header(); ?>
     </section>
 
 </main>
-
-<script>
-    (function() {
-        try {
-            var savedTheme = localStorage.getItem('advent-theme');
-
-            if (savedTheme === 'dark') {
-                document.documentElement.classList.add('theme-dark');
-                document.documentElement.classList.remove('light');
-            } else {
-                document.documentElement.classList.add('light');
-                document.documentElement.classList.remove('theme-dark');
-            }
-
-        } catch (error) {
-            document.documentElement.classList.add('light');
-        }
-    })();
-</script>
 
 <?php get_footer(); ?>

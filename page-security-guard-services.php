@@ -50,7 +50,7 @@
                 <div class="col-lg-7">
                     <div class="hero-image">
                         <img
-                            src="<?php echo get_template_directory_uri(); ?>/assets/images/security-guard-hero.webp"
+                            src="<?php echo get_template_directory_uri(); ?>/assets/images/security-guard-services/security-guard-hero.webp"
                             alt="Professional security guard providing security services"
                             width="1600"
                             height="1000">
@@ -182,7 +182,7 @@
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/Advent-Security-Entrance-Patrol.webp'
+                                            '/assets/images/security-guard-services/Advent-Security-Entrance-Patrol.webp'
                                     ); ?>"
                             alt="Corporate concierge security officer supporting workplace security">
                     </div>
@@ -283,7 +283,7 @@
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/Corporate-Security-Patrol-in-Modern-Lobby.webp'
+                                            '/assets/images/security-guard-services/Corporate-Security-Patrol-in-Modern-Lobby.webp'
                                     ); ?>"
                             alt="Advent Security corporate concierge security team">
                     </div>
@@ -707,7 +707,7 @@
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/track-record-section-security.webp'
+                                            '/assets/images/security-guard-services/track-record-section-security.webp'
                                     ); ?>"
                             alt="Advent Security corporate concierge security team">
                     </div>

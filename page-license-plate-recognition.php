@@ -44,7 +44,7 @@ get_header(); ?>
             aria-label="ANPR camera monitoring a vehicle at a MetroPark commercial car park"
             class="hero-photo"
             role="img"
-            style="background-image: url('<?php echo esc_url(get_template_directory_uri() . '/assets/images/lpr-metropark-hero.png'); ?>');">
+            style="background-image: url('<?php echo esc_url(get_template_directory_uri() . '/assets/images/license-plate-recognition/lpr-metropark-hero.png'); ?>');">
         </div>
     </section>
     <section class="proof">
@@ -98,7 +98,7 @@ get_header(); ?>
                 <img
                     alt="Commercial vehicle entry with ANPR security cameras"
                     class="split-image"
-                    src="<?php echo get_template_directory_uri(); ?>/assets/images/image6.png" />
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/license-plate-recognition/image6.webp" />
             </div>
         </div>
     </section>
@@ -129,7 +129,7 @@ get_header(); ?>
             <img
                 alt="MetroPark car park entrance with ANPR cameras and vehicle barrier"
                 class="split-image"
-                src="<?php echo get_template_directory_uri(); ?>/assets/images/lpr-metropark-anpr.png" />
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/license-plate-recognition/lpr-metropark-anpr.webp" />
         </div>
     </section>
     <section class="section reveal">
@@ -250,7 +250,7 @@ get_header(); ?>
                 <img
                     alt="Integrated ANPR and electronic security architecture"
                     class="split-image"
-                    src="<?php echo get_template_directory_uri(); ?>/assets/images/imagelpr8.png" />
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/license-plate-recognition/imagelpr8.webp" />
                 <div class="arch-links">
                     <a
                         class="arch-link"
@@ -290,7 +290,7 @@ get_header(); ?>
                 <img
                     alt="Technician assessing an ANPR camera and vehicle lane geometry"
                     class="split-image"
-                    src="<?php echo get_template_directory_uri(); ?>/assets/images/imagelpr9.png" />
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/license-plate-recognition/imagelpr9.webp" />
                 <div class="feature-list">
                     <div class="feature">
                         <strong>Angle</strong><span>Assess horizontal and vertical viewing
@@ -416,7 +416,7 @@ get_header(); ?>
                 </div>
                 <div
                     class="upgrade-image"
-                    style="background-image: url(&quot;<?php echo get_template_directory_uri(); ?>/assets/images/imagelpr1.png&quot;);"></div>
+                    style="background-image: url(&quot;<?php echo get_template_directory_uri(); ?>/assets/images/license-plate-recognition/imagelpr1.webp&quot;);"></div>
             </div>
             <div class="upgrade-list">
                 <div class="upgrade-item">

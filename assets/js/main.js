@@ -30,21 +30,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
     /* =========================================
        THEME SWITCHER
-    ========================================== */
+========================================== */
 
     const themeToggle = document.querySelector(".theme-toggle");
     const body = document.body;
-    const root = document.documentElement;
 
     if (themeToggle) {
         const savedTheme = localStorage.getItem("advent-theme");
 
+        /*
+         * Default theme is LIGHT.
+         * Dark mode is applied only when the user
+         * has previously selected dark mode.
+         */
         if (savedTheme === "dark") {
             body.classList.add("theme-dark");
-            root.classList.remove("light");
         } else {
             body.classList.remove("theme-dark");
-            root.classList.add("light");
         }
 
         function updateThemeToggle() {
@@ -70,12 +72,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (isDark) {
                 body.classList.add("theme-dark");
-                root.classList.remove("light");
 
                 localStorage.setItem("advent-theme", "dark");
             } else {
                 body.classList.remove("theme-dark");
-                root.classList.add("light");
 
                 localStorage.setItem("advent-theme", "light");
             }

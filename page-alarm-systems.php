@@ -131,7 +131,7 @@ get_header(); ?>
                 alt="Commercial alarm monitoring operations centre"
                 src="<?php echo esc_url(
                             get_template_directory_uri()
-                                . '/assets/images/alarm-monitoring.png'
+                                . '/assets/images/alarm-systems/alarm-monitoring.webp'
                         ); ?>" />
         </div>
     </section>
@@ -153,7 +153,7 @@ get_header(); ?>
                     alt="Diagram showing alarm systems integrated with CCTV, access control, video analytics and monitoring"
                     src="<?php echo esc_url(
                                 get_template_directory_uri()
-                                    . '/assets/images/alarm-integration.png'
+                                    . '/assets/images/alarm-systems/alarm-integration.webp'
                             ); ?>" />
                 <div class="arch-links">
                     <a class="arch-link" href="/cctv-systems/">CCTV Systems</a>
@@ -372,7 +372,7 @@ get_header(); ?>
                 <a
                     href="/faqs/"
                     style="
-                                color: var(--gold);
+                                color: var(--color-primary);
                                 font-size: 12px;
                                 font-weight: 800;
                             ">View all FAQs</a>

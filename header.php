@@ -46,13 +46,13 @@
 
                     <!-- Light Theme Logo -->
                     <img
-                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/Advent-Tagline-Inline Icon-Black.png'); ?>"
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/logo/Advent-Tagline-Inline Icon-Black.png'); ?>"
                         alt="Advent Security"
                         class="site-logo-light">
 
                     <!-- Dark Theme Logo -->
                     <img
-                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/Advent-Tagline-Inline Icon-Black White.png'); ?>"
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/logo/Advent-Tagline-Inline Icon-Black White.png'); ?>"
                         alt="Advent Security"
                         class="site-logo-dark">
 
