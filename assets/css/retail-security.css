@@ -1,0 +1,646 @@
+/* =========================================================
+   RETAIL SECURITY PAGE
+========================================================= */
+
+/* =========================================================
+   RETAIL SECTION HEADINGS
+========================================================= */
+
+.retail-security-page h2 {
+    margin: 0;
+
+    color: var(--color-text);
+
+    font-size: clamp(46px, 4.4vw, 62px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -2.5px;
+}
+
+.retail-security-page h2 span {
+    color: var(--color-primary);
+}
+
+/* =========================================================
+   RETAIL HERO
+========================================================= */
+
+.retail-hero {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.retail-hero .hero-content {
+    min-height: 680px;
+}
+
+.retail-hero .hero-inner {
+    max-width: 670px;
+}
+
+.retail-hero-image {
+    height: 680px;
+}
+
+/* =========================================================
+   RETAIL GENERAL SECTION SPACING
+========================================================= */
+
+.retail-security-page .content-section {
+    padding: 120px 0;
+}
+
+.retail-security-page .industries-section {
+    padding: 120px 0;
+}
+
+.retail-security-page .faq-section {
+    padding: 120px 0;
+}
+
+/* =========================================================
+   RETAIL SECTION INTRO
+========================================================= */
+
+.retail-section-intro {
+    margin-bottom: 60px;
+}
+
+.retail-section-intro p {
+    max-width: 500px;
+
+    margin: 0 0 8px auto;
+
+    color: var(--color-text-muted);
+
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* =========================================================
+   RETAIL CHALLENGE
+========================================================= */
+
+.retail-challenge .section-content p {
+    max-width: 620px;
+}
+
+.retail-protection-strip {
+    margin-top: 70px !important;
+
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.retail-protection-strip .feature-item {
+    min-height: 125px;
+
+    align-items: flex-start;
+
+    padding: 24px 25px;
+}
+
+.retail-protection-strip .feature-item > div {
+    flex: 1;
+}
+
+.retail-protection-strip .feature-item strong {
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: var(--color-text);
+
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.retail-protection-strip .feature-item p {
+    max-width: 260px;
+
+    margin: 0;
+
+    color: var(--color-text-light);
+
+    font-size: 13px;
+    line-height: 1.55;
+}
+
+/* =========================================================
+   RETAIL PROTECTION
+========================================================= */
+
+.retail-protect {
+    background: var(--color-bg);
+}
+
+.retail-protect-grid {
+    margin-top: 55px;
+
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.retail-protect-grid > [class*="col-"] {
+    display: flex;
+}
+
+.retail-protect-card {
+    width: 100%;
+    min-height: 270px;
+
+    padding: 30px;
+}
+
+.retail-protect-card h3 {
+    margin: 55px 0 16px;
+
+    color: var(--color-text);
+
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.retail-protect-card p {
+    margin: 0;
+
+    color: var(--color-text-light);
+
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+/* =========================================================
+   RETAIL SERVICES
+========================================================= */
+
+.retail-services {
+    background: var(--color-surface);
+}
+
+.retail-services > .container > h2 {
+    max-width: 800px;
+
+    margin-bottom: 60px;
+}
+
+.retail-service-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.retail-service-grid .service-card {
+    min-height: 245px;
+
+    padding: 30px;
+}
+
+.retail-service-grid .service-card h3 {
+    margin-top: 38px;
+
+    max-width: 360px;
+
+    font-size: 21px;
+}
+
+.retail-service-grid .service-card p {
+    max-width: 500px;
+
+    margin: 14px 0 0;
+
+    color: var(--color-text-light);
+
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+.retail-service-grid .service-card:hover p {
+    color: #000000;
+}
+
+/* =========================================================
+   RETAIL DAY
+========================================================= */
+
+.retail-day {
+    background: var(--color-bg);
+}
+
+.retail-day > .container > .row {
+    align-items: flex-start;
+}
+
+.retail-day .col-lg-5 > p {
+    max-width: 500px;
+
+    margin: 30px 0 0;
+
+    color: var(--color-text-muted);
+
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.retail-day-list {
+    border-top: 1px solid var(--color-border);
+}
+
+.retail-day-item {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+
+    gap: 25px;
+
+    padding: 28px 0;
+
+    border-bottom: 1px solid var(--color-border);
+}
+
+.retail-day-time {
+    color: var(--color-primary);
+
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.retail-day-content h3 {
+    margin: 0 0 10px;
+
+    color: var(--color-text);
+
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.15;
+}
+
+.retail-day-content p {
+    max-width: 560px;
+
+    margin: 0;
+
+    color: var(--color-text-light);
+
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+/* =========================================================
+   RETAIL APPROACH
+========================================================= */
+
+.retail-approach {
+    background: var(--color-surface);
+}
+
+.retail-approach-image {
+    min-height: 560px;
+}
+
+.retail-approach-image img {
+    width: 100%;
+    height: 560px;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.retail-approach .section-content h2 {
+    max-width: 680px;
+}
+
+.retail-approach .section-content > p {
+    max-width: 600px;
+}
+
+/* =========================================================
+   RETAIL ENVIRONMENTS
+========================================================= */
+
+.retail-environments {
+    background: var(--color-bg);
+}
+
+.retail-environments .industries-intro {
+    max-width: 900px;
+
+    margin-bottom: 60px;
+}
+
+.retail-environments .industries-intro p {
+    max-width: 650px;
+
+    margin-top: 28px;
+}
+
+.retail-environments .industry-card {
+    min-height: 190px;
+
+    padding: 30px;
+}
+
+.retail-environments .industry-card h3 {
+    margin-bottom: 14px;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.retail-environments .industry-card p {
+    max-width: 330px;
+
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* =========================================================
+   WHY ADVENT
+========================================================= */
+
+.retail-why {
+    background: var(--color-surface);
+}
+
+.retail-process {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.retail-process .service-card {
+    min-height: 220px;
+
+    padding: 30px;
+}
+
+.retail-process .service-card h3 {
+    margin-top: 42px;
+}
+
+.retail-process .service-card p {
+    max-width: 500px;
+
+    margin: 12px 0 0;
+
+    color: var(--color-text-light);
+
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+.retail-process .service-card:hover p {
+    color: #000000;
+}
+
+/* =========================================================
+   RETAIL FAQ
+========================================================= */
+
+.retail-faq .faq-header h2 {
+    max-width: 720px;
+}
+
+.retail-faq .faq-list {
+    max-width: 1100px;
+}
+
+/* =========================================================
+   RETAIL CTA
+========================================================= */
+
+.retail-cta h2 {
+    max-width: 850px;
+}
+
+.retail-cta .advent-btn-dark {
+    flex-shrink: 0;
+
+    background: #050505;
+    border-color: #050505;
+    color: #ffffff;
+}
+
+.retail-cta .advent-btn-dark::before {
+    background: #ffffff;
+}
+
+.retail-cta .advent-btn-dark:hover {
+    color: #050505;
+    border-color: #ffffff;
+}
+
+/* =========================================================
+   RETAIL DARK MODE
+========================================================= */
+
+.theme-dark .retail-protect,
+.theme-dark .retail-day,
+.theme-dark .retail-environments {
+    background: var(--color-bg);
+}
+
+.theme-dark .retail-services,
+.theme-dark .retail-approach,
+.theme-dark .retail-why {
+    background: var(--color-surface);
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991.98px) {
+    .retail-security-page .content-section,
+    .retail-security-page .industries-section,
+    .retail-security-page .faq-section {
+        padding: 90px 0;
+    }
+
+    .retail-hero .hero-content {
+        min-height: 560px;
+    }
+
+    .retail-hero-image {
+        height: 560px;
+    }
+
+    .retail-section-intro {
+        margin-bottom: 45px;
+    }
+
+    .retail-protect-grid {
+        margin-top: 40px;
+    }
+
+    .retail-approach-image {
+        min-height: 450px;
+    }
+
+    .retail-approach-image img {
+        height: 450px;
+    }
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767.98px) {
+    .retail-security-page h2 {
+        font-size: 38px;
+        line-height: 1;
+        letter-spacing: -1.7px;
+    }
+
+    .retail-security-page .content-section,
+    .retail-security-page .industries-section,
+    .retail-security-page .faq-section {
+        padding: 80px 0;
+    }
+
+    /* Hero */
+
+    .retail-hero .hero-content {
+        min-height: auto;
+
+        padding: 70px 25px;
+    }
+
+    .retail-hero-image {
+        height: 420px;
+    }
+
+    /* Challenge */
+
+    .retail-protection-strip {
+        margin-top: 45px !important;
+    }
+
+    .retail-protection-strip .feature-item {
+        min-height: auto;
+
+        padding: 22px 20px;
+    }
+
+    .retail-protection-strip .feature-item p {
+        max-width: none;
+    }
+
+    /* Section intro */
+
+    .retail-section-intro {
+        margin-bottom: 40px;
+    }
+
+    .retail-section-intro p {
+        margin: 25px 0 0;
+    }
+
+    /* Protection */
+
+    .retail-protect-grid {
+        margin-top: 35px;
+    }
+
+    .retail-protect-card {
+        min-height: auto;
+
+        padding: 25px;
+    }
+
+    .retail-protect-card h3 {
+        margin-top: 35px;
+    }
+
+    /* Services */
+
+    .retail-services > .container > h2 {
+        margin-bottom: 40px;
+    }
+
+    .retail-service-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .retail-service-grid .service-card {
+        min-height: 220px;
+
+        padding: 25px;
+    }
+
+    /* Typical day */
+
+    .retail-day .col-lg-5 > p {
+        margin-top: 25px;
+    }
+
+    .retail-day-item {
+        grid-template-columns: 40px 1fr;
+
+        gap: 15px;
+
+        padding: 25px 0;
+    }
+
+    .retail-day-content h3 {
+        font-size: 20px;
+    }
+
+    /* Approach */
+
+    .retail-approach-image,
+    .retail-approach-image img {
+        height: 350px;
+        min-height: 350px;
+    }
+
+    /* Environments */
+
+    .retail-environments .industries-intro {
+        margin-bottom: 40px;
+    }
+
+    .retail-environments .industry-card {
+        min-height: auto;
+
+        padding: 25px;
+    }
+
+    /* Why Advent */
+
+    .retail-process {
+        grid-template-columns: 1fr;
+    }
+
+    .retail-process .service-card {
+        min-height: 200px;
+    }
+
+    /* FAQ */
+
+    .retail-faq .faq-header {
+        display: block;
+
+        margin-bottom: 40px;
+    }
+
+    .retail-faq .faq-header > a {
+        display: inline-block;
+
+        margin-top: 25px;
+    }
+
+    /* CTA */
+
+    .retail-cta .cta-inner {
+        display: block;
+    }
+
+    .retail-cta h2 {
+        margin-bottom: 30px;
+    }
+
+    .retail-cta .advent-btn {
+        width: 100%;
+        min-width: 0;
+    }
+}

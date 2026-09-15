@@ -60,58 +60,21 @@
 
             </div>
 
-
             <!-- Navigation -->
             <nav class="main-navigation" aria-label="Primary Navigation">
 
-                <ul>
-
-                    <!-- <li>
-                        <a href="#about">
-                            About
-                        </a>
-                    </li> -->
-
-                    <li>
-                        <a href="<?php echo esc_url(
-                                        home_url('/security-guard-services/')
-                                    ); ?>">
-                            Security Guard Services
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="<?php echo esc_url(
-                                        home_url('/corporate-concierge-services/')
-                                    ); ?>">
-                            Corporate Concierge
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="<?php echo esc_url(
-                                        home_url('/security-consulting/')
-                                    ); ?>">
-                            Security Consulting
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="<?php echo esc_url(
-                                        home_url('/electronic-security/')
-                                    ); ?>">
-                            Electronic Security
-                        </a>
-                    </li>
-
-
-                    <!-- <li>
-                        <a href="#contact">
-                            Contact
-                        </a>
-                    </li> -->
-
-                </ul>
+                <?php
+                wp_nav_menu(
+                    array(
+                        'theme_location' => 'primary_menu',
+                        'container'      => false,
+                        'menu_class'     => '',
+                        'menu_id'        => '',
+                        'fallback_cb'    => false,
+                        'depth'          => 1,
+                    )
+                );
+                ?>
 
             </nav>
 

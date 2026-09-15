@@ -1,0 +1,835 @@
+<?php
+
+/**
+ * Template Name: Construction Security
+ * Template Post Type: page
+ */
+
+get_header();
+?>
+
+<main id="main-content" class="construction-security-page">
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+    <section class="construction-hero">
+
+        <div class="container-fluid px-0">
+
+            <div class="row g-0">
+
+                <div class="col-lg-6">
+
+                    <div class="construction-hero-content">
+
+                        <div class="hero-inner">
+
+                            <span class="eyebrow">
+                                Construction Security
+                            </span>
+
+                            <h1>
+                                Protecting your
+                                <span>construction site</span>
+                                from day one.
+                            </h1>
+
+                            <p>
+                                Construction sites can face theft, vandalism,
+                                unauthorised access and changing security risks
+                                throughout the life of a project. Advent Security
+                                provides professional site security designed around
+                                your people, property and working environment.
+                            </p>
+
+                            <div class="construction-hero-actions">
+
+                                <a href="<?php echo esc_url(home_url('/contact/')); ?>"
+                                    class="advent-btn">
+
+                                    Secure Your Site
+
+                                    <span class="btn-arrow">→</span>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-6">
+
+                    <div class="construction-hero-image">
+
+                        <img
+                            src="<?php echo esc_url(
+                                        get_template_directory_uri() .
+                                            '/assets/images/construction-security/construction-site-security-control-room.webp'
+                                    ); ?>"
+                            alt="Construction security protecting a building site">
+
+                        <!-- <div class="construction-hero-label">
+                            <span>01</span>
+                            Site Protection
+                        </div> -->
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         SITE SECURITY STATEMENT
+    ====================================================== -->
+    <section class="construction-statement">
+
+        <div class="container">
+
+            <div class="row align-items-end">
+
+                <div class="col-lg-8">
+
+                    <span class="eyebrow">The Construction Security Challenge</span>
+
+                    <h2>
+                        An unfinished site can become an
+                        <span>easy target.</span>
+                    </h2>
+
+                </div>
+
+                <div class="col-lg-4">
+
+                    <p>
+                        Construction sites often contain valuable equipment,
+                        materials and machinery before the project is complete.
+                        At the same time, open areas, temporary access points and
+                        changing site conditions can create additional security risks.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         SITE RISKS
+    ====================================================== -->
+    <section class="construction-risks">
+
+        <div class="container">
+
+            <div class="construction-section-heading">
+
+                <span class="eyebrow">Site Risks</span>
+
+                <h2>
+                    Security for the risks
+                    <span>you can see — and those you can't.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="construction-risk-list">
+
+                <article class="construction-risk-item">
+
+                    <div class="construction-risk-number">
+                        01
+                    </div>
+
+                    <div class="construction-risk-title">
+                        <h3>Theft</h3>
+                    </div>
+
+                    <div class="construction-risk-text">
+                        <p>
+                            Tools, machinery, building materials and equipment
+                            can represent significant financial value on an
+                            active construction site.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="construction-risk-item">
+
+                    <div class="construction-risk-number">
+                        02
+                    </div>
+
+                    <div class="construction-risk-title">
+                        <h3>Unauthorised Access</h3>
+                    </div>
+
+                    <div class="construction-risk-text">
+                        <p>
+                            Open or partially completed areas can make it easier
+                            for unauthorised people to enter the site without
+                            permission.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="construction-risk-item">
+
+                    <div class="construction-risk-number">
+                        03
+                    </div>
+
+                    <div class="construction-risk-title">
+                        <h3>Vandalism</h3>
+                    </div>
+
+                    <div class="construction-risk-text">
+                        <p>
+                            Damage to buildings, materials, equipment or temporary
+                            facilities can cause delays and unexpected costs.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="construction-risk-item">
+
+                    <div class="construction-risk-number">
+                        04
+                    </div>
+
+                    <div class="construction-risk-title">
+                        <h3>Changing Site Conditions</h3>
+                    </div>
+
+                    <div class="construction-risk-text">
+                        <p>
+                            Construction sites evolve constantly. Security
+                            arrangements need to work alongside changing layouts,
+                            access points, contractors and working schedules.
+                        </p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         SECURITY SERVICES
+    ====================================================== -->
+    <section class="construction-services">
+
+        <div class="container">
+
+            <div class="row construction-services-intro">
+
+                <div class="col-lg-5">
+
+                    <span class="eyebrow">Construction Security Services</span>
+
+                    <h2>
+                        Practical protection for
+                        <span>active construction sites.</span>
+                    </h2>
+
+                </div>
+
+                <div class="col-lg-7">
+
+                    <p>
+                        Advent Security can provide a professional security
+                        presence around the needs of your project, helping
+                        protect the site while construction work continues.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="construction-service-layout">
+
+                <article class="construction-service-card construction-service-large">
+
+                    <span class="card-number">01</span>
+
+                    <div class="construction-service-content">
+
+                        <h3>Construction Site Security Guards</h3>
+
+                        <p>
+                            A visible and professional security presence can
+                            help deter unwanted activity and provide reassurance
+                            across the site.
+                        </p>
+
+                    </div>
+
+                    <span class="construction-service-arrow">↗</span>
+
+                </article>
+
+
+                <article class="construction-service-card">
+
+                    <span class="card-number">02</span>
+
+                    <div class="construction-service-content">
+
+                        <h3>Site Access Control</h3>
+
+                        <p>
+                            Help manage access to construction areas and
+                            identify activity that falls outside agreed
+                            site procedures.
+                        </p>
+
+                    </div>
+
+                    <span class="construction-service-arrow">↗</span>
+
+                </article>
+
+
+                <article class="construction-service-card">
+
+                    <span class="card-number">03</span>
+
+                    <div class="construction-service-content">
+
+                        <h3>Mobile Security Patrols</h3>
+
+                        <p>
+                            Regular patrols can provide additional visibility
+                            across larger sites, perimeter areas and less
+                            frequently occupied locations.
+                        </p>
+
+                    </div>
+
+                    <span class="construction-service-arrow">↗</span>
+
+                </article>
+
+
+                <article class="construction-service-card">
+
+                    <span class="card-number">04</span>
+
+                    <div class="construction-service-content">
+
+                        <h3>Perimeter Security</h3>
+
+                        <p>
+                            Help protect site boundaries, gates, storage areas
+                            and vulnerable access points from unauthorised entry.
+                        </p>
+
+                    </div>
+
+                    <span class="construction-service-arrow">↗</span>
+
+                </article>
+
+
+                <article class="construction-service-card">
+
+                    <span class="card-number">05</span>
+
+                    <div class="construction-service-content">
+
+                        <h3>Overnight Site Protection</h3>
+
+                        <p>
+                            Security arrangements can continue outside normal
+                            working hours when sites are quieter and valuable
+                            assets remain on the premises.
+                        </p>
+
+                    </div>
+
+                    <span class="construction-service-arrow">↗</span>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         SITE SECURITY IN ACTION
+    ====================================================== -->
+    <section class="construction-site-protection">
+
+        <div class="container">
+
+            <div class="row g-0 align-items-stretch">
+
+                <div class="col-lg-7">
+
+                    <div class="construction-feature-image">
+
+                        <img
+                            src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/construction-security/construction-security-banner.webp'); ?>"
+                            alt="Security professional monitoring an active construction site">
+
+                        <span class="construction-image-caption">
+                            Security presence across the working site
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-5">
+
+                    <div class="construction-feature-content">
+
+                        <span class="eyebrow">Site Security In Action</span>
+
+                        <h2>
+                            Security that works
+                            <span>around your project.</span>
+                        </h2>
+
+                        <p>
+                            Construction security should support the project
+                            rather than get in its way. Security personnel can
+                            work around agreed site procedures, access
+                            arrangements and operational requirements.
+                        </p>
+
+
+                        <ul class="check-list">
+
+                            <li>Monitor agreed access points</li>
+
+                            <li>Maintain a visible site presence</li>
+
+                            <li>Support site access procedures</li>
+
+                            <li>Monitor vulnerable areas and boundaries</li>
+
+                            <li>Respond professionally to incidents</li>
+
+                            <li>Report relevant security concerns</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         WHO WE PROTECT
+    ====================================================== -->
+    <section class="construction-sectors">
+
+        <div class="container">
+
+            <div class="construction-section-heading">
+
+                <span class="eyebrow">Construction Environments</span>
+
+                <h2>
+                    Security for projects at
+                    <span>every stage.</span>
+                </h2>
+
+                <p>
+                    Different projects create different security requirements.
+                    Our approach can be considered around the size, location,
+                    stage and operating conditions of the site.
+                </p>
+
+            </div>
+
+
+            <div class="construction-sector-grid">
+
+                <article class="construction-sector-card">
+
+                    <span>01</span>
+
+                    <h3>New Build Projects</h3>
+
+                    <p>
+                        Security support for new developments from early
+                        construction through to completion.
+                    </p>
+
+                </article>
+
+
+                <article class="construction-sector-card">
+
+                    <span>02</span>
+
+                    <h3>Commercial Developments</h3>
+
+                    <p>
+                        Protection for commercial construction projects
+                        with valuable materials, equipment and active work areas.
+                    </p>
+
+                </article>
+
+
+                <article class="construction-sector-card">
+
+                    <span>03</span>
+
+                    <h3>Residential Developments</h3>
+
+                    <p>
+                        Security arrangements for housing projects,
+                        apartment developments and residential construction sites.
+                    </p>
+
+                </article>
+
+
+                <article class="construction-sector-card">
+
+                    <span>04</span>
+
+                    <h3>Renovation &amp; Refurbishment</h3>
+
+                    <p>
+                        Security for buildings undergoing renovation,
+                        refurbishment or structural work.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         HOW ADVENT WORKS
+    ====================================================== -->
+    <section class="construction-process">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-5">
+
+                    <span class="eyebrow">Our Approach</span>
+
+                    <h2>
+                        A security plan built around
+                        <span>the site.</span>
+                    </h2>
+
+                    <p>
+                        No two construction sites operate in exactly the same
+                        way. Security requirements can change as the project
+                        develops, which is why the approach needs to remain
+                        practical and adaptable.
+                    </p>
+
+                </div>
+
+
+                <div class="col-lg-7">
+
+                    <div class="construction-process-list">
+
+                        <div class="construction-process-item">
+
+                            <span>01</span>
+
+                            <div>
+                                <h3>Understand</h3>
+
+                                <p>
+                                    Consider the site, access points, working
+                                    patterns, assets and existing security
+                                    arrangements.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="construction-process-item">
+
+                            <span>02</span>
+
+                            <div>
+                                <h3>Plan</h3>
+
+                                <p>
+                                    Establish security arrangements around
+                                    the practical requirements of the project.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="construction-process-item">
+
+                            <span>03</span>
+
+                            <div>
+                                <h3>Protect</h3>
+
+                                <p>
+                                    Provide a professional security presence
+                                    throughout the agreed coverage period.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="construction-process-item">
+
+                            <span>04</span>
+
+                            <div>
+                                <h3>Adapt</h3>
+
+                                <p>
+                                    Review security requirements as the site
+                                    develops and circumstances change.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FAQ
+    ====================================================== -->
+    <section class="faq-section construction-faq">
+
+        <div class="container">
+
+            <div class="faq-header">
+
+                <div>
+
+                    <span class="eyebrow">
+                        Frequently Asked Questions
+                    </span>
+
+                    <h2>
+                        Construction security
+                        <span>questions, answered.</span>
+                    </h2>
+
+                </div>
+
+                <a href="<?php echo esc_url(home_url('/contact/')); ?>">
+                    Talk to Advent →
+                </a>
+
+            </div>
+
+
+            <div class="faq-list">
+
+                <details>
+
+                    <summary>
+                        What is construction site security?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Construction site security involves measures designed
+                        to help protect construction premises, equipment,
+                        materials, workers and authorised visitors from theft,
+                        vandalism, unauthorised access and other security risks.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Why do construction sites need security?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Construction sites can contain valuable equipment,
+                        tools and materials and may have open or changing
+                        access points. Professional security can help deter
+                        unwanted activity and provide a response when incidents
+                        occur.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Can security guards work overnight on construction sites?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Yes. Where required, construction security arrangements
+                        can include coverage outside normal working hours,
+                        including overnight periods when sites may have fewer
+                        people present.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Can construction security include access control?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Yes. Security personnel can help monitor agreed access
+                        points and support site access procedures as part of
+                        an overall construction security arrangement.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Can security arrangements change during a project?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        They can. Construction sites change as work progresses,
+                        so security requirements may need to be reviewed when
+                        access points, working patterns, site activity or
+                        valuable assets change.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        What should I consider when choosing construction security?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Consider the site's size, location, access points,
+                        working hours, equipment and materials present, existing
+                        security measures and the periods when the site may be
+                        most vulnerable.
+                    </p>
+
+                </details>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FINAL CTA
+    ====================================================== -->
+    <section class="assessment-cta construction-cta">
+
+        <div class="container">
+
+            <div class="cta-inner">
+
+                <div>
+
+                    <span class="eyebrow">
+                        Construction Security
+                    </span>
+
+                    <h2>
+                        Protect your site.
+                        <span>Keep your project moving.</span>
+                    </h2>
+
+                </div>
+
+
+                <a href="<?php echo esc_url(home_url('/contact/')); ?>"
+                    class="advent-btn advent-btn-dark">
+
+                    Discuss Your Site Security
+
+                    <span class="btn-arrow">→</span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<?php
+get_footer();
+?>

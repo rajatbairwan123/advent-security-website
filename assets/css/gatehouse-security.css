@@ -1,0 +1,913 @@
+/* =========================================================
+   ADVENT SECURITY
+   GATEHOUSE SECURITY PAGE
+========================================================= */
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.gatehouse-hero {
+    padding: 0;
+
+    background: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.gatehouse-hero-grid {
+    min-height: 700px;
+
+    display: grid;
+    grid-template-columns: 0.95fr 1.05fr;
+}
+
+.gatehouse-hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 80px 7vw 80px 0;
+}
+
+.gatehouse-hero-content h1 {
+    max-width: 680px;
+
+    margin: 0;
+
+    color: var(--color-text);
+
+    font-size: clamp(56px, 5.5vw, 80px);
+    font-weight: 600;
+    line-height: 0.93;
+    letter-spacing: -3.5px;
+}
+
+.gatehouse-hero-content h1 span {
+    color: var(--color-primary);
+}
+
+.gatehouse-hero-content p {
+    max-width: 570px;
+
+    margin: 35px 0 0;
+
+    color: var(--color-text-muted);
+
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.gatehouse-hero-actions {
+    margin-top: 38px;
+}
+
+.gatehouse-hero-visual {
+    min-height: 700px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    background: var(--color-surface);
+}
+
+.gatehouse-hero-visual img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+.gatehouse-hero-tag {
+    position: absolute;
+
+    right: 25px;
+    bottom: 25px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+
+    padding: 14px 18px;
+
+    background: var(--color-primary);
+    color: #000000;
+
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.gatehouse-hero-tag span {
+    font-size: 9px;
+}
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+.gatehouse-intro {
+    padding: 120px 0;
+
+    background: var(--color-primary);
+    color: #000000;
+}
+
+.gatehouse-intro .eyebrow {
+    color: #000000;
+}
+
+.gatehouse-intro h2 {
+    max-width: 850px;
+
+    margin: 0;
+
+    color: #000000;
+
+    font-size: clamp(48px, 4.8vw, 68px);
+    font-weight: 600;
+    line-height: 0.96;
+    letter-spacing: -2.8px;
+}
+
+.gatehouse-intro h2 span {
+    color: #ffffff;
+}
+
+.gatehouse-intro p {
+    max-width: 440px;
+
+    margin: 0 0 5px;
+
+    color: #000000;
+
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* =========================================================
+   COMMON HEADING
+========================================================= */
+
+.gatehouse-heading {
+    max-width: 850px;
+
+    margin-bottom: 60px;
+}
+
+.gatehouse-heading h2 {
+    margin: 0;
+
+    color: var(--color-text);
+
+    font-size: clamp(46px, 4.5vw, 64px);
+    font-weight: 600;
+    line-height: 0.96;
+    letter-spacing: -2.5px;
+}
+
+.gatehouse-heading h2 span {
+    color: var(--color-primary);
+}
+
+.gatehouse-heading > p {
+    max-width: 630px;
+
+    margin: 28px 0 0;
+
+    color: var(--color-text-muted);
+
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* =========================================================
+   ACCESS CONTROL
+========================================================= */
+
+.gatehouse-control {
+    padding: 120px 0;
+
+    background: var(--color-bg);
+}
+
+.gatehouse-control-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.gatehouse-control-card {
+    min-height: 280px;
+
+    padding: 30px;
+
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+
+    transition:
+        background-color var(--transition-normal),
+        color var(--transition-normal);
+}
+
+.gatehouse-control-card:hover {
+    background: var(--color-primary);
+}
+
+.gatehouse-control-card > span {
+    color: var(--color-primary);
+
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.gatehouse-control-card:hover > span {
+    color: #000000;
+}
+
+.gatehouse-control-card h3 {
+    margin: 70px 0 14px;
+
+    color: var(--color-text);
+
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.gatehouse-control-card p {
+    max-width: 470px;
+
+    margin: 0;
+
+    color: var(--color-text-light);
+
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+.gatehouse-control-card:hover h3,
+.gatehouse-control-card:hover p {
+    color: #000000;
+}
+
+/* =========================================================
+   FEATURE
+========================================================= */
+
+.gatehouse-feature {
+    padding: 120px 0;
+
+    background: var(--color-surface);
+}
+
+.gatehouse-feature-grid {
+    display: grid;
+
+    grid-template-columns: 1.1fr 0.9fr;
+
+    min-height: 620px;
+}
+
+.gatehouse-feature-image {
+    position: relative;
+
+    min-height: 620px;
+
+    overflow: hidden;
+}
+
+.gatehouse-feature-image img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+.gatehouse-feature-label {
+    position: absolute;
+
+    left: 25px;
+    bottom: 25px;
+
+    padding: 11px 16px;
+
+    background: #000000;
+    color: #ffffff;
+
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.gatehouse-feature-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 60px;
+}
+
+.gatehouse-feature-content h2 {
+    margin: 0;
+
+    color: var(--color-text);
+
+    font-size: clamp(43px, 4vw, 59px);
+    font-weight: 600;
+    line-height: 0.96;
+    letter-spacing: -2.2px;
+}
+
+.gatehouse-feature-content h2 span {
+    color: var(--color-primary);
+}
+
+.gatehouse-feature-content p {
+    max-width: 510px;
+
+    margin: 27px 0 0;
+
+    color: var(--color-text-muted);
+
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* =========================================================
+   FUNCTIONS
+========================================================= */
+
+.gatehouse-functions {
+    padding: 120px 0;
+
+    background: var(--color-bg);
+}
+
+.gatehouse-functions .col-lg-5 h2 {
+    max-width: 500px;
+
+    margin: 0;
+
+    color: var(--color-text);
+
+    font-size: clamp(45px, 4.2vw, 60px);
+    font-weight: 600;
+    line-height: 0.97;
+    letter-spacing: -2.2px;
+}
+
+.gatehouse-functions .col-lg-5 h2 span {
+    color: var(--color-primary);
+}
+
+.gatehouse-function-list {
+    border-top: 1px solid var(--color-border);
+}
+
+.gatehouse-function-list article {
+    display: grid;
+
+    grid-template-columns: 60px 1fr;
+
+    gap: 20px;
+
+    padding: 27px 0;
+
+    border-bottom: 1px solid var(--color-border);
+}
+
+.gatehouse-function-number {
+    color: var(--color-primary);
+
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.gatehouse-function-list h3 {
+    margin: 0 0 9px;
+
+    color: var(--color-text);
+
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.gatehouse-function-list p {
+    max-width: 560px;
+
+    margin: 0;
+
+    color: var(--color-text-light);
+
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+/* =========================================================
+   ACCESS JOURNEY
+========================================================= */
+
+.gatehouse-journey {
+    padding: 120px 0;
+
+    background: var(--color-surface);
+}
+
+.gatehouse-journey-heading {
+    max-width: 850px;
+
+    margin-bottom: 65px;
+}
+
+.gatehouse-journey-heading h2 {
+    margin: 0;
+
+    color: var(--color-text);
+
+    font-size: clamp(48px, 4.7vw, 66px);
+    font-weight: 600;
+    line-height: 0.95;
+    letter-spacing: -2.8px;
+}
+
+.gatehouse-journey-heading h2 span {
+    color: var(--color-primary);
+}
+
+.gatehouse-journey-track {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.gatehouse-journey-step {
+    min-height: 330px;
+
+    padding: 28px;
+
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.gatehouse-journey-step > span {
+    color: var(--color-primary);
+
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.gatehouse-journey-step small {
+    display: block;
+
+    margin-top: 60px;
+
+    color: var(--color-primary);
+
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.gatehouse-journey-step h3 {
+    margin: 8px 0 12px;
+
+    color: var(--color-text);
+
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.gatehouse-journey-step p {
+    margin: 0;
+
+    color: var(--color-text-light);
+
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+/* =========================================================
+   INDUSTRIES
+========================================================= */
+
+.gatehouse-industries {
+    padding: 120px 0;
+
+    background: var(--color-bg);
+}
+
+.gatehouse-industry-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.gatehouse-industry-grid article {
+    min-height: 260px;
+
+    padding: 28px;
+
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.gatehouse-industry-grid article > span {
+    color: var(--color-primary);
+
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.gatehouse-industry-grid h3 {
+    margin: 55px 0 13px;
+
+    color: var(--color-text);
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.gatehouse-industry-grid p {
+    margin: 0;
+
+    color: var(--color-text-light);
+
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* =========================================================
+   WHY ADVENT
+========================================================= */
+
+.gatehouse-why {
+    padding: 120px 0;
+
+    background: var(--color-surface);
+}
+
+.gatehouse-why .col-lg-5 > p {
+    max-width: 470px;
+
+    margin: 0 0 5px auto;
+
+    color: var(--color-text-muted);
+
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.gatehouse-why-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    margin-top: 60px;
+
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.gatehouse-why-grid article {
+    min-height: 250px;
+
+    padding: 28px;
+
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.gatehouse-why-grid article > span {
+    color: var(--color-primary);
+
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.gatehouse-why-grid h3 {
+    margin: 55px 0 12px;
+
+    color: var(--color-text);
+
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.gatehouse-why-grid p {
+    margin: 0;
+
+    color: var(--color-text-light);
+
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* =========================================================
+   FAQ
+========================================================= */
+
+.gatehouse-faq {
+    background: var(--color-bg);
+}
+
+.gatehouse-faq .faq-header h2 span {
+    color: var(--color-primary);
+}
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.gatehouse-cta h2 {
+    max-width: 800px;
+
+    margin: 0;
+
+    color: #000000;
+
+    font-size: clamp(34px, 3.5vw, 48px);
+    line-height: 1;
+}
+
+.gatehouse-cta h2 span {
+    color: #ffffff;
+}
+
+.gatehouse-cta .eyebrow {
+    color: #000000;
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991.98px) {
+    .gatehouse-hero-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gatehouse-hero-content {
+        min-height: 560px;
+
+        padding: 80px 6vw;
+    }
+
+    .gatehouse-hero-visual {
+        min-height: 560px;
+    }
+
+    .gatehouse-intro,
+    .gatehouse-control,
+    .gatehouse-feature,
+    .gatehouse-functions,
+    .gatehouse-journey,
+    .gatehouse-industries,
+    .gatehouse-why {
+        padding: 90px 0;
+    }
+
+    .gatehouse-feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gatehouse-feature-image {
+        min-height: 500px;
+    }
+
+    .gatehouse-feature-content {
+        padding: 50px;
+    }
+
+    .gatehouse-journey-track {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gatehouse-industry-grid,
+    .gatehouse-why-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767.98px) {
+    .gatehouse-hero-content {
+        min-height: auto;
+
+        padding: 75px 25px;
+    }
+
+    .gatehouse-hero-content h1 {
+        font-size: 45px;
+
+        letter-spacing: -2px;
+    }
+
+    .gatehouse-hero-content p {
+        margin-top: 28px;
+
+        font-size: 15px;
+    }
+
+    .gatehouse-hero-visual {
+        min-height: 400px;
+    }
+
+    /* Intro */
+
+    .gatehouse-intro {
+        padding: 80px 0;
+    }
+
+    .gatehouse-intro h2 {
+        font-size: 42px;
+
+        letter-spacing: -2px;
+    }
+
+    .gatehouse-intro p {
+        margin-top: 30px;
+    }
+
+    /* Common */
+
+    .gatehouse-control,
+    .gatehouse-feature,
+    .gatehouse-functions,
+    .gatehouse-journey,
+    .gatehouse-industries,
+    .gatehouse-why {
+        padding: 80px 0;
+    }
+
+    .gatehouse-heading {
+        margin-bottom: 40px;
+    }
+
+    .gatehouse-heading h2,
+    .gatehouse-functions .col-lg-5 h2,
+    .gatehouse-journey-heading h2 {
+        font-size: 40px;
+
+        letter-spacing: -1.7px;
+    }
+
+    /* Control */
+
+    .gatehouse-control-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gatehouse-control-card {
+        min-height: auto;
+
+        padding: 25px;
+    }
+
+    .gatehouse-control-card h3 {
+        margin-top: 35px;
+    }
+
+    /* Feature */
+
+    .gatehouse-feature-image {
+        min-height: 350px;
+    }
+
+    .gatehouse-feature-content {
+        padding: 45px 25px;
+    }
+
+    .gatehouse-feature-content h2 {
+        font-size: 40px;
+
+        letter-spacing: -1.7px;
+    }
+
+    /* Functions */
+
+    .gatehouse-function-list {
+        margin-top: 45px;
+    }
+
+    .gatehouse-function-list article {
+        grid-template-columns: 40px 1fr;
+
+        gap: 15px;
+
+        padding: 25px 0;
+    }
+
+    .gatehouse-function-list h3 {
+        font-size: 20px;
+    }
+
+    /* Journey */
+
+    .gatehouse-journey-heading {
+        margin-bottom: 40px;
+    }
+
+    .gatehouse-journey-track {
+        grid-template-columns: 1fr;
+    }
+
+    .gatehouse-journey-step {
+        min-height: auto;
+
+        padding: 25px;
+    }
+
+    .gatehouse-journey-step small {
+        margin-top: 35px;
+    }
+
+    .gatehouse-journey-step h3 {
+        font-size: 21px;
+    }
+
+    /* Industries */
+
+    .gatehouse-industry-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gatehouse-industry-grid article {
+        min-height: auto;
+
+        padding: 25px;
+    }
+
+    .gatehouse-industry-grid h3 {
+        margin-top: 35px;
+    }
+
+    /* Why */
+
+    .gatehouse-why .col-lg-5 > p {
+        margin: 25px 0 0;
+    }
+
+    .gatehouse-why-grid {
+        grid-template-columns: 1fr;
+
+        margin-top: 40px;
+    }
+
+    .gatehouse-why-grid article {
+        min-height: auto;
+
+        padding: 25px;
+    }
+
+    .gatehouse-why-grid h3 {
+        margin-top: 35px;
+    }
+
+    /* FAQ */
+
+    .gatehouse-faq .faq-header {
+        display: block;
+
+        margin-bottom: 40px;
+    }
+
+    .gatehouse-faq .faq-header > a {
+        display: inline-block;
+
+        margin-top: 25px;
+    }
+
+    /* CTA */
+
+    .gatehouse-cta .cta-inner {
+        display: block;
+    }
+
+    .gatehouse-cta h2 {
+        margin-bottom: 30px;
+
+        font-size: 34px;
+    }
+
+    .gatehouse-cta .advent-btn {
+        width: 100%;
+        min-width: 0;
+    }
+}

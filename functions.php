@@ -1,17 +1,16 @@
 <?php
 
-function advent_security_setup()
+function advent_register_menus()
 {
-    add_theme_support('title-tag');
-    add_theme_support('post-thumbnails');
-    add_theme_support('custom-logo');
 
-    register_nav_menus(array(
-        'primary' => __('Primary Menu', 'advent-security'),
-    ));
+    register_nav_menus(
+        array(
+            'primary_menu' => __('Primary Menu', 'advent-security'),
+        )
+    );
 }
 
-add_action('after_setup_theme', 'advent_security_setup');
+add_action('after_setup_theme', 'advent_register_menus');
 
 
 function advent_security_assets()
@@ -210,6 +209,54 @@ function advent_security_assets()
         wp_enqueue_style(
             'advent-license-plate-recognition',
             get_template_directory_uri() . '/assets/css/license-plate-recognition.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+    if (
+        is_page('Retail Security') ||
+        is_page_template('page-retail-security.php')
+    ) {
+
+        wp_enqueue_style(
+            'advent-retail-security',
+            get_template_directory_uri() . '/assets/css/retail-security.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+    if (
+        is_page('Construction Security') ||
+        is_page_template('page-construction-security.php')
+    ) {
+
+        wp_enqueue_style(
+            'advent-construction-security',
+            get_template_directory_uri() . '/assets/css/construction-security.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+    if (
+        is_page('Event Security') ||
+        is_page_template('page-event-security.php')
+    ) {
+
+        wp_enqueue_style(
+            'advent-event-security',
+            get_template_directory_uri() . '/assets/css/event-security.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+    if (
+        is_page('Gatehouse Security') ||
+        is_page_template('page-gatehouse-security.php')
+    ) {
+
+        wp_enqueue_style(
+            'advent-gatehouse-security',
+            get_template_directory_uri() . '/assets/css/gatehouse-security.css',
             array('advent-responsive'),
             '1.0.0'
         );
