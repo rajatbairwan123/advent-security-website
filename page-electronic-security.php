@@ -8,7 +8,7 @@
 get_header();
 ?>
 
-<main class="home-page">
+<main class="home-page" style="margin-top: 50px;">
 
     <div class="container">
 

@@ -8,9 +8,9 @@
 get_header();
 ?>
 
-<main class="home-page">
+<main class="home-page" style="margin-top: 50px;">
 
-    <div class="container">
+    <div class=" container">
 
         <h1>Security Services</h1>
 
@@ -56,43 +56,43 @@ get_header();
 
             <li>
                 <a href="<?php echo esc_url(home_url('/security-services/gatehouse-security/')); ?>">
-                    Gatehouse Security
+                    Gatehouse Security --- Work pending
                 </a>
             </li>
 
             <li>
                 <a href="<?php echo esc_url(home_url('/security-services/loss-prevention/')); ?>">
-                    Loss Prevention
+                    Loss Prevention --- Not started
                 </a>
             </li>
 
             <li>
                 <a href="<?php echo esc_url(home_url('/security-services/emergency-response/')); ?>">
-                    Emergency Response
+                    Emergency Response --- Not started
                 </a>
             </li>
 
             <li>
                 <a href="<?php echo esc_url(home_url('/security-services/remote-monitoring/')); ?>">
-                    Remote Monitoring
+                    Remote Monitoring --- Not started
                 </a>
             </li>
 
             <li>
                 <a href="<?php echo esc_url(home_url('/security-services/ai-surveillance/')); ?>">
-                    AI Surveillance
+                    AI Surveillance --- Not started
                 </a>
             </li>
 
             <li>
                 <a href="<?php echo esc_url(home_url('/security-services/drone-security/')); ?>">
-                    Drone Security
+                    Drone Security --- Not started
                 </a>
             </li>
 
             <li>
                 <a href="<?php echo esc_url(home_url('/security-services/bodyguard-services/')); ?>">
-                    Bodyguard Services
+                    Bodyguard Services --- Not started
                 </a>
             </li>
 
