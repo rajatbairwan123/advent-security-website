@@ -512,7 +512,7 @@ get_header(); ?>
                 </p>
             </div>
             <div>
-                <a class="advent-btn advent-btn-outline" href="/contact/"><span>Book a CCTV assessment</span><b class="arrow">→</b></a>
+                <a class="advent-btn advent-btn-dark" href="/contact/"><span>Book a CCTV assessment</span><b class="arrow">→</b></a>
                 <div
                     style="
                                 margin-top: 14px;

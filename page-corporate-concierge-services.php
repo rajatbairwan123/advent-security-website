@@ -61,7 +61,7 @@
                 <!-- Hero Image -->
                 <div class="col-lg-6">
 
-                    <div class="hero-image">
+                    <div class="hero-image concierge-img-div">
 
                         <img
                             src="<?php echo esc_url(

@@ -1,0 +1,1100 @@
+/* =========================================================
+   ADVENT SECURITY
+   BOOM GATES PAGE
+   TL LAYOUT / ADVENT DESIGN SYSTEM
+========================================================= */
+
+/* =========================================================
+   PAGE BASE
+========================================================= */
+
+.boom-gates-page {
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+
+.boom-gates-page p {
+    color: var(--color-text-muted);
+}
+
+.boom-gates-page h1,
+.boom-gates-page h2,
+.boom-gates-page h3 {
+    color: var(--color-text);
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.boom-hero {
+    display: grid;
+    grid-template-columns: 46% 54%;
+    min-height: 680px;
+
+    background: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.boom-hero-copy {
+    display: flex;
+    align-items: center;
+
+    padding: 72px 56px 72px max(24px, calc((100vw - 1320px) / 2));
+
+    background: var(--color-bg);
+}
+
+.boom-hero-inner {
+    width: 100%;
+    max-width: 660px;
+}
+
+.boom-hero h1 {
+    max-width: 660px;
+
+    margin: 0 0 26px;
+
+    font-size: clamp(52px, 5vw, 86px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -3px;
+}
+
+.boom-hero h1 span {
+    color: var(--color-primary);
+}
+
+.boom-hero p {
+    max-width: 600px;
+
+    margin: 0 0 12px;
+
+    color: var(--color-text-muted);
+
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.boom-hero-photo {
+    min-width: 0;
+    overflow: hidden;
+
+    background: var(--color-surface);
+}
+
+.boom-hero-photo img {
+    display: block;
+
+    width: 100%;
+    height: 680px;
+    max-width: none;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+/* =========================================================
+   HERO BUTTONS
+========================================================= */
+
+.boom-hero .hero-buttons {
+    margin-top: 28px;
+}
+
+.boom-hero .advent-btn-dark {
+    background: var(--color-black);
+    border-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.boom-hero .advent-btn-dark:hover {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-black);
+}
+
+/* =========================================================
+   PROOF STRIP
+========================================================= */
+
+.boom-proof {
+    background: var(--color-surface);
+
+    border-bottom: 1px solid var(--color-border);
+}
+
+.boom-proof-inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.boom-proof-item {
+    padding: 22px 20px;
+
+    border-right: 1px solid var(--color-border);
+
+    color: var(--color-text);
+
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.boom-proof-item:last-child {
+    border-right: 0;
+}
+
+/* =========================================================
+   COMMON SECTION
+========================================================= */
+
+.boom-section {
+    padding: 105px 0;
+
+    background: var(--color-bg);
+
+    border-bottom: 1px solid var(--color-border);
+}
+
+/* =========================================================
+   SECTION HEAD
+========================================================= */
+
+.boom-section-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    gap: 50px;
+
+    margin-bottom: 52px;
+}
+
+.boom-kicker {
+    margin-bottom: 18px;
+
+    color: var(--color-primary);
+
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+}
+
+.boom-section h2 {
+    max-width: 920px;
+
+    margin: 0;
+
+    color: var(--color-text);
+
+    font-size: clamp(38px, 4vw, 58px);
+    font-weight: 600;
+    line-height: 1.02;
+    letter-spacing: -2.5px;
+}
+
+.boom-section-intro {
+    max-width: 600px;
+
+    margin: 0;
+
+    color: var(--color-text-muted);
+
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* =========================================================
+   TWO COLUMN
+========================================================= */
+
+.boom-two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+.boom-copy-large {
+    color: var(--color-text-muted);
+
+    font-size: 16px;
+    line-height: 1.55;
+}
+
+.boom-copy-large + .boom-copy-large {
+    margin-top: 25px;
+}
+
+/* =========================================================
+   MEDIA FRAME
+========================================================= */
+
+.boom-media-frame {
+    overflow: hidden;
+
+    background: var(--color-surface);
+
+    border: 1px solid var(--color-border);
+}
+
+.boom-media-frame img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    object-fit: contain;
+}
+
+/* =========================================================
+   FEATURE GRID
+========================================================= */
+
+.boom-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    margin-top: 35px;
+
+    border-top: 1px solid var(--color-border);
+}
+
+.boom-feature {
+    padding: 28px 24px;
+
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.boom-feature:nth-child(3n) {
+    border-right: 0;
+}
+
+.boom-feature b {
+    display: block;
+
+    margin-bottom: 12px;
+
+    color: var(--color-primary);
+
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.boom-feature h3 {
+    margin: 0 0 10px;
+
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.boom-feature p {
+    margin: 0;
+
+    color: var(--color-text-muted);
+
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* =========================================================
+   WORKFLOW
+========================================================= */
+
+.boom-workflow {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+    border: 1px solid var(--color-border);
+}
+
+.boom-workflow-step {
+    min-height: 170px;
+
+    padding: 30px 20px;
+
+    position: relative;
+
+    border-right: 1px solid var(--color-border);
+}
+
+.boom-workflow-step:last-child {
+    border-right: 0;
+}
+
+.boom-num {
+    margin-bottom: 34px;
+
+    color: var(--color-primary);
+
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.boom-workflow-step h3 {
+    margin: 0 0 7px;
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.boom-workflow-step p {
+    margin: 0;
+
+    color: var(--color-text-muted);
+
+    font-size: 13px;
+    line-height: 1.55;
+}
+
+/* =========================================================
+   CONFIGURATION CARDS
+========================================================= */
+
+.boom-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 14px;
+}
+
+.boom-card {
+    min-height: 260px;
+
+    padding: 28px;
+
+    background: var(--color-surface);
+
+    border: 1px solid var(--color-border);
+}
+
+.boom-tag {
+    display: inline-block;
+
+    color: var(--color-primary);
+
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+.boom-card h3 {
+    margin: 14px 0 12px;
+
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.boom-card p {
+    margin: 0 0 18px;
+
+    color: var(--color-text-muted);
+
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.boom-card ul {
+    margin: 0;
+    padding-left: 18px;
+
+    color: var(--color-text-muted);
+
+    font-size: 13px;
+}
+
+.boom-card li {
+    margin: 7px 0;
+}
+
+/* =========================================================
+   INTEGRATION
+========================================================= */
+
+.boom-integration-panel {
+    display: grid;
+    grid-template-columns: 0.82fr 1.18fr;
+
+    background: var(--color-surface);
+
+    border: 1px solid var(--color-border);
+}
+
+.boom-integration-intro {
+    padding: 42px 38px;
+
+    border-right: 1px solid var(--color-border);
+}
+
+.boom-integration-intro .boom-section-intro {
+    margin-top: 18px;
+}
+
+.boom-integration-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.boom-integration-grid .boom-feature:nth-child(3n) {
+    border-right: 1px solid var(--color-border);
+}
+
+.boom-integration-grid .boom-feature:nth-child(2n) {
+    border-right: 0;
+}
+
+.boom-integration-grid .boom-feature:nth-last-child(-n + 2) {
+    border-bottom: 0;
+}
+
+/* =========================================================
+   INDUSTRIES
+========================================================= */
+
+.boom-industry-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    border-top: 1px solid var(--color-border);
+}
+
+.boom-industry {
+    padding: 26px 20px;
+
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.boom-industry:nth-child(4n) {
+    border-right: 0;
+}
+
+.boom-industry h3 {
+    margin: 0 0 8px;
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.boom-industry p {
+    margin: 0;
+
+    color: var(--color-text-muted);
+
+    font-size: 13px;
+    line-height: 1.55;
+}
+
+/* =========================================================
+   INSTALLATION PROCESS
+========================================================= */
+
+.boom-process {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    border-top: 1px solid var(--color-border);
+}
+
+.boom-process-step {
+    padding: 28px 22px;
+
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.boom-process-step:nth-child(4n) {
+    border-right: 0;
+}
+
+.boom-step-num {
+    color: var(--color-primary);
+
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.boom-process-step h3 {
+    margin: 16px 0 8px;
+
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.boom-process-step p {
+    margin: 0;
+
+    color: var(--color-text-muted);
+
+    font-size: 13px;
+    line-height: 1.55;
+}
+
+/* =========================================================
+   CHECKLIST
+========================================================= */
+
+.boom-checklist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-top: 25px;
+
+    border-top: 1px solid var(--color-border);
+}
+
+.boom-check {
+    padding: 20px 18px;
+
+    border-bottom: 1px solid var(--color-border);
+
+    color: var(--color-text-muted);
+
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.boom-check strong {
+    margin-right: 8px;
+
+    color: var(--color-primary);
+}
+
+.boom-checklist + .advent-btn {
+    margin-top: 28px;
+}
+
+/* =========================================================
+   WHY ADVENT
+========================================================= */
+
+.boom-why-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 70px;
+
+    align-items: stretch;
+}
+
+.boom-why-image {
+    height: 100%;
+
+    display: flex;
+    align-items: stretch;
+}
+
+.boom-why-image img {
+    width: 100%;
+    height: 100%;
+    min-height: 420px;
+
+    object-fit: cover;
+}
+
+.boom-credibility {
+    border-top: 1px solid var(--color-border);
+}
+
+.boom-credibility-item {
+    padding: 28px 4px 28px 24px;
+
+    border-bottom: 1px solid var(--color-border);
+}
+
+.boom-credibility-label {
+    margin-bottom: 10px;
+
+    color: var(--color-primary);
+
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.boom-credibility-item h3 {
+    margin: 0 0 8px;
+
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.boom-credibility-item p {
+    margin: 0;
+
+    color: var(--color-text-muted);
+
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* =========================================================
+   RELATED SOLUTIONS
+========================================================= */
+
+.boom-related {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    border-top: 1px solid var(--color-border);
+}
+
+.boom-related a {
+    padding: 22px 18px;
+
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+
+    color: var(--color-text);
+
+    font-size: 14px;
+    font-weight: 700;
+
+    transition:
+        background-color var(--transition-normal),
+        color var(--transition-normal);
+}
+
+.boom-related a:nth-child(4n) {
+    border-right: 0;
+}
+
+.boom-related a:hover {
+    background: var(--color-primary);
+    color: #000000;
+}
+
+.boom-related span {
+    display: block;
+
+    margin-top: 7px;
+
+    color: var(--color-text-muted);
+
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.boom-related a:hover span {
+    color: #000000;
+}
+
+/* =========================================================
+   FAQ
+========================================================= */
+
+.boom-faq {
+    max-width: 1050px;
+
+    margin: auto;
+
+    border-top: 1px solid var(--color-border);
+}
+
+.boom-faq details {
+    padding: 0;
+
+    border-bottom: 1px solid var(--color-border);
+}
+
+.boom-faq summary {
+    min-height: 76px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 20px;
+
+    cursor: pointer;
+    list-style: none;
+
+    color: var(--color-text);
+
+    font-size: 16px;
+    font-weight: 600;
+
+    transition: color var(--transition-normal);
+}
+
+.boom-faq summary:hover {
+    color: var(--color-primary);
+}
+
+.boom-faq summary::-webkit-details-marker {
+    display: none;
+}
+
+.boom-faq summary::marker {
+    display: none;
+}
+
+.boom-faq summary::after {
+    content: "+";
+
+    flex: 0 0 auto;
+
+    color: var(--color-primary);
+
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.boom-faq details[open] summary::after {
+    content: "−";
+}
+
+.boom-answer {
+    max-width: 900px;
+
+    padding: 0 40px 24px 0;
+
+    color: var(--color-text-muted);
+
+    font-size: 15px;
+    line-height: 1.75;
+}
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.boom-cta {
+    padding: 88px 0;
+
+    background: var(--color-primary);
+
+    color: #050505;
+}
+
+.boom-cta-inner {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+
+    gap: 50px;
+
+    align-items: center;
+}
+
+.boom-cta-kicker {
+    margin-bottom: 18px;
+
+    color: #050505;
+
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+}
+
+.boom-cta h2 {
+    max-width: 800px;
+
+    margin: 0 0 18px;
+
+    color: #050505;
+
+    font-size: clamp(38px, 4.5vw, 55px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -3px;
+}
+
+.boom-cta p {
+    max-width: 700px;
+
+    margin: 0;
+
+    color: #050505;
+
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.boom-cta-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 16px;
+}
+
+/* .boom-cta .advent-btn-dark {
+    background: #050505;
+    border-color: #050505;
+    color: var(--color-primary);
+}
+
+.boom-cta .advent-btn-dark:hover {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #050505;
+} */
+
+.boom-phone {
+    color: #050505;
+
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.boom-phone a {
+    color: #050505;
+    text-decoration: underline;
+}
+
+/* =========================================================
+   DARK THEME
+========================================================= */
+
+.theme-dark .boom-gates-page,
+.theme-dark .boom-section {
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+
+.theme-dark .boom-hero-copy {
+    background: var(--color-bg);
+}
+
+.theme-dark .boom-hero-photo {
+    background: var(--color-surface);
+}
+
+.theme-dark .boom-proof {
+    background: var(--color-surface);
+}
+
+.theme-dark .boom-card,
+.theme-dark .boom-integration-panel,
+.theme-dark .boom-media-frame {
+    background: var(--color-surface);
+}
+
+.theme-dark .boom-section-intro,
+.theme-dark .boom-copy-large,
+.theme-dark .boom-feature p,
+.theme-dark .boom-workflow-step p,
+.theme-dark .boom-card p,
+.theme-dark .boom-card ul,
+.theme-dark .boom-industry p,
+.theme-dark .boom-process-step p,
+.theme-dark .boom-check,
+.theme-dark .boom-credibility-item p,
+.theme-dark .boom-answer,
+.theme-dark .boom-related span {
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   RESPONSIVE — TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+    .boom-hero {
+        grid-template-columns: 1fr;
+    }
+
+    .boom-hero-copy {
+        padding: 70px 24px;
+    }
+
+    .boom-hero-photo {
+        padding: 18px;
+    }
+
+    .boom-hero-photo img {
+        height: 620px;
+    }
+
+    .boom-proof-inner {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .boom-proof-item:nth-child(2) {
+        border-right: 0;
+    }
+
+    .boom-two-col {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .boom-workflow {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .boom-workflow-step:nth-child(3) {
+        border-right: 0;
+    }
+
+    .boom-workflow-step:nth-child(4) {
+        border-top: 1px solid var(--color-border);
+    }
+
+    .boom-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .boom-industry-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .boom-industry:nth-child(2n) {
+        border-right: 0;
+    }
+
+    .boom-process {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .boom-process-step:nth-child(2n) {
+        border-right: 0;
+    }
+
+    .boom-related {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .boom-related a:nth-child(2n) {
+        border-right: 0;
+    }
+
+    .boom-cta-inner {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* =========================================================
+   RESPONSIVE — MOBILE
+========================================================= */
+
+@media (max-width: 760px) {
+    .boom-hero-copy {
+        padding: 55px 16px;
+    }
+
+    .boom-hero-photo {
+        padding: 12px;
+    }
+
+    .boom-hero-photo img {
+        height: 470px;
+    }
+
+    .boom-hero h1 {
+        font-size: 48px;
+        letter-spacing: -2px;
+    }
+
+    .boom-section {
+        padding: 72px 0;
+    }
+
+    .boom-section-head {
+        display: block;
+
+        margin-bottom: 35px;
+    }
+
+    .boom-section-intro {
+        margin-top: 18px;
+
+        font-size: 16px;
+    }
+
+    .boom-feature-grid,
+    .boom-cards,
+    .boom-industry-grid,
+    .boom-process,
+    .boom-related {
+        grid-template-columns: 1fr;
+    }
+
+    .boom-feature,
+    .boom-industry,
+    .boom-process-step,
+    .boom-related a {
+        border-right: 0;
+    }
+
+    .boom-workflow {
+        grid-template-columns: 1fr;
+    }
+
+    .boom-workflow-step {
+        border-right: 0;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .boom-workflow-step:last-child {
+        border-bottom: 0;
+    }
+
+    .boom-checklist {
+        grid-template-columns: 1fr;
+    }
+
+    .boom-integration-panel {
+        grid-template-columns: 1fr;
+    }
+
+    .boom-integration-intro {
+        border-right: 0;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .boom-integration-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .boom-integration-grid .boom-feature {
+        border-right: 0;
+    }
+
+    .boom-integration-grid .boom-feature:nth-last-child(-n + 2) {
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .boom-integration-grid .boom-feature:last-child {
+        border-bottom: 0;
+    }
+
+    .boom-why-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .boom-why-image img {
+        min-height: 0;
+        height: auto;
+    }
+
+    .boom-credibility {
+        border-top: 0;
+    }
+
+    .boom-cta-actions {
+        align-items: stretch;
+    }
+
+    .boom-cta .advent-btn {
+        width: 100%;
+    }
+
+    .boom-related a:nth-child(2n) {
+        border-right: 0;
+    }
+}

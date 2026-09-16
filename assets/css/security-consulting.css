@@ -43,7 +43,7 @@
 
     color: var(--color-text);
 
-    font-size: clamp(52px, 5vw, 72px);
+    font-size: clamp(52px, 5vw, 76px);
     font-weight: 600;
 
     line-height: 0.96;
@@ -65,7 +65,7 @@
 
     color: var(--color-text-muted);
 
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.7;
 }
 
@@ -169,7 +169,7 @@
 
     color: var(--color-text);
 
-    font-size: clamp(42px, 4vw, 58px);
+    font-size: clamp(46px, 4vw, 58px);
     font-weight: 600;
     line-height: 0.98;
     letter-spacing: -2px;
@@ -182,7 +182,7 @@
 
     color: var(--color-text-muted);
 
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.75;
 }
 
@@ -241,7 +241,7 @@
 
     color: var(--color-text);
 
-    font-size: clamp(42px, 4vw, 60px);
+    font-size: clamp(46px, 4vw, 60px);
     font-weight: 600;
     line-height: 0.96;
     letter-spacing: -2px;
@@ -365,7 +365,7 @@
 
     color: var(--color-text);
 
-    font-size: clamp(44px, 4vw, 62px);
+    font-size: clamp(44px, 4vw, 60px);
     font-weight: 600;
     line-height: 0.96;
     letter-spacing: -2px;

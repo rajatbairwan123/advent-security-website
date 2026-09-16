@@ -54,6 +54,18 @@ get_header();
                 </a>
             </li>
 
+            <li>
+                <a href="<?php echo esc_url(home_url('/electronic-security/boom-gates/')); ?>">
+                    Boom Gates
+                </a>
+            </li>
+
+            <li>
+                <a href="<?php echo esc_url(home_url('/electronic-security/integrated-security-systems/')); ?>">
+                    Integrated Security Systems
+                </a>
+            </li>
+
         </ul>
 
     </div>

@@ -31,20 +31,6 @@
     margin-bottom: 22px;
 }
 
-.hero h1 {
-    max-width: 900px;
-
-    margin: 0;
-
-    color: var(--color-text);
-
-    font-family: var(--font-primary);
-    font-size: clamp(55px, 6.7vw, 102px);
-    font-weight: 600;
-    line-height: 0.93;
-    letter-spacing: -3px;
-}
-
 .gold {
     color: var(--color-primary);
 }
@@ -56,7 +42,7 @@
 
     color: var(--color-text-muted);
 
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.65;
 }
 
@@ -147,7 +133,7 @@
     color: var(--color-text);
 
     font-family: var(--font-primary);
-    font-size: clamp(52px, 5.5vw, 82px);
+    font-size: clamp(52px, 5vw, 86px);
     font-weight: 600;
     line-height: 0.95;
     letter-spacing: -2.5px;
@@ -218,7 +204,7 @@
     color: var(--color-text);
 
     font-family: var(--font-primary);
-    font-size: clamp(40px, 4.8vw, 68px);
+    font-size: clamp(38px, 4vw, 58px);
     font-weight: 600;
     line-height: 1;
     letter-spacing: -2.5px;
@@ -226,8 +212,7 @@
 
 .lead {
     color: var(--color-text-muted);
-
-    font-size: clamp(16px, 1.35vw, 20px);
+    font-size: clamp(16px, 1.3vw, 16px);
     line-height: 1.65;
 }
 
@@ -428,7 +413,7 @@ main .feature-list {
     color: var(--color-text);
 
     font-family: var(--font-primary);
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -487,7 +472,7 @@ main .feature-list {
     color: var(--color-text);
 
     font-family: var(--font-primary);
-    font-size: 27px;
+    font-size: 21px;
     font-weight: 600;
 }
 
@@ -752,8 +737,8 @@ main .faq-list summary {
     color: var(--color-text);
 
     font-family: var(--font-primary);
-    font-size: 19px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
 
     transition: color var(--transition-normal);
 }
@@ -828,7 +813,7 @@ main .faq-list details p {
     color: #050505;
 
     font-family: var(--font-primary);
-    font-size: clamp(38px, 4.5vw, 64px);
+    font-size: clamp(38px, 4.5vw, 55px);
     font-weight: 600;
     line-height: 1;
 }
@@ -851,7 +836,7 @@ main .faq-list details p {
    Advent button component.
 */
 
-.cta .advent-btn-dark {
+/* .cta .advent-btn-dark {
     min-width: 235px;
 
     background: transparent;
@@ -873,7 +858,7 @@ main .faq-list details p {
 
 .cta .advent-btn-dark:hover .arrow {
     transform: translateX(8px);
-}
+} */
 
 /* =========================================================
    PHONE
@@ -1157,11 +1142,12 @@ main .faq-list details p {
     }
 
     main .faq-list summary {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     main .faq-list details p {
         padding-right: 20px;
+        font-size: 14px;
     }
 
     .legal {
@@ -1175,7 +1161,7 @@ main .faq-list details p {
     }
 
     .lead {
-        font-size: 17px;
+        font-size: 16px;
         line-height: 1.65;
     }
 

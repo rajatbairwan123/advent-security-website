@@ -13,7 +13,7 @@ get_header(); ?>
                 <h1>Video Analytics for Smarter, More <span class="gold">Proactive Security</span></h1>
                 <p>Modern CCTV can do more than record what happened. With the right video analytics, camera systems can help identify people, vehicles, objects and defined events in real time, highlight activity that needs attention and make recorded footage easier to search and investigate.</p>
                 <p>Advent Electronics designs video analytics solutions around the site, the existing CCTV environment and the outcomes the organisation needs to achieve.</p>
-                <div class="hero-actions"><a class="advent-btn advent-btn-outline" href="/contact/?service=video-analytics"><span>Book a Video Analytics Assessment</span><b class="arrow">→</b></a><a class="advent-btn advent-btn-dark" href="/contact/?service=video-analytics-quote"><span>Request a Quote</span><b class="arrow">→</b></a></div>
+                <div class="hero-actions"><a class="advent-btn" href="/contact/?service=video-analytics"><span>Book a Video Analytics Assessment</span><b class="arrow">→</b></a><a class="advent-btn" href="/contact/?service=video-analytics-quote"><span>Request a Quote</span><b class="arrow">→</b></a></div>
             </div>
         </div>
         <div aria-label="Australian commercial facility with video analytics context" class="hero-photo" role="img"></div>

@@ -35,7 +35,8 @@ function advent_security_assets()
      * Google Font - Inter
      * -----------------------------------------------------
      *
-     * Main font used throughout the Advent Security website.
+     * Main and ONLY font used throughout the
+     * Advent Security website.
      */
     wp_enqueue_style(
         'advent-security-inter',
@@ -43,34 +44,6 @@ function advent_security_assets()
         array(),
         null
     );
-
-
-    /**
-     * -----------------------------------------------------
-     * Google Font - Manrope
-     * -----------------------------------------------------
-     *
-     * Used on selected electronic security service pages.
-     */
-    if (
-        is_page('cloud-monitoring') ||
-        is_page('video-analytics') ||
-        is_page('cctv') ||
-        is_page('alarm-systems') ||
-        is_page('license-plate-recognition') ||
-        is_page_template('page-cloud-monitoring.php') ||
-        is_page_template('page-video-analytics.php') ||
-        is_page_template('page-cctv.php') ||
-        is_page_template('page-alarm-systems.php') ||
-        is_page_template('page-license-plate-recognition.php')
-    ) {
-        wp_enqueue_style(
-            'advent-electronic-security-fonts',
-            'https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap',
-            array(),
-            null
-        );
-    }
 
 
     /**
@@ -100,7 +73,7 @@ function advent_security_assets()
     wp_enqueue_style(
         'advent-global',
         get_template_directory_uri() . '/assets/css/global.css',
-        array('bootstrap'),
+        array('bootstrap', 'advent-security-inter'),
         '1.0.0'
     );
 
@@ -109,9 +82,6 @@ function advent_security_assets()
      * -----------------------------------------------------
      * Reusable Components
      * -----------------------------------------------------
-     *
-     * Shared buttons, cards, sections and other
-     * reusable UI components.
      */
     wp_enqueue_style(
         'advent-components',
@@ -151,8 +121,6 @@ function advent_security_assets()
      * -----------------------------------------------------
      * Security Global Styles
      * -----------------------------------------------------
-     *
-     * Common styling used by Advent Security pages.
      */
     wp_enqueue_style(
         'advent-security',
@@ -170,9 +138,6 @@ function advent_security_assets()
      * -----------------------------------------------------
      * Responsive Styles
      * -----------------------------------------------------
-     *
-     * Final responsive adjustments for desktop,
-     * tablet and mobile layouts.
      */
     wp_enqueue_style(
         'advent-responsive',
@@ -334,11 +299,45 @@ function advent_security_assets()
 
 
     /**
+     * -----------------------------------------------------
+     * Boom Gates Service
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('boom-gates') ||
+        is_page_template('page-boom-gates.php')
+    ) {
+        wp_enqueue_style(
+            'advent-boom-gates',
+            get_template_directory_uri() . '/assets/css/boom-gates.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
+
+    /**
+     * -----------------------------------------------------
+     * Integrated Security Systems
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('integrated-security-systems') ||
+        is_page_template('integrated-security-systems.php')
+    ) {
+        wp_enqueue_style(
+            'advent-integrated-security-systems',
+            get_template_directory_uri() . '/assets/css/integrated-security-systems.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
+
+    /**
      * =====================================================
      * SECURITY SERVICES - INDUSTRIES
      * =====================================================
-     *
-     * These pages were recently added to the Advent website.
      */
 
 
@@ -346,9 +345,6 @@ function advent_security_assets()
      * -----------------------------------------------------
      * Retail Security
      * -----------------------------------------------------
-     *
-     * URL:
-     * /security-services/retail-security/
      */
     if (
         is_page('retail-security') ||
@@ -367,9 +363,6 @@ function advent_security_assets()
      * -----------------------------------------------------
      * Construction Security
      * -----------------------------------------------------
-     *
-     * URL:
-     * /security-services/construction-security/
      */
     if (
         is_page('construction-security') ||
@@ -388,9 +381,6 @@ function advent_security_assets()
      * -----------------------------------------------------
      * Event Security
      * -----------------------------------------------------
-     *
-     * URL:
-     * /security-services/event-security/
      */
     if (
         is_page('event-security') ||
@@ -409,9 +399,6 @@ function advent_security_assets()
      * -----------------------------------------------------
      * Gatehouse Security
      * -----------------------------------------------------
-     *
-     * URL:
-     * /security-services/gatehouse-security/
      */
     if (
         is_page('gatehouse-security') ||
@@ -432,14 +419,6 @@ function advent_security_assets()
      * =====================================================
      */
 
-
-    /**
-     * -----------------------------------------------------
-     * Bootstrap JavaScript Bundle
-     * -----------------------------------------------------
-     *
-     * Includes Popper.js.
-     */
     wp_enqueue_script(
         'bootstrap',
         'https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js',
@@ -449,13 +428,6 @@ function advent_security_assets()
     );
 
 
-    /**
-     * -----------------------------------------------------
-     * Advent Main JavaScript
-     * -----------------------------------------------------
-     *
-     * Main theme interactions and custom JavaScript.
-     */
     wp_enqueue_script(
         'advent-security-main',
         get_template_directory_uri() . '/assets/js/main.js',

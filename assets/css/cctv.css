@@ -39,7 +39,7 @@
     color: var(--color-text);
 
     font-family: var(--font-primary);
-    font-size: clamp(58px, 7vw, 108px);
+    font-size: clamp(64px, 5vw, 86px);
     font-weight: 600;
     line-height: 0.92;
     letter-spacing: -3px;
@@ -56,7 +56,7 @@
 
     color: var(--color-text-muted);
 
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.65;
 }
 
@@ -177,7 +177,7 @@
     color: var(--color-text);
 
     font-family: var(--font-primary);
-    font-size: clamp(42px, 5vw, 72px);
+    font-size: clamp(38px, 4vw, 58px);
     font-weight: 600;
     line-height: 0.98;
     letter-spacing: -2.5px;
@@ -203,7 +203,7 @@
 .lead {
     color: var(--color-text-muted);
 
-    font-size: clamp(16px, 1.35vw, 20px);
+    font-size: clamp(16px, 1.35vw, 16px);
     line-height: 1.65;
 }
 
@@ -959,7 +959,7 @@ main .faq-list summary {
     color: var(--color-text);
 
     font-family: var(--font-primary);
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 1.35;
 
@@ -1088,7 +1088,7 @@ main .faq-list details p {
     color: #050505;
 
     font-family: var(--font-primary);
-    font-size: clamp(38px, 4.5vw, 64px);
+    font-size: clamp(38px, 4.5vw, 55px);
     font-weight: 600;
     line-height: 1;
 }
@@ -1105,7 +1105,7 @@ main .faq-list details p {
    CTA BUTTON
 ========================================================= */
 
-.cta .advent-btn {
+/* .cta .advent-btn {
     min-width: 235px;
 
     background: transparent;
@@ -1125,7 +1125,7 @@ main .faq-list details p {
 
 .cta .advent-btn:hover .arrow {
     transform: translateX(8px);
-}
+} */
 
 /* =========================================================
    PHONE
@@ -1310,7 +1310,7 @@ main .faq-list details p {
     }
 
     .lead {
-        font-size: 17px;
+        font-size: 16px;
         line-height: 1.65;
     }
 
