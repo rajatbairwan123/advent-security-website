@@ -287,7 +287,7 @@ get_header();
 
                             <div class="consulting-risk-point">
 
-                                <span>01</span>
+                                <span></span>
 
                                 <strong>
                                     Identify
@@ -303,7 +303,7 @@ get_header();
 
                             <div class="consulting-risk-point">
 
-                                <span>02</span>
+                                <span></span>
 
                                 <strong>
                                     Assess
@@ -319,7 +319,7 @@ get_header();
 
                             <div class="consulting-risk-point">
 
-                                <span>03</span>
+                                <span></span>
 
                                 <strong>
                                     Manage
@@ -335,7 +335,7 @@ get_header();
 
                             <div class="consulting-risk-point">
 
-                                <span>04</span>
+                                <span></span>
 
                                 <strong>
                                     Review

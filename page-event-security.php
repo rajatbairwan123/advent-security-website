@@ -163,7 +163,7 @@ get_header();
 
                 <article class="event-overview-card">
 
-                    <span>01</span>
+                    <!-- <span>01</span> -->
 
                     <h3>People</h3>
 
@@ -178,7 +178,7 @@ get_header();
 
                 <article class="event-overview-card">
 
-                    <span>02</span>
+                    <!-- <span>02</span> -->
 
                     <h3>Access</h3>
 
@@ -192,7 +192,7 @@ get_header();
 
                 <article class="event-overview-card">
 
-                    <span>03</span>
+                    <!-- <span>03</span> -->
 
                     <h3>Environment</h3>
 
@@ -206,7 +206,7 @@ get_header();
 
                 <article class="event-overview-card">
 
-                    <span>04</span>
+                    <!-- <span>04</span> -->
 
                     <h3>Response</h3>
 
@@ -261,7 +261,7 @@ get_header();
 
                 <article class="event-service-row">
 
-                    <div class="event-service-number">01</div>
+                    <div class="event-service-number"></div>
 
                     <div class="event-service-title">
                         <h3>Event Security Guards</h3>
@@ -282,7 +282,7 @@ get_header();
 
                 <article class="event-service-row">
 
-                    <div class="event-service-number">02</div>
+                    <div class="event-service-number"></div>
 
                     <div class="event-service-title">
                         <h3>Access &amp; Entry Control</h3>
@@ -302,7 +302,7 @@ get_header();
 
                 <article class="event-service-row">
 
-                    <div class="event-service-number">03</div>
+                    <div class="event-service-number"></div>
 
                     <div class="event-service-title">
                         <h3>Crowd Management</h3>
@@ -323,7 +323,7 @@ get_header();
 
                 <article class="event-service-row">
 
-                    <div class="event-service-number">04</div>
+                    <div class="event-service-number"></div>
 
                     <div class="event-service-title">
                         <h3>Backstage &amp; Restricted Areas</h3>
@@ -343,7 +343,7 @@ get_header();
 
                 <article class="event-service-row">
 
-                    <div class="event-service-number">05</div>
+                    <div class="event-service-number"></div>
 
                     <div class="event-service-title">
                         <h3>VIP &amp; Guest Protection</h3>
@@ -364,7 +364,7 @@ get_header();
 
                 <article class="event-service-row">
 
-                    <div class="event-service-number">06</div>
+                    <div class="event-service-number"></div>
 
                     <div class="event-service-title">
                         <h3>Event Incident Response</h3>
@@ -421,9 +421,7 @@ get_header();
 
                         <article class="event-journey-step">
 
-                            <div class="event-journey-marker">
-                                01
-                            </div>
+                            <div class="event-journey-marker"></div>
 
                             <div>
                                 <span class="event-journey-label">
@@ -444,9 +442,7 @@ get_header();
 
                         <article class="event-journey-step">
 
-                            <div class="event-journey-marker">
-                                02
-                            </div>
+                            <div class="event-journey-marker"></div>
 
                             <div>
                                 <span class="event-journey-label">
@@ -466,9 +462,7 @@ get_header();
 
                         <article class="event-journey-step">
 
-                            <div class="event-journey-marker">
-                                03
-                            </div>
+                            <div class="event-journey-marker"></div>
 
                             <div>
                                 <span class="event-journey-label">
@@ -489,9 +483,7 @@ get_header();
 
                         <article class="event-journey-step">
 
-                            <div class="event-journey-marker">
-                                04
-                            </div>
+                            <div class="event-journey-marker"></div>
 
                             <div>
                                 <span class="event-journey-label">
@@ -549,7 +541,7 @@ get_header();
 
                 <article class="event-type-card">
 
-                    <span>01</span>
+                    <!-- <span>01</span> -->
 
                     <h3>Corporate Events</h3>
 
@@ -563,7 +555,7 @@ get_header();
 
                 <article class="event-type-card">
 
-                    <span>02</span>
+                    <!-- <span>02</span> -->
 
                     <h3>Private Events</h3>
 
@@ -577,7 +569,7 @@ get_header();
 
                 <article class="event-type-card">
 
-                    <span>03</span>
+                    <!-- <span>03</span> -->
 
                     <h3>Live Events</h3>
 
@@ -591,7 +583,7 @@ get_header();
 
                 <article class="event-type-card">
 
-                    <span>04</span>
+                    <!-- <span>04</span> -->
 
                     <h3>Exhibitions &amp; Trade Shows</h3>
 
@@ -605,7 +597,7 @@ get_header();
 
                 <article class="event-type-card">
 
-                    <span>05</span>
+                    <!-- <span>05</span> -->
 
                     <h3>Sports Events</h3>
 
@@ -619,7 +611,7 @@ get_header();
 
                 <article class="event-type-card">
 
-                    <span>06</span>
+                    <!-- <span>06</span> -->
 
                     <h3>Public Gatherings</h3>
 
@@ -745,7 +737,7 @@ get_header();
 
                 <article>
 
-                    <span>01</span>
+                    <!-- <span>01</span> -->
 
                     <h3>Understand</h3>
 
@@ -759,7 +751,7 @@ get_header();
 
                 <article>
 
-                    <span>02</span>
+                    <!-- <span>02</span> -->
 
                     <h3>Prepare</h3>
 
@@ -773,7 +765,7 @@ get_header();
 
                 <article>
 
-                    <span>03</span>
+                    <!-- <span>03</span> -->
 
                     <h3>Support</h3>
 
@@ -787,7 +779,7 @@ get_header();
 
                 <article>
 
-                    <span>04</span>
+                    <!-- <span>04</span> -->
 
                     <h3>Respond</h3>
 

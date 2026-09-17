@@ -189,7 +189,7 @@
 .construction-risk-item {
     display: grid;
 
-    grid-template-columns: 90px 30% 1fr;
+    grid-template-columns: 22px 30% 1fr;
 
     align-items: center;
 
@@ -534,7 +534,7 @@
 .construction-process-item {
     display: grid;
 
-    grid-template-columns: 65px 1fr;
+    grid-template-columns: 0px 1fr;
 
     gap: 25px;
 
@@ -648,7 +648,7 @@
     }
 
     .construction-risk-item {
-        grid-template-columns: 70px 35% 1fr;
+        grid-template-columns: 24px 35% 1fr;
     }
 
     .construction-service-layout {
@@ -746,7 +746,7 @@
     }
 
     .construction-risk-item {
-        grid-template-columns: 40px 1fr;
+        grid-template-columns: 16px 1fr;
 
         align-items: start;
 
@@ -830,7 +830,7 @@
     /* Process */
 
     .construction-process-item {
-        grid-template-columns: 40px 1fr;
+        grid-template-columns: 10px 1fr;
 
         gap: 15px;
 

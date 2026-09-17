@@ -132,32 +132,32 @@
                     <div class="feature-list">
 
                         <div class="feature-item">
-                            <span class="feature-icon">01</span>
+                            <!-- <span class="feature-icon">01</span> -->
                             Professional front-of-house security
                         </div>
 
                         <div class="feature-item">
-                            <span class="feature-icon">02</span>
+                            <!-- <span class="feature-icon">02</span> -->
                             Visitor and contractor management
                         </div>
 
                         <div class="feature-item">
-                            <span class="feature-icon">03</span>
+                            <!-- <span class="feature-icon">03</span> -->
                             Access control and site monitoring
                         </div>
 
                         <div class="feature-item">
-                            <span class="feature-icon">04</span>
+                            <!-- <span class="feature-icon">04</span> -->
                             CCTV and incident monitoring
                         </div>
 
                         <div class="feature-item">
-                            <span class="feature-icon">05</span>
+                            <!-- <span class="feature-icon">05</span> -->
                             Employee and tenant assistance
                         </div>
 
                         <div class="feature-item">
-                            <span class="feature-icon">06</span>
+                            <!-- <span class="feature-icon">06</span> -->
                             Tailored site security procedures
                         </div>
 
@@ -214,9 +214,9 @@
                 <!-- Service 01 -->
                 <article class="service-card">
 
-                    <span class="card-number">
+                    <!-- <span class="card-number">
                         01
-                    </span>
+                    </span> -->
 
                     <h3>
                         Visitor & Contractor Management
@@ -236,9 +236,9 @@
                 <!-- Service 02 -->
                 <article class="service-card">
 
-                    <span class="card-number">
+                    <!-- <span class="card-number">
                         02
-                    </span>
+                    </span> -->
 
                     <h3>
                         Front-of-House Security
@@ -258,9 +258,9 @@
                 <!-- Service 03 -->
                 <article class="service-card">
 
-                    <span class="card-number">
+                    <!-- <span class="card-number">
                         03
-                    </span>
+                    </span> -->
 
                     <h3>
                         Employee Customer Service
@@ -280,9 +280,9 @@
                 <!-- Service 04 -->
                 <article class="service-card">
 
-                    <span class="card-number">
+                    <!-- <span class="card-number">
                         04
-                    </span>
+                    </span> -->
 
                     <h3>
                         Enquiries & Administrative Support
@@ -302,9 +302,9 @@
                 <!-- Service 05 -->
                 <article class="service-card">
 
-                    <span class="card-number">
+                    <!-- <span class="card-number">
                         05
-                    </span>
+                    </span> -->
 
                     <h3>
                         CCTV & Incident Monitoring
@@ -324,9 +324,9 @@
                 <!-- Service 06 -->
                 <article class="service-card">
 
-                    <span class="card-number">
+                    <!-- <span class="card-number">
                         06
-                    </span>
+                    </span> -->
 
                     <h3>
                         Contractor & Vendor Escort
@@ -346,9 +346,9 @@
                 <!-- Service 07 -->
                 <article class="service-card">
 
-                    <span class="card-number">
+                    <!-- <span class="card-number">
                         07
-                    </span>
+                    </span> -->
 
                     <h3>
                         Ad Hoc Concierge Duties
@@ -368,9 +368,9 @@
                 <!-- Service 08 -->
                 <article class="service-card">
 
-                    <span class="card-number">
+                    <!-- <span class="card-number">
                         08
-                    </span>
+                    </span> -->
 
                     <h3>
                         Management & Employee Interaction
@@ -545,32 +545,32 @@
                     <div class="feature-list">
 
                         <div class="feature-item">
-                            <span class="feature-icon">01</span>
+                            <!-- <span class="feature-icon">01</span> -->
                             Access control
                         </div>
 
                         <div class="feature-item">
-                            <span class="feature-icon">02</span>
+                            <!-- <span class="feature-icon">02</span> -->
                             Visitor management
                         </div>
 
                         <div class="feature-item">
-                            <span class="feature-icon">03</span>
+                            <!-- <span class="feature-icon">03</span> -->
                             Contractor sign-in
                         </div>
 
                         <div class="feature-item">
-                            <span class="feature-icon">04</span>
+                            <!-- <span class="feature-icon">04</span> -->
                             CCTV monitoring
                         </div>
 
                         <div class="feature-item">
-                            <span class="feature-icon">05</span>
+                            <!-- <span class="feature-icon">05</span> -->
                             Incident reporting
                         </div>
 
                         <div class="feature-item">
-                            <span class="feature-icon">06</span>
+                            <!-- <span class="feature-icon">06</span> -->
                             Site security procedures
                         </div>
 

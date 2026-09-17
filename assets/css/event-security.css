@@ -312,7 +312,7 @@
 
     display: grid;
 
-    grid-template-columns: 80px 30% 1fr 30px;
+    grid-template-columns: 0px 30% 1fr 30px;
 
     align-items: center;
 
@@ -405,7 +405,7 @@
 .event-journey-step {
     display: grid;
 
-    grid-template-columns: 65px 1fr;
+    grid-template-columns: 0px 1fr;
 
     gap: 25px;
 
@@ -414,7 +414,7 @@
     border-bottom: 1px solid var(--color-border);
 }
 
-.event-journey-marker {
+/* .event-journey-marker {
     width: 42px;
     height: 42px;
 
@@ -428,7 +428,7 @@
 
     font-size: 10px;
     font-weight: 700;
-}
+} */
 
 .event-journey-label {
     display: block;
@@ -759,7 +759,7 @@
     }
 
     .event-service-row {
-        grid-template-columns: 60px 32% 1fr 25px;
+        grid-template-columns: 10px 32% 1fr 25px;
     }
 
     .event-type-grid {
@@ -881,7 +881,7 @@
     }
 
     .event-service-row {
-        grid-template-columns: 40px 1fr 20px;
+        grid-template-columns: 8px 1fr 20px;
 
         gap: 15px;
 
@@ -920,7 +920,7 @@
     }
 
     .event-journey-step {
-        grid-template-columns: 48px 1fr;
+        grid-template-columns: 10px 1fr;
 
         gap: 15px;
 

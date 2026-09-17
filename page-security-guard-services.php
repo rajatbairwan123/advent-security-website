@@ -131,27 +131,22 @@
                     <div class="feature-list">
 
                         <div class="feature-item">
-                            <span class="feature-icon">01</span>
                             <span>Screened and trained personnel</span>
                         </div>
 
                         <div class="feature-item">
-                            <span class="feature-icon">02</span>
                             <span>Professional presentation and communication</span>
                         </div>
 
                         <div class="feature-item">
-                            <span class="feature-icon">03</span>
                             <span>Site-aware and customer-focused service</span>
                         </div>
 
                         <div class="feature-item">
-                            <span class="feature-icon">04</span>
                             <span>Security reporting and incident awareness</span>
                         </div>
 
                         <div class="feature-item">
-                            <span class="feature-icon">05</span>
                             <span>Coverage across major Australian locations</span>
                         </div>
 
@@ -288,8 +283,6 @@
                             alt="Advent Security corporate concierge security team">
                     </div>
 
-
-
                 </div>
 
             </div>
@@ -346,22 +339,18 @@
                     <div class="feature-list">
 
                         <div class="feature-item">
-                            <span class="feature-icon">01</span>
                             <span>Security personnel and site patrols</span>
                         </div>
 
                         <div class="feature-item">
-                            <span class="feature-icon">02</span>
                             <span>CCTV and surveillance monitoring</span>
                         </div>
 
                         <div class="feature-item">
-                            <span class="feature-icon">03</span>
                             <span>Alarm monitoring and response</span>
                         </div>
 
                         <div class="feature-item">
-                            <span class="feature-icon">04</span>
                             <span>Access control and visitor management</span>
                         </div>
 
@@ -415,7 +404,7 @@
                     <div class="service-cards">
 
                         <a href="#" class="service-card">
-                            <span class="card-number">01</span>
+                            <!-- <span class="card-number">01</span> -->
                             <h3>
                                 Construction<br>
                                 Site Security
@@ -424,7 +413,7 @@
                         </a>
 
                         <a href="#" class="service-card">
-                            <span class="card-number">02</span>
+                            <!-- <span class="card-number">02</span> -->
                             <h3>
                                 Event<br>
                                 Security
@@ -433,7 +422,7 @@
                         </a>
 
                         <a href="#" class="service-card">
-                            <span class="card-number">03</span>
+                            <!-- <span class="card-number">03</span> -->
                             <h3>
                                 Retail &amp; Shopping<br>
                                 Centre Security
@@ -442,7 +431,7 @@
                         </a>
 
                         <a href="#" class="service-card">
-                            <span class="card-number">04</span>
+                            <!-- <span class="card-number">04</span> -->
                             <h3>
                                 Corporate &amp;<br>
                                 Commercial
@@ -483,8 +472,6 @@
                 <div class="col-md-6">
                     <article class="location-card">
 
-                        <span>01</span>
-
                         <h3>
                             Construction Site Security – Melbourne
                         </h3>
@@ -505,8 +492,6 @@
 
                 <div class="col-md-6">
                     <article class="location-card">
-
-                        <span>02</span>
 
                         <h3>
                             Event Security Services – Sydney
@@ -529,8 +514,6 @@
                 <div class="col-md-6">
                     <article class="location-card">
 
-                        <span>03</span>
-
                         <h3>
                             Retail &amp; Shopping Centre Security – Brisbane
                         </h3>
@@ -550,8 +533,6 @@
 
                 <div class="col-md-6">
                     <article class="location-card">
-
-                        <span>04</span>
 
                         <h3>
                             Corporate &amp; Commercial Security Australia
@@ -753,7 +734,6 @@
 
                 <div class="col-md-6">
                     <div class="industry-card">
-                        <span class="card-number">01</span>
                         <h3>Understand the site</h3>
                         <p>Consider your location, people, assets, access points and operating environment.</p>
                     </div>
@@ -761,7 +741,6 @@
 
                 <div class="col-md-6">
                     <div class="industry-card">
-                        <span class="card-number">02</span>
                         <h3>Identify the requirements</h3>
                         <p>Define the duties, coverage, monitoring and response requirements relevant to your site.</p>
                     </div>
@@ -769,7 +748,6 @@
 
                 <div class="col-md-6">
                     <div class="industry-card">
-                        <span class="card-number">03</span>
                         <h3>Design the service</h3>
                         <p>Build a practical security approach around your operating hours, risks and objectives.</p>
                     </div>
@@ -777,7 +755,6 @@
 
                 <div class="col-md-6">
                     <div class="industry-card">
-                        <span class="card-number">04</span>
                         <h3>Review and adapt</h3>
                         <p>Security requirements can change, so services can be reviewed as your operation evolves.</p>
                     </div>
@@ -851,7 +828,6 @@
                 <details>
                     <summary>
                         How much does it cost to hire a security guard?
-                        <span>+</span>
                     </summary>
 
                     <p>

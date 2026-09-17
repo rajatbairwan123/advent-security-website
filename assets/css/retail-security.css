@@ -246,9 +246,9 @@
 
 .retail-day-item {
     display: grid;
-    grid-template-columns: 60px 1fr;
+    grid-template-columns: 0px 1fr;
 
-    gap: 25px;
+    /* gap: 25px; */
 
     padding: 28px 0;
 
@@ -574,7 +574,7 @@
     }
 
     .retail-day-item {
-        grid-template-columns: 40px 1fr;
+        grid-template-columns: 0px 1fr;
 
         gap: 15px;
 

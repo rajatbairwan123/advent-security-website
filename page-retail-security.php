@@ -106,7 +106,7 @@ get_header();
 
                 <div class="col-md-4">
                     <div class="feature-item">
-                        <span class="feature-icon">01</span>
+                        <!-- <span class="feature-icon">01</span> -->
 
                         <div>
                             <strong>Customers</strong>
@@ -121,7 +121,7 @@ get_header();
 
                 <div class="col-md-4">
                     <div class="feature-item">
-                        <span class="feature-icon">02</span>
+                        <!-- <span class="feature-icon">02</span> -->
 
                         <div>
                             <strong>People</strong>
@@ -136,7 +136,7 @@ get_header();
 
                 <div class="col-md-4">
                     <div class="feature-item">
-                        <span class="feature-icon">03</span>
+                        <!-- <span class="feature-icon">03</span> -->
 
                         <div>
                             <strong>Property</strong>
@@ -188,7 +188,7 @@ get_header();
                 <div class="col-md-6 col-lg-3">
                     <article class="industry-card retail-protect-card">
 
-                        <span class="card-number">01</span>
+                        <!-- <span class="card-number">01</span> -->
 
                         <h3>Customers</h3>
 
@@ -204,7 +204,7 @@ get_header();
                 <div class="col-md-6 col-lg-3">
                     <article class="industry-card retail-protect-card">
 
-                        <span class="card-number">02</span>
+                        <!-- <span class="card-number">02</span> -->
 
                         <h3>Employees</h3>
 
@@ -220,7 +220,7 @@ get_header();
                 <div class="col-md-6 col-lg-3">
                     <article class="industry-card retail-protect-card">
 
-                        <span class="card-number">03</span>
+                        <!-- <span class="card-number">03</span> -->
 
                         <h3>Stock</h3>
 
@@ -236,7 +236,7 @@ get_header();
                 <div class="col-md-6 col-lg-3">
                     <article class="industry-card retail-protect-card">
 
-                        <span class="card-number">04</span>
+                        <!-- <span class="card-number">04</span> -->
 
                         <h3>Premises</h3>
 
@@ -274,7 +274,7 @@ get_header();
 
                 <article class="service-card">
 
-                    <span class="card-number">01</span>
+                    <!-- <span class="card-number">01</span> -->
 
                     <h3>Retail Security Guards</h3>
 
@@ -291,7 +291,7 @@ get_header();
 
                 <article class="service-card">
 
-                    <span class="card-number">02</span>
+                    <!-- <span class="card-number">02</span> -->
 
                     <h3>Loss Prevention</h3>
 
@@ -301,14 +301,14 @@ get_header();
                         procedures.
                     </p>
 
-                    <span class="card-arrow">↗</span>
+                    <!-- <span class="card-arrow">↗</span> -->
 
                 </article>
 
 
                 <article class="service-card">
 
-                    <span class="card-number">03</span>
+                    <!-- <span class="card-number">03</span> -->
 
                     <h3>Store &amp; Shop Security</h3>
 
@@ -317,14 +317,14 @@ get_header();
                         layout, opening hours and operational requirements.
                     </p>
 
-                    <span class="card-arrow">↗</span>
+                    <!-- <span class="card-arrow">↗</span> -->
 
                 </article>
 
 
                 <article class="service-card">
 
-                    <span class="card-number">04</span>
+                    <!-- <span class="card-number">04</span> -->
 
                     <h3>Customer &amp; Staff Safety</h3>
 
@@ -340,7 +340,7 @@ get_header();
 
                 <article class="service-card">
 
-                    <span class="card-number">05</span>
+                    <!-- <span class="card-number">05</span> -->
 
                     <h3>Access &amp; Entry Control</h3>
 
@@ -356,7 +356,7 @@ get_header();
 
                 <article class="service-card">
 
-                    <span class="card-number">06</span>
+                    <!-- <span class="card-number">06</span> -->
 
                     <h3>Incident Response</h3>
 
@@ -410,7 +410,7 @@ get_header();
 
                         <div class="retail-day-item">
 
-                            <span class="retail-day-time">01</span>
+                            <span class="retail-day-time"></span>
 
                             <div class="retail-day-content">
 
@@ -429,7 +429,7 @@ get_header();
 
                         <div class="retail-day-item">
 
-                            <span class="retail-day-time">02</span>
+                            <span class="retail-day-time"></span>
 
                             <div class="retail-day-content">
 
@@ -448,7 +448,7 @@ get_header();
 
                         <div class="retail-day-item">
 
-                            <span class="retail-day-time">03</span>
+                            <span class="retail-day-time"></span>
 
                             <div class="retail-day-content">
 
@@ -468,7 +468,7 @@ get_header();
 
                         <div class="retail-day-item">
 
-                            <span class="retail-day-time">04</span>
+                            <span class="retail-day-time"></span>
 
                             <div class="retail-day-content">
 
@@ -734,7 +734,7 @@ get_header();
 
                 <article class="service-card">
 
-                    <span class="card-number">01</span>
+                    <!-- <span class="card-number">01</span> -->
 
                     <h3>Understand</h3>
 
@@ -748,7 +748,7 @@ get_header();
 
                 <article class="service-card">
 
-                    <span class="card-number">02</span>
+                    <!-- <span class="card-number">02</span> -->
 
                     <h3>Plan</h3>
 
@@ -762,7 +762,7 @@ get_header();
 
                 <article class="service-card">
 
-                    <span class="card-number">03</span>
+                    <!-- <span class="card-number">03</span> -->
 
                     <h3>Protect</h3>
 
@@ -776,7 +776,7 @@ get_header();
 
                 <article class="service-card">
 
-                    <span class="card-number">04</span>
+                    <!-- <span class="card-number">04</span> -->
 
                     <h3>Review</h3>
 

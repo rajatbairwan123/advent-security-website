@@ -151,9 +151,7 @@ get_header();
 
                 <article class="construction-risk-item">
 
-                    <div class="construction-risk-number">
-                        01
-                    </div>
+                    <div class="construction-risk-number"></div>
 
                     <div class="construction-risk-title">
                         <h3>Theft</h3>
@@ -172,9 +170,7 @@ get_header();
 
                 <article class="construction-risk-item">
 
-                    <div class="construction-risk-number">
-                        02
-                    </div>
+                    <div class="construction-risk-number"></div>
 
                     <div class="construction-risk-title">
                         <h3>Unauthorised Access</h3>
@@ -193,9 +189,7 @@ get_header();
 
                 <article class="construction-risk-item">
 
-                    <div class="construction-risk-number">
-                        03
-                    </div>
+                    <div class="construction-risk-number"></div>
 
                     <div class="construction-risk-title">
                         <h3>Vandalism</h3>
@@ -213,9 +207,7 @@ get_header();
 
                 <article class="construction-risk-item">
 
-                    <div class="construction-risk-number">
-                        04
-                    </div>
+                    <div class="construction-risk-number"></div>
 
                     <div class="construction-risk-title">
                         <h3>Changing Site Conditions</h3>
@@ -275,7 +267,7 @@ get_header();
 
                 <article class="construction-service-card construction-service-large">
 
-                    <span class="card-number">01</span>
+                    <!-- <span class="card-number">01</span> -->
 
                     <div class="construction-service-content">
 
@@ -296,7 +288,7 @@ get_header();
 
                 <article class="construction-service-card">
 
-                    <span class="card-number">02</span>
+                    <!-- <span class="card-number">02</span> -->
 
                     <div class="construction-service-content">
 
@@ -317,7 +309,7 @@ get_header();
 
                 <article class="construction-service-card">
 
-                    <span class="card-number">03</span>
+                    <!-- <span class="card-number">03</span> -->
 
                     <div class="construction-service-content">
 
@@ -338,7 +330,7 @@ get_header();
 
                 <article class="construction-service-card">
 
-                    <span class="card-number">04</span>
+                    <!-- <span class="card-number">04</span> -->
 
                     <div class="construction-service-content">
 
@@ -358,7 +350,7 @@ get_header();
 
                 <article class="construction-service-card">
 
-                    <span class="card-number">05</span>
+                    <!-- <span class="card-number">05</span> -->
 
                     <div class="construction-service-content">
 
@@ -484,7 +476,7 @@ get_header();
 
                 <article class="construction-sector-card">
 
-                    <span>01</span>
+                    <!-- <span>01</span> -->
 
                     <h3>New Build Projects</h3>
 
@@ -498,7 +490,7 @@ get_header();
 
                 <article class="construction-sector-card">
 
-                    <span>02</span>
+                    <!-- <span>02</span> -->
 
                     <h3>Commercial Developments</h3>
 
@@ -512,7 +504,7 @@ get_header();
 
                 <article class="construction-sector-card">
 
-                    <span>03</span>
+                    <!-- <span>03</span> -->
 
                     <h3>Residential Developments</h3>
 
@@ -526,7 +518,7 @@ get_header();
 
                 <article class="construction-sector-card">
 
-                    <span>04</span>
+                    <!-- <span>04</span> -->
 
                     <h3>Renovation &amp; Refurbishment</h3>
 
@@ -578,7 +570,7 @@ get_header();
 
                         <div class="construction-process-item">
 
-                            <span>01</span>
+                            <span></span>
 
                             <div>
                                 <h3>Understand</h3>
@@ -595,7 +587,7 @@ get_header();
 
                         <div class="construction-process-item">
 
-                            <span>02</span>
+                            <span></span>
 
                             <div>
                                 <h3>Plan</h3>
@@ -611,7 +603,7 @@ get_header();
 
                         <div class="construction-process-item">
 
-                            <span>03</span>
+                            <span></span>
 
                             <div>
                                 <h3>Protect</h3>
@@ -627,7 +619,7 @@ get_header();
 
                         <div class="construction-process-item">
 
-                            <span>04</span>
+                            <span></span>
 
                             <div>
                                 <h3>Adapt</h3>
