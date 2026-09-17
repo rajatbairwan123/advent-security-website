@@ -379,7 +379,8 @@ main .feature-list {
 
     margin-top: 45px;
 
-    border: 1px solid var(--color-border);
+    /* border: 1px solid var(--color-border); */
+    gap: 10px;
 }
 
 .card {
@@ -387,20 +388,21 @@ main .feature-list {
 
     padding: 32px;
 
-    background: var(--color-bg);
+    background: var(--color-surface-cards);
 
-    border-right: 1px solid var(--color-border);
+    border: 1px solid var(--color-border);
 
     color: var(--color-text);
 
     transition:
         background-color var(--transition-normal),
         color var(--transition-normal);
+    border-radius: 0px;
 }
 
-.card:last-child {
+/* .card:last-child {
     border-right: 0;
-}
+} */
 
 .card .num {
     margin-bottom: 35px;
@@ -605,9 +607,9 @@ main .industry-grid {
    UPGRADE
 ========================================================= */
 
-.upgrade {
+/* .upgrade {
     background: var(--color-surface);
-}
+} */
 
 .upgrade-box {
     display: grid;
@@ -874,14 +876,14 @@ main .faq-list details p {
     }
 
     .card {
-        border-right: 0;
+        /* border-right: 0; */
 
         border-bottom: 1px solid var(--color-border);
     }
 
-    .card:last-child {
+    /* .card:last-child {
         border-bottom: 0;
-    }
+    } */
 
     main .industry-grid {
         grid-template-columns: repeat(2, 1fr);

@@ -65,7 +65,7 @@ get_header(); ?>
                     <p class="lead">
                         A conventional CCTV system can show a vehicle
                         arriving. Licence plate recognition can add
-                        structured information to that event — such as
+                        structured information to that event such as
                         the recognised plate, time and location and,
                         depending on the selected platform, associated
                         imagery or other vehicle information.

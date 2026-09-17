@@ -1,0 +1,884 @@
+/* =========================================================
+   ADVENT SECURITY
+   INDUSTRY-SPECIFIC SECURITY PAGE
+   Page-specific styles only
+========================================================= */
+
+/* =========================================================
+   PAGE BASE
+========================================================= */
+
+.industry-page {
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+
+.industry-page *,
+.industry-page *::before,
+.industry-page *::after {
+    box-sizing: border-box;
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.industry-hero {
+    display: grid;
+    grid-template-columns: 46% 54%;
+    min-height: 650px;
+    background: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.industry-hero-copy {
+    display: flex;
+    align-items: center;
+    padding: 76px 58px 76px max(24px, calc((100vw - 1320px) / 2));
+    background: var(--color-black);
+    color: var(--color-white);
+}
+
+.industry-hero-copy > div {
+    width: 100%;
+    max-width: 650px;
+}
+
+.industry-hero .eyebrow {
+    margin-bottom: 18px;
+}
+
+.industry-hero h1 {
+    max-width: 650px;
+    margin: 0 0 22px;
+    color: #fff;
+    font-size: clamp(45px, 5vw, 74px);
+    font-weight: 600;
+    line-height: 0.96;
+    letter-spacing: -2.8px;
+}
+
+.industry-hero p {
+    max-width: 650px;
+    margin: 0 0 22px;
+    color: #d3d3d3;
+    font-size: 18px;
+    line-height: 1.65;
+}
+
+.industry-hero p:last-of-type {
+    margin-bottom: 30px;
+}
+
+.industry-hero-photo {
+    min-width: 0;
+    min-height: 650px;
+    overflow: hidden;
+    background: var(--color-bg);
+}
+
+.industry-hero-photo img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: right center;
+}
+
+/* Existing Advent button component is used.
+   Only the dark/outline treatment is adjusted for this hero. */
+
+.industry-hero .advent-btn-dark {
+    background: transparent;
+    border-color: #555;
+    color: #fff;
+}
+
+.industry-hero .advent-btn-dark::before {
+    background: var(--color-primary);
+}
+
+.industry-hero .advent-btn-dark:hover {
+    border-color: var(--color-primary);
+    color: #050505;
+}
+
+.industry-hero .advent-btn-dark:hover .btn-arrow {
+    color: #050505;
+}
+
+/* =========================================================
+   PROOF STRIP
+========================================================= */
+
+.industry-proof {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.industry-proof > div {
+    padding: 25px 24px;
+    border-right: 1px solid var(--color-border);
+}
+
+.industry-proof > div:last-child {
+    border-right: 0;
+}
+
+.industry-proof strong {
+    display: block;
+    margin-bottom: 3px;
+    color: var(--color-text);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.industry-proof span {
+    color: var(--color-text-muted);
+    font-size: 12px;
+}
+
+/* =========================================================
+   SHARED SECTION HEADER
+========================================================= */
+
+.industry-context,
+.industry-directory,
+.industry-method,
+.industry-pathways,
+.industry-why {
+    padding: 105px 0;
+    background: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.industry-section-head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 55px;
+}
+
+.industry-section-head > div {
+    max-width: 650px;
+}
+
+.industry-section-head .kicker {
+    margin-bottom: 14px;
+}
+
+.industry-section-head h2 {
+    margin: 0;
+    color: var(--color-text);
+    font-size: clamp(34px, 4vw, 52px);
+    font-weight: 600;
+    line-height: 0.96;
+    letter-spacing: -1.8px;
+}
+
+.industry-section-head > p {
+    max-width: 520px;
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: 16px;
+    line-height: 1.65;
+}
+
+/* =========================================================
+   CONTEXT
+========================================================= */
+
+.industry-context-intro {
+    max-width: 920px;
+    margin: -20px 0 42px;
+    color: var(--color-text-light);
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.industry-context-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.industry-context-card {
+    min-height: 190px;
+    padding: 30px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    background: var(--color-bg);
+}
+
+.industry-label {
+    color: var(--color-primary);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.industry-context-card h3 {
+    margin: 12px 0 9px;
+    color: var(--color-text);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.industry-context-card p {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+/* =========================================================
+   INDUSTRY DIRECTORY
+========================================================= */
+
+.industry-directory-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+
+.industry-directory-card {
+    position: relative;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 28px;
+    background: var(--color-bg);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    transition:
+        transform var(--transition-fast),
+        border-color var(--transition-fast),
+        background-color var(--transition-normal),
+        color var(--transition-normal);
+}
+
+.industry-directory-card::before {
+    content: "";
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    right: -50px;
+    bottom: -80px;
+    border: 1px solid rgba(244, 176, 0, 0.2);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.industry-directory-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--color-text);
+}
+
+.industry-directory-card h3 {
+    max-width: 370px;
+    margin: 13px 0 12px;
+    color: var(--color-text);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.15;
+}
+
+.industry-directory-card p {
+    max-width: 410px;
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+.industry-explore {
+    position: relative;
+    z-index: 1;
+    margin-top: 22px;
+    color: var(--color-text);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.industry-explore span {
+    margin-left: 8px;
+    color: var(--color-primary);
+}
+
+/* =========================================================
+   METHOD / STEPS
+========================================================= */
+
+.industry-method {
+    background: var(--color-surface);
+}
+
+.industry-steps {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.industry-step {
+    min-height: 245px;
+    padding: 25px 20px 30px;
+    background: var(--color-bg);
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.industry-step b {
+    color: var(--color-primary);
+    font-size: 11px;
+    letter-spacing: 1.6px;
+}
+
+.industry-step h3 {
+    margin: 16px 0 12px;
+    color: var(--color-text);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.industry-step p {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 13px;
+    line-height: 1.55;
+}
+
+/* =========================================================
+   CAPABILITIES
+========================================================= */
+
+.industry-cap-grid {
+    display: grid;
+    grid-template-columns: 1.05fr 1.95fr;
+    gap: 70px;
+    align-items: start;
+}
+
+.industry-cap-lead {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 20px;
+    line-height: 1.65;
+}
+
+.industry-cap-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid var(--color-border);
+}
+
+.industry-cap {
+    padding: 25px 20px 25px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.industry-cap:nth-child(odd) {
+    padding-right: 35px;
+    border-right: 1px solid var(--color-border);
+}
+
+.industry-cap:nth-child(even) {
+    padding-left: 25px;
+}
+
+.industry-cap h3 {
+    margin: 0 0 7px;
+    color: var(--color-text);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.industry-cap p {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 13px;
+    line-height: 1.55;
+}
+
+/* =========================================================
+   PATHWAYS
+========================================================= */
+
+.industry-pathways {
+    background: var(--color-surface);
+}
+
+.industry-path-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.industry-path {
+    min-height: 180px;
+    padding: 25px;
+    background: var(--color-bg);
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.industry-path h3 {
+    margin: 0 0 9px;
+    color: var(--color-text);
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.industry-path p {
+    margin: 0 0 17px;
+    color: var(--color-text-light);
+    font-size: 13px;
+    line-height: 1.55;
+}
+
+.industry-path a {
+    color: var(--color-primary);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.industry-path a:hover {
+    opacity: 0.75;
+}
+
+/* =========================================================
+   WHY ADVENT
+========================================================= */
+
+.industry-why {
+    background: var(--color-bg);
+}
+
+.industry-why-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+}
+
+.industry-why-visual {
+    min-width: 0;
+}
+
+.industry-why-visual img {
+    width: 100%;
+    height: 330px;
+    margin-bottom: 26px;
+    object-fit: cover;
+}
+
+.industry-why-copy {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.industry-why-points {
+    border-top: 1px solid var(--color-border);
+}
+
+.industry-why-point {
+    padding: 23px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.industry-why-point h3 {
+    margin: 0 0 7px;
+    color: var(--color-text);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.industry-why-point p {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.industry-cta-band {
+    padding: 72px 0;
+    background: var(--color-primary);
+    color: #050505;
+}
+
+.industry-cta-band .cta-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.industry-cta-band .kicker {
+    color: #050505;
+}
+
+.industry-cta-band h2 {
+    max-width: 700px;
+    margin: 0;
+    color: #050505;
+    font-size: clamp(34px, 3.2vw, 44px);
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -1.5px;
+}
+
+.industry-cta-band p {
+    max-width: 720px;
+    margin: 13px 0 0;
+    color: #3a2b00;
+}
+
+.industry-cta-buttons {
+    display: flex;
+    flex-shrink: 0;
+    gap: 10px;
+}
+
+.industry-cta-buttons .advent-btn {
+    min-width: 235px;
+    background: #050505;
+    border-color: #050505;
+    color: #fff;
+}
+
+.industry-cta-buttons .advent-btn::before {
+    background: var(--color-primary);
+}
+
+.industry-cta-buttons .advent-btn:hover {
+    color: #050505;
+}
+
+.industry-cta-buttons .advent-btn-dark {
+    background: transparent;
+    border-color: #050505;
+    color: #050505;
+}
+
+.industry-cta-buttons .advent-btn-dark::before {
+    background: #050505;
+}
+
+.industry-cta-buttons .advent-btn-dark:hover {
+    color: #fff;
+}
+
+/* =========================================================
+   FAQ
+========================================================= */
+
+.industry-faq-wrap {
+    max-width: 930px;
+}
+
+.industry-faq {
+    border-top: 1px solid var(--color-border);
+}
+
+.industry-faq details {
+    padding: 22px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.industry-faq summary {
+    position: relative;
+    padding-right: 40px;
+    cursor: pointer;
+    list-style: none;
+    color: var(--color-text);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.industry-faq summary::-webkit-details-marker {
+    display: none;
+}
+
+.industry-faq summary::after {
+    content: "+";
+    position: absolute;
+    top: -5px;
+    right: 0;
+    color: var(--color-primary);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.industry-faq details[open] summary::after {
+    content: "–";
+}
+
+.industry-faq summary:hover {
+    color: var(--color-primary);
+}
+
+.industry-faq details p {
+    max-width: 850px;
+    margin: 13px 0 0;
+    color: var(--color-text-light);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* =========================================================
+   FINAL CTA
+========================================================= */
+
+.industry-final {
+    padding: 95px 0;
+    background: var(--color-bg);
+    color: var(--color-text);
+    text-align: center;
+    border-top: 1px solid var(--color-border);
+}
+
+.industry-final .kicker {
+    margin-bottom: 14px;
+}
+
+.industry-final h2 {
+    margin: 0;
+    color: var(--color-text);
+    font-size: clamp(38px, 4vw, 52px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -2px;
+}
+
+.industry-final p {
+    max-width: 720px;
+    margin: 18px auto 28px;
+    color: var(--color-text-muted);
+}
+
+.industry-final .advent-btn {
+    min-width: 235px;
+}
+
+/* =========================================================
+   DARK THEME
+========================================================= */
+
+.theme-dark .industry-hero-copy {
+    background: #050505;
+}
+
+.theme-dark .industry-hero-photo {
+    background: #050505;
+}
+
+.theme-dark .industry-proof,
+.theme-dark .industry-context,
+.theme-dark .industry-directory,
+.theme-dark .industry-method,
+.theme-dark .industry-pathways,
+.theme-dark .industry-why,
+.theme-dark .industry-final {
+    background: var(--color-bg);
+}
+
+.theme-dark .industry-context-card,
+.theme-dark .industry-directory-card,
+.theme-dark .industry-step,
+.theme-dark .industry-path {
+    background: var(--color-surface);
+}
+
+.theme-dark .industry-method,
+.theme-dark .industry-pathways {
+    background: var(--color-surface);
+}
+
+.theme-dark .industry-directory-card:hover {
+    border-color: var(--color-primary);
+}
+
+.theme-dark .industry-proof > div,
+.theme-dark .industry-context-card,
+.theme-dark .industry-directory-card,
+.theme-dark .industry-step,
+.theme-dark .industry-path {
+    border-color: var(--color-border);
+}
+
+.theme-dark .industry-hero h1,
+.theme-dark .industry-proof strong,
+.theme-dark .industry-context-card h3,
+.theme-dark .industry-directory-card h3,
+.theme-dark .industry-step h3,
+.theme-dark .industry-cap h3,
+.theme-dark .industry-path h3,
+.theme-dark .industry-why-point h3,
+.theme-dark .industry-faq summary,
+.theme-dark .industry-final h2 {
+    color: var(--color-text);
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1000px) {
+    .industry-hero {
+        grid-template-columns: 1fr;
+    }
+
+    .industry-hero-copy {
+        padding: 70px 24px;
+    }
+
+    .industry-hero-photo {
+        min-height: 430px;
+    }
+
+    .industry-proof {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .industry-context-grid,
+    .industry-directory-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .industry-steps {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .industry-path-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .industry-cap-grid,
+    .industry-why-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .industry-why-visual img {
+        height: auto;
+    }
+
+    .industry-cta-band .cta-inner {
+        display: block;
+    }
+
+    .industry-cta-buttons {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 640px) {
+    .industry-context,
+    .industry-directory,
+    .industry-method,
+    .industry-pathways,
+    .industry-why {
+        padding: 72px 0;
+    }
+
+    .industry-hero-copy {
+        padding: 58px 15px;
+    }
+
+    .industry-hero h1 {
+        font-size: clamp(42px, 12vw, 58px);
+        letter-spacing: -2px;
+    }
+
+    .industry-hero p {
+        font-size: 16px;
+    }
+
+    .industry-hero-photo {
+        min-height: 320px;
+    }
+
+    .industry-proof {
+        grid-template-columns: 1fr;
+    }
+
+    .industry-proof > div {
+        border-right: 0;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .industry-proof > div:last-child {
+        border-bottom: 0;
+    }
+
+    .industry-section-head {
+        display: block;
+        margin-bottom: 35px;
+    }
+
+    .industry-section-head > p {
+        margin-top: 20px;
+    }
+
+    .industry-context-grid,
+    .industry-directory-grid,
+    .industry-path-grid,
+    .industry-steps {
+        grid-template-columns: 1fr;
+    }
+
+    .industry-context-card {
+        min-height: auto;
+    }
+
+    .industry-cap-list {
+        grid-template-columns: 1fr;
+    }
+
+    .industry-cap:nth-child(odd),
+    .industry-cap:nth-child(even) {
+        padding: 22px 0;
+        border-right: 0;
+    }
+
+    .industry-cta-band h2 {
+        font-size: 34px;
+    }
+
+    .industry-cta-buttons {
+        flex-direction: column;
+    }
+
+    .industry-cta-buttons .advent-btn {
+        width: 100%;
+    }
+
+    .industry-final {
+        padding: 72px 0;
+    }
+}

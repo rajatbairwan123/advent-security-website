@@ -640,9 +640,9 @@ main .feature-list {
    INDUSTRIES
 ========================================================= */
 
-.industries {
+/* .industries {
     background: var(--color-surface);
-}
+} */
 
 main .industry-grid {
     display: grid;
@@ -760,9 +760,9 @@ main .industry-grid {
    UPGRADE
 ========================================================= */
 
-.upgrade {
+/* .upgrade {
     background: var(--color-surface);
-}
+} */
 
 .upgrade-box {
     display: grid;

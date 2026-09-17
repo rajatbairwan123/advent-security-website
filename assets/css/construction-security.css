@@ -243,7 +243,7 @@
 .construction-services {
     padding: 120px 0;
 
-    background: var(--color-surface);
+    background: var(--color-surface-cards);
 }
 
 .construction-services-intro {
@@ -460,7 +460,7 @@
 .construction-sectors {
     padding: 120px 0;
 
-    background: var(--color-surface);
+    background: var(--color-surface-cards);
 }
 
 .construction-sector-grid {
@@ -576,7 +576,7 @@
 ========================================================= */
 
 .construction-faq {
-    background: var(--color-surface);
+    background: var(--color-surface-cards);
 }
 
 .construction-faq .faq-header h2 span {

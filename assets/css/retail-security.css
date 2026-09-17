@@ -87,8 +87,8 @@
 .retail-protection-strip {
     margin-top: 70px !important;
 
-    border-top: 1px solid var(--color-border);
-    border-left: 1px solid var(--color-border);
+    /* border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border); */
 }
 
 .retail-protection-strip .feature-item {
@@ -175,7 +175,7 @@
 ========================================================= */
 
 .retail-services {
-    background: var(--color-surface);
+    background: var(--color-surface-cards);
 }
 
 .retail-services > .container > h2 {
@@ -289,7 +289,7 @@
 ========================================================= */
 
 .retail-approach {
-    background: var(--color-surface);
+    background: var(--color-surface-cards);
 }
 
 .retail-approach-image {
@@ -359,7 +359,7 @@
 ========================================================= */
 
 .retail-why {
-    background: var(--color-surface);
+    background: var(--color-surface-cards);
 }
 
 .retail-process {

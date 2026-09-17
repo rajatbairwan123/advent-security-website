@@ -276,7 +276,7 @@
 .integrated-answer {
     padding: 34px;
 
-    background: var(--color-surface);
+    /* background: var(--color-surface); */
 
     border: 1px solid var(--color-border);
 }
@@ -596,7 +596,8 @@
 
     padding: 55px;
 
-    background: #f5f5f1;
+    /* background: #f5f5f1; */
+    border: 1px solid var(--color-border);
 }
 
 .integrated-upgrade p {

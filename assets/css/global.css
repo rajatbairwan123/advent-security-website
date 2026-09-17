@@ -22,6 +22,7 @@
     --color-bg: #ffffff;
     --color-surface: #f7f7f7;
     --color-surface-alt: #fafafa;
+    --color-surface-cards: #ffffff;
 
     /* -----------------------------------------------------
        TEXT
@@ -88,6 +89,7 @@
 .theme-dark {
     --color-bg: #050505;
     --color-surface: #080808;
+    --color-surface-cards: #080808;
     --color-surface-alt: #0a0a0a;
 
     --color-text: #ffffff;

@@ -126,17 +126,35 @@
 
 .advent-btn-dark {
     min-width: 220px;
+    min-height: 56px;
+    padding: 0 22px;
 
     position: relative;
     z-index: 1;
 
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 35px;
     overflow: hidden;
 
-    background: var(--color-bg);
-    border: 1px solid var(--color-text);
-    color: var(--color-text);
+    background: #050505;
+    border: 1px solid #050505;
+    color: #ffffff;
+
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+
+    transition:
+        color var(--transition-normal),
+        border-color var(--transition-normal),
+        transform var(--transition-fast);
 }
 
+/* Hover background */
 .advent-btn-dark::before {
     content: "";
 
@@ -144,7 +162,7 @@
     inset: 0;
     z-index: -1;
 
-    background: #111111;
+    background: var(--color-white);
 
     transform: scaleX(0);
     transform-origin: left;
@@ -152,13 +170,31 @@
     transition: transform var(--transition-normal);
 }
 
+/* Hover */
 .advent-btn-dark:hover::before {
     transform: scaleX(1);
 }
 
 .advent-btn-dark:hover {
-    color: #ffffff;
-    border-color: #111111;
+    color: #050505;
+    border-color: var(--color-border-dark);
+}
+
+/* Optional subtle lift */
+.advent-btn-dark:hover {
+    transform: translateY(-2px);
+}
+
+/* Arrow */
+.advent-btn-dark .btn-arrow {
+    transition:
+        transform var(--transition-normal),
+        color var(--transition-normal);
+}
+
+.advent-btn-dark:hover .btn-arrow {
+    transform: translateX(8px);
+    color: #050505;
 }
 
 /* =========================================================

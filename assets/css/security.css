@@ -148,7 +148,7 @@
 ========================================================= */
 
 .location-services {
-    background: var(--color-surface);
+    background: var(--color-surface-cards);
 }
 
 .location-services > .container > h2 {
@@ -181,7 +181,7 @@
 ========================================================= */
 
 .why-advent {
-    background: var(--color-surface);
+    background: var(--color-surface-cards);
 }
 
 /* =========================================================

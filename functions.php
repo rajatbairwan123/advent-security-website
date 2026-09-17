@@ -411,6 +411,22 @@ function advent_security_assets()
             '1.0.0'
         );
     }
+    /**
+     * -----------------------------------------------------
+     * Industry specific security
+     * -----------------------------------------------------
+     */
+    // if (
+    //     is_page('industry-specific-security') ||
+    //     is_page_template('page-industry-specific-security.php')
+    // ) {
+    //     wp_enqueue_style(
+    //         'advent-industry-specific-security',
+    //         get_template_directory_uri() . '/assets/css/industry-specific-security.css',
+    //         array('advent-responsive'),
+    //         '1.0.0'
+    //     );
+    // }
 
 
     /**

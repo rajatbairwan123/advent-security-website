@@ -197,7 +197,7 @@
 .consulting-risk-section {
     padding: 0;
 
-    background: var(--color-surface);
+    background: var(--color-surface-cards);
 
     border-top: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
@@ -463,6 +463,8 @@
             cover no-repeat;
 
     color: #ffffff;
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
 }
 
 .consulting-expertise-overlay {
