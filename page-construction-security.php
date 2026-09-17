@@ -10,9 +10,9 @@ get_header();
 
 <main id="main-content" class="construction-security-page">
 
-    <!-- =====================================================
-         HERO
-    ====================================================== -->
+    <!-- =========================================
+         01. HERO
+    ========================================== -->
     <section class="construction-hero">
 
         <div class="container-fluid px-0">
@@ -89,10 +89,9 @@ get_header();
 
     </section>
 
-
-    <!-- =====================================================
-         SITE SECURITY STATEMENT
-    ====================================================== -->
+    <!-- =========================================
+         02. SERVICES — SECURITY CHALLENGE
+    ========================================== -->
     <section class="construction-statement">
 
         <div class="container">
@@ -127,10 +126,9 @@ get_header();
 
     </section>
 
-
-    <!-- =====================================================
-         SITE RISKS
-    ====================================================== -->
+    <!-- =========================================
+         02. SERVICES — SITE RISKS
+    ========================================== -->
     <section class="construction-risks">
 
         <div class="container">
@@ -229,10 +227,9 @@ get_header();
 
     </section>
 
-
-    <!-- =====================================================
-         SECURITY SERVICES
-    ====================================================== -->
+    <!-- =========================================
+         02. SERVICES — CONSTRUCTION SECURITY SERVICES
+    ========================================== -->
     <section class="construction-services">
 
         <div class="container">
@@ -374,10 +371,9 @@ get_header();
 
     </section>
 
-
-    <!-- =====================================================
-         SITE SECURITY IN ACTION
-    ====================================================== -->
+    <!-- =========================================
+         03. TRUST / EXPERTISE
+    ========================================== -->
     <section class="construction-site-protection">
 
         <div class="container">
@@ -446,99 +442,9 @@ get_header();
 
     </section>
 
-
-    <!-- =====================================================
-         WHO WE PROTECT
-    ====================================================== -->
-    <section class="construction-sectors">
-
-        <div class="container">
-
-            <div class="construction-section-heading">
-
-                <span class="eyebrow">Construction Environments</span>
-
-                <h2>
-                    Security for projects at
-                    <span>every stage.</span>
-                </h2>
-
-                <p>
-                    Different projects create different security requirements.
-                    Our approach can be considered around the size, location,
-                    stage and operating conditions of the site.
-                </p>
-
-            </div>
-
-
-            <div class="construction-sector-grid">
-
-                <article class="construction-sector-card">
-
-                    <!-- <span>01</span> -->
-
-                    <h3>New Build Projects</h3>
-
-                    <p>
-                        Security support for new developments from early
-                        construction through to completion.
-                    </p>
-
-                </article>
-
-
-                <article class="construction-sector-card">
-
-                    <!-- <span>02</span> -->
-
-                    <h3>Commercial Developments</h3>
-
-                    <p>
-                        Protection for commercial construction projects
-                        with valuable materials, equipment and active work areas.
-                    </p>
-
-                </article>
-
-
-                <article class="construction-sector-card">
-
-                    <!-- <span>03</span> -->
-
-                    <h3>Residential Developments</h3>
-
-                    <p>
-                        Security arrangements for housing projects,
-                        apartment developments and residential construction sites.
-                    </p>
-
-                </article>
-
-
-                <article class="construction-sector-card">
-
-                    <!-- <span>04</span> -->
-
-                    <h3>Renovation &amp; Refurbishment</h3>
-
-                    <p>
-                        Security for buildings undergoing renovation,
-                        refurbishment or structural work.
-                    </p>
-
-                </article>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =====================================================
-         HOW ADVENT WORKS
-    ====================================================== -->
+    <!-- =========================================
+         04. PROCESS
+    ========================================== -->
     <section class="construction-process">
 
         <div class="container">
@@ -642,10 +548,316 @@ get_header();
 
     </section>
 
+    <!-- =========================================
+         05. INDUSTRIES
+    ========================================== -->
+    <section class="construction-sectors">
 
-    <!-- =====================================================
-         FAQ
-    ====================================================== -->
+        <div class="container">
+
+            <div class="construction-section-heading">
+
+                <span class="eyebrow">Construction Environments</span>
+
+                <h2>
+                    Security for projects at
+                    <span>every stage.</span>
+                </h2>
+
+                <p>
+                    Different projects create different security requirements.
+                    Our approach can be considered around the size, location,
+                    stage and operating conditions of the site.
+                </p>
+
+            </div>
+
+
+            <div class="construction-sector-grid">
+
+                <article class="construction-sector-card">
+
+                    <!-- <span>01</span> -->
+
+                    <h3>New Build Projects</h3>
+
+                    <p>
+                        Security support for new developments from early
+                        construction through to completion.
+                    </p>
+
+                </article>
+
+
+                <article class="construction-sector-card">
+
+                    <!-- <span>02</span> -->
+
+                    <h3>Commercial Developments</h3>
+
+                    <p>
+                        Protection for commercial construction projects
+                        with valuable materials, equipment and active work areas.
+                    </p>
+
+                </article>
+
+
+                <article class="construction-sector-card">
+
+                    <!-- <span>03</span> -->
+
+                    <h3>Residential Developments</h3>
+
+                    <p>
+                        Security arrangements for housing projects,
+                        apartment developments and residential construction sites.
+                    </p>
+
+                </article>
+
+
+                <article class="construction-sector-card">
+
+                    <!-- <span>04</span> -->
+
+                    <h3>Renovation &amp; Refurbishment</h3>
+
+                    <p>
+                        Security for buildings undergoing renovation,
+                        refurbishment or structural work.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================
+         06. WHY ADVENT
+    ========================================== -->
+    <section class="construction-why-advent content-section">
+
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+
+                    <div class="section-content">
+
+                        <span class="eyebrow">
+                            WHY ADVENT SECURITY
+                        </span>
+
+                        <h2>
+                            Security that works
+                            <span>around your project.</span>
+                        </h2>
+
+                        <p>
+                            Construction sites change throughout a project.
+                            Security needs to be practical, professional and
+                            able to work alongside your people, contractors,
+                            access arrangements and working schedules.
+                        </p>
+
+                        <ul class="check-list">
+                            <li>Professional security presence for active sites</li>
+                            <li>Security arrangements built around site requirements</li>
+                            <li>Support for access points, boundaries and vulnerable areas</li>
+                            <li>Coverage options for working and after-hours periods</li>
+                            <li>Approach that can adapt as the project develops</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div class="image-placeholder wide-placeholder">
+
+                        <img
+                            src="<?php echo esc_url(
+                                        get_template_directory_uri() .
+                                            '/assets/images/construction-security/construction-security-banner.webp'
+                                    ); ?>"
+                            alt="Advent Security protecting a construction site">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================
+         07. RELATED SERVICES
+    ========================================== -->
+    <section class="content-section related-services construction-related-service-section">
+
+        <div class="container">
+
+            <div class="related-services-header">
+
+                <div>
+
+                    <span class="eyebrow">
+                        RELATED SERVICES
+                    </span>
+
+                    <h2>
+                        Explore our other<br>
+                        <span>security services.</span>
+                    </h2>
+
+                    <p>
+                        Explore related security solutions that can complement
+                        your security requirements and operational environment.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="related-services-grid">
+
+                <a href="<?php echo esc_url(home_url('/security-guard-services/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" />
+                            <path d="M5 21a7 7 0 0 1 14 0" />
+                            <path d="M4 21h16" />
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Security Guard<br>
+                        Services
+                    </span>
+
+                    <span class="related-service-arrow">→</span>
+
+                </a>
+
+                <a href="<?php echo esc_url(home_url('/security-services/corporate-concierge-services/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 18h16" />
+                            <path d="M6 18v-7h12v7" />
+                            <path d="M8 11V7h8v4" />
+                            <path d="M10 7V4h4v3" />
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Corporate &amp;<br>
+                        Concierge Security
+                    </span>
+
+                    <span class="related-service-arrow">→</span>
+
+                </a>
+
+                <a href="<?php echo esc_url(home_url('/security-services/security-consulting/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 3 20 6v5c0 5.2-3.3 8.7-8 10-4.7-1.3-8-4.8-8-10V6l8-3Z" />
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Security<br>
+                        Consulting
+                    </span>
+
+                    <span class="related-service-arrow">→</span>
+
+                </a>
+
+                <a href="<?php echo esc_url(home_url('/security-services/alarm-monitoring/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M6 18h12" />
+                            <path d="M7 18v-6a5 5 0 0 1 10 0v6" />
+                            <path d="M5 21h14" />
+                            <path d="M12 3v2" />
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Alarm<br>
+                        Monitoring
+                    </span>
+
+                    <span class="related-service-arrow">→</span>
+
+                </a>
+
+                <a href="<?php echo esc_url(home_url('/security-services/retail-security/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M5 8h14l-1 12H6L5 8Z" />
+                            <path d="M8 8V6a4 4 0 0 1 8 0v2" />
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Retail<br>
+                        Security
+                    </span>
+
+                    <span class="related-service-arrow">→</span>
+
+                </a>
+
+                <a href="<?php echo esc_url(home_url('/security-services/event-security/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="8" cy="9" r="3" />
+                            <circle cx="16" cy="9" r="3" />
+                            <path d="M3 20a5 5 0 0 1 10 0" />
+                            <path d="M11 20a5 5 0 0 1 10 0" />
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Event<br>
+                        Security
+                    </span>
+
+                    <span class="related-service-arrow">→</span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================
+         08. FAQ
+    ========================================== -->
     <section class="faq-section construction-faq">
 
         <div class="container">
@@ -781,10 +993,9 @@ get_header();
 
     </section>
 
-
-    <!-- =====================================================
-         FINAL CTA
-    ====================================================== -->
+    <!-- =========================================
+         09. CTA
+    ========================================== -->
     <section class="assessment-cta construction-cta">
 
         <div class="container">

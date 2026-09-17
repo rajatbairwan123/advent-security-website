@@ -398,7 +398,7 @@ get_header();
 
             <div class="row">
 
-                <div class="col-lg-4">
+                <div class="col-lg-5">
 
                     <span class="eyebrow">The Event Journey</span>
 
@@ -415,7 +415,7 @@ get_header();
                 </div>
 
 
-                <div class="col-lg-8">
+                <div class="col-lg-7">
 
                     <div class="event-journey-track">
 
@@ -789,6 +789,165 @@ get_header();
                     </p>
 
                 </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================================================
+     RELATED SERVICES
+====================================================== -->
+    <section class="content-section related-services construction-section-event-security">
+
+        <div class="container">
+
+            <div class="related-services-header">
+
+                <div>
+
+                    <span class="eyebrow">RELATED SERVICES</span>
+
+                    <h2>
+                        Explore our other<br>
+                        <span>security services.</span>
+                    </h2>
+
+                    <p>
+                        Explore related security solutions that can complement
+                        your security requirements and operational environment.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="related-services-grid">
+
+                <a href="<?php echo esc_url(home_url('/security-guard-services/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 3l7 3v5c0 4.5-3 8.5-7 10-4-1.5-7-5.5-7-10V6l7-3z"></path>
+                            <path d="M9 12l2 2 4-4"></path>
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Security Guard Services
+                    </span>
+
+                    <span class="related-service-arrow">→</span>
+
+                </a>
+
+
+                <a href="<?php echo esc_url(home_url('/security-services/corporate-concierge-services/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 19h16"></path>
+                            <path d="M6 19V9h12v10"></path>
+                            <path d="M8 9V6h8v3"></path>
+                            <path d="M9 13h6"></path>
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Corporate Concierge Services
+                    </span>
+
+                    <span class="related-service-arrow">→</span>
+
+                </a>
+
+
+                <a href="<?php echo esc_url(home_url('/security-services/security-consulting/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="11" cy="11" r="6"></circle>
+                            <path d="M16 16l4 4"></path>
+                            <path d="M8 11h6"></path>
+                            <path d="M11 8v6"></path>
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Security Consulting
+                    </span>
+
+                    <span class="related-service-arrow">→</span>
+
+                </a>
+
+
+                <a href="<?php echo esc_url(home_url('/security-services/alarm-monitoring/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M6 10a6 6 0 0112 0v5H6z"></path>
+                            <path d="M4 15h16"></path>
+                            <path d="M9 19h6"></path>
+                            <path d="M9 4l-1-2"></path>
+                            <path d="M15 4l1-2"></path>
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Alarm Monitoring
+                    </span>
+
+                    <span class="related-service-arrow">→</span>
+
+                </a>
+
+
+                <a href="<?php echo esc_url(home_url('/security-services/retail-security/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 9h16l-1-5H5z"></path>
+                            <path d="M5 9v10h14V9"></path>
+                            <path d="M9 19v-6h6v6"></path>
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Retail Security
+                    </span>
+
+                    <span class="related-service-arrow">→</span>
+
+                </a>
+
+
+                <a href="<?php echo esc_url(home_url('/security-services/construction-security/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 20h16"></path>
+                            <path d="M6 20V9l6-5 6 5v11"></path>
+                            <path d="M9 20v-5h6v5"></path>
+                            <path d="M9 10h6"></path>
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Construction Security
+                    </span>
+
+                    <span class="related-service-arrow">→</span>
+
+                </a>
 
             </div>
 

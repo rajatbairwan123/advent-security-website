@@ -60,6 +60,7 @@
 
     display: flex;
     align-items: flex-start;
+    flex-direction: column;
 
     gap: 10px;
 
@@ -84,6 +85,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 
     border: 1px solid var(--color-border-dark);
     border-radius: 50%;
@@ -563,5 +565,222 @@
 
     .footer-bottom p {
         padding-right: 25px;
+    }
+}
+
+/* =====================================================
+   FOOTER LOGO
+===================================================== */
+
+.footer-logo {
+    margin-top: 32px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-logo a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer-logo img {
+    width: 136px;
+    height: auto;
+}
+
+/* Light Theme */
+.footer-logo-light {
+    display: block;
+}
+
+.footer-logo-dark {
+    display: none;
+}
+
+/* Dark Theme */
+.theme-dark .footer-logo-light {
+    display: none;
+}
+
+.theme-dark .footer-logo-dark {
+    display: block;
+}
+
+.footer-social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+@media (max-width: 767.98px) {
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px 20px;
+    }
+
+    .footer-social {
+        grid-column: 1 / -1;
+
+        width: 100%;
+        min-height: auto;
+
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 0 0 25px;
+
+        border-right: 0;
+        border-bottom: 1px solid var(--color-border);
+
+        gap: 20px;
+    }
+
+    /* Logo on the left */
+    .footer-logo {
+        margin-top: 0;
+        flex-shrink: 0;
+    }
+
+    .footer-logo img {
+        width: 125px;
+        height: auto;
+    }
+
+    /* Social icons on the right */
+    .footer-social-links {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-left: auto;
+    }
+
+    .footer-social-link {
+        width: 38px;
+        height: 38px;
+        flex: 0 0 38px;
+    }
+
+    .footer-contact {
+        grid-column: 1 / -1;
+    }
+
+    .footer-bottom {
+        padding: 25px 0;
+    }
+
+    .footer-bottom-inner {
+        gap: 20px;
+    }
+
+    .footer-legal {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+
+    .footer-legal a {
+        padding: 5px 0;
+    }
+
+    .footer-legal a + a::before {
+        display: none;
+    }
+
+    .footer-back-top {
+        position: absolute;
+        top: -2px;
+        right: 0;
+    }
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .footer-main {
+        padding: 45px 0;
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 40px 25px;
+    }
+
+    /* Social + Logo */
+    .footer-social {
+        grid-column: 1 / -1;
+
+        min-height: auto;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 0 0 25px;
+
+        border-right: 0;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .footer-social-links {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footer-logo {
+        margin-top: 0;
+    }
+
+    .footer-logo img {
+        width: 130px;
+    }
+
+    /* Footer headings */
+    .footer-column h3,
+    .footer-contact h3 {
+        white-space: normal;
+    }
+
+    /* Contact stays inside the grid */
+    .footer-contact {
+        grid-column: auto;
+    }
+
+    /* Bottom */
+    .footer-bottom-inner {
+        flex-direction: column;
+        align-items: flex-start;
+
+        padding-right: 0;
+    }
+
+    .footer-legal {
+        flex-wrap: wrap;
+        row-gap: 12px;
+    }
+
+    .footer-back-top {
+        top: 0;
+        right: 0;
+    }
+}
+
+@media (max-width: 1199.98px) and (min-width: 992px) {
+    .footer-grid {
+        grid-template-columns:
+            130px
+            repeat(5, 1fr);
+        column-gap: 20px;
+    }
+
+    .footer-social {
+        min-height: 165px;
     }
 }

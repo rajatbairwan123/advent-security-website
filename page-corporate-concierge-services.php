@@ -80,9 +80,8 @@
 
     </section>
 
-
     <!-- =========================================
-         INTRODUCTION
+         SERVICES — INTRODUCTION
     ========================================== -->
 
     <section class="content-section" id="concierge-services">
@@ -171,9 +170,8 @@
 
     </section>
 
-
     <!-- =========================================
-         CORE SERVICES
+         SERVICES — CORE SERVICES
     ========================================== -->
 
     <section class="content-section">
@@ -392,9 +390,8 @@
 
     </section>
 
-
     <!-- =========================================
-         SECURITY + SERVICE
+         TRUST / EXPERTISE
     ========================================== -->
 
     <section class="content-section why-advent">
@@ -487,9 +484,8 @@
 
     </section>
 
-
     <!-- =========================================
-         INTEGRATED SECURITY
+         PROCESS
     ========================================== -->
 
     <section class="content-section">
@@ -584,9 +580,8 @@
 
     </section>
 
-
     <!-- =========================================
-         WORKPLACE ENVIRONMENTS
+         INDUSTRIES
     ========================================== -->
 
     <section class="industries-section location-services">
@@ -737,7 +732,6 @@
 
     </section>
 
-
     <!-- =========================================
          WHY ADVENT
     ========================================== -->
@@ -830,6 +824,187 @@
 
     </section>
 
+    <!-- =========================================
+     RELATED SERVICES
+    ========================================== -->
+
+    <section class="content-section related-services">
+
+        <div class="container">
+
+            <div class="related-services-header">
+
+                <div>
+
+                    <span class="eyebrow">
+                        RELATED SERVICES
+                    </span>
+
+                    <h2>
+                        Explore our other<br>
+                        <span>security services.</span>
+                    </h2>
+
+                    <p>
+                        Explore related security solutions that can complement your
+                        security requirements and operational environment.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="related-services-grid">
+
+                <!-- Corporate Concierge -->
+                <a href="<?php echo esc_url(home_url('/security-services/corporate-concierge-services/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" />
+                            <path d="M5 21a7 7 0 0 1 14 0" />
+                            <path d="M4 21h16" />
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Corporate &amp;<br>
+                        Concierge Security
+                    </span>
+
+                    <span class="related-service-arrow">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- Security Consulting -->
+                <a href="<?php echo esc_url(home_url('/security-services/security-consulting/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 3 20 6v5c0 5.2-3.3 8.7-8 10-4.7-1.3-8-4.8-8-10V6l8-3Z" />
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Security<br>
+                        Consulting
+                    </span>
+
+                    <span class="related-service-arrow">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- Alarm Monitoring -->
+                <a href="<?php echo esc_url(home_url('/security-services/alarm-monitoring/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M6 18h12" />
+                            <path d="M7 18v-6a5 5 0 0 1 10 0v6" />
+                            <path d="M5 21h14" />
+                            <path d="M12 3v2" />
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Alarm<br>
+                        Monitoring
+                    </span>
+
+                    <span class="related-service-arrow">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- Retail Security -->
+                <a href="<?php echo esc_url(home_url('/security-services/retail-security/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M5 8h14l-1 12H6L5 8Z" />
+                            <path d="M8 8V6a4 4 0 0 1 8 0v2" />
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Retail<br>
+                        Security
+                    </span>
+
+                    <span class="related-service-arrow">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- Construction Security -->
+                <a href="<?php echo esc_url(home_url('/security-services/construction-security/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 18h16" />
+                            <path d="M6 18v-6h12v6" />
+                            <path d="M8 12V9h8v3" />
+                            <path d="M10 9V6h4v3" />
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Construction<br>
+                        Security
+                    </span>
+
+                    <span class="related-service-arrow">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- Event Security -->
+                <a href="<?php echo esc_url(home_url('/security-services/event-security/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="8" cy="9" r="3" />
+                            <circle cx="16" cy="9" r="3" />
+                            <path d="M3 20a5 5 0 0 1 10 0" />
+                            <path d="M11 20a5 5 0 0 1 10 0" />
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Event<br>
+                        Security
+                    </span>
+
+                    <span class="related-service-arrow">
+                        →
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
 
     <!-- =========================================
          FAQ
@@ -1003,7 +1178,6 @@
         </div>
 
     </section>
-
 
     <!-- =========================================
          FINAL CTA

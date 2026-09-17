@@ -872,3 +872,29 @@
         min-width: 0;
     }
 }
+
+/* Construction Security - Standard Section Spacing */
+.construction-risks,
+.construction-services,
+.construction-site-protection,
+.construction-sectors,
+.construction-process,
+.construction-faq {
+    padding: 100px 0;
+    /* border-top: 1px solid var(--color-border); */
+    border-bottom: 1px solid var(--color-border);
+}
+.construction-related-service-section {
+    border-top: 0px !important;
+}
+
+@media (max-width: 767.98px) {
+    .construction-risks,
+    .construction-services,
+    .construction-site-protection,
+    .construction-sectors,
+    .construction-process,
+    .construction-faq {
+        padding: 70px 0;
+    }
+}

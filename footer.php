@@ -21,29 +21,63 @@
 
             <div class="footer-social">
 
-                <a
-                    href="#"
-                    class="footer-social-link"
-                    aria-label="LinkedIn">
-                    in
-                </a>
+                <!-- Social Links -->
+                <div class="footer-social-links">
 
-                <a
-                    href="#"
-                    class="footer-social-link"
-                    aria-label="Facebook">
-                    f
-                </a>
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="LinkedIn">
+                        in
+                    </a>
 
-                <a
-                    href="#"
-                    class="footer-social-link"
-                    aria-label="Instagram">
-                    ◎
-                </a>
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="Facebook">
+                        f
+                    </a>
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="Instagram">
+                        ◎
+                    </a>
+
+                </div>
+
+
+                <!-- Footer Logo -->
+                <div class="footer-logo">
+
+                    <a
+                        href="<?php echo esc_url(home_url('/')); ?>"
+                        aria-label="Advent Security Home">
+
+                        <!-- Light Theme Logo -->
+                        <img
+                            src="<?php echo esc_url(
+                                        get_template_directory_uri() .
+                                            '/assets/images/logo/Advent-Tagline-Inline Icon-Black.png'
+                                    ); ?>"
+                            alt="Advent Security"
+                            class="footer-logo-light">
+
+                        <!-- Dark Theme Logo -->
+                        <img
+                            src="<?php echo esc_url(
+                                        get_template_directory_uri() .
+                                            '/assets/images/logo/Advent-Tagline-Inline Icon-Black White.png'
+                                    ); ?>"
+                            alt="Advent Security"
+                            class="footer-logo-dark">
+
+                    </a>
+
+                </div>
 
             </div>
-
 
             <!-- =================================================
                  THE ADVENT GROUP

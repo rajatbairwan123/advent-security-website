@@ -6,17 +6,6 @@
 /* =========================================================
    HERO
 ========================================================= */
-
-.event-statement,
-.event-overview,
-.event-services,
-.event-journey,
-.event-types,
-.event-feature,
-.event-why {
-    border-top: 1px solid var(--color-border);
-    /* border-bottom: 1px solid var(--color-border); */
-}
 .event-why {
     border-bottom: 1px solid var(--color-border);
 }
@@ -462,6 +451,22 @@
     line-height: 1.65;
 }
 
+.event-journey h2 {
+    margin: 0;
+
+    color: var(--color-text);
+
+    font-size: clamp(46px, 4.5vw, 62px);
+    font-weight: 600;
+    line-height: 0.97;
+    letter-spacing: -2.5px;
+    margin-bottom: 28px;
+}
+
+.event-journey h2 span {
+    color: var(--color-primary);
+}
+
 /* =========================================================
    EVENT TYPES
 ========================================================= */
@@ -690,6 +695,21 @@
 
     font-size: 14px;
     line-height: 1.6;
+}
+
+.event-why h2 {
+    margin: 0;
+
+    color: var(--color-text);
+
+    font-size: clamp(46px, 4.5vw, 62px);
+    font-weight: 600;
+    line-height: 0.97;
+    letter-spacing: -2.5px;
+}
+
+.event-why h2 span {
+    color: var(--color-primary);
 }
 
 /* =========================================================
@@ -1022,4 +1042,42 @@
         width: 100%;
         min-width: 0;
     }
+}
+
+/* =====================================================
+   EVENT SECURITY - STANDARD SECTION SPACING
+===================================================== */
+
+.event-statement,
+.event-overview,
+.event-services,
+.event-journey,
+.event-types,
+.event-feature,
+.event-why,
+.event-faq {
+    padding: 100px 0;
+    /* border-top: 1px solid var(--color-border); */
+    border-bottom: 1px solid var(--color-border);
+}
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 767.98px) {
+    .event-statement,
+    .event-overview,
+    .event-services,
+    .event-journey,
+    .event-types,
+    .event-feature,
+    .event-why,
+    .event-faq {
+        padding: 70px 0;
+    }
+}
+
+.construction-section-event-security {
+    border-top: 0px;
 }

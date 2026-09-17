@@ -8,10 +8,9 @@ get_header();
 
 <main class="security-page security-consulting-page">
 
-
-    <!-- =====================================================
-         HERO
-    ====================================================== -->
+    <!-- =========================================
+         01. HERO
+    ========================================== -->
 
     <section class="security-hero security-consulting-hero">
 
@@ -85,11 +84,9 @@ get_header();
 
     </section>
 
-
-
-    <!-- =====================================================
-         CONSULTING INTRODUCTION
-    ====================================================== -->
+    <!-- =========================================
+         02. SERVICES
+    ========================================== -->
 
     <section class="content-section consulting-intro">
 
@@ -186,11 +183,9 @@ get_header();
 
     </section>
 
-
-
-    <!-- =====================================================
-         SECURITY RISK MANAGEMENT
-    ====================================================== -->
+    <!-- =========================================
+         03. TRUST / EXPERTISE
+    ========================================== -->
 
     <section class="consulting-risk-section">
 
@@ -360,11 +355,9 @@ get_header();
 
     </section>
 
-
-
-    <!-- =====================================================
-         ACTIVE ARMED OFFENDER PROTECTION
-    ====================================================== -->
+    <!-- =========================================
+         04. PROCESS
+    ========================================== -->
 
     <section class="consulting-offender-section">
 
@@ -478,11 +471,9 @@ get_header();
 
     </section>
 
-
-
-    <!-- =====================================================
-         KEY AREAS OF EXPERTISE
-    ====================================================== -->
+    <!-- =========================================
+         05. INDUSTRIES
+    ========================================== -->
 
     <section class="consulting-expertise-section">
 
@@ -588,11 +579,9 @@ get_header();
 
     </section>
 
-
-
-    <!-- =====================================================
-         FINAL CONSULTING STATEMENT
-    ====================================================== -->
+    <!-- =========================================
+         06. WHY ADVENT
+    ========================================== -->
 
     <section class="consulting-final-section">
 
@@ -638,11 +627,234 @@ get_header();
 
     </section>
 
+    <!-- =========================================
+         07. RELATED SERVICES
+         Common section — immediately before FAQ
+    ========================================== -->
+
+    <section class="content-section related-services">
+
+        <div class="container">
+
+            <div class="related-services-header">
+
+                <div>
+
+                    <span class="eyebrow">
+                        RELATED SERVICES
+                    </span>
+
+                    <h2>
+                        Explore our other<br>
+                        <span>security services.</span>
+                    </h2>
+
+                    <p>
+                        Explore related security solutions that can complement your
+                        security requirements and operational environment.
+                    </p>
+
+                </div>
+
+            </div>
 
 
-    <!-- =====================================================
-         CTA
-    ====================================================== -->
+            <div class="related-services-grid">
+
+                <a href="<?php echo esc_url(home_url('/security-guard-services/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-title">
+                        Security Guard<br>
+                        Services
+                    </span>
+
+                    <span class="related-service-arrow">→</span>
+
+                </a>
+
+
+                <a href="<?php echo esc_url(home_url('/security-services/corporate-concierge-services/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-title">
+                        Corporate &amp;<br>
+                        Concierge Security
+                    </span>
+
+                    <span class="related-service-arrow">→</span>
+
+                </a>
+
+
+                <a href="<?php echo esc_url(home_url('/security-services/alarm-monitoring/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-title">
+                        Alarm<br>
+                        Monitoring
+                    </span>
+
+                    <span class="related-service-arrow">→</span>
+
+                </a>
+
+
+                <a href="<?php echo esc_url(home_url('/security-services/retail-security/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-title">
+                        Retail<br>
+                        Security
+                    </span>
+
+                    <span class="related-service-arrow">→</span>
+
+                </a>
+
+
+                <a href="<?php echo esc_url(home_url('/security-services/construction-security/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-title">
+                        Construction<br>
+                        Security
+                    </span>
+
+                    <span class="related-service-arrow">→</span>
+
+                </a>
+
+
+                <a href="<?php echo esc_url(home_url('/security-services/event-security/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-title">
+                        Event<br>
+                        Security
+                    </span>
+
+                    <span class="related-service-arrow">→</span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================
+         08. FAQ
+         Human-written FAQ for Security Consulting
+    ========================================== -->
+
+    <section class="faq-section">
+
+        <div class="container">
+
+            <div class="faq-header">
+
+                <div>
+
+                    <span class="eyebrow">
+                        SECURITY CONSULTING FAQ
+                    </span>
+
+                    <h2>
+                        Frequently asked questions
+                    </h2>
+
+                </div>
+
+            </div>
+
+            <div class="faq-list">
+
+                <details>
+                    <summary>
+                        What is security consulting?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Security consulting is about looking at how your organisation,
+                        people, property and operations are exposed to security risks.
+                        It helps you understand where vulnerabilities may exist and
+                        what practical steps can be taken to strengthen your existing
+                        security arrangements.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        What does a security risk assessment look at?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        A security risk assessment looks at the environment in which
+                        your organisation operates, the people and assets that need
+                        protection, possible threats and existing security measures.
+                        The aim is to identify the areas that need attention and help
+                        establish sensible security priorities.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        Can security consulting help with emergency preparedness?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Yes. Security consulting can help organisations review how
+                        they would respond to serious security incidents. This can
+                        include looking at emergency procedures, communication
+                        arrangements, vulnerabilities and the actions needed to
+                        support the safety of people during a critical incident.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        Who can benefit from security consulting?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Security consulting can be useful for businesses,
+                        organisations and facilities that want a clearer picture
+                        of their security risks. It can be particularly helpful
+                        when reviewing existing arrangements, planning a new
+                        environment or responding to changing security requirements.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        Will the security recommendations be tailored to our organisation?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        The approach should reflect your actual operating environment,
+                        rather than relying on a one-size-fits-all solution. Advent
+                        Security considers your organisation, people, assets and
+                        security challenges when helping you understand your
+                        requirements and strengthen your security arrangements.
+                    </p>
+                </details>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================
+         09. CTA
+    ========================================== -->
 
     <section class="assessment-cta" id="contact">
 
@@ -681,8 +893,6 @@ get_header();
 
     </section>
 
-
 </main>
-
 
 <?php get_footer(); ?>
