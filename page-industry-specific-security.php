@@ -12,13 +12,14 @@ get_header();
 <?php
 // Page content
 ?>
-<main>
+<main id="industry-specific-page" class="industry-specific-page">
     <section class="industry-page industry-hero">
         <div class="industry-hero-copy">
             <div>
                 <div class="eyebrow">Industry-specific security</div>
                 <h1>
-                    Security Solutions Designed Around Your Industry
+                    Security Solutions Designed Around Your
+                    <span>Industry</span>
                 </h1>
                 <p>
                     Every organisation has a different security
@@ -33,7 +34,8 @@ get_header();
                     people, assets and operations on site.
                 </p>
                 <div class="hero-buttons">
-                    <a class="advent-btn" href="#industries">Explore Your Industry ↓</a><a class="advent-btn advent-btn-dark" href="<?php echo esc_url(home_url('/contact/')); ?>">
+                    <a class="advent-btn" href="#industries">Explore Your Industry ↓</a>
+                    <a class="advent-btn" href="<?php echo esc_url(home_url('/contact/')); ?>">
                         Book a Security Consultation
                     </a>
                 </div>
@@ -41,7 +43,7 @@ get_header();
         </div>
         <div class="industry-hero-photo">
             <img
-                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/hero.png"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/hero.webp"
                 alt="Modern Australian commercial environment with integrated security infrastructure" />
         </div>
     </section>
@@ -63,7 +65,7 @@ get_header();
         <div class="container">
             <div class="industry-section-head">
                 <div>
-                    <div class="kicker">Why industry matters</div>
+                    <div class="eyebrow">Why industry matters</div>
                     <h2>
                         Different environments create different security
                         priorities
@@ -145,7 +147,7 @@ get_header();
         <div class="container">
             <div class="industry-section-head">
                 <div>
-                    <div class="kicker">Explore industries</div>
+                    <div class="eyebrow">Explore industries</div>
                     <h2>Find the environment that matches yours</h2>
                 </div>
                 <p>
@@ -344,7 +346,7 @@ get_header();
         <div class="container">
             <div class="industry-section-head">
                 <div>
-                    <div class="kicker">Our approach</div>
+                    <div class="eyebrow">Our approach</div>
                     <h2>
                         From industry context to an integrated security
                         strategy
@@ -358,7 +360,7 @@ get_header();
             </div>
             <div class="industry-steps">
                 <article class="industry-step">
-                    <b>01</b>
+                    <!-- <b>01</b> -->
                     <h3>Understand</h3>
                     <p>
                         Assess the operating environment, people,
@@ -367,7 +369,7 @@ get_header();
                     </p>
                 </article>
                 <article class="industry-step">
-                    <b>02</b>
+                    <!-- <b>02</b> -->
                     <h3>Identify</h3>
                     <p>
                         Identify vulnerabilities, operational
@@ -376,7 +378,7 @@ get_header();
                     </p>
                 </article>
                 <article class="industry-step">
-                    <b>03</b>
+                    <!-- <b>03</b> -->
                     <h3>Design</h3>
                     <p>
                         Develop the appropriate combination of security
@@ -386,7 +388,7 @@ get_header();
                     </p>
                 </article>
                 <article class="industry-step">
-                    <b>04</b>
+                    <!-- <b>04</b> -->
                     <h3>Integrate</h3>
                     <p>
                         Where compatible and appropriate, connect
@@ -395,7 +397,7 @@ get_header();
                     </p>
                 </article>
                 <article class="industry-step">
-                    <b>05</b>
+                    <!-- <b>05</b> -->
                     <h3>Implement</h3>
                     <p>
                         Install, configure, commission and hand over the
@@ -403,7 +405,7 @@ get_header();
                     </p>
                 </article>
                 <article class="industry-step">
-                    <b>06</b>
+                    <!-- <b>06</b> -->
                     <h3>Support</h3>
                     <p>
                         Maintain, review and evolve the security
@@ -414,11 +416,11 @@ get_header();
             </div>
         </div>
     </section>
-    <section>
+    <section class="industry-capabilities">
         <div class="container">
             <div class="industry-section-head">
                 <div>
-                    <div class="kicker">Advent capabilities</div>
+                    <div class="eyebrow">Advent capabilities</div>
                     <h2>Security capability that can work together</h2>
                 </div>
                 <p>
@@ -480,7 +482,7 @@ get_header();
         <div class="container">
             <div class="industry-section-head">
                 <div>
-                    <div class="kicker">
+                    <div class="eyebrow">
                         Industry → solution pathways
                     </div>
                     <h2>
@@ -561,7 +563,7 @@ get_header();
         <div class="container">
             <div class="industry-section-head">
                 <div>
-                    <div class="kicker">Why Advent Security</div>
+                    <div class="eyebrow">Why Advent Security</div>
                     <h2>
                         A security approach that starts with the way you
                         operate
@@ -577,7 +579,7 @@ get_header();
             <div class="industry-why-grid">
                 <div class="industry-why-visual">
                     <img
-                        src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/security.png"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/security.webp"
                         alt="Advent security team monitoring an integrated commercial security environment" />
                     <p class="industry-why-copy">
                         Advent starts with the environment, not a
@@ -627,10 +629,25 @@ get_header();
             </div>
         </div>
     </section>
+
+    <section class="industry-final">
+        <div class="container">
+            <div class="eyebrow">Talk to Advent About Your Industry</div>
+            <h2>Start with the environment. Build from there.</h2>
+            <p>
+                Tell us about your operating environment, sites and
+                security priorities. We can discuss the appropriate next
+                step — from an initial consultation to a more detailed
+                security assessment or proposal.
+            </p>
+            <a class="advent-btn" href="<?php echo esc_url(home_url('/contact/')); ?>">Book a Security Consultation</a>
+        </div>
+    </section>
+
     <div class="industry-cta-band">
         <div class="container cta-inner">
             <div>
-                <div class="kicker">Security assessment</div>
+                <div class="eyebrow">Security assessment</div>
                 <h2>
                     Need help determining what your site actually
                     requires?
@@ -646,11 +663,14 @@ get_header();
             </div>
         </div>
     </div>
-    <section>
-        <div class="container">
+
+
+
+    <section class="industry-faq-section">
+        <div class=" container">
             <div class="industry-section-head">
                 <div>
-                    <div class="kicker">FAQs</div>
+                    <div class="eyebrow">FAQs</div>
                     <h2>Questions about industry-specific security</h2>
                 </div>
             </div>
@@ -764,18 +784,6 @@ get_header();
             </div>
         </div>
     </section>
-    <section class="industry-final">
-        <div class="container">
-            <div class="kicker">Talk to Advent About Your Industry</div>
-            <h2>Start with the environment. Build from there.</h2>
-            <p>
-                Tell us about your operating environment, sites and
-                security priorities. We can discuss the appropriate next
-                step — from an initial consultation to a more detailed
-                security assessment or proposal.
-            </p>
-            <a class="advent-btn" href="<?php echo esc_url(home_url('/contact/')); ?>">Book a Security Consultation</a>
-        </div>
-    </section>
+
 </main>
 <?php get_footer(); ?>

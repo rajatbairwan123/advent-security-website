@@ -882,7 +882,6 @@
 
                 </a>
 
-
                 <!-- Retail Security -->
                 <a href="<?php echo esc_url(home_url('/security-services/retail-security/')); ?>"
                     class="related-service-card">

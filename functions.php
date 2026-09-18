@@ -171,176 +171,6 @@ function advent_security_assets()
         );
     }
 
-
-    /**
-     * -----------------------------------------------------
-     * Alarm Monitoring
-     * -----------------------------------------------------
-     */
-    if (
-        is_page('alarm-monitoring') ||
-        is_page_template('page-alarm-monitoring-response.php')
-    ) {
-        wp_enqueue_style(
-            'advent-alarm-monitoring',
-            get_template_directory_uri() . '/assets/css/alarm-monitoring.css',
-            array('advent-responsive'),
-            '1.0.0'
-        );
-    }
-
-
-    /**
-     * -----------------------------------------------------
-     * Access Control
-     * -----------------------------------------------------
-     */
-    if (
-        is_page('access-control') ||
-        is_page_template('page-access-control.php')
-    ) {
-        wp_enqueue_style(
-            'advent-access-control',
-            get_template_directory_uri() . '/assets/css/access-control.css',
-            array('advent-responsive'),
-            '1.0.0'
-        );
-    }
-
-
-    /**
-     * -----------------------------------------------------
-     * Cloud Monitoring
-     * -----------------------------------------------------
-     */
-    if (
-        is_page('cloud-monitoring') ||
-        is_page_template('page-cloud-monitoring.php')
-    ) {
-        wp_enqueue_style(
-            'advent-cloud-monitoring',
-            get_template_directory_uri() . '/assets/css/cloud-monitoring.css',
-            array('advent-responsive'),
-            '1.0.0'
-        );
-    }
-
-
-    /**
-     * -----------------------------------------------------
-     * Video Analytics
-     * -----------------------------------------------------
-     */
-    if (
-        is_page('video-analytics') ||
-        is_page_template('page-video-analytics.php')
-    ) {
-        wp_enqueue_style(
-            'advent-video-analytics',
-            get_template_directory_uri() . '/assets/css/video-analytics.css',
-            array('advent-responsive'),
-            '1.0.0'
-        );
-    }
-
-
-    /**
-     * -----------------------------------------------------
-     * CCTV
-     * -----------------------------------------------------
-     */
-    if (
-        is_page('cctv') ||
-        is_page_template('page-cctv.php')
-    ) {
-        wp_enqueue_style(
-            'advent-cctv',
-            get_template_directory_uri() . '/assets/css/cctv.css',
-            array('advent-responsive'),
-            '1.0.0'
-        );
-    }
-
-
-    /**
-     * -----------------------------------------------------
-     * Alarm Systems
-     * -----------------------------------------------------
-     */
-    if (
-        is_page('alarm-systems') ||
-        is_page_template('page-alarm-systems.php')
-    ) {
-        wp_enqueue_style(
-            'advent-alarm-systems',
-            get_template_directory_uri() . '/assets/css/alarm-systems.css',
-            array('advent-responsive'),
-            '1.0.0'
-        );
-    }
-
-
-    /**
-     * -----------------------------------------------------
-     * License Plate Recognition
-     * -----------------------------------------------------
-     */
-    if (
-        is_page('license-plate-recognition') ||
-        is_page_template('page-license-plate-recognition.php')
-    ) {
-        wp_enqueue_style(
-            'advent-license-plate-recognition',
-            get_template_directory_uri() . '/assets/css/license-plate-recognition.css',
-            array('advent-responsive'),
-            '1.0.0'
-        );
-    }
-
-
-    /**
-     * -----------------------------------------------------
-     * Boom Gates Service
-     * -----------------------------------------------------
-     */
-    if (
-        is_page('boom-gates') ||
-        is_page_template('page-boom-gates.php')
-    ) {
-        wp_enqueue_style(
-            'advent-boom-gates',
-            get_template_directory_uri() . '/assets/css/boom-gates.css',
-            array('advent-responsive'),
-            '1.0.0'
-        );
-    }
-
-
-    /**
-     * -----------------------------------------------------
-     * Integrated Security Systems
-     * -----------------------------------------------------
-     */
-    if (
-        is_page('integrated-security-systems') ||
-        is_page_template('integrated-security-systems.php')
-    ) {
-        wp_enqueue_style(
-            'advent-integrated-security-systems',
-            get_template_directory_uri() . '/assets/css/integrated-security-systems.css',
-            array('advent-responsive'),
-            '1.0.0'
-        );
-    }
-
-
-    /**
-     * =====================================================
-     * SECURITY SERVICES - INDUSTRIES
-     * =====================================================
-     */
-
-
     /**
      * -----------------------------------------------------
      * Retail Security
@@ -357,7 +187,6 @@ function advent_security_assets()
             '1.0.0'
         );
     }
-
 
     /**
      * -----------------------------------------------------
@@ -376,6 +205,22 @@ function advent_security_assets()
         );
     }
 
+    /**
+     * -----------------------------------------------------
+     * Alarm Monitoring
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('alarm-monitoring') ||
+        is_page_template('page-alarm-monitoring-response.php')
+    ) {
+        wp_enqueue_style(
+            'advent-alarm-monitoring',
+            get_template_directory_uri() . '/assets/css/alarm-monitoring.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
 
     /**
      * -----------------------------------------------------
@@ -411,22 +256,180 @@ function advent_security_assets()
             '1.0.0'
         );
     }
+
+    // Electronic Security Pages --------------------------
+
+    /**
+     * -----------------------------------------------------
+     * Access Control
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('access-control') ||
+        is_page_template('page-access-control.php')
+    ) {
+        wp_enqueue_style(
+            'advent-access-control',
+            get_template_directory_uri() . '/assets/css/access-control.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
+    /**
+     * -----------------------------------------------------
+     * License Plate Recognition
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('license-plate-recognition') ||
+        is_page_template('page-license-plate-recognition.php')
+    ) {
+        wp_enqueue_style(
+            'advent-license-plate-recognition',
+            get_template_directory_uri() . '/assets/css/license-plate-recognition.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
+    /**
+     * -----------------------------------------------------
+     * CCTV
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('cctv') ||
+        is_page_template('page-cctv.php')
+    ) {
+        wp_enqueue_style(
+            'advent-cctv',
+            get_template_directory_uri() . '/assets/css/cctv.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
+    /**
+     * -----------------------------------------------------
+     * Alarm Systems
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('alarm-systems') ||
+        is_page_template('page-alarm-systems.php')
+    ) {
+        wp_enqueue_style(
+            'advent-alarm-systems',
+            get_template_directory_uri() . '/assets/css/alarm-systems.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
+    /**
+     * -----------------------------------------------------
+     * Cloud Monitoring
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('cloud-monitoring') ||
+        is_page_template('page-cloud-monitoring.php')
+    ) {
+        wp_enqueue_style(
+            'advent-cloud-monitoring',
+            get_template_directory_uri() . '/assets/css/cloud-monitoring.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
+    /**
+     * -----------------------------------------------------
+     * Video Analytics
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('video-analytics') ||
+        is_page_template('page-video-analytics.php')
+    ) {
+        wp_enqueue_style(
+            'advent-video-analytics',
+            get_template_directory_uri() . '/assets/css/video-analytics.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
+    /**
+     * -----------------------------------------------------
+     * Boom Gates Service
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('boom-gates') ||
+        is_page_template('page-boom-gates.php')
+    ) {
+        wp_enqueue_style(
+            'advent-boom-gates',
+            get_template_directory_uri() . '/assets/css/boom-gates.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
+    /**
+     * -----------------------------------------------------
+     * Integrated Security Systems
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('integrated-security-systems') ||
+        is_page_template('integrated-security-systems.php')
+    ) {
+        wp_enqueue_style(
+            'advent-integrated-security-systems',
+            get_template_directory_uri() . '/assets/css/integrated-security-systems.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
+    /**
+     * -----------------------------------------------------
+     * Visitor Management Page
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('visitor-management') ||
+        is_page_template('page-visitor-management.php')
+    ) {
+        wp_enqueue_style(
+            'advent-visitor-management',
+            get_template_directory_uri() . '/assets/css/visitor-management.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
+    // Industries Page ------------------------
+
     /**
      * -----------------------------------------------------
      * Industry specific security
      * -----------------------------------------------------
      */
-    // if (
-    //     is_page('industry-specific-security') ||
-    //     is_page_template('page-industry-specific-security.php')
-    // ) {
-    //     wp_enqueue_style(
-    //         'advent-industry-specific-security',
-    //         get_template_directory_uri() . '/assets/css/industry-specific-security.css',
-    //         array('advent-responsive'),
-    //         '1.0.0'
-    //     );
-    // }
+    if (
+        is_page('industry-specific-security') ||
+        is_page_template('page-industry-specific-security.php')
+    ) {
+        wp_enqueue_style(
+            'advent-industry-specific-security',
+            get_template_directory_uri() . '/assets/css/industry-specific-security.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
 
 
     /**

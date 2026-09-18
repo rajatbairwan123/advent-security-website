@@ -65,6 +65,11 @@ get_header();
                     Integrated Security Systems
                 </a>
             </li>
+            <li>
+                <a href="<?php echo esc_url(home_url('/electronic-security/visitor-management/')); ?>">
+                    Visitor Management
+                </a>
+            </li>
 
         </ul>
 

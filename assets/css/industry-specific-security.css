@@ -1,22 +1,44 @@
 /* =========================================================
    ADVENT SECURITY
    INDUSTRY-SPECIFIC SECURITY PAGE
-   Page-specific styles only
+   Refined Page Styles
 ========================================================= */
 
 /* =========================================================
    PAGE BASE
 ========================================================= */
 
-.industry-page {
+.industry-specific-page {
     background: var(--color-bg);
     color: var(--color-text);
 }
 
-.industry-page *,
-.industry-page *::before,
-.industry-page *::after {
+.industry-specific-page *,
+.industry-specific-page *::before,
+.industry-specific-page *::after {
     box-sizing: border-box;
+}
+
+/* =========================================================
+   COMMON TYPOGRAPHY
+========================================================= */
+
+.industry-specific-page h1,
+.industry-specific-page h2,
+.industry-specific-page h3,
+.industry-specific-page p {
+    font-family: var(--font-primary);
+}
+
+.industry-specific-page p {
+    color: var(--color-text-muted);
+    font-size: 16px;
+    line-height: 1.65;
+}
+
+.industry-specific-page .eyebrow {
+    display: inline-block;
+    margin-bottom: 18px;
 }
 
 /* =========================================================
@@ -26,17 +48,23 @@
 .industry-hero {
     display: grid;
     grid-template-columns: 46% 54%;
+
     min-height: 650px;
+
     background: var(--color-bg);
+
     border-bottom: 1px solid var(--color-border);
 }
 
 .industry-hero-copy {
     display: flex;
     align-items: center;
-    padding: 76px 58px 76px max(24px, calc((100vw - 1320px) / 2));
-    background: var(--color-black);
-    color: var(--color-white);
+
+    min-width: 0;
+
+    padding: 75px 60px 75px max(24px, calc((100vw - 1320px) / 2));
+
+    border-right: 1px solid var(--color-border);
 }
 
 .industry-hero-copy > div {
@@ -44,67 +72,82 @@
     max-width: 650px;
 }
 
-.industry-hero .eyebrow {
-    margin-bottom: 18px;
-}
-
 .industry-hero h1 {
     max-width: 650px;
-    margin: 0 0 22px;
-    color: #fff;
-    font-size: clamp(45px, 5vw, 74px);
+
+    margin: 0 0 25px;
+
+    color: var(--color-text);
+
+    font-size: clamp(58px, 5vw, 82px);
+
     font-weight: 600;
+
     line-height: 0.96;
-    letter-spacing: -2.8px;
+
+    letter-spacing: -3px;
+}
+
+.industry-hero h1 span {
+    color: var(--color-primary);
 }
 
 .industry-hero p {
     max-width: 650px;
-    margin: 0 0 22px;
-    color: #d3d3d3;
-    font-size: 18px;
+
+    margin: 0 0 16px;
+
+    color: var(--color-text-muted);
+
+    font-size: 16px;
+
     line-height: 1.65;
 }
 
 .industry-hero p:last-of-type {
-    margin-bottom: 30px;
+    margin-bottom: 32px;
 }
+
+/* =========================================================
+   HERO BUTTONS
+========================================================= */
+
+.industry-hero .hero-buttons {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    gap: 12px;
+}
+
+.industry-hero .hero-buttons .advent-btn {
+    min-width: 220px;
+}
+
+/* =========================================================
+   HERO IMAGE
+========================================================= */
 
 .industry-hero-photo {
     min-width: 0;
     min-height: 650px;
+
     overflow: hidden;
-    background: var(--color-bg);
+
+    background: var(--color-surface);
 }
 
 .industry-hero-photo img {
+    display: block;
+
     width: 100%;
     height: 100%;
-    display: block;
+
     object-fit: cover;
-    object-position: right center;
-}
 
-/* Existing Advent button component is used.
-   Only the dark/outline treatment is adjusted for this hero. */
-
-.industry-hero .advent-btn-dark {
-    background: transparent;
-    border-color: #555;
-    color: #fff;
-}
-
-.industry-hero .advent-btn-dark::before {
-    background: var(--color-primary);
-}
-
-.industry-hero .advent-btn-dark:hover {
-    border-color: var(--color-primary);
-    color: #050505;
-}
-
-.industry-hero .advent-btn-dark:hover .btn-arrow {
-    color: #050505;
+    object-position: center center;
 }
 
 /* =========================================================
@@ -113,13 +156,27 @@
 
 .industry-proof {
     display: grid;
+
     grid-template-columns: repeat(4, 1fr);
+
     background: var(--color-bg);
+
     border-bottom: 1px solid var(--color-border);
 }
 
 .industry-proof > div {
-    padding: 25px 24px;
+    min-height: 95px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    padding: 20px 25px;
+
+    text-align: center;
+
     border-right: 1px solid var(--color-border);
 }
 
@@ -129,114 +186,188 @@
 
 .industry-proof strong {
     display: block;
-    margin-bottom: 3px;
+
+    margin-bottom: 5px;
+
     color: var(--color-text);
-    font-size: 22px;
+
+    font-size: 20px;
+
     font-weight: 600;
+
     line-height: 1.2;
 }
 
 .industry-proof span {
     color: var(--color-text-muted);
-    font-size: 12px;
+
+    font-size: 13px;
+
+    line-height: 1.4;
+}
+
+/* =========================================================
+   SHARED SECTION
+========================================================= */
+
+.industry-context,
+.industry-directory,
+.industry-method,
+.industry-specific-page > main > section:not(.industry-hero),
+.industry-pathways,
+.industry-why {
+    background: var(--color-bg);
 }
 
 /* =========================================================
    SHARED SECTION HEADER
 ========================================================= */
 
-.industry-context,
-.industry-directory,
-.industry-method,
-.industry-pathways,
-.industry-why {
-    padding: 105px 0;
-    background: var(--color-bg);
-    border-bottom: 1px solid var(--color-border);
-}
-
 .industry-section-head {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    gap: 60px;
-    margin-bottom: 55px;
+    display: grid;
+
+    grid-template-columns: minmax(0, 1.1fr) minmax(300px, 0.9fr);
+
+    align-items: end;
+
+    gap: 70px;
+
+    margin-bottom: 50px;
 }
 
 .industry-section-head > div {
-    max-width: 650px;
+    max-width: 700px;
 }
 
-.industry-section-head .kicker {
-    margin-bottom: 14px;
+.industry-section-head .eyebrow {
+    margin-bottom: 17px;
 }
 
 .industry-section-head h2 {
+    max-width: 850px;
+
     margin: 0;
+
     color: var(--color-text);
-    font-size: clamp(34px, 4vw, 52px);
+
+    font-size: clamp(38px, 4vw, 58px);
+
     font-weight: 600;
-    line-height: 0.96;
-    letter-spacing: -1.8px;
+
+    line-height: 1;
+
+    letter-spacing: -2.5px;
 }
 
 .industry-section-head > p {
-    max-width: 520px;
+    max-width: 560px;
+
     margin: 0;
+
     color: var(--color-text-muted);
+
     font-size: 16px;
+
     line-height: 1.65;
 }
 
 /* =========================================================
-   CONTEXT
+   STANDARD SECTION SPACING
+========================================================= */
+
+.industry-context,
+.industry-directory,
+.industry-method,
+.industry-pathways,
+.industry-why,
+.industry-specific-page > main > section:not(.industry-hero) {
+    padding: 100px 0;
+
+    border-bottom: 1px solid var(--color-border);
+}
+
+/* =========================================================
+   CONTEXT SECTION
 ========================================================= */
 
 .industry-context-intro {
-    max-width: 920px;
-    margin: -20px 0 42px;
+    max-width: 950px;
+
+    margin: -10px 0 42px;
+
     color: var(--color-text-light);
-    font-size: 20px;
+
+    font-size: 16px;
+
     line-height: 1.7;
 }
 
 .industry-context-grid {
     display: grid;
+
     grid-template-columns: repeat(3, 1fr);
+
     border-top: 1px solid var(--color-border);
+
     border-left: 1px solid var(--color-border);
 }
 
 .industry-context-card {
     min-height: 190px;
+
     padding: 30px;
-    border-right: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border);
+
     background: var(--color-bg);
+
+    border-right: 1px solid var(--color-border);
+
+    border-bottom: 1px solid var(--color-border);
+
+    transition:
+        background-color var(--transition-normal),
+        transform var(--transition-fast);
+}
+
+.industry-context-card:hover {
+    background: var(--color-surface);
+
+    transform: translateY(-2px);
 }
 
 .industry-label {
     color: var(--color-primary);
+
     font-size: 11px;
+
     font-weight: 700;
+
     letter-spacing: 1.5px;
+
     line-height: 1.4;
+
     text-transform: uppercase;
 }
 
 .industry-context-card h3 {
-    margin: 12px 0 9px;
+    margin: 13px 0 10px;
+
     color: var(--color-text);
-    font-size: 22px;
+
+    font-size: 21px;
+
     font-weight: 500;
-    line-height: 1.2;
+
+    line-height: 1.25;
 }
 
 .industry-context-card p {
     margin: 0;
+
     color: var(--color-text-light);
+
     font-size: 14px;
-    line-height: 1.55;
+
+    line-height: 1.6;
 }
 
 /* =========================================================
@@ -245,121 +376,167 @@
 
 .industry-directory-grid {
     display: grid;
+
     grid-template-columns: repeat(3, 1fr);
+
     gap: 14px;
 }
 
 .industry-directory-card {
     position: relative;
+
     min-height: 250px;
+
     display: flex;
+
     flex-direction: column;
+
     justify-content: space-between;
+
     overflow: hidden;
+
     padding: 28px;
+
     background: var(--color-bg);
+
     color: var(--color-text);
+
+    text-decoration: none;
+
     border: 1px solid var(--color-border);
+
     transition:
         transform var(--transition-fast),
-        border-color var(--transition-fast),
-        background-color var(--transition-normal),
-        color var(--transition-normal);
-}
-
-.industry-directory-card::before {
-    content: "";
-    position: absolute;
-    width: 210px;
-    height: 210px;
-    right: -50px;
-    bottom: -80px;
-    border: 1px solid rgba(244, 176, 0, 0.2);
-    border-radius: 50%;
-    pointer-events: none;
+        border-color var(--transition-normal),
+        background-color var(--transition-normal);
 }
 
 .industry-directory-card:hover {
     transform: translateY(-3px);
-    border-color: var(--color-text);
+
+    border-color: var(--color-primary);
+
+    background: var(--color-surface);
 }
 
 .industry-directory-card h3 {
-    max-width: 370px;
+    max-width: 400px;
+
     margin: 13px 0 12px;
+
     color: var(--color-text);
-    font-size: 26px;
+
+    font-size: 24px;
+
     font-weight: 500;
+
     line-height: 1.15;
 }
 
 .industry-directory-card p {
-    max-width: 410px;
+    max-width: 400px;
+
     margin: 0;
+
     color: var(--color-text-light);
+
     font-size: 14px;
-    line-height: 1.55;
+
+    line-height: 1.6;
 }
 
 .industry-explore {
-    position: relative;
-    z-index: 1;
-    margin-top: 22px;
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+    margin-top: 25px;
+
     color: var(--color-text);
+
     font-size: 11px;
+
     font-weight: 700;
+
     letter-spacing: 1px;
+
     line-height: 1.4;
+
     text-transform: uppercase;
 }
 
 .industry-explore span {
-    margin-left: 8px;
     color: var(--color-primary);
+
+    font-size: 19px;
+
+    transition: transform var(--transition-normal);
+}
+
+.industry-directory-card:hover .industry-explore span {
+    transform: translateX(5px);
 }
 
 /* =========================================================
-   METHOD / STEPS
+   APPROACH / STEPS
 ========================================================= */
-
-.industry-method {
-    background: var(--color-surface);
-}
 
 .industry-steps {
     display: grid;
+
     grid-template-columns: repeat(6, 1fr);
+
     border-top: 1px solid var(--color-border);
+
     border-left: 1px solid var(--color-border);
 }
 
 .industry-step {
-    min-height: 245px;
-    padding: 25px 20px 30px;
+    min-height: 235px;
+
+    padding: 25px 20px 25px;
+
     background: var(--color-bg);
+
     border-right: 1px solid var(--color-border);
+
     border-bottom: 1px solid var(--color-border);
 }
 
 .industry-step b {
     color: var(--color-primary);
+
     font-size: 11px;
+
+    font-weight: 700;
+
     letter-spacing: 1.6px;
 }
 
 .industry-step h3 {
-    margin: 16px 0 12px;
+    margin: 17px 0 12px;
+
     color: var(--color-text);
-    font-size: 20px;
+
+    font-size: 19px;
+
     font-weight: 500;
+
     line-height: 1.2;
 }
 
 .industry-step p {
     margin: 0;
+
     color: var(--color-text-light);
+
     font-size: 13px;
-    line-height: 1.55;
+
+    line-height: 1.6;
 }
 
 /* =========================================================
@@ -368,132 +545,187 @@
 
 .industry-cap-grid {
     display: grid;
-    grid-template-columns: 1.05fr 1.95fr;
-    gap: 70px;
+
+    grid-template-columns: 0.85fr 1.65fr;
+
+    gap: 80px;
+
     align-items: start;
 }
 
 .industry-cap-lead {
+    max-width: 500px;
+
     margin: 0;
+
     color: var(--color-text-light);
-    font-size: 20px;
-    line-height: 1.65;
+
+    font-size: 18px;
+
+    line-height: 1.7;
 }
 
 .industry-cap-list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+
+    grid-template-columns: repeat(2, 1fr);
+
     border-top: 1px solid var(--color-border);
+
+    border-left: 1px solid var(--color-border);
 }
 
 .industry-cap {
-    padding: 25px 20px 25px 0;
+    min-height: 150px;
+
+    padding: 25px;
+
+    background: var(--color-bg);
+
+    border-right: 1px solid var(--color-border);
+
     border-bottom: 1px solid var(--color-border);
 }
 
-.industry-cap:nth-child(odd) {
-    padding-right: 35px;
-    border-right: 1px solid var(--color-border);
-}
-
-.industry-cap:nth-child(even) {
-    padding-left: 25px;
-}
-
 .industry-cap h3 {
-    margin: 0 0 7px;
+    margin: 0 0 9px;
+
     color: var(--color-text);
-    font-size: 20px;
+
+    font-size: 19px;
+
     font-weight: 500;
+
     line-height: 1.25;
 }
 
 .industry-cap p {
     margin: 0;
+
     color: var(--color-text-light);
-    font-size: 13px;
-    line-height: 1.55;
+
+    font-size: 14px;
+
+    line-height: 1.6;
 }
 
 /* =========================================================
-   PATHWAYS
+   TECHNOLOGY PATHWAYS
 ========================================================= */
-
-.industry-pathways {
-    background: var(--color-surface);
-}
 
 .industry-path-grid {
     display: grid;
+
     grid-template-columns: repeat(4, 1fr);
+
     border-top: 1px solid var(--color-border);
+
     border-left: 1px solid var(--color-border);
 }
 
 .industry-path {
-    min-height: 180px;
+    min-height: 190px;
+
+    display: flex;
+
+    flex-direction: column;
+
     padding: 25px;
+
     background: var(--color-bg);
+
     border-right: 1px solid var(--color-border);
+
     border-bottom: 1px solid var(--color-border);
+
+    transition:
+        background-color var(--transition-normal),
+        transform var(--transition-fast);
+}
+
+.industry-path:hover {
+    background: var(--color-surface);
+
+    transform: translateY(-2px);
 }
 
 .industry-path h3 {
     margin: 0 0 9px;
+
     color: var(--color-text);
+
     font-size: 19px;
+
     font-weight: 500;
+
     line-height: 1.25;
 }
 
 .industry-path p {
-    margin: 0 0 17px;
+    margin: 0 0 18px;
+
     color: var(--color-text-light);
+
     font-size: 13px;
-    line-height: 1.55;
+
+    line-height: 1.6;
 }
 
 .industry-path a {
+    margin-top: auto;
+
     color: var(--color-primary);
+
     font-size: 10px;
+
     font-weight: 700;
+
     letter-spacing: 1px;
+
+    text-decoration: none;
+
     text-transform: uppercase;
 }
 
 .industry-path a:hover {
-    opacity: 0.75;
+    color: var(--color-text);
 }
 
 /* =========================================================
    WHY ADVENT
 ========================================================= */
 
-.industry-why {
-    background: var(--color-bg);
-}
-
 .industry-why-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 70px;
-}
 
-.industry-why-visual {
-    min-width: 0;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 70px;
+
+    align-items: start;
 }
 
 .industry-why-visual img {
+    display: block;
+
     width: 100%;
-    height: 330px;
+
+    height: 360px;
+
     margin-bottom: 26px;
+
     object-fit: cover;
 }
 
 .industry-why-copy {
+    max-width: 650px;
+
     margin: 0;
+
     color: var(--color-text-light);
-    font-size: 18px;
+
+    font-size: 16px;
+
     line-height: 1.7;
 }
 
@@ -503,140 +735,256 @@
 
 .industry-why-point {
     padding: 23px 0;
+
     border-bottom: 1px solid var(--color-border);
 }
 
 .industry-why-point h3 {
-    margin: 0 0 7px;
+    margin: 0 0 8px;
+
     color: var(--color-text);
+
     font-size: 20px;
+
     font-weight: 500;
+
     line-height: 1.25;
 }
 
 .industry-why-point p {
     margin: 0;
+
     color: var(--color-text-light);
+
     font-size: 14px;
-    line-height: 1.55;
+
+    line-height: 1.6;
 }
 
 /* =========================================================
-   CTA
+   FINAL CTA SECTION
+========================================================= */
+
+.industry-final {
+    padding: 100px 0;
+
+    background: var(--color-bg);
+
+    text-align: center;
+
+    border-bottom: 1px solid var(--color-border);
+}
+
+.industry-final .eyebrow {
+    margin-bottom: 17px;
+}
+
+.industry-final h2 {
+    max-width: 850px;
+
+    margin: 0 auto;
+
+    color: var(--color-text);
+
+    font-size: clamp(38px, 4vw, 58px);
+
+    font-weight: 600;
+
+    line-height: 1;
+
+    letter-spacing: -2.5px;
+}
+
+.industry-final p {
+    max-width: 720px;
+
+    margin: 22px auto 30px;
+
+    color: var(--color-text-muted);
+
+    font-size: 16px;
+
+    line-height: 1.65;
+}
+
+/* =========================================================
+   YELLOW CTA BAND
 ========================================================= */
 
 .industry-cta-band {
     padding: 72px 0;
+
     background: var(--color-primary);
-    color: #050505;
+
+    color: var(--color-black);
 }
 
 .industry-cta-band .cta-inner {
     display: flex;
+
     align-items: center;
+
     justify-content: space-between;
-    gap: 40px;
+
+    gap: 45px;
 }
 
-.industry-cta-band .kicker {
-    color: #050505;
+.industry-cta-band .eyebrow {
+    margin-bottom: 12px;
+
+    color: var(--color-black);
 }
 
 .industry-cta-band h2 {
-    max-width: 700px;
+    max-width: 720px;
+
     margin: 0;
-    color: #050505;
-    font-size: clamp(34px, 3.2vw, 44px);
+
+    color: var(--color-black);
+
+    font-size: clamp(34px, 3.2vw, 46px);
+
     font-weight: 600;
+
     line-height: 1;
-    letter-spacing: -1.5px;
+
+    letter-spacing: -1.7px;
 }
 
 .industry-cta-band p {
-    max-width: 720px;
-    margin: 13px 0 0;
-    color: #3a2b00;
+    max-width: 700px;
+
+    margin: 15px 0 0;
+
+    color: #3d3000;
+
+    font-size: 16px;
+
+    line-height: 1.6;
 }
 
 .industry-cta-buttons {
     display: flex;
+
     flex-shrink: 0;
+
     gap: 10px;
 }
 
 .industry-cta-buttons .advent-btn {
-    min-width: 235px;
-    background: #050505;
-    border-color: #050505;
-    color: #fff;
+    min-width: 225px;
+
+    background: var(--color-black);
+
+    border-color: var(--color-black);
+
+    color: var(--color-white);
 }
 
 .industry-cta-buttons .advent-btn::before {
-    background: var(--color-primary);
+    background: var(--color-white);
 }
 
 .industry-cta-buttons .advent-btn:hover {
-    color: #050505;
+    color: var(--color-black);
 }
 
 .industry-cta-buttons .advent-btn-dark {
     background: transparent;
-    border-color: #050505;
-    color: #050505;
+
+    border-color: var(--color-black);
+
+    color: var(--color-black);
 }
 
 .industry-cta-buttons .advent-btn-dark::before {
-    background: #050505;
+    background: var(--color-black);
 }
 
 .industry-cta-buttons .advent-btn-dark:hover {
-    color: #fff;
+    color: var(--color-white);
 }
 
 /* =========================================================
    FAQ
 ========================================================= */
 
-.industry-faq-wrap {
-    max-width: 930px;
+.industry-specific-page > main > section:last-child {
+    padding: 100px 0;
 }
+
+/* .industry-faq-wrap {
+    max-width: 950px;
+} */
 
 .industry-faq {
     border-top: 1px solid var(--color-border);
 }
 
 .industry-faq details {
-    padding: 22px 0;
     border-bottom: 1px solid var(--color-border);
 }
 
 .industry-faq summary {
     position: relative;
-    padding-right: 40px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    min-height: 72px;
+
+    padding: 22px 45px 22px 0;
+
     cursor: pointer;
+
     list-style: none;
+
     color: var(--color-text);
-    font-size: 17px;
+
+    font-family: var(--font-primary);
+
+    font-size: 16px;
+
     font-weight: 500;
-    line-height: 1.4;
+
+    line-height: 1.5;
+
+    transition: color var(--transition-normal);
 }
 
 .industry-faq summary::-webkit-details-marker {
     display: none;
 }
 
+.industry-faq summary::marker {
+    display: none;
+}
+
 .industry-faq summary::after {
     content: "+";
+
     position: absolute;
-    top: -5px;
+
+    top: 21px;
+
     right: 0;
+
     color: var(--color-primary);
-    font-size: 24px;
+
+    font-size: 23px;
+
     font-weight: 400;
+
+    line-height: 1;
+
+    transition: transform var(--transition-normal);
 }
 
 .industry-faq details[open] summary::after {
-    content: "–";
+    transform: rotate(45deg);
 }
 
 .industry-faq summary:hover {
@@ -645,190 +993,279 @@
 
 .industry-faq details p {
     max-width: 850px;
-    margin: 13px 0 0;
-    color: var(--color-text-light);
-    font-size: 14px;
-    line-height: 1.7;
-}
 
-/* =========================================================
-   FINAL CTA
-========================================================= */
-
-.industry-final {
-    padding: 95px 0;
-    background: var(--color-bg);
-    color: var(--color-text);
-    text-align: center;
-    border-top: 1px solid var(--color-border);
-}
-
-.industry-final .kicker {
-    margin-bottom: 14px;
-}
-
-.industry-final h2 {
     margin: 0;
-    color: var(--color-text);
-    font-size: clamp(38px, 4vw, 52px);
-    font-weight: 600;
-    line-height: 0.98;
-    letter-spacing: -2px;
-}
 
-.industry-final p {
-    max-width: 720px;
-    margin: 18px auto 28px;
-    color: var(--color-text-muted);
-}
+    padding: 0 60px 25px 0;
 
-.industry-final .advent-btn {
-    min-width: 235px;
+    color: var(--color-text-light);
+
+    font-size: 15px;
+
+    line-height: 1.75;
 }
 
 /* =========================================================
    DARK THEME
 ========================================================= */
 
-.theme-dark .industry-hero-copy {
-    background: #050505;
-}
-
-.theme-dark .industry-hero-photo {
-    background: #050505;
-}
-
-.theme-dark .industry-proof,
-.theme-dark .industry-context,
-.theme-dark .industry-directory,
-.theme-dark .industry-method,
-.theme-dark .industry-pathways,
-.theme-dark .industry-why,
-.theme-dark .industry-final {
+.theme-dark .industry-specific-page {
     background: var(--color-bg);
 }
 
 .theme-dark .industry-context-card,
 .theme-dark .industry-directory-card,
 .theme-dark .industry-step,
+.theme-dark .industry-cap,
 .theme-dark .industry-path {
     background: var(--color-surface);
 }
 
-.theme-dark .industry-method,
-.theme-dark .industry-pathways {
+.theme-dark .industry-directory-card:hover,
+.theme-dark .industry-context-card:hover,
+.theme-dark .industry-path:hover {
+    background: var(--color-surface-alt);
+}
+
+.theme-dark .industry-hero-photo {
     background: var(--color-surface);
-}
-
-.theme-dark .industry-directory-card:hover {
-    border-color: var(--color-primary);
-}
-
-.theme-dark .industry-proof > div,
-.theme-dark .industry-context-card,
-.theme-dark .industry-directory-card,
-.theme-dark .industry-step,
-.theme-dark .industry-path {
-    border-color: var(--color-border);
-}
-
-.theme-dark .industry-hero h1,
-.theme-dark .industry-proof strong,
-.theme-dark .industry-context-card h3,
-.theme-dark .industry-directory-card h3,
-.theme-dark .industry-step h3,
-.theme-dark .industry-cap h3,
-.theme-dark .industry-path h3,
-.theme-dark .industry-why-point h3,
-.theme-dark .industry-faq summary,
-.theme-dark .industry-final h2 {
-    color: var(--color-text);
 }
 
 /* =========================================================
-   RESPONSIVE
+   TABLET
+   992px – 1199px
 ========================================================= */
 
-@media (max-width: 1000px) {
+@media (max-width: 1199.98px) {
     .industry-hero {
-        grid-template-columns: 1fr;
+        grid-template-columns: 50% 50%;
+
+        min-height: 600px;
+    }
+
+    .industry-hero-copy {
+        padding: 65px 40px;
+    }
+
+    .industry-hero h1 {
+        font-size: clamp(52px, 5vw, 70px);
+
+        letter-spacing: -2.5px;
+    }
+
+    .industry-hero-photo {
+        min-height: 600px;
+    }
+
+    .industry-context,
+    .industry-directory,
+    .industry-method,
+    .industry-pathways,
+    .industry-why,
+    .industry-specific-page > main > section:not(.industry-hero) {
+        padding-top: 90px;
+
+        padding-bottom: 90px;
+    }
+
+    .industry-section-head {
+        gap: 45px;
+    }
+
+    .industry-cap-grid,
+    .industry-why-grid {
+        gap: 50px;
+    }
+}
+
+/* =========================================================
+   TABLET
+   768px – 991px
+========================================================= */
+
+@media (max-width: 991.98px) {
+    /* HERO */
+
+    .industry-hero {
+        display: block;
+
+        min-height: auto;
     }
 
     .industry-hero-copy {
         padding: 70px 24px;
+
+        border-right: 0;
+    }
+
+    .industry-hero-copy > div {
+        max-width: 720px;
+    }
+
+    .industry-hero h1 {
+        max-width: 720px;
+
+        font-size: clamp(52px, 7vw, 68px);
+
+        line-height: 0.96;
     }
 
     .industry-hero-photo {
-        min-height: 430px;
+        min-height: 480px;
     }
+
+    /* PROOF */
 
     .industry-proof {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .industry-context-grid,
-    .industry-directory-grid {
-        grid-template-columns: 1fr 1fr;
+    .industry-proof > div:nth-child(2) {
+        border-right: 0;
     }
+
+    .industry-proof > div:nth-child(-n + 2) {
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    /* SECTION HEAD */
+
+    .industry-section-head {
+        grid-template-columns: 1fr;
+
+        gap: 22px;
+
+        margin-bottom: 40px;
+    }
+
+    .industry-section-head > p {
+        max-width: 700px;
+    }
+
+    /* CONTEXT */
+
+    .industry-context-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* DIRECTORY */
+
+    .industry-directory-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* STEPS */
 
     .industry-steps {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .industry-path-grid {
-        grid-template-columns: 1fr 1fr;
+    /* CAPABILITIES */
+
+    .industry-cap-grid {
+        grid-template-columns: 1fr;
+
+        gap: 40px;
     }
 
-    .industry-cap-grid,
+    /* PATHWAYS */
+
+    .industry-path-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* WHY */
+
     .industry-why-grid {
         grid-template-columns: 1fr;
+
+        gap: 45px;
     }
 
-    .industry-why-visual img {
-        height: auto;
-    }
+    /* CTA */
 
     .industry-cta-band .cta-inner {
         display: block;
     }
 
     .industry-cta-buttons {
-        margin-top: 25px;
+        margin-top: 28px;
     }
 }
 
-@media (max-width: 640px) {
+/* =========================================================
+   MOBILE
+   max-width: 767px
+========================================================= */
+
+@media (max-width: 767.98px) {
     .industry-context,
     .industry-directory,
     .industry-method,
     .industry-pathways,
-    .industry-why {
-        padding: 72px 0;
+    .industry-why,
+    .industry-specific-page > main > section:not(.industry-hero) {
+        padding-top: 65px;
+
+        padding-bottom: 65px;
     }
 
+    /* HERO */
+
     .industry-hero-copy {
-        padding: 58px 15px;
+        padding: 55px 20px;
+    }
+
+    .industry-hero .eyebrow {
+        margin-bottom: 17px;
     }
 
     .industry-hero h1 {
-        font-size: clamp(42px, 12vw, 58px);
+        font-size: clamp(42px, 11vw, 58px);
+
+        line-height: 0.98;
+
         letter-spacing: -2px;
     }
 
     .industry-hero p {
-        font-size: 16px;
+        font-size: 15px;
+
+        line-height: 1.65;
+    }
+
+    .industry-hero p:last-of-type {
+        margin-bottom: 28px;
+    }
+
+    .industry-hero .hero-buttons {
+        flex-direction: column;
+
+        align-items: stretch;
+    }
+
+    .industry-hero .hero-buttons .advent-btn {
+        width: 100%;
+
+        justify-content: center;
     }
 
     .industry-hero-photo {
-        min-height: 320px;
+        min-height: 360px;
     }
+
+    /* PROOF */
 
     .industry-proof {
         grid-template-columns: 1fr;
     }
 
-    .industry-proof > div {
+    .industry-proof > div,
+    .industry-proof > div:nth-child(2) {
+        min-height: 82px;
+
         border-right: 0;
+
         border-bottom: 1px solid var(--color-border);
     }
 
@@ -836,49 +1273,324 @@
         border-bottom: 0;
     }
 
+    .industry-proof > div {
+        text-align: left;
+    }
+
+    .industry-proof strong {
+        font-size: 18px;
+    }
+
+    /* SECTION HEAD */
+
     .industry-section-head {
-        display: block;
-        margin-bottom: 35px;
+        margin-bottom: 32px;
+    }
+
+    .industry-section-head h2 {
+        font-size: 40px;
+
+        line-height: 1;
+
+        letter-spacing: -1.8px;
     }
 
     .industry-section-head > p {
-        margin-top: 20px;
+        font-size: 15px;
+
+        line-height: 1.65;
     }
 
-    .industry-context-grid,
-    .industry-directory-grid,
-    .industry-path-grid,
-    .industry-steps {
+    /* CONTEXT */
+
+    .industry-context-intro {
+        margin: -2px 0 30px;
+
+        font-size: 15px;
+
+        line-height: 1.7;
+    }
+
+    .industry-context-grid {
         grid-template-columns: 1fr;
     }
 
     .industry-context-card {
         min-height: auto;
+
+        padding: 24px 20px;
+    }
+
+    .industry-context-card h3 {
+        font-size: 19px;
+    }
+
+    /* DIRECTORY */
+
+    .industry-directory-grid {
+        grid-template-columns: 1fr;
+
+        gap: 10px;
+    }
+
+    .industry-directory-card {
+        min-height: 220px;
+
+        padding: 24px 20px;
+    }
+
+    .industry-directory-card h3 {
+        font-size: 22px;
+    }
+
+    /* STEPS */
+
+    .industry-steps {
+        grid-template-columns: 1fr;
+    }
+
+    .industry-step {
+        min-height: auto;
+
+        padding: 24px 20px;
+    }
+
+    .industry-step h3 {
+        font-size: 19px;
+    }
+
+    /* CAPABILITIES */
+
+    .industry-cap-lead {
+        font-size: 16px;
+
+        line-height: 1.7;
     }
 
     .industry-cap-list {
         grid-template-columns: 1fr;
     }
 
-    .industry-cap:nth-child(odd),
-    .industry-cap:nth-child(even) {
-        padding: 22px 0;
-        border-right: 0;
+    .industry-cap {
+        min-height: auto;
+
+        padding: 22px 20px;
+    }
+
+    /* PATHWAYS */
+
+    .industry-path-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .industry-path {
+        min-height: auto;
+
+        padding: 22px 20px;
+    }
+
+    /* WHY */
+
+    .industry-why-grid {
+        gap: 35px;
+    }
+
+    .industry-why-visual img {
+        height: 280px;
+
+        margin-bottom: 22px;
+    }
+
+    .industry-why-copy {
+        font-size: 15px;
+    }
+
+    .industry-why-point {
+        padding: 20px 0;
+    }
+
+    .industry-why-point h3 {
+        font-size: 18px;
+    }
+
+    /* FINAL CTA */
+
+    .industry-final {
+        padding: 65px 0;
+    }
+
+    .industry-final h2 {
+        font-size: 40px;
+
+        letter-spacing: -1.8px;
+    }
+
+    .industry-final p {
+        font-size: 15px;
+    }
+
+    /* YELLOW CTA */
+
+    .industry-cta-band {
+        padding: 58px 0;
     }
 
     .industry-cta-band h2 {
-        font-size: 34px;
+        font-size: 36px;
+
+        letter-spacing: -1.5px;
+    }
+
+    .industry-cta-band p {
+        font-size: 15px;
     }
 
     .industry-cta-buttons {
         flex-direction: column;
+
+        width: 100%;
     }
 
     .industry-cta-buttons .advent-btn {
         width: 100%;
+
+        justify-content: center;
+    }
+
+    /* FAQ */
+
+    .industry-specific-page > main > section:last-child {
+        padding: 65px 0;
+    }
+
+    .industry-faq summary {
+        min-height: 65px;
+
+        padding: 20px 40px 20px 0;
+
+        font-size: 15px;
+    }
+
+    .industry-faq summary::after {
+        top: 20px;
+
+        font-size: 21px;
+    }
+
+    .industry-faq details p {
+        padding: 0 30px 22px 0;
+
+        font-size: 15px;
+
+        line-height: 1.7;
+    }
+}
+
+/* =========================================================
+   SMALL MOBILE
+   max-width: 575px
+========================================================= */
+
+@media (max-width: 575.98px) {
+    .industry-context,
+    .industry-directory,
+    .industry-method,
+    .industry-pathways,
+    .industry-why,
+    .industry-specific-page > main > section:not(.industry-hero) {
+        padding-top: 55px;
+
+        padding-bottom: 55px;
+    }
+
+    .industry-hero-copy {
+        padding: 50px 16px;
+    }
+
+    .industry-hero h1 {
+        font-size: 38px;
+
+        letter-spacing: -1.5px;
+    }
+
+    .industry-hero-photo {
+        min-height: 300px;
+    }
+
+    .industry-section-head h2,
+    .industry-final h2 {
+        font-size: 38px;
+
+        letter-spacing: -1.5px;
+    }
+
+    .industry-context-card {
+        padding: 22px 18px;
+    }
+
+    .industry-directory-card {
+        min-height: 210px;
+
+        padding: 22px 18px;
+    }
+
+    .industry-directory-card h3 {
+        font-size: 21px;
+    }
+
+    .industry-step {
+        padding: 22px 18px;
+    }
+
+    .industry-cap {
+        padding: 20px 18px;
+    }
+
+    .industry-path {
+        padding: 20px 18px;
+    }
+
+    .industry-why-visual img {
+        height: 240px;
     }
 
     .industry-final {
-        padding: 72px 0;
+        padding: 55px 0;
+    }
+
+    .industry-cta-band {
+        padding: 50px 0;
+    }
+
+    .industry-cta-band h2 {
+        font-size: 32px;
+    }
+}
+
+.industry-capabilities,
+.industry-faq-section {
+    padding: 100px 0;
+    background: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+}
+
+@media (max-width: 991.98px) {
+    .industry-capabilities,
+    .industry-faq-section {
+        padding: 75px 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .industry-capabilities,
+    .industry-faq-section {
+        padding: 65px 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .industry-capabilities,
+    .industry-faq-section {
+        padding: 55px 0;
     }
 }
