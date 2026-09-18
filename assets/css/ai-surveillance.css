@@ -1,0 +1,1436 @@
+/* =========================================================
+   AI SURVEILLANCE PAGE
+   Advent Security
+========================================================= */
+
+/* =========================================================
+   PAGE FOUNDATION
+========================================================= */
+
+.ai-surveillance-page {
+    overflow: hidden;
+}
+
+.ai-surveillance-page > section {
+    position: relative;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.ai-surveillance-page > section:first-child {
+    border-top: 1px solid var(--color-border);
+}
+
+.ai-surveillance-page .container,
+.ai-surveillance-page .container-fluid {
+    position: relative;
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.ai-hero {
+    padding: 0;
+    background: var(--color-bg);
+}
+
+.ai-hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+    min-height: 560px;
+}
+
+.ai-hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 70px 5vw 70px 7vw;
+}
+
+.ai-hero-content .advent-eyebrow {
+    margin-bottom: 25px;
+}
+
+.ai-hero-content h1 {
+    max-width: 680px;
+    margin: 0;
+
+    font-size: clamp(54px, 6vw, 82px);
+    font-weight: 600;
+    line-height: 0.94;
+    letter-spacing: -3.5px;
+
+    color: var(--color-text);
+}
+
+.ai-hero-content h1 span {
+    display: block;
+    color: var(--color-primary);
+}
+
+.ai-hero-content > p {
+    max-width: 600px;
+    margin: 30px 0 0;
+
+    font-size: 18px;
+    line-height: 1.7;
+
+    color: var(--color-text-muted);
+}
+
+.ai-hero-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+
+    margin-top: 35px;
+}
+
+/* Hero Visual */
+
+.ai-hero-visual {
+    position: relative;
+
+    height: 560px;
+
+    overflow: hidden;
+
+    background: var(--color-surface);
+    border-left: 1px solid var(--color-border);
+}
+
+.ai-hero-visual img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: center center;
+}
+
+/* Hero Status */
+
+.ai-hero-status {
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    max-width: 310px;
+    padding: 16px 19px;
+
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+}
+
+.ai-status-dot {
+    width: 9px;
+    height: 9px;
+    flex: 0 0 9px;
+
+    border-radius: 50%;
+
+    background: var(--color-primary);
+}
+
+.ai-hero-status div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.ai-hero-status strong {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+
+    color: var(--color-text);
+}
+
+.ai-hero-status div span {
+    font-size: 12px;
+    line-height: 1.45;
+
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   OVERVIEW
+========================================================= */
+
+.ai-overview {
+    padding: 115px 0;
+    background: var(--color-bg);
+}
+
+.ai-overview-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+
+    gap: 90px;
+    align-items: start;
+}
+
+.ai-overview-heading .advent-eyebrow {
+    margin-bottom: 24px;
+}
+
+.ai-overview-heading h2 {
+    max-width: 610px;
+    margin: 0;
+
+    font-size: clamp(43px, 5vw, 62px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -2.7px;
+
+    color: var(--color-text);
+}
+
+.ai-overview-heading h2 span {
+    color: var(--color-primary);
+}
+
+.ai-overview-content {
+    max-width: 750px;
+}
+
+.ai-overview-content .ai-lead {
+    margin: 0;
+
+    font-size: 21px;
+    line-height: 1.6;
+
+    color: var(--color-text);
+}
+
+.ai-overview-content > p:not(.ai-lead) {
+    max-width: 680px;
+    margin: 24px 0 0;
+
+    font-size: 16px;
+    line-height: 1.8;
+
+    color: var(--color-text-muted);
+}
+
+/* Overview Note */
+
+.ai-overview-note {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+    margin-top: 50px;
+    padding: 28px 30px;
+
+    background: var(--color-bg-soft);
+    border-left: 3px solid var(--color-primary);
+}
+
+.ai-overview-note span {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+
+    color: var(--color-primary);
+}
+
+.ai-overview-note strong {
+    max-width: 650px;
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.55;
+
+    color: var(--color-text);
+}
+
+/* =========================================================
+   COMMON SECTION HEADER
+========================================================= */
+
+.ai-section-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+
+    gap: 70px;
+    align-items: end;
+
+    margin-bottom: 58px;
+}
+
+.ai-section-header .advent-eyebrow {
+    margin-bottom: 23px;
+}
+
+.ai-section-header h2 {
+    max-width: 760px;
+    margin: 0;
+
+    font-size: clamp(43px, 5vw, 62px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -2.7px;
+
+    color: var(--color-text);
+}
+
+.ai-section-header h2 span {
+    color: var(--color-primary);
+}
+
+.ai-section-header > p {
+    max-width: 570px;
+    margin: 0;
+
+    font-size: 16px;
+    line-height: 1.8;
+
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   AI DETECTION
+========================================================= */
+
+.ai-detection {
+    padding: 115px 0;
+    background: var(--color-bg-soft);
+}
+
+.ai-detection-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    gap: 12px;
+}
+
+.ai-detection-card {
+    min-height: 320px;
+    padding: 29px;
+
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+
+    transition:
+        transform 0.3s ease,
+        background-color 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.ai-detection-card:hover {
+    transform: translateY(-5px);
+
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+/* Detection Icon */
+
+.ai-detection-icon {
+    width: 56px;
+    height: 56px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--color-border);
+
+    color: var(--color-primary);
+
+    transition:
+        color 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.ai-detection-icon i {
+    display: block;
+
+    font-size: 21px;
+    line-height: 1;
+}
+
+.ai-detection-card:hover .ai-detection-icon {
+    color: var(--color-dark);
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Detection Content */
+
+.ai-detection-content {
+    margin-top: 48px;
+}
+
+.ai-detection-content h3 {
+    margin: 0;
+
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.2;
+
+    color: var(--color-text);
+
+    transition: color 0.3s ease;
+}
+
+.ai-detection-content p {
+    max-width: 300px;
+
+    margin: 12px 0 0;
+
+    font-size: 14px;
+    line-height: 1.7;
+
+    color: var(--color-text-muted);
+
+    transition: color 0.3s ease;
+}
+
+.ai-detection-card:hover h3,
+.ai-detection-card:hover p {
+    color: var(--color-dark);
+}
+
+/* =========================================================
+   INTELLIGENT MONITORING
+========================================================= */
+
+.ai-monitoring {
+    padding: 115px 0;
+    background: var(--color-bg);
+}
+
+.ai-monitoring-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.95fr);
+
+    gap: 80px;
+    align-items: stretch;
+}
+
+/* Monitoring Image */
+
+.ai-monitoring-visual {
+    position: relative;
+
+    height: 610px;
+
+    overflow: hidden;
+}
+
+.ai-monitoring-visual img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: center center;
+}
+
+.ai-monitoring-label {
+    position: absolute;
+
+    left: 24px;
+    bottom: 24px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    max-width: 300px;
+    padding: 17px 19px;
+
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+}
+
+.ai-monitoring-label strong {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+
+    color: var(--color-primary);
+}
+
+.ai-monitoring-label span {
+    font-size: 13px;
+    line-height: 1.45;
+
+    color: var(--color-text);
+}
+
+/* Monitoring Content */
+
+.ai-monitoring-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 25px 0;
+}
+
+.ai-monitoring-content .advent-eyebrow {
+    margin-bottom: 23px;
+}
+
+.ai-monitoring-content h2 {
+    max-width: 620px;
+    margin: 0;
+
+    font-size: clamp(43px, 5vw, 62px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -2.7px;
+
+    color: var(--color-text);
+}
+
+.ai-monitoring-content h2 span {
+    color: var(--color-primary);
+}
+
+.ai-monitoring-content .ai-lead {
+    max-width: 620px;
+
+    margin: 25px 0 0;
+
+    font-size: 18px;
+    line-height: 1.7;
+
+    color: var(--color-text-muted);
+}
+
+/* Monitoring List */
+
+.ai-monitoring-list {
+    margin-top: 45px;
+
+    border-top: 1px solid var(--color-border);
+}
+
+.ai-monitoring-item {
+    display: grid;
+    grid-template-columns: 45px 1fr;
+
+    gap: 18px;
+
+    padding: 21px 0;
+
+    border-bottom: 1px solid var(--color-border);
+}
+
+.ai-monitoring-icon {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--color-border);
+
+    color: var(--color-primary);
+}
+
+.ai-monitoring-icon i {
+    font-size: 17px;
+    line-height: 1;
+}
+
+.ai-monitoring-item h3 {
+    margin: 0;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    color: var(--color-text);
+}
+
+.ai-monitoring-item p {
+    max-width: 570px;
+
+    margin: 7px 0 0;
+
+    font-size: 14px;
+    line-height: 1.65;
+
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   AI PROCESS
+========================================================= */
+
+.ai-process {
+    padding: 115px 0;
+    background: var(--color-bg-soft);
+}
+
+.ai-process-header {
+    margin-bottom: 65px;
+}
+
+.ai-process-flow {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    gap: 12px;
+}
+
+.ai-process-card {
+    position: relative;
+
+    min-height: 320px;
+    padding: 29px;
+
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+
+    transition:
+        transform 0.3s ease,
+        background-color 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.ai-process-card:hover {
+    transform: translateY(-5px);
+
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+/* Process Icon */
+
+.ai-process-icon {
+    width: 53px;
+    height: 53px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 50px;
+
+    border: 1px solid var(--color-border);
+
+    color: var(--color-primary);
+
+    transition:
+        color 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.ai-process-icon i {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.ai-process-card:hover .ai-process-icon {
+    color: var(--color-dark);
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Process Text */
+
+.ai-process-card > span {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+
+    color: var(--color-primary);
+
+    transition: color 0.3s ease;
+}
+
+.ai-process-card h3 {
+    margin: 0;
+
+    font-size: 21px;
+    font-weight: 600;
+
+    color: var(--color-text);
+
+    transition: color 0.3s ease;
+}
+
+.ai-process-card p {
+    max-width: 300px;
+
+    margin: 11px 0 0;
+
+    font-size: 14px;
+    line-height: 1.7;
+
+    color: var(--color-text-muted);
+
+    transition: color 0.3s ease;
+}
+
+.ai-process-card:hover > span,
+.ai-process-card:hover h3,
+.ai-process-card:hover p {
+    color: var(--color-dark);
+}
+
+/* =========================================================
+   HUMAN + TECHNOLOGY
+========================================================= */
+
+.ai-human-security {
+    padding: 115px 0;
+
+    background: var(--color-dark);
+
+    border-bottom-color: var(--color-dark);
+}
+
+.ai-human-security-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+
+    gap: 90px;
+    align-items: center;
+}
+
+.ai-human-security-content .advent-eyebrow {
+    margin-bottom: 23px;
+
+    color: var(--color-primary);
+}
+
+.ai-human-security-content h2 {
+    max-width: 620px;
+    margin: 0;
+
+    font-size: clamp(43px, 5vw, 62px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -2.7px;
+
+    color: #ffffff;
+}
+
+.ai-human-security-content h2 span {
+    color: var(--color-primary);
+}
+
+.ai-human-security-content > p {
+    max-width: 600px;
+
+    margin: 25px 0 0;
+
+    font-size: 16px;
+    line-height: 1.8;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Human + Technology Points */
+
+.ai-human-security-points {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+    border-left: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.ai-human-security-point {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+
+    gap: 15px;
+
+    min-height: 165px;
+
+    padding: 25px;
+
+    border-right: 1px solid rgba(255, 255, 255, 0.16);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+
+    transition: background-color 0.3s ease;
+}
+
+.ai-human-security-point:hover {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.ai-human-security-point > i {
+    margin-top: 2px;
+
+    font-size: 17px;
+
+    color: var(--color-primary);
+}
+
+.ai-human-security-point div {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.ai-human-security-point strong {
+    font-size: 16px;
+    font-weight: 600;
+
+    color: #ffffff;
+}
+
+.ai-human-security-point span {
+    font-size: 13px;
+    line-height: 1.65;
+
+    color: rgba(255, 255, 255, 0.68);
+}
+
+/* =========================================================
+   INDUSTRIES
+========================================================= */
+
+.ai-industries {
+    padding: 115px 0;
+    background: var(--color-bg);
+}
+
+.ai-industry-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.ai-industry-card {
+    min-height: 245px;
+
+    padding: 29px;
+
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+
+    transition: background-color 0.3s ease;
+}
+
+.ai-industry-card:hover {
+    background: var(--color-bg-soft);
+}
+
+/* Industry Icon */
+
+.ai-industry-icon {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 30px;
+
+    border: 1px solid var(--color-border);
+
+    color: var(--color-primary);
+}
+
+.ai-industry-icon i {
+    font-size: 19px;
+    line-height: 1;
+}
+
+.ai-industry-card h3 {
+    margin: 0;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    color: var(--color-text);
+}
+
+.ai-industry-card p {
+    max-width: 340px;
+
+    margin: 10px 0 0;
+
+    font-size: 14px;
+    line-height: 1.7;
+
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   WHY ADVENT
+========================================================= */
+
+.ai-why {
+    padding: 115px 0;
+    background: var(--color-bg-soft);
+}
+
+.ai-why-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+
+    gap: 90px;
+    align-items: start;
+}
+
+.ai-why-heading .advent-eyebrow {
+    margin-bottom: 23px;
+}
+
+.ai-why-heading h2 {
+    max-width: 580px;
+    margin: 0;
+
+    font-size: clamp(43px, 5vw, 62px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -2.7px;
+
+    color: var(--color-text);
+}
+
+.ai-why-heading h2 span {
+    color: var(--color-primary);
+}
+
+.ai-why-content {
+    max-width: 760px;
+}
+
+.ai-why-content .ai-lead {
+    max-width: 650px;
+
+    margin: 0;
+
+    font-size: 20px;
+    line-height: 1.65;
+
+    color: var(--color-text);
+}
+
+/* Why Points */
+
+.ai-why-points {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    margin-top: 50px;
+
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.ai-why-point {
+    min-height: 190px;
+
+    padding: 26px;
+
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.ai-why-point strong {
+    display: block;
+
+    font-size: 17px;
+    font-weight: 600;
+
+    color: var(--color-text);
+}
+
+.ai-why-point p {
+    max-width: 310px;
+
+    margin: 10px 0 0;
+
+    font-size: 14px;
+    line-height: 1.7;
+
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   RELATED SERVICES
+   Shared component CSS remains in components.css
+========================================================= */
+
+.ai-related {
+    padding: 110px 0;
+
+    background: var(--color-bg);
+
+    border-top: 0;
+}
+
+/* =========================================================
+   FAQ
+   Shared FAQ CSS remains in security.css/components.css
+========================================================= */
+
+.ai-faq {
+    background: var(--color-bg-soft);
+}
+
+.ai-faq .faq-header h2 span {
+    color: var(--color-primary);
+}
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.ai-cta {
+    background: var(--color-primary);
+}
+
+.ai-cta .advent-eyebrow {
+    color: var(--color-dark);
+}
+
+.ai-cta .cta-inner h2,
+.ai-cta .cta-inner h2 span {
+    color: var(--color-dark);
+}
+
+.ai-cta .cta-inner p {
+    color: rgba(0, 0, 0, 0.72);
+}
+
+/* =========================================================
+   LARGE LAPTOP
+========================================================= */
+
+@media (max-width: 1199.98px) {
+    .ai-hero-content {
+        padding-left: 5vw;
+    }
+
+    .ai-overview-grid,
+    .ai-human-security-inner,
+    .ai-why-grid {
+        gap: 60px;
+    }
+
+    .ai-monitoring-grid {
+        gap: 55px;
+    }
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991.98px) {
+    /* Hero */
+
+    .ai-hero-grid {
+        grid-template-columns: 1fr;
+        min-height: auto;
+    }
+
+    .ai-hero-content {
+        min-height: 560px;
+        padding: 80px 0;
+    }
+
+    .ai-hero-visual {
+        height: 500px;
+
+        border-left: 0;
+        border-top: 1px solid var(--color-border);
+    }
+
+    /* Overview */
+
+    .ai-overview {
+        padding: 90px 0;
+    }
+
+    .ai-overview-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    /* Section Header */
+
+    .ai-section-header {
+        grid-template-columns: 1fr;
+
+        gap: 24px;
+
+        margin-bottom: 50px;
+    }
+
+    /* Detection */
+
+    .ai-detection {
+        padding: 90px 0;
+    }
+
+    .ai-detection-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Monitoring */
+
+    .ai-monitoring {
+        padding: 90px 0;
+    }
+
+    .ai-monitoring-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .ai-monitoring-visual {
+        height: 540px;
+    }
+
+    /* Process */
+
+    .ai-process {
+        padding: 90px 0;
+    }
+
+    .ai-process-flow {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Human + Technology */
+
+    .ai-human-security {
+        padding: 90px 0;
+    }
+
+    .ai-human-security-inner {
+        grid-template-columns: 1fr;
+        gap: 55px;
+    }
+
+    /* Industries */
+
+    .ai-industries {
+        padding: 90px 0;
+    }
+
+    .ai-industry-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Why */
+
+    .ai-why {
+        padding: 90px 0;
+    }
+
+    .ai-why-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    /* Related */
+
+    .ai-related {
+        padding: 90px 0;
+    }
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767.98px) {
+    /* Hero */
+
+    .ai-hero-content {
+        min-height: auto;
+        padding: 65px 0 60px;
+    }
+
+    .ai-hero-content h1 {
+        font-size: clamp(44px, 12vw, 58px);
+        letter-spacing: -2.5px;
+    }
+
+    .ai-hero-content > p {
+        margin-top: 24px;
+
+        font-size: 16px;
+        line-height: 1.65;
+    }
+
+    .ai-hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+
+        margin-top: 30px;
+    }
+
+    .ai-hero-actions .advent-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .ai-hero-visual {
+        height: 390px;
+    }
+
+    .ai-hero-status {
+        right: 15px;
+        bottom: 15px;
+
+        max-width: calc(100% - 30px);
+
+        padding: 14px 16px;
+    }
+
+    /* General Section Spacing */
+
+    .ai-overview,
+    .ai-detection,
+    .ai-monitoring,
+    .ai-process,
+    .ai-human-security,
+    .ai-industries,
+    .ai-why,
+    .ai-related {
+        padding: 75px 0;
+    }
+
+    /* Headings */
+
+    .ai-overview-heading h2,
+    .ai-section-header h2,
+    .ai-monitoring-content h2,
+    .ai-human-security-content h2,
+    .ai-why-heading h2 {
+        font-size: 39px;
+        letter-spacing: -2px;
+    }
+
+    /* Overview */
+
+    .ai-overview-grid {
+        gap: 40px;
+    }
+
+    .ai-overview-content .ai-lead {
+        font-size: 18px;
+    }
+
+    .ai-overview-note {
+        margin-top: 38px;
+        padding: 23px 24px;
+    }
+
+    .ai-overview-note strong {
+        font-size: 18px;
+    }
+
+    /* Detection */
+
+    .ai-detection-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .ai-detection-card {
+        min-height: 275px;
+        padding: 25px;
+    }
+
+    .ai-detection-content {
+        margin-top: 38px;
+    }
+
+    /* Monitoring */
+
+    .ai-monitoring-grid {
+        gap: 40px;
+    }
+
+    .ai-monitoring-visual {
+        height: 350px;
+    }
+
+    .ai-monitoring-label {
+        left: 15px;
+        bottom: 15px;
+
+        padding: 14px 16px;
+    }
+
+    .ai-monitoring-content {
+        padding: 0;
+    }
+
+    .ai-monitoring-content .ai-lead {
+        font-size: 16px;
+    }
+
+    .ai-monitoring-list {
+        margin-top: 38px;
+    }
+
+    .ai-monitoring-item {
+        grid-template-columns: 40px 1fr;
+
+        gap: 15px;
+        padding: 20px 0;
+    }
+
+    .ai-monitoring-icon {
+        width: 38px;
+        height: 38px;
+    }
+
+    .ai-monitoring-item h3 {
+        font-size: 17px;
+    }
+
+    /* Process */
+
+    .ai-process-header {
+        margin-bottom: 42px;
+    }
+
+    .ai-process-flow {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .ai-process-card {
+        min-height: 270px;
+        padding: 25px;
+    }
+
+    .ai-process-icon {
+        margin-bottom: 42px;
+    }
+
+    /* Human + Technology */
+
+    .ai-human-security-inner {
+        gap: 40px;
+    }
+
+    .ai-human-security-content > p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .ai-human-security-points {
+        grid-template-columns: 1fr;
+    }
+
+    .ai-human-security-point {
+        min-height: 125px;
+    }
+
+    /* Industries */
+
+    .ai-industry-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ai-industry-card {
+        min-height: 210px;
+        padding: 25px;
+    }
+
+    .ai-industry-icon {
+        margin-bottom: 26px;
+    }
+
+    /* Why */
+
+    .ai-why-grid {
+        gap: 40px;
+    }
+
+    .ai-why-content .ai-lead {
+        font-size: 18px;
+    }
+
+    .ai-why-points {
+        grid-template-columns: 1fr;
+
+        margin-top: 40px;
+    }
+
+    .ai-why-point {
+        min-height: auto;
+        padding: 23px;
+    }
+
+    /* FAQ */
+
+    .ai-faq .faq-header {
+        margin-bottom: 35px;
+    }
+
+    /* CTA */
+
+    .ai-cta .cta-inner {
+        text-align: left;
+    }
+}
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 575.98px) {
+    .ai-hero-content {
+        padding: 50px 0;
+    }
+
+    .ai-hero-content h1 {
+        font-size: 42px;
+        letter-spacing: -2px;
+    }
+
+    .ai-hero-visual {
+        height: 330px;
+    }
+
+    .ai-hero-status {
+        right: 15px;
+        bottom: 15px;
+    }
+
+    .ai-overview-heading h2,
+    .ai-section-header h2,
+    .ai-monitoring-content h2,
+    .ai-human-security-content h2,
+    .ai-why-heading h2 {
+        font-size: 36px;
+        letter-spacing: -1.8px;
+    }
+
+    .ai-detection-card {
+        min-height: 260px;
+    }
+
+    .ai-monitoring-visual {
+        height: 330px;
+    }
+
+    .ai-process-card {
+        min-height: 250px;
+    }
+}

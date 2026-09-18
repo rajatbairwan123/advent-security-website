@@ -1,7 +1,24 @@
 /* =========================================================
    ADVENT SECURITY
    GATEHOUSE SECURITY PAGE
+   Page-specific styles
 ========================================================= */
+
+/* =========================================================
+   SHARED PAGE RHYTHM
+========================================================= */
+
+.gatehouse-security-page {
+    overflow: hidden;
+}
+
+.gatehouse-security-page section {
+    position: relative;
+}
+
+.gatehouse-security-page .container {
+    position: relative;
+}
 
 /* =========================================================
    HERO
@@ -15,10 +32,10 @@
 }
 
 .gatehouse-hero-grid {
-    min-height: 700px;
-
     display: grid;
-    grid-template-columns: 0.95fr 1.05fr;
+    grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+
+    min-height: 680px;
 }
 
 .gatehouse-hero-content {
@@ -26,7 +43,7 @@
     flex-direction: column;
     justify-content: center;
 
-    padding: 80px 7vw 80px 0;
+    padding: 4vw 3vw;
 }
 
 .gatehouse-hero-content h1 {
@@ -36,10 +53,10 @@
 
     color: var(--color-text);
 
-    font-size: clamp(56px, 5.5vw, 80px);
+    font-size: clamp(52px, 5.2vw, 78px);
     font-weight: 600;
-    line-height: 0.93;
-    letter-spacing: -3.5px;
+    line-height: 0.94;
+    letter-spacing: -3.2px;
 }
 
 .gatehouse-hero-content h1 span {
@@ -49,55 +66,54 @@
 .gatehouse-hero-content p {
     max-width: 570px;
 
-    margin: 35px 0 0;
+    margin: 32px 0 0;
 
     color: var(--color-text-muted);
 
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.7;
 }
 
 .gatehouse-hero-actions {
-    margin-top: 38px;
+    margin-top: 34px;
 }
 
 .gatehouse-hero-visual {
-    min-height: 700px;
-
     position: relative;
-
+    height: 684px;
     overflow: hidden;
-
     background: var(--color-surface);
 }
 
 .gatehouse-hero-visual img {
     width: 100%;
     height: 100%;
-
     display: block;
-
     object-fit: cover;
+
+    /* Crop more from the top */
+    /* object-position: center bottom; */
 }
 
 .gatehouse-hero-tag {
     position: absolute;
 
-    right: 25px;
-    bottom: 25px;
+    right: 24px;
+    bottom: 24px;
 
-    display: flex;
+    display: inline-flex;
     align-items: center;
 
-    gap: 15px;
+    gap: 14px;
 
-    padding: 14px 18px;
+    padding: 13px 17px;
 
     background: var(--color-primary);
     color: #000000;
 
     font-size: 10px;
     font-weight: 700;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
 }
 
@@ -106,56 +122,13 @@
 }
 
 /* =========================================================
-   INTRO
-========================================================= */
-
-.gatehouse-intro {
-    padding: 120px 0;
-
-    background: var(--color-primary);
-    color: #000000;
-}
-
-.gatehouse-intro .eyebrow {
-    color: #000000;
-}
-
-.gatehouse-intro h2 {
-    max-width: 850px;
-
-    margin: 0;
-
-    color: #000000;
-
-    font-size: clamp(48px, 4.8vw, 68px);
-    font-weight: 600;
-    line-height: 0.96;
-    letter-spacing: -2.8px;
-}
-
-.gatehouse-intro h2 span {
-    color: #ffffff;
-}
-
-.gatehouse-intro p {
-    max-width: 440px;
-
-    margin: 0 0 5px;
-
-    color: #000000;
-
-    font-size: 15px;
-    line-height: 1.7;
-}
-
-/* =========================================================
-   COMMON HEADING
+   COMMON SECTION HEADING
 ========================================================= */
 
 .gatehouse-heading {
-    max-width: 850px;
+    max-width: 820px;
 
-    margin-bottom: 60px;
+    margin-bottom: 52px;
 }
 
 .gatehouse-heading h2 {
@@ -163,9 +136,9 @@
 
     color: var(--color-text);
 
-    font-size: clamp(46px, 4.5vw, 64px);
+    font-size: clamp(44px, 4.4vw, 62px);
     font-weight: 600;
-    line-height: 0.96;
+    line-height: 0.97;
     letter-spacing: -2.5px;
 }
 
@@ -174,9 +147,9 @@
 }
 
 .gatehouse-heading > p {
-    max-width: 630px;
+    max-width: 640px;
 
-    margin: 28px 0 0;
+    margin: 24px 0 0;
 
     color: var(--color-text-muted);
 
@@ -185,28 +158,27 @@
 }
 
 /* =========================================================
-   ACCESS CONTROL
+   SERVICES
 ========================================================= */
 
-.gatehouse-control {
-    padding: 120px 0;
+.gatehouse-services {
+    padding: 110px 0;
 
     background: var(--color-bg);
 }
 
-.gatehouse-control-grid {
+.gatehouse-service-grid {
     display: grid;
-
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
 
     border-top: 1px solid var(--color-border);
     border-left: 1px solid var(--color-border);
 }
 
-.gatehouse-control-card {
-    min-height: 280px;
+.gatehouse-service-card {
+    min-height: 240px;
 
-    padding: 30px;
+    padding: 28px;
 
     border-right: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
@@ -216,31 +188,37 @@
         color var(--transition-normal);
 }
 
-.gatehouse-control-card:hover {
+.gatehouse-service-card:hover {
     background: var(--color-primary);
 }
 
-.gatehouse-control-card > span {
+.gatehouse-card-top span {
     color: var(--color-primary);
 
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
 }
 
-.gatehouse-control-card:hover > span {
+.gatehouse-service-card:hover .gatehouse-card-top span {
     color: #000000;
 }
 
-.gatehouse-control-card h3 {
-    margin: 70px 0 14px;
+.gatehouse-card-content {
+    margin-top: 40px;
+}
+
+.gatehouse-card-content h3 {
+    margin: 0 0 12px;
 
     color: var(--color-text);
 
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 500;
 }
 
-.gatehouse-control-card p {
+.gatehouse-card-content p {
     max-width: 470px;
 
     margin: 0;
@@ -251,89 +229,92 @@
     line-height: 1.65;
 }
 
-.gatehouse-control-card:hover h3,
-.gatehouse-control-card:hover p {
+.gatehouse-service-card:hover h3,
+.gatehouse-service-card:hover p {
     color: #000000;
 }
 
 /* =========================================================
-   FEATURE
+   TRUST / EXPERTISE
 ========================================================= */
 
-.gatehouse-feature {
-    padding: 120px 0;
+.gatehouse-trust {
+    padding: 110px 0;
 
-    background: var(--color-surface);
+    /* background: var(--color-surface); */
 }
 
-.gatehouse-feature-grid {
+/* =========================================================
+   GATEHOUSE TRUST / EXPERTISE
+========================================================= */
+
+.gatehouse-trust-grid {
     display: grid;
-
-    grid-template-columns: 1.1fr 0.9fr;
-
-    min-height: 620px;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    min-height: 0;
+    align-items: center;
 }
 
-.gatehouse-feature-image {
+.gatehouse-trust-image {
     position: relative;
-
-    min-height: 620px;
-
+    height: 540px;
     overflow: hidden;
 }
 
-.gatehouse-feature-image img {
+.gatehouse-trust-image img {
     width: 100%;
     height: 100%;
-
     display: block;
-
     object-fit: cover;
+    object-position: center center;
 }
 
 .gatehouse-feature-label {
     position: absolute;
 
-    left: 25px;
-    bottom: 25px;
+    left: 24px;
+    bottom: 24px;
 
-    padding: 11px 16px;
+    padding: 10px 15px;
 
     background: #000000;
     color: #ffffff;
 
     font-size: 10px;
     font-weight: 600;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
 }
 
-.gatehouse-feature-content {
+.gatehouse-trust-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
 
-    padding: 60px;
+    padding: 60px 0 60px 65px;
 }
 
-.gatehouse-feature-content h2 {
+.gatehouse-trust-content h2 {
+    max-width: 590px;
+
     margin: 0;
 
     color: var(--color-text);
 
-    font-size: clamp(43px, 4vw, 59px);
+    font-size: clamp(42px, 4vw, 58px);
     font-weight: 600;
-    line-height: 0.96;
+    line-height: 0.97;
     letter-spacing: -2.2px;
 }
 
-.gatehouse-feature-content h2 span {
+.gatehouse-trust-content h2 span {
     color: var(--color-primary);
 }
 
-.gatehouse-feature-content p {
+.gatehouse-trust-content p {
     max-width: 510px;
 
-    margin: 27px 0 0;
+    margin: 25px 0 0;
 
     color: var(--color-text-muted);
 
@@ -342,29 +323,107 @@
 }
 
 /* =========================================================
-   FUNCTIONS
+   PROCESS
 ========================================================= */
 
-.gatehouse-functions {
-    padding: 120px 0;
+.gatehouse-process {
+    padding: 110px 0;
 
+    border-top: 1px solid var(--color-border);
     background: var(--color-bg);
 }
 
-.gatehouse-functions .col-lg-5 h2 {
-    max-width: 500px;
+.gatehouse-process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.gatehouse-process-card {
+    min-height: 256px;
+
+    padding: 27px;
+
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.gatehouse-process-number {
+    display: block;
+
+    color: var(--color-primary);
+
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.gatehouse-process-content {
+    margin-top: 28px;
+}
+
+.gatehouse-process-content small {
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: var(--color-primary);
+
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.gatehouse-process-content h3 {
+    margin: 0 0 12px;
+
+    color: var(--color-text);
+
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.gatehouse-process-content p {
+    margin: 0;
+
+    color: var(--color-text-light);
+
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+/* =========================================================
+   PROCESS FUNCTIONS
+========================================================= */
+
+.gatehouse-functions {
+    display: grid;
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+
+    gap: 70px;
+
+    margin-top: 85px;
+}
+
+.gatehouse-functions-intro {
+    padding-top: 5px;
+}
+
+.gatehouse-functions-intro h3 {
+    max-width: 470px;
 
     margin: 0;
 
     color: var(--color-text);
 
-    font-size: clamp(45px, 4.2vw, 60px);
+    font-size: clamp(38px, 3.6vw, 52px);
     font-weight: 600;
-    line-height: 0.97;
-    letter-spacing: -2.2px;
+    line-height: 0.98;
+    letter-spacing: -2px;
 }
 
-.gatehouse-functions .col-lg-5 h2 span {
+.gatehouse-functions-intro h3 span {
     color: var(--color-primary);
 }
 
@@ -373,30 +432,17 @@
 }
 
 .gatehouse-function-list article {
-    display: grid;
-
-    grid-template-columns: 60px 1fr;
-
-    gap: 20px;
-
-    padding: 27px 0;
+    padding: 23px 0;
 
     border-bottom: 1px solid var(--color-border);
 }
 
-.gatehouse-function-number {
-    color: var(--color-primary);
-
-    font-size: 11px;
-    font-weight: 700;
-}
-
-.gatehouse-function-list h3 {
-    margin: 0 0 9px;
+.gatehouse-function-list h4 {
+    margin: 0 0 7px;
 
     color: var(--color-text);
 
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -412,114 +458,28 @@
 }
 
 /* =========================================================
-   ACCESS JOURNEY
-========================================================= */
-
-.gatehouse-journey {
-    padding: 120px 0;
-
-    background: var(--color-surface);
-}
-
-.gatehouse-journey-heading {
-    max-width: 850px;
-
-    margin-bottom: 65px;
-}
-
-.gatehouse-journey-heading h2 {
-    margin: 0;
-
-    color: var(--color-text);
-
-    font-size: clamp(48px, 4.7vw, 66px);
-    font-weight: 600;
-    line-height: 0.95;
-    letter-spacing: -2.8px;
-}
-
-.gatehouse-journey-heading h2 span {
-    color: var(--color-primary);
-}
-
-.gatehouse-journey-track {
-    display: grid;
-
-    grid-template-columns: repeat(4, 1fr);
-
-    border-top: 1px solid var(--color-border);
-    border-left: 1px solid var(--color-border);
-}
-
-.gatehouse-journey-step {
-    min-height: 330px;
-
-    padding: 28px;
-
-    border-right: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border);
-}
-
-.gatehouse-journey-step > span {
-    color: var(--color-primary);
-
-    font-size: 11px;
-    font-weight: 700;
-}
-
-.gatehouse-journey-step small {
-    display: block;
-
-    margin-top: 60px;
-
-    color: var(--color-primary);
-
-    font-size: 9px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-}
-
-.gatehouse-journey-step h3 {
-    margin: 8px 0 12px;
-
-    color: var(--color-text);
-
-    font-size: 24px;
-    font-weight: 500;
-}
-
-.gatehouse-journey-step p {
-    margin: 0;
-
-    color: var(--color-text-light);
-
-    font-size: 14px;
-    line-height: 1.65;
-}
-
-/* =========================================================
    INDUSTRIES
 ========================================================= */
 
 .gatehouse-industries {
-    padding: 120px 0;
+    padding: 110px 0;
+    border-top: 1px solid var(--color-border);
 
-    background: var(--color-bg);
+    /* background: var(--color-surface); */
 }
 
 .gatehouse-industry-grid {
     display: grid;
-
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
 
     border-top: 1px solid var(--color-border);
     border-left: 1px solid var(--color-border);
 }
 
 .gatehouse-industry-grid article {
-    min-height: 260px;
+    min-height: 255px;
 
-    padding: 28px;
+    padding: 27px;
 
     border-right: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
@@ -533,7 +493,7 @@
 }
 
 .gatehouse-industry-grid h3 {
-    margin: 55px 0 13px;
+    margin: 52px 0 12px;
 
     color: var(--color-text);
 
@@ -555,15 +515,43 @@
 ========================================================= */
 
 .gatehouse-why {
-    padding: 120px 0;
-
-    background: var(--color-surface);
+    padding: 110px 0;
+    border-top: 1px solid var(--color-border);
+    background: var(--color-bg);
 }
 
-.gatehouse-why .col-lg-5 > p {
+.gatehouse-why-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+
+    gap: 70px;
+
+    align-items: end;
+
+    margin-bottom: 55px;
+}
+
+.gatehouse-why-header h2 {
+    max-width: 760px;
+
+    margin: 0;
+
+    color: var(--color-text);
+
+    font-size: clamp(44px, 4.4vw, 62px);
+    font-weight: 600;
+    line-height: 0.97;
+    letter-spacing: -2.5px;
+}
+
+.gatehouse-why-header h2 span {
+    color: var(--color-primary);
+}
+
+.gatehouse-why-header > p {
     max-width: 470px;
 
-    margin: 0 0 5px auto;
+    margin: 0;
 
     color: var(--color-text-muted);
 
@@ -573,19 +561,16 @@
 
 .gatehouse-why-grid {
     display: grid;
-
-    grid-template-columns: repeat(4, 1fr);
-
-    margin-top: 60px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
 
     border-top: 1px solid var(--color-border);
     border-left: 1px solid var(--color-border);
 }
 
 .gatehouse-why-grid article {
-    min-height: 250px;
+    min-height: 245px;
 
-    padding: 28px;
+    padding: 27px;
 
     border-right: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
@@ -599,7 +584,7 @@
 }
 
 .gatehouse-why-grid h3 {
-    margin: 55px 0 12px;
+    margin: 52px 0 11px;
 
     color: var(--color-text);
 
@@ -614,6 +599,16 @@
 
     font-size: 14px;
     line-height: 1.6;
+}
+
+/* =========================================================
+   RELATED SERVICES
+========================================================= */
+
+.gatehouse-related {
+    padding: 110px 0;
+    border-top: 1px solid var(--color-border) !important;
+    border-top: 0px;
 }
 
 /* =========================================================
@@ -656,49 +651,85 @@
 ========================================================= */
 
 @media (max-width: 991.98px) {
+    /* Hero */
+
     .gatehouse-hero-grid {
         grid-template-columns: 1fr;
     }
 
     .gatehouse-hero-content {
-        min-height: 560px;
+        min-height: auto;
 
-        padding: 80px 6vw;
+        padding: 80px 0;
     }
 
     .gatehouse-hero-visual {
         min-height: 560px;
     }
 
-    .gatehouse-intro,
-    .gatehouse-control,
-    .gatehouse-feature,
-    .gatehouse-functions,
-    .gatehouse-journey,
+    /* Section spacing */
+
+    .gatehouse-services,
+    .gatehouse-trust,
+    .gatehouse-process,
     .gatehouse-industries,
-    .gatehouse-why {
+    .gatehouse-why,
+    .gatehouse-related {
         padding: 90px 0;
     }
 
-    .gatehouse-feature-grid {
+    /* Trust */
+
+    .gatehouse-trust-grid {
         grid-template-columns: 1fr;
     }
 
-    .gatehouse-feature-image {
+    .gatehouse-trust-image {
         min-height: 500px;
     }
 
-    .gatehouse-feature-content {
-        padding: 50px;
+    .gatehouse-trust-content {
+        padding: 55px 0 10px;
     }
 
-    .gatehouse-journey-track {
-        grid-template-columns: repeat(2, 1fr);
+    /* Process */
+
+    .gatehouse-process-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .gatehouse-industry-grid,
+    .gatehouse-functions {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+
+        margin-top: 70px;
+    }
+
+    /* Industries */
+
+    .gatehouse-industry-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Why */
+
+    .gatehouse-why-header {
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+
+        align-items: start;
+    }
+
     .gatehouse-why-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Related */
+
+    .gatehouse-related-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
@@ -707,139 +738,152 @@
 ========================================================= */
 
 @media (max-width: 767.98px) {
-    .gatehouse-hero-content {
-        min-height: auto;
+    /* Hero */
 
-        padding: 75px 25px;
+    .gatehouse-hero-content {
+        padding: 65px 0 60px;
     }
 
     .gatehouse-hero-content h1 {
-        font-size: 45px;
-
+        font-size: 44px;
+        line-height: 0.96;
         letter-spacing: -2px;
     }
 
     .gatehouse-hero-content p {
-        margin-top: 28px;
+        margin-top: 25px;
 
         font-size: 15px;
     }
 
-    .gatehouse-hero-visual {
-        min-height: 400px;
-    }
-
-    /* Intro */
-
-    .gatehouse-intro {
-        padding: 80px 0;
-    }
-
-    .gatehouse-intro h2 {
-        font-size: 42px;
-
-        letter-spacing: -2px;
-    }
-
-    .gatehouse-intro p {
+    .gatehouse-hero-actions {
         margin-top: 30px;
     }
 
-    /* Common */
-
-    .gatehouse-control,
-    .gatehouse-feature,
-    .gatehouse-functions,
-    .gatehouse-journey,
-    .gatehouse-industries,
-    .gatehouse-why {
-        padding: 80px 0;
+    .gatehouse-hero-visual {
+        min-height: 390px;
     }
+
+    .gatehouse-hero-tag {
+        right: 16px;
+        bottom: 16px;
+
+        padding: 11px 14px;
+    }
+
+    /* Section spacing */
+
+    .gatehouse-services,
+    .gatehouse-trust,
+    .gatehouse-process,
+    .gatehouse-industries,
+    .gatehouse-why,
+    .gatehouse-related {
+        padding: 75px 0;
+    }
+
+    /* Common heading */
 
     .gatehouse-heading {
-        margin-bottom: 40px;
+        margin-bottom: 38px;
     }
 
-    .gatehouse-heading h2,
-    .gatehouse-functions .col-lg-5 h2,
-    .gatehouse-journey-heading h2 {
-        font-size: 40px;
-
+    .gatehouse-heading h2 {
+        font-size: 39px;
+        line-height: 0.98;
         letter-spacing: -1.7px;
     }
 
-    /* Control */
+    .gatehouse-heading > p {
+        margin-top: 20px;
 
-    .gatehouse-control-grid {
+        font-size: 14px;
+    }
+
+    /* Services */
+
+    .gatehouse-service-grid {
         grid-template-columns: 1fr;
     }
 
-    .gatehouse-control-card {
+    .gatehouse-service-card {
         min-height: auto;
 
-        padding: 25px;
+        padding: 24px;
     }
 
-    .gatehouse-control-card h3 {
-        margin-top: 35px;
+    .gatehouse-card-content {
+        margin-top: 22px;
     }
 
-    /* Feature */
+    .gatehouse-card-content h3 {
+        font-size: 21px;
+    }
 
-    .gatehouse-feature-image {
+    /* Trust */
+
+    .gatehouse-trust-image {
         min-height: 350px;
     }
 
-    .gatehouse-feature-content {
-        padding: 45px 25px;
+    .gatehouse-feature-label {
+        left: 16px;
+        bottom: 16px;
     }
 
-    .gatehouse-feature-content h2 {
-        font-size: 40px;
+    .gatehouse-trust-content {
+        padding: 40px 0 0;
+    }
 
+    .gatehouse-trust-content h2 {
+        font-size: 39px;
+        line-height: 0.98;
         letter-spacing: -1.7px;
     }
 
-    /* Functions */
+    .gatehouse-trust-content p {
+        margin-top: 21px;
 
-    .gatehouse-function-list {
-        margin-top: 45px;
+        font-size: 14px;
     }
 
-    .gatehouse-function-list article {
-        grid-template-columns: 40px 1fr;
+    /* Process */
 
-        gap: 15px;
-
-        padding: 25px 0;
-    }
-
-    .gatehouse-function-list h3 {
-        font-size: 20px;
-    }
-
-    /* Journey */
-
-    .gatehouse-journey-heading {
-        margin-bottom: 40px;
-    }
-
-    .gatehouse-journey-track {
+    .gatehouse-process-grid {
         grid-template-columns: 1fr;
     }
 
-    .gatehouse-journey-step {
+    .gatehouse-process-card {
         min-height: auto;
 
-        padding: 25px;
+        padding: 24px;
     }
 
-    .gatehouse-journey-step small {
-        margin-top: 35px;
+    .gatehouse-process-content {
+        margin-top: 18px;
     }
 
-    .gatehouse-journey-step h3 {
+    .gatehouse-process-content h3 {
         font-size: 21px;
+    }
+
+    .gatehouse-functions {
+        gap: 35px;
+
+        margin-top: 60px;
+    }
+
+    .gatehouse-functions-intro h3 {
+        font-size: 36px;
+        letter-spacing: -1.5px;
+    }
+
+    .gatehouse-function-list article {
+        padding: 21px 0;
+    }
+
+    .gatehouse-function-list h4 {
+        font-size: 19px;
     }
 
     /* Industries */
@@ -851,33 +895,64 @@
     .gatehouse-industry-grid article {
         min-height: auto;
 
-        padding: 25px;
+        padding: 24px;
     }
 
     .gatehouse-industry-grid h3 {
         margin-top: 35px;
+
+        font-size: 19px;
     }
 
     /* Why */
 
-    .gatehouse-why .col-lg-5 > p {
-        margin: 25px 0 0;
+    .gatehouse-why-header {
+        margin-bottom: 38px;
+    }
+
+    .gatehouse-why-header h2 {
+        font-size: 39px;
+        line-height: 0.98;
+        letter-spacing: -1.7px;
+    }
+
+    .gatehouse-why-header > p {
+        font-size: 14px;
     }
 
     .gatehouse-why-grid {
         grid-template-columns: 1fr;
-
-        margin-top: 40px;
     }
 
     .gatehouse-why-grid article {
         min-height: auto;
 
-        padding: 25px;
+        padding: 24px;
     }
 
     .gatehouse-why-grid h3 {
         margin-top: 35px;
+    }
+
+    /* Related Services */
+
+    .gatehouse-related-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gatehouse-related-card {
+        min-height: 170px;
+
+        padding: 24px;
+    }
+
+    .gatehouse-related-card h3 {
+        font-size: 21px;
+    }
+
+    .gatehouse-related-arrow {
+        right: 24px;
+        bottom: 22px;
     }
 
     /* FAQ */
@@ -885,13 +960,13 @@
     .gatehouse-faq .faq-header {
         display: block;
 
-        margin-bottom: 40px;
+        margin-bottom: 38px;
     }
 
     .gatehouse-faq .faq-header > a {
         display: inline-block;
 
-        margin-top: 25px;
+        margin-top: 22px;
     }
 
     /* CTA */
@@ -901,13 +976,88 @@
     }
 
     .gatehouse-cta h2 {
-        margin-bottom: 30px;
+        margin-bottom: 28px;
 
-        font-size: 34px;
+        font-size: 33px;
+        line-height: 1.02;
     }
 
     .gatehouse-cta .advent-btn {
         width: 100%;
         min-width: 0;
+    }
+}
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 575.98px) {
+    .gatehouse-hero-content {
+        padding: 55px 0 50px;
+    }
+
+    .gatehouse-hero-content h1 {
+        font-size: 40px;
+    }
+
+    .gatehouse-hero-visual {
+        min-height: 330px;
+    }
+
+    .gatehouse-heading h2,
+    .gatehouse-trust-content h2,
+    .gatehouse-why-header h2 {
+        font-size: 36px;
+    }
+
+    .gatehouse-functions-intro h3 {
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .gatehouse-hero-visual {
+        height: 520px;
+    }
+
+    .gatehouse-hero-visual img {
+        height: 100%;
+        object-position: center center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .gatehouse-hero-visual {
+        height: 390px;
+    }
+
+    .gatehouse-hero-visual img {
+        height: 100%;
+        object-position: center center;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .gatehouse-trust-grid {
+        grid-template-columns: 1fr;
+        min-height: 0;
+    }
+
+    .gatehouse-trust-image {
+        height: 500px;
+        min-height: 0;
+    }
+
+    .gatehouse-trust-image img {
+        height: 100%;
+        object-position: center center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .gatehouse-trust-image {
+        height: 350px;
+        min-height: 0;
     }
 }

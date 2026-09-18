@@ -1,0 +1,1298 @@
+/* =====================================================
+   BODYGUARD SERVICES
+   Advent Security
+   ===================================================== */
+
+/* =====================================================
+   PAGE FOUNDATION
+   ===================================================== */
+
+.bodyguard-services-page {
+    overflow-x: hidden;
+}
+
+.bodyguard-services-page > section {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.bodyguard-services-page > section:first-child {
+    border-top: 1px solid var(--color-border);
+}
+
+/* =====================================================
+   HERO
+   ===================================================== */
+
+.bodyguard-hero {
+    background: var(--color-background);
+}
+
+.bodyguard-hero-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+    min-height: 640px;
+}
+
+.bodyguard-hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 85px 7vw 85px 8vw;
+    border-right: 1px solid var(--color-border);
+}
+
+.bodyguard-hero-content h1 {
+    max-width: 680px;
+    margin: 20px 0 25px;
+    font-size: clamp(3.2rem, 5vw, 5.5rem);
+    line-height: 0.96;
+    letter-spacing: -0.055em;
+    font-weight: 700;
+}
+
+.bodyguard-hero-content h1 span {
+    display: block;
+    color: var(--color-primary);
+}
+
+.bodyguard-hero-content > p {
+    max-width: 590px;
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.bodyguard-hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 35px;
+}
+
+.bodyguard-hero-image {
+    position: relative;
+    height: 640px;
+    overflow: hidden;
+    background: var(--color-surface);
+}
+
+.bodyguard-hero-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+    transition: transform 0.8s ease;
+}
+
+.bodyguard-hero-image:hover img {
+    transform: scale(1.025);
+}
+
+.bodyguard-hero-caption {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 290px;
+    padding: 19px 21px;
+    background: rgba(0, 0, 0, 0.84);
+    border-left: 3px solid var(--color-primary);
+}
+
+.bodyguard-hero-caption strong {
+    color: var(--color-primary);
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+}
+
+.bodyguard-hero-caption span {
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+/* =====================================================
+   PERSONAL SECURITY INTRO
+   Editorial two-column
+   ===================================================== */
+
+.bodyguard-intro {
+    padding: 115px 0;
+    background: var(--color-surface);
+}
+
+.bodyguard-intro-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+    gap: 100px;
+    align-items: start;
+}
+
+.bodyguard-intro-heading {
+    position: sticky;
+    top: 100px;
+}
+
+.bodyguard-intro-heading h2 {
+    max-width: 580px;
+    margin: 18px 0 0;
+    font-size: clamp(2.7rem, 4.2vw, 4.5rem);
+    line-height: 0.98;
+    letter-spacing: -0.05em;
+}
+
+.bodyguard-intro-heading h2 span {
+    display: block;
+    color: var(--color-primary);
+}
+
+.bodyguard-intro-content {
+    padding-top: 8px;
+}
+
+.bodyguard-intro-content p {
+    max-width: 720px;
+    margin: 0 0 27px;
+    color: var(--color-text-muted);
+    font-size: 1.03rem;
+    line-height: 1.85;
+}
+
+.bodyguard-intro-content p:last-child {
+    margin-bottom: 0;
+}
+
+/* =====================================================
+   IMAGE STORY 1
+   ===================================================== */
+
+.bodyguard-image-story {
+    background: var(--color-background);
+}
+
+.bodyguard-image-story-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    min-height: 600px;
+}
+
+.bodyguard-image-story-image {
+    position: relative;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+.bodyguard-image-story-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.bodyguard-image-story-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 85px 8vw 85px 6vw;
+    border-left: 1px solid var(--color-border);
+}
+
+.bodyguard-image-story-content h2 {
+    max-width: 600px;
+    margin: 18px 0 24px;
+    font-size: clamp(2.6rem, 4vw, 4.3rem);
+    line-height: 0.98;
+    letter-spacing: -0.05em;
+}
+
+.bodyguard-image-story-content h2 span {
+    color: var(--color-primary);
+}
+
+.bodyguard-image-story-content > p {
+    max-width: 650px;
+    margin: 0 0 25px;
+    color: var(--color-text-muted);
+    line-height: 1.8;
+}
+
+.bodyguard-story-points {
+    margin-top: 15px;
+    border-top: 1px solid var(--color-border);
+}
+
+.bodyguard-story-point {
+    display: grid;
+    grid-template-columns: 42px 1fr;
+    gap: 17px;
+    padding: 19px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.bodyguard-story-point > i {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+    border: 1px solid var(--color-border);
+    font-size: 0.95rem;
+}
+
+.bodyguard-story-point h3 {
+    margin: 0 0 5px;
+    font-size: 0.98rem;
+    font-weight: 700;
+}
+
+.bodyguard-story-point p {
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: 0.86rem;
+    line-height: 1.6;
+}
+
+/* =====================================================
+   PROTECTION SERVICES
+   Horizontal service directory
+   ===================================================== */
+
+.bodyguard-protection-services {
+    padding: 115px 0;
+    background: var(--color-surface);
+}
+
+.bodyguard-section-heading {
+    max-width: 850px;
+    margin-bottom: 65px;
+}
+
+.bodyguard-section-heading h2 {
+    margin: 18px 0 20px;
+    font-size: clamp(2.7rem, 4vw, 4.4rem);
+    line-height: 0.98;
+    letter-spacing: -0.05em;
+}
+
+.bodyguard-section-heading h2 span {
+    color: var(--color-primary);
+}
+
+.bodyguard-section-heading > p {
+    max-width: 690px;
+    margin: 0;
+    color: var(--color-text-muted);
+    line-height: 1.8;
+}
+
+.bodyguard-service-list {
+    border-top: 1px solid var(--color-border);
+}
+
+.bodyguard-service-item {
+    display: grid;
+    grid-template-columns: 78px minmax(0, 1fr);
+    gap: 25px;
+    padding: 30px 20px 30px 0;
+    border-bottom: 1px solid var(--color-border);
+    transition:
+        padding-left 0.3s ease,
+        background 0.3s ease;
+}
+
+.bodyguard-service-item:hover {
+    padding-left: 20px;
+    background: var(--color-background);
+}
+
+.bodyguard-service-icon {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-border);
+    color: var(--color-primary);
+    font-size: 1.15rem;
+    transition: all 0.3s ease;
+}
+
+.bodyguard-service-item:hover .bodyguard-service-icon {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-dark);
+}
+
+.bodyguard-service-content h3 {
+    margin: 3px 0 8px;
+    font-size: 1.12rem;
+    font-weight: 700;
+}
+
+.bodyguard-service-content p {
+    max-width: 760px;
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: 0.92rem;
+    line-height: 1.7;
+}
+
+/* =====================================================
+   SITUATIONS
+   Asymmetric grid
+   ===================================================== */
+
+.bodyguard-situations {
+    padding: 110px 0;
+    background: var(--color-background);
+}
+
+.bodyguard-situations-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.25fr);
+    gap: 80px;
+    align-items: start;
+}
+
+.bodyguard-situations-intro {
+    position: sticky;
+    top: 100px;
+}
+
+.bodyguard-situations-intro h2 {
+    max-width: 510px;
+    margin: 18px 0 22px;
+    font-size: clamp(2.5rem, 3.8vw, 4rem);
+    line-height: 1;
+    letter-spacing: -0.045em;
+}
+
+.bodyguard-situations-intro h2 span {
+    display: block;
+    color: var(--color-primary);
+}
+
+.bodyguard-situations-intro > p {
+    max-width: 470px;
+    margin: 0;
+    color: var(--color-text-muted);
+    line-height: 1.8;
+}
+
+.bodyguard-situations-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.bodyguard-situation {
+    min-height: 215px;
+    padding: 27px 28px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    transition:
+        background 0.3s ease,
+        color 0.3s ease;
+}
+
+.bodyguard-situation:hover {
+    background: var(--color-primary);
+    color: var(--color-dark);
+}
+
+.bodyguard-situation > i {
+    display: block;
+    margin-bottom: 45px;
+    color: var(--color-primary);
+    font-size: 1.25rem;
+    transition: color 0.3s ease;
+}
+
+.bodyguard-situation:hover > i {
+    color: var(--color-dark);
+}
+
+.bodyguard-situation h3 {
+    margin: 0 0 8px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.bodyguard-situation p {
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: 0.86rem;
+    line-height: 1.65;
+    transition: color 0.3s ease;
+}
+
+.bodyguard-situation:hover p {
+    color: rgba(0, 0, 0, 0.72);
+}
+
+/* =====================================================
+   IMAGE STORY 2
+   Executive Protection
+   ===================================================== */
+
+.bodyguard-executive-story {
+    padding: 110px 0;
+    background: var(--color-surface);
+}
+
+.bodyguard-executive-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+    min-height: 560px;
+}
+
+.bodyguard-executive-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 55px 70px 55px 0;
+}
+
+.bodyguard-executive-content h2 {
+    max-width: 580px;
+    margin: 18px 0 24px;
+    font-size: clamp(2.7rem, 4vw, 4.3rem);
+    line-height: 0.98;
+    letter-spacing: -0.05em;
+}
+
+.bodyguard-executive-content h2 span {
+    color: var(--color-primary);
+}
+
+.bodyguard-executive-content > p {
+    max-width: 610px;
+    margin: 0 0 20px;
+    color: var(--color-text-muted);
+    line-height: 1.8;
+}
+
+.bodyguard-executive-content .advent-btn {
+    align-self: flex-start;
+    margin-top: 18px;
+}
+
+.bodyguard-executive-image {
+    position: relative;
+    min-height: 560px;
+    overflow: hidden;
+}
+
+.bodyguard-executive-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.bodyguard-image-label {
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 17px 20px;
+    background: var(--color-primary);
+    color: var(--color-dark);
+}
+
+.bodyguard-image-label strong {
+    font-size: 0.7rem;
+    letter-spacing: 0.13em;
+}
+
+.bodyguard-image-label span {
+    font-size: 0.78rem;
+}
+
+/* =====================================================
+   PROCESS
+   Vertical editorial timeline
+   ===================================================== */
+
+.bodyguard-process {
+    padding: 110px 0;
+    background: var(--color-background);
+}
+
+.bodyguard-process-header {
+    max-width: 780px;
+    margin-bottom: 65px;
+}
+
+.bodyguard-process-header h2 {
+    margin: 18px 0 20px;
+    font-size: clamp(2.7rem, 4vw, 4.3rem);
+    line-height: 0.98;
+    letter-spacing: -0.05em;
+}
+
+.bodyguard-process-header h2 span {
+    color: var(--color-primary);
+}
+
+.bodyguard-process-header > p {
+    max-width: 650px;
+    margin: 0;
+    color: var(--color-text-muted);
+    line-height: 1.8;
+}
+
+.bodyguard-process-flow {
+    max-width: 1000px;
+    margin-left: auto;
+    border-top: 1px solid var(--color-border);
+}
+
+.bodyguard-process-step {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 25px;
+    padding: 32px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.bodyguard-process-marker {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-border);
+    color: var(--color-primary);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.bodyguard-process-step:hover .bodyguard-process-marker {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-dark);
+}
+
+.bodyguard-process-step h3 {
+    margin: 2px 0 7px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.bodyguard-process-step p {
+    max-width: 680px;
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: 0.91rem;
+    line-height: 1.7;
+}
+
+/* =====================================================
+   IMAGE STORY 3
+   Discreet Security
+   ===================================================== */
+
+.bodyguard-discreet-section {
+    background: var(--color-surface);
+}
+
+.bodyguard-discreet-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+    min-height: 600px;
+}
+
+.bodyguard-discreet-image {
+    position: relative;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+.bodyguard-discreet-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.bodyguard-discreet-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 7vw 80px 6vw;
+    border-left: 1px solid var(--color-border);
+}
+
+.bodyguard-discreet-content h2 {
+    max-width: 570px;
+    margin: 18px 0 24px;
+    font-size: clamp(2.7rem, 4vw, 4.3rem);
+    line-height: 0.98;
+    letter-spacing: -0.05em;
+}
+
+.bodyguard-discreet-content h2 span {
+    color: var(--color-primary);
+}
+
+.bodyguard-discreet-content > p {
+    max-width: 650px;
+    margin: 0 0 20px;
+    color: var(--color-text-muted);
+    line-height: 1.8;
+}
+
+.bodyguard-discreet-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 17px;
+    max-width: 600px;
+    margin-top: 18px;
+    padding: 22px 0;
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.bodyguard-discreet-note > i {
+    flex: 0 0 auto;
+    color: var(--color-primary);
+    font-size: 1.3rem;
+}
+
+.bodyguard-discreet-note strong,
+.bodyguard-discreet-note span {
+    display: block;
+}
+
+.bodyguard-discreet-note strong {
+    margin-bottom: 5px;
+    font-size: 0.95rem;
+}
+
+.bodyguard-discreet-note span {
+    color: var(--color-text-muted);
+    font-size: 0.84rem;
+    line-height: 1.6;
+}
+
+/* =====================================================
+   INDUSTRIES / CLIENT TYPES
+   ===================================================== */
+
+.bodyguard-industries {
+    padding: 110px 0;
+    background: var(--color-background);
+}
+
+.bodyguard-industries-header {
+    max-width: 850px;
+    margin-bottom: 60px;
+}
+
+.bodyguard-industries-header h2 {
+    margin: 18px 0 0;
+    font-size: clamp(2.7rem, 4vw, 4.3rem);
+    line-height: 0.98;
+    letter-spacing: -0.05em;
+}
+
+.bodyguard-industries-header h2 span {
+    color: var(--color-primary);
+}
+
+.bodyguard-industries-list {
+    border-top: 1px solid var(--color-border);
+}
+
+.bodyguard-industry {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    gap: 25px;
+    padding: 30px 0;
+    border-bottom: 1px solid var(--color-border);
+    transition: padding-left 0.3s ease;
+}
+
+.bodyguard-industry:hover {
+    padding-left: 18px;
+}
+
+.bodyguard-industry-icon {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-border);
+    color: var(--color-primary);
+    transition: all 0.3s ease;
+}
+
+.bodyguard-industry:hover .bodyguard-industry-icon {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-dark);
+}
+
+.bodyguard-industry h3 {
+    margin: 3px 0 7px;
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.bodyguard-industry p {
+    max-width: 760px;
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+/* =====================================================
+   WHY ADVENT
+   ===================================================== */
+
+.bodyguard-why {
+    padding: 110px 0;
+    background: var(--color-surface);
+}
+
+.bodyguard-why-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+    gap: 90px;
+    align-items: start;
+}
+
+.bodyguard-why-intro {
+    position: sticky;
+    top: 100px;
+}
+
+.bodyguard-why-intro h2 {
+    max-width: 530px;
+    margin: 18px 0 24px;
+    font-size: clamp(2.6rem, 4vw, 4.2rem);
+    line-height: 0.98;
+    letter-spacing: -0.05em;
+}
+
+.bodyguard-why-intro h2 span {
+    color: var(--color-primary);
+}
+
+.bodyguard-why-intro > p {
+    max-width: 470px;
+    margin: 0;
+    color: var(--color-text-muted);
+    line-height: 1.8;
+}
+
+.bodyguard-why-values {
+    border-top: 1px solid var(--color-border);
+}
+
+.bodyguard-why-value {
+    display: grid;
+    grid-template-columns: 55px 1fr;
+    gap: 20px;
+    padding: 28px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.bodyguard-why-value > i {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-border);
+    color: var(--color-primary);
+    font-size: 1rem;
+}
+
+.bodyguard-why-value h3 {
+    margin: 1px 0 7px;
+    font-size: 1.02rem;
+    font-weight: 700;
+}
+
+.bodyguard-why-value p {
+    max-width: 680px;
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+/* =====================================================
+   RELATED SERVICES
+   Shared component
+   ===================================================== */
+
+.bodyguard-services-page .bodyguard-related-services {
+    background: var(--color-background);
+}
+
+.bodyguard-services-page .related-service-card {
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease;
+}
+
+.bodyguard-services-page .related-service-card:hover {
+    transform: translateY(-4px);
+}
+
+/* =====================================================
+   FAQ
+   Shared component
+   ===================================================== */
+
+.bodyguard-services-page .bodyguard-faq {
+    background: var(--color-surface);
+}
+
+/* =====================================================
+   CTA
+   Shared component
+   ===================================================== */
+
+.bodyguard-services-page .bodyguard-cta {
+    border-bottom: 0;
+}
+
+/* =====================================================
+   RESPONSIVE — 1199px
+   ===================================================== */
+
+@media (max-width: 1199px) {
+    .bodyguard-hero-content {
+        padding-left: 6vw;
+        padding-right: 5vw;
+    }
+
+    .bodyguard-intro-layout,
+    .bodyguard-why-layout {
+        gap: 60px;
+    }
+
+    .bodyguard-image-story-content,
+    .bodyguard-discreet-content {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .bodyguard-executive-content {
+        padding-right: 50px;
+    }
+
+    .bodyguard-situations-layout {
+        gap: 55px;
+    }
+}
+
+/* =====================================================
+   RESPONSIVE — 991px
+   ===================================================== */
+
+@media (max-width: 991px) {
+    .bodyguard-hero-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .bodyguard-hero-content {
+        padding: 75px 30px 65px;
+        border-right: 0;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .bodyguard-hero-image {
+        height: 530px;
+    }
+
+    .bodyguard-intro-layout {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    .bodyguard-intro-heading {
+        position: static;
+    }
+
+    .bodyguard-intro {
+        padding: 85px 0;
+    }
+
+    .bodyguard-image-story-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .bodyguard-image-story-image {
+        min-height: 480px;
+    }
+
+    .bodyguard-image-story-content {
+        padding: 70px 30px;
+        border-left: 0;
+        border-top: 1px solid var(--color-border);
+    }
+
+    .bodyguard-protection-services {
+        padding: 85px 0;
+    }
+
+    .bodyguard-situations {
+        padding: 85px 0;
+    }
+
+    .bodyguard-situations-layout {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .bodyguard-situations-intro {
+        position: static;
+    }
+
+    .bodyguard-executive-story {
+        padding: 85px 0;
+    }
+
+    .bodyguard-executive-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .bodyguard-executive-content {
+        padding: 0 0 60px;
+    }
+
+    .bodyguard-executive-image {
+        min-height: 500px;
+    }
+
+    .bodyguard-process {
+        padding: 85px 0;
+    }
+
+    .bodyguard-discreet-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .bodyguard-discreet-image {
+        min-height: 500px;
+    }
+
+    .bodyguard-discreet-content {
+        padding: 70px 30px;
+        border-left: 0;
+        border-top: 1px solid var(--color-border);
+    }
+
+    .bodyguard-industries {
+        padding: 85px 0;
+    }
+
+    .bodyguard-why {
+        padding: 85px 0;
+    }
+
+    .bodyguard-why-layout {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .bodyguard-why-intro {
+        position: static;
+    }
+}
+
+/* =====================================================
+   RESPONSIVE — 767px
+   ===================================================== */
+
+@media (max-width: 767px) {
+    .bodyguard-hero-content {
+        padding: 60px 20px 50px;
+    }
+
+    .bodyguard-hero-content h1 {
+        font-size: clamp(2.7rem, 11vw, 4rem);
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .bodyguard-hero-content > p {
+        font-size: 0.97rem;
+        line-height: 1.7;
+    }
+
+    .bodyguard-hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+        margin-top: 28px;
+    }
+
+    .bodyguard-hero-actions .advent-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .bodyguard-hero-image {
+        height: 430px;
+    }
+
+    .bodyguard-hero-caption {
+        left: 18px;
+        right: 18px;
+        bottom: 18px;
+        max-width: none;
+    }
+
+    .bodyguard-intro,
+    .bodyguard-protection-services,
+    .bodyguard-situations,
+    .bodyguard-executive-story,
+    .bodyguard-process,
+    .bodyguard-industries,
+    .bodyguard-why {
+        padding: 70px 0;
+    }
+
+    .bodyguard-intro-heading h2,
+    .bodyguard-image-story-content h2,
+    .bodyguard-section-heading h2,
+    .bodyguard-situations-intro h2,
+    .bodyguard-executive-content h2,
+    .bodyguard-process-header h2,
+    .bodyguard-discreet-content h2,
+    .bodyguard-industries-header h2,
+    .bodyguard-why-intro h2 {
+        font-size: clamp(2.25rem, 9vw, 3.4rem);
+    }
+
+    .bodyguard-intro-content p,
+    .bodyguard-image-story-content > p,
+    .bodyguard-executive-content > p,
+    .bodyguard-discreet-content > p {
+        font-size: 0.96rem;
+        line-height: 1.75;
+    }
+
+    .bodyguard-image-story-image {
+        min-height: 400px;
+    }
+
+    .bodyguard-image-story-content {
+        padding: 60px 20px;
+    }
+
+    .bodyguard-service-item {
+        grid-template-columns: 55px 1fr;
+        gap: 16px;
+        padding: 25px 0;
+    }
+
+    .bodyguard-service-item:hover {
+        padding-left: 10px;
+    }
+
+    .bodyguard-service-icon {
+        width: 46px;
+        height: 46px;
+        font-size: 1rem;
+    }
+
+    .bodyguard-service-content h3 {
+        font-size: 1rem;
+    }
+
+    .bodyguard-service-content p {
+        font-size: 0.86rem;
+    }
+
+    .bodyguard-situations-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .bodyguard-situation {
+        min-height: auto;
+        padding: 24px 22px;
+    }
+
+    .bodyguard-situation > i {
+        margin-bottom: 30px;
+    }
+
+    .bodyguard-executive-content {
+        padding-bottom: 45px;
+    }
+
+    .bodyguard-executive-image {
+        min-height: 400px;
+    }
+
+    .bodyguard-process-step {
+        grid-template-columns: 55px 1fr;
+        gap: 16px;
+        padding: 25px 0;
+    }
+
+    .bodyguard-process-marker {
+        width: 45px;
+        height: 45px;
+    }
+
+    .bodyguard-discreet-image {
+        min-height: 400px;
+    }
+
+    .bodyguard-discreet-content {
+        padding: 60px 20px;
+    }
+
+    .bodyguard-discreet-note {
+        gap: 13px;
+    }
+
+    .bodyguard-industry {
+        grid-template-columns: 55px 1fr;
+        gap: 16px;
+        padding: 25px 0;
+    }
+
+    .bodyguard-industry:hover {
+        padding-left: 10px;
+    }
+
+    .bodyguard-industry-icon {
+        width: 44px;
+        height: 44px;
+    }
+
+    .bodyguard-industry h3 {
+        font-size: 0.98rem;
+    }
+
+    .bodyguard-industry p {
+        font-size: 0.86rem;
+    }
+
+    .bodyguard-why-value {
+        grid-template-columns: 50px 1fr;
+        gap: 15px;
+        padding: 24px 0;
+    }
+
+    .bodyguard-why-value > i {
+        width: 42px;
+        height: 42px;
+    }
+}
+
+/* =====================================================
+   RESPONSIVE — 575px
+   ===================================================== */
+
+@media (max-width: 575px) {
+    .bodyguard-hero-content {
+        padding: 50px 16px 45px;
+    }
+
+    .bodyguard-hero-image {
+        height: 350px;
+    }
+
+    .bodyguard-hero-caption {
+        left: 14px;
+        right: 14px;
+        bottom: 14px;
+        padding: 14px 16px;
+    }
+
+    .bodyguard-hero-caption strong {
+        font-size: 0.64rem;
+    }
+
+    .bodyguard-hero-caption span {
+        font-size: 0.74rem;
+    }
+
+    .bodyguard-intro,
+    .bodyguard-protection-services,
+    .bodyguard-situations,
+    .bodyguard-executive-story,
+    .bodyguard-process,
+    .bodyguard-industries,
+    .bodyguard-why {
+        padding: 60px 0;
+    }
+
+    .bodyguard-image-story-image,
+    .bodyguard-executive-image,
+    .bodyguard-discreet-image {
+        min-height: 330px;
+    }
+
+    .bodyguard-image-story-content,
+    .bodyguard-discreet-content {
+        padding: 50px 16px;
+    }
+
+    .bodyguard-story-point {
+        grid-template-columns: 38px 1fr;
+        gap: 12px;
+    }
+
+    .bodyguard-story-point > i {
+        width: 35px;
+        height: 35px;
+    }
+
+    .bodyguard-service-item {
+        grid-template-columns: 1fr;
+        gap: 13px;
+    }
+
+    .bodyguard-service-icon {
+        width: 42px;
+        height: 42px;
+    }
+
+    .bodyguard-process-step {
+        grid-template-columns: 1fr;
+        gap: 13px;
+    }
+
+    .bodyguard-process-marker {
+        width: 42px;
+        height: 42px;
+    }
+
+    .bodyguard-industry {
+        grid-template-columns: 1fr;
+        gap: 13px;
+    }
+
+    .bodyguard-industry-icon {
+        width: 42px;
+        height: 42px;
+    }
+
+    .bodyguard-why-value {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+}

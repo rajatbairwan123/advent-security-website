@@ -61,6 +61,20 @@ function advent_security_assets()
         '5.3.8'
     );
 
+    /**
+     * -----------------------------------------------------
+     * Bootstrap Icons
+     * -----------------------------------------------------
+     *
+     * Used across Advent theme components and service pages.
+     */
+    wp_enqueue_style(
+        'bootstrap-icons',
+        'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css',
+        array(),
+        '1.13.1'
+    );
+
 
     /**
      * -----------------------------------------------------
@@ -256,6 +270,87 @@ function advent_security_assets()
             '1.0.0'
         );
     }
+
+    /**
+     * -----------------------------------------------------
+     * Loss Prevention
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('loss-prevention') ||
+        is_page_template('page-loss-prevention.php')
+    ) {
+        wp_enqueue_style(
+            'advent-loss-prevention',
+            get_template_directory_uri() . '/assets/css/loss-prevention.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+    /**
+     * -----------------------------------------------------
+     * Emergency Response
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('emergency-response') ||
+        is_page_template('page-emergency-response.php')
+    ) {
+        wp_enqueue_style(
+            'advent-emergency-response',
+            get_template_directory_uri() . '/assets/css/emergency-response.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+    /**
+     * -----------------------------------------------------
+     * AI-Surveillance
+     * -----------------------------------------------------
+     */
+    // if (
+    //     is_page('ai-surveillance') ||
+    //     is_page_template('page-ai-surveillance.php')
+    // ) {
+    //     wp_enqueue_style(
+    //         'advent-ai-surveillance',
+    //         get_template_directory_uri() . '/assets/css/ai-surveillance.css',
+    //         array('advent-responsive'),
+    //         '1.0.0'
+    //     );
+    // }
+    /**
+     * -----------------------------------------------------
+     * Drone Security
+     * -----------------------------------------------------
+     */
+    // if (
+    //     is_page('drone-security') ||
+    //     is_page_template('page-drone-security.php')
+    // ) {
+    //     wp_enqueue_style(
+    //         'advent-drone-security',
+    //         get_template_directory_uri() . '/assets/css/drone-security.css',
+    //         array('advent-responsive'),
+    //         '1.0.0'
+    //     );
+    // }
+    /**
+     * -----------------------------------------------------
+     * Bodyguard Services
+     * -----------------------------------------------------
+     */
+    // if (
+    //     is_page('bodyguard-services') ||
+    //     is_page_template('page-bodyguard-services.php')
+    // ) {
+    //     wp_enqueue_style(
+    //         'advent-bodyguard-services',
+    //         get_template_directory_uri() . '/assets/css/bodyguard-services.css',
+    //         array('advent-responsive'),
+    //         '1.0.0'
+    //     );
+    // }
 
     // Electronic Security Pages --------------------------
 

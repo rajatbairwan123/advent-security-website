@@ -6,7 +6,7 @@
    RETAIL SECTION HEADINGS
 ========================================================= */
 
-.retail-security-page h2 {
+/* .retail-security-page h2 {
     margin: 0;
 
     color: var(--color-text);
@@ -19,7 +19,7 @@
 
 .retail-security-page h2 span {
     color: var(--color-primary);
-}
+} */
 
 /* =========================================================
    RETAIL HERO
@@ -47,14 +47,18 @@
 
 .retail-security-page .content-section {
     padding: 120px 0;
+    border-top: 1px solid var(--color-border);
+    border-bottom: 0px;
 }
 
 .retail-security-page .industries-section {
     padding: 120px 0;
+    border-top: 1px solid var(--color-border);
 }
 
 .retail-security-page .faq-section {
     padding: 120px 0;
+    border-top: 1px solid var(--color-border);
 }
 
 /* =========================================================
@@ -308,6 +312,7 @@
 
 .retail-approach .section-content h2 {
     max-width: 680px;
+    margin-bottom: 28px;
 }
 
 .retail-approach .section-content > p {
@@ -502,7 +507,7 @@
     .retail-hero .hero-content {
         min-height: auto;
 
-        padding: 70px 25px;
+        padding: 70px 16px;
     }
 
     .retail-hero-image {

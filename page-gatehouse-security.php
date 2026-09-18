@@ -15,7 +15,7 @@ get_header();
     ====================================================== -->
     <section class="gatehouse-hero">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <div class="gatehouse-hero-grid">
 
@@ -38,26 +38,23 @@ get_header();
 
                     <div class="gatehouse-hero-actions">
 
-                        <a href="<?php echo esc_url(home_url('/contact/')); ?>"
+                        <a
+                            href="<?php echo esc_url(home_url('/contact/')); ?>"
                             class="advent-btn">
-
                             Secure Your Entrance
-
                             <span class="btn-arrow">→</span>
-
                         </a>
 
                     </div>
 
                 </div>
 
-
                 <div class="gatehouse-hero-visual">
 
                     <img
                         src="<?php echo esc_url(
                                     get_template_directory_uri() .
-                                        '/assets/images/gatehouse-security-banner.webp'
+                                        '/assets/images/gatehouse-security/gatehouse-1.webp'
                                 ); ?>"
                         alt="Gatehouse security professional monitoring site access">
 
@@ -76,52 +73,15 @@ get_header();
 
 
     <!-- =====================================================
-         INTRO
+         SERVICES
     ====================================================== -->
-    <section class="gatehouse-intro">
-
-        <div class="container">
-
-            <div class="row align-items-end">
-
-                <div class="col-lg-7">
-
-                    <span class="eyebrow">The Gatehouse Role</span>
-
-                    <h2>
-                        More than a checkpoint.
-                        <span>A working part of your security operation.</span>
-                    </h2>
-
-                </div>
-
-                <div class="col-lg-5">
-
-                    <p>
-                        A well-managed gatehouse can help control who enters
-                        and leaves a site while providing a central point for
-                        communication, visitor management and security procedures.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =====================================================
-         ACCESS CONTROL
-    ====================================================== -->
-    <section class="gatehouse-control">
+    <section class="gatehouse-services">
 
         <div class="container">
 
             <div class="gatehouse-heading">
 
-                <span class="eyebrow">Access Control</span>
+                <span class="eyebrow">Gatehouse Security Services</span>
 
                 <h2>
                     Control the entrance.
@@ -129,7 +89,7 @@ get_header();
                 </h2>
 
                 <p>
-                    Gatehouse security can combine a visible security presence
+                    Gatehouse security combines a visible security presence
                     with practical access procedures suited to the way your
                     site operates.
                 </p>
@@ -137,60 +97,84 @@ get_header();
             </div>
 
 
-            <div class="gatehouse-control-grid">
+            <div class="gatehouse-service-grid">
 
-                <article class="gatehouse-control-card">
+                <article class="gatehouse-service-card">
 
-                    <span>01</span>
+                    <div class="gatehouse-card-top">
+                        <span>Access Control</span>
+                    </div>
 
-                    <h3>Vehicle Access</h3>
+                    <div class="gatehouse-card-content">
 
-                    <p>
-                        Help manage vehicle arrivals and departures according
-                        to agreed site access procedures.
-                    </p>
+                        <h3>Vehicle Access</h3>
 
-                </article>
+                        <p>
+                            Help manage vehicle arrivals and departures
+                            according to agreed site access procedures.
+                        </p>
 
-
-                <article class="gatehouse-control-card">
-
-                    <span>02</span>
-
-                    <h3>Visitor Management</h3>
-
-                    <p>
-                        Support visitor sign-in procedures and help direct
-                        authorised visitors to the appropriate area.
-                    </p>
+                    </div>
 
                 </article>
 
 
-                <article class="gatehouse-control-card">
+                <article class="gatehouse-service-card">
 
-                    <span>03</span>
+                    <div class="gatehouse-card-top">
+                        <span>Visitor Management</span>
+                    </div>
 
-                    <h3>Contractor Access</h3>
+                    <div class="gatehouse-card-content">
 
-                    <p>
-                        Help manage contractor arrivals and access in line
-                        with established site requirements.
-                    </p>
+                        <h3>Visitor Management</h3>
+
+                        <p>
+                            Support visitor sign-in procedures and help direct
+                            authorised visitors to the appropriate area.
+                        </p>
+
+                    </div>
 
                 </article>
 
 
-                <article class="gatehouse-control-card">
+                <article class="gatehouse-service-card">
 
-                    <span>04</span>
+                    <div class="gatehouse-card-top">
+                        <span>Site Access</span>
+                    </div>
 
-                    <h3>Site Communication</h3>
+                    <div class="gatehouse-card-content">
 
-                    <p>
-                        Provide a central point for communication between
-                        visitors, security personnel and relevant site teams.
-                    </p>
+                        <h3>Contractor Access</h3>
+
+                        <p>
+                            Help manage contractor arrivals and access in line
+                            with established site requirements.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="gatehouse-service-card">
+
+                    <div class="gatehouse-card-top">
+                        <span>Communication</span>
+                    </div>
+
+                    <div class="gatehouse-card-content">
+
+                        <h3>Site Communication</h3>
+
+                        <p>
+                            Provide a central point for communication between
+                            visitors, security personnel and relevant site teams.
+                        </p>
+
+                    </div>
 
                 </article>
 
@@ -202,20 +186,20 @@ get_header();
 
 
     <!-- =====================================================
-         GATEHOUSE FEATURE
+         TRUST / EXPERTISE
     ====================================================== -->
-    <section class="gatehouse-feature">
+    <section class="gatehouse-trust">
 
         <div class="container">
 
-            <div class="gatehouse-feature-grid">
+            <div class="gatehouse-trust-grid">
 
-                <div class="gatehouse-feature-image">
+                <div class="gatehouse-trust-image">
 
                     <img
                         src="<?php echo esc_url(
                                     get_template_directory_uri() .
-                                        '/assets/images/gatehouse-security.webp'
+                                        '/assets/images/gatehouse-security/gatehouse-2.webp'
                                 ); ?>"
                         alt="Security officer managing access at a site gatehouse">
 
@@ -226,10 +210,10 @@ get_header();
                 </div>
 
 
-                <div class="gatehouse-feature-content">
+                <div class="gatehouse-trust-content">
 
                     <span class="eyebrow">
-                        At The Entrance
+                        Gatehouse Expertise
                     </span>
 
                     <h2>
@@ -262,169 +246,37 @@ get_header();
 
 
     <!-- =====================================================
-         SECURITY FUNCTIONS
+         PROCESS
     ====================================================== -->
-    <section class="gatehouse-functions">
+    <section class="gatehouse-process">
 
         <div class="container">
 
-            <div class="row">
+            <div class="gatehouse-heading">
 
-                <div class="col-lg-5">
-
-                    <span class="eyebrow">What Gatehouse Security Can Cover</span>
-
-                    <h2>
-                        One entrance.
-                        <span>Multiple responsibilities.</span>
-                    </h2>
-
-                </div>
-
-                <div class="col-lg-7">
-
-                    <div class="gatehouse-function-list">
-
-                        <article>
-
-                            <div class="gatehouse-function-number">
-                                01
-                            </div>
-
-                            <div>
-
-                                <h3>Access Monitoring</h3>
-
-                                <p>
-                                    Monitor agreed entry and exit points and
-                                    support site access requirements.
-                                </p>
-
-                            </div>
-
-                        </article>
-
-
-                        <article>
-
-                            <div class="gatehouse-function-number">
-                                02
-                            </div>
-
-                            <div>
-
-                                <h3>Visitor Procedures</h3>
-
-                                <p>
-                                    Help manage visitor arrivals and direct
-                                    authorised visitors according to site
-                                    procedures.
-                                </p>
-
-                            </div>
-
-                        </article>
-
-
-                        <article>
-
-                            <div class="gatehouse-function-number">
-                                03
-                            </div>
-
-                            <div>
-
-                                <h3>Deliveries</h3>
-
-                                <p>
-                                    Support agreed procedures for deliveries,
-                                    suppliers and commercial vehicles entering
-                                    the premises.
-                                </p>
-
-                            </div>
-
-                        </article>
-
-
-                        <article>
-
-                            <div class="gatehouse-function-number">
-                                04
-                            </div>
-
-                            <div>
-
-                                <h3>Incident Awareness</h3>
-
-                                <p>
-                                    Maintain awareness of activity around the
-                                    entrance and respond according to agreed
-                                    security procedures.
-                                </p>
-
-                            </div>
-
-                        </article>
-
-
-                        <article>
-
-                            <div class="gatehouse-function-number">
-                                05
-                            </div>
-
-                            <div>
-
-                                <h3>Site Records</h3>
-
-                                <p>
-                                    Where required, support agreed recording
-                                    and reporting procedures relating to site
-                                    access and security activity.
-                                </p>
-
-                            </div>
-
-                        </article>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =====================================================
-         ACCESS JOURNEY
-    ====================================================== -->
-    <section class="gatehouse-journey">
-
-        <div class="container">
-
-            <div class="gatehouse-journey-heading">
-
-                <span class="eyebrow">A Clear Access Process</span>
+                <span class="eyebrow">Our Gatehouse Process</span>
 
                 <h2>
                     From arrival to
                     <span>authorised entry.</span>
                 </h2>
 
+                <p>
+                    A clear access process helps security personnel maintain
+                    consistent procedures while supporting the day-to-day
+                    operation of your site.
+                </p>
+
             </div>
 
 
-            <div class="gatehouse-journey-track">
+            <div class="gatehouse-process-grid">
 
-                <article class="gatehouse-journey-step">
+                <article class="gatehouse-process-card">
 
-                    <span>01</span>
+                    <!-- <span class="gatehouse-process-number"></span> -->
 
-                    <div>
+                    <div class="gatehouse-process-content">
 
                         <small>ARRIVE</small>
 
@@ -440,11 +292,11 @@ get_header();
                 </article>
 
 
-                <article class="gatehouse-journey-step">
+                <article class="gatehouse-process-card">
 
-                    <span>02</span>
+                    <!-- <span class="gatehouse-process-number"></span> -->
 
-                    <div>
+                    <div class="gatehouse-process-content">
 
                         <small>CHECK</small>
 
@@ -460,11 +312,11 @@ get_header();
                 </article>
 
 
-                <article class="gatehouse-journey-step">
+                <article class="gatehouse-process-card">
 
-                    <span>03</span>
+                    <!-- <span class="gatehouse-process-number"></span> -->
 
-                    <div>
+                    <div class="gatehouse-process-content">
 
                         <small>DECIDE</small>
 
@@ -480,11 +332,11 @@ get_header();
                 </article>
 
 
-                <article class="gatehouse-journey-step">
+                <article class="gatehouse-process-card">
 
-                    <span>04</span>
+                    <!-- <span class="gatehouse-process-number"></span> -->
 
-                    <div>
+                    <div class="gatehouse-process-content">
 
                         <small>RECORD</small>
 
@@ -498,6 +350,102 @@ get_header();
                     </div>
 
                 </article>
+
+            </div>
+
+
+            <div class="gatehouse-functions">
+
+                <div class="gatehouse-functions-intro">
+
+                    <span class="eyebrow">
+                        What Gatehouse Security Can Cover
+                    </span>
+
+                    <h3>
+                        One entrance.
+                        <span>Multiple responsibilities.</span>
+                    </h3>
+
+                </div>
+
+
+                <div class="gatehouse-function-list">
+
+                    <article>
+
+                        <div>
+                            <h4>Access Monitoring</h4>
+
+                            <p>
+                                Monitor agreed entry and exit points and
+                                support site access requirements.
+                            </p>
+                        </div>
+
+                    </article>
+
+
+                    <article>
+
+                        <div>
+                            <h4>Visitor Procedures</h4>
+
+                            <p>
+                                Help manage visitor arrivals and direct
+                                authorised visitors according to site
+                                procedures.
+                            </p>
+                        </div>
+
+                    </article>
+
+
+                    <article>
+
+                        <div>
+                            <h4>Deliveries</h4>
+
+                            <p>
+                                Support agreed procedures for deliveries,
+                                suppliers and commercial vehicles entering
+                                the premises.
+                            </p>
+                        </div>
+
+                    </article>
+
+
+                    <article>
+
+                        <div>
+                            <h4>Incident Awareness</h4>
+
+                            <p>
+                                Maintain awareness of activity around the
+                                entrance and respond according to agreed
+                                security procedures.
+                            </p>
+                        </div>
+
+                    </article>
+
+
+                    <article>
+
+                        <div>
+                            <h4>Site Records</h4>
+
+                            <p>
+                                Where required, support agreed recording
+                                and reporting procedures relating to site
+                                access and security activity.
+                            </p>
+                        </div>
+
+                    </article>
+
+                </div>
 
             </div>
 
@@ -515,7 +463,7 @@ get_header();
 
             <div class="gatehouse-heading">
 
-                <span class="eyebrow">Where Gatehouse Security Fits</span>
+                <span class="eyebrow">Industries We Support</span>
 
                 <h2>
                     Built for sites where
@@ -535,7 +483,7 @@ get_header();
 
                 <article>
 
-                    <span>01</span>
+                    <!-- <span>01</span> -->
 
                     <h3>Construction Sites</h3>
 
@@ -549,7 +497,7 @@ get_header();
 
                 <article>
 
-                    <span>02</span>
+                    <!-- <span>02</span> -->
 
                     <h3>Industrial Facilities</h3>
 
@@ -563,7 +511,7 @@ get_header();
 
                 <article>
 
-                    <span>03</span>
+                    <!-- <span>03</span> -->
 
                     <h3>Warehouses &amp; Logistics</h3>
 
@@ -577,7 +525,7 @@ get_header();
 
                 <article>
 
-                    <span>04</span>
+                    <!-- <span>04</span> -->
 
                     <h3>Commercial Premises</h3>
 
@@ -602,9 +550,9 @@ get_header();
 
         <div class="container">
 
-            <div class="row align-items-end">
+            <div class="gatehouse-why-header">
 
-                <div class="col-lg-7">
+                <div>
 
                     <span class="eyebrow">Why Advent Security</span>
 
@@ -615,16 +563,12 @@ get_header();
 
                 </div>
 
-                <div class="col-lg-5">
-
-                    <p>
-                        Security is most effective when it fits naturally
-                        into the way a site operates. Our approach focuses
-                        on clear responsibilities, professional conduct
-                        and practical site procedures.
-                    </p>
-
-                </div>
+                <p>
+                    Security is most effective when it fits naturally
+                    into the way a site operates. Our approach focuses
+                    on clear responsibilities, professional conduct
+                    and practical site procedures.
+                </p>
 
             </div>
 
@@ -633,7 +577,7 @@ get_header();
 
                 <article>
 
-                    <span>01</span>
+                    <!-- <span>01</span> -->
 
                     <h3>Visible</h3>
 
@@ -647,7 +591,7 @@ get_header();
 
                 <article>
 
-                    <span>02</span>
+                    <!-- <span>02</span> -->
 
                     <h3>Professional</h3>
 
@@ -661,7 +605,7 @@ get_header();
 
                 <article>
 
-                    <span>03</span>
+                    <!-- <span>03</span> -->
 
                     <h3>Practical</h3>
 
@@ -675,7 +619,7 @@ get_header();
 
                 <article>
 
-                    <span>04</span>
+                    <!-- <span>04</span> -->
 
                     <h3>Responsive</h3>
 
@@ -685,6 +629,216 @@ get_header();
                     </p>
 
                 </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================================================
+     RELATED SERVICES
+    ====================================================== -->
+    <section class="content-section related-services gatehouse-related">
+
+        <div class="container">
+
+            <div class="related-services-header">
+
+                <div>
+
+                    <span class="eyebrow">
+                        RELATED SERVICES
+                    </span>
+
+                    <h2>
+                        Explore our other<br>
+                        <span>security services.</span>
+                    </h2>
+
+                    <p>
+                        Explore related security solutions that can complement your
+                        security requirements and operational environment.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="related-services-grid">
+
+                <!-- Security Guard Services -->
+                <a
+                    href="<?php echo esc_url(
+                                home_url('/security-services/security-guard-services/')
+                            ); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" />
+                            <path d="M5 21a7 7 0 0 1 14 0" />
+                            <path d="M4 21h16" />
+                        </svg>
+
+                    </span>
+
+                    <span class="related-service-title">
+                        Security Guard<br>
+                        Services
+                    </span>
+
+                    <span class="related-service-arrow">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- Corporate Concierge -->
+                <a
+                    href="<?php echo esc_url(
+                                home_url('/security-services/corporate-concierge-services/')
+                            ); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" />
+                            <path d="M5 21a7 7 0 0 1 14 0" />
+                            <path d="M4 21h16" />
+                        </svg>
+
+                    </span>
+
+                    <span class="related-service-title">
+                        Corporate &amp;<br>
+                        Concierge Security
+                    </span>
+
+                    <span class="related-service-arrow">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- Security Consulting -->
+                <a
+                    href="<?php echo esc_url(
+                                home_url('/security-services/security-consulting/')
+                            ); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 3 20 6v5c0 5.2-3.3 8.7-8 10-4.7-1.3-8-4.8-8-10V6l8-3Z" />
+                        </svg>
+
+                    </span>
+
+                    <span class="related-service-title">
+                        Security<br>
+                        Consulting
+                    </span>
+
+                    <span class="related-service-arrow">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- Retail Security -->
+                <a
+                    href="<?php echo esc_url(
+                                home_url('/security-services/retail-security/')
+                            ); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M5 8h14l-1 12H6L5 8Z" />
+                            <path d="M8 8V6a4 4 0 0 1 8 0v2" />
+                        </svg>
+
+                    </span>
+
+                    <span class="related-service-title">
+                        Retail<br>
+                        Security
+                    </span>
+
+                    <span class="related-service-arrow">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- Construction Security -->
+                <a
+                    href="<?php echo esc_url(
+                                home_url('/security-services/construction-security/')
+                            ); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 18h16" />
+                            <path d="M6 18v-6h12v6" />
+                            <path d="M8 12V9h8v3" />
+                            <path d="M10 9V6h4v3" />
+                        </svg>
+
+                    </span>
+
+                    <span class="related-service-title">
+                        Construction<br>
+                        Security
+                    </span>
+
+                    <span class="related-service-arrow">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- Event Security -->
+                <a
+                    href="<?php echo esc_url(
+                                home_url('/security-services/event-security/')
+                            ); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="8" cy="9" r="3" />
+                            <circle cx="16" cy="9" r="3" />
+                            <path d="M3 20a5 5 0 0 1 10 0" />
+                            <path d="M11 20a5 5 0 0 1 10 0" />
+                        </svg>
+
+                    </span>
+
+                    <span class="related-service-title">
+                        Event<br>
+                        Security
+                    </span>
+
+                    <span class="related-service-arrow">
+                        →
+                    </span>
+
+                </a>
 
             </div>
 
@@ -714,10 +868,6 @@ get_header();
                     </h2>
 
                 </div>
-
-                <a href="<?php echo esc_url(home_url('/contact/')); ?>">
-                    Talk to Advent →
-                </a>
 
             </div>
 
@@ -854,13 +1004,11 @@ get_header();
                 </div>
 
 
-                <a href="<?php echo esc_url(home_url('/contact/')); ?>"
+                <a
+                    href="<?php echo esc_url(home_url('/contact/')); ?>"
                     class="advent-btn advent-btn-dark">
-
                     Discuss Your Site
-
                     <span class="btn-arrow">→</span>
-
                 </a>
 
             </div>

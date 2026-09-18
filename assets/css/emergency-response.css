@@ -1,0 +1,1347 @@
+/* =========================================================
+   EMERGENCY RESPONSE PAGE
+   Advent Security
+========================================================= */
+
+/* =========================================================
+   PAGE FOUNDATION
+========================================================= */
+
+.emergency-response-page {
+    overflow: hidden;
+}
+
+.emergency-response-page > section {
+    position: relative;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.emergency-response-page > section:first-child {
+    border-top: 1px solid var(--color-border);
+}
+
+.emergency-response-page .container,
+.emergency-response-page .container-fluid {
+    position: relative;
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.emergency-hero {
+    padding: 0;
+    background: var(--color-bg);
+}
+
+.emergency-hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+    min-height: 560px;
+}
+
+.emergency-hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 5vw 70px 7vw;
+}
+
+.emergency-hero-content .advent-eyebrow {
+    margin-bottom: 25px;
+}
+
+.emergency-hero-content h1 {
+    max-width: 680px;
+    margin: 0;
+    font-size: clamp(54px, 6vw, 82px);
+    font-weight: 600;
+    line-height: 0.94;
+    letter-spacing: -3.5px;
+    color: var(--color-text);
+}
+
+.emergency-hero-content h1 span {
+    display: block;
+    color: var(--color-primary);
+}
+
+.emergency-hero-content > p {
+    max-width: 590px;
+    margin: 30px 0 0;
+    font-size: 18px;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+}
+
+.emergency-hero-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 35px;
+}
+
+/* Hero Visual */
+
+.emergency-hero-visual {
+    position: relative;
+    height: 560px;
+    overflow: hidden;
+    background: var(--color-surface);
+    border-left: 1px solid var(--color-border);
+}
+
+.emergency-hero-visual img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+}
+
+/* Response Status */
+
+.emergency-hero-status {
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 16px 19px;
+
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+}
+
+.emergency-status-dot {
+    width: 9px;
+    height: 9px;
+    flex: 0 0 9px;
+    border-radius: 50%;
+    background: var(--color-primary);
+}
+
+.emergency-hero-status div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.emergency-hero-status strong {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    color: var(--color-text);
+}
+
+.emergency-hero-status div span {
+    font-size: 12px;
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   OVERVIEW
+========================================================= */
+
+.emergency-overview {
+    padding: 115px 0;
+    background: var(--color-bg);
+}
+
+.emergency-overview-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+    gap: 90px;
+    align-items: start;
+}
+
+.emergency-overview-intro .advent-eyebrow {
+    margin-bottom: 24px;
+}
+
+.emergency-overview-intro h2 {
+    max-width: 600px;
+    margin: 0;
+
+    font-size: clamp(43px, 5vw, 62px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -2.7px;
+
+    color: var(--color-text);
+}
+
+.emergency-overview-intro h2 span {
+    color: var(--color-primary);
+}
+
+.emergency-overview-content {
+    max-width: 750px;
+}
+
+.emergency-overview-content .emergency-lead {
+    margin: 0;
+    font-size: 21px;
+    line-height: 1.6;
+    color: var(--color-text);
+}
+
+.emergency-overview-content > p:not(.emergency-lead) {
+    max-width: 680px;
+    margin: 24px 0 0;
+
+    font-size: 16px;
+    line-height: 1.8;
+
+    color: var(--color-text-muted);
+}
+
+/* Overview Highlight */
+
+.emergency-overview-highlight {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    margin-top: 50px;
+    padding: 28px 30px;
+
+    background: var(--color-bg-soft);
+    border-left: 3px solid var(--color-primary);
+}
+
+.emergency-overview-highlight span {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: var(--color-primary);
+}
+
+.emergency-overview-highlight strong {
+    max-width: 650px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.55;
+    color: var(--color-text);
+}
+
+/* =========================================================
+   SECTION HEADERS
+========================================================= */
+
+.emergency-section-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    gap: 70px;
+    align-items: end;
+    margin-bottom: 58px;
+}
+
+.emergency-section-header .advent-eyebrow {
+    margin-bottom: 23px;
+}
+
+.emergency-section-header h2 {
+    max-width: 760px;
+    margin: 0;
+
+    font-size: clamp(43px, 5vw, 62px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -2.7px;
+
+    color: var(--color-text);
+}
+
+.emergency-section-header h2 span {
+    color: var(--color-primary);
+}
+
+.emergency-section-header > p {
+    max-width: 570px;
+    margin: 0;
+
+    font-size: 16px;
+    line-height: 1.8;
+
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   RESPONSE SITUATIONS
+========================================================= */
+
+.emergency-situations {
+    padding: 115px 0;
+    background: var(--color-bg-soft);
+}
+
+.emergency-situation-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.emergency-situation-card {
+    position: relative;
+
+    min-height: 315px;
+    padding: 29px;
+
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+
+    transition:
+        transform 0.3s ease,
+        background-color 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.emergency-situation-card:hover {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    transform: translateY(-5px);
+}
+
+/* Situation Icon */
+
+.emergency-situation-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--color-border);
+    color: var(--color-primary);
+
+    transition:
+        border-color 0.3s ease,
+        color 0.3s ease;
+}
+
+.emergency-situation-icon i {
+    display: block;
+    font-size: 21px;
+    line-height: 1;
+}
+
+.emergency-situation-card:hover .emergency-situation-icon {
+    border-color: rgba(0, 0, 0, 0.2);
+    color: var(--color-dark);
+}
+
+/* Situation Content */
+
+.emergency-situation-card h3 {
+    margin: 42px 0 0;
+
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.2;
+
+    color: var(--color-text);
+
+    transition: color 0.3s ease;
+}
+
+.emergency-situation-card p {
+    max-width: 310px;
+    margin: 12px 0 0;
+
+    font-size: 14px;
+    line-height: 1.7;
+
+    color: var(--color-text-muted);
+
+    transition: color 0.3s ease;
+}
+
+.emergency-situation-card:hover h3,
+.emergency-situation-card:hover p {
+    color: var(--color-dark);
+}
+
+/* =========================================================
+   RESPONSE CAPABILITIES
+========================================================= */
+
+.emergency-capabilities {
+    padding: 115px 0;
+    background: var(--color-bg);
+}
+
+.emergency-capabilities-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.95fr);
+    gap: 80px;
+    align-items: stretch;
+}
+
+/* Image */
+
+.emergency-capabilities-visual {
+    position: relative;
+    height: 620px;
+    overflow: hidden;
+}
+
+.emergency-capabilities-visual img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.emergency-image-label {
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    max-width: 280px;
+    padding: 17px 19px;
+
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+}
+
+.emergency-image-label strong {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    color: var(--color-primary);
+}
+
+.emergency-image-label span {
+    font-size: 13px;
+    line-height: 1.45;
+    color: var(--color-text);
+}
+
+/* Capability Content */
+
+.emergency-capabilities-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.emergency-capabilities-content .advent-eyebrow {
+    margin-bottom: 23px;
+}
+
+.emergency-capabilities-content h2 {
+    max-width: 610px;
+    margin: 0;
+
+    font-size: clamp(43px, 5vw, 62px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -2.7px;
+
+    color: var(--color-text);
+}
+
+.emergency-capabilities-content h2 span {
+    color: var(--color-primary);
+}
+
+.emergency-capabilities-content .emergency-lead {
+    max-width: 620px;
+    margin: 25px 0 0;
+
+    font-size: 18px;
+    line-height: 1.7;
+
+    color: var(--color-text-muted);
+}
+
+/* Capability List */
+
+.emergency-capability-list {
+    margin-top: 45px;
+    border-top: 1px solid var(--color-border);
+}
+
+.emergency-capability-item {
+    display: grid;
+    grid-template-columns: 45px 1fr;
+    gap: 18px;
+
+    padding: 21px 0;
+
+    border-bottom: 1px solid var(--color-border);
+}
+
+.emergency-capability-icon {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--color-border);
+    color: var(--color-primary);
+}
+
+.emergency-capability-icon i {
+    font-size: 17px;
+    line-height: 1;
+}
+
+.emergency-capability-item h3 {
+    margin: 0;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    color: var(--color-text);
+}
+
+.emergency-capability-item p {
+    max-width: 570px;
+    margin: 7px 0 0;
+
+    font-size: 14px;
+    line-height: 1.65;
+
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   RESPONSE PROCESS
+========================================================= */
+
+.emergency-process {
+    padding: 115px 0;
+    background: var(--color-bg-soft);
+}
+
+.emergency-process-header {
+    margin-bottom: 65px;
+}
+
+/* Process Flow */
+
+.emergency-process-flow {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.emergency-process-card {
+    position: relative;
+
+    min-height: 310px;
+    padding: 28px;
+
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+
+    transition:
+        background-color 0.3s ease,
+        border-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.emergency-process-card:hover {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    transform: translateY(-4px);
+}
+
+/* Process Icon */
+
+.emergency-process-icon {
+    width: 52px;
+    height: 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 55px;
+
+    border: 1px solid var(--color-border);
+    color: var(--color-primary);
+
+    transition:
+        border-color 0.3s ease,
+        color 0.3s ease;
+}
+
+.emergency-process-icon i {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.emergency-process-card:hover .emergency-process-icon {
+    border-color: rgba(0, 0, 0, 0.2);
+    color: var(--color-dark);
+}
+
+/* Process Text */
+
+.emergency-process-card > div:last-child > span {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+
+    color: var(--color-primary);
+
+    transition: color 0.3s ease;
+}
+
+.emergency-process-card h3 {
+    margin: 0;
+
+    font-size: 21px;
+    font-weight: 600;
+
+    color: var(--color-text);
+
+    transition: color 0.3s ease;
+}
+
+.emergency-process-card p {
+    max-width: 290px;
+    margin: 11px 0 0;
+
+    font-size: 14px;
+    line-height: 1.7;
+
+    color: var(--color-text-muted);
+
+    transition: color 0.3s ease;
+}
+
+.emergency-process-card:hover > div:last-child > span,
+.emergency-process-card:hover h3,
+.emergency-process-card:hover p {
+    color: var(--color-dark);
+}
+
+/* =========================================================
+   PREPAREDNESS
+========================================================= */
+
+.emergency-preparedness {
+    padding: 115px 0;
+    background: var(--color-dark);
+    border-bottom-color: var(--color-dark);
+}
+
+.emergency-preparedness-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+    gap: 90px;
+    align-items: center;
+}
+
+.emergency-preparedness-content .advent-eyebrow {
+    margin-bottom: 23px;
+    color: var(--color-primary);
+}
+
+.emergency-preparedness-content h2 {
+    max-width: 620px;
+    margin: 0;
+
+    font-size: clamp(43px, 5vw, 62px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -2.7px;
+
+    color: #ffffff;
+}
+
+.emergency-preparedness-content h2 span {
+    color: var(--color-primary);
+}
+
+.emergency-preparedness-content > p {
+    max-width: 600px;
+    margin: 25px 0 0;
+
+    font-size: 16px;
+    line-height: 1.8;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Preparedness Points */
+
+.emergency-preparedness-points {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+    border-left: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.emergency-preparedness-point {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    min-height: 105px;
+    padding: 20px;
+
+    border-right: 1px solid rgba(255, 255, 255, 0.16);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+
+    transition: background-color 0.3s ease;
+}
+
+.emergency-preparedness-point:hover {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.emergency-preparedness-point i {
+    flex: 0 0 auto;
+
+    font-size: 17px;
+    color: var(--color-primary);
+}
+
+.emergency-preparedness-point span {
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.88);
+}
+
+/* =========================================================
+   INDUSTRIES
+========================================================= */
+
+.emergency-industries {
+    padding: 115px 0;
+    background: var(--color-bg);
+}
+
+.emergency-industry-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.emergency-industry-card {
+    min-height: 245px;
+    padding: 29px;
+
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+
+    transition:
+        background-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.emergency-industry-card:hover {
+    background: var(--color-bg-soft);
+}
+
+/* Industry Icon */
+
+.emergency-industry-icon {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 30px;
+
+    border: 1px solid var(--color-border);
+    color: var(--color-primary);
+}
+
+.emergency-industry-icon i {
+    font-size: 19px;
+    line-height: 1;
+}
+
+.emergency-industry-card h3 {
+    margin: 0;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    color: var(--color-text);
+}
+
+.emergency-industry-card p {
+    max-width: 340px;
+    margin: 10px 0 0;
+
+    font-size: 14px;
+    line-height: 1.7;
+
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   WHY ADVENT
+========================================================= */
+
+.emergency-why {
+    padding: 115px 0;
+    background: var(--color-bg-soft);
+}
+
+.emergency-why-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+    gap: 90px;
+    align-items: start;
+}
+
+.emergency-why-heading .advent-eyebrow {
+    margin-bottom: 23px;
+}
+
+.emergency-why-heading h2 {
+    max-width: 580px;
+    margin: 0;
+
+    font-size: clamp(43px, 5vw, 62px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -2.7px;
+
+    color: var(--color-text);
+}
+
+.emergency-why-heading h2 span {
+    color: var(--color-primary);
+}
+
+.emergency-why-content {
+    max-width: 760px;
+}
+
+.emergency-why-content .emergency-lead {
+    max-width: 650px;
+    margin: 0;
+
+    font-size: 20px;
+    line-height: 1.65;
+
+    color: var(--color-text);
+}
+
+/* Why Points */
+
+.emergency-why-points {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    margin-top: 50px;
+
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.emergency-why-point {
+    min-height: 190px;
+    padding: 26px;
+
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.emergency-why-point strong {
+    display: block;
+
+    font-size: 17px;
+    font-weight: 600;
+
+    color: var(--color-text);
+}
+
+.emergency-why-point p {
+    max-width: 310px;
+    margin: 10px 0 0;
+
+    font-size: 14px;
+    line-height: 1.7;
+
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   RELATED SERVICES
+   Shared component styling remains in components.css
+========================================================= */
+
+.emergency-related {
+    padding: 110px 0;
+    background: var(--color-bg);
+    border-top: 0;
+}
+
+/* =========================================================
+   FAQ
+   Shared FAQ styling remains in security.css/components.css
+========================================================= */
+
+.emergency-faq {
+    background: var(--color-bg-soft);
+}
+
+.emergency-faq .faq-header h2 span {
+    color: var(--color-primary);
+}
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.emergency-cta {
+    background: var(--color-primary);
+}
+
+.emergency-cta .advent-eyebrow {
+    color: var(--color-dark);
+}
+
+.emergency-cta .cta-inner h2,
+.emergency-cta .cta-inner h2 span {
+    color: var(--color-dark);
+}
+
+.emergency-cta .cta-inner p {
+    color: rgba(0, 0, 0, 0.72);
+}
+
+/* =========================================================
+   TABLET / LAPTOP
+========================================================= */
+
+@media (max-width: 1199.98px) {
+    .emergency-hero-content {
+        padding-left: 5vw;
+    }
+
+    .emergency-overview-grid,
+    .emergency-why-grid,
+    .emergency-preparedness-inner {
+        gap: 60px;
+    }
+
+    .emergency-capabilities-grid {
+        gap: 55px;
+    }
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991.98px) {
+    /* Hero */
+
+    .emergency-hero-grid {
+        grid-template-columns: 1fr;
+        min-height: auto;
+    }
+
+    .emergency-hero-content {
+        min-height: 560px;
+        padding: 80px 0;
+    }
+
+    .emergency-hero-visual {
+        height: 500px;
+        border-left: 0;
+        border-top: 1px solid var(--color-border);
+    }
+
+    /* Overview */
+
+    .emergency-overview {
+        padding: 90px 0;
+    }
+
+    .emergency-overview-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    /* Headers */
+
+    .emergency-section-header {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin-bottom: 50px;
+    }
+
+    /* Situations */
+
+    .emergency-situations {
+        padding: 90px 0;
+    }
+
+    .emergency-situation-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Capabilities */
+
+    .emergency-capabilities {
+        padding: 90px 0;
+    }
+
+    .emergency-capabilities-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .emergency-capabilities-visual {
+        height: 540px;
+    }
+
+    /* Process */
+
+    .emergency-process {
+        padding: 90px 0;
+    }
+
+    .emergency-process-flow {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Preparedness */
+
+    .emergency-preparedness {
+        padding: 90px 0;
+    }
+
+    .emergency-preparedness-inner {
+        grid-template-columns: 1fr;
+        gap: 55px;
+    }
+
+    /* Industries */
+
+    .emergency-industries {
+        padding: 90px 0;
+    }
+
+    .emergency-industry-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Why */
+
+    .emergency-why {
+        padding: 90px 0;
+    }
+
+    .emergency-why-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    /* Related */
+
+    .emergency-related {
+        padding: 90px 0;
+    }
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767.98px) {
+    /* Hero */
+
+    .emergency-hero-content {
+        min-height: auto;
+        padding: 65px 0 60px;
+    }
+
+    .emergency-hero-content h1 {
+        font-size: clamp(44px, 12vw, 58px);
+        letter-spacing: -2.5px;
+    }
+
+    .emergency-hero-content > p {
+        margin-top: 24px;
+        font-size: 16px;
+        line-height: 1.65;
+    }
+
+    .emergency-hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+        margin-top: 30px;
+    }
+
+    .emergency-hero-actions .advent-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .emergency-hero-visual {
+        height: 390px;
+    }
+
+    .emergency-hero-status {
+        right: 15px;
+        bottom: 15px;
+        padding: 14px 16px;
+    }
+
+    /* General Section Spacing */
+
+    .emergency-overview,
+    .emergency-situations,
+    .emergency-capabilities,
+    .emergency-process,
+    .emergency-preparedness,
+    .emergency-industries,
+    .emergency-why,
+    .emergency-related {
+        padding: 75px 0;
+    }
+
+    /* Headings */
+
+    .emergency-overview-intro h2,
+    .emergency-section-header h2,
+    .emergency-capabilities-content h2,
+    .emergency-preparedness-content h2,
+    .emergency-why-heading h2 {
+        font-size: 39px;
+        letter-spacing: -2px;
+    }
+
+    /* Overview */
+
+    .emergency-overview-grid {
+        gap: 40px;
+    }
+
+    .emergency-overview-content .emergency-lead {
+        font-size: 18px;
+    }
+
+    .emergency-overview-highlight {
+        margin-top: 38px;
+        padding: 23px 24px;
+    }
+
+    .emergency-overview-highlight strong {
+        font-size: 18px;
+    }
+
+    /* Situations */
+
+    .emergency-situation-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .emergency-situation-card {
+        min-height: 275px;
+        padding: 25px;
+    }
+
+    .emergency-situation-card h3 {
+        margin-top: 32px;
+    }
+
+    /* Capabilities */
+
+    .emergency-capabilities-grid {
+        gap: 40px;
+    }
+
+    .emergency-capabilities-visual {
+        height: 350px;
+    }
+
+    .emergency-image-label {
+        left: 15px;
+        bottom: 15px;
+        padding: 14px 16px;
+    }
+
+    .emergency-capabilities-content {
+        padding: 0;
+    }
+
+    .emergency-capabilities-content .emergency-lead {
+        font-size: 16px;
+    }
+
+    .emergency-capability-list {
+        margin-top: 38px;
+    }
+
+    .emergency-capability-item {
+        grid-template-columns: 40px 1fr;
+        gap: 15px;
+        padding: 20px 0;
+    }
+
+    .emergency-capability-icon {
+        width: 38px;
+        height: 38px;
+    }
+
+    .emergency-capability-item h3 {
+        font-size: 17px;
+    }
+
+    /* Process */
+
+    .emergency-process-header {
+        margin-bottom: 42px;
+    }
+
+    .emergency-process-flow {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .emergency-process-card {
+        min-height: 270px;
+        padding: 25px;
+    }
+
+    .emergency-process-icon {
+        margin-bottom: 42px;
+    }
+
+    /* Preparedness */
+
+    .emergency-preparedness-inner {
+        gap: 40px;
+    }
+
+    .emergency-preparedness-content > p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .emergency-preparedness-points {
+        grid-template-columns: 1fr;
+    }
+
+    .emergency-preparedness-point {
+        min-height: 75px;
+    }
+
+    /* Industries */
+
+    .emergency-industry-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .emergency-industry-card {
+        min-height: 210px;
+        padding: 25px;
+    }
+
+    .emergency-industry-icon {
+        margin-bottom: 26px;
+    }
+
+    /* Why */
+
+    .emergency-why-grid {
+        gap: 40px;
+    }
+
+    .emergency-why-content .emergency-lead {
+        font-size: 18px;
+    }
+
+    .emergency-why-points {
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+    }
+
+    .emergency-why-point {
+        min-height: auto;
+        padding: 23px;
+    }
+
+    /* FAQ */
+
+    .emergency-faq .faq-header {
+        margin-bottom: 35px;
+    }
+
+    /* CTA */
+
+    .emergency-cta .cta-inner {
+        text-align: left;
+    }
+}
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 575.98px) {
+    .emergency-hero-content {
+        padding: 50px 0;
+    }
+
+    .emergency-hero-content h1 {
+        font-size: 42px;
+        letter-spacing: -2px;
+    }
+
+    .emergency-hero-visual {
+        height: 330px;
+    }
+
+    .emergency-hero-status {
+        max-width: calc(100% - 30px);
+    }
+
+    .emergency-overview-intro h2,
+    .emergency-section-header h2,
+    .emergency-capabilities-content h2,
+    .emergency-preparedness-content h2,
+    .emergency-why-heading h2 {
+        font-size: 36px;
+        letter-spacing: -1.8px;
+    }
+
+    .emergency-situation-card {
+        min-height: 260px;
+    }
+
+    .emergency-capabilities-visual {
+        height: 330px;
+    }
+
+    .emergency-process-card {
+        min-height: 250px;
+    }
+}

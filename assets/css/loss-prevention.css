@@ -1,0 +1,1346 @@
+/* =========================================================
+   LOSS PREVENTION PAGE
+   Advent Security
+========================================================= */
+
+/* =========================================================
+   PAGE FOUNDATION
+========================================================= */
+
+.loss-prevention-page {
+    overflow: hidden;
+}
+
+.loss-prevention-page > section {
+    position: relative;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.loss-prevention-page .container,
+.loss-prevention-page .container-fluid {
+    position: relative;
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.loss-hero {
+    padding: 0;
+    background: var(--color-bg);
+}
+
+.loss-hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+    min-height: 680px;
+}
+
+.loss-hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4vw 3vw;
+}
+
+.loss-hero-content .advent-eyebrow {
+    margin-bottom: 26px;
+}
+
+.loss-hero-content h1 {
+    max-width: 700px;
+    margin: 0;
+    font-size: clamp(52px, 6vw, 82px);
+    font-weight: 600;
+    line-height: 0.94;
+    letter-spacing: -3.5px;
+    color: var(--color-text);
+}
+
+.loss-hero-content h1 span {
+    display: block;
+    color: var(--color-primary);
+}
+
+.loss-hero-content > p {
+    max-width: 590px;
+    margin: 30px 0 0;
+    font-size: 18px;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+}
+
+.loss-hero-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 36px;
+}
+
+/* =========================================================
+   LOSS PREVENTION HERO IMAGE
+========================================================= */
+
+.loss-hero-visual {
+    position: relative;
+    height: 680px;
+    overflow: hidden;
+    background: var(--color-surface);
+}
+
+.loss-hero-visual img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: bottom center;
+}
+
+.loss-hero-tag {
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    padding: 18px 20px;
+
+    background: var(--color-primary);
+    color: var(--color-dark);
+}
+
+.loss-hero-tag strong {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.loss-hero-tag span {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* =========================================================
+   OVERVIEW
+========================================================= */
+
+.loss-overview {
+    padding: 120px 0;
+    background: var(--color-bg);
+}
+
+.loss-overview-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+    gap: 90px;
+    align-items: start;
+}
+
+.loss-overview-heading {
+    position: sticky;
+    top: 100px;
+}
+
+.loss-overview-heading .advent-eyebrow {
+    margin-bottom: 24px;
+}
+
+.loss-overview-heading h2 {
+    max-width: 570px;
+    margin: 0;
+    font-size: clamp(42px, 5vw, 62px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -2.7px;
+    color: var(--color-text);
+}
+
+.loss-overview-heading h2 span {
+    color: var(--color-primary);
+}
+
+.loss-overview-content {
+    max-width: 760px;
+}
+
+.loss-why-advent .loss-lead {
+    margin-top: 26px;
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--color-text);
+}
+
+.loss-why-advent > p:not(.loss-lead) {
+    max-width: 690px;
+    margin: 24px 0 0;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--color-text-muted);
+}
+
+.loss-overview-points {
+    margin-top: 58px;
+    border-top: 1px solid var(--color-border);
+}
+
+.loss-overview-point {
+    display: grid;
+    grid-template-columns: 0px 1fr;
+    gap: 24px;
+    padding: 25px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.loss-overview-point > strong {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--color-primary);
+}
+
+.loss-overview-point h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--color-text);
+}
+
+.loss-overview-point p {
+    max-width: 590px;
+    margin: 9px 0 0;
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   SECTION HEADERS
+========================================================= */
+
+.loss-section-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    gap: 70px;
+    align-items: end;
+    margin-bottom: 60px;
+}
+
+.loss-section-header .advent-eyebrow {
+    margin-bottom: 24px;
+}
+
+.loss-section-header h2 {
+    max-width: 760px;
+    margin: 0;
+    font-size: clamp(42px, 5vw, 62px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -2.7px;
+    color: var(--color-text);
+}
+
+.loss-section-header h2 span {
+    color: var(--color-primary);
+}
+
+.loss-section-header > p {
+    max-width: 580px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   LOSS RISKS
+========================================================= */
+
+.loss-risks {
+    padding: 120px 0;
+    background: var(--color-bg-soft);
+}
+
+.loss-risk-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.loss-risk-card {
+    position: relative;
+    min-height: 330px;
+    padding: 30px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    background: var(--color-bg);
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.loss-risk-card:hover {
+    background: var(--color-primary);
+    transform: translateY(-4px);
+}
+
+.loss-card-number {
+    position: absolute;
+    top: 26px;
+    right: 28px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--color-text-muted);
+    transition: color 0.3s ease;
+}
+
+.loss-risk-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    margin-top: 32px;
+    border: 1px solid var(--color-border);
+    color: var(--color-primary);
+    transition:
+        border-color 0.3s ease,
+        color 0.3s ease;
+}
+
+.loss-risk-icon i {
+    font-size: 22px;
+}
+
+.loss-risk-card h3 {
+    margin: 32px 0 0;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--color-text);
+    transition: color 0.3s ease;
+}
+
+.loss-risk-card p {
+    margin: 13px 0 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+    transition: color 0.3s ease;
+}
+
+.loss-risk-card:hover .loss-card-number,
+.loss-risk-card:hover h3,
+.loss-risk-card:hover p {
+    color: var(--color-dark);
+}
+
+.loss-risk-card:hover .loss-risk-icon {
+    border-color: var(--color-dark);
+    color: var(--color-dark);
+}
+
+/* =========================================================
+   PREVENTION & DETECTION
+========================================================= */
+
+.loss-protection {
+    padding: 120px 0;
+    background: var(--color-bg);
+}
+
+.loss-protection-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.95fr);
+    gap: 80px;
+    align-items: stretch;
+}
+
+.loss-protection-image {
+    position: relative;
+    min-height: 650px;
+    overflow: hidden;
+}
+
+.loss-protection-image img {
+    width: 100%;
+    height: 100%;
+    min-height: 650px;
+    display: block;
+    object-fit: cover;
+}
+
+.loss-image-badge {
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 250px;
+    padding: 18px 20px;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+}
+
+.loss-image-badge strong {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: var(--color-primary);
+}
+
+.loss-image-badge span {
+    font-size: 13px;
+    line-height: 1.45;
+    color: var(--color-text);
+}
+
+.loss-protection-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px 0;
+}
+
+.loss-protection-content .advent-eyebrow {
+    margin-bottom: 24px;
+}
+
+.loss-protection-content h2 {
+    max-width: 600px;
+    margin: 0;
+    font-size: clamp(42px, 5vw, 62px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -2.7px;
+    color: var(--color-text);
+}
+
+.loss-protection-content h2 span {
+    color: var(--color-primary);
+}
+
+.loss-protection-content .loss-lead {
+    max-width: 610px;
+    margin: 25px 0 0;
+    font-size: 18px;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+}
+
+.loss-protection-list {
+    margin-top: 48px;
+    border-top: 1px solid var(--color-border);
+}
+
+.loss-protection-item {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: 20px;
+    padding: 22px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.loss-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border: 1px solid var(--color-border);
+    color: var(--color-primary);
+}
+
+.loss-item-icon i {
+    font-size: 17px;
+}
+
+.loss-protection-item h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.loss-protection-item p {
+    margin: 7px 0 0;
+    font-size: 14px;
+    line-height: 1.65;
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   APPROACH
+========================================================= */
+
+.loss-approach {
+    padding: 120px 0;
+    background: var(--color-bg);
+}
+
+.loss-approach-header {
+    margin-bottom: 65px;
+}
+
+/* Approach Cards */
+
+.loss-approach-track {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.loss-approach-card {
+    position: relative;
+    min-height: 330px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+
+    transition:
+        transform 0.3s ease,
+        background-color 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.loss-approach-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--color-primary);
+}
+
+/* Icon */
+
+.loss-approach-icon {
+    width: 58px;
+    height: 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--color-border);
+
+    color: var(--color-primary);
+
+    transition:
+        background-color 0.3s ease,
+        border-color 0.3s ease,
+        color 0.3s ease;
+}
+
+.loss-approach-icon i {
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+}
+
+/* Card Content */
+
+.loss-approach-card-content {
+    margin-top: 50px;
+}
+
+.loss-approach-card h3 {
+    margin: 0;
+
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2;
+
+    color: var(--color-text);
+
+    transition: color 0.3s ease;
+}
+
+.loss-approach-card p {
+    max-width: 280px;
+    margin: 12px 0 0;
+
+    font-size: 15px;
+    line-height: 1.7;
+
+    color: var(--color-text-muted);
+
+    transition: color 0.3s ease;
+}
+
+/* =========================================================
+   APPROACH CARD HOVER
+========================================================= */
+
+.loss-approach-card:hover {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+/* Icon */
+
+.loss-approach-card:hover .loss-approach-icon {
+    border-color: rgba(0, 0, 0, 0.2);
+    color: var(--color-dark);
+}
+
+/* Content */
+
+.loss-approach-card:hover h3,
+.loss-approach-card:hover p {
+    color: var(--color-dark);
+}
+
+/* =========================================================
+   APPROACH - TABLET
+========================================================= */
+
+@media (max-width: 991.98px) {
+    .loss-approach {
+        padding: 90px 0;
+    }
+
+    .loss-approach-track {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* =========================================================
+   APPROACH - MOBILE
+========================================================= */
+
+@media (max-width: 767.98px) {
+    .loss-approach {
+        padding: 75px 0;
+    }
+
+    .loss-approach-header {
+        margin-bottom: 40px;
+    }
+
+    .loss-approach-track {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .loss-approach-card {
+        min-height: 270px;
+        padding: 25px;
+    }
+
+    .loss-approach-card-content {
+        margin-top: 45px;
+    }
+
+    .loss-approach-card h3 {
+        font-size: 20px;
+    }
+
+    .loss-approach-card p {
+        max-width: none;
+        font-size: 14px;
+    }
+}
+
+/* =========================================================
+   INDUSTRIES
+========================================================= */
+
+.loss-industries {
+    padding: 120px 0;
+    background: var(--color-bg);
+}
+
+.loss-industry-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.loss-industry-card {
+    min-height: 260px;
+    padding: 30px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    transition: background-color 0.3s ease;
+}
+
+.loss-industry-card:hover {
+    background: var(--color-bg-soft);
+}
+
+.loss-industry-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 35px;
+    border: 1px solid var(--color-border);
+    color: var(--color-primary);
+}
+
+.loss-industry-icon i {
+    font-size: 20px;
+}
+
+.loss-industry-card h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.loss-industry-card p {
+    max-width: 340px;
+    margin: 10px 0 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   WHY ADVENT
+========================================================= */
+
+.loss-why-advent {
+    padding: 120px 0;
+    background: var(--color-bg-soft);
+}
+
+.loss-why-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: 60px;
+    align-items: start;
+}
+
+.loss-why-heading .advent-eyebrow {
+    margin-bottom: 24px;
+}
+
+.loss-why-heading h2 {
+    max-width: 570px;
+    margin: 0;
+    font-size: clamp(42px, 5vw, 62px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -2.7px;
+    color: var(--color-text);
+}
+
+.loss-why-heading h2 span {
+    color: var(--color-primary);
+}
+
+.loss-why-content {
+    max-width: 750px;
+}
+
+.loss-why-content .loss-lead {
+    max-width: 650px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.65;
+    color: var(--color-text);
+}
+
+.loss-why-points {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 55px;
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.loss-why-point {
+    min-height: 190px;
+    padding: 26px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.loss-why-point strong {
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.loss-why-point p {
+    max-width: 300px;
+    margin: 10px 0 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   RELATED SERVICES
+   Shared component styles live in components.css
+========================================================= */
+
+.loss-related {
+    padding: 110px 0;
+    background: var(--color-bg);
+    border-top: 0;
+}
+
+/* =========================================================
+   FAQ
+========================================================= */
+
+.loss-faq {
+    background: var(--color-bg-soft);
+}
+
+.loss-faq .faq-header h2 span {
+    color: var(--color-primary);
+}
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.loss-cta {
+    background: var(--color-primary);
+}
+
+.loss-cta .cta-inner {
+    position: relative;
+}
+
+.loss-cta .advent-eyebrow {
+    color: var(--color-dark);
+}
+
+.loss-cta .cta-inner h2 {
+    color: var(--color-dark);
+}
+
+.loss-cta .cta-inner h2 span {
+    color: var(--color-dark);
+}
+
+.loss-cta .cta-inner p {
+    color: rgba(0, 0, 0, 0.72);
+}
+
+/* =========================================================
+   DARK THEME
+========================================================= */
+
+.theme-dark .loss-risk-card:hover {
+    background: var(--color-primary);
+}
+
+.theme-dark .loss-image-badge {
+    background: var(--color-bg);
+}
+
+.theme-dark .loss-approach-marker {
+    background: var(--color-bg-soft);
+}
+
+/* =========================================================
+   LARGE TABLET / LAPTOP
+========================================================= */
+
+@media (max-width: 1199.98px) {
+    .loss-hero-content {
+        padding-left: 5vw;
+    }
+
+    .loss-overview-grid,
+    .loss-why-grid {
+        gap: 65px;
+    }
+
+    .loss-protection-grid {
+        gap: 55px;
+    }
+
+    .loss-risk-card {
+        min-height: 310px;
+        padding: 25px;
+    }
+
+    .loss-industry-card {
+        min-height: 245px;
+    }
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991.98px) {
+    /* Hero */
+
+    .loss-hero-grid {
+        grid-template-columns: 1fr;
+        min-height: auto;
+    }
+
+    .loss-hero-content {
+        min-height: 600px;
+        padding: 80px 0;
+    }
+
+    .loss-hero-content h1 {
+        max-width: 760px;
+    }
+
+    .loss-hero-visual {
+        min-height: 500px;
+        border-left: 0;
+        border-top: 1px solid var(--color-border);
+    }
+
+    /* .loss-hero-visual img {
+        min-height: 560px;
+    } */
+
+    /* Overview */
+
+    .loss-overview {
+        padding: 90px 0;
+    }
+
+    .loss-overview-grid {
+        grid-template-columns: 1fr;
+        gap: 55px;
+    }
+
+    .loss-overview-heading {
+        position: static;
+    }
+
+    /* Section headers */
+
+    .loss-section-header {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        margin-bottom: 50px;
+    }
+
+    /* Risks */
+
+    .loss-risks {
+        padding: 90px 0;
+    }
+
+    .loss-risk-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Protection */
+
+    .loss-protection {
+        padding: 90px 0;
+    }
+
+    .loss-protection-grid {
+        grid-template-columns: 1fr;
+        gap: 55px;
+    }
+
+    .loss-protection-image,
+    .loss-protection-image img {
+        min-height: 560px;
+    }
+
+    /* Approach */
+
+    .loss-approach {
+        padding: 90px 0;
+    }
+
+    .loss-approach-track {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 55px 0;
+    }
+
+    .loss-approach-track::before {
+        display: none;
+    }
+
+    .loss-approach-item,
+    .loss-approach-item:not(:first-child) {
+        padding: 0 35px 0 0;
+    }
+
+    /* Industries */
+
+    .loss-industries {
+        padding: 90px 0;
+    }
+
+    .loss-industry-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Why Advent */
+
+    .loss-why-advent {
+        padding: 90px 0;
+    }
+
+    .loss-why-grid {
+        grid-template-columns: 1fr;
+        gap: 55px;
+    }
+
+    .loss-why-heading h2 {
+        max-width: 700px;
+    }
+
+    /* Related */
+
+    .loss-related {
+        padding: 90px 0;
+    }
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767.98px) {
+    /* Hero */
+
+    .loss-hero-content {
+        min-height: auto;
+        padding: 65px 16px 60px;
+    }
+
+    .loss-hero-content h1 {
+        font-size: clamp(44px, 12vw, 58px);
+        letter-spacing: -2.5px;
+    }
+
+    .loss-hero-content > p {
+        margin-top: 24px;
+        font-size: 16px;
+        line-height: 1.65;
+    }
+
+    .loss-hero-actions {
+        align-items: stretch;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .loss-hero-actions .advent-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .loss-hero-visual,
+    .loss-hero-visual img {
+        min-height: 390px;
+    }
+
+    .loss-hero-tag {
+        right: 15px;
+        bottom: 15px;
+        padding: 14px 16px;
+    }
+
+    /* Shared vertical rhythm */
+
+    .loss-overview,
+    .loss-risks,
+    .loss-protection,
+    .loss-approach,
+    .loss-industries,
+    .loss-why-advent,
+    .loss-related {
+        padding: 75px 0;
+    }
+
+    /* Headings */
+
+    .loss-overview-heading h2,
+    .loss-section-header h2,
+    .loss-protection-content h2,
+    .loss-why-heading h2 {
+        font-size: 39px;
+        letter-spacing: -2px;
+    }
+
+    .loss-section-header {
+        margin-bottom: 40px;
+    }
+
+    .loss-section-header > p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    /* Overview */
+
+    .loss-overview-grid {
+        gap: 40px;
+    }
+
+    .loss-overview-content .loss-lead {
+        font-size: 16px;
+    }
+
+    .loss-overview-points {
+        margin-top: 42px;
+    }
+
+    .loss-overview-point {
+        grid-template-columns: 0px 1fr;
+        gap: 15px;
+        padding: 21px 0;
+    }
+
+    .loss-overview-point h3 {
+        font-size: 18px;
+    }
+
+    /* Risks */
+
+    .loss-risk-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .loss-risk-card {
+        min-height: 285px;
+        padding: 25px;
+    }
+
+    .loss-risk-icon {
+        margin-top: 28px;
+    }
+
+    .loss-risk-card h3 {
+        margin-top: 27px;
+    }
+
+    /* Protection */
+
+    .loss-protection-grid {
+        gap: 40px;
+    }
+
+    .loss-protection-image,
+    .loss-protection-image img {
+        min-height: 350px;
+    }
+
+    .loss-image-badge {
+        left: 15px;
+        bottom: 15px;
+        padding: 14px 16px;
+    }
+
+    .loss-protection-content {
+        padding: 0;
+    }
+
+    .loss-protection-content .loss-lead {
+        font-size: 16px;
+    }
+
+    .loss-protection-list {
+        margin-top: 38px;
+    }
+
+    .loss-protection-item {
+        grid-template-columns: 42px 1fr;
+        gap: 15px;
+        padding: 20px 0;
+    }
+
+    .loss-item-icon {
+        width: 38px;
+        height: 38px;
+    }
+
+    .loss-protection-item h3 {
+        font-size: 17px;
+    }
+
+    /* Approach */
+
+    .loss-approach-header {
+        margin-bottom: 50px;
+    }
+
+    .loss-approach-track {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .loss-approach-item,
+    .loss-approach-item:not(:first-child) {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        gap: 18px;
+        padding: 0 0 35px;
+    }
+
+    .loss-approach-item:last-child {
+        padding-bottom: 0;
+    }
+
+    .loss-approach-marker {
+        width: 46px;
+        height: 46px;
+        margin: 0;
+    }
+
+    .loss-approach-item p {
+        max-width: none;
+        margin-top: 8px;
+    }
+
+    .loss-approach-line {
+        display: block;
+        position: absolute;
+        top: 46px;
+        left: 22px;
+        width: 1px;
+        height: calc(100% - 46px);
+        background: var(--color-border);
+    }
+
+    /* Industries */
+
+    .loss-industry-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .loss-industry-card {
+        min-height: 220px;
+        padding: 25px;
+    }
+
+    .loss-industry-icon {
+        margin-bottom: 28px;
+    }
+
+    /* Why Advent */
+
+    .loss-why-grid {
+        gap: 40px;
+    }
+
+    .loss-why-content .loss-lead {
+        font-size: 18px;
+    }
+
+    .loss-why-points {
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+    }
+
+    .loss-why-point {
+        min-height: auto;
+        padding: 23px;
+    }
+
+    /* FAQ */
+
+    .loss-faq .faq-header {
+        margin-bottom: 35px;
+    }
+
+    /* CTA */
+
+    .loss-cta .cta-inner {
+        text-align: left;
+    }
+}
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 575.98px) {
+    .loss-hero-content {
+        padding: 50px 16px 50px;
+    }
+
+    .loss-hero-content h1 {
+        font-size: 42px;
+        letter-spacing: -2px;
+    }
+
+    .loss-hero-visual,
+    .loss-hero-visual img {
+        min-height: 330px;
+    }
+
+    .loss-hero-tag {
+        max-width: calc(100% - 30px);
+    }
+
+    .loss-overview-heading h2,
+    .loss-section-header h2,
+    .loss-protection-content h2,
+    .loss-why-heading h2 {
+        font-size: 36px;
+        letter-spacing: -1.8px;
+    }
+
+    .loss-overview-point {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .loss-overview-point > strong {
+        font-size: 11px;
+    }
+
+    .loss-risk-card {
+        min-height: 270px;
+    }
+
+    .loss-protection-image,
+    .loss-protection-image img {
+        min-height: 330px;
+    }
+
+    .loss-industry-card {
+        min-height: 205px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .loss-hero-grid {
+        grid-template-columns: 1fr;
+        min-height: auto;
+    }
+
+    .loss-hero-visual {
+        height: 500px;
+    }
+
+    .loss-hero-visual img {
+        height: 100%;
+        object-position: center center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .loss-hero-visual {
+        height: 390px;
+    }
+
+    .loss-hero-visual img {
+        object-position: center center;
+    }
+}
