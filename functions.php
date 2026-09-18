@@ -420,12 +420,12 @@ function advent_security_assets()
      * -----------------------------------------------------
      */
     if (
-        is_page('industry-specific-security') ||
-        is_page_template('page-industry-specific-security.php')
+        is_page('industry') ||
+        is_page_template('page-industry.php')
     ) {
         wp_enqueue_style(
-            'advent-industry-specific-security',
-            get_template_directory_uri() . '/assets/css/industry-specific-security.css',
+            'advent-industry',
+            get_template_directory_uri() . '/assets/css/industry.css',
             array('advent-responsive'),
             '1.0.0'
         );

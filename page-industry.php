@@ -630,7 +630,7 @@ get_header();
         </div>
     </section>
 
-    <section class="industry-final">
+    <!-- <section class="industry-final">
         <div class="container">
             <div class="eyebrow">Talk to Advent About Your Industry</div>
             <h2>Start with the environment. Build from there.</h2>
@@ -640,9 +640,10 @@ get_header();
                 step — from an initial consultation to a more detailed
                 security assessment or proposal.
             </p>
-            <a class="advent-btn" href="<?php echo esc_url(home_url('/contact/')); ?>">Book a Security Consultation</a>
+            <a class="advent-btn" href="<?php //echo esc_url(home_url('/contact/')); 
+                                        ?>">Book a Security Consultation</a>
         </div>
-    </section>
+    </section> -->
 
     <div class="industry-cta-band">
         <div class="container cta-inner">

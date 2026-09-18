@@ -77,6 +77,20 @@ get_header();
             role="img"></div>
 
     </section>
+    <div class="industry-proof">
+        <div>
+            <strong>36+ years</strong><span>Established experience since 1990</span>
+        </div>
+        <div>
+            <strong>Australian-owned</strong><span>Family business</span>
+        </div>
+        <div>
+            <strong>ASIAL</strong><span>Platinum Level membership</span>
+        </div>
+        <div>
+            <strong>ISO 27001:2022</strong><span>Information-security certification</span>
+        </div>
+    </div>
 
 
     <!-- =====================================================

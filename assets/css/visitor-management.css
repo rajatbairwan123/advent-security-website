@@ -211,6 +211,62 @@
 }
 
 /* =========================================================
+   PROOF STRIP
+========================================================= */
+
+.industry-proof {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    background: var(--color-bg);
+
+    border-bottom: 1px solid var(--color-border);
+}
+
+.industry-proof > div {
+    min-height: 95px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    padding: 20px 25px;
+
+    text-align: center;
+
+    border-right: 1px solid var(--color-border);
+}
+
+.industry-proof > div:last-child {
+    border-right: 0;
+}
+
+.industry-proof strong {
+    display: block;
+
+    margin-bottom: 5px;
+
+    color: var(--color-primary);
+
+    font-size: 20px;
+
+    font-weight: 600;
+
+    line-height: 1.2;
+}
+
+.industry-proof span {
+    color: var(--color-text-muted);
+
+    font-size: 13px;
+
+    line-height: 1.4;
+}
+
+/* =========================================================
    VISITOR REGISTER SECTION
 ========================================================= */
 
@@ -907,8 +963,11 @@
 .visitor-implementation-media {
     width: 30%;
     min-height: 610px;
+
     border: 1px solid var(--visitor-border);
+
     background-image: url("../images/visitor-management/image15.webp");
+
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1792,5 +1851,49 @@
     .visitor-section-action .advent-btn {
         width: 100%;
         justify-content: center;
+    }
+}
+
+@media (max-width: 991.98px) {
+    /* PROOF */
+
+    .industry-proof {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .industry-proof > div:nth-child(2) {
+        border-right: 0;
+    }
+
+    .industry-proof > div:nth-child(-n + 2) {
+        border-bottom: 1px solid var(--color-border);
+    }
+}
+@media (max-width: 767.98px) {
+    /* PROOF */
+
+    .industry-proof {
+        grid-template-columns: 1fr;
+    }
+
+    .industry-proof > div,
+    .industry-proof > div:nth-child(2) {
+        min-height: 82px;
+
+        border-right: 0;
+
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .industry-proof > div:last-child {
+        border-bottom: 0;
+    }
+
+    .industry-proof > div {
+        text-align: left;
+    }
+
+    .industry-proof strong {
+        font-size: 18px;
     }
 }
