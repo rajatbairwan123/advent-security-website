@@ -24,21 +24,20 @@ get_header();
                             <span class="eyebrow">Retail Security</span>
 
                             <h1>
-                                Security that protects your
-                                <span>store, people and customers.</span>
+                                Retail Security Services for Stores,
+                                <span>Shopping Centres &amp; Retail Businesses</span>
                             </h1>
 
                             <p>
-                                Retail security is about more than preventing theft.
-                                Advent Security helps retailers create safer stores by
-                                protecting customers, employees, stock and property
-                                while maintaining a professional, welcoming environment.
+                                Professional retail security designed to help protect customers, employees,
+                                stock and premises while supporting a safe and welcoming
+                                shopping environment.
                             </p>
 
                             <div class="hero-buttons">
                                 <a href="<?php echo esc_url(home_url('/contact/')); ?>"
                                     class="advent-btn">
-                                    Talk to Our Security Team
+                                    Discuss Your Retail Security Requirements
                                     <span class="btn-arrow">→</span>
                                 </a>
                             </div>
@@ -129,19 +128,18 @@ get_header();
                     <div class="section-content">
 
                         <p>
-                            Retail environments change throughout the day. Customers
-                            come and go, employees work across different areas,
-                            deliveries arrive and stock moves between locations.
-                            Weekends, promotions and seasonal trading can bring
-                            even greater activity.
+                            Retail environments change throughout the day. Customers come and go,
+                            employees work across different areas, deliveries arrive and
+                            stock moves through the premises. Weekends, promotions and
+                            seasonal trading can bring even greater activity.
                         </p>
 
                         <p>
-                            That activity can create opportunities for theft,
-                            vandalism, disputes and other security incidents.
-                            A professional security presence can help retailers
-                            manage these risks while keeping the customer experience
-                            welcoming and uninterrupted.
+                            That activity can create opportunities for theft, vandalism, disputes,
+                            unauthorised access and other security incidents.
+                            A professional security presence can help retailers manage
+                            these risks while supporting a safe and welcoming environment
+                            for customers and staff.
                         </p>
 
                     </div>
@@ -216,15 +214,16 @@ get_header();
                     <span class="eyebrow">What We Protect</span>
 
                     <h2>
-                        Protecting every part of the
+                        Security considerations across the
                         <span>retail environment.</span>
                     </h2>
                 </div>
 
                 <div class="col-lg-5">
                     <p>
-                        Effective retail security considers the people, property
-                        and activity that make your store work every day.
+                        Effective retail security considers how people, stock and activity move
+                        through the premises, from customer areas and entrances to
+                        staff-only and back-of-house areas.
                     </p>
                 </div>
 
@@ -257,8 +256,8 @@ get_header();
                         <h3>Employees</h3>
 
                         <p>
-                            Support a safer working environment and provide a
-                            professional response when incidents occur.
+                            Support a safer working environment and provide a professional response
+                            when incidents require attention.
                         </p>
 
                     </article>
@@ -289,8 +288,8 @@ get_header();
                         <h3>Premises</h3>
 
                         <p>
-                            Help protect entrances, sales floors, back-of-house
-                            areas and the wider property.
+                            Help protect entrances, sales floors, back-of-house areas and other parts
+                            of the property.
                         </p>
 
                     </article>
@@ -317,6 +316,11 @@ get_header();
                 <span>modern retail environments.</span>
             </h2>
 
+            <p class="retail-services-intro">
+                Retail security services can be structured around your store layout,
+                trading hours, customer traffic, stock, staff requirements and
+                identified security risks.
+            </p>
 
             <div class="service-cards retail-service-grid">
 
@@ -327,9 +331,9 @@ get_header();
                     <h3>Retail Security Guards</h3>
 
                     <p>
-                        Professional security officers provide a visible presence
-                        throughout your store, helping deter theft and unwanted
-                        behaviour while supporting a safe environment.
+                        Professional security officers providing a visible presence, monitoring activity,
+                        supporting customer and staff safety and responding to incidents
+                        according to agreed procedures.
                     </p>
 
                     <span class="card-arrow">↗</span>
@@ -361,8 +365,8 @@ get_header();
                     <h3>Store &amp; Shop Security</h3>
 
                     <p>
-                        Security arrangements can be tailored around your store
-                        layout, opening hours and operational requirements.
+                        Security arrangements can be planned around your store layout, operating hours,
+                        access points and day-to-day requirements.
                     </p>
 
                     <!-- <span class="card-arrow">↗</span> -->
@@ -377,8 +381,8 @@ get_header();
                     <h3>Customer &amp; Staff Safety</h3>
 
                     <p>
-                        Our officers can provide a calm first response to incidents,
-                        helping protect customers, employees and visitors.
+                        Security personnel can provide a calm, professional response to incidents involving
+                        customers, employees, contractors or visitors.
                     </p>
 
                     <span class="card-arrow">↗</span>
@@ -393,8 +397,8 @@ get_header();
                     <h3>Access &amp; Entry Control</h3>
 
                     <p>
-                        Monitor entrances, restricted areas and access points to
-                        help ensure controlled areas remain secure.
+                        Monitor entrances, restricted areas and other access points to help maintain
+                        appropriate control over who enters the premises.
                     </p>
 
                     <span class="card-arrow">↗</span>
@@ -409,8 +413,8 @@ get_header();
                     <h3>Incident Response</h3>
 
                     <p>
-                        When something goes wrong, trained security personnel can
-                        respond professionally and follow agreed procedures.
+                        When an incident occurs, trained security personnel can follow agreed procedures,
+                        support those involved and escalate matters where required.
                     </p>
 
                     <span class="card-arrow">↗</span>
@@ -443,10 +447,10 @@ get_header();
                     </h2>
 
                     <p>
-                        Retail security needs to fit naturally into the way your
-                        store operates. From opening the doors to closing time,
-                        security arrangements can be built around your trading
-                        patterns and operational needs.
+                        Retail security needs to fit naturally into the way your store operates. From
+                        opening the doors to closing time, security arrangements can be
+                        structured around trading patterns, staffing levels and
+                        operational requirements.
                     </p>
 
                 </div>
@@ -465,9 +469,8 @@ get_header();
                                 <h3>Opening</h3>
 
                                 <p>
-                                    Security begins before the first customer
-                                    walks through the door, with attention to
-                                    entrances, premises and agreed opening procedures.
+                                    Security begins before the first customer arrives, with attention to entrances,
+                                    premises and agreed opening procedures.
                                 </p>
 
                             </div>
@@ -484,9 +487,8 @@ get_header();
                                 <h3>Trading Hours</h3>
 
                                 <p>
-                                    Our officers maintain a professional presence
-                                    while remaining alert to suspicious behaviour,
-                                    safety concerns and incidents requiring attention.
+                                    Officers maintain a professional presence while remaining alert to suspicious
+                                    behaviour, safety concerns and incidents requiring attention.
                                 </p>
 
                             </div>
@@ -503,10 +505,8 @@ get_header();
                                 <h3>Peak Periods</h3>
 
                                 <p>
-                                    Busy weekends, promotions, sales and seasonal
-                                    trading can increase activity. Security
-                                    arrangements can be adjusted around higher-risk
-                                    periods.
+                                    Weekends, promotions, sales and seasonal trading can increase activity. Security
+                                    coverage can be adjusted around identified higher-risk periods.
                                 </p>
 
                             </div>
@@ -574,8 +574,8 @@ get_header();
                         </span>
 
                         <h2>
-                            Your store has its own risks.
-                            <span>Your security should reflect them.</span>
+                            Security planning starts
+                            <span>with your store.</span>
                         </h2>
 
                         <p>
@@ -585,9 +585,9 @@ get_header();
                         </p>
 
                         <p>
-                            Advent works with retailers to understand the environment,
-                            identify key risks and develop security arrangements
-                            around the way the business actually operates.
+                            Advent works with retailers to understand the environment, identify key security
+                            risks and develop security arrangements around the way the
+                            business operates.
                         </p>
 
 
@@ -633,9 +633,9 @@ get_header();
                 </h2>
 
                 <p>
-                    Retail security requirements vary depending on the type of
-                    premises, customer traffic and operational risks involved.
-                    The right approach starts with understanding those differences.
+                    Retail security requirements vary according to the type of premises, customer
+                    traffic, operating patterns and security risks involved. The right
+                    approach starts with understanding those differences.
                 </p>
 
             </div>
@@ -759,8 +759,8 @@ get_header();
                     <span class="eyebrow">Why Advent Security</span>
 
                     <h2>
-                        A security partner,
-                        <span>not just a security presence.</span>
+                        Retail security built around how
+                        <span>your business operates.</span>
                     </h2>
 
                 </div>
@@ -768,9 +768,9 @@ get_header();
                 <div class="col-lg-5">
 
                     <p>
-                        Good retail security starts with understanding how your
-                        business works and where security can make the greatest
-                        difference.
+                        Good retail security starts with understanding how your business works, where
+                        risks arise and where security personnel can provide the most
+                        practical support.
                     </p>
 
                 </div>
@@ -829,9 +829,8 @@ get_header();
                     <h3>Review</h3>
 
                     <p>
-                        Security requirements can change as your store, trading
-                        patterns and risks change. Your arrangements can evolve
-                        with them.
+                        Security requirements can change as your store, trading patterns and risks change.
+                        Your arrangements can be reviewed accordingly.
                     </p>
 
                 </article>
@@ -864,8 +863,8 @@ get_header();
                     </h2>
 
                     <p>
-                        Explore related security solutions that can complement your
-                        security requirements and operational environment.
+                        Retail security can form part of a wider security strategy. Explore related Advent
+                        services that may support your people, premises and operational requirements.
                     </p>
 
                 </div>
@@ -874,6 +873,28 @@ get_header();
 
 
             <div class="related-services-grid">
+
+                <!-- Security Guard Services -->
+                <a href="<?php echo esc_url(home_url('/security-services/security-guard-services/')); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 3 20 6v5c0 5.2-3.3 8.7-8 10-4.7-1.3-8-4.8-8-10V6l8-3Z" />
+                        </svg>
+                    </span>
+
+                    <span class="related-service-title">
+                        Security Guard<br>
+                        Services
+                    </span>
+
+                    <span class="related-service-arrow">
+                        →
+                    </span>
+
+                </a>
+
 
                 <!-- Corporate Concierge -->
                 <a href="<?php echo esc_url(home_url('/security-services/corporate-concierge-services/')); ?>"
@@ -944,29 +965,6 @@ get_header();
                     </span>
 
                 </a>
-
-                <!-- Retail Security -->
-                <a href="<?php echo esc_url(home_url('/security-services/retail-security/')); ?>"
-                    class="related-service-card">
-
-                    <span class="related-service-icon">
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M5 8h14l-1 12H6L5 8Z" />
-                            <path d="M8 8V6a4 4 0 0 1 8 0v2" />
-                        </svg>
-                    </span>
-
-                    <span class="related-service-title">
-                        Retail<br>
-                        Security
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
-                </a>
-
 
                 <!-- Construction Security -->
                 <a href="<?php echo esc_url(home_url('/security-services/construction-security/')); ?>"
@@ -1040,9 +1038,14 @@ get_header();
                     </span>
 
                     <h2>
-                        Retail security questions,
-                        <span>answered.</span>
+                        Retail Security
+                        <span>FAQs.</span>
                     </h2>
+
+                    <p class="retail-faq-intro">
+                        Answers to common questions about retail security guards,
+                        loss prevention, customer safety and protecting retail premises.
+                    </p>
 
                 </div>
 
@@ -1052,89 +1055,53 @@ get_header();
             <div class="faq-list">
 
                 <details>
-                    <summary>
-                        What does a retail security guard do?
-                        <span>+</span>
-                    </summary>
-
-                    <p>
-                        A retail security guard helps protect customers, employees,
-                        stock and premises by maintaining a visible security presence,
-                        monitoring activity, deterring unwanted behaviour and
-                        responding to incidents according to agreed procedures.
-                    </p>
+                    <summary>What does a retail security guard do?<span>+</span></summary>
+                    <p>A retail security guard provides a visible security presence, monitors activity, helps deter unwanted behaviour and responds to incidents according to agreed procedures. Duties can also include access monitoring, customer and staff support and incident reporting.</p>
                 </details>
 
-
                 <details>
-                    <summary>
-                        Can retail security help reduce shoplifting?
-                        <span>+</span>
-                    </summary>
-
-                    <p>
-                        Yes. A professional security presence can act as a deterrent
-                        to theft and can help identify suspicious activity and
-                        respond to incidents. Retail security works best as part
-                        of a broader loss-prevention strategy.
-                    </p>
+                    <summary>Can retail security help reduce shoplifting?<span>+</span></summary>
+                    <p>A professional security presence can help deter theft, identify suspicious activity and support incident response. Retail security is generally most effective when it forms part of a broader loss-prevention approach.</p>
                 </details>
 
-
                 <details>
-                    <summary>
-                        Do you provide security for small retail stores?
-                        <span>+</span>
-                    </summary>
-
-                    <p>
-                        Retail security arrangements can be designed for different
-                        types and sizes of stores, from independent shops to larger
-                        retail premises.
-                    </p>
+                    <summary>Do you provide security for small retail stores?<span>+</span></summary>
+                    <p>Yes. Security arrangements can be structured for different types and sizes of retail premises, from independent stores to larger retail operations.</p>
                 </details>
 
-
                 <details>
-                    <summary>
-                        Can retail security cover busy periods only?
-                        <span>+</span>
-                    </summary>
-
-                    <p>
-                        Security arrangements can be structured around operational
-                        requirements, including higher-risk periods such as weekends,
-                        promotions, sales and seasonal trading.
-                    </p>
+                    <summary>Can retail security cover busy periods only?<span>+</span></summary>
+                    <p>Yes. Security coverage can be structured around operational requirements, including weekends, promotions, sales and seasonal trading periods.</p>
                 </details>
 
-
                 <details>
-                    <summary>
-                        Can retail security guards protect staff as well as customers?
-                        <span>+</span>
-                    </summary>
-
-                    <p>
-                        Yes. Retail security can help support the safety of employees,
-                        customers, contractors and other people on the premises.
-                    </p>
+                    <summary>Can retail security guards protect staff as well as customers?<span>+</span></summary>
+                    <p>Yes. Retail security can support the safety of employees, customers, contractors and other people on the premises.</p>
                 </details>
 
+                <details>
+                    <summary>How do I choose the right retail security service?<span>+</span></summary>
+                    <p>Start by identifying the main risks affecting your premises, such as theft, unauthorised access, staff safety, vandalism, customer incidents and peak trading periods. The appropriate service can then be structured around those requirements.</p>
+                </details>
 
                 <details>
-                    <summary>
-                        How do I choose the right retail security service?
-                        <span>+</span>
-                    </summary>
+                    <summary>Can retail security guards provide loss-prevention support?<span>+</span></summary>
+                    <p>Yes. Depending on the agreed role, security personnel can help identify suspicious activity, monitor areas of concern, protect stock and support established loss-prevention procedures.</p>
+                </details>
 
-                    <p>
-                        Start by identifying the main risks facing your store,
-                        including theft, access control, staff safety, vandalism
-                        and peak trading periods. A security provider can then
-                        recommend an appropriate security arrangement based on
-                        those risks.
-                    </p>
+                <details>
+                    <summary>Can security guards work in shopping centres?<span>+</span></summary>
+                    <p>Yes. Security personnel can support individual retail stores, shopping-centre environments and other retail premises, with responsibilities determined by the site and operating requirements.</p>
+                </details>
+
+                <details>
+                    <summary>Can retail security operate after hours?<span>+</span></summary>
+                    <p>Yes. Security coverage can be structured around the operating requirements of the premises, including after-hours periods where protection of the site, stock or property is required.</p>
+                </details>
+
+                <details>
+                    <summary>How much does retail security cost in Australia?<span>+</span></summary>
+                    <p>Retail security costs depend on factors including the location, size of the premises, operating hours, number of personnel, duties and required coverage. An assessment can help establish the appropriate scope before a quotation is prepared.</p>
                 </details>
 
             </div>
@@ -1158,9 +1125,15 @@ get_header();
                     <span class="eyebrow">Retail Security</span>
 
                     <h2>
-                        Make security part of the way
-                        <span>your store operates.</span>
+                        Review your retail
+                        <span>security requirements.</span>
                     </h2>
+
+                    <p>
+                        Tell us about your store, operating hours, customer traffic and
+                        security concerns. Advent can help determine the appropriate
+                        security personnel, duties and coverage for your environment.
+                    </p>
 
                 </div>
 
@@ -1168,7 +1141,7 @@ get_header();
                 <a href="<?php echo esc_url(home_url('/contact/')); ?>"
                     class="advent-btn advent-btn-dark">
 
-                    Discuss Your Retail Security Needs
+                    Discuss Your Retail Security Requirements
 
                     <span class="btn-arrow">→</span>
 

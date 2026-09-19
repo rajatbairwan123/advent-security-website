@@ -30,16 +30,14 @@ get_header();
                             </span>
 
                             <h1>
-                                Security advice
-                                <span>built around</span>
-                                real-world risk.
+                                Security Consulting & Risk Management
+                                <span>Across Australia & New Zealand</span>
                             </h1>
 
                             <p>
-                                Practical security consulting to help
-                                organisations identify risks, understand
-                                vulnerabilities and strengthen their
-                                security arrangements.
+                                Practical security consulting to help organisations assess risks,
+                                understand vulnerabilities and make informed decisions
+                                about their security arrangements.
                             </p>
 
                             <div class="hero-buttons">
@@ -47,7 +45,7 @@ get_header();
                                 <a href="#contact"
                                     class="advent-btn">
 
-                                    DISCUSS YOUR REQUIREMENTS
+                                    REQUEST A SECURITY CONSULTATION
 
                                     <span class="btn-arrow">→</span>
 
@@ -193,33 +191,21 @@ get_header();
 
 
                         <p>
-                            Security threats continue to evolve, making it
-                            important for organisations to understand the
-                            risks affecting their people, property, assets
-                            and operations.
+                            Security consulting starts with understanding the environment you need to protect.
+                            That means looking at your people, property, assets, operations, existing controls
+                            and the risks that may affect them.
                         </p>
 
                         <p>
-                            Advent Security provides security consulting
-                            services designed to help clients identify
-                            potential threats, understand vulnerabilities
-                            and develop practical approaches to managing
-                            their security requirements.
+                            Advent Security provides security consulting and risk management services to help
+                            organisations identify vulnerabilities, assess security risks and establish practical
+                            priorities for improvement.
                         </p>
 
                         <p>
-                            Effective security consulting should reflect the
-                            specific environment in which an organisation
-                            operates. Our approach considers the nature of
-                            the organisation, its people and assets, its
-                            operating environment and the security challenges
-                            it may face.
-                        </p>
-
-                        <p>
-                            This provides clients with a more informed basis
-                            for making security decisions and strengthening
-                            existing security arrangements.
+                            The approach can be applied when reviewing an existing security program, planning
+                            a new development, responding to changing risks or deciding where security resources
+                            should be focused.
                         </p>
 
                     </div>
@@ -252,7 +238,7 @@ get_header();
                         </span>
 
                         <span class="eyebrow">
-                            RISK MANAGEMENT
+                            SECURITY RISK MANAGEMENT
                         </span>
 
                     </div>
@@ -266,61 +252,36 @@ get_header();
                     <div class="consulting-risk-content">
 
                         <h2>
-                            Security Risk Management
+                            Understand the risk. Prioritise the response.
                         </h2>
 
                         <p class="consulting-lead">
-                            Security risk management is a critical component
-                            of comprehensive security planning. It involves
-                            identifying, assessing and managing potential
-                            threats and vulnerabilities that could affect
-                            people, assets, businesses and organisations.
+                            Security risk management provides a structured way to identify potential threats,
+                            assess vulnerabilities and determine which risks require attention.
+                            The process considers the organisation, its operating environment,
+                            people, assets, existing controls and the consequences of different
+                            security events.
                         </p>
 
 
                         <div class="consulting-risk-columns">
 
                             <div>
-
                                 <p>
-                                    A practical risk management process begins
-                                    with understanding the environment and
-                                    identifying the range of security risks
-                                    that may be present. These can range from
-                                    relatively minor security concerns through
-                                    to more serious threats that require
-                                    specific planning and mitigation.
+                                    Advent can help organisations develop practical security risk management
+                                    plans, policies and priorities based on the risks identified and the
+                                    requirements of the environment.
                                 </p>
-
-                                <p>
-                                    Understanding the context of a project,
-                                    site or organisation is essential when
-                                    determining which risks require attention
-                                    and what security measures may be
-                                    appropriate.
-                                </p>
-
                             </div>
 
-
-                            <div>
-
+                            <div class="consulting-risk-plan">
+                                <h3>Security Risk Management Plans</h3>
                                 <p>
-                                    The cornerstone of effective security risk
-                                    management is a structured security risk
-                                    management plan. This provides a practical
-                                    framework for identifying security
-                                    measures, priorities and response
-                                    strategies.
+                                    A security risk management plan can provide a practical framework for
+                                    documenting identified risks, security priorities, mitigation measures,
+                                    responsibilities and response arrangements. The level of detail should
+                                    reflect the organisation, project and risks being addressed.
                                 </p>
-
-                                <p>
-                                    Security policies and guidelines can also
-                                    support this process by providing
-                                    consistent direction for staff and other
-                                    relevant stakeholders.
-                                </p>
-
                             </div>
 
                         </div>
@@ -338,8 +299,7 @@ get_header();
                                 </strong>
 
                                 <p>
-                                    Recognise potential threats and
-                                    vulnerabilities.
+                                    Recognise potential threats, vulnerabilities and existing security gaps.
                                 </p>
 
                             </div>
@@ -354,8 +314,7 @@ get_header();
                                 </strong>
 
                                 <p>
-                                    Understand the nature and potential
-                                    impact of identified risks.
+                                    Understand the likelihood, potential impact and context of identified risks.
                                 </p>
 
                             </div>
@@ -370,8 +329,7 @@ get_header();
                                 </strong>
 
                                 <p>
-                                    Establish appropriate security measures
-                                    and priorities.
+                                    Establish appropriate security measures, priorities and response strategies.
                                 </p>
 
                             </div>
@@ -386,8 +344,7 @@ get_header();
                                 </strong>
 
                                 <p>
-                                    Continue to evaluate security requirements
-                                    as circumstances change.
+                                    Reassess security requirements as the organisation, environment or risk profile changes.
                                 </p>
 
                             </div>
@@ -420,40 +377,28 @@ get_header();
                     <div class="consulting-offender-content">
 
                         <span class="eyebrow">
-                            02 / SPECIALIST SECURITY PLANNING
+                            CRITICAL INCIDENT PREPAREDNESS
                         </span>
 
                         <h2>
-                            Active Armed Offender
-                            Protection
+                            Active Armed Offender Protection Planning
                         </h2>
 
                         <p class="consulting-lead">
-                            Active armed offender incidents present a
-                            significant security risk for organisations,
-                            businesses and public-facing environments.
+                            Active armed offender incidents require organisations to consider how people,
+                            facilities, communication arrangements and emergency procedures would operate
+                            during a serious security incident.
                         </p>
 
                         <p>
-                            Security consulting can help organisations
-                            understand their vulnerabilities and review
-                            existing arrangements for dealing with serious
-                            security incidents.
+                            Security consulting can help organisations review relevant vulnerabilities,
+                            existing procedures, communication arrangements and preparedness measures,
+                            then identify areas where planning or security controls may need to be strengthened.
                         </p>
 
                         <p>
-                            Effective preparation should consider the
-                            organisation's environment, emergency procedures,
-                            communication arrangements and the actions
-                            required to support the safety of people during
-                            a critical incident.
-                        </p>
-
-                        <p>
-                            Advent Security can work with organisations to
-                            identify areas where existing security
-                            arrangements may be strengthened and where
-                            practical planning can improve preparedness.
+                            Advent Security can assist organisations in reviewing their existing arrangements
+                            and developing practical planning appropriate to their environment and identified risks.
                         </p>
 
 
@@ -475,17 +420,17 @@ get_header();
 
                                 <li>
                                     <a href="<?php echo esc_url(
-                                                    home_url('/insolvency-services/')
+                                                    home_url('/security-services/electronic-security-systems/')
                                                 ); ?>">
-                                        Insolvency Services
+                                        Electronic Security Systems
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="<?php echo esc_url(
-                                                    home_url('/security-services/')
+                                                    home_url('/security-guard-services/')
                                                 ); ?>">
-                                        Security Services
+                                        Security Guard Services
                                     </a>
                                 </li>
 
@@ -537,7 +482,7 @@ get_header();
                 </span>
 
                 <h2>
-                    Security expertise across
+                    Security consulting across
                     different environments.
                 </h2>
 
@@ -633,228 +578,90 @@ get_header();
     ========================================== -->
 
     <section class="consulting-final-section">
-
         <div class="container">
-
             <div class="row justify-content-center">
-
                 <div class="col-lg-9">
-
                     <div class="consulting-final-content">
-
-                        <span class="eyebrow">
-                            SECURITY CONSULTING
-                        </span>
-
-                        <h2>
-                            Security decisions should be
-                            informed by the risks you actually face.
-                        </h2>
-
+                        <span class="eyebrow">FROM ASSESSMENT TO ACTION</span>
+                        <h2>Turn security findings into practical priorities.</h2>
                         <p>
-                            Whether you are reviewing existing security
-                            arrangements, planning for a new environment or
-                            responding to changing security requirements,
-                            professional security advice can help provide
-                            a clearer understanding of the risks involved.
+                            A security assessment is most useful when it leads to clear priorities.
+                            Advent can help organisations understand the risks identified, review existing
+                            controls and determine where further security measures, procedures or planning
+                            may be appropriate.
                         </p>
-
                         <p>
-                            Advent Security can assist organisations across
-                            Australia and New Zealand with security consulting
-                            requirements tailored to their operating
-                            environment.
+                            The outcome will depend on the organisation and the environment being assessed.
+                            Recommendations may involve security personnel, electronic security, monitoring,
+                            procedures, policy or further investigation.
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </section>
 
     <!-- =========================================
      RELATED SERVICES
     ========================================== -->
 
-    <section class="content-section related-services">
-
+    <section class="consulting-needed-section">
         <div class="container">
-
-            <div class="related-services-header">
-
-                <div>
-
-                    <span class="eyebrow">
-                        RELATED SERVICES
-                    </span>
-
-                    <h2>
-                        Explore our other<br>
-                        <span>security services.</span>
-                    </h2>
-
-                    <p>
-                        Explore related security solutions that can complement your
-                        security requirements and operational environment.
-                    </p>
-
-                </div>
-
+            <div class="consulting-needed-header">
+                <span class="eyebrow">WHEN SECURITY CONSULTING IS NEEDED</span>
+                <h2>When should you review your security arrangements?</h2>
+                <p>
+                    Security consulting can be useful when an organisation needs to understand its current
+                    security position, respond to a change or make decisions about future security requirements.
+                </p>
             </div>
-
-
-            <div class="related-services-grid">
-
-                <!-- Corporate Concierge -->
-                <a href="<?php echo esc_url(home_url('/security-services/corporate-concierge-services/')); ?>"
-                    class="related-service-card">
-
-                    <span class="related-service-icon">
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" />
-                            <path d="M5 21a7 7 0 0 1 14 0" />
-                            <path d="M4 21h16" />
-                        </svg>
-                    </span>
-
-                    <span class="related-service-title">
-                        Corporate &amp;<br>
-                        Concierge Security
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
-                </a>
-
-
-                <!-- Security Consulting -->
-                <a href="<?php echo esc_url(home_url('/security-services/security-consulting/')); ?>"
-                    class="related-service-card">
-
-                    <span class="related-service-icon">
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M12 3 20 6v5c0 5.2-3.3 8.7-8 10-4.7-1.3-8-4.8-8-10V6l8-3Z" />
-                        </svg>
-                    </span>
-
-                    <span class="related-service-title">
-                        Security<br>
-                        Consulting
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
-                </a>
-
-
-                <!-- Alarm Monitoring -->
-                <a href="<?php echo esc_url(home_url('/security-services/alarm-monitoring/')); ?>"
-                    class="related-service-card">
-
-                    <span class="related-service-icon">
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M6 18h12" />
-                            <path d="M7 18v-6a5 5 0 0 1 10 0v6" />
-                            <path d="M5 21h14" />
-                            <path d="M12 3v2" />
-                        </svg>
-                    </span>
-
-                    <span class="related-service-title">
-                        Alarm<br>
-                        Monitoring
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
-                </a>
-
-                <!-- Retail Security -->
-                <a href="<?php echo esc_url(home_url('/security-services/retail-security/')); ?>"
-                    class="related-service-card">
-
-                    <span class="related-service-icon">
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M5 8h14l-1 12H6L5 8Z" />
-                            <path d="M8 8V6a4 4 0 0 1 8 0v2" />
-                        </svg>
-                    </span>
-
-                    <span class="related-service-title">
-                        Retail<br>
-                        Security
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
-                </a>
-
-
-                <!-- Construction Security -->
-                <a href="<?php echo esc_url(home_url('/security-services/construction-security/')); ?>"
-                    class="related-service-card">
-
-                    <span class="related-service-icon">
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M4 18h16" />
-                            <path d="M6 18v-6h12v6" />
-                            <path d="M8 12V9h8v3" />
-                            <path d="M10 9V6h4v3" />
-                        </svg>
-                    </span>
-
-                    <span class="related-service-title">
-                        Construction<br>
-                        Security
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
-                </a>
-
-
-                <!-- Event Security -->
-                <a href="<?php echo esc_url(home_url('/security-services/event-security/')); ?>"
-                    class="related-service-card">
-
-                    <span class="related-service-icon">
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <circle cx="8" cy="9" r="3" />
-                            <circle cx="16" cy="9" r="3" />
-                            <path d="M3 20a5 5 0 0 1 10 0" />
-                            <path d="M11 20a5 5 0 0 1 10 0" />
-                        </svg>
-                    </span>
-
-                    <span class="related-service-title">
-                        Event<br>
-                        Security
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
-                </a>
-
+            <div class="consulting-needed-grid">
+                <article>
+                    <h3>Existing security review</h3>
+                    <p>Review current controls, vulnerabilities and security arrangements.</p>
+                </article>
+                <article>
+                    <h3>New development or fit-out</h3>
+                    <p>Consider security requirements early in the planning and design process.</p>
+                </article>
+                <article>
+                    <h3>Change in operations</h3>
+                    <p>Reassess security when people, assets, access patterns or operating conditions change.</p>
+                </article>
+                <article>
+                    <h3>Security incident or emerging risk</h3>
+                    <p>Review existing arrangements after a significant incident or when a new risk becomes relevant.</p>
+                </article>
+                <article>
+                    <h3>Multi-site security planning</h3>
+                    <p>Establish consistent security principles while recognising the requirements of individual locations.</p>
+                </article>
+                <article>
+                    <h3>Security policy and planning</h3>
+                    <p>Develop or review policies, procedures and security priorities.</p>
+                </article>
             </div>
-
         </div>
+    </section>
 
+    <section class="content-section related-services">
+        <div class="container">
+            <div class="related-services-header">
+                <div>
+                    <span class="eyebrow">RELATED SERVICES</span>
+                    <h2>Explore related<br><span>security services.</span></h2>
+                    <p>Security consulting can help identify priorities before the appropriate security measures and services are implemented.</p>
+                </div>
+            </div>
+            <div class="related-services-grid">
+                <a href="<?php echo esc_url(home_url('/security-guard-services/')); ?>" class="related-service-card"><span class="related-service-title">Security Guard<br>Services</span><span class="related-service-arrow">→</span></a>
+                <a href="<?php echo esc_url(home_url('/security-services/corporate-concierge-services/')); ?>" class="related-service-card"><span class="related-service-title">Corporate &amp;<br>Concierge Security</span><span class="related-service-arrow">→</span></a>
+                <a href="<?php echo esc_url(home_url('/security-services/alarm-monitoring/')); ?>" class="related-service-card"><span class="related-service-title">Alarm<br>Monitoring</span><span class="related-service-arrow">→</span></a>
+                <a href="<?php echo esc_url(home_url('/security-services/electronic-security-systems/')); ?>" class="related-service-card"><span class="related-service-title">Electronic Security<br>Systems</span><span class="related-service-arrow">→</span></a>
+                <a href="<?php echo esc_url(home_url('/security-services/commercial-security/')); ?>" class="related-service-card"><span class="related-service-title">Commercial<br>Security</span><span class="related-service-arrow">→</span></a>
+                <a href="<?php echo esc_url(home_url('/security-services/access-control/')); ?>" class="related-service-card"><span class="related-service-title">Access<br>Control</span><span class="related-service-arrow">→</span></a>
+            </div>
+        </div>
     </section>
 
     <!-- =========================================
@@ -863,106 +670,67 @@ get_header();
     ========================================== -->
 
     <section class="faq-section">
-
         <div class="container">
-
             <div class="faq-header">
-
                 <div>
-
-                    <span class="eyebrow">
-                        SECURITY CONSULTING FAQ
-                    </span>
-
-                    <h2>
-                        Frequently asked questions
-                    </h2>
-
+                    <span class="eyebrow">FREQUENTLY ASKED QUESTIONS</span>
+                    <h2>Security Consulting FAQs</h2>
+                    <p>Answers to common questions about security consulting, risk assessments and security planning.</p>
                 </div>
-
             </div>
-
             <div class="faq-list">
-
                 <details>
-                    <summary>
-                        What is security consulting?
-                        <span>+</span>
-                    </summary>
-
-                    <p>
-                        Security consulting is about looking at how your organisation,
-                        people, property and operations are exposed to security risks.
-                        It helps you understand where vulnerabilities may exist and
-                        what practical steps can be taken to strengthen your existing
-                        security arrangements.
-                    </p>
+                    <summary>What is security consulting?<span>+</span></summary>
+                    <p>Security consulting involves assessing an organisation's security environment, identifying potential risks and vulnerabilities, and helping establish practical priorities for managing those risks.</p>
                 </details>
 
                 <details>
-                    <summary>
-                        What does a security risk assessment look at?
-                        <span>+</span>
-                    </summary>
-
-                    <p>
-                        A security risk assessment looks at the environment in which
-                        your organisation operates, the people and assets that need
-                        protection, possible threats and existing security measures.
-                        The aim is to identify the areas that need attention and help
-                        establish sensible security priorities.
-                    </p>
+                    <summary>What does a security risk assessment look at?<span>+</span></summary>
+                    <p>A security risk assessment considers the environment, people, assets, operations, existing security controls, potential threats and vulnerabilities. The assessment helps identify areas requiring attention and establish security priorities.</p>
                 </details>
 
                 <details>
-                    <summary>
-                        Can security consulting help with emergency preparedness?
-                        <span>+</span>
-                    </summary>
-
-                    <p>
-                        Yes. Security consulting can help organisations review how
-                        they would respond to serious security incidents. This can
-                        include looking at emergency procedures, communication
-                        arrangements, vulnerabilities and the actions needed to
-                        support the safety of people during a critical incident.
-                    </p>
+                    <summary>When should an organisation engage a security consultant?<span>+</span></summary>
+                    <p>Security consulting can be useful when reviewing existing security arrangements, planning a new development, changing operations, responding to emerging risks or deciding where security resources should be focused.</p>
                 </details>
 
                 <details>
-                    <summary>
-                        Who can benefit from security consulting?
-                        <span>+</span>
-                    </summary>
-
-                    <p>
-                        Security consulting can be useful for businesses,
-                        organisations and facilities that want a clearer picture
-                        of their security risks. It can be particularly helpful
-                        when reviewing existing arrangements, planning a new
-                        environment or responding to changing security requirements.
-                    </p>
+                    <summary>Can Advent review an existing security system?<span>+</span></summary>
+                    <p>Yes. A security assessment can consider existing security infrastructure, procedures, access arrangements and other controls to identify vulnerabilities and areas where improvements may be appropriate.</p>
                 </details>
 
                 <details>
-                    <summary>
-                        Will the security recommendations be tailored to our organisation?
-                        <span>+</span>
-                    </summary>
+                    <summary>Can security consulting help with a new building or development?<span>+</span></summary>
+                    <p>Yes. Security requirements can be considered during planning and design so that relevant security measures and operational requirements can be identified before implementation.</p>
+                </details>
 
-                    <p>
-                        The approach should reflect your actual operating environment,
-                        rather than relying on a one-size-fits-all solution. Advent
-                        Security considers your organisation, people, assets and
-                        security challenges when helping you understand your
-                        requirements and strengthen your security arrangements.
-                    </p>
+                <details>
+                    <summary>Can Advent develop security risk management plans?<span>+</span></summary>
+                    <p>Yes. Advent's security consulting services include security risk management, including the development of security risk management plans and related policies and guidelines.</p>
+                </details>
+
+                <details>
+                    <summary>Can security consulting help with emergency preparedness?<span>+</span></summary>
+                    <p>Yes. Consulting can include reviewing vulnerabilities, emergency procedures, communication arrangements and preparedness for serious security incidents.</p>
+                </details>
+
+                <details>
+                    <summary>What industries does Advent provide security consulting for?<span>+</span></summary>
+                    <p>Advent provides consulting across commercial, corporate, logistics, healthcare, government and other operational environments. Its current expertise information also identifies aviation and maritime environments.</p>
+                </details>
+
+                <details>
+                    <summary>Can security consulting include security technology recommendations?<span>+</span></summary>
+                    <p>Yes. Depending on the assessment, recommendations may consider electronic security systems, access control, CCTV, alarm monitoring, security personnel, procedures or other appropriate controls.</p>
+                </details>
+
+                <details>
+                    <summary>Does Advent provide security consulting across Australia and New Zealand?<span>+</span></summary>
+                    <p>Advent states that it provides security consulting services across Australia and New Zealand.</p>
                 </details>
 
             </div>
-
         </div>
-
     </section>
 
     <!-- =========================================
@@ -982,14 +750,18 @@ get_header();
                     </span>
 
                     <h2>
-                        Talk to <span>Advent Security</span>
-                        about your requirements.
+                        Start with a clearer understanding of your
+                        <span>security risks.</span>
                     </h2>
+                    <p>
+                        Tell us about your organisation, operating environment or current security arrangements.
+                        Advent can help identify the areas that need attention and discuss the appropriate next step.
+                    </p>
 
                 </div>
 
                 <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="advent-btn advent-btn-dark">
-                    GET IN TOUCH
+                    REQUEST A SECURITY CONSULTATION
                     <span class="btn-arrow">→</span>
                 </a>
 

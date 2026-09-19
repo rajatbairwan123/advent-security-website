@@ -32,15 +32,15 @@
                             </span>
 
                             <h1>
-                                Professional security guard<br>
-                                services across<br>
-                                <span>Australia &amp; NZ.</span>
+                                Professional Security Guard<br>
+                                Services Across<br>
+                                <span>Australia &amp; New Zealand</span>
                             </h1>
 
                             <p>
-                                Security personnel for businesses, workplaces, construction
-                                sites, retail environments and events, with services tailored
-                                to your people, property and operational requirements.
+                                Professional security personnel for businesses, workplaces, construction sites,
+                                retail environments, healthcare facilities and events. Services are
+                                planned around your site, operating requirements and security risks.
                             </p>
 
                             <div class="hero-buttons">
@@ -164,17 +164,17 @@
                         </h2>
 
                         <p>
-                            Security guards are often the first point of contact for
-                            employees, visitors, tenants and customers. That means
-                            effective security requires more than a visible presence.
-                            Personnel need to communicate professionally, understand
-                            their site and respond appropriately when circumstances change.
+                            Security guards are often the first point of contact for employees, visitors,
+                            tenants and customers. Effective security therefore requires more
+                            than a visible presence. Personnel need to understand the site,
+                            communicate professionally and know how to respond when
+                            circumstances change.
                         </p>
 
                         <p>
                             Advent Security provides screened and trained security
                             personnel selected for the requirements of the role, with
-                            a focus on professionalism, communication, reliability
+                            an emphasis on professionalism, communication, reliability
                             and customer service.
                         </p>
 
@@ -240,7 +240,7 @@
                                         get_template_directory_uri() .
                                             '/assets/images/security-guard-services/Advent-Security-Entrance-Patrol.webp'
                                     ); ?>"
-                            alt="Corporate concierge security officer supporting workplace security">
+                            alt="Professional security guard providing site security services">
                     </div>
 
                 </div>
@@ -268,10 +268,10 @@
 
                         <ul class="check-list">
                             <li>Static security guarding and site presence</li>
-                            <li>Permanent patrols and alarm response</li>
+                            <li>Mobile patrols and alarm response</li>
                             <li>Access, visitor and site monitoring</li>
                             <li>Control room and security monitoring support</li>
-                            <li>Concierge, customer service and front-of-house security</li>
+                            <li>Concierge and front-of-house security</li>
                             <li>Event security and crowd management</li>
                         </ul>
 
@@ -301,12 +301,12 @@
                     <div class="section-content">
 
                         <span class="eyebrow">
-                            PROVEN SECURITY EXPERTISE
+                            SECURITY ASSESSMENT &amp; PLANNING
                         </span>
 
                         <h2>
-                            A security service<br>
-                            designed around risk.
+                            Start with the site, not a standard<br>
+                            security package.
                         </h2>
 
                         <p>
@@ -318,10 +318,10 @@
                         </p>
 
                         <p>
-                            Our experience spans corporate, commercial, retail,
-                            hospitality, logistics, healthcare, construction and
-                            event environments, where security needs can differ
-                            significantly from one site to another.
+                            Requirements can vary significantly between a corporate office, construction
+                            site, retail environment, healthcare facility or logistics operation.
+                            The security service should reflect those differences rather than
+                            applying the same approach everywhere.
                         </p>
 
                         <a href="#quote" class="advent-btn advent-btn-outline">
@@ -341,7 +341,7 @@
                                         get_template_directory_uri() .
                                             '/assets/images/security-guard-services/Corporate-Security-Patrol-in-Modern-Lobby.webp'
                                     ); ?>"
-                            alt="Advent Security corporate concierge security team">
+                            alt="Security personnel supporting corporate site security">
                     </div>
 
                 </div>
@@ -368,27 +368,23 @@
                     <div class="section-content">
 
                         <span class="eyebrow">
-                            CUTTING-EDGE SECURITY STRATEGIES
+                            INTEGRATED SECURITY
                         </span>
 
                         <h2>
-                            People, procedures<br>
-                            and technology.
+                            People, procedures and technology<br>
+                            working together.
                         </h2>
 
                         <p>
-                            Security requirements can extend beyond guarding alone.
-                            Where appropriate, Advent Security can combine professional
-                            security personnel with security procedures, electronic
-                            security systems and monitoring capabilities to create a
-                            more coordinated approach to protecting a site.
+                            Security requirements can extend beyond guarding alone. Where appropriate,
+                            Advent Security can combine security personnel with electronic security systems,
+                            monitoring and agreed site procedures.
                         </p>
 
                         <p>
-                            This integrated approach can support access management,
-                            surveillance, alarm response, incident reporting and
-                            ongoing security operations across corporate, retail,
-                            hotel and logistics environments.
+                            Depending on the site, this can support access management, CCTV monitoring,
+                            alarm response, incident reporting and day-to-day security operations.
                         </p>
 
                     </div>
@@ -445,15 +441,14 @@
                         </span>
 
                         <h2>
-                            Security solutions<br>
-                            for different environments.
+                            Security guard services for<br>
+                            different environments.
                         </h2>
 
                         <p>
-                            Different workplaces have different risks. We tailor
-                            security guard services to the operating environment,
-                            the people using the site and the level of protection
-                            required.
+                            Security requirements vary by environment, operating hours, site layout and risk profile.
+                            Advent can structure security personnel and duties around the requirements
+                            of each site.
                         </p>
 
                     </div>
@@ -524,9 +519,14 @@
             </span>
 
             <h2>
-                Local requirements.<br>
-                National capability.
+                Security coverage across Australia.
             </h2>
+
+            <p class="location-intro">
+                Security requirements vary from one location to another. Advent Security provides security
+                services across major Australian locations, with personnel and duties planned around the
+                requirements of each site.
+            </p>
 
             <div class="row g-0 location-grid">
 
@@ -534,14 +534,11 @@
                     <article class="location-card">
 
                         <h3>
-                            Construction Site Security – Melbourne
+                            Melbourne
                         </h3>
 
                         <p>
-                            Construction sites can face theft, vandalism and
-                            unauthorised access. Security personnel can provide
-                            a visible presence, monitor access and help protect
-                            equipment, materials and site operations.
+                            Security guard services for commercial, construction, retail and other operational environments across Melbourne.
                         </p>
 
                         <a href="#">
@@ -555,14 +552,11 @@
                     <article class="location-card">
 
                         <h3>
-                            Event Security Services – Sydney
+                            Sydney
                         </h3>
 
                         <p>
-                            Event security needs to balance safety, crowd movement
-                            and the visitor experience. Security personnel can
-                            support access points, crowd management, incident
-                            response and general site safety.
+                            Professional security personnel supporting businesses, workplaces, events and other sites across Sydney.
                         </p>
 
                         <a href="#">
@@ -576,13 +570,11 @@
                     <article class="location-card">
 
                         <h3>
-                            Retail &amp; Shopping Centre Security – Brisbane
+                            Brisbane
                         </h3>
 
                         <p>
-                            Retail security requires a professional and approachable
-                            presence while helping protect customers, staff,
-                            property and business operations.
+                            Security services for commercial, retail, construction and operational environments across Brisbane.
                         </p>
 
                         <a href="#">
@@ -596,13 +588,11 @@
                     <article class="location-card">
 
                         <h3>
-                            Corporate &amp; Commercial Security Australia
+                            Perth
                         </h3>
 
                         <p>
-                            Corporate and commercial security can include front-of-house
-                            security, access monitoring, mobile patrols, site inspections
-                            and workplace security support.
+                            Security personnel and site security services for businesses and operational sites across Perth.
                         </p>
 
                         <a href="#">
@@ -639,9 +629,9 @@
                 </h2>
 
                 <p>
-                    Security requirements vary by industry, site layout, operating
-                    hours and risk profile. Our security services can be adapted
-                    to support different commercial and operational environments.
+                    Security requirements vary by industry, site layout, operating hours and risk profile. Advent provides
+                    security personnel for a range of commercial and operational environments, with duties
+                    determined by the requirements of each site.
                 </p>
 
             </div>
@@ -712,7 +702,7 @@
                     <div class="section-content">
 
                         <span class="eyebrow">
-                            WHY CHOOSE ADVENT SECURITY?
+                            WHY ADVENT SECURITY
                         </span>
 
                         <h2>
@@ -721,17 +711,16 @@
                         </h2>
 
                         <p>
-                            Choosing a security provider is about more than putting
-                            personnel on-site. The service needs to fit your people,
-                            property, procedures and operational requirements.
+                            Security is about more than placing personnel on-site. The service needs to reflect
+                            your people, property, procedures, operating hours and security requirements.
                         </p>
 
                         <ul class="check-list">
                             <li>Licensed and trained security professionals</li>
                             <li>Coverage across major Australian locations</li>
                             <li>Experience across multiple industries</li>
-                            <li>Security services tailored to site requirements</li>
-                            <li>Integrated personnel, monitoring and security capabilities</li>
+                            <li>Services planned around site requirements</li>
+                            <li>Security personnel, monitoring and supporting capabilities</li>
                         </ul>
 
                         <a href="#quote" class="advent-btn advent-btn-primary">
@@ -783,10 +772,9 @@
                 </h2>
 
                 <p>
-                    The right security service depends on what you need to protect
-                    and how your site operates. A conversation with our team can
-                    help establish the appropriate personnel, duties, coverage
-                    and supporting security measures for your environment.
+                    The right security service depends on what you need to protect, how your site operates and the duties
+                    you need personnel to perform. An assessment can help establish the appropriate coverage,
+                    responsibilities and supporting security measures.
                 </p>
 
             </div>
@@ -795,13 +783,15 @@
 
                 <div class="col-md-6">
                     <div class="industry-card">
+                        <span class="process-number">01</span>
                         <h3>Understand the site</h3>
-                        <p>Consider your location, people, assets, access points and operating environment.</p>
+                        <p>Consider your location, people, assets, access points, operating hours and existing security arrangements.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6">
                     <div class="industry-card">
+                        <span class="process-number">02</span>
                         <h3>Identify the requirements</h3>
                         <p>Define the duties, coverage, monitoring and response requirements relevant to your site.</p>
                     </div>
@@ -809,15 +799,17 @@
 
                 <div class="col-md-6">
                     <div class="industry-card">
+                        <span class="process-number">03</span>
                         <h3>Design the service</h3>
-                        <p>Build a practical security approach around your operating hours, risks and objectives.</p>
+                        <p>Establish a practical security approach around your operating hours, risks and agreed responsibilities.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6">
                     <div class="industry-card">
+                        <span class="process-number">04</span>
                         <h3>Review and adapt</h3>
-                        <p>Security requirements can change, so services can be reviewed as your operation evolves.</p>
+                        <p>Security requirements can change as your operation changes, so the service can be reviewed when circumstances or requirements change.</p>
                     </div>
                 </div>
 
@@ -850,8 +842,8 @@
                     </h2>
 
                     <p>
-                        Explore related security solutions that can complement your
-                        security requirements and operational environment.
+                        Security guards can form part of a wider security strategy. Explore related Advent services that may
+                        complement personnel and site security requirements.
                     </p>
 
                 </div>
@@ -1028,7 +1020,7 @@
                     </span>
 
                     <h2>
-                        Frequently asked questions
+                        Security Guard Services FAQs
                     </h2>
 
                 </div>
@@ -1155,6 +1147,32 @@
                     </p>
                 </details>
 
+                <details>
+                    <summary>
+                        What qualifications do security guards need in Australia?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Security licensing and training requirements vary by state and territory in Australia.
+                        Security guards generally need the appropriate licence and training for the duties they
+                        perform, with requirements depending on the jurisdiction and role.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        Can security guards monitor CCTV and access control systems?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Depending on the role and site requirements, security personnel can monitor CCTV,
+                        access control and other security systems where these responsibilities form part of
+                        the agreed service.
+                    </p>
+                </details>
+
             </div>
 
         </div>
@@ -1175,17 +1193,22 @@
                 <div>
 
                     <span class="eyebrow">
-                        NEED SECURITY GUARD SERVICES?
+                        SECURITY GUARD SERVICES
                     </span>
 
                     <h2>
-                        Request a security assessment.
+                        Review your security requirements.
                     </h2>
+
+                    <p>
+                        Tell us about your site, operating hours, security requirements and the duties you need
+                        personnel to perform. Advent can help define the appropriate security service and next steps.
+                    </p>
 
                 </div>
 
                 <a href="#contact" class="advent-btn advent-btn-dark">
-                    <span>REQUEST A QUOTE</span>
+                    <span>REQUEST A SECURITY ASSESSMENT</span>
                     <span class="btn-arrow">→</span>
                 </a>
 

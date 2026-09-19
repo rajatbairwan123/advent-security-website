@@ -30,17 +30,14 @@ get_header();
                             </span>
 
                             <h1>
-                                Protecting your
-                                <span>construction site</span>
-                                from day one.
+                                Construction Site Security Services
+                                <span>Across Australia</span>
                             </h1>
 
                             <p>
-                                Construction sites can face theft, vandalism,
-                                unauthorised access and changing security risks
-                                throughout the life of a project. Advent Security
-                                provides professional site security designed around
-                                your people, property and working environment.
+                                Professional construction security designed to help protect sites,
+                                equipment, materials and people from theft, vandalism,
+                                unauthorised access and other site security risks.
                             </p>
 
                             <div class="construction-hero-actions">
@@ -48,7 +45,7 @@ get_header();
                                 <a href="<?php echo esc_url(home_url('/contact/')); ?>"
                                     class="advent-btn">
 
-                                    Secure Your Site
+                                    DISCUSS YOUR CONSTRUCTION SECURITY REQUIREMENTS
 
                                     <span class="btn-arrow">→</span>
 
@@ -161,10 +158,13 @@ get_header();
                 <div class="col-lg-4">
 
                     <p>
-                        Construction sites often contain valuable equipment,
-                        materials and machinery before the project is complete.
-                        At the same time, open areas, temporary access points and
-                        changing site conditions can create additional security risks.
+                        Construction sites can contain valuable equipment, materials and machinery
+                        long before a project is complete. Open areas, temporary access
+                        points and changing site conditions can also create additional
+                        security risks.
+
+                        Security arrangements need to protect the site without interfering
+                        with construction activity, contractors or agreed site procedures.
                     </p>
 
                 </div>
@@ -225,9 +225,8 @@ get_header();
 
                     <div class="construction-risk-text">
                         <p>
-                            Open or partially completed areas can make it easier
-                            for unauthorised people to enter the site without
-                            permission.
+                            Open or partially completed areas, temporary fencing and changing access
+                            points can increase the opportunity for unauthorised entry.
                         </p>
                     </div>
 
@@ -299,9 +298,9 @@ get_header();
                 <div class="col-lg-7">
 
                     <p>
-                        Advent Security can provide a professional security
-                        presence around the needs of your project, helping
-                        protect the site while construction work continues.
+                        Advent Security can provide security personnel and site security services
+                        around the requirements of your project, helping protect the
+                        site while construction work continues.
                     </p>
 
                 </div>
@@ -320,9 +319,8 @@ get_header();
                         <h3>Construction Site Security Guards</h3>
 
                         <p>
-                            A visible and professional security presence can
-                            help deter unwanted activity and provide reassurance
-                            across the site.
+                            A visible and professional security presence can help deter unwanted activity,
+                            monitor site conditions and support agreed security procedures.
                         </p>
 
                     </div>
@@ -341,9 +339,8 @@ get_header();
                         <h3>Site Access Control</h3>
 
                         <p>
-                            Help manage access to construction areas and
-                            identify activity that falls outside agreed
-                            site procedures.
+                            Help manage agreed access points, monitor site entry and identify activity
+                            that falls outside established site procedures.
                         </p>
 
                     </div>
@@ -403,9 +400,9 @@ get_header();
                         <h3>Overnight Site Protection</h3>
 
                         <p>
-                            Security arrangements can continue outside normal
-                            working hours when sites are quieter and valuable
-                            assets remain on the premises.
+                            Security coverage can continue outside normal working hours when fewer workers
+                            are present and equipment, materials and partially completed
+                            structures remain on site.
                         </p>
 
                     </div>
@@ -453,15 +450,14 @@ get_header();
                         <span class="eyebrow">Site Security In Action</span>
 
                         <h2>
-                            Security that works
-                            <span>around your project.</span>
+                            Security experience for changing
+                            <span>construction environments.</span>
                         </h2>
 
                         <p>
-                            Construction security should support the project
-                            rather than get in its way. Security personnel can
-                            work around agreed site procedures, access
-                            arrangements and operational requirements.
+                            Construction security should support the project rather than interfere with it.
+                            Security personnel can work around agreed site procedures,
+                            access arrangements, contractor movements and working schedules.
                         </p>
 
 
@@ -510,10 +506,9 @@ get_header();
                     </h2>
 
                     <p>
-                        No two construction sites operate in exactly the same
-                        way. Security requirements can change as the project
-                        develops, which is why the approach needs to remain
-                        practical and adaptable.
+                        No two construction sites operate in exactly the same way. Security requirements
+                        can change as work progresses, so the security arrangement needs
+                        to remain practical and adaptable.
                     </p>
 
                 </div>
@@ -548,8 +543,8 @@ get_header();
                                 <h3>Plan</h3>
 
                                 <p>
-                                    Establish security arrangements around
-                                    the practical requirements of the project.
+                                    Establish personnel, coverage and security procedures around the practical
+                                    requirements of the project.
                                 </p>
                             </div>
 
@@ -609,14 +604,15 @@ get_header();
                 <span class="eyebrow">Construction Environments</span>
 
                 <h2>
-                    Security for projects at
-                    <span>every stage.</span>
+                    Security for different
+                    <span>construction projects.</span>
                 </h2>
 
                 <p>
-                    Different projects create different security requirements.
-                    Our approach can be considered around the size, location,
-                    stage and operating conditions of the site.
+                    Different construction projects create different security requirements.
+                    The appropriate security arrangement depends on factors such as the
+                    size, location, project stage, access arrangements and operating
+                    conditions of the site.
                 </p>
 
             </div>
@@ -703,23 +699,22 @@ get_header();
                         </span>
 
                         <h2>
-                            Security that works
-                            <span>around your project.</span>
+                            Security experience for changing
+                            <span>construction environments.</span>
                         </h2>
 
                         <p>
-                            Construction sites change throughout a project.
-                            Security needs to be practical, professional and
-                            able to work alongside your people, contractors,
-                            access arrangements and working schedules.
+                            Construction sites change throughout a project. Security therefore needs to
+                            work alongside contractors, site procedures, access arrangements
+                            and changing working schedules.
                         </p>
 
                         <ul class="check-list">
                             <li>Professional security presence for active sites</li>
-                            <li>Security arrangements built around site requirements</li>
+                            <li>Security arrangements planned around site requirements</li>
                             <li>Support for access points, boundaries and vulnerable areas</li>
                             <li>Coverage options for working and after-hours periods</li>
-                            <li>Approach that can adapt as the project develops</li>
+                            <li>Security arrangements that can adapt as the project develops</li>
                         </ul>
 
                     </div>
@@ -768,8 +763,9 @@ get_header();
                     </h2>
 
                     <p>
-                        Explore related security solutions that can complement
-                        your security requirements and operational environment.
+                        Construction security can form part of a wider site-security strategy.
+                        Explore related Advent services that may support your project,
+                        personnel and security requirements.
                     </p>
 
                 </div>
@@ -920,8 +916,8 @@ get_header();
                     </span>
 
                     <h2>
-                        Construction security
-                        <span>questions, answered.</span>
+                        Construction Security
+                        <span>FAQs</span>
                     </h2>
 
                 </div>
@@ -936,104 +932,124 @@ get_header();
             <div class="faq-list">
 
                 <details>
-
                     <summary>
                         What is construction site security?
                         <span>+</span>
                     </summary>
-
                     <p>
-                        Construction site security involves measures designed
-                        to help protect construction premises, equipment,
-                        materials, workers and authorised visitors from theft,
-                        vandalism, unauthorised access and other security risks.
+                        Construction site security involves measures designed to help protect
+                        construction premises, equipment, materials, workers and authorised visitors
+                        from theft, vandalism, unauthorised access and other security risks.
                     </p>
-
                 </details>
 
-
                 <details>
-
                     <summary>
                         Why do construction sites need security?
                         <span>+</span>
                     </summary>
-
                     <p>
-                        Construction sites can contain valuable equipment,
-                        tools and materials and may have open or changing
-                        access points. Professional security can help deter
-                        unwanted activity and provide a response when incidents
-                        occur.
+                        Construction sites can contain valuable equipment, tools and materials while
+                        also having open, temporary or changing access points. Professional security
+                        can help deter unwanted activity, monitor the site and provide a response
+                        when incidents occur.
                     </p>
-
                 </details>
 
-
                 <details>
-
                     <summary>
                         Can security guards work overnight on construction sites?
                         <span>+</span>
                     </summary>
-
                     <p>
-                        Yes. Where required, construction security arrangements
-                        can include coverage outside normal working hours,
-                        including overnight periods when sites may have fewer
-                        people present.
+                        Yes. Construction security can include coverage outside normal working hours,
+                        including overnight periods when fewer people are present and equipment,
+                        materials and partially completed structures remain on site.
                     </p>
-
                 </details>
 
-
                 <details>
-
                     <summary>
                         Can construction security include access control?
                         <span>+</span>
                     </summary>
-
                     <p>
-                        Yes. Security personnel can help monitor agreed access
-                        points and support site access procedures as part of
-                        an overall construction security arrangement.
+                        Yes. Security personnel can monitor agreed access points and support site
+                        access procedures as part of an overall construction security arrangement.
                     </p>
-
                 </details>
 
-
                 <details>
-
                     <summary>
                         Can security arrangements change during a project?
                         <span>+</span>
                     </summary>
-
                     <p>
-                        They can. Construction sites change as work progresses,
-                        so security requirements may need to be reviewed when
-                        access points, working patterns, site activity or
-                        valuable assets change.
+                        Yes. Construction sites change as work progresses, so security requirements
+                        may need to be reviewed when access points, working patterns, site activity
+                        or valuable assets change.
                     </p>
-
                 </details>
 
-
                 <details>
-
                     <summary>
                         What should I consider when choosing construction security?
                         <span>+</span>
                     </summary>
-
                     <p>
-                        Consider the site's size, location, access points,
-                        working hours, equipment and materials present, existing
-                        security measures and the periods when the site may be
-                        most vulnerable.
+                        Consider the site's size, location, access points, working hours, equipment
+                        and materials present, existing security measures and the periods when the
+                        site may be most vulnerable.
                     </p>
+                </details>
 
+                <details>
+                    <summary>
+                        Can construction security include mobile patrols?
+                        <span>+</span>
+                    </summary>
+                    <p>
+                        Yes. Mobile patrols can provide additional site visibility at agreed times,
+                        particularly across larger sites, perimeter areas and locations that are
+                        less frequently occupied.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        Can security guards monitor construction site access?
+                        <span>+</span>
+                    </summary>
+                    <p>
+                        Yes. Where access monitoring forms part of the agreed role, security
+                        personnel can monitor designated entry points, follow site access procedures
+                        and identify activity that requires attention.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        Can construction security protect equipment and building materials?
+                        <span>+</span>
+                    </summary>
+                    <p>
+                        Security personnel can help protect equipment, machinery, tools and
+                        building materials by maintaining a visible presence, monitoring agreed
+                        areas and responding to security incidents according to established procedures.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        How much does construction site security cost?
+                        <span>+</span>
+                    </summary>
+                    <p>
+                        Construction security costs depend on factors such as site size and location,
+                        operating hours, number of personnel, required duties, coverage periods and
+                        existing security arrangements. An assessment can help establish the
+                        appropriate scope before a quotation is prepared.
+                    </p>
                 </details>
 
             </div>
@@ -1062,13 +1078,18 @@ get_header();
                         <span>Keep your project moving.</span>
                     </h2>
 
+                    <p>
+                        Tell us about your construction site, project stage, access arrangements and security concerns.
+                        Advent can help define the appropriate personnel, coverage and site-security requirements.
+                    </p>
+
                 </div>
 
 
                 <a href="<?php echo esc_url(home_url('/contact/')); ?>"
                     class="advent-btn advent-btn-dark">
 
-                    Discuss Your Site Security
+                    DISCUSS YOUR CONSTRUCTION SECURITY REQUIREMENTS
 
                     <span class="btn-arrow">→</span>
 

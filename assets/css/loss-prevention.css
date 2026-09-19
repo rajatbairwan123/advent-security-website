@@ -1354,3 +1354,137 @@
         object-position: center center;
     }
 }
+
+/* =========================================================
+   LOSS PREVENTION - CONTENT REFINEMENT
+   Minimal additions for TL-approved content.
+========================================================= */
+
+.loss-hero-supporting-line {
+    max-width: 590px;
+    margin: 12px 0 0 !important;
+    font-size: 15px !important;
+    line-height: 1.65 !important;
+    color: var(--color-text-muted);
+}
+
+.loss-technology {
+    padding: 110px 0;
+    background: var(--color-bg-soft);
+    border-top: 1px solid var(--color-border);
+}
+
+.loss-technology-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.loss-technology-card {
+    min-height: 230px;
+    padding: 28px;
+    background: var(--color-bg);
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
+}
+
+.loss-technology-card:hover {
+    background: var(--color-primary);
+}
+
+.loss-technology-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+    border: 1px solid var(--color-border);
+    color: var(--color-primary);
+}
+
+.loss-technology-icon i {
+    font-size: 20px;
+}
+
+.loss-technology-card h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.loss-technology-card p {
+    max-width: 300px;
+    margin: 10px 0 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+}
+
+.loss-technology-card:hover h3,
+.loss-technology-card:hover p,
+.loss-technology-card:hover .loss-technology-icon {
+    color: var(--color-dark);
+}
+
+.loss-technology-card:hover .loss-technology-icon {
+    border-color: var(--color-dark);
+}
+
+.loss-faq-intro {
+    max-width: 680px;
+    margin: 18px 0 0;
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+}
+
+.loss-cta p {
+    max-width: 720px;
+    margin-top: 18px;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+@media (max-width: 991.98px) {
+    .loss-technology {
+        padding: 90px 0;
+    }
+
+    .loss-technology-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 767.98px) {
+    .loss-technology {
+        padding: 75px 0;
+    }
+
+    .loss-technology-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .loss-technology-card {
+        min-height: auto;
+        padding: 24px;
+    }
+
+    .loss-hero-supporting-line {
+        font-size: 14px !important;
+    }
+
+    .loss-faq-intro {
+        font-size: 14px;
+    }
+
+    .loss-cta p {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+}

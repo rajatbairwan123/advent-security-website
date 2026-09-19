@@ -24,16 +24,15 @@ get_header();
                     <span class="eyebrow">Gatehouse Security</span>
 
                     <h1>
-                        Security starts
-                        <span>at the gate.</span>
+                        Gatehouse Security Services for
+                        <span>Controlled Site Access</span>
                     </h1>
 
                     <p>
-                        Your gatehouse is often the first point of contact
-                        between your site and everyone who wants to enter it.
-                        Advent Security provides professional gatehouse
-                        security designed to help manage access, support
-                        site procedures and maintain a visible security presence.
+                        Professional gatehouse security for construction sites, industrial facilities,
+                        warehouses, logistics operations and commercial premises. Advent Security provides
+                        trained security personnel to help manage vehicle and visitor access, support site
+                        procedures and maintain awareness around controlled entrances.
                     </p>
 
                     <div class="gatehouse-hero-actions">
@@ -41,7 +40,7 @@ get_header();
                         <a
                             href="<?php echo esc_url(home_url('/contact/')); ?>"
                             class="advent-btn">
-                            Secure Your Entrance
+                            Discuss Your Gatehouse Security Requirements
                             <span class="btn-arrow">→</span>
                         </a>
 
@@ -136,9 +135,9 @@ get_header();
                 </h2>
 
                 <p>
-                    Gatehouse security combines a visible security presence
-                    with practical access procedures suited to the way your
-                    site operates.
+                    Gatehouse security combines a visible security presence with practical access procedures
+                    suited to the way your site operates. Personnel can help manage vehicles, visitors,
+                    contractors and deliveries while supporting the site's established access and security procedures.
                 </p>
 
             </div>
@@ -149,12 +148,12 @@ get_header();
                 <article class="gatehouse-service-card">
 
                     <div class="gatehouse-card-top">
-                        <span>Access Control</span>
+                        <span>VEHICLE ACCESS</span>
                     </div>
 
                     <div class="gatehouse-card-content">
 
-                        <h3>Vehicle Access</h3>
+                        <h3>Vehicle Access Management</h3>
 
                         <p>
                             Help manage vehicle arrivals and departures
@@ -189,7 +188,7 @@ get_header();
                 <article class="gatehouse-service-card">
 
                     <div class="gatehouse-card-top">
-                        <span>Site Access</span>
+                        <span>CONTRACTOR ACCESS</span>
                     </div>
 
                     <div class="gatehouse-card-content">
@@ -197,8 +196,7 @@ get_header();
                         <h3>Contractor Access</h3>
 
                         <p>
-                            Help manage contractor arrivals and access in line
-                            with established site requirements.
+                            Help manage contractor arrivals and site access in line with established site requirements.
                         </p>
 
                     </div>
@@ -209,7 +207,7 @@ get_header();
                 <article class="gatehouse-service-card">
 
                     <div class="gatehouse-card-top">
-                        <span>Communication</span>
+                        <span>SITE COMMUNICATION</span>
                     </div>
 
                     <div class="gatehouse-card-content">
@@ -270,17 +268,14 @@ get_header();
                     </h2>
 
                     <p>
-                        Gatehouse personnel can help create a clear and
-                        professional process for people arriving at your site.
-                        That can be particularly important where there are
-                        multiple visitors, contractors, deliveries or restricted
-                        areas to manage.
+                        Gatehouse personnel can help create a clear and professional process for people arriving
+                        at your site. This can be particularly important where multiple visitors, contractors,
+                        deliveries or restricted areas need to be managed.
                     </p>
 
                     <p>
-                        The goal is simple: make legitimate access straightforward
-                        while helping identify activity that does not follow
-                        the site's agreed procedures.
+                        The objective is to make legitimate access straightforward while helping identify activity
+                        that does not follow the site's agreed procedures.
                     </p>
 
                 </div>
@@ -390,8 +385,7 @@ get_header();
                         <h3>Maintain Awareness</h3>
 
                         <p>
-                            Support relevant site records and maintain
-                            awareness of activity around the entrance.
+                            Where required, support agreed recording and reporting procedures relating to site access and security activity.
                         </p>
 
                     </div>
@@ -469,9 +463,7 @@ get_header();
                             <h4>Incident Awareness</h4>
 
                             <p>
-                                Maintain awareness of activity around the
-                                entrance and respond according to agreed
-                                security procedures.
+                                Maintain awareness of activity around the entrance and follow agreed security procedures when an issue arises.
                             </p>
                         </div>
 
@@ -518,9 +510,9 @@ get_header();
                 </h2>
 
                 <p>
-                    Gatehouse security can be particularly useful for sites
-                    where vehicles, visitors, contractors and deliveries
-                    regularly pass through controlled entrances.
+                    Gatehouse security can be particularly useful for sites where vehicles, visitors, contractors
+                    and deliveries regularly pass through controlled entrances. The appropriate arrangement depends
+                    on the site's layout, operating hours, access requirements and level of activity.
                 </p>
 
             </div>
@@ -611,10 +603,9 @@ get_header();
                 </div>
 
                 <p>
-                    Security is most effective when it fits naturally
-                    into the way a site operates. Our approach focuses
-                    on clear responsibilities, professional conduct
-                    and practical site procedures.
+                    Gatehouse security works best when the responsibilities are clearly defined around the way a site operates.
+                    Advent Security focuses on professional conduct, consistent access procedures and security responsibilities
+                    that fit the site's people, vehicles and daily activity.
                 </p>
 
             </div>
@@ -704,8 +695,8 @@ get_header();
                     </h2>
 
                     <p>
-                        Explore related security solutions that can complement your
-                        security requirements and operational environment.
+                        Gatehouse security can form part of a wider site security arrangement. Depending on your requirements,
+                        other services may support access management, site protection, monitoring and security planning.
                     </p>
 
                 </div>
@@ -716,175 +707,90 @@ get_header();
             <div class="related-services-grid">
 
                 <!-- Security Guard Services -->
-                <a
-                    href="<?php echo esc_url(
-                                home_url('/security-services/security-guard-services/')
-                            ); ?>"
+                <a href="<?php echo esc_url(home_url('/security-services/security-guard-services/')); ?>"
                     class="related-service-card">
-
                     <span class="related-service-icon">
-
                         <svg viewBox="0 0 24 24" aria-hidden="true">
                             <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" />
                             <path d="M5 21a7 7 0 0 1 14 0" />
                             <path d="M4 21h16" />
                         </svg>
-
                     </span>
-
-                    <span class="related-service-title">
-                        Security Guard<br>
-                        Services
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
+                    <span class="related-service-title">Security Guard<br>Services</span>
+                    <span class="related-service-arrow">→</span>
                 </a>
 
-
-                <!-- Corporate Concierge -->
-                <a
-                    href="<?php echo esc_url(
-                                home_url('/security-services/corporate-concierge-services/')
-                            ); ?>"
+                <!-- Access Control -->
+                <a href="<?php echo esc_url(home_url('/security-services/access-control/')); ?>"
                     class="related-service-card">
-
                     <span class="related-service-icon">
-
                         <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" />
-                            <path d="M5 21a7 7 0 0 1 14 0" />
-                            <path d="M4 21h16" />
+                            <rect x="5" y="3" width="14" height="18" rx="2" />
+                            <path d="M9 7h6" />
+                            <circle cx="10" cy="12" r="1" />
+                            <path d="M13 12h3" />
                         </svg>
-
                     </span>
-
-                    <span class="related-service-title">
-                        Corporate &amp;<br>
-                        Concierge Security
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
+                    <span class="related-service-title">Access<br>Control</span>
+                    <span class="related-service-arrow">→</span>
                 </a>
-
 
                 <!-- Security Consulting -->
-                <a
-                    href="<?php echo esc_url(
-                                home_url('/security-services/security-consulting/')
-                            ); ?>"
+                <a href="<?php echo esc_url(home_url('/security-services/security-consulting/')); ?>"
                     class="related-service-card">
-
                     <span class="related-service-icon">
-
                         <svg viewBox="0 0 24 24" aria-hidden="true">
                             <path d="M12 3 20 6v5c0 5.2-3.3 8.7-8 10-4.7-1.3-8-4.8-8-10V6l8-3Z" />
                         </svg>
-
                     </span>
-
-                    <span class="related-service-title">
-                        Security<br>
-                        Consulting
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
+                    <span class="related-service-title">Security<br>Consulting</span>
+                    <span class="related-service-arrow">→</span>
                 </a>
 
-
-                <!-- Retail Security -->
-                <a
-                    href="<?php echo esc_url(
-                                home_url('/security-services/retail-security/')
-                            ); ?>"
+                <!-- Alarm Monitoring -->
+                <a href="<?php echo esc_url(home_url('/security-services/alarm-monitoring/')); ?>"
                     class="related-service-card">
-
                     <span class="related-service-icon">
-
                         <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M5 8h14l-1 12H6L5 8Z" />
-                            <path d="M8 8V6a4 4 0 0 1 8 0v2" />
+                            <path d="M6 10a6 6 0 0112 0v5H6z" />
+                            <path d="M4 15h16" />
+                            <path d="M9 19h6" />
+                            <path d="M9 4l-1-2" />
+                            <path d="M15 4l1-2" />
                         </svg>
-
                     </span>
-
-                    <span class="related-service-title">
-                        Retail<br>
-                        Security
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
+                    <span class="related-service-title">Alarm<br>Monitoring</span>
+                    <span class="related-service-arrow">→</span>
                 </a>
-
 
                 <!-- Construction Security -->
-                <a
-                    href="<?php echo esc_url(
-                                home_url('/security-services/construction-security/')
-                            ); ?>"
+                <a href="<?php echo esc_url(home_url('/security-services/construction-security/')); ?>"
                     class="related-service-card">
-
                     <span class="related-service-icon">
-
                         <svg viewBox="0 0 24 24" aria-hidden="true">
                             <path d="M4 18h16" />
                             <path d="M6 18v-6h12v6" />
                             <path d="M8 12V9h8v3" />
                             <path d="M10 9V6h4v3" />
                         </svg>
-
                     </span>
-
-                    <span class="related-service-title">
-                        Construction<br>
-                        Security
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
+                    <span class="related-service-title">Construction<br>Security</span>
+                    <span class="related-service-arrow">→</span>
                 </a>
 
-
-                <!-- Event Security -->
-                <a
-                    href="<?php echo esc_url(
-                                home_url('/security-services/event-security/')
-                            ); ?>"
+                <!-- Corporate & Concierge Security -->
+                <a href="<?php echo esc_url(home_url('/security-services/corporate-concierge-services/')); ?>"
                     class="related-service-card">
-
                     <span class="related-service-icon">
-
                         <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <circle cx="8" cy="9" r="3" />
-                            <circle cx="16" cy="9" r="3" />
-                            <path d="M3 20a5 5 0 0 1 10 0" />
-                            <path d="M11 20a5 5 0 0 1 10 0" />
+                            <path d="M4 19h16" />
+                            <path d="M6 19V9h12v10" />
+                            <path d="M8 9V6h8v3" />
+                            <path d="M9 13h6" />
                         </svg>
-
                     </span>
-
-                    <span class="related-service-title">
-                        Event<br>
-                        Security
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
+                    <span class="related-service-title">Corporate &amp;<br>Concierge Security</span>
+                    <span class="related-service-arrow">→</span>
                 </a>
 
             </div>
@@ -906,13 +812,17 @@ get_header();
                 <div>
 
                     <span class="eyebrow">
-                        Frequently Asked Questions
+                        FREQUENTLY ASKED QUESTIONS
                     </span>
 
                     <h2>
-                        Gatehouse security
-                        <span>questions, answered.</span>
+                        Gatehouse Security FAQs
                     </h2>
+
+                    <p class="gatehouse-faq-intro">
+                        Common questions about gatehouse security, controlled site access, visitor management
+                        and security personnel at site entrances.
+                    </p>
 
                 </div>
 
@@ -922,103 +832,85 @@ get_header();
             <div class="faq-list">
 
                 <details>
-
-                    <summary>
-                        What is gatehouse security?
-                        <span>+</span>
-                    </summary>
-
+                    <summary>What is gatehouse security?<span>+</span></summary>
                     <p>
-                        Gatehouse security is the use of trained security
-                        personnel at a site's entrance or gatehouse to help
-                        manage access, monitor activity and support agreed
-                        security procedures.
+                        Gatehouse security involves security personnel stationed at a site's entrance or gatehouse
+                        to help manage access, monitor activity and support established site security procedures.
                     </p>
-
                 </details>
 
-
                 <details>
-
-                    <summary>
-                        What does a gatehouse security officer do?
-                        <span>+</span>
-                    </summary>
-
+                    <summary>What does a gatehouse security officer do?<span>+</span></summary>
                     <p>
-                        Responsibilities can include monitoring access,
-                        supporting visitor and contractor procedures,
-                        managing agreed delivery processes, maintaining
-                        awareness of site activity and following incident
-                        reporting procedures.
+                        Responsibilities can include monitoring access, supporting visitor and contractor procedures,
+                        managing agreed delivery processes, maintaining awareness of site activity and following
+                        incident reporting procedures.
                     </p>
-
                 </details>
 
-
                 <details>
-
-                    <summary>
-                        Can gatehouse security manage vehicle access?
-                        <span>+</span>
-                    </summary>
-
+                    <summary>Can gatehouse security manage vehicle access?<span>+</span></summary>
                     <p>
-                        Yes. Gatehouse personnel can support agreed procedures
-                        for vehicles entering and leaving a site, including
-                        visitors, contractors, suppliers and deliveries.
+                        Yes. Gatehouse personnel can support agreed procedures for vehicles entering and leaving a site,
+                        including visitors, contractors, suppliers and deliveries.
                     </p>
-
                 </details>
 
-
                 <details>
-
-                    <summary>
-                        Which sites can benefit from gatehouse security?
-                        <span>+</span>
-                    </summary>
-
+                    <summary>Which sites can benefit from gatehouse security?<span>+</span></summary>
                     <p>
-                        Gatehouse security can be suitable for construction
-                        sites, industrial facilities, warehouses, logistics
-                        operations and commercial premises where controlled
-                        access is important.
+                        Gatehouse security can be suitable for construction sites, industrial facilities, warehouses,
+                        logistics operations and commercial premises where controlled access is important.
                     </p>
-
                 </details>
 
-
                 <details>
-
-                    <summary>
-                        Can gatehouse security work alongside existing systems?
-                        <span>+</span>
-                    </summary>
-
+                    <summary>Can gatehouse security work alongside existing security systems?<span>+</span></summary>
                     <p>
-                        A gatehouse security presence can form part of a wider
-                        site security arrangement alongside other agreed
-                        security measures and procedures.
+                        Yes. Gatehouse personnel can work alongside compatible access control, CCTV, alarm, intercom
+                        and visitor management systems where these form part of the site's security arrangements.
                     </p>
-
                 </details>
 
+                <details>
+                    <summary>Can gatehouse security manage contractor access?<span>+</span></summary>
+                    <p>
+                        Gatehouse personnel can support contractor sign-in, access verification and other agreed
+                        procedures for contractors entering a site.
+                    </p>
+                </details>
 
                 <details>
-
-                    <summary>
-                        How do I arrange gatehouse security?
-                        <span>+</span>
-                    </summary>
-
+                    <summary>Can gatehouse security manage deliveries?<span>+</span></summary>
                     <p>
-                        Start by considering your site's entrances, operating
-                        hours, visitor and vehicle movements, access procedures
-                        and security requirements. These details can help
-                        establish the appropriate gatehouse security arrangement.
+                        Yes. Where this is part of the agreed service, personnel can support delivery procedures,
+                        verify relevant information and direct drivers according to site requirements.
                     </p>
+                </details>
 
+                <details>
+                    <summary>Can gatehouse security operate outside normal business hours?<span>+</span></summary>
+                    <p>
+                        Yes. Gatehouse security can be arranged around the operating requirements of a site, including
+                        periods when normal site activity is reduced or the premises are closed.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Can gatehouse security include visitor management?<span>+</span></summary>
+                    <p>
+                        Yes. Visitor management can include sign-in procedures, verification of visitor details,
+                        communication with site contacts and directing authorised visitors to the appropriate area.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>How much does gatehouse security cost in Australia?<span>+</span></summary>
+                    <p>
+                        The cost depends on factors such as operating hours, number of entrances, site activity,
+                        staffing requirements, access procedures and the responsibilities included in the service.
+                        Advent can assess the site requirements and provide a service proposal based on the agreed scope.
+                    </p>
                 </details>
 
             </div>
@@ -1044,9 +936,14 @@ get_header();
                     </span>
 
                     <h2>
-                        Put security at the
-                        <span>first point of access.</span>
+                        Plan Security Around Your Site Entrance
                     </h2>
+
+                    <p>
+                        Tell us about your site, entrances, operating hours, vehicle movements, visitor requirements
+                        and current access procedures. Advent Security can help define the appropriate gatehouse
+                        security arrangement for your operation.
+                    </p>
 
                 </div>
 
@@ -1054,7 +951,7 @@ get_header();
                 <a
                     href="<?php echo esc_url(home_url('/contact/')); ?>"
                     class="advent-btn advent-btn-dark">
-                    Discuss Your Site
+                    Discuss Your Gatehouse Security Requirements
                     <span class="btn-arrow">→</span>
                 </a>
 

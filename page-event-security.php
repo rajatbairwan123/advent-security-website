@@ -25,19 +25,17 @@ get_header();
 
                         <div class="hero-inner">
 
-                            <span class="eyebrow">Event Security</span>
+                            <span class="eyebrow">EVENT SECURITY</span>
 
                             <h1>
-                                Secure events.
-                                <span>Confident crowds.</span>
-                                Better experiences.
+                                Event Security Services for
+                                <span>Corporate, Private &amp; Public Events</span>
                             </h1>
 
                             <p>
-                                From private functions and corporate events to
-                                public gatherings and large venues, Advent Security
-                                provides professional event security designed around
-                                your guests, staff, venue and operational requirements.
+                                Professional event security for corporate functions, private events, live events,
+                                exhibitions, sports events and public gatherings, with security arrangements planned
+                                around your venue, audience and event requirements.
                             </p>
 
                             <div class="event-hero-actions">
@@ -45,7 +43,7 @@ get_header();
                                 <a href="<?php echo esc_url(home_url('/contact/')); ?>"
                                     class="advent-btn">
 
-                                    Plan Your Event Security
+                                    Discuss Your Event Security Requirements
 
                                     <span class="btn-arrow">→</span>
 
@@ -174,10 +172,8 @@ get_header();
                 <div class="col-lg-5 offset-lg-7">
 
                     <p>
-                        Events can change quickly. Large numbers of people,
-                        busy entrances, restricted areas, valuable equipment
-                        and changing crowd behaviour all need to be considered
-                        as part of the security plan.
+                        Events can change quickly. Large numbers of people, busy entrances, restricted areas, valuable equipment
+                        and changing crowd behaviour all need to be considered when planning event security.
                     </p>
 
                 </div>
@@ -232,8 +228,7 @@ get_header();
                     <h3>Access</h3>
 
                     <p>
-                        Entrances, exits, backstage areas, staff zones and
-                        restricted spaces may require different levels of control.
+                        Entrances, exits, backstage areas, staff zones and restricted spaces may require different levels of access control.
                     </p>
 
                 </article>
@@ -246,8 +241,7 @@ get_header();
                     <h3>Environment</h3>
 
                     <p>
-                        Venue layout, event timings, crowd movement and
-                        operational activity can all influence security needs.
+                        Venue layout, event timings, crowd movement and operational activity can all influence security requirements.
                     </p>
 
                 </article>
@@ -260,8 +254,7 @@ get_header();
                     <h3>Response</h3>
 
                     <p>
-                        When an incident occurs, clear procedures and a
-                        professional security presence can help maintain control.
+                        When an incident occurs, clear procedures and a professional security presence can support an appropriate response.
                     </p>
 
                 </article>
@@ -296,9 +289,8 @@ get_header();
                 <div class="col-lg-5">
 
                     <p>
-                        Advent can provide event security arrangements around
-                        the specific requirements of your venue, audience and
-                        event schedule.
+                        Advent can provide event security personnel and related services around the requirements of your venue,
+                        audience, event schedule and agreed responsibilities.
                     </p>
 
                 </div>
@@ -318,9 +310,8 @@ get_header();
 
                     <div class="event-service-description">
                         <p>
-                            Professional security personnel provide a visible
-                            presence throughout your event while supporting
-                            agreed security procedures.
+                            Professional security personnel provide a visible presence throughout your event while carrying out agreed
+                            security duties and procedures.
                         </p>
                     </div>
 
@@ -339,8 +330,7 @@ get_header();
 
                     <div class="event-service-description">
                         <p>
-                            Help manage entrances, controlled areas and
-                            authorised access in line with event requirements.
+                            Help manage entrances, exits, controlled areas and authorised access in line with the requirements of the event.
                         </p>
                     </div>
 
@@ -359,9 +349,8 @@ get_header();
 
                     <div class="event-service-description">
                         <p>
-                            A trained security presence can help support orderly
-                            movement and respond professionally when crowd
-                            conditions change.
+                            A trained security presence can help support orderly movement, identify emerging issues and respond professionally
+                            when crowd conditions change.
                         </p>
                     </div>
 
@@ -480,9 +469,7 @@ get_header();
                                 <h3>Preparation</h3>
 
                                 <p>
-                                    Understand the venue, event schedule,
-                                    access arrangements and agreed security
-                                    responsibilities.
+                                    Understand the venue, event schedule, access arrangements, expected activity and agreed security responsibilities.
                                 </p>
                             </div>
 
@@ -521,8 +508,7 @@ get_header();
                                 <h3>Event In Progress</h3>
 
                                 <p>
-                                    Maintain an attentive security presence
-                                    throughout the event and respond to issues
+                                    Maintain an attentive security presence throughout the event, monitor relevant areas and respond to issues
                                     according to agreed procedures.
                                 </p>
                             </div>
@@ -574,13 +560,12 @@ get_header();
 
                 <h2>
                     Security for
-                    <span>different occasions.</span>
+                    <span>different types of events.</span>
                 </h2>
 
                 <p>
-                    Event security requirements depend on the venue, audience,
-                    schedule and nature of the event. Advent can work around
-                    different event environments and operating requirements.
+                    Event security requirements depend on the venue, audience, schedule, attendance and nature of the event.
+                    Advent can structure security arrangements around those differences.
                 </p>
 
             </div>
@@ -717,10 +702,8 @@ get_header();
                         </h2>
 
                         <p>
-                            Guests should be able to enjoy an event without
-                            feeling that security is getting in the way.
-                            Advent's approach combines visibility, professionalism
-                            and clear procedures around the needs of the event.
+                            Security should be visible when it needs to be and unobtrusive when it doesn't. Advent's approach combines
+                            professional personnel, clear responsibilities and appropriate procedures around the needs of the event.
                         </p>
 
                         <ul class="check-list">
@@ -764,7 +747,7 @@ get_header();
                     <span class="eyebrow">Why Advent Security</span>
 
                     <h2>
-                        Security planned around
+                        A clear security approach for
                         <span>your event.</span>
                     </h2>
 
@@ -773,8 +756,8 @@ get_header();
                 <div class="col-lg-5">
 
                     <p>
-                        Every event has its own audience, venue and operating
-                        requirements. Security should be planned accordingly.
+                        Every event has its own audience, venue and operating requirements. Security planning should reflect those factors
+                        and clearly define what personnel are responsible for before the event begins.
                     </p>
 
                 </div>
@@ -791,8 +774,7 @@ get_header();
                     <h3>Understand</h3>
 
                     <p>
-                        We consider the venue, event schedule, audience,
-                        access points and security requirements.
+                        Consider the venue, event schedule, audience, access points and security requirements.
                     </p>
 
                 </article>
@@ -805,8 +787,7 @@ get_header();
                     <h3>Prepare</h3>
 
                     <p>
-                        Security arrangements are organised around the agreed
-                        responsibilities and operational needs of the event.
+                        Organise personnel, coverage and procedures around the agreed responsibilities and operational needs of the event.
                     </p>
 
                 </article>
@@ -819,8 +800,7 @@ get_header();
                     <h3>Support</h3>
 
                     <p>
-                        Security personnel provide a professional presence
-                        throughout the agreed event coverage.
+                        Security personnel provide a professional presence throughout the agreed event coverage.
                     </p>
 
                 </article>
@@ -833,8 +813,7 @@ get_header();
                     <h3>Respond</h3>
 
                     <p>
-                        When incidents occur, personnel follow agreed
-                        procedures and escalation arrangements.
+                        When incidents occur, personnel follow agreed procedures and escalation arrangements.
                     </p>
 
                 </article>
@@ -864,8 +843,8 @@ get_header();
                     </h2>
 
                     <p>
-                        Explore related security solutions that can complement
-                        your security requirements and operational environment.
+                        Event security can form part of a wider security strategy. Explore related Advent services that may support
+                        your venue, people and operational requirements.
                     </p>
 
                 </div>
@@ -1017,13 +996,16 @@ get_header();
                 <div>
 
                     <span class="eyebrow">
-                        Frequently Asked Questions
+                        FREQUENTLY ASKED QUESTIONS
                     </span>
 
                     <h2>
-                        Event security questions,
-                        <span>answered.</span>
+                        Event Security FAQs
                     </h2>
+
+                    <p class="faq-intro">
+                        Answers to common questions about event security, crowd management, access control and security personnel.
+                    </p>
 
                 </div>
 
@@ -1062,9 +1044,8 @@ get_header();
 
                     <p>
                         Events can bring large numbers of people together in
-                        busy environments. Security can help manage access,
-                        deter unwanted behaviour, support guests and respond
-                        professionally when incidents occur.
+                        busy environments. Security can help manage access, support guests and staff, deter unwanted behaviour and provide a professional
+                        response when incidents occur.
                     </p>
 
                 </details>
@@ -1127,11 +1108,69 @@ get_header();
                     </summary>
 
                     <p>
-                        Consider the venue, expected attendance, event type,
-                        access arrangements, restricted areas, operating hours
-                        and the security risks relevant to the event. These
-                        factors can help determine the appropriate security
-                        arrangement.
+                        Consider the venue, expected attendance, event type, access arrangements, restricted areas, operating hours
+                        and security risks relevant to the event. These factors can help determine the appropriate
+                        security arrangement.
+                    </p>
+
+                </details>
+
+                <details>
+
+                    <summary>
+                        Can event security help with crowd management?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Yes. Security personnel can support orderly crowd movement, monitor areas of concern and respond
+                        professionally when crowd conditions change, based on the agreed event plan.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Can security guards manage backstage and restricted areas?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Yes. Where required, security personnel can monitor or control access to backstage areas, staff zones,
+                        equipment areas and other restricted spaces.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Can event security operate during setup and pack-down?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Yes. Security coverage can be structured around the wider event schedule, including setup, guest arrival,
+                        the event itself, departure and pack-down where required.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        How much does event security cost in Australia?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Event security costs depend on factors such as event type, venue, attendance, operating hours, number of
+                        personnel, duties and required coverage. An assessment of the event requirements can help establish the
+                        appropriate scope before a quotation is prepared.
                     </p>
 
                 </details>
@@ -1161,13 +1200,18 @@ get_header();
                         <span>Focus on the event.</span>
                     </h2>
 
+                    <p>
+                        Tell us about your event, venue, expected attendance, schedule and security requirements.
+                        Advent can help define the appropriate personnel, responsibilities and coverage.
+                    </p>
+
                 </div>
 
 
                 <a href="<?php echo esc_url(home_url('/contact/')); ?>"
                     class="advent-btn advent-btn-dark">
 
-                    Discuss Your Event
+                    Discuss Your Event Security Requirements
 
                     <span class="btn-arrow">→</span>
 

@@ -515,11 +515,23 @@
 
     background: var(--color-bg);
 }
+.construction-process h2 {
+    margin: 0;
+    color: var(--color-text);
+    font-size: clamp(43px, 4vw, 58px);
+    font-weight: 600;
+    line-height: 0.97;
+    letter-spacing: -2px;
+}
+
+.construction-process h2 span {
+    color: var(--color-primary);
+}
 
 .construction-process .col-lg-5 > p {
     max-width: 500px;
 
-    margin: 30px 0 0;
+    margin: 30px 0 18px;
 
     color: var(--color-text-muted);
 
@@ -862,9 +874,9 @@
     }
 
     .construction-cta h2 {
-        margin-bottom: 30px;
+        margin-bottom: 16px;
 
-        font-size: 34px;
+        font-size: 32px;
     }
 
     .construction-cta .advent-btn {
@@ -896,5 +908,34 @@
     .construction-process,
     .construction-faq {
         padding: 70px 0;
+    }
+}
+
+/* =========================================================
+   CONTENT REFINEMENT SUPPORT
+   Longer SEO/AEO CTA text from the approved page copy.
+========================================================= */
+
+.construction-hero-actions .advent-btn,
+.construction-cta .advent-btn {
+    text-align: left;
+}
+
+.construction-cta .cta-inner > div {
+    max-width: 850px;
+}
+
+.construction-cta .cta-inner > div > p {
+    max-width: 700px;
+    margin: 22px 0 18px;
+    color: #000000;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+@media (max-width: 767.98px) {
+    .construction-hero-actions .advent-btn,
+    .construction-cta .advent-btn {
+        white-space: normal;
     }
 }

@@ -19,25 +19,28 @@ get_header();
                     <span class="eyebrow">LOSS PREVENTION</span>
 
                     <h1>
-                        Protect What
-                        <span>Matters Most.</span>
+                        Loss Prevention Security Services for Australian
+                        <span>Businesses</span>
                     </h1>
 
                     <p>
-                        Proactive loss prevention strategies designed to reduce
-                        theft, deter unwanted activity, and protect your people,
-                        property, inventory, and revenue.
+                        Proactive loss prevention services designed to help businesses
+                        reduce theft, unauthorised activity, inventory loss and security
+                        risks across retail, commercial, warehouse, distribution and other
+                        operating environments.
+                    </p>
+
+                    <p class="loss-hero-supporting-line">
+                        Advent Security combines professional security personnel,
+                        observation, access awareness and defined procedures around the
+                        way your business operates.
                     </p>
 
                     <div class="loss-hero-actions">
                         <a href="<?php echo esc_url(home_url('/contact/')); ?>"
                             class="advent-btn advent-btn-primary">
-                            Request a Security Assessment
-                        </a>
-
-                        <a href="#loss-prevention-overview"
-                            class="advent-btn advent-btn-outline">
-                            Explore Loss Prevention
+                            Request a Loss Prevention Assessment
+                            <i class="btn-arrow">→</i>
                         </a>
                     </div>
                 </div>
@@ -48,7 +51,7 @@ get_header();
                         alt="Loss prevention security professional monitoring a commercial property">
 
                     <div class="loss-hero-tag">
-                        <strong>PROACTIVE SECURITY</strong>
+                        <strong>PROTECT WHAT MATTERS MOST.</strong>
                         <span>Prevent. Detect. Respond.</span>
                     </div>
                 </div>
@@ -126,19 +129,17 @@ get_header();
 
                 <div class="loss-overview-content">
                     <p class="loss-lead">
-                        Effective loss prevention is about more than responding
-                        to incidents. It combines trained security personnel,
-                        observation, deterrence, access awareness, and clearly
-                        defined response procedures to identify risks before
-                        they become costly problems.
+                        Effective loss prevention is about more than responding after
+                        an incident. It involves understanding where losses can occur,
+                        identifying vulnerabilities and putting practical controls in
+                        place to reduce opportunities for theft, unauthorised activity
+                        and preventable loss.
                     </p>
 
                     <p>
-                        Advent Security works with businesses to understand
-                        their operating environment, identify vulnerabilities,
-                        and develop practical security measures around the
-                        people, assets, inventory, and facilities that matter
-                        most.
+                        Advent Security works with businesses to understand their
+                        operating environment, identify relevant risks and establish
+                        security measures around people, assets, inventory and facilities.
                     </p>
 
                     <div class="loss-overview-points">
@@ -148,9 +149,8 @@ get_header();
                             <div>
                                 <h3>Identify Risk</h3>
                                 <p>
-                                    Understand where theft, unauthorized
-                                    activity, and operational vulnerabilities
-                                    can occur.
+                                    Understand where theft, unauthorised
+                                    activity and operational vulnerabilities may occur.
                                 </p>
                             </div>
                         </div>
@@ -160,8 +160,8 @@ get_header();
                             <div>
                                 <h3>Deter Activity</h3>
                                 <p>
-                                    Establish a visible security presence that
-                                    discourages unwanted behavior.
+                                    Establish a professional security presence and
+                                    practical procedures that can discourage unwanted activity.
                                 </p>
                             </div>
                         </div>
@@ -171,8 +171,8 @@ get_header();
                             <div>
                                 <h3>Respond Effectively</h3>
                                 <p>
-                                    Follow defined procedures when suspicious
-                                    or unauthorized activity is identified.
+                                    Follow defined procedures when suspicious or
+                                    unauthorised activity is identified and escalate matters where required.
                                 </p>
                             </div>
                         </div>
@@ -203,9 +203,10 @@ get_header();
                 </div>
 
                 <p>
-                    Every environment has different vulnerabilities. Our loss
-                    prevention approach focuses on the risks that have the
-                    greatest impact on your operations.
+                    Different businesses face different sources of loss. Effective
+                    loss prevention starts by understanding the activities, assets
+                    and access points that create the greatest exposure for the
+                    organisation.
                 </p>
             </div>
 
@@ -222,9 +223,9 @@ get_header();
                     <h3>Retail Theft</h3>
 
                     <p>
-                        Reduce opportunities for shoplifting, inventory loss,
-                        and unauthorized product removal through visible
-                        deterrence and trained observation.
+                        Help reduce opportunities for shoplifting, inventory loss and
+                        unauthorised product removal through visible deterrence,
+                        observation and established procedures.
                     </p>
                 </article>
 
@@ -239,8 +240,8 @@ get_header();
                     <h3>Inventory Loss</h3>
 
                     <p>
-                        Protect merchandise, equipment, materials, and other
-                        valuable assets throughout your operational environment.
+                        Help protect merchandise, equipment, materials and other valuable
+                        assets across the operational environment.
                     </p>
                 </article>
 
@@ -255,8 +256,8 @@ get_header();
                     <h3>Unauthorized Activity</h3>
 
                     <p>
-                        Identify suspicious behavior and help prevent
-                        unauthorized access to restricted areas and assets.
+                        Identify activity that may not follow established access or security
+                        procedures and escalate concerns appropriately.
                     </p>
                 </article>
 
@@ -271,8 +272,8 @@ get_header();
                     <h3>Operational Gaps</h3>
 
                     <p>
-                        Security personnel can help identify vulnerabilities in
-                        routines, access procedures, and day-to-day operations.
+                        Security observations can help identify vulnerabilities in routines,
+                        access procedures and day-to-day operations.
                     </p>
                 </article>
 
@@ -326,9 +327,9 @@ get_header();
                             <div>
                                 <h3>Visible Deterrence</h3>
                                 <p>
-                                    A professional security presence can help
-                                    discourage theft and unauthorized activity
-                                    before it occurs.
+                                    A professional security presence can help discourage theft and
+                                    unauthorised activity and reinforce established site
+                                    security procedures.
                                 </p>
                             </div>
                         </div>
@@ -342,9 +343,8 @@ get_header();
                             <div>
                                 <h3>Active Observation</h3>
                                 <p>
-                                    Trained personnel remain attentive to
-                                    unusual behavior, access concerns, and
-                                    potential security incidents.
+                                    Trained personnel remain attentive to activity, access concerns and
+                                    situations that may require further attention.
                                 </p>
                             </div>
                         </div>
@@ -358,8 +358,8 @@ get_header();
                             <div>
                                 <h3>Incident Response</h3>
                                 <p>
-                                    Clearly defined procedures help security
-                                    teams respond appropriately when an issue
+                                    Clearly defined procedures help security personnel respond
+                                    appropriately when an incident or security concern
                                     is identified.
                                 </p>
                             </div>
@@ -374,9 +374,9 @@ get_header();
                             <div>
                                 <h3>Detailed Reporting</h3>
                                 <p>
-                                    Documented observations and incidents give
-                                    businesses greater visibility into security
-                                    activity and recurring risks.
+                                    Documented observations and incident reports can provide
+                                    businesses with greater visibility into security
+                                    activity and recurring issues.
                                 </p>
                             </div>
                         </div>
@@ -402,15 +402,16 @@ get_header();
                     <span class="eyebrow">OUR APPROACH</span>
 
                     <h2>
-                        A Loss Prevention Strategy
-                        <span>Built Around You.</span>
+                        A Loss Prevention Strategy Built Around Your
+                        <span>Business</span>
                     </h2>
                 </div>
 
                 <p>
-                    Security should fit the way your business operates. We
-                    build our approach around your environment, risk profile,
-                    operating hours, and security objectives.
+                    Loss prevention should reflect the way your business operates.
+                    Advent can structure its approach around your environment, risk
+                    profile, operating hours, assets, access arrangements and
+                    security objectives.
                 </p>
             </div>
 
@@ -445,8 +446,8 @@ get_header();
                         <h3>Plan</h3>
 
                         <p>
-                            Develop practical security procedures aligned with your
-                            specific loss prevention requirements.
+                            Develop practical security procedures aligned with your identified
+                            loss prevention requirements.
                         </p>
                     </div>
 
@@ -464,7 +465,7 @@ get_header();
 
                         <p>
                             Deploy trained security professionals to provide visibility,
-                            deterrence, and active monitoring.
+                            deterrence and active monitoring where required.
                         </p>
                     </div>
 
@@ -481,8 +482,8 @@ get_header();
                         <h3>Improve</h3>
 
                         <p>
-                            Use observations and reporting to identify recurring issues
-                            and strengthen your security strategy.
+                            Use observations and reporting to identify recurring issues and inform
+                            future security improvements.
                         </p>
                     </div>
 
@@ -502,7 +503,7 @@ get_header();
 
             <div class="loss-section-header">
                 <div>
-                    <span class="eyebrow">INDUSTRIES WE PROTECT</span>
+                    <span class="eyebrow">INDUSTRIES WE SUPPORT</span>
 
                     <h2>
                         Loss Prevention Across
@@ -511,9 +512,9 @@ get_header();
                 </div>
 
                 <p>
-                    Our security solutions can be adapted to the unique risks
-                    and operating requirements of different commercial
-                    environments.
+                    Loss prevention requirements vary depending on the type of business,
+                    the assets being protected, how people and vehicles move through
+                    the site and the organisation's operating procedures.
                 </p>
             </div>
 
@@ -528,8 +529,8 @@ get_header();
                     <h3>Retail</h3>
 
                     <p>
-                        Support customers, employees, merchandise, and
-                        inventory with a visible loss prevention presence.
+                        Support customers, employees, merchandise and inventory with a
+                        visible loss prevention presence.
                     </p>
                 </article>
 
@@ -542,8 +543,8 @@ get_header();
                     <h3>Commercial Properties</h3>
 
                     <p>
-                        Help protect offices, facilities, common areas, and
-                        valuable business assets.
+                        Help monitor offices, facilities, common areas and valuable business
+                        assets.
                     </p>
                 </article>
 
@@ -556,8 +557,8 @@ get_header();
                     <h3>Warehousing</h3>
 
                     <p>
-                        Improve security visibility around inventory,
-                        deliveries, access points, and operational areas.
+                        Support security around inventory, deliveries, access points and
+                        operational areas.
                     </p>
                 </article>
 
@@ -570,8 +571,8 @@ get_header();
                     <h3>Distribution</h3>
 
                     <p>
-                        Help safeguard goods and facilities throughout
-                        distribution and logistics environments.
+                        Help maintain security awareness around goods, vehicle movements
+                        and distribution facilities.
                     </p>
                 </article>
 
@@ -584,8 +585,8 @@ get_header();
                     <h3>Construction</h3>
 
                     <p>
-                        Protect equipment, materials, restricted areas, and
-                        active construction sites from preventable losses.
+                        Help protect equipment, materials, restricted areas and active
+                        construction sites from theft and unauthorised access.
                     </p>
                 </article>
 
@@ -598,8 +599,8 @@ get_header();
                     <h3>Healthcare</h3>
 
                     <p>
-                        Support secure facilities while helping protect people,
-                        property, and sensitive operational areas.
+                        Support secure healthcare environments while helping protect people,
+                        property and sensitive operational areas.
                     </p>
                 </article>
 
@@ -621,13 +622,14 @@ get_header();
                     <span class="eyebrow">WHY ADVENT</span>
 
                     <h2>
-                        More Than Security.
-                        <span>A Prevention Mindset.</span>
+                        Loss Prevention Backed by
+                        <span>Security Experience</span>
                     </h2>
                     <p class="loss-lead">
-                        Loss prevention works best when security becomes part
-                        of the way an organization protects its people,
-                        property, and daily operations.
+                        Loss prevention works best when security responsibilities are
+                        connected to the way an organisation operates. Advent's
+                        approach combines professional personnel, clear procedures,
+                        observation and reporting around the requirements of the site.
                     </p>
                 </div>
 
@@ -639,39 +641,112 @@ get_header();
                         <div class="loss-why-point">
                             <strong>Experienced Professionals</strong>
                             <p>
-                                Security personnel trained to remain
-                                professional, observant, and responsive.
+                                Security personnel trained to remain professional, observant and
+                                responsive within their agreed responsibilities.
                             </p>
                         </div>
 
                         <div class="loss-why-point">
                             <strong>Business-Focused Security</strong>
                             <p>
-                                Security procedures designed around your
-                                environment and operational requirements.
+                                Security procedures planned around the environment, operating
+                                requirements and identified risks.
                             </p>
                         </div>
 
                         <div class="loss-why-point">
                             <strong>Consistent Visibility</strong>
                             <p>
-                                A dependable security presence that helps
-                                reinforce deterrence and awareness.
+                                A dependable security presence that can reinforce deterrence and
+                                awareness across relevant areas.
                             </p>
                         </div>
 
                         <div class="loss-why-point">
                             <strong>Clear Communication</strong>
                             <p>
-                                Structured reporting and communication help
-                                stakeholders stay informed about security
-                                activity.
+                                Structured reporting and communication help stakeholders understand
+                                security activity and identified concerns.
                             </p>
                         </div>
 
                     </div>
 
                 </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- =========================================================
+         TECHNOLOGY / INTEGRATION
+    ========================================================== -->
+    <section class="loss-technology">
+        <div class="container">
+
+            <div class="loss-section-header">
+                <div>
+                    <span class="eyebrow">SECURITY TECHNOLOGY</span>
+
+                    <h2>
+                        Loss Prevention Can Work Alongside
+                        <span>Security Technology.</span>
+                    </h2>
+                </div>
+
+                <p>
+                    Security personnel can form part of a wider loss prevention
+                    arrangement alongside compatible CCTV, access control, alarm
+                    and monitoring systems. These technologies can provide
+                    additional visibility and information for security personnel
+                    and site teams, depending on the environment and system
+                    configuration.
+                </p>
+            </div>
+
+            <div class="loss-technology-grid">
+
+                <article class="loss-technology-card">
+                    <div class="loss-technology-icon">
+                        <i class="bi bi-camera-video"></i>
+                    </div>
+                    <h3>CCTV</h3>
+                    <p>
+                        Monitor relevant areas and review recorded activity where required.
+                    </p>
+                </article>
+
+                <article class="loss-technology-card">
+                    <div class="loss-technology-icon">
+                        <i class="bi bi-lock"></i>
+                    </div>
+                    <h3>Access Control</h3>
+                    <p>
+                        Manage authorised access to restricted areas.
+                    </p>
+                </article>
+
+                <article class="loss-technology-card">
+                    <div class="loss-technology-icon">
+                        <i class="bi bi-bell"></i>
+                    </div>
+                    <h3>Alarm Systems</h3>
+                    <p>
+                        Detect selected security events and support agreed response arrangements.
+                    </p>
+                </article>
+
+                <article class="loss-technology-card">
+                    <div class="loss-technology-icon">
+                        <i class="bi bi-display"></i>
+                    </div>
+                    <h3>Monitoring</h3>
+                    <p>
+                        Provide ongoing oversight where monitoring services form part of the security arrangement.
+                    </p>
+                </article>
 
             </div>
 
@@ -686,16 +761,17 @@ get_header();
         <div class="container">
 
             <div class="related-services-header">
-                <span class="eyebrow">RELATED SERVICES</span>
+                <span class="eyebrow">RELATED SECURITY SERVICES</span>
 
                 <h2>
-                    Complete Your
+                    Build Loss Prevention Into a Wider
                     <span>Security Strategy.</span>
                 </h2>
 
                 <p>
-                    Combine loss prevention with complementary security
-                    services to create broader protection for your business.
+                    Loss prevention can form part of a broader security arrangement.
+                    Depending on your environment, other security services may support
+                    personnel, access management, monitoring and risk assessment.
                 </p>
             </div>
 
@@ -704,109 +780,85 @@ get_header();
 
                 <a href="<?php echo esc_url(home_url('/security-services/security-guard-services/')); ?>"
                     class="related-service-card">
-
                     <div class="related-service-icon">
                         <i class="bi bi-shield-shaded"></i>
                     </div>
-
                     <h3 class="related-service-title">
                         Security Guard Services
                     </h3>
-
                     <span class="related-service-arrow">
                         <i class="btn-arrow">→</i>
                     </span>
-
-                </a>
-
-
-                <a href="<?php echo esc_url(home_url('/security-services/corporate-concierge-services/')); ?>"
-                    class="related-service-card">
-
-                    <div class="related-service-icon">
-                        <i class="bi bi-person-badge"></i>
-                    </div>
-
-                    <h3 class="related-service-title">
-                        Corporate &amp; Concierge Security
-                    </h3>
-
-                    <span class="related-service-arrow">
-                        <i class="btn-arrow">→</i>
-                    </span>
-
-                </a>
-
-
-                <a href="<?php echo esc_url(home_url('/security-services/security-consulting/')); ?>"
-                    class="related-service-card">
-
-                    <div class="related-service-icon">
-                        <i class="bi bi-clipboard2-pulse"></i>
-                    </div>
-
-                    <h3 class="related-service-title">
-                        Security Consulting
-                    </h3>
-
-                    <span class="related-service-arrow">
-                        <i class="btn-arrow">→</i>
-                    </span>
-
                 </a>
 
 
                 <a href="<?php echo esc_url(home_url('/security-services/retail-security/')); ?>"
                     class="related-service-card">
-
                     <div class="related-service-icon">
                         <i class="bi bi-shop-window"></i>
                     </div>
-
                     <h3 class="related-service-title">
                         Retail Security
                     </h3>
-
                     <span class="related-service-arrow">
                         <i class="btn-arrow">→</i>
                     </span>
-
                 </a>
 
 
-                <a href="<?php echo esc_url(home_url('/security-services/construction-security/')); ?>"
+                <a href="<?php echo esc_url(home_url('/security-services/security-consulting/')); ?>"
                     class="related-service-card">
-
                     <div class="related-service-icon">
-                        <i class="bi bi-cone-striped"></i>
+                        <i class="bi bi-clipboard2-pulse"></i>
                     </div>
-
                     <h3 class="related-service-title">
-                        Construction Security
+                        Security Consulting
                     </h3>
-
                     <span class="related-service-arrow">
                         <i class="btn-arrow">→</i>
                     </span>
-
                 </a>
 
 
-                <a href="<?php echo esc_url(home_url('/security-services/event-security/')); ?>"
+                <a href="<?php echo esc_url(home_url('/security-services/access-control/')); ?>"
                     class="related-service-card">
-
                     <div class="related-service-icon">
-                        <i class="bi bi-calendar-event"></i>
+                        <i class="bi bi-lock"></i>
                     </div>
-
                     <h3 class="related-service-title">
-                        Event Security
+                        Access Control
                     </h3>
-
                     <span class="related-service-arrow">
                         <i class="btn-arrow">→</i>
                     </span>
+                </a>
 
+
+                <a href="<?php echo esc_url(home_url('/security-services/alarm-monitoring/')); ?>"
+                    class="related-service-card">
+                    <div class="related-service-icon">
+                        <i class="bi bi-bell"></i>
+                    </div>
+                    <h3 class="related-service-title">
+                        Alarm Monitoring
+                    </h3>
+                    <span class="related-service-arrow">
+                        <i class="btn-arrow">→</i>
+                    </span>
+                </a>
+
+
+                <a href="<?php echo esc_url(home_url('/security-services/electronic-security-systems/')); ?>"
+                    class="related-service-card">
+                    <div class="related-service-icon">
+                        <i class="bi bi-camera-video"></i>
+                    </div>
+                    <h3 class="related-service-title">
+                        CCTV / Electronic Security
+                    </h3>
+                    <span class="related-service-arrow">
+                        <i class="btn-arrow">→</i>
+                    </span>
                 </a>
 
             </div>
@@ -816,9 +868,8 @@ get_header();
 
 
     <!-- =========================================================
-     FAQ
-========================================================== -->
-
+         FAQ
+    ========================================================== -->
     <section class="faq-section loss-faq">
 
         <div class="container">
@@ -826,113 +877,150 @@ get_header();
             <div class="faq-header">
 
                 <div>
-
                     <span class="eyebrow">
                         Frequently Asked Questions
                     </span>
 
                     <h2>
                         Loss Prevention
-                        <span>Questions Answered.</span>
+                        <span>FAQs</span>
                     </h2>
 
+                    <p class="loss-faq-intro">
+                        Answers to common questions about loss prevention security,
+                        theft deterrence, inventory protection, security personnel
+                        and loss prevention planning.
+                    </p>
                 </div>
-
-
 
             </div>
 
 
             <div class="faq-list">
 
-                <!-- FAQ 01 -->
                 <details>
-
                     <summary>
                         What is loss prevention security?
                         <span>+</span>
                     </summary>
-
                     <p>
                         Loss prevention security focuses on reducing theft,
-                        unauthorized activity, inventory loss, and other
-                        preventable risks through deterrence, observation,
-                        security procedures, and appropriate response.
+                        unauthorised activity, inventory loss and other preventable
+                        security risks through deterrence, observation, established
+                        procedures and appropriate response.
                     </p>
-
                 </details>
 
-
-                <!-- FAQ 02 -->
                 <details>
-
                     <summary>
                         How can security guards help with loss prevention?
                         <span>+</span>
                     </summary>
-
                     <p>
-                        Security guards provide a visible deterrent while
-                        monitoring people, property, access points, and
-                        activity. They can also follow established procedures
-                        when suspicious activity or incidents occur.
+                        Security personnel can provide a visible deterrent while
+                        monitoring people, property, access points and activity.
+                        They can also follow established procedures when suspicious
+                        activity or an incident is identified.
                     </p>
-
                 </details>
 
-
-                <!-- FAQ 03 -->
                 <details>
-
                     <summary>
                         Which businesses can benefit from loss prevention?
                         <span>+</span>
                     </summary>
-
                     <p>
-                        Retail stores, commercial properties, warehouses,
-                        distribution facilities, construction sites,
-                        healthcare environments, and other organizations
-                        with valuable assets can benefit from a structured
-                        loss prevention strategy.
+                        Retail stores, commercial properties, warehouses, distribution
+                        facilities, construction sites, healthcare environments and
+                        other organisations with valuable assets may benefit from a
+                        structured loss prevention approach.
                     </p>
-
                 </details>
 
-
-                <!-- FAQ 04 -->
                 <details>
-
                     <summary>
                         Can loss prevention services work with existing security systems?
                         <span>+</span>
                     </summary>
-
                     <p>
-                        Yes. Loss prevention personnel can operate alongside
-                        existing security procedures and technologies. The
-                        specific approach depends on the property's layout,
-                        operating environment, and security requirements.
+                        Yes. Loss prevention personnel can operate alongside compatible
+                        CCTV, access control, alarm and monitoring systems where these
+                        form part of the site's security arrangements.
                     </p>
-
                 </details>
 
-
-                <!-- FAQ 05 -->
                 <details>
-
                     <summary>
-                        Can Advent create a customized loss prevention plan?
+                        Can Advent create a loss prevention plan?
                         <span>+</span>
                     </summary>
-
                     <p>
-                        Yes. Security requirements vary between businesses.
-                        Advent can assess the environment and develop a
-                        security approach based on the organization's
-                        operational needs and identified risks.
+                        Advent can assess the security requirements of a business and
+                        develop an approach based on its operating environment,
+                        identified risks and security objectives.
                     </p>
+                </details>
 
+                <details>
+                    <summary>
+                        Can loss prevention help reduce retail theft?
+                        <span>+</span>
+                    </summary>
+                    <p>
+                        Loss prevention measures can help reduce opportunities for
+                        theft through visible security, observation, access awareness,
+                        established procedures and appropriate incident response.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        Can loss prevention cover warehouses and distribution centres?
+                        <span>+</span>
+                    </summary>
+                    <p>
+                        Yes. Loss prevention arrangements can support warehouse and
+                        distribution environments by considering inventory, vehicle
+                        movements, deliveries, access points, restricted areas and
+                        site procedures.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        Can security guards monitor CCTV for loss prevention?
+                        <span>+</span>
+                    </summary>
+                    <p>
+                        Where CCTV monitoring forms part of the agreed service and the
+                        system supports it, security personnel can monitor relevant
+                        areas and respond according to established procedures.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        Can loss prevention services operate outside normal business hours?
+                        <span>+</span>
+                    </summary>
+                    <p>
+                        Yes. Security arrangements can be structured around the
+                        operating hours and security requirements of the site,
+                        including periods when normal business activity is reduced.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        How much does loss prevention security cost in Australia?
+                        <span>+</span>
+                    </summary>
+                    <p>
+                        The cost depends on factors such as site size, operating hours,
+                        staffing requirements, number of access points, security
+                        responsibilities and the services included. Advent can assess
+                        the requirements and provide a proposal based on the agreed scope.
+                    </p>
                 </details>
 
             </div>
@@ -952,24 +1040,25 @@ get_header();
 
                 <div>
                     <span class="eyebrow">
-                        PROTECT YOUR BUSINESS
+                        LOSS PREVENTION SECURITY
                     </span>
 
                     <h2>
-                        Ready to Strengthen
-                        <span>Your Loss Prevention Strategy?</span>
+                        Review Your Loss Prevention
+                        <span>Requirements</span>
                     </h2>
 
                     <p>
-                        Talk with Advent Security about your current risks,
-                        security requirements, and the right approach for your
-                        property.
+                        Tell us about your business, operating environment, assets,
+                        current security arrangements and the risks you want to address.
+                        Advent Security can help identify an appropriate loss prevention
+                        approach for your site.
                     </p>
                 </div>
 
                 <a href="<?php echo esc_url(home_url('/contact/')); ?>"
                     class="advent-btn advent-btn-dark">
-                    Request a Security Assessment
+                    Request a Loss Prevention Assessment
                     <i class="btn-arrow">→</i>
                 </a>
 
