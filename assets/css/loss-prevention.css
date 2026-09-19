@@ -810,28 +810,25 @@
    CTA
 ========================================================= */
 
-.loss-cta {
-    background: var(--color-primary);
+.loss-cta h2 {
+    max-width: 800px;
+    margin: 0;
+    color: #000000;
+    font-size: clamp(34px, 3.5vw, 48px);
+    line-height: 1;
+    margin-bottom: 12px;
 }
 
-.loss-cta .cta-inner {
-    position: relative;
+.loss-cta h2 span {
+    color: #ffffff;
 }
 
-.loss-cta .advent-eyebrow {
-    color: var(--color-dark);
+.loss-cta .eyebrow {
+    color: #000000;
 }
 
-.loss-cta .cta-inner h2 {
-    color: var(--color-dark);
-}
-
-.loss-cta .cta-inner h2 span {
-    color: var(--color-dark);
-}
-
-.loss-cta .cta-inner p {
-    color: rgba(0, 0, 0, 0.72);
+.loss-cta p {
+    font-size: 14px;
 }
 
 /* =========================================================
@@ -1262,6 +1259,19 @@
 
     .loss-cta .cta-inner {
         text-align: left;
+        display: block;
+    }
+
+    .loss-cta h2 {
+        margin-bottom: 12px;
+
+        font-size: 33px;
+        line-height: 1.02;
+    }
+
+    .loss-cta .advent-btn {
+        width: 100%;
+        min-width: 0;
     }
 }
 

@@ -15,16 +15,16 @@
     border-bottom: 1px solid var(--color-border);
 }
 
-.drone-security-page > section:first-child {
+/* .drone-security-page > section:first-child {
     border-top: 1px solid var(--color-border);
-}
+} */
 
 /* =====================================================
    HERO
    ===================================================== */
 
 .drone-hero {
-    background: var(--color-background);
+    background: var(--color-bg);
 }
 
 .drone-hero-layout {
@@ -44,10 +44,10 @@
 .drone-hero-copy h1 {
     max-width: 650px;
     margin: 18px 0 24px;
-    font-size: clamp(3rem, 5vw, 5.6rem);
+    font-size: clamp(52px, 5vw, 86px);
     line-height: 0.98;
     letter-spacing: -0.055em;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .drone-hero-copy h1 span {
@@ -72,7 +72,7 @@
 
 .drone-hero-media {
     position: relative;
-    height: 620px;
+    height: 860px;
     overflow: hidden;
     background: var(--color-surface);
 }
@@ -83,7 +83,7 @@
     display: block;
     object-fit: cover;
     object-position: center center;
-    transition: transform 0.8s ease;
+    transition: transform var(--transition-slow);
 }
 
 .drone-hero-media:hover img {
@@ -96,16 +96,15 @@
     pointer-events: none;
 }
 
-.drone-scan-line {
+/* .drone-scan-line {
     position: absolute;
     left: 0;
     right: 0;
     top: 42%;
     height: 1px;
     background: var(--color-primary);
-    box-shadow: 0 0 14px rgba(255, 204, 0, 0.5);
     opacity: 0.85;
-}
+} */
 
 .drone-overlay-copy {
     position: absolute;
@@ -116,7 +115,7 @@
     gap: 5px;
     max-width: 260px;
     padding: 18px 20px;
-    background: rgba(0, 0, 0, 0.82);
+    background: var(--color-black);
     border-left: 3px solid var(--color-primary);
 }
 
@@ -129,7 +128,7 @@
 .drone-overlay-copy span {
     font-size: 0.82rem;
     line-height: 1.5;
-    color: #fff;
+    color: var(--color-white);
 }
 
 /* =====================================================
@@ -139,7 +138,7 @@
 
 .drone-intelligence {
     padding: 110px 0;
-    background: var(--color-background);
+    background: var(--color-bg);
 }
 
 .drone-intelligence-layout {
@@ -226,9 +225,9 @@
    Full-width split image section
    ===================================================== */
 
-.drone-coverage {
+/* .drone-coverage {
     background: var(--color-surface);
-}
+} */
 
 .drone-coverage-layout {
     display: grid;
@@ -246,11 +245,8 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(
-        90deg,
-        rgba(0, 0, 0, 0) 65%,
-        rgba(0, 0, 0, 0.18) 100%
-    );
+    background: var(--color-black);
+    opacity: 0.18;
     pointer-events: none;
 }
 
@@ -259,7 +255,7 @@
     height: 100%;
     display: block;
     object-fit: cover;
-    object-position: center center;
+    object-position: 30% center;
 }
 
 .drone-coverage-content {
@@ -297,8 +293,8 @@
 
 .drone-feature {
     display: grid;
-    grid-template-columns: 48px 1fr;
-    gap: 18px;
+    grid-template-columns: 1fr;
+    gap: 0;
     padding: 19px 0;
     border-top: 1px solid var(--color-border);
 }
@@ -307,28 +303,14 @@
     border-bottom: 1px solid var(--color-border);
 }
 
-.drone-feature-icon {
-    width: 42px;
-    height: 42px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid var(--color-border);
-    color: var(--color-primary);
-    font-size: 1rem;
-    transition: all 0.3s ease;
-}
-
-.drone-feature:hover .drone-feature-icon {
-    background: var(--color-primary);
-    border-color: var(--color-primary);
-    color: var(--color-dark);
-}
-
-.drone-feature h3 {
+.drone-feature:hover .drone-feature h3 {
     margin: 0 0 5px;
     font-size: 1rem;
     font-weight: 700;
+}
+
+.drone-feature h3 {
+    font-size: 1.2rem !important;
 }
 
 .drone-feature p {
@@ -345,7 +327,7 @@
 
 .drone-capabilities {
     padding: 110px 0;
-    background: var(--color-background);
+    background: var(--color-bg);
 }
 
 .drone-capabilities-heading {
@@ -392,12 +374,12 @@
     font-weight: 700;
     text-decoration: none;
     letter-spacing: 0.02em;
-    transition: color 0.25s ease;
+    transition: color var(--transition-fast);
 }
 
 .drone-text-link i {
     color: var(--color-primary);
-    transition: transform 0.25s ease;
+    transition: transform var(--transition-fast);
 }
 
 .drone-text-link:hover {
@@ -414,38 +396,23 @@
 
 .drone-capability {
     display: grid;
-    grid-template-columns: 76px 1fr;
-    gap: 25px;
+    grid-template-columns: 1fr;
+    gap: 0;
     padding: 30px 0;
     border-bottom: 1px solid var(--color-border);
     transition:
         padding-left 0.3s ease,
         background 0.3s ease;
 }
+.drone-capability h3 {
+    font-size: 1.4rem;
+}
 
 .drone-capability:hover {
     padding-left: 18px;
 }
 
-.drone-capability-symbol {
-    width: 58px;
-    height: 58px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid var(--color-border);
-    font-size: 1.15rem;
-    color: var(--color-primary);
-    transition: all 0.3s ease;
-}
-
-.drone-capability:hover .drone-capability-symbol {
-    background: var(--color-primary);
-    border-color: var(--color-primary);
-    color: var(--color-dark);
-}
-
-.drone-capability h3 {
+.drone-capability:hover .drone-capability h3 {
     margin: 2px 0 8px;
     font-size: 1.1rem;
     font-weight: 700;
@@ -466,7 +433,7 @@
 
 .drone-operations {
     padding: 105px 0;
-    background: var(--color-surface);
+    /* background: var(--color-surface); */
 }
 
 .drone-operations-top {
@@ -503,7 +470,7 @@
 
 .drone-operation-panel {
     position: relative;
-    min-height: 275px;
+    min-height: 222px;
     padding: 34px 35px 38px;
     border-right: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
@@ -524,7 +491,7 @@
     width: 0;
     height: 3px;
     background: var(--color-primary);
-    transition: width 0.35s ease;
+    transition: width var(--transition-normal);
 }
 
 .drone-operation-panel:hover::before {
@@ -533,27 +500,10 @@
 
 .drone-operation-panel:hover {
     background: var(--color-primary);
-    color: var(--color-dark);
+    color: var(--color-black);
 }
 
-.drone-operation-icon {
-    width: 52px;
-    height: 52px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 48px;
-    border: 1px solid var(--color-border);
-    color: var(--color-primary);
-    transition: all 0.3s ease;
-}
-
-.drone-operation-panel:hover .drone-operation-icon {
-    border-color: rgba(0, 0, 0, 0.2);
-    color: var(--color-dark);
-}
-
-.drone-operation-panel h3 {
+.drone-operation-panel:hover .drone-operation-panel h3 {
     margin: 0 0 10px;
     font-size: 1.15rem;
     font-weight: 700;
@@ -564,11 +514,11 @@
     font-size: 0.9rem;
     line-height: 1.7;
     color: var(--color-text-muted);
-    transition: color 0.3s ease;
+    transition: color var(--transition-normal);
 }
 
 .drone-operation-panel:hover p {
-    color: rgba(0, 0, 0, 0.72);
+    color: var(--color-black);
 }
 
 /* =====================================================
@@ -578,7 +528,7 @@
 
 .drone-perspective {
     padding: 100px 0;
-    background: var(--color-background);
+    background: var(--color-bg);
 }
 
 .drone-perspective-layout {
@@ -631,7 +581,7 @@
     height: 100%;
     display: block;
     object-fit: cover;
-    object-position: center center;
+    object-position: 65% center;
 }
 
 .drone-perspective-tag {
@@ -643,7 +593,7 @@
     gap: 5px;
     padding: 17px 20px;
     background: var(--color-primary);
-    color: var(--color-dark);
+    color: var(--color-black);
 }
 
 .drone-perspective-tag strong {
@@ -662,7 +612,7 @@
 
 .drone-industries {
     padding: 105px 0;
-    background: var(--color-surface);
+    /* background: var(--color-surface); */
 }
 
 .drone-industries-header {
@@ -692,14 +642,14 @@
     line-height: 1.75;
 }
 
-.drone-industries-grid {
+.drone-industry-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-top: 1px solid var(--color-border);
     border-left: 1px solid var(--color-border);
 }
 
-.drone-industry {
+.drone-industry-card {
     position: relative;
     min-height: 190px;
     padding: 28px 30px;
@@ -710,39 +660,31 @@
         color 0.3s ease;
 }
 
-.drone-industry:hover {
+.drone-industry-card:hover {
     background: var(--color-primary);
-    color: var(--color-dark);
+    color: var(--color-black);
 }
 
-.drone-industry i {
-    display: block;
-    margin-bottom: 45px;
-    font-size: 1.25rem;
-    color: var(--color-primary);
-    transition: color 0.3s ease;
+.drone-industry-card:hover i {
+    color: var(--color-black);
 }
 
-.drone-industry:hover i {
-    color: var(--color-dark);
-}
-
-.drone-industry h3 {
+.drone-industry-card h3 {
     margin: 0 0 8px;
     font-size: 1.05rem;
     font-weight: 700;
 }
 
-.drone-industry p {
+.drone-industry-card p {
     margin: 0;
     font-size: 0.86rem;
     line-height: 1.65;
     color: var(--color-text-muted);
-    transition: color 0.3s ease;
+    transition: color var(--transition-normal);
 }
 
-.drone-industry:hover p {
-    color: rgba(0, 0, 0, 0.72);
+.drone-industry-card:hover p {
+    color: var(--color-black);
 }
 
 /* =====================================================
@@ -751,7 +693,7 @@
 
 .drone-why {
     padding: 105px 0;
-    background: var(--color-background);
+    background: var(--color-bg);
 }
 
 .drone-why-layout {
@@ -761,7 +703,7 @@
     align-items: start;
 }
 
-.drone-why-intro h2 {
+.drone-why-heading h2 {
     max-width: 520px;
     margin: 18px 0 25px;
     font-size: clamp(2.5rem, 4vw, 4.1rem);
@@ -769,37 +711,27 @@
     letter-spacing: -0.045em;
 }
 
-.drone-why-intro h2 span {
+.drone-why-heading h2 span {
     color: var(--color-primary);
 }
 
-.drone-why-intro p {
+.drone-why-heading p {
     max-width: 460px;
     margin: 0;
     color: var(--color-text-muted);
     line-height: 1.8;
 }
 
-.drone-why-list {
+.drone-why-grid {
     border-top: 1px solid var(--color-border);
 }
 
 .drone-why-item {
     display: grid;
-    grid-template-columns: 60px 1fr;
-    gap: 22px;
+    grid-template-columns: 1fr;
+    gap: 0;
     padding: 28px 0;
     border-bottom: 1px solid var(--color-border);
-}
-
-.drone-why-icon {
-    width: 48px;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid var(--color-border);
-    color: var(--color-primary);
 }
 
 .drone-why-item h3 {
@@ -820,14 +752,14 @@
    Shared component light theme adjustments
    ===================================================== */
 
-.drone-security-page .related-services {
+/* .drone-security-page .related-services {
     background: var(--color-surface);
-}
+} */
 
 .drone-security-page .related-service-card {
     transition:
-        transform 0.3s ease,
-        background 0.3s ease;
+        transform var(--transition-normal),
+        background-color var(--transition-normal);
 }
 
 .drone-security-page .related-service-card:hover {
@@ -840,7 +772,7 @@
    ===================================================== */
 
 .drone-security-page .faq-section {
-    background: var(--color-background);
+    background: var(--color-bg);
 }
 
 /* =====================================================
@@ -848,8 +780,25 @@
    Shared CTA component
    ================================================= */
 
-.drone-security-page .cta-section {
-    border-bottom: 0;
+.drone-cta h2 {
+    max-width: 800px;
+    margin: 0;
+    color: #000000;
+    font-size: clamp(34px, 3.5vw, 48px);
+    line-height: 1;
+    margin-bottom: 12px;
+}
+
+.drone-cta h2 span {
+    color: #ffffff;
+}
+
+.drone-cta .eyebrow {
+    color: #000000;
+}
+
+.drone-cta p {
+    font-size: 14px;
 }
 
 /* =====================================================
@@ -978,10 +927,6 @@
         border-bottom: 1px solid var(--color-border);
     }
 
-    .drone-operation-icon {
-        margin-bottom: 30px;
-    }
-
     .drone-perspective {
         padding: 85px 0;
     }
@@ -1012,7 +957,7 @@
         max-width: 650px;
     }
 
-    .drone-industries-grid {
+    .drone-industry-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -1078,7 +1023,7 @@
     .drone-operations-top h2,
     .drone-perspective-content h2,
     .drone-industries-header h2,
-    .drone-why-intro h2 {
+    .drone-why-heading h2 {
         font-size: clamp(2.2rem, 9vw, 3.3rem);
     }
 
@@ -1104,13 +1049,8 @@
     }
 
     .drone-feature {
-        grid-template-columns: 42px 1fr;
-        gap: 14px;
-    }
-
-    .drone-feature-icon {
-        width: 38px;
-        height: 38px;
+        grid-template-columns: 1fr;
+        gap: 0;
     }
 
     .drone-capabilities {
@@ -1122,15 +1062,9 @@
     }
 
     .drone-capability {
-        grid-template-columns: 55px 1fr;
-        gap: 16px;
+        grid-template-columns: 1fr;
+        gap: 0;
         padding: 24px 0;
-    }
-
-    .drone-capability-symbol {
-        width: 48px;
-        height: 48px;
-        font-size: 1rem;
     }
 
     .drone-capability h3 {
@@ -1166,17 +1100,13 @@
         padding: 70px 0;
     }
 
-    .drone-industries-grid {
+    .drone-industry-grid {
         grid-template-columns: 1fr;
     }
 
-    .drone-industry {
+    .drone-industry-card {
         min-height: auto;
         padding: 25px 22px;
-    }
-
-    .drone-industry i {
-        margin-bottom: 30px;
     }
 
     .drone-why {
@@ -1184,14 +1114,9 @@
     }
 
     .drone-why-item {
-        grid-template-columns: 48px 1fr;
-        gap: 15px;
+        grid-template-columns: 1fr;
+        gap: 0;
         padding: 24px 0;
-    }
-
-    .drone-why-icon {
-        width: 42px;
-        height: 42px;
     }
 }
 
@@ -1246,25 +1171,14 @@
     }
 
     .drone-feature {
-        grid-template-columns: 38px 1fr;
-        gap: 12px;
+        grid-template-columns: 1fr;
+        gap: 0;
         padding: 18px 0;
-    }
-
-    .drone-feature-icon {
-        width: 36px;
-        height: 36px;
-        font-size: 0.9rem;
     }
 
     .drone-capability {
         grid-template-columns: 1fr;
         gap: 14px;
-    }
-
-    .drone-capability-symbol {
-        width: 44px;
-        height: 44px;
     }
 
     .drone-perspective-content {
@@ -1281,7 +1195,7 @@
         bottom: 14px;
     }
 
-    .drone-industry {
+    .drone-industry-card {
         padding: 22px 18px;
     }
 

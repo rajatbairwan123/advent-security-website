@@ -4,12 +4,14 @@
  */
 
 get_header();
+
+$theme_uri = get_template_directory_uri();
 ?>
 
 <main class="ai-surveillance-page">
 
     <!-- =========================================================
-        HERO
+         HERO
     ========================================================== -->
 
     <section class="ai-hero">
@@ -20,7 +22,7 @@ get_header();
 
                 <div class="ai-hero-content">
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         AI SURVEILLANCE
                     </span>
 
@@ -40,12 +42,20 @@ get_header();
 
                         <a href="<?php echo esc_url(home_url('/contact/')); ?>"
                             class="advent-btn advent-btn-primary">
+
                             Request a Security Assessment
+
+                            <i class="btn-arrow">→</i>
+
                         </a>
 
-                        <a href="#ai-monitoring"
+                        <a href="#ai-intelligence"
                             class="advent-btn advent-btn-outline">
+
                             Explore AI Surveillance
+
+                            <i class="btn-arrow">→</i>
+
                         </a>
 
                     </div>
@@ -57,19 +67,18 @@ get_header();
 
                     <img
                         src="<?php echo esc_url(
-                                    get_template_directory_uri()
-                                        . '/assets/images/ai-surveillance-hero.jpg'
+                                    $theme_uri . '/assets/images/ai-surveillance/Ai_hero.webp'
                                 ); ?>"
                         alt="AI surveillance monitoring security cameras across a commercial property">
 
-                    <div class="ai-hero-status">
+                    <div class="ai-hero-caption">
 
-                        <span class="ai-status-dot"></span>
+                        <span>INTELLIGENT MONITORING</span>
 
-                        <div>
-                            <strong>INTELLIGENT MONITORING</strong>
-                            <span>Video surveillance with AI-assisted awareness</span>
-                        </div>
+                        <p>
+                            AI-assisted awareness for modern security
+                            environments.
+                        </p>
 
                     </div>
 
@@ -81,34 +90,84 @@ get_header();
 
     </section>
 
+    <!-- =========================================================
+     PROOF / CREDIBILITY STRIP
+    ========================================================= -->
+    <section class="integrated-proof">
+        <div class="container-fluid integrated-proof-grid">
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    36+ YEARS
+                </span>
+
+                <strong>
+                    Established experience
+                </strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    AUSTRALIAN-OWNED
+                </span>
+
+                <strong>
+                    Family business
+                </strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    ASIAL
+                </span>
+
+                <strong>
+                    Platinum Level member
+                </strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    ISO 27001:2022
+                </span>
+
+                <strong>
+                    Information security
+                </strong>
+            </div>
+
+        </div>
+    </section>
 
     <!-- =========================================================
-         OVERVIEW
+         INTRODUCTION
     ========================================================== -->
 
-    <section class="ai-overview">
+    <section class="ai-introduction" id="ai-intelligence">
 
         <div class="container">
 
-            <div class="ai-overview-grid">
+            <div class="ai-introduction-layout">
 
-                <div class="ai-overview-heading">
+                <div class="ai-introduction-label">
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         INTELLIGENT SURVEILLANCE
                     </span>
+
+                    <div class="ai-introduction-line"></div>
+
+                </div>
+
+
+                <div class="ai-introduction-content">
 
                     <h2>
                         More Than Watching.
                         <span>Understanding What Matters.</span>
                     </h2>
 
-                </div>
-
-
-                <div class="ai-overview-content">
-
-                    <p class="ai-lead">
+                    <p class="ai-introduction-lead">
                         Traditional video surveillance can provide valuable
                         visibility, but large environments can generate more
                         video activity than security teams can continuously
@@ -116,27 +175,12 @@ get_header();
                     </p>
 
                     <p>
-                        AI-assisted surveillance can help security teams focus
-                        their attention on defined events, activity patterns,
-                        or areas of interest. Instead of relying solely on
-                        continuous manual observation, intelligent video
-                        technologies can provide additional information to
-                        support security awareness and response.
+                        AI-assisted surveillance adds another layer of
+                        intelligence to the security environment. By
+                        analyzing defined activity, patterns, and areas of
+                        interest, intelligent video technologies can help
+                        security teams focus their attention where it matters.
                     </p>
-
-
-                    <div class="ai-overview-note">
-
-                        <span>
-                            THE ADVANTAGE
-                        </span>
-
-                        <strong>
-                            Better visibility. Faster awareness.
-                            More informed security decisions.
-                        </strong>
-
-                    </div>
 
                 </div>
 
@@ -148,18 +192,123 @@ get_header();
 
 
     <!-- =========================================================
-         DETECTION / USE CASES
+         THREE IMAGE VISUAL STORY
+    ========================================================== -->
+
+    <section class="ai-visual-story">
+
+        <div class="container">
+
+            <div class="ai-visual-story-header">
+
+                <div>
+
+                    <span class="eyebrow">
+                        SECURITY VISIBILITY
+                    </span>
+
+                    <h2>
+                        See The Environment
+                        <span>From Every Angle.</span>
+                    </h2>
+
+                </div>
+
+                <p>
+                    Intelligent surveillance combines camera visibility,
+                    automated analysis, and security awareness to help teams
+                    understand activity across the property.
+                </p>
+
+            </div>
+
+
+            <div class="ai-image-gallery">
+
+                <!-- Large Image -->
+
+                <figure class="ai-gallery-image ai-gallery-image-large">
+
+                    <img
+                        src="<?php echo esc_url(
+                                    $theme_uri . '/assets/images/ai-surveillance/AI-SURVEILLANCE2.webp'
+                                ); ?>"
+                        alt="AI assisted security surveillance across a commercial property"
+                        loading="lazy">
+
+                    <figcaption>
+                        <strong>PROPERTY VISIBILITY</strong>
+                        <span>
+                            Maintain awareness across important areas of a
+                            property.
+                        </span>
+                    </figcaption>
+
+                </figure>
+
+
+                <!-- Small Image -->
+
+                <figure class="ai-gallery-image ai-gallery-image-small">
+
+                    <img
+                        src="<?php echo esc_url(
+                                    $theme_uri . '/assets/images/ai-surveillance/AI3.jpeg'
+                                ); ?>"
+                        alt="Security professionals monitoring intelligent surveillance systems"
+                        loading="lazy">
+
+                    <figcaption>
+                        <strong>INTELLIGENT MONITORING</strong>
+                        <span>
+                            Bring relevant activity into focus.
+                        </span>
+                    </figcaption>
+
+                </figure>
+
+
+                <!-- Third Image -->
+
+                <figure class="ai-gallery-image ai-gallery-image-wide">
+
+                    <img
+                        src="<?php echo esc_url(
+                                    $theme_uri . '/assets/images/ai-surveillance/AI4.jpeg'
+                                ); ?>"
+                        alt="Security operations using intelligent video surveillance technology"
+                        loading="lazy">
+
+                    <figcaption>
+                        <strong>SECURITY OPERATIONS</strong>
+                        <span>
+                            Connect surveillance information with human
+                            security decisions.
+                        </span>
+                    </figcaption>
+
+                </figure>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         AI DETECTION
     ========================================================== -->
 
     <section class="ai-detection">
 
         <div class="container">
 
-            <div class="ai-section-header">
+            <div class="ai-detection-layout">
 
-                <div>
+                <div class="ai-detection-heading">
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         AI-ASSISTED DETECTION
                     </span>
 
@@ -170,106 +319,101 @@ get_header();
 
                 </div>
 
-                <p>
-                    AI surveillance can be configured around defined security
-                    requirements to help teams identify activity that may
-                    require attention.
-                </p>
+
+                <div class="ai-detection-content">
+
+                    <p class="ai-large-text">
+                        AI surveillance can be configured around defined
+                        security requirements to help teams identify activity
+                        that may require attention.
+                    </p>
+
+                    <p>
+                        Rather than depending entirely on continuous manual
+                        observation, intelligent video systems can assist with
+                        identifying relevant activity across designated
+                        surveillance areas.
+                    </p>
+
+                </div>
 
             </div>
 
 
-            <div class="ai-detection-grid">
+            <div class="ai-detection-features">
 
+                <article>
 
-                <article class="ai-detection-card">
+                    <span class="ai-feature-label">
+                        PERIMETER ACTIVITY
+                    </span>
 
-                    <div class="ai-detection-icon">
-                        <i class="bi bi-person-walking"></i>
-                    </div>
+                    <h3>
+                        Understand movement around critical boundaries.
+                    </h3>
 
-                    <div class="ai-detection-content">
-
-                        <h3>
-                            Perimeter Activity
-                        </h3>
-
-                        <p>
-                            Help identify activity around designated
-                            boundaries, entrances, and restricted areas.
-                        </p>
-
-                    </div>
+                    <p>
+                        Help identify activity around designated boundaries,
+                        entrances, restricted areas, and other important
+                        zones.
+                    </p>
 
                 </article>
 
 
-                <article class="ai-detection-card">
+                <article>
 
-                    <div class="ai-detection-icon">
-                        <i class="bi bi-door-open"></i>
-                    </div>
+                    <span class="ai-feature-label">
+                        RESTRICTED ACCESS
+                    </span>
 
-                    <div class="ai-detection-content">
+                    <h3>
+                        Maintain awareness around controlled areas.
+                    </h3>
 
-                        <h3>
-                            Restricted Access
-                        </h3>
-
-                        <p>
-                            Support awareness around defined access points and
-                            areas where unauthorized activity may present a
-                            security concern.
-                        </p>
-
-                    </div>
+                    <p>
+                        Support visibility around defined access points and
+                        areas where unauthorized activity may present a
+                        security concern.
+                    </p>
 
                 </article>
 
 
-                <article class="ai-detection-card">
+                <article>
 
-                    <div class="ai-detection-icon">
-                        <i class="bi bi-clock-history"></i>
-                    </div>
+                    <span class="ai-feature-label">
+                        UNUSUAL ACTIVITY
+                    </span>
 
-                    <div class="ai-detection-content">
+                    <h3>
+                        Bring unexpected activity into focus.
+                    </h3>
 
-                        <h3>
-                            Unusual Activity
-                        </h3>
-
-                        <p>
-                            Assist security teams in identifying activity that
-                            falls outside defined operational expectations.
-                        </p>
-
-                    </div>
+                    <p>
+                        Assist security teams in identifying activity that
+                        falls outside defined operational expectations.
+                    </p>
 
                 </article>
 
 
-                <article class="ai-detection-card">
+                <article>
 
-                    <div class="ai-detection-icon">
-                        <i class="bi bi-camera-video"></i>
-                    </div>
+                    <span class="ai-feature-label">
+                        VIDEO AWARENESS
+                    </span>
 
-                    <div class="ai-detection-content">
+                    <h3>
+                        Make large surveillance environments easier to manage.
+                    </h3>
 
-                        <h3>
-                            Video Awareness
-                        </h3>
-
-                        <p>
-                            Help teams manage large surveillance environments
-                            by bringing relevant events to their attention.
-                        </p>
-
-                    </div>
+                    <p>
+                        Help bring relevant events and activity patterns to
+                        the attention of security personnel.
+                    </p>
 
                 </article>
-
 
             </div>
 
@@ -282,41 +426,27 @@ get_header();
          INTELLIGENT MONITORING
     ========================================================== -->
 
-    <section class="ai-monitoring" id="ai-monitoring">
+    <section class="ai-monitoring">
 
-        <div class="container">
+        <div class="container-fluid px-0">
 
-            <div class="ai-monitoring-grid">
+            <div class="ai-monitoring-layout">
 
-
-                <div class="ai-monitoring-visual">
+                <div class="ai-monitoring-image">
 
                     <img
                         src="<?php echo esc_url(
-                                    get_template_directory_uri()
-                                        . '/assets/images/ai-surveillance-monitoring.jpg'
+                                    $theme_uri . '/assets/images/ai-surveillance/AI5.jpeg'
                                 ); ?>"
-                        alt="Security monitoring room using intelligent video surveillance">
-
-                    <div class="ai-monitoring-label">
-
-                        <strong>
-                            SMARTER VISIBILITY
-                        </strong>
-
-                        <span>
-                            AI-assisted video monitoring for modern security
-                            environments
-                        </span>
-
-                    </div>
+                        alt="Security monitoring room using intelligent video surveillance"
+                        loading="lazy">
 
                 </div>
 
 
                 <div class="ai-monitoring-content">
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         INTELLIGENT MONITORING
                     </span>
 
@@ -325,106 +455,70 @@ get_header();
                         <span>Useful Awareness.</span>
                     </h2>
 
-                    <p class="ai-lead">
+                    <p class="ai-monitoring-lead">
                         AI surveillance can provide another layer of
                         intelligence around your existing security
                         infrastructure.
                     </p>
 
 
-                    <div class="ai-monitoring-list">
+                    <div class="ai-monitoring-text">
 
+                        <div>
 
-                        <div class="ai-monitoring-item">
+                            <strong>
+                                Continuous Awareness
+                            </strong>
 
-                            <span class="ai-monitoring-icon">
-                                <i class="bi bi-eye"></i>
-                            </span>
-
-                            <div>
-
-                                <h3>
-                                    Continuous Awareness
-                                </h3>
-
-                                <p>
-                                    Support ongoing visibility across
-                                    designated areas and surveillance zones.
-                                </p>
-
-                            </div>
+                            <p>
+                                Support ongoing visibility across designated
+                                areas and surveillance zones.
+                            </p>
 
                         </div>
 
 
-                        <div class="ai-monitoring-item">
+                        <div>
 
-                            <span class="ai-monitoring-icon">
-                                <i class="bi bi-funnel"></i>
-                            </span>
+                            <strong>
+                                Event Filtering
+                            </strong>
 
-                            <div>
-
-                                <h3>
-                                    Event Filtering
-                                </h3>
-
-                                <p>
-                                    Help bring defined events or activity
-                                    patterns to the attention of security
-                                    personnel.
-                                </p>
-
-                            </div>
+                            <p>
+                                Help bring defined events or activity patterns
+                                to the attention of security personnel.
+                            </p>
 
                         </div>
 
 
-                        <div class="ai-monitoring-item">
+                        <div>
 
-                            <span class="ai-monitoring-icon">
-                                <i class="bi bi-bell"></i>
-                            </span>
+                            <strong>
+                                Security Alerts
+                            </strong>
 
-                            <div>
-
-                                <h3>
-                                    Security Alerts
-                                </h3>
-
-                                <p>
-                                    Support timely awareness when configured
-                                    surveillance rules identify relevant
-                                    activity.
-                                </p>
-
-                            </div>
+                            <p>
+                                Support timely awareness when configured
+                                surveillance rules identify relevant activity.
+                            </p>
 
                         </div>
 
 
-                        <div class="ai-monitoring-item">
+                        <div>
 
-                            <span class="ai-monitoring-icon">
-                                <i class="bi bi-diagram-3"></i>
-                            </span>
+                            <strong>
+                                Integrated Security
+                            </strong>
 
-                            <div>
-
-                                <h3>
-                                    Integrated Security
-                                </h3>
-
-                                <p>
-                                    AI-assisted surveillance can complement
-                                    security personnel and other security
-                                    technologies.
-                                </p>
-
-                            </div>
+                            <p>
+                                AI-assisted surveillance can complement
+                                security personnel and other security
+                                technologies.
+                            </p>
 
                         </div>
-
 
                     </div>
 
@@ -445,20 +539,16 @@ get_header();
 
         <div class="container">
 
-            <div class="ai-section-header ai-process-header">
+            <div class="ai-process-heading">
 
-                <div>
+                <span class="eyebrow">
+                    HOW IT WORKS
+                </span>
 
-                    <span class="advent-eyebrow">
-                        HOW IT WORKS
-                    </span>
-
-                    <h2>
-                        From Video
-                        <span>To Actionable Awareness.</span>
-                    </h2>
-
-                </div>
+                <h2>
+                    From Video
+                    <span>To Actionable Awareness.</span>
+                </h2>
 
                 <p>
                     AI surveillance works as part of a broader security
@@ -471,16 +561,9 @@ get_header();
 
             <div class="ai-process-flow">
 
+                <div class="ai-process-stage">
 
-                <article class="ai-process-card">
-
-                    <div class="ai-process-icon">
-                        <i class="bi bi-camera"></i>
-                    </div>
-
-                    <span>
-                        CAPTURE
-                    </span>
+                    <span>CAPTURE</span>
 
                     <h3>
                         Monitor
@@ -491,18 +574,12 @@ get_header();
                         designated areas of the property.
                     </p>
 
-                </article>
+                </div>
 
 
-                <article class="ai-process-card">
+                <div class="ai-process-stage">
 
-                    <div class="ai-process-icon">
-                        <i class="bi bi-cpu"></i>
-                    </div>
-
-                    <span>
-                        ANALYZE
-                    </span>
+                    <span>ANALYZE</span>
 
                     <h3>
                         Interpret
@@ -513,18 +590,12 @@ get_header();
                         activity according to defined security requirements.
                     </p>
 
-                </article>
+                </div>
 
 
-                <article class="ai-process-card">
+                <div class="ai-process-stage">
 
-                    <div class="ai-process-icon">
-                        <i class="bi bi-bell"></i>
-                    </div>
-
-                    <span>
-                        ALERT
-                    </span>
+                    <span>ALERT</span>
 
                     <h3>
                         Notify
@@ -535,18 +606,12 @@ get_header();
                         designated security personnel or systems.
                     </p>
 
-                </article>
+                </div>
 
 
-                <article class="ai-process-card">
+                <div class="ai-process-stage">
 
-                    <div class="ai-process-icon">
-                        <i class="bi bi-shield-check"></i>
-                    </div>
-
-                    <span>
-                        RESPOND
-                    </span>
+                    <span>RESPOND</span>
 
                     <h3>
                         Act
@@ -557,8 +622,7 @@ get_header();
                         appropriate response procedures.
                     </p>
 
-                </article>
-
+                </div>
 
             </div>
 
@@ -575,11 +639,11 @@ get_header();
 
         <div class="container">
 
-            <div class="ai-human-security-inner">
+            <div class="ai-human-layout">
 
-                <div class="ai-human-security-content">
+                <div class="ai-human-intro">
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         HUMAN + TECHNOLOGY
                     </span>
 
@@ -588,91 +652,78 @@ get_header();
                         <span>Security Professionals.</span>
                     </h2>
 
-                    <p>
+                </div>
+
+
+                <div class="ai-human-content">
+
+                    <p class="ai-human-lead">
                         AI surveillance is not a replacement for professional
                         security judgment. It is an additional tool that can
                         help security teams manage information, maintain
                         awareness, and focus attention on relevant events.
                     </p>
 
-                </div>
 
-
-                <div class="ai-human-security-points">
-
-
-                    <div class="ai-human-security-point">
-
-                        <i class="bi bi-person-check"></i>
+                    <div class="ai-human-points">
 
                         <div>
+
                             <strong>
                                 Human Oversight
                             </strong>
 
-                            <span>
+                            <p>
                                 Security personnel remain responsible for
                                 evaluating situations and following established
                                 procedures.
-                            </span>
+                            </p>
+
                         </div>
 
-                    </div>
-
-
-                    <div class="ai-human-security-point">
-
-                        <i class="bi bi-lightning"></i>
 
                         <div>
+
                             <strong>
                                 Faster Awareness
                             </strong>
 
-                            <span>
+                            <p>
                                 Intelligent monitoring can help bring relevant
                                 activity to attention sooner.
-                            </span>
+                            </p>
+
                         </div>
 
-                    </div>
-
-
-                    <div class="ai-human-security-point">
-
-                        <i class="bi bi-grid-1x2"></i>
 
                         <div>
+
                             <strong>
                                 Scalable Visibility
                             </strong>
 
-                            <span>
+                            <p>
                                 Support security awareness across larger
                                 properties and multiple surveillance areas.
-                            </span>
+                            </p>
+
                         </div>
 
-                    </div>
-
-
-                    <div class="ai-human-security-point">
-
-                        <i class="bi bi-sliders"></i>
 
                         <div>
+
                             <strong>
                                 Configurable Approach
                             </strong>
 
-                            <span>
+                            <p>
                                 Surveillance capabilities can be aligned with
                                 the environment and defined security needs.
-                            </span>
+                            </p>
+
                         </div>
 
                     </div>
-
 
                 </div>
 
@@ -691,20 +742,16 @@ get_header();
 
         <div class="container">
 
-            <div class="ai-section-header">
+            <div class="ai-industries-heading">
 
-                <div>
+                <span class="eyebrow">
+                    INDUSTRIES WE SUPPORT
+                </span>
 
-                    <span class="advent-eyebrow">
-                        INDUSTRIES WE SUPPORT
-                    </span>
-
-                    <h2>
-                        Intelligent Surveillance
-                        <span>Across Modern Properties.</span>
-                    </h2>
-
-                </div>
+                <h2>
+                    Intelligent Surveillance
+                    <span>Across Modern Properties.</span>
+                </h2>
 
                 <p>
                     AI-assisted surveillance can support security operations
@@ -715,116 +762,100 @@ get_header();
             </div>
 
 
-            <div class="ai-industry-grid">
+            <div class="ai-industry-list">
+
+                <a href="<?php echo esc_url(
+                                home_url('/security-services/retail-security/')
+                            ); ?>">
+
+                    <strong>Retail</strong>
+
+                    <span>
+                        Entrances, sales floors, restricted areas and
+                        high-traffic environments.
+                    </span>
+
+                    <i class="btn-arrow">→</i>
+
+                </a>
 
 
-                <article class="ai-industry-card">
+                <a href="<?php echo esc_url(
+                                home_url('/security-services/corporate-security/')
+                            ); ?>">
 
-                    <div class="ai-industry-icon">
-                        <i class="bi bi-shop"></i>
-                    </div>
+                    <strong>Corporate</strong>
 
-                    <h3>
-                        Retail
-                    </h3>
+                    <span>
+                        Offices, facilities, entrances and controlled areas.
+                    </span>
 
-                    <p>
-                        Support awareness around entrances, sales floors,
-                        restricted areas, and other retail environments.
-                    </p>
+                    <i class="btn-arrow">→</i>
 
-                </article>
+                </a>
 
 
-                <article class="ai-industry-card">
+                <a href="<?php echo esc_url(
+                                home_url('/security-services/warehouse-security/')
+                            ); ?>">
 
-                    <div class="ai-industry-icon">
-                        <i class="bi bi-building"></i>
-                    </div>
+                    <strong>Warehousing</strong>
 
-                    <h3>
-                        Corporate
-                    </h3>
+                    <span>
+                        Operational areas, access points, inventory zones and
+                        facility boundaries.
+                    </span>
 
-                    <p>
-                        Improve surveillance awareness across offices,
-                        facilities, entrances, and controlled areas.
-                    </p>
+                    <i class="btn-arrow">→</i>
 
-                </article>
+                </a>
 
 
-                <article class="ai-industry-card">
+                <a href="<?php echo esc_url(
+                                home_url('/security-services/construction-security/')
+                            ); ?>">
 
-                    <div class="ai-industry-icon">
-                        <i class="bi bi-boxes"></i>
-                    </div>
+                    <strong>Construction</strong>
 
-                    <h3>
-                        Warehousing
-                    </h3>
+                    <span>
+                        Active sites, equipment areas and restricted zones.
+                    </span>
 
-                    <p>
-                        Help monitor large operational areas, access points,
-                        inventory zones, and facility boundaries.
-                    </p>
+                    <i class="btn-arrow">→</i>
 
-                </article>
+                </a>
 
 
-                <article class="ai-industry-card">
+                <a href="<?php echo esc_url(
+                                home_url('/security-services/event-security/')
+                            ); ?>">
 
-                    <div class="ai-industry-icon">
-                        <i class="bi bi-truck"></i>
-                    </div>
+                    <strong>Events &amp; Venues</strong>
 
-                    <h3>
-                        Distribution
-                    </h3>
+                    <span>
+                        Entrances, public areas, restricted zones and
+                        high-traffic environments.
+                    </span>
 
-                    <p>
-                        Support security visibility across logistics
-                        facilities, vehicle areas, and operational zones.
-                    </p>
+                    <i class="btn-arrow">→</i>
 
-                </article>
+                </a>
 
 
-                <article class="ai-industry-card">
+                <a href="<?php echo esc_url(
+                                home_url('/security-services/gatehouse-security/')
+                            ); ?>">
 
-                    <div class="ai-industry-icon">
-                        <i class="bi bi-cone-striped"></i>
-                    </div>
+                    <strong>Distribution &amp; Logistics</strong>
 
-                    <h3>
-                        Construction
-                    </h3>
+                    <span>
+                        Vehicle areas, logistics facilities and operational
+                        zones.
+                    </span>
 
-                    <p>
-                        Provide additional surveillance awareness around
-                        active sites, equipment areas, and restricted zones.
-                    </p>
+                    <i class="btn-arrow">→</i>
 
-                </article>
-
-
-                <article class="ai-industry-card">
-
-                    <div class="ai-industry-icon">
-                        <i class="bi bi-calendar-event"></i>
-                    </div>
-
-                    <h3>
-                        Events &amp; Venues
-                    </h3>
-
-                    <p>
-                        Support monitoring across entrances, public areas,
-                        restricted zones, and high-traffic environments.
-                    </p>
-
-                </article>
-
+                </a>
 
             </div>
 
@@ -841,11 +872,23 @@ get_header();
 
         <div class="container">
 
-            <div class="ai-why-grid">
+            <div class="ai-why-layout">
 
-                <div class="ai-why-heading">
+                <div class="ai-why-image">
 
-                    <span class="advent-eyebrow">
+                    <img
+                        src="<?php echo esc_url(
+                                    $theme_uri . '/assets/images/ai-surveillance/AI6.jpeg'
+                                ); ?>"
+                        alt="Security operations supported by intelligent surveillance technology"
+                        loading="lazy">
+
+                </div>
+
+
+                <div class="ai-why-content">
+
+                    <span class="eyebrow">
                         WHY ADVENT
                     </span>
 
@@ -854,12 +897,7 @@ get_header();
                         <span>Security Expertise.</span>
                     </h2>
 
-                </div>
-
-
-                <div class="ai-why-content">
-
-                    <p class="ai-lead">
+                    <p class="ai-why-lead">
                         Intelligent surveillance delivers the most value when
                         technology is connected to a clear security strategy.
                     </p>
@@ -867,8 +905,7 @@ get_header();
 
                     <div class="ai-why-points">
 
-
-                        <div class="ai-why-point">
+                        <div>
 
                             <strong>
                                 Security-Focused Planning
@@ -883,7 +920,7 @@ get_header();
                         </div>
 
 
-                        <div class="ai-why-point">
+                        <div>
 
                             <strong>
                                 Technology Integration
@@ -898,7 +935,7 @@ get_header();
                         </div>
 
 
-                        <div class="ai-why-point">
+                        <div>
 
                             <strong>
                                 Practical Implementation
@@ -913,7 +950,7 @@ get_header();
                         </div>
 
 
-                        <div class="ai-why-point">
+                        <div>
 
                             <strong>
                                 Ongoing Security Support
@@ -925,7 +962,6 @@ get_header();
                             </p>
 
                         </div>
-
 
                     </div>
 
@@ -940,7 +976,6 @@ get_header();
 
     <!-- =========================================================
          RELATED SERVICES
-         Shared component from components.css
     ========================================================== -->
 
     <section class="content-section related-services ai-related">
@@ -949,7 +984,7 @@ get_header();
 
             <div class="related-services-header">
 
-                <span class="advent-eyebrow">
+                <span class="eyebrow">
                     RELATED SERVICES
                 </span>
 
@@ -968,22 +1003,25 @@ get_header();
 
             <div class="related-services-grid">
 
-
                 <a href="<?php echo esc_url(
                                 home_url('/security-services/security-guard-services/')
                             ); ?>"
                     class="related-service-card">
 
-                    <div class="related-service-icon">
-                        <i class="bi bi-shield-shaded"></i>
+                    <div class="related-service-content">
+
+                        <h3 class="related-service-title">
+                            Security Guard Services
+                        </h3>
+
+                        <span>
+                            On-site professional security coverage
+                        </span>
+
                     </div>
 
-                    <h3 class="related-service-title">
-                        Security Guard Services
-                    </h3>
-
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        →
                     </span>
 
                 </a>
@@ -994,16 +1032,20 @@ get_header();
                             ); ?>"
                     class="related-service-card">
 
-                    <div class="related-service-icon">
-                        <i class="bi bi-display"></i>
+                    <div class="related-service-content">
+
+                        <h3 class="related-service-title">
+                            Remote Monitoring
+                        </h3>
+
+                        <span>
+                            Remote surveillance and security awareness
+                        </span>
+
                     </div>
 
-                    <h3 class="related-service-title">
-                        Remote Monitoring
-                    </h3>
-
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        →
                     </span>
 
                 </a>
@@ -1014,16 +1056,20 @@ get_header();
                             ); ?>"
                     class="related-service-card">
 
-                    <div class="related-service-icon">
-                        <i class="bi bi-clipboard2-pulse"></i>
+                    <div class="related-service-content">
+
+                        <h3 class="related-service-title">
+                            Security Consulting
+                        </h3>
+
+                        <span>
+                            Security planning and risk assessment
+                        </span>
+
                     </div>
 
-                    <h3 class="related-service-title">
-                        Security Consulting
-                    </h3>
-
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        →
                     </span>
 
                 </a>
@@ -1034,60 +1080,23 @@ get_header();
                             ); ?>"
                     class="related-service-card">
 
-                    <div class="related-service-icon">
-                        <i class="bi bi-shield-check"></i>
+                    <div class="related-service-content">
+
+                        <h3 class="related-service-title">
+                            Loss Prevention
+                        </h3>
+
+                        <span>
+                            Protection against operational and retail loss
+                        </span>
+
                     </div>
 
-                    <h3 class="related-service-title">
-                        Loss Prevention
-                    </h3>
-
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        →
                     </span>
 
                 </a>
-
-
-                <a href="<?php echo esc_url(
-                                home_url('/security-services/gatehouse-security/')
-                            ); ?>"
-                    class="related-service-card">
-
-                    <div class="related-service-icon">
-                        <i class="bi bi-door-open"></i>
-                    </div>
-
-                    <h3 class="related-service-title">
-                        Gatehouse Security
-                    </h3>
-
-                    <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
-                    </span>
-
-                </a>
-
-
-                <a href="<?php echo esc_url(
-                                home_url('/security-services/emergency-response/')
-                            ); ?>"
-                    class="related-service-card">
-
-                    <div class="related-service-icon">
-                        <i class="bi bi-lightning-charge"></i>
-                    </div>
-
-                    <h3 class="related-service-title">
-                        Emergency Response
-                    </h3>
-
-                    <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
-                    </span>
-
-                </a>
-
 
             </div>
 
@@ -1119,15 +1128,10 @@ get_header();
 
                 </div>
 
-                <a href="<?php echo esc_url(home_url('/contact/')); ?>">
-                    DISCUSS YOUR SECURITY REQUIREMENTS →
-                </a>
-
             </div>
 
 
             <div class="faq-list">
-
 
                 <details>
 
@@ -1216,7 +1220,6 @@ get_header();
 
                 </details>
 
-
             </div>
 
         </div>
@@ -1236,7 +1239,7 @@ get_header();
 
                 <div>
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         SMARTER SECURITY
                     </span>
 
@@ -1259,7 +1262,7 @@ get_header();
 
                     Request a Security Assessment
 
-                    <i class="bi bi-arrow-up-right"></i>
+                    <i class="btn-arrow">→</i>
 
                 </a>
 

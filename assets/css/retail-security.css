@@ -6,20 +6,50 @@
    RETAIL SECTION HEADINGS
 ========================================================= */
 
-/* .retail-security-page h2 {
+.retail-security-page h2 {
     margin: 0;
 
     color: var(--color-text);
 
-    font-size: clamp(46px, 4.4vw, 62px);
+    font-size: clamp(42px, 4.2vw, 58px);
     font-weight: 600;
-    line-height: 0.98;
-    letter-spacing: -2.5px;
+    line-height: 1.05;
+    letter-spacing: -2px;
 }
 
 .retail-security-page h2 span {
     color: var(--color-primary);
-} */
+}
+
+/* =========================================================
+   RETAIL CARD / SUBSECTION HEADINGS
+========================================================= */
+
+.retail-security-page h3 {
+    color: var(--color-text);
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.retail-protect-card h3 {
+    font-size: 23px;
+}
+
+.retail-service-grid .service-card h3 {
+    font-size: 22px;
+}
+
+.retail-day-content h3 {
+    font-size: 22px;
+}
+
+.retail-environments .industry-card h3 {
+    font-size: 21px;
+}
+
+.retail-process .service-card h3 {
+    font-size: 22px;
+}
 
 /* =========================================================
    RETAIL HERO
@@ -40,6 +70,9 @@
 .retail-hero-image {
     height: 680px;
 }
+.retail-hero-image img {
+    object-position: 88% center;
+}
 
 /* =========================================================
    RETAIL GENERAL SECTION SPACING
@@ -48,7 +81,7 @@
 .retail-security-page .content-section {
     padding: 120px 0;
     border-top: 1px solid var(--color-border);
-    border-bottom: 0px;
+    border-bottom: 0;
 }
 
 .retail-security-page .industries-section {
@@ -90,9 +123,6 @@
 
 .retail-protection-strip {
     margin-top: 70px !important;
-
-    /* border-top: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border); */
 }
 
 .retail-protection-strip .feature-item {
@@ -157,12 +187,6 @@
 
 .retail-protect-card h3 {
     margin: 55px 0 16px;
-
-    color: var(--color-text);
-
-    font-size: 23px;
-    font-weight: 500;
-    line-height: 1.2;
 }
 
 .retail-protect-card p {
@@ -202,8 +226,6 @@
     margin-top: 38px;
 
     max-width: 360px;
-
-    font-size: 21px;
 }
 
 .retail-service-grid .service-card p {
@@ -218,7 +240,7 @@
 }
 
 .retail-service-grid .service-card:hover p {
-    color: #000000;
+    color: var(--color-text);
 }
 
 /* =========================================================
@@ -252,8 +274,6 @@
     display: grid;
     grid-template-columns: 0px 1fr;
 
-    /* gap: 25px; */
-
     padding: 28px 0;
 
     border-bottom: 1px solid var(--color-border);
@@ -269,12 +289,6 @@
 
 .retail-day-content h3 {
     margin: 0 0 10px;
-
-    color: var(--color-text);
-
-    font-size: 23px;
-    font-weight: 500;
-    line-height: 1.15;
 }
 
 .retail-day-content p {
@@ -312,6 +326,7 @@
 
 .retail-approach .section-content h2 {
     max-width: 680px;
+
     margin-bottom: 28px;
 }
 
@@ -347,9 +362,6 @@
 
 .retail-environments .industry-card h3 {
     margin-bottom: 14px;
-
-    font-size: 20px;
-    font-weight: 500;
 }
 
 .retail-environments .industry-card p {
@@ -393,7 +405,7 @@
 }
 
 .retail-process .service-card:hover p {
-    color: #000000;
+    color: var(--color-text);
 }
 
 /* =========================================================
@@ -404,33 +416,33 @@
     max-width: 720px;
 }
 
-.retail-faq .faq-list {
+/* .retail-faq .faq-list {
     max-width: 1100px;
-}
+} */
 
 /* =========================================================
    RETAIL CTA
 ========================================================= */
 
 .retail-cta h2 {
-    max-width: 850px;
+    max-width: 800px;
+    margin: 0;
+    color: #000000;
+    font-size: clamp(34px, 3.5vw, 48px);
+    line-height: 1;
+    margin-bottom: 12px;
 }
 
-.retail-cta .advent-btn-dark {
-    flex-shrink: 0;
-
-    background: #050505;
-    border-color: #050505;
+.retail-cta h2 span {
     color: #ffffff;
 }
 
-.retail-cta .advent-btn-dark::before {
-    background: #ffffff;
+.retail-cta .eyebrow {
+    color: #000000;
 }
 
-.retail-cta .advent-btn-dark:hover {
-    color: #050505;
-    border-color: #ffffff;
+.retail-cta p {
+    font-size: 14px;
 }
 
 /* =========================================================
@@ -490,11 +502,15 @@
 ========================================================= */
 
 @media (max-width: 767.98px) {
+    /* Main section headings */
+
     .retail-security-page h2 {
-        font-size: 38px;
-        line-height: 1;
-        letter-spacing: -1.7px;
+        font-size: 32px;
+        line-height: 1.05;
+        letter-spacing: -1.5px;
     }
+
+    /* Section spacing */
 
     .retail-security-page .content-section,
     .retail-security-page .industries-section,
@@ -502,7 +518,9 @@
         padding: 80px 0;
     }
 
-    /* Hero */
+    /* =====================================================
+       HERO
+    ====================================================== */
 
     .retail-hero .hero-content {
         min-height: auto;
@@ -514,7 +532,9 @@
         height: 420px;
     }
 
-    /* Challenge */
+    /* =====================================================
+       CHALLENGE
+    ====================================================== */
 
     .retail-protection-strip {
         margin-top: 45px !important;
@@ -530,7 +550,9 @@
         max-width: none;
     }
 
-    /* Section intro */
+    /* =====================================================
+       SECTION INTRO
+    ====================================================== */
 
     .retail-section-intro {
         margin-bottom: 40px;
@@ -540,7 +562,9 @@
         margin: 25px 0 0;
     }
 
-    /* Protection */
+    /* =====================================================
+       PROTECTION
+    ====================================================== */
 
     .retail-protect-grid {
         margin-top: 35px;
@@ -556,7 +580,9 @@
         margin-top: 35px;
     }
 
-    /* Services */
+    /* =====================================================
+       SERVICES
+    ====================================================== */
 
     .retail-services > .container > h2 {
         margin-bottom: 40px;
@@ -572,7 +598,9 @@
         padding: 25px;
     }
 
-    /* Typical day */
+    /* =====================================================
+       TYPICAL DAY
+    ====================================================== */
 
     .retail-day .col-lg-5 > p {
         margin-top: 25px;
@@ -590,7 +618,9 @@
         font-size: 20px;
     }
 
-    /* Approach */
+    /* =====================================================
+       APPROACH
+    ====================================================== */
 
     .retail-approach-image,
     .retail-approach-image img {
@@ -598,7 +628,9 @@
         min-height: 350px;
     }
 
-    /* Environments */
+    /* =====================================================
+       ENVIRONMENTS
+    ====================================================== */
 
     .retail-environments .industries-intro {
         margin-bottom: 40px;
@@ -610,7 +642,9 @@
         padding: 25px;
     }
 
-    /* Why Advent */
+    /* =====================================================
+       WHY ADVENT
+    ====================================================== */
 
     .retail-process {
         grid-template-columns: 1fr;
@@ -620,7 +654,9 @@
         min-height: 200px;
     }
 
-    /* FAQ */
+    /* =====================================================
+       FAQ
+    ====================================================== */
 
     .retail-faq .faq-header {
         display: block;
@@ -634,7 +670,9 @@
         margin-top: 25px;
     }
 
-    /* CTA */
+    /* =====================================================
+       CTA
+    ====================================================== */
 
     .retail-cta .cta-inner {
         display: block;

@@ -21,7 +21,7 @@ get_header();
 
                 <div class="emergency-hero-content">
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         EMERGENCY RESPONSE
                     </span>
 
@@ -59,7 +59,7 @@ get_header();
                     <img
                         src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                        . '/assets/images/emergency-response-hero.jpg'
+                                        . '/assets/images/emergency-response/emergency-response1.webp'
                                 ); ?>"
                         alt="Professional emergency response security personnel">
 
@@ -82,7 +82,54 @@ get_header();
 
     </section>
 
+    <!-- =========================================================
+     PROOF / CREDIBILITY STRIP
+    ========================================================= -->
+    <section class="integrated-proof">
+        <div class="container-fluid integrated-proof-grid">
 
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    36+ YEARS
+                </span>
+
+                <strong>
+                    Established experience
+                </strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    AUSTRALIAN-OWNED
+                </span>
+
+                <strong>
+                    Family business
+                </strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    ASIAL
+                </span>
+
+                <strong>
+                    Platinum Level member
+                </strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    ISO 27001:2022
+                </span>
+
+                <strong>
+                    Information security
+                </strong>
+            </div>
+
+        </div>
+    </section>
     <!-- =========================================================
          OVERVIEW
     ========================================================== -->
@@ -95,7 +142,7 @@ get_header();
 
                 <div class="emergency-overview-intro">
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         WHEN SECURITY CHANGES
                     </span>
 
@@ -158,7 +205,7 @@ get_header();
 
                 <div>
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         RESPONSE SUPPORT
                     </span>
 
@@ -280,7 +327,7 @@ get_header();
                     <img
                         src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                        . '/assets/images/emergency-response-security.jpg'
+                                        . '/assets/images/emergency-response/emergency-response2.webp'
                                 ); ?>"
                         alt="Security professional providing emergency response support">
 
@@ -294,7 +341,7 @@ get_header();
 
                 <div class="emergency-capabilities-content">
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         RESPONSE CAPABILITIES
                     </span>
 
@@ -421,7 +468,7 @@ get_header();
 
                 <div>
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         RESPONSE APPROACH
                     </span>
 
@@ -553,7 +600,7 @@ get_header();
 
                 <div class="emergency-preparedness-content">
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         PREPAREDNESS &amp; COORDINATION
                     </span>
 
@@ -625,7 +672,7 @@ get_header();
 
                 <div>
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         INDUSTRIES WE SUPPORT
                     </span>
 
@@ -775,7 +822,7 @@ get_header();
 
                 <div class="emergency-why-heading">
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         WHY ADVENT
                     </span>
 
@@ -878,7 +925,7 @@ get_header();
 
             <div class="related-services-header">
 
-                <span class="advent-eyebrow">
+                <span class="eyebrow">
                     RELATED SERVICES
                 </span>
 
@@ -913,7 +960,7 @@ get_header();
                     </h3>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -933,7 +980,7 @@ get_header();
                     </h3>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -953,7 +1000,7 @@ get_header();
                     </h3>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -973,7 +1020,7 @@ get_header();
                     </h3>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -993,7 +1040,7 @@ get_header();
                     </h3>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -1013,7 +1060,7 @@ get_header();
                     </h3>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -1049,15 +1096,10 @@ get_header();
 
                 </div>
 
-                <a href="<?php echo esc_url(home_url('/contact/')); ?>">
-                    DISCUSS YOUR SECURITY REQUIREMENTS →
-                </a>
-
             </div>
 
 
             <div class="faq-list">
-
 
                 <details>
 
@@ -1165,7 +1207,7 @@ get_header();
 
                 <div>
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         BE PREPARED
                     </span>
 
@@ -1188,7 +1230,7 @@ get_header();
 
                     Request a Security Assessment
 
-                    <i class="bi bi-arrow-up-right"></i>
+                    <i class="btn-arrow">→</i>
 
                 </a>
 

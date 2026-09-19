@@ -57,6 +57,55 @@ get_header();
         </div>
     </section>
 
+    <!-- =========================================================
+     PROOF / CREDIBILITY STRIP
+    ========================================================= -->
+    <section class="integrated-proof">
+        <div class="container-fluid integrated-proof-grid">
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    36+ YEARS
+                </span>
+
+                <strong>
+                    Established experience
+                </strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    AUSTRALIAN-OWNED
+                </span>
+
+                <strong>
+                    Family business
+                </strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    ASIAL
+                </span>
+
+                <strong>
+                    Platinum Level member
+                </strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    ISO 27001:2022
+                </span>
+
+                <strong>
+                    Information security
+                </strong>
+            </div>
+
+        </div>
+    </section>
+
 
     <!-- =========================================================
          OVERVIEW
@@ -665,7 +714,7 @@ get_header();
                     </h3>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -683,7 +732,7 @@ get_header();
                     </h3>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -701,7 +750,7 @@ get_header();
                     </h3>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -719,7 +768,7 @@ get_header();
                     </h3>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -737,7 +786,7 @@ get_header();
                     </h3>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -755,7 +804,7 @@ get_header();
                     </h3>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -921,7 +970,7 @@ get_header();
                 <a href="<?php echo esc_url(home_url('/contact/')); ?>"
                     class="advent-btn advent-btn-dark">
                     Request a Security Assessment
-                    <i class="bi bi-arrow-up-right"></i>
+                    <i class="btn-arrow">→</i>
                 </a>
 
             </div>

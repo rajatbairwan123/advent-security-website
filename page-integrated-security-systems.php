@@ -65,15 +65,13 @@ get_header();
     </section>
 
 
-    <!-- =========================================
-         PROOF STRIP
-    ========================================== -->
+    <!-- =========================================================
+     PROOF / CREDIBILITY STRIP
+    ========================================================= -->
     <section class="integrated-proof">
-
-        <div class="container integrated-proof-grid">
+        <div class="container-fluid integrated-proof-grid">
 
             <div class="integrated-proof-item">
-
                 <span class="integrated-proof-label">
                     36+ YEARS
                 </span>
@@ -81,11 +79,9 @@ get_header();
                 <strong>
                     Established experience
                 </strong>
-
             </div>
 
             <div class="integrated-proof-item">
-
                 <span class="integrated-proof-label">
                     AUSTRALIAN-OWNED
                 </span>
@@ -93,11 +89,9 @@ get_header();
                 <strong>
                     Family business
                 </strong>
-
             </div>
 
             <div class="integrated-proof-item">
-
                 <span class="integrated-proof-label">
                     ASIAL
                 </span>
@@ -105,11 +99,9 @@ get_header();
                 <strong>
                     Platinum Level member
                 </strong>
-
             </div>
 
             <div class="integrated-proof-item">
-
                 <span class="integrated-proof-label">
                     ISO 27001:2022
                 </span>
@@ -117,11 +109,9 @@ get_header();
                 <strong>
                     Information security
                 </strong>
-
             </div>
 
         </div>
-
     </section>
 
 

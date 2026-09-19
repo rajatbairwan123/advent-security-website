@@ -17,7 +17,7 @@ get_header();
             <div class="bodyguard-hero-layout">
 
                 <div class="bodyguard-hero-content">
-                    <span class="advent-eyebrow">BODYGUARD SERVICES</span>
+                    <span class="eyebrow">BODYGUARD SERVICES</span>
 
                     <h1>
                         Protection That
@@ -45,7 +45,7 @@ get_header();
 
                 <div class="bodyguard-hero-image">
                     <img
-                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/bodyguard-services-hero.jpg'); ?>"
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/bodyguard-services/Bodyguard Services-2.webp'); ?>"
                         alt="Professional bodyguard providing discreet personal security">
 
                     <div class="bodyguard-hero-caption">
@@ -58,6 +58,54 @@ get_header();
         </div>
     </section>
 
+    <!-- =========================================================
+     PROOF / CREDIBILITY STRIP
+    ========================================================= -->
+    <section class="integrated-proof">
+        <div class="container-fluid integrated-proof-grid">
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    36+ YEARS
+                </span>
+
+                <strong>
+                    Established experience
+                </strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    AUSTRALIAN-OWNED
+                </span>
+
+                <strong>
+                    Family business
+                </strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    ASIAL
+                </span>
+
+                <strong>
+                    Platinum Level member
+                </strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    ISO 27001:2022
+                </span>
+
+                <strong>
+                    Information security
+                </strong>
+            </div>
+
+        </div>
+    </section>
 
     <!-- =====================================================
          INTRO / PERSONAL PROTECTION
@@ -67,7 +115,7 @@ get_header();
             <div class="bodyguard-intro-layout">
 
                 <div class="bodyguard-intro-heading">
-                    <span class="advent-eyebrow">PERSONAL SECURITY</span>
+                    <span class="eyebrow">PERSONAL SECURITY</span>
 
                     <h2>
                         Security Should Feel
@@ -105,7 +153,6 @@ get_header();
         </div>
     </section>
 
-
     <!-- =====================================================
          IMAGE SECTION 1 — DISCREET PROTECTION
          ===================================================== -->
@@ -116,13 +163,13 @@ get_header();
 
                 <div class="bodyguard-image-story-image">
                     <img
-                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/bodyguard-discreet-protection.jpg'); ?>"
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/bodyguard-services/Bodyguard-Services1.webp'); ?>"
                         alt="Discreet close protection for an executive client">
                 </div>
 
                 <div class="bodyguard-image-story-content">
 
-                    <span class="advent-eyebrow">DISCREET PROTECTION</span>
+                    <span class="eyebrow">DISCREET PROTECTION</span>
 
                     <h2>
                         The Right Security
@@ -140,7 +187,6 @@ get_header();
                     <div class="bodyguard-story-points">
 
                         <div class="bodyguard-story-point">
-                            <i class="bi bi-person-check"></i>
                             <div>
                                 <h3>Professional Presence</h3>
                                 <p>
@@ -152,7 +198,6 @@ get_header();
                         </div>
 
                         <div class="bodyguard-story-point">
-                            <i class="bi bi-eye"></i>
                             <div>
                                 <h3>Situational Awareness</h3>
                                 <p>
@@ -163,7 +208,6 @@ get_header();
                         </div>
 
                         <div class="bodyguard-story-point">
-                            <i class="bi bi-shield-check"></i>
                             <div>
                                 <h3>Prepared Response</h3>
                                 <p>
@@ -182,15 +226,15 @@ get_header();
         </div>
     </section>
 
-
-    <!-- =====================================================
-         PROTECTION SERVICES
-         ===================================================== -->
+    <!-- =========================================================
+     PROTECTION SERVICES
+========================================================= -->
     <section class="bodyguard-protection-services">
+
         <div class="container">
 
             <div class="bodyguard-section-heading">
-                <span class="advent-eyebrow">PROTECTION SERVICES</span>
+                <span class="eyebrow">PROTECTION SERVICES</span>
 
                 <h2>
                     Personal Security
@@ -200,22 +244,16 @@ get_header();
                 <p>
                     Every client and every assignment is different. Our
                     protection services can be adapted to the environment,
-                    schedule, level of exposure, and practical requirements of
-                    the individual.
+                    schedule, level of exposure, and practical requirements
+                    of the individual.
                 </p>
             </div>
-
 
             <div class="bodyguard-service-list">
 
                 <article class="bodyguard-service-item">
-                    <div class="bodyguard-service-icon">
-                        <i class="bi bi-briefcase"></i>
-                    </div>
-
                     <div class="bodyguard-service-content">
                         <h3>Executive Protection</h3>
-
                         <p>
                             Personal security support for executives and
                             business leaders during meetings, travel, public
@@ -224,15 +262,9 @@ get_header();
                     </div>
                 </article>
 
-
                 <article class="bodyguard-service-item">
-                    <div class="bodyguard-service-icon">
-                        <i class="bi bi-car-front"></i>
-                    </div>
-
                     <div class="bodyguard-service-content">
                         <h3>Secure Travel &amp; Transportation</h3>
-
                         <p>
                             Protection support while travelling between
                             airports, offices, hotels, meetings, events, and
@@ -241,15 +273,9 @@ get_header();
                     </div>
                 </article>
 
-
                 <article class="bodyguard-service-item">
-                    <div class="bodyguard-service-icon">
-                        <i class="bi bi-people"></i>
-                    </div>
-
                     <div class="bodyguard-service-content">
                         <h3>Family &amp; Private Protection</h3>
-
                         <p>
                             Discreet personal security for families and private
                             clients who require additional protection during
@@ -258,15 +284,9 @@ get_header();
                     </div>
                 </article>
 
-
                 <article class="bodyguard-service-item">
-                    <div class="bodyguard-service-icon">
-                        <i class="bi bi-calendar-event"></i>
-                    </div>
-
                     <div class="bodyguard-service-content">
                         <h3>Event &amp; Appearance Protection</h3>
-
                         <p>
                             Personal protection for public appearances,
                             corporate events, private functions, and other
@@ -275,15 +295,9 @@ get_header();
                     </div>
                 </article>
 
-
                 <article class="bodyguard-service-item">
-                    <div class="bodyguard-service-icon">
-                        <i class="bi bi-airplane"></i>
-                    </div>
-
                     <div class="bodyguard-service-content">
                         <h3>Travel Security</h3>
-
                         <p>
                             Protection planning and close protection support
                             for domestic and international travel requirements.
@@ -291,15 +305,9 @@ get_header();
                     </div>
                 </article>
 
-
                 <article class="bodyguard-service-item">
-                    <div class="bodyguard-service-icon">
-                        <i class="bi bi-building-check"></i>
-                    </div>
-
                     <div class="bodyguard-service-content">
                         <h3>Residential Protection</h3>
-
                         <p>
                             Personal security support around residences and
                             private properties where clients require an
@@ -311,8 +319,8 @@ get_header();
             </div>
 
         </div>
-    </section>
 
+    </section>
 
     <!-- =====================================================
          WHEN PROTECTION IS NEEDED
@@ -323,7 +331,7 @@ get_header();
             <div class="bodyguard-situations-layout">
 
                 <div class="bodyguard-situations-intro">
-                    <span class="advent-eyebrow">WHEN PROTECTION MATTERS</span>
+                    <span class="eyebrow">WHEN PROTECTION MATTERS</span>
 
                     <h2>
                         Security That Adapts
@@ -337,11 +345,9 @@ get_header();
                     </p>
                 </div>
 
-
                 <div class="bodyguard-situations-grid">
 
                     <div class="bodyguard-situation">
-                        <i class="bi bi-person-workspace"></i>
                         <h3>Executive Travel</h3>
                         <p>
                             Security support during business travel, meetings,
@@ -350,7 +356,6 @@ get_header();
                     </div>
 
                     <div class="bodyguard-situation">
-                        <i class="bi bi-mic"></i>
                         <h3>Public Appearances</h3>
                         <p>
                             Additional protection around appearances,
@@ -359,7 +364,6 @@ get_header();
                     </div>
 
                     <div class="bodyguard-situation">
-                        <i class="bi bi-house-lock"></i>
                         <h3>Private Residences</h3>
                         <p>
                             Personal security support for clients and families
@@ -368,7 +372,6 @@ get_header();
                     </div>
 
                     <div class="bodyguard-situation">
-                        <i class="bi bi-calendar2-check"></i>
                         <h3>Special Events</h3>
                         <p>
                             Close protection support for important private and
@@ -377,7 +380,6 @@ get_header();
                     </div>
 
                     <div class="bodyguard-situation">
-                        <i class="bi bi-globe2"></i>
                         <h3>Travel Abroad</h3>
                         <p>
                             Security planning and protection support for
@@ -386,7 +388,6 @@ get_header();
                     </div>
 
                     <div class="bodyguard-situation">
-                        <i class="bi bi-shield-exclamation"></i>
                         <h3>Increased Risk</h3>
                         <p>
                             Additional personal protection when circumstances
@@ -401,7 +402,6 @@ get_header();
         </div>
     </section>
 
-
     <!-- =====================================================
          IMAGE SECTION 2 — EXECUTIVE PROTECTION
          ===================================================== -->
@@ -412,7 +412,7 @@ get_header();
 
                 <div class="bodyguard-executive-content">
 
-                    <span class="advent-eyebrow">EXECUTIVE PROTECTION</span>
+                    <span class="eyebrow">EXECUTIVE PROTECTION</span>
 
                     <h2>
                         Confidence To Focus
@@ -442,7 +442,7 @@ get_header();
                 <div class="bodyguard-executive-image">
 
                     <img
-                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/bodyguard-executive-protection.jpg'); ?>"
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/bodyguard-services/body-guard3.jpeg'); ?>"
                         alt="Executive protection and professional bodyguard service">
 
                     <div class="bodyguard-image-label">
@@ -457,7 +457,6 @@ get_header();
         </div>
     </section>
 
-
     <!-- =====================================================
          HOW WE WORK
          ===================================================== -->
@@ -465,7 +464,7 @@ get_header();
         <div class="container">
 
             <div class="bodyguard-process-header">
-                <span class="advent-eyebrow">OUR APPROACH</span>
+                <span class="eyebrow">OUR APPROACH</span>
 
                 <h2>
                     Protection Starts
@@ -479,123 +478,41 @@ get_header();
                 </p>
             </div>
 
-
             <div class="bodyguard-process-flow">
 
                 <div class="bodyguard-process-step">
-                    <div class="bodyguard-process-marker">
-                        <i class="bi bi-chat-left-text"></i>
-                    </div>
-
-                    <div>
-                        <h3>Understand</h3>
-                        <p>
-                            We begin by understanding your schedule,
-                            environment, concerns, and security expectations.
-                        </p>
-                    </div>
-                </div>
-
-
-                <div class="bodyguard-process-step">
-                    <div class="bodyguard-process-marker">
-                        <i class="bi bi-search"></i>
-                    </div>
-
-                    <div>
-                        <h3>Assess</h3>
-                        <p>
-                            Relevant locations, movements, activities, and
-                            potential security considerations are reviewed.
-                        </p>
-                    </div>
-                </div>
-
-
-                <div class="bodyguard-process-step">
-                    <div class="bodyguard-process-marker">
-                        <i class="bi bi-person-badge"></i>
-                    </div>
-
-                    <div>
-                        <h3>Protect</h3>
-                        <p>
-                            Appropriate personnel and protection measures are
-                            coordinated around the assignment.
-                        </p>
-                    </div>
-                </div>
-
-
-                <div class="bodyguard-process-step">
-                    <div class="bodyguard-process-marker">
-                        <i class="bi bi-arrow-repeat"></i>
-                    </div>
-
-                    <div>
-                        <h3>Adapt</h3>
-                        <p>
-                            Security arrangements can adapt when schedules,
-                            locations, or circumstances change.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- =====================================================
-         IMAGE SECTION 3 — DISCREET PRESENCE
-         ===================================================== -->
-    <section class="bodyguard-discreet-section">
-        <div class="container-fluid px-0">
-
-            <div class="bodyguard-discreet-layout">
-
-                <div class="bodyguard-discreet-image">
-                    <img
-                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/bodyguard-discreet-security.jpg'); ?>"
-                        alt="Discreet professional bodyguard providing close protection">
-                </div>
-
-                <div class="bodyguard-discreet-content">
-
-                    <span class="advent-eyebrow">DISCRETION &amp; PROFESSIONALISM</span>
-
-                    <h2>
-                        Protection Without
-                        <span>Unnecessary Attention.</span>
-                    </h2>
-
+                    <h3>Understand</h3>
                     <p>
-                        A bodyguard's presence should be appropriate to the
-                        environment. For many clients, the ideal protection
-                        feels natural and professional rather than disruptive.
+                        We begin by understanding your schedule,
+                        environment, concerns, and security expectations.
                     </p>
 
+                </div>
+
+                <div class="bodyguard-process-step">
+                    <h3>Assess</h3>
                     <p>
-                        Advent focuses on respectful communication, awareness,
-                        preparation, and a measured security presence. Whether
-                        supporting an executive meeting, private event, travel
-                        schedule, or family activity, our objective is to help
-                        clients feel secure while allowing them to continue
-                        with what they need to do.
+                        Relevant locations, movements, activities, and
+                        potential security considerations are reviewed.
                     </p>
 
-                    <div class="bodyguard-discreet-note">
-                        <i class="bi bi-shield-check"></i>
+                </div>
 
-                        <div>
-                            <strong>Professional. Prepared. Discreet.</strong>
-                            <span>
-                                Personal security designed around the person,
-                                not simply the location.
-                            </span>
-                        </div>
-                    </div>
+                <div class="bodyguard-process-step">
+                    <h3>Protect</h3>
+                    <p>
+                        Appropriate personnel and protection measures are
+                        coordinated around the assignment.
+                    </p>
+
+                </div>
+
+                <div class="bodyguard-process-step">
+                    <h3>Adapt</h3>
+                    <p>
+                        Security arrangements can adapt when schedules,
+                        locations, or circumstances change.
+                    </p>
 
                 </div>
 
@@ -604,15 +521,14 @@ get_header();
         </div>
     </section>
 
-
-    <!-- =====================================================
-         CLIENT TYPES / ENVIRONMENTS
-         ===================================================== -->
+    <!-- =========================================================
+     CLIENT TYPES / ENVIRONMENTS
+    ========================================================= -->
     <section class="bodyguard-industries">
         <div class="container">
 
             <div class="bodyguard-industries-header">
-                <span class="advent-eyebrow">WHO WE SUPPORT</span>
+                <span class="eyebrow">WHO WE SUPPORT</span>
 
                 <h2>
                     Personal Protection
@@ -620,74 +536,45 @@ get_header();
                 </h2>
             </div>
 
-
             <div class="bodyguard-industries-list">
 
                 <div class="bodyguard-industry">
-                    <div class="bodyguard-industry-icon">
-                        <i class="bi bi-person-workspace"></i>
-                    </div>
-
-                    <div>
-                        <h3>Executives &amp; Business Leaders</h3>
-                        <p>
-                            Protection support for business leaders managing
-                            demanding schedules, travel, meetings, and public
-                            commitments.
-                        </p>
-                    </div>
+                    <h3>Executives &amp; Business Leaders</h3>
+                    <p>
+                        Protection support for business leaders managing
+                        demanding schedules, travel, meetings, and public
+                        commitments.
+                    </p>
                 </div>
 
-
                 <div class="bodyguard-industry">
-                    <div class="bodyguard-industry-icon">
-                        <i class="bi bi-people"></i>
-                    </div>
-
-                    <div>
-                        <h3>Private Clients &amp; Families</h3>
-                        <p>
-                            Discreet security support designed around family
-                            routines, travel, residences, and private events.
-                        </p>
-                    </div>
+                    <h3>Private Clients &amp; Families</h3>
+                    <p>
+                        Discreet security support designed around family
+                        routines, travel, residences, and private events.
+                    </p>
                 </div>
 
-
                 <div class="bodyguard-industry">
-                    <div class="bodyguard-industry-icon">
-                        <i class="bi bi-camera-reels"></i>
-                    </div>
-
-                    <div>
-                        <h3>Public &amp; High-Profile Guests</h3>
-                        <p>
-                            Professional protection for appearances, events,
-                            engagements, and movement between locations.
-                        </p>
-                    </div>
+                    <h3>Public &amp; High-Profile Guests</h3>
+                    <p>
+                        Professional protection for appearances, events,
+                        engagements, and movement between locations.
+                    </p>
                 </div>
 
-
                 <div class="bodyguard-industry">
-                    <div class="bodyguard-industry-icon">
-                        <i class="bi bi-building"></i>
-                    </div>
-
-                    <div>
-                        <h3>Corporate Events</h3>
-                        <p>
-                            Personal security support for executives, VIP
-                            guests, and important corporate occasions.
-                        </p>
-                    </div>
+                    <h3>Corporate Events</h3>
+                    <p>
+                        Personal security support for executives, VIP
+                        guests, and important corporate occasions.
+                    </p>
                 </div>
 
             </div>
 
         </div>
     </section>
-
 
     <!-- =====================================================
          WHY ADVENT
@@ -698,7 +585,7 @@ get_header();
             <div class="bodyguard-why-layout">
 
                 <div class="bodyguard-why-intro">
-                    <span class="advent-eyebrow">WHY ADVENT</span>
+                    <span class="eyebrow">WHY ADVENT</span>
 
                     <h2>
                         Security Built Around
@@ -711,64 +598,59 @@ get_header();
                         communication, preparedness, and respect for the
                         client's privacy.
                     </p>
+
+                    <div class="bodyguard-why-note">
+                        <span class="bodyguard-why-note-label">DISCRETION &amp; PROFESSIONALISM</span>
+                        <strong>Protection should support the client without creating unnecessary attention.</strong>
+                        <p>
+                            Advent focuses on respectful communication, awareness,
+                            preparation, and a measured security presence so clients
+                            can continue with their schedules while maintaining
+                            appropriate personal protection.
+                        </p>
+                    </div>
                 </div>
 
-
                 <div class="bodyguard-why-values">
-
                     <div class="bodyguard-why-value">
-                        <i class="bi bi-shield-check"></i>
 
-                        <div>
-                            <h3>Professional Security Personnel</h3>
-                            <p>
-                                Protection assignments are supported by trained
-                                security professionals suited to the
-                                requirements of the assignment.
-                            </p>
-                        </div>
+                        <h3>Professional Security Personnel</h3>
+                        <p>
+                            Protection assignments are supported by trained
+                            security professionals suited to the
+                            requirements of the assignment.
+                        </p>
+
                     </div>
-
-
                     <div class="bodyguard-why-value">
-                        <i class="bi bi-eye"></i>
 
-                        <div>
-                            <h3>Situational Awareness</h3>
-                            <p>
-                                Security teams maintain awareness of people,
-                                surroundings, movements, and changing
-                                circumstances.
-                            </p>
-                        </div>
+                        <h3>Situational Awareness</h3>
+                        <p>
+                            Security teams maintain awareness of people,
+                            surroundings, movements, and changing
+                            circumstances.
+                        </p>
+
                     </div>
-
-
                     <div class="bodyguard-why-value">
-                        <i class="bi bi-lock"></i>
 
-                        <div>
-                            <h3>Respect for Privacy</h3>
-                            <p>
-                                Personal protection is delivered with
-                                discretion and respect for the client's
-                                privacy and routine.
-                            </p>
-                        </div>
+                        <h3>Respect for Privacy</h3>
+                        <p>
+                            Personal protection is delivered with
+                            discretion and respect for the client's
+                            privacy and routine.
+                        </p>
+
                     </div>
-
-
                     <div class="bodyguard-why-value">
-                        <i class="bi bi-diagram-3"></i>
 
-                        <div>
-                            <h3>Integrated Security</h3>
-                            <p>
-                                Bodyguard services can complement other
-                                security measures such as CCTV, access
-                                control, guarding, and monitoring.
-                            </p>
-                        </div>
+                        <h3>Integrated Security</h3>
+                        <p>
+                            Bodyguard services can complement other
+                            security measures such as CCTV, access
+                            control, guarding, and monitoring.
+                        </p>
+
                     </div>
 
                 </div>
@@ -777,7 +659,6 @@ get_header();
 
         </div>
     </section>
-
 
     <!-- =====================================================
          RELATED SERVICES
@@ -788,7 +669,7 @@ get_header();
         <div class="container">
 
             <div class="related-services-header">
-                <span class="advent-eyebrow">RELATED SERVICES</span>
+                <span class="eyebrow">RELATED SERVICES</span>
 
                 <h2>
                     Complete Your
@@ -796,112 +677,94 @@ get_header();
                 </h2>
             </div>
 
-
             <div class="related-services-grid">
 
                 <a href="<?php echo esc_url(home_url('/security-services/security-guard-services/')); ?>"
                     class="related-service-card">
 
-                    <span class="related-service-icon">
-                        <i class="bi bi-shield-check"></i>
-                    </span>
+                    <span class="related-service-icon"><i class="bi bi-shield-check"></i></span>
 
                     <span class="related-service-title">
                         Security Guard Services
                     </span>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
 
-
                 <a href="<?php echo esc_url(home_url('/security-services/event-security/')); ?>"
                     class="related-service-card">
 
-                    <span class="related-service-icon">
-                        <i class="bi bi-calendar-event"></i>
-                    </span>
+                    <span class="related-service-icon"><i class="bi bi-calendar-event"></i></span>
 
                     <span class="related-service-title">
                         Event Security
                     </span>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
 
-
                 <a href="<?php echo esc_url(home_url('/security-services/security-consulting/')); ?>"
                     class="related-service-card">
 
-                    <span class="related-service-icon">
-                        <i class="bi bi-clipboard2-check"></i>
-                    </span>
+                    <span class="related-service-icon"><i class="bi bi-clipboard2-check"></i></span>
 
                     <span class="related-service-title">
                         Security Consulting
                     </span>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
 
-
                 <a href="<?php echo esc_url(home_url('/security-services/emergency-response/')); ?>"
                     class="related-service-card">
 
-                    <span class="related-service-icon">
-                        <i class="bi bi-lightning-charge"></i>
-                    </span>
+                    <span class="related-service-icon"><i class="bi bi-lightning-charge"></i></span>
 
                     <span class="related-service-title">
                         Emergency Response
                     </span>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
 
-
                 <a href="<?php echo esc_url(home_url('/security-services/remote-monitoring/')); ?>"
                     class="related-service-card">
 
-                    <span class="related-service-icon">
-                        <i class="bi bi-camera-video"></i>
-                    </span>
+                    <span class="related-service-icon"><i class="bi bi-camera-video"></i></span>
 
                     <span class="related-service-title">
                         Remote Monitoring
                     </span>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
 
-
                 <a href="<?php echo esc_url(home_url('/security-services/ai-surveillance/')); ?>"
                     class="related-service-card">
 
-                    <span class="related-service-icon">
-                        <i class="bi bi-cpu"></i>
-                    </span>
+                    <span class="related-service-icon"><i class="bi bi-cpu"></i></span>
 
                     <span class="related-service-title">
                         AI Surveillance
                     </span>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -912,109 +775,116 @@ get_header();
 
     </section>
 
-
-    <!-- =====================================================
-         FAQ
-         ===================================================== -->
-    <section class="content-section faq-section bodyguard-faq">
+    <!-- =========================================================
+     FAQ
+========================================================= -->
+    <section class="faq-section bodyguard-faq">
 
         <div class="container">
 
-            <div class="section-heading text-center">
-                <span class="advent-eyebrow">FREQUENTLY ASKED QUESTIONS</span>
+            <div class="faq-header">
 
-                <h2>
-                    Bodyguard Services
-                    <span>Questions Answered.</span>
-                </h2>
+                <div>
+
+                    <span class="eyebrow">
+                        FREQUENTLY ASKED QUESTIONS
+                    </span>
+
+                    <h2>
+                        Bodyguard Services
+                        <span>Questions Answered.</span>
+                    </h2>
+
+                </div>
+
             </div>
 
 
             <div class="faq-list">
 
-                <div class="faq-item">
-                    <button class="faq-question" type="button">
-                        <span>What do bodyguard services include?</span>
-                        <i class="bi bi-plus"></i>
-                    </button>
+                <details>
 
-                    <div class="faq-answer">
-                        <p>
-                            Bodyguard services can include close protection,
-                            executive protection, travel security, event
-                            protection, residential support, and other
-                            personal security arrangements depending on the
-                            client's requirements.
-                        </p>
-                    </div>
-                </div>
+                    <summary>
+                        What do bodyguard services include?
+                        <span>+</span>
+                    </summary>
 
+                    <p>
+                        Bodyguard services can include close protection,
+                        executive protection, travel security, event
+                        protection, residential support, and other
+                        personal security arrangements depending on the
+                        client's requirements.
+                    </p>
 
-                <div class="faq-item">
-                    <button class="faq-question" type="button">
-                        <span>Who can benefit from executive protection?</span>
-                        <i class="bi bi-plus"></i>
-                    </button>
-
-                    <div class="faq-answer">
-                        <p>
-                            Executive protection can be suitable for business
-                            leaders, executives, public-facing professionals,
-                            private clients, and others who require additional
-                            personal security.
-                        </p>
-                    </div>
-                </div>
+                </details>
 
 
-                <div class="faq-item">
-                    <button class="faq-question" type="button">
-                        <span>Can bodyguards provide protection while travelling?</span>
-                        <i class="bi bi-plus"></i>
-                    </button>
+                <details>
 
-                    <div class="faq-answer">
-                        <p>
-                            Yes. Personal protection can be planned around
-                            travel schedules, transportation, hotels,
-                            meetings, events, and other destinations.
-                        </p>
-                    </div>
-                </div>
+                    <summary>
+                        Who can benefit from executive protection?
+                        <span>+</span>
+                    </summary>
 
+                    <p>
+                        Executive protection can be suitable for business
+                        leaders, executives, public-facing professionals,
+                        private clients, and others who require additional
+                        personal security.
+                    </p>
 
-                <div class="faq-item">
-                    <button class="faq-question" type="button">
-                        <span>Are bodyguard services suitable for private events?</span>
-                        <i class="bi bi-plus"></i>
-                    </button>
-
-                    <div class="faq-answer">
-                        <p>
-                            Yes. Bodyguards can provide discreet protection for
-                            private functions, corporate events, public
-                            appearances, and other occasions where personal
-                            security is required.
-                        </p>
-                    </div>
-                </div>
+                </details>
 
 
-                <div class="faq-item">
-                    <button class="faq-question" type="button">
-                        <span>Can bodyguard services work with other security measures?</span>
-                        <i class="bi bi-plus"></i>
-                    </button>
+                <details>
 
-                    <div class="faq-answer">
-                        <p>
-                            Yes. Personal protection can complement security
-                            guards, CCTV, access control, remote monitoring,
-                            security consulting, and other existing security
-                            measures.
-                        </p>
-                    </div>
-                </div>
+                    <summary>
+                        Can bodyguards provide protection while travelling?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Yes. Personal protection can be planned around
+                        travel schedules, transportation, hotels,
+                        meetings, events, and other destinations.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Are bodyguard services suitable for private events?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Yes. Bodyguards can provide discreet protection for
+                        private functions, corporate events, public
+                        appearances, and other occasions where personal
+                        security is required.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Can bodyguard services work with other security measures?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Yes. Personal protection can complement security
+                        guards, CCTV, access control, remote monitoring,
+                        security consulting, and other existing security
+                        measures.
+                    </p>
+
+                </details>
 
             </div>
 
@@ -1022,31 +892,33 @@ get_header();
 
     </section>
 
-
     <!-- =====================================================
          CTA
          ===================================================== -->
-    <section class="content-section cta-section bodyguard-cta">
+    <section class="assessment-cta bodyguard-cta">
 
         <div class="container">
 
-            <div class="cta-content text-center">
+            <div class="cta-inner">
+                <div>
 
-                <span class="advent-eyebrow">PERSONAL PROTECTION</span>
+                    <span class="eyebrow">PERSONAL PROTECTION</span>
 
-                <h2>
-                    Your Security.
-                    <span>Handled Professionally.</span>
-                </h2>
+                    <h2>
+                        Your Security.
+                        <span>Handled Professionally.</span>
+                    </h2>
 
-                <p>
-                    Tell us about your protection requirements and our team can
-                    help you explore an appropriate security solution.
-                </p>
+                    <p>
+                        Tell us about your protection requirements and our team can
+                        help you explore an appropriate security solution.
+                    </p>
 
+                </div>
                 <a href="<?php echo esc_url(home_url('/contact/')); ?>"
-                    class="advent-btn advent-btn-primary">
+                    class="advent-btn advent-btn-dark">
                     Speak With Our Security Team
+                    <i class="btn-arrow">→</i>
                 </a>
 
             </div>

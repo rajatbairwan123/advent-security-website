@@ -308,49 +308,49 @@ function advent_security_assets()
      * AI-Surveillance
      * -----------------------------------------------------
      */
-    // if (
-    //     is_page('ai-surveillance') ||
-    //     is_page_template('page-ai-surveillance.php')
-    // ) {
-    //     wp_enqueue_style(
-    //         'advent-ai-surveillance',
-    //         get_template_directory_uri() . '/assets/css/ai-surveillance.css',
-    //         array('advent-responsive'),
-    //         '1.0.0'
-    //     );
-    // }
+    if (
+        is_page('ai-surveillance') ||
+        is_page_template('page-ai-surveillance.php')
+    ) {
+        wp_enqueue_style(
+            'advent-ai-surveillance',
+            get_template_directory_uri() . '/assets/css/ai-surveillance.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
     /**
      * -----------------------------------------------------
      * Drone Security
      * -----------------------------------------------------
      */
-    // if (
-    //     is_page('drone-security') ||
-    //     is_page_template('page-drone-security.php')
-    // ) {
-    //     wp_enqueue_style(
-    //         'advent-drone-security',
-    //         get_template_directory_uri() . '/assets/css/drone-security.css',
-    //         array('advent-responsive'),
-    //         '1.0.0'
-    //     );
-    // }
+    if (
+        is_page('drone-security') ||
+        is_page_template('page-drone-security.php')
+    ) {
+        wp_enqueue_style(
+            'advent-drone-security',
+            get_template_directory_uri() . '/assets/css/drone-security.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
     /**
      * -----------------------------------------------------
      * Bodyguard Services
      * -----------------------------------------------------
      */
-    // if (
-    //     is_page('bodyguard-services') ||
-    //     is_page_template('page-bodyguard-services.php')
-    // ) {
-    //     wp_enqueue_style(
-    //         'advent-bodyguard-services',
-    //         get_template_directory_uri() . '/assets/css/bodyguard-services.css',
-    //         array('advent-responsive'),
-    //         '1.0.0'
-    //     );
-    // }
+    if (
+        is_page('bodyguard-services') ||
+        is_page_template('page-bodyguard-services.php')
+    ) {
+        wp_enqueue_style(
+            'advent-bodyguard-services',
+            get_template_directory_uri() . '/assets/css/bodyguard-services.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
 
     // Electronic Security Pages --------------------------
 

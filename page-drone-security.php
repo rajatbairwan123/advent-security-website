@@ -21,7 +21,7 @@ get_header();
 
                 <div class="drone-hero-copy">
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         DRONE SECURITY
                     </span>
 
@@ -59,13 +59,13 @@ get_header();
                     <img
                         src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                        . '/assets/images/drone-security-hero.jpg'
+                                        . '/assets/images/drone-security/DRONE-SECURITY1.webp'
                                 ); ?>"
                         alt="Drone providing aerial security surveillance over a commercial property">
 
                     <div class="drone-hero-overlay">
 
-                        <span class="drone-scan-line"></span>
+                        <!-- <span class="drone-scan-line"></span> -->
 
                         <div class="drone-overlay-copy">
 
@@ -89,6 +89,54 @@ get_header();
 
     </section>
 
+    <!-- =========================================================
+     PROOF / CREDIBILITY STRIP
+    ========================================================= -->
+    <section class="integrated-proof">
+        <div class="container-fluid integrated-proof-grid">
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    36+ YEARS
+                </span>
+
+                <strong>
+                    Established experience
+                </strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    AUSTRALIAN-OWNED
+                </span>
+
+                <strong>
+                    Family business
+                </strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    ASIAL
+                </span>
+
+                <strong>
+                    Platinum Level member
+                </strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    ISO 27001:2022
+                </span>
+
+                <strong>
+                    Information security
+                </strong>
+            </div>
+
+        </div>
+    </section>
 
     <!-- =========================================================
          INTRO / AERIAL INTELLIGENCE
@@ -102,7 +150,7 @@ get_header();
 
                 <div class="drone-intelligence-heading">
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         AERIAL INTELLIGENCE
                     </span>
 
@@ -176,7 +224,7 @@ get_header();
                     <img
                         src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                        . '/assets/images/drone-security-aerial.jpg'
+                                        . '/assets/images/drone-security/drone3.jpeg'
                                 ); ?>"
                         alt="Aerial drone surveillance providing security coverage across a large property">
 
@@ -185,7 +233,7 @@ get_header();
 
                 <div class="drone-coverage-content">
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         AERIAL COVERAGE
                     </span>
 
@@ -206,11 +254,6 @@ get_header();
 
 
                         <div class="drone-feature">
-
-                            <span class="drone-feature-icon">
-                                <i class="bi bi-broadcast"></i>
-                            </span>
-
                             <div>
                                 <h3>
                                     Perimeter Observation
@@ -227,11 +270,6 @@ get_header();
 
 
                         <div class="drone-feature">
-
-                            <span class="drone-feature-icon">
-                                <i class="bi bi-map"></i>
-                            </span>
-
                             <div>
                                 <h3>
                                     Large-Area Monitoring
@@ -248,11 +286,6 @@ get_header();
 
 
                         <div class="drone-feature">
-
-                            <span class="drone-feature-icon">
-                                <i class="bi bi-search"></i>
-                            </span>
-
                             <div>
                                 <h3>
                                     Incident Assessment
@@ -289,7 +322,7 @@ get_header();
 
             <div class="drone-capabilities-heading">
 
-                <span class="advent-eyebrow">
+                <span class="eyebrow">
                     SECURITY CAPABILITIES
                 </span>
 
@@ -315,7 +348,7 @@ get_header();
                     <a href="<?php echo esc_url(home_url('/contact/')); ?>"
                         class="drone-text-link">
                         Discuss Your Security Requirements
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </a>
 
                 </div>
@@ -325,11 +358,6 @@ get_header();
 
 
                     <article class="drone-capability">
-
-                        <div class="drone-capability-symbol">
-                            <i class="bi bi-arrows-fullscreen"></i>
-                        </div>
-
                         <div>
 
                             <h3>
@@ -348,11 +376,6 @@ get_header();
 
 
                     <article class="drone-capability">
-
-                        <div class="drone-capability-symbol">
-                            <i class="bi bi-signpost-split"></i>
-                        </div>
-
                         <div>
 
                             <h3>
@@ -371,11 +394,6 @@ get_header();
 
 
                     <article class="drone-capability">
-
-                        <div class="drone-capability-symbol">
-                            <i class="bi bi-eye"></i>
-                        </div>
-
                         <div>
 
                             <h3>
@@ -394,11 +412,6 @@ get_header();
 
 
                     <article class="drone-capability">
-
-                        <div class="drone-capability-symbol">
-                            <i class="bi bi-diagram-3"></i>
-                        </div>
-
                         <div>
 
                             <h3>
@@ -437,7 +450,7 @@ get_header();
 
                 <div>
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         OPERATIONAL COVERAGE
                     </span>
 
@@ -461,11 +474,6 @@ get_header();
 
 
                 <div class="drone-operation-panel">
-
-                    <div class="drone-operation-icon">
-                        <i class="bi bi-building"></i>
-                    </div>
-
                     <h3>
                         Large Properties
                     </h3>
@@ -479,11 +487,6 @@ get_header();
 
 
                 <div class="drone-operation-panel">
-
-                    <div class="drone-operation-icon">
-                        <i class="bi bi-tree"></i>
-                    </div>
-
                     <h3>
                         Open &amp; Remote Areas
                     </h3>
@@ -497,11 +500,6 @@ get_header();
 
 
                 <div class="drone-operation-panel">
-
-                    <div class="drone-operation-icon">
-                        <i class="bi bi-cone-striped"></i>
-                    </div>
-
                     <h3>
                         Active Sites
                     </h3>
@@ -534,7 +532,7 @@ get_header();
 
                 <div class="drone-perspective-content">
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         SECURITY FROM ABOVE
                     </span>
 
@@ -569,7 +567,7 @@ get_header();
                     <img
                         src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                        . '/assets/images/drone-security-perspective.jpg'
+                                        . '/assets/images/drone-security/DRONE-SECURITY2.webp'
                                 ); ?>"
                         alt="Drone security providing aerial perspective over a protected site">
 
@@ -602,7 +600,7 @@ get_header();
 
             <div class="drone-industries-header">
 
-                <span class="advent-eyebrow">
+                <span class="eyebrow">
                     INDUSTRIES WE SUPPORT
                 </span>
 
@@ -624,11 +622,6 @@ get_header();
 
 
                 <article class="drone-industry-card">
-
-                    <div class="drone-industry-icon">
-                        <i class="bi bi-cone-striped"></i>
-                    </div>
-
                     <h3>
                         Construction
                     </h3>
@@ -642,11 +635,6 @@ get_header();
 
 
                 <article class="drone-industry-card">
-
-                    <div class="drone-industry-icon">
-                        <i class="bi bi-boxes"></i>
-                    </div>
-
                     <h3>
                         Industrial &amp; Warehousing
                     </h3>
@@ -660,11 +648,6 @@ get_header();
 
 
                 <article class="drone-industry-card">
-
-                    <div class="drone-industry-icon">
-                        <i class="bi bi-truck"></i>
-                    </div>
-
                     <h3>
                         Logistics
                     </h3>
@@ -678,11 +661,6 @@ get_header();
 
 
                 <article class="drone-industry-card">
-
-                    <div class="drone-industry-icon">
-                        <i class="bi bi-building"></i>
-                    </div>
-
                     <h3>
                         Commercial Properties
                     </h3>
@@ -696,11 +674,6 @@ get_header();
 
 
                 <article class="drone-industry-card">
-
-                    <div class="drone-industry-icon">
-                        <i class="bi bi-tree"></i>
-                    </div>
-
                     <h3>
                         Large Estates &amp; Sites
                     </h3>
@@ -714,11 +687,6 @@ get_header();
 
 
                 <article class="drone-industry-card">
-
-                    <div class="drone-industry-icon">
-                        <i class="bi bi-calendar-event"></i>
-                    </div>
-
                     <h3>
                         Events &amp; Venues
                     </h3>
@@ -750,7 +718,7 @@ get_header();
 
                 <div class="drone-why-heading">
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         WHY ADVENT
                     </span>
 
@@ -853,7 +821,7 @@ get_header();
 
             <div class="related-services-header">
 
-                <span class="advent-eyebrow">
+                <span class="eyebrow">
                     RELATED SERVICES
                 </span>
 
@@ -887,7 +855,7 @@ get_header();
                     </h3>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -907,7 +875,7 @@ get_header();
                     </h3>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -927,7 +895,7 @@ get_header();
                     </h3>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -947,7 +915,7 @@ get_header();
                     </h3>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -967,7 +935,7 @@ get_header();
                     </h3>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -987,7 +955,7 @@ get_header();
                     </h3>
 
                     <span class="related-service-arrow">
-                        <i class="bi bi-arrow-up-right"></i>
+                        <i class="btn-arrow">→</i>
                     </span>
 
                 </a>
@@ -1023,9 +991,6 @@ get_header();
 
                 </div>
 
-                <a href="<?php echo esc_url(home_url('/contact/')); ?>">
-                    DISCUSS YOUR SECURITY REQUIREMENTS →
-                </a>
 
             </div>
 
@@ -1138,7 +1103,7 @@ get_header();
 
                 <div>
 
-                    <span class="advent-eyebrow">
+                    <span class="eyebrow">
                         EXTEND YOUR VIEW
                     </span>
 
@@ -1162,7 +1127,7 @@ get_header();
 
                     Request a Security Assessment
 
-                    <i class="bi bi-arrow-up-right"></i>
+                    <i class="btn-arrow">→</i>
 
                 </a>
 

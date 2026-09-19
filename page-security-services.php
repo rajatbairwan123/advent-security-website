@@ -68,7 +68,7 @@ get_header();
 
             <li>
                 <a href="<?php echo esc_url(home_url('/security-services/emergency-response/')); ?>">
-                    Emergency Response --- Work pending
+                    Emergency Response
                 </a>
             </li>
 
@@ -80,19 +80,19 @@ get_header();
 
             <li>
                 <a href="<?php echo esc_url(home_url('/security-services/ai-surveillance/')); ?>">
-                    AI Surveillance --- Work pending
+                    AI Surveillance
                 </a>
             </li>
 
             <li>
                 <a href="<?php echo esc_url(home_url('/security-services/drone-security/')); ?>">
-                    Drone Security --- Work pending
+                    Drone Security
                 </a>
             </li>
 
             <li>
                 <a href="<?php echo esc_url(home_url('/security-services/bodyguard-services/')); ?>">
-                    Bodyguard Services --- Work pending
+                    Bodyguard Services
                 </a>
             </li>
 
