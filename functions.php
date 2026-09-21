@@ -506,6 +506,22 @@ function advent_security_assets()
             '1.0.0'
         );
     }
+    /**
+     * -----------------------------------------------------
+     * Mobile Patrols Page
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('mobile-patrols') ||
+        is_page_template('page-mobile-patrols.php')
+    ) {
+        wp_enqueue_style(
+            'advent-mobile-patrols',
+            get_template_directory_uri() . '/assets/css/mobile-patrols.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
 
     // Industries Page ------------------------
 
@@ -521,6 +537,23 @@ function advent_security_assets()
         wp_enqueue_style(
             'advent-industry',
             get_template_directory_uri() . '/assets/css/industry.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
+    /**
+     * -----------------------------------------------------
+     * Privacy Policy
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('privacy-policy') ||
+        is_page_template('page-privacy-policy.php')
+    ) {
+        wp_enqueue_style(
+            'advent-privacy-policy',
+            get_template_directory_uri() . '/assets/css/privacy-policy.css',
             array('advent-responsive'),
             '1.0.0'
         );

@@ -313,7 +313,7 @@
 
             <div class="footer-legal">
 
-                <a href="#">
+                <a href="<?php echo esc_url(home_url('/privacy-policy/')); ?>">
                     Privacy Policy
                 </a>
 
