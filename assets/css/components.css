@@ -714,9 +714,9 @@
      * Add left border to the second column
      * when the row starts again.
      */
-    .integrated-proof-item:nth-child(odd) {
+    /* .integrated-proof-item:nth-child(odd) {
         border-left: 1px solid var(--color-border);
-    }
+    } */
 
     .integrated-proof-item:nth-child(even) {
         border-right: 0;
@@ -776,9 +776,9 @@
         padding: 16px 10px;
     }
 
-    .integrated-proof-item:nth-child(odd) {
+    /* .integrated-proof-item:nth-child(odd) {
         border-left: 1px solid var(--color-border);
-    }
+    } */
 
     .integrated-proof-item:nth-child(even) {
         border-right: 0;
@@ -786,6 +786,7 @@
 
     .integrated-proof-item:nth-child(n + 3) {
         border-top: 1px solid var(--color-border);
+        border-bottom: 1px solid var(--color-border);
     }
 
     /* 5th item occupies the first column of the last row */

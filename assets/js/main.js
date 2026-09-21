@@ -84,3 +84,41 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const faqItems = document.querySelectorAll(".aviation-faq .faq-item");
+
+    faqItems.forEach(function (item) {
+        const question = item.querySelector(".faq-question");
+
+        if (!question) {
+            return;
+        }
+
+        question.addEventListener("click", function () {
+            const isOpen = item.classList.contains("is-open");
+
+            /*
+             * Close all other FAQs
+             */
+            faqItems.forEach(function (otherItem) {
+                otherItem.classList.remove("is-open");
+
+                const otherQuestion = otherItem.querySelector(".faq-question");
+
+                if (otherQuestion) {
+                    otherQuestion.setAttribute("aria-expanded", "false");
+                }
+            });
+
+            /*
+             * Open clicked FAQ
+             */
+            if (!isOpen) {
+                item.classList.add("is-open");
+
+                question.setAttribute("aria-expanded", "true");
+            }
+        });
+    });
+});

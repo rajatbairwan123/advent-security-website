@@ -645,28 +645,6 @@ get_header();
         </div>
     </section> -->
 
-    <div class="industry-cta-band">
-        <div class="container cta-inner">
-            <div>
-                <div class="eyebrow">Security assessment</div>
-                <h2>
-                    Need help determining what your site actually
-                    requires?
-                </h2>
-                <p>
-                    Talk to an Advent security specialist about your
-                    operating environment, current controls and
-                    priorities.
-                </p>
-            </div>
-            <div class="industry-cta-buttons">
-                <a class="advent-btn" href="<?php echo esc_url(home_url('/contact/')); ?>">Assess My Security Requirements</a><a class="advent-btn advent-btn-dark" href="<?php echo esc_url(home_url('/contact/')); ?>">Talk to an Industry Specialist</a>
-            </div>
-        </div>
-    </div>
-
-
-
     <section class="industry-faq-section">
         <div class=" container">
             <div class="industry-section-head">
@@ -785,6 +763,26 @@ get_header();
             </div>
         </div>
     </section>
+
+    <div class="industry-cta-band">
+        <div class="container cta-inner">
+            <div>
+                <div class="eyebrow">Security assessment</div>
+                <h2>
+                    Need help determining what your site actually
+                    requires?
+                </h2>
+                <p>
+                    Talk to an Advent security specialist about your
+                    operating environment, current controls and
+                    priorities.
+                </p>
+            </div>
+            <div class="industry-cta-buttons">
+                <a class="advent-btn" href="<?php echo esc_url(home_url('/contact/')); ?>">Assess My Security Requirements</a><a class="advent-btn advent-btn-dark" href="<?php echo esc_url(home_url('/contact/')); ?>">Talk to an Industry Specialist</a>
+            </div>
+        </div>
+    </div>
 
 </main>
 <?php get_footer(); ?>

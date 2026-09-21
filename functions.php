@@ -531,12 +531,28 @@ function advent_security_assets()
      * -----------------------------------------------------
      */
     if (
-        is_page('industry') ||
-        is_page_template('page-industry.php')
+        is_page('industries') ||
+        is_page_template('page-industries.php')
+    ) {
+        wp_enqueue_style(
+            'advent-industries',
+            get_template_directory_uri() . '/assets/css/industry.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+    /**
+     * -----------------------------------------------------
+     * Aviation airports
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('aviation-airports') ||
+        is_page_template('page-aviation-airports.php')
     ) {
         wp_enqueue_style(
             'advent-industry',
-            get_template_directory_uri() . '/assets/css/industry.css',
+            get_template_directory_uri() . '/assets/css/aviation-airports.css',
             array('advent-responsive'),
             '1.0.0'
         );
