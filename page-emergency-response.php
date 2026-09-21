@@ -26,15 +26,14 @@ get_header();
                     </span>
 
                     <h1>
-                        Ready When
-                        <span>It Matters.</span>
+                        Emergency Security
+                        <span>Response Services</span>
                     </h1>
 
                     <p>
-                        Professional emergency response services designed to
-                        help businesses respond quickly, maintain security,
-                        and protect people and property when unexpected
-                        incidents occur.
+                        Professional security response services designed to help businesses
+                        manage unexpected incidents, maintain security and
+                        protect people and property when circumstances change.
                     </p>
 
                     <div class="emergency-hero-actions">
@@ -46,7 +45,7 @@ get_header();
 
                         <a href="#emergency-capabilities"
                             class="advent-btn advent-btn-outline">
-                            Explore Our Response Services
+                            Explore Response Services
                         </a>
 
                     </div>
@@ -59,7 +58,7 @@ get_header();
                     <img
                         src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                        . '/assets/images/emergency-response/emergency-response1.webp'
+                                        . '/assets/images/emergency-response/emergency-response-1.jpg'
                                 ); ?>"
                         alt="Professional emergency response security personnel">
 
@@ -68,7 +67,7 @@ get_header();
                         <span class="emergency-status-dot"></span>
 
                         <div>
-                            <strong>RESPONSE READY</strong>
+                            <strong>EMERGENCY RESPONSE</strong>
                             <span>Professional security support</span>
                         </div>
 
@@ -90,11 +89,21 @@ get_header();
 
             <div class="integrated-proof-item">
                 <span class="integrated-proof-label">
+                    EMERGENCY RESPONSE
+                </span>
+
+                <strong>
+                    Professional security support
+                </strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
                     36+ YEARS
                 </span>
 
                 <strong>
-                    Established experience
+                    Established in 1990
                 </strong>
             </div>
 
@@ -104,7 +113,7 @@ get_header();
                 </span>
 
                 <strong>
-                    Family business
+                    Family-owned Australian business
                 </strong>
             </div>
 
@@ -124,7 +133,7 @@ get_header();
                 </span>
 
                 <strong>
-                    Information security
+                    Information security certification
                 </strong>
             </div>
 
@@ -147,8 +156,8 @@ get_header();
                     </span>
 
                     <h2>
-                        A Fast, Professional
-                        <span>Response Starts With Preparation.</span>
+                        A Professional Response
+                        <span>Starts With Preparation.</span>
                     </h2>
 
                 </div>
@@ -157,19 +166,17 @@ get_header();
                 <div class="emergency-overview-content">
 
                     <p class="emergency-lead">
-                        Emergencies can disrupt normal operations in seconds.
-                        Having an established security response helps
-                        organizations manage unexpected situations with
-                        greater structure and awareness.
+                        Emergencies can disrupt normal operations in seconds. Having established
+                        security response procedures helps organisations manage
+                        unexpected situations with greater structure and awareness.
                     </p>
 
                     <p>
-                        Advent Security provides professional security
-                        personnel who can support businesses during urgent
-                        incidents, security concerns, and unexpected
-                        disruptions. Our approach is built around clear
-                        communication, situational awareness, established
-                        procedures, and appropriate escalation.
+                        Advent Security provides professional security personnel who can support
+                        businesses during urgent incidents, security concerns
+                        and unexpected disruptions. Our approach is built around
+                        clear communication, situational awareness, established
+                        procedures and appropriate escalation.
                     </p>
 
                     <div class="emergency-overview-highlight">
@@ -177,7 +184,7 @@ get_header();
                         <span>THE OBJECTIVE</span>
 
                         <strong>
-                            Stabilize the situation.
+                            Stabilise the situation.
                             Protect people and property.
                             Support a safe return to normal operations.
                         </strong>
@@ -258,7 +265,7 @@ get_header();
                     </h3>
 
                     <p>
-                        Help organizations respond to reported threats or
+                        Help organisations respond to reported threats or
                         security concerns while following established
                         escalation and communication procedures.
                     </p>
@@ -292,12 +299,12 @@ get_header();
                     </div>
 
                     <h3>
-                        Critical Notifications
+                        Emergency Communication
                     </h3>
 
                     <p>
-                        Maintain communication with designated stakeholders
-                        and support established notification and escalation
+                        Support communication with designated stakeholders and
+                        follow established notification and escalation
                         procedures during urgent situations.
                     </p>
 
@@ -327,7 +334,7 @@ get_header();
                     <img
                         src="<?php echo esc_url(
                                     get_template_directory_uri()
-                                        . '/assets/images/emergency-response/emergency-response2.webp'
+                                        . '/assets/images/emergency-response/emergency-response-2.jpg'
                                 ); ?>"
                         alt="Security professional providing emergency response support">
 
@@ -411,13 +418,13 @@ get_header();
 
                             <div>
                                 <h3>
-                                    Access Management
+                                    Access &amp; Site Control
                                 </h3>
 
                                 <p>
                                     Help manage access and movement around
-                                    affected areas according to site
-                                    procedures.
+                                    affected areas according to established
+                                    site procedures.
                                 </p>
                             </div>
 
@@ -502,7 +509,7 @@ get_header();
                         <span>IDENTIFY</span>
 
                         <h3>
-                            Recognize
+                            Recognise
                         </h3>
 
                         <p>
@@ -529,7 +536,7 @@ get_header();
 
                         <p>
                             Communicate relevant information through the
-                            organization's established escalation channels.
+                            organisation's established escalation channels.
                         </p>
                     </div>
 
@@ -568,13 +575,12 @@ get_header();
                         <span>RECOVER</span>
 
                         <h3>
-                            Stabilize
+                            Stabilise
                         </h3>
 
                         <p>
-                            Support the transition toward normal operations
-                            and provide relevant incident information for
-                            follow-up.
+                            Support the transition towards normal operations and provide relevant
+                            incident information for follow-up.
                         </p>
                     </div>
 
@@ -610,7 +616,7 @@ get_header();
                     </h2>
 
                     <p>
-                        Organizations are better positioned to manage
+                        Organisations are better positioned to manage
                         unexpected situations when responsibilities,
                         communication channels, access procedures, and
                         escalation processes are understood in advance.
@@ -648,7 +654,7 @@ get_header();
 
                     <div class="emergency-preparedness-point">
                         <i class="bi bi-check2"></i>
-                        <span>Ongoing security review and improvement</span>
+                        <span>Review and improvement of response procedures</span>
                     </div>
 
                 </div>
@@ -686,7 +692,7 @@ get_header();
                 <p>
                     Emergency response requirements vary by environment. Our
                     security approach can be adapted to the operational needs
-                    of different organizations and facilities.
+                    of different organisations and facilities.
                 </p>
 
             </div>
@@ -827,8 +833,8 @@ get_header();
                     </span>
 
                     <h2>
-                        Security Support
-                        <span>When Circumstances Change.</span>
+                        Security support
+                        <span>when circumstances change.</span>
                     </h2>
 
                 </div>
@@ -883,7 +889,7 @@ get_header();
 
                             <p>
                                 Security procedures are developed around the
-                                organization's environment and operational
+                                organisation's environment and operational
                                 requirements.
                             </p>
 
@@ -913,32 +919,35 @@ get_header();
 
     </section>
 
+    <!-- =========================================
+     RELATED SERVICES
+    ========================================== -->
 
-    <!-- =========================================================
-         RELATED SERVICES
-         Shared component from components.css
-    ========================================================== -->
-
-    <section class="content-section related-services emergency-related">
+    <section class="content-section related-services">
 
         <div class="container">
 
             <div class="related-services-header">
 
-                <span class="eyebrow">
-                    RELATED SERVICES
-                </span>
+                <div>
 
-                <h2>
-                    Build a More Complete
-                    <span>Security Strategy.</span>
-                </h2>
+                    <span class="eyebrow">
+                        RELATED SERVICES
+                    </span>
 
-                <p>
-                    Combine emergency response with complementary security
-                    services to strengthen protection across your property
-                    and operations.
-                </p>
+                    <h2>
+                        Explore related<br>
+                        <span>security services.</span>
+                    </h2>
+
+                    <p>
+                        Emergency response can form part of a wider security
+                        strategy. Explore related Advent services that may
+                        complement response, personnel, and site security
+                        requirements.
+                    </p>
+
+                </div>
 
             </div>
 
@@ -946,121 +955,179 @@ get_header();
             <div class="related-services-grid">
 
 
+                <!-- Security Guard Services -->
+
                 <a href="<?php echo esc_url(
                                 home_url('/security-services/security-guard-services/')
                             ); ?>"
                     class="related-service-card">
 
-                    <div class="related-service-icon">
-                        <i class="bi bi-shield-shaded"></i>
-                    </div>
+                    <span class="related-service-icon">
 
-                    <h3 class="related-service-title">
-                        Security Guard Services
-                    </h3>
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 3 20 6v5c0 5.2-3.3 8.7-8 10-4.7-1.3-8-4.8-8-10V6l8-3Z" />
+                        </svg>
+
+                    </span>
+
+                    <span class="related-service-title">
+                        Security Guard<br>
+                        Services
+                    </span>
 
                     <span class="related-service-arrow">
-                        <i class="btn-arrow">→</i>
+                        →
                     </span>
 
                 </a>
 
 
-                <a href="<?php echo esc_url(
-                                home_url('/security-services/security-consulting/')
-                            ); ?>"
-                    class="related-service-card">
-
-                    <div class="related-service-icon">
-                        <i class="bi bi-clipboard2-pulse"></i>
-                    </div>
-
-                    <h3 class="related-service-title">
-                        Security Consulting
-                    </h3>
-
-                    <span class="related-service-arrow">
-                        <i class="btn-arrow">→</i>
-                    </span>
-
-                </a>
-
+                <!-- Gatehouse Security -->
 
                 <a href="<?php echo esc_url(
                                 home_url('/security-services/gatehouse-security/')
                             ); ?>"
                     class="related-service-card">
 
-                    <div class="related-service-icon">
-                        <i class="bi bi-door-open"></i>
-                    </div>
+                    <span class="related-service-icon">
 
-                    <h3 class="related-service-title">
-                        Gatehouse Security
-                    </h3>
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 21h16" />
+                            <path d="M6 21V5h12v16" />
+                            <path d="M9 21v-8h6v8" />
+                            <path d="M9 8h1" />
+                            <path d="M14 8h1" />
+                            <path d="M9 11h1" />
+                            <path d="M14 11h1" />
+                        </svg>
+
+                    </span>
+
+                    <span class="related-service-title">
+                        Gatehouse<br>
+                        Security
+                    </span>
 
                     <span class="related-service-arrow">
-                        <i class="btn-arrow">→</i>
+                        →
                     </span>
 
                 </a>
 
+
+                <!-- Retail Security -->
 
                 <a href="<?php echo esc_url(
                                 home_url('/security-services/retail-security/')
                             ); ?>"
                     class="related-service-card">
 
-                    <div class="related-service-icon">
-                        <i class="bi bi-shop-window"></i>
-                    </div>
+                    <span class="related-service-icon">
 
-                    <h3 class="related-service-title">
-                        Retail Security
-                    </h3>
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M5 8h14l-1 12H6L5 8Z" />
+                            <path d="M8 8V6a4 4 0 0 1 8 0v2" />
+                        </svg>
+
+                    </span>
+
+                    <span class="related-service-title">
+                        Retail<br>
+                        Security
+                    </span>
 
                     <span class="related-service-arrow">
-                        <i class="btn-arrow">→</i>
+                        →
                     </span>
 
                 </a>
 
+
+                <!-- Construction Security -->
 
                 <a href="<?php echo esc_url(
                                 home_url('/security-services/construction-security/')
                             ); ?>"
                     class="related-service-card">
 
-                    <div class="related-service-icon">
-                        <i class="bi bi-cone-striped"></i>
-                    </div>
+                    <span class="related-service-icon">
 
-                    <h3 class="related-service-title">
-                        Construction Security
-                    </h3>
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 18h16" />
+                            <path d="M6 18v-6h12v6" />
+                            <path d="M8 12V9h8v3" />
+                            <path d="M10 9V6h4v3" />
+                        </svg>
+
+                    </span>
+
+                    <span class="related-service-title">
+                        Construction<br>
+                        Security
+                    </span>
 
                     <span class="related-service-arrow">
-                        <i class="btn-arrow">→</i>
+                        →
                     </span>
 
                 </a>
 
+
+                <!-- Event Security -->
 
                 <a href="<?php echo esc_url(
                                 home_url('/security-services/event-security/')
                             ); ?>"
                     class="related-service-card">
 
-                    <div class="related-service-icon">
-                        <i class="bi bi-calendar-event"></i>
-                    </div>
+                    <span class="related-service-icon">
 
-                    <h3 class="related-service-title">
-                        Event Security
-                    </h3>
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="8" cy="9" r="3" />
+                            <circle cx="16" cy="9" r="3" />
+                            <path d="M3 20a5 5 0 0 1 10 0" />
+                            <path d="M11 20a5 5 0 0 1 10 0" />
+                        </svg>
+
+                    </span>
+
+                    <span class="related-service-title">
+                        Event<br>
+                        Security
+                    </span>
 
                     <span class="related-service-arrow">
-                        <i class="btn-arrow">→</i>
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- Alarm Monitoring -->
+
+                <a href="<?php echo esc_url(
+                                home_url('/security-services/alarm-monitoring/')
+                            ); ?>"
+                    class="related-service-card">
+
+                    <span class="related-service-icon">
+
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M6 18h12" />
+                            <path d="M7 18v-6a5 5 0 0 1 10 0v6" />
+                            <path d="M5 21h14" />
+                            <path d="M12 3v2" />
+                        </svg>
+
+                    </span>
+
+                    <span class="related-service-title">
+                        Alarm<br>
+                        Monitoring
+                    </span>
+
+                    <span class="related-service-arrow">
+                        →
                     </span>
 
                 </a>
@@ -1104,15 +1171,12 @@ get_header();
                 <details>
 
                     <summary>
-                        What is an emergency response security service?
+                        What is an emergency security response service?
                         <span>+</span>
                     </summary>
 
                     <p>
-                        Emergency response security provides professional
-                        security support during unexpected incidents,
-                        security concerns, disturbances, access issues, and
-                        other situations that require immediate attention.
+                        Emergency response security provides professional security support during unexpected incidents, security concerns, disturbances, access issues and other situations requiring immediate security attention.
                     </p>
 
                 </details>
@@ -1126,11 +1190,7 @@ get_header();
                     </summary>
 
                     <p>
-                        Businesses may benefit from emergency response
-                        planning and security support when their operations
-                        involve significant public access, valuable assets,
-                        critical facilities, or situations where unexpected
-                        security incidents could disrupt normal operations.
+                        Businesses may benefit from emergency response planning and security support where unexpected incidents could affect people, property, access or normal operations.
                     </p>
 
                 </details>
@@ -1144,11 +1204,7 @@ get_header();
                     </summary>
 
                     <p>
-                        Yes. Emergency response personnel can work within
-                        established organizational procedures and coordinate
-                        with designated security or management personnel.
-                        Specific responsibilities should be defined in
-                        advance.
+                        Yes. Emergency response personnel can work within established organisational procedures and coordinate with designated security or management personnel. Responsibilities should be defined in advance.
                     </p>
 
                 </details>
@@ -1162,10 +1218,7 @@ get_header();
                     </summary>
 
                     <p>
-                        Incident reporting can form part of the response
-                        process. Relevant observations and incident details
-                        can be documented to support follow-up, review, and
-                        future security planning.
+                        Incident reporting can form part of the response process. Relevant observations and incident details can be documented to support follow-up and operational review.
                     </p>
 
                 </details>
@@ -1179,10 +1232,77 @@ get_header();
                     </summary>
 
                     <p>
-                        Yes. Security planning can help organizations review
-                        emergency procedures, communication responsibilities,
-                        access controls, escalation processes, and other
-                        security requirements before an incident occurs.
+                        Yes. Organisations can review emergency procedures, communication responsibilities, access controls, escalation processes and other security requirements before an incident occurs.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Can security personnel support an evacuation?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Security personnel can support established evacuation procedures by assisting with access control, communication, movement through designated areas and coordination with site representatives.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Can emergency response support retail and shopping centres?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Yes. Emergency security support can be adapted for retail stores, shopping centres and other customer-facing environments according to the site's established procedures.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Can emergency response work with alarm monitoring?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Alarm monitoring can identify and communicate security alerts, while appropriate response arrangements can be established according to the monitored site's procedures and requirements.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        What happens after a security incident?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Following an incident, relevant information can be documented and reviewed to support follow-up actions, operational learning and any required changes to security procedures.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        How should an organisation prepare for an emergency?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Preparation can include defined responsibilities, communication channels, access procedures, escalation processes, incident reporting requirements and coordination with relevant stakeholders.
                     </p>
 
                 </details>
@@ -1217,9 +1337,9 @@ get_header();
                     </h2>
 
                     <p>
-                        Talk with Advent Security about your environment,
-                        response requirements, and the security procedures
-                        that can help your organization stay prepared.
+                        Talk with Advent Security about your environment, response requirements
+                        and the security procedures that can help your organisation
+                        stay prepared.
                     </p>
 
                 </div>

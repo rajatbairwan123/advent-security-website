@@ -49,7 +49,7 @@ get_header();
                 <div class="col-lg-6">
                     <div class="hero-image retail-hero-image">
                         <img
-                            src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/retail-security/retail-security-banner.webp'); ?>"
+                            src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/retail-security/retail-security-store-2.jpg'); ?>"
                             alt="Professional retail security officer protecting a store environment">
                     </div>
                 </div>
@@ -557,7 +557,7 @@ get_header();
                     <div class="image-placeholder retail-approach-image">
 
                         <img
-                            src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/retail-security/retail-security-store.webp'); ?>"
+                            src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/retail-security/retail-security-store-1.jpg'); ?>"
                             alt="Professional security presence inside a retail store">
 
                     </div>

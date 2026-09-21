@@ -47,7 +47,7 @@ get_header();
 
                 <div class="loss-hero-visual">
                     <img
-                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/loss-prevention/loss-prevention-1.webp'); ?>"
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/loss-prevention/loss-prevention-1.jpg'); ?>"
                         alt="Loss prevention security professional monitoring a commercial property">
 
                     <div class="loss-hero-tag">

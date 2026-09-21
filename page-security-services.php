@@ -73,12 +73,6 @@ get_header();
             </li>
 
             <li>
-                <a href="<?php echo esc_url(home_url('/security-services/remote-monitoring/')); ?>">
-                    Remote Monitoring --- NOT REQUIRED
-                </a>
-            </li>
-
-            <li>
                 <a href="<?php echo esc_url(home_url('/security-services/ai-surveillance/')); ?>">
                     AI Surveillance
                 </a>

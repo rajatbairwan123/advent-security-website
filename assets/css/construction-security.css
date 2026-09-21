@@ -270,7 +270,7 @@
 .construction-services-intro > .col-lg-7 > p {
     max-width: 560px;
 
-    margin: 0 0 5px auto;
+    /* margin: 0 0 5px auto; */
 
     color: var(--color-text-muted);
 

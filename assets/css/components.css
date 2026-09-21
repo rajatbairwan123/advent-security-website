@@ -584,54 +584,75 @@
 
 .integrated-proof {
     background: var(--color-bg);
-    /* border-top: 1px solid var(--color-border); */
     border-bottom: 1px solid var(--color-border);
 }
 
 .integrated-proof-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+
+    /* Default: 4 proof items */
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    width: 100%;
+}
+
+/*
+ * Automatically switch to 5 equal columns
+ * when the page contains 5 proof items.
+ */
+.integrated-proof-grid:has(.integrated-proof-item:nth-child(5)) {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .integrated-proof-item {
     min-height: 74px;
+
     padding: 20px 24px;
 
     display: flex;
     align-items: center;
     justify-content: center;
+
     flex-direction: column;
+
     text-align: center;
 
     border-right: 1px solid var(--color-border);
 }
 
 .integrated-proof-item:first-child {
-    border-left: 0px;
+    border-left: 0;
 }
+
 .integrated-proof-item:last-child {
-    border-right: 0px;
+    border-right: 0;
 }
 
 .integrated-proof-label {
     display: inline;
+
     margin: 0;
 
     font-size: 11px;
     line-height: 1.3;
     font-weight: 700;
+
     letter-spacing: 0.08em;
+
     color: var(--color-primary);
+
     white-space: nowrap;
 }
 
 .integrated-proof-item strong {
     display: inline;
+
     margin-left: 3px;
 
     font-size: 14px;
     line-height: 1.4;
     font-weight: 400;
+
     color: var(--color-text);
 }
 
@@ -640,6 +661,22 @@
 ========================================================= */
 
 @media (max-width: 991.98px) {
+    /*
+     * Keep 4 items in one row
+     * when there are 4 proof items.
+     */
+    .integrated-proof-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    /*
+     * Keep 5 items in one row
+     * when there are 5 proof items.
+     */
+    .integrated-proof-grid:has(.integrated-proof-item:nth-child(5)) {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+
     .integrated-proof-item {
         padding: 18px 12px;
     }
@@ -658,21 +695,37 @@
 ========================================================= */
 
 @media (max-width: 767.98px) {
-    .integrated-proof-grid {
-        grid-template-columns: repeat(2, 1fr);
+    /*
+     * On mobile, use 2 columns regardless
+     * of whether there are 4 or 5 items.
+     */
+    .integrated-proof-grid,
+    .integrated-proof-grid:has(.integrated-proof-item:nth-child(5)) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .integrated-proof-item {
         min-height: 80px;
+
         padding: 16px 10px;
     }
 
-    .integrated-proof-item:nth-child(3) {
+    /*
+     * Add left border to the second column
+     * when the row starts again.
+     */
+    .integrated-proof-item:nth-child(odd) {
         border-left: 1px solid var(--color-border);
-        border-top: 1px solid var(--color-border);
     }
 
-    .integrated-proof-item:nth-child(4) {
+    .integrated-proof-item:nth-child(even) {
+        border-right: 0;
+    }
+
+    /*
+     * Horizontal separator between rows.
+     */
+    .integrated-proof-item:nth-child(n + 3) {
         border-top: 1px solid var(--color-border);
     }
 
@@ -683,13 +736,6 @@
     .integrated-proof-item strong {
         font-size: 12px;
     }
-
-    .integrated-proof-item:first-child {
-        border-left: 1px solid var(--color-border);
-    }
-    .integrated-proof-item:last-child {
-        border-right: 1px solid var(--color-border);
-    }
 }
 
 /* =========================================================
@@ -697,23 +743,62 @@
 ========================================================= */
 
 @media (max-width: 575.98px) {
-    /* .integrated-proof-grid {
-        grid-template-columns: 1fr;
-    } */
+    .integrated-proof-grid,
+    .integrated-proof-grid:has(.integrated-proof-item:nth-child(5)) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 
     .integrated-proof-item {
         min-height: 64px;
-        padding: 14px 10px;
 
-        border-left: 0 !important;
-        border-right: 0;
-        /* border-bottom: 1px solid var(--color-border); */
+        padding: 14px 8px;
     }
 
-    .integrated-proof-item:last-child {
+    .integrated-proof-label {
+        font-size: 8px;
+
+        letter-spacing: 0.06em;
+    }
+
+    .integrated-proof-item strong {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .integrated-proof-grid,
+    .integrated-proof-grid:has(.integrated-proof-item:nth-child(5)) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .integrated-proof-item {
+        min-height: 80px;
+        padding: 16px 10px;
+    }
+
+    .integrated-proof-item:nth-child(odd) {
+        border-left: 1px solid var(--color-border);
+    }
+
+    .integrated-proof-item:nth-child(even) {
         border-right: 0;
     }
-    .integrated-proof-item:first-child {
-        border-bottom: 1px solid var(--color-border);
+
+    .integrated-proof-item:nth-child(n + 3) {
+        border-top: 1px solid var(--color-border);
+    }
+
+    /* 5th item occupies the first column of the last row */
+    .integrated-proof-grid:has(.integrated-proof-item:nth-child(5))
+        .integrated-proof-item:nth-child(5) {
+        border-right: 1px solid var(--color-border);
+    }
+
+    .integrated-proof-label {
+        font-size: 9px;
+    }
+
+    .integrated-proof-item strong {
+        font-size: 12px;
     }
 }

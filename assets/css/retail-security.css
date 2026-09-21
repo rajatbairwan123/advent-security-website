@@ -321,7 +321,7 @@
     display: block;
 
     object-fit: cover;
-    object-position: center;
+    object-position: 80% center;
 }
 
 .retail-approach .section-content h2 {

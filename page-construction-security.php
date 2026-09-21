@@ -67,7 +67,7 @@ get_header();
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/construction-security/construction-site-security-control-room.webp'
+                                            '/assets/images/construction-security/construction-security-banner-1.jpg'
                                     ); ?>"
                             alt="Construction security protecting a building site">
 
@@ -431,7 +431,7 @@ get_header();
                     <div class="construction-feature-image">
 
                         <img
-                            src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/construction-security/construction-security-banner.webp'); ?>"
+                            src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/construction-security/construction-security-2.jpg'); ?>"
                             alt="Security professional monitoring an active construction site">
 
                         <span class="construction-image-caption">
@@ -728,7 +728,7 @@ get_header();
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/construction-security/construction-security-banner.webp'
+                                            '/assets/images/construction-security/construction-security-3.jpg'
                                     ); ?>"
                             alt="Advent Security protecting a construction site">
 

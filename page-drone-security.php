@@ -26,15 +26,15 @@ get_header();
                     </span>
 
                     <h1>
-                        Security From
-                        <span>A Higher Perspective.</span>
+                        Drone Security &amp;
+                        <span>Aerial Surveillance</span>
                     </h1>
 
                     <p>
-                        Aerial security solutions designed to extend
-                        surveillance coverage, improve visibility across
-                        large properties, and support security teams with
-                        an additional layer of situational awareness.
+                        Aerial security solutions designed to extend surveillance coverage,
+                        improve visibility across large properties and support
+                        security teams with an additional layer of situational
+                        awareness.
                     </p>
 
                     <div class="drone-hero-actions">
@@ -94,6 +94,16 @@ get_header();
     ========================================================= -->
     <section class="integrated-proof">
         <div class="container-fluid integrated-proof-grid">
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    AERIAL SECURITY
+                </span>
+
+                <strong>
+                    Additional surveillance perspective
+                </strong>
+            </div>
 
             <div class="integrated-proof-item">
                 <span class="integrated-proof-label">
@@ -172,7 +182,7 @@ get_header();
 
                     <p>
                         Drone security can provide an elevated perspective
-                        across areas that may be difficult or inefficient to
+                        across areas that may be difficult or less practical to
                         monitor from the ground. Aerial observation can
                         complement existing security personnel, surveillance
                         systems, and site procedures.
@@ -456,15 +466,15 @@ get_header();
 
                     <h2>
                         Aerial Support
-                        <span>Where Ground Coverage Is Limited.</span>
+                        <span>Across Challenging Environments.</span>
                     </h2>
 
                 </div>
 
                 <p>
                     Drone security can provide additional perspective in
-                    environments where property size, terrain, access, or
-                    operational activity creates monitoring challenges.
+                    environments where property size, terrain, access or operational activity creates monitoring
+                    challenges.
                 </p>
 
             </div>
@@ -542,16 +552,16 @@ get_header();
                     </h2>
 
                     <p>
-                        Drone surveillance can complement the people and
-                        technology already protecting your property. The
-                        objective is to provide security teams with useful
-                        information that supports awareness and response.
+                        Drone surveillance can complement the people and technology already
+                        protecting your property. The objective is to provide
+                        security teams with useful information that supports
+                        awareness and response.
                     </p>
 
                     <p>
-                        Advent can help organizations evaluate where aerial
-                        security may fit within their existing security
-                        strategy and operational requirements.
+                        Advent can help organisations consider where aerial security may fit
+                        within their existing security arrangements and
+                        operational requirements.
                     </p>
 
                     <a href="<?php echo esc_url(home_url('/contact/')); ?>"
@@ -792,8 +802,8 @@ get_header();
                             </strong>
 
                             <p>
-                                Build drone security into a broader,
-                                professionally managed security framework.
+                                Support the integration of drone security within a broader
+                                security framework.
                             </p>
 
                         </div>
@@ -902,16 +912,16 @@ get_header();
 
 
                 <a href="<?php echo esc_url(
-                                home_url('/security-services/security-consulting/')
+                                home_url('/security-services/cctv-systems/')
                             ); ?>"
                     class="related-service-card">
 
                     <div class="related-service-icon">
-                        <i class="bi bi-clipboard2-pulse"></i>
+                        <i class="bi bi-camera-video"></i>
                     </div>
 
                     <h3 class="related-service-title">
-                        Security Consulting
+                        CCTV Systems
                     </h3>
 
                     <span class="related-service-arrow">
@@ -1024,10 +1034,10 @@ get_header();
                     </summary>
 
                     <p>
-                        Depending on the deployment, drone security can
-                        support perimeter observation, large-area monitoring,
-                        remote-area visibility, incident assessment, and
-                        broader situational awareness.
+                        Depending on the deployment, drone security can support
+                        perimeter observation, large-area monitoring,
+                        remote-area visibility, incident assessment and broader
+                        situational awareness.
                     </p>
 
                 </details>
@@ -1042,7 +1052,7 @@ get_header();
 
                     <p>
                         Drone surveillance can complement existing cameras,
-                        security personnel, and other security technologies.
+                        security personnel and other security technologies.
                         The appropriate integration depends on the property's
                         infrastructure and operational requirements.
                     </p>
@@ -1060,7 +1070,7 @@ get_header();
                     <p>
                         Aerial surveillance can be considered for large
                         properties where additional visibility across open,
-                        remote, or difficult-to-monitor areas may be useful.
+                        remote or difficult-to-monitor areas may be useful.
                     </p>
 
                 </details>
@@ -1074,15 +1084,66 @@ get_header();
                     </summary>
 
                     <p>
-                        Drone operations may be subject to aviation,
-                        privacy, property, and other applicable regulations.
-                        Any deployment should be planned and operated in
-                        accordance with the requirements that apply to the
-                        location and intended use.
+                        Drone operations may be subject to aviation, privacy,
+                        property and other applicable regulations. Any
+                        deployment should be planned and operated in accordance
+                        with the requirements that apply to the location and
+                        intended use.
                     </p>
 
                 </details>
 
+
+                <details>
+
+                    <summary>
+                        Can drones support security during an incident?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Depending on the deployment and applicable requirements,
+                        aerial surveillance can provide additional visual
+                        information to help security personnel assess developing
+                        situations and determine appropriate next steps.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Can drone security operate alongside security guards?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Yes. Drone surveillance can complement professional
+                        security personnel by providing additional visual
+                        information across designated areas while security
+                        personnel remain responsible for assessment and response
+                        procedures.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Can drone security be integrated with other security technologies?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Integration depends on the systems involved and their
+                        compatibility. Drone surveillance may complement CCTV,
+                        AI-assisted video analysis, remote monitoring, access
+                        control and other security technologies where supported.
+                    </p>
+
+                </details>
 
             </div>
 
@@ -1113,10 +1174,8 @@ get_header();
                     </h2>
 
                     <p>
-                        Talk with Advent Security about your property,
-                        surveillance requirements, and whether aerial
-                        security can complement your existing protection
-                        strategy.
+                        Talk with Advent Security about your property, surveillance requirements and whether aerial security can
+                        complement your existing protection strategy.
                     </p>
 
                 </div>

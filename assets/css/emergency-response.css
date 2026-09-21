@@ -395,7 +395,7 @@
     height: 100%;
     display: block;
     object-fit: cover;
-    object-position: center center;
+    object-position: 34% center;
 }
 
 .emergency-image-label {

@@ -20,14 +20,14 @@ get_header();
                     <span class="eyebrow">BODYGUARD SERVICES</span>
 
                     <h1>
-                        Protection That
-                        <span>Moves With You.</span>
+                        Bodyguard & Close Protection
+                        <span>Services</span>
                     </h1>
 
                     <p>
-                        Professional bodyguard and close protection services
-                        for individuals, executives, families, and high-profile
-                        guests who need discreet security wherever they go.
+                        Professional bodyguard and close protection services for individuals,
+                        executives, families and high-profile guests who need
+                        discreet security wherever they go.
                     </p>
 
                     <div class="bodyguard-hero-actions">
@@ -49,7 +49,7 @@ get_header();
                         alt="Professional bodyguard providing discreet personal security">
 
                     <div class="bodyguard-hero-caption">
-                        <strong>PERSONAL PROTECTION</strong>
+                        <strong>CLOSE PROTECTION</strong>
                         <span>Professional security with a discreet presence</span>
                     </div>
                 </div>
@@ -128,8 +128,8 @@ get_header();
                     <p>
                         Personal security is not always about creating distance
                         from the people around you. In many situations, the
-                        right protection is calm, discreet, and almost
-                        unnoticed.
+                        right protection is calm, discreet and as unobtrusive as the circumstances
+                        allow.
                     </p>
 
                     <p>
@@ -173,15 +173,14 @@ get_header();
 
                     <h2>
                         The Right Security
-                        <span>Stays One Step Ahead.</span>
+                        <span>Starts With Awareness.</span>
                     </h2>
 
                     <p>
-                        Good personal protection is built around awareness.
-                        Understanding the environment, anticipating potential
-                        concerns, and knowing how to respond allows a protection
-                        team to remain prepared without unnecessarily disrupting
-                        the client's day.
+                        Good personal protection is built around awareness. Understanding the
+                        environment, anticipating potential concerns and knowing
+                        how to respond allows a protection team to remain prepared
+                        without unnecessarily disrupting the client's day.
                     </p>
 
                     <div class="bodyguard-story-points">
@@ -242,10 +241,9 @@ get_header();
                 </h2>
 
                 <p>
-                    Every client and every assignment is different. Our
-                    protection services can be adapted to the environment,
-                    schedule, level of exposure, and practical requirements
-                    of the individual.
+                    Every client and every assignment is different. Our protection services can
+                    be adapted to the environment, schedule, level of exposure
+                    and practical requirements of the individual.
                 </p>
             </div>
 
@@ -264,11 +262,11 @@ get_header();
 
                 <article class="bodyguard-service-item">
                     <div class="bodyguard-service-content">
-                        <h3>Secure Travel &amp; Transportation</h3>
+                        <h3>Travel &amp; Transportation Security</h3>
                         <p>
-                            Protection support while travelling between
-                            airports, offices, hotels, meetings, events, and
-                            other destinations.
+                            Protection support during airport transfers, business
+                            travel, hotel stays, meetings, events and other
+                            movements.
                         </p>
                     </div>
                 </article>
@@ -291,27 +289,6 @@ get_header();
                             Personal protection for public appearances,
                             corporate events, private functions, and other
                             situations where additional security is required.
-                        </p>
-                    </div>
-                </article>
-
-                <article class="bodyguard-service-item">
-                    <div class="bodyguard-service-content">
-                        <h3>Travel Security</h3>
-                        <p>
-                            Protection planning and close protection support
-                            for domestic and international travel requirements.
-                        </p>
-                    </div>
-                </article>
-
-                <article class="bodyguard-service-item">
-                    <div class="bodyguard-service-content">
-                        <h3>Residential Protection</h3>
-                        <p>
-                            Personal security support around residences and
-                            private properties where clients require an
-                            additional layer of protection.
                         </p>
                     </div>
                 </article>
@@ -380,10 +357,10 @@ get_header();
                     </div>
 
                     <div class="bodyguard-situation">
-                        <h3>Travel Abroad</h3>
+                        <h3>Travel &amp; Unfamiliar Environments</h3>
                         <p>
-                            Security planning and protection support for
-                            clients travelling to unfamiliar environments.
+                            Security planning and protection support for clients
+                            travelling to unfamiliar environments.
                         </p>
                     </div>
 
@@ -427,9 +404,9 @@ get_header();
                     </p>
 
                     <p>
-                        Our executive protection approach combines preparation,
-                        awareness, communication, and a professional security
-                        presence tailored to the client's circumstances.
+                        Executive protection can combine preparation, awareness, communication
+                        and a professional security presence tailored to the
+                        client's circumstances.
                     </p>
 
                     <a href="<?php echo esc_url(home_url('/contact/')); ?>"
@@ -510,8 +487,8 @@ get_header();
                 <div class="bodyguard-process-step">
                     <h3>Adapt</h3>
                     <p>
-                        Security arrangements can adapt when schedules,
-                        locations, or circumstances change.
+                        Security arrangements can adapt when schedules, locations or circumstances
+                        change.
                     </p>
 
                 </div>
@@ -646,9 +623,8 @@ get_header();
 
                         <h3>Integrated Security</h3>
                         <p>
-                            Bodyguard services can complement other
-                            security measures such as CCTV, access
-                            control, guarding, and monitoring.
+                            Bodyguard services can complement other security measures such as CCTV,
+                            access control, guarding and monitoring.
                         </p>
 
                     </div>
@@ -709,13 +685,13 @@ get_header();
 
                 </a>
 
-                <a href="<?php echo esc_url(home_url('/security-services/security-consulting/')); ?>"
+                <a href="<?php echo esc_url(home_url('/security-services/access-control/')); ?>"
                     class="related-service-card">
 
-                    <span class="related-service-icon"><i class="bi bi-clipboard2-check"></i></span>
+                    <span class="related-service-icon"><i class="bi bi-lock"></i></span>
 
                     <span class="related-service-title">
-                        Security Consulting
+                        Access Control
                     </span>
 
                     <span class="related-service-arrow">
@@ -812,9 +788,9 @@ get_header();
                     <p>
                         Bodyguard services can include close protection,
                         executive protection, travel security, event
-                        protection, residential support, and other
-                        personal security arrangements depending on the
-                        client's requirements.
+                        protection, residential support and other personal
+                        security arrangements depending on the client's
+                        requirements.
                     </p>
 
                 </details>
@@ -830,7 +806,7 @@ get_header();
                     <p>
                         Executive protection can be suitable for business
                         leaders, executives, public-facing professionals,
-                        private clients, and others who require additional
+                        private clients and others who require additional
                         personal security.
                     </p>
 
@@ -845,9 +821,9 @@ get_header();
                     </summary>
 
                     <p>
-                        Yes. Personal protection can be planned around
-                        travel schedules, transportation, hotels,
-                        meetings, events, and other destinations.
+                        Yes. Personal protection can be planned around travel
+                        schedules, transportation, hotels, meetings, events
+                        and other destinations.
                     </p>
 
                 </details>
@@ -862,9 +838,8 @@ get_header();
 
                     <p>
                         Yes. Bodyguards can provide discreet protection for
-                        private functions, corporate events, public
-                        appearances, and other occasions where personal
-                        security is required.
+                        private functions, corporate events, public appearances
+                        and other occasions where personal security is required.
                     </p>
 
                 </details>
@@ -878,9 +853,58 @@ get_header();
                     </summary>
 
                     <p>
-                        Yes. Personal protection can complement security
-                        guards, CCTV, access control, remote monitoring,
-                        security consulting, and other existing security
+                        Personal protection can complement security guards,
+                        CCTV, access control, remote monitoring and other
+                        existing security measures.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Can bodyguard services be provided for families?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Yes. Personal protection can be arranged around family
+                        routines, travel, residences, private events and other
+                        circumstances where additional security is required.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Can bodyguard services support corporate executives?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Yes. Executive protection can be planned around
+                        meetings, business travel, public appearances,
+                        corporate events and other professional activities.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        How is a bodyguard service planned?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Protection arrangements can begin by understanding the
+                        client's schedule, environment, movements and security
+                        requirements, followed by assessment of relevant
+                        locations and coordination of appropriate protection
                         measures.
                     </p>
 
@@ -910,8 +934,8 @@ get_header();
                     </h2>
 
                     <p>
-                        Tell us about your protection requirements and our team can
-                        help you explore an appropriate security solution.
+                        Tell us about your protection requirements and our team can help you
+                        explore an appropriate security solution.
                     </p>
 
                 </div>

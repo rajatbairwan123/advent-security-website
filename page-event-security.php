@@ -66,7 +66,7 @@ get_header();
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/event-security/event-security-banner.webp'
+                                            '/assets/images/event-security/EVENT-SECURITY-2.jpg'
                                     ); ?>"
                             alt="Professional event security helping manage a busy event">
 
@@ -679,7 +679,7 @@ get_header();
                         <img
                             src=" <?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/event-security/event-security-team.webp'
+                                            '/assets/images/event-security/EVENT-SECURITY-1.jpg'
                                     ); ?>"
                             alt="Event security team providing professional venue protection">
 

@@ -27,15 +27,15 @@ $theme_uri = get_template_directory_uri();
                     </span>
 
                     <h1>
-                        See More.
-                        <span>Respond Smarter.</span>
+                        AI-Powered Video Surveillance for Smarter
+                        <span>Security</span>
                     </h1>
 
                     <p>
                         Intelligent video surveillance solutions designed to
-                        help security teams identify relevant activity,
-                        improve situational awareness, and respond to
-                        potential security concerns more effectively.
+                        help security teams identify relevant activity, improve
+                        situational awareness and respond to potential
+                        security concerns more effectively.
                     </p>
 
                     <div class="ai-hero-actions">
@@ -73,11 +73,10 @@ $theme_uri = get_template_directory_uri();
 
                     <div class="ai-hero-caption">
 
-                        <span>INTELLIGENT MONITORING</span>
+                        <span>AI SURVEILLANCE</span>
 
                         <p>
-                            AI-assisted awareness for modern security
-                            environments.
+                            AI-assisted video intelligence
                         </p>
 
                     </div>
@@ -95,6 +94,16 @@ $theme_uri = get_template_directory_uri();
     ========================================================= -->
     <section class="integrated-proof">
         <div class="container-fluid integrated-proof-grid">
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    AI SURVEILLANCE
+                </span>
+
+                <strong>
+                    AI-assisted video intelligence
+                </strong>
+            </div>
 
             <div class="integrated-proof-item">
                 <span class="integrated-proof-label">
@@ -175,11 +184,11 @@ $theme_uri = get_template_directory_uri();
                     </p>
 
                     <p>
-                        AI-assisted surveillance adds another layer of
-                        intelligence to the security environment. By
-                        analyzing defined activity, patterns, and areas of
-                        interest, intelligent video technologies can help
-                        security teams focus their attention where it matters.
+                        AI-assisted surveillance adds another layer of intelligence to the
+                        security environment. By analysing defined activity,
+                        patterns and areas of interest, intelligent video
+                        technologies can help security teams focus their
+                        attention where it matters.
                     </p>
 
                 </div>
@@ -208,16 +217,16 @@ $theme_uri = get_template_directory_uri();
                     </span>
 
                     <h2>
-                        See The Environment
-                        <span>From Every Angle.</span>
+                        See More Across the
+                        <span>Security Environment.</span>
                     </h2>
 
                 </div>
 
                 <p>
-                    Intelligent surveillance combines camera visibility,
-                    automated analysis, and security awareness to help teams
-                    understand activity across the property.
+                    Intelligent surveillance combines camera visibility, automated analysis
+                    and security awareness to help teams understand activity
+                    across designated areas of the property.
                 </p>
 
             </div>
@@ -456,9 +465,8 @@ $theme_uri = get_template_directory_uri();
                     </h2>
 
                     <p class="ai-monitoring-lead">
-                        AI surveillance can provide another layer of
-                        intelligence around your existing security
-                        infrastructure.
+                        AI surveillance can provide another layer of intelligence around your
+                        existing security infrastructure.
                     </p>
 
 
@@ -579,15 +587,15 @@ $theme_uri = get_template_directory_uri();
 
                 <div class="ai-process-stage">
 
-                    <span>ANALYZE</span>
+                    <span>ANALYSE</span>
 
                     <h3>
                         Interpret
                     </h3>
 
                     <p>
-                        Configured AI capabilities analyze relevant visual
-                        activity according to defined security requirements.
+                        Configured AI capabilities analyse relevant visual activity according to
+                        defined security requirements.
                     </p>
 
                 </div>
@@ -689,8 +697,8 @@ $theme_uri = get_template_directory_uri();
                             </strong>
 
                             <p>
-                                Intelligent monitoring can help bring relevant
-                                activity to attention sooner.
+                                Intelligent monitoring can help bring relevant activity to the attention
+                                of security personnel.
                             </p>
 
                         </div>
@@ -784,7 +792,7 @@ $theme_uri = get_template_directory_uri();
                                 home_url('/security-services/corporate-security/')
                             ); ?>">
 
-                    <strong>Corporate</strong>
+                    <strong>Corporate &amp; Commercial</strong>
 
                     <span>
                         Offices, facilities, entrances and controlled areas.
@@ -1052,18 +1060,18 @@ $theme_uri = get_template_directory_uri();
 
 
                 <a href="<?php echo esc_url(
-                                home_url('/security-services/security-consulting/')
+                                home_url('/security-services/cctv-systems/')
                             ); ?>"
                     class="related-service-card">
 
                     <div class="related-service-content">
 
                         <h3 class="related-service-title">
-                            Security Consulting
+                            CCTV Systems
                         </h3>
 
                         <span>
-                            Security planning and risk assessment
+                            Camera and video surveillance infrastructure
                         </span>
 
                     </div>
@@ -1142,7 +1150,7 @@ $theme_uri = get_template_directory_uri();
 
                     <p>
                         AI surveillance uses artificial intelligence and
-                        computer-vision capabilities to assist with analyzing
+                        computer-vision capabilities to assist with analysing
                         video activity and identifying defined events or
                         patterns that may require security attention.
                     </p>
@@ -1171,16 +1179,33 @@ $theme_uri = get_template_directory_uri();
                 <details>
 
                     <summary>
-                        Can AI surveillance work with existing cameras?
+                        What can AI surveillance detect?
                         <span>+</span>
                     </summary>
 
                     <p>
-                        Integration depends on the existing camera
-                        infrastructure, video management system, available
-                        technology, and the AI capabilities being considered.
-                        A security assessment can help determine the
-                        appropriate approach.
+                        AI surveillance capabilities depend on the technology
+                        and configuration. Depending on the system, it may
+                        assist with identifying defined activity around
+                        perimeters, restricted areas, entrances, vehicles or
+                        other designated zones.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Can AI surveillance work with existing CCTV?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        In some environments, AI capabilities can be integrated
+                        with existing camera infrastructure or video management
+                        systems. Compatibility depends on the cameras, system
+                        architecture and AI technology being considered.
                     </p>
 
                 </details>
@@ -1207,15 +1232,50 @@ $theme_uri = get_template_directory_uri();
                 <details>
 
                     <summary>
-                        Can AI surveillance be customized for different properties?
+                        How does AI surveillance help security teams?
                         <span>+</span>
                     </summary>
 
                     <p>
-                        The appropriate capabilities depend on the property,
-                        camera coverage, security objectives, and the types of
-                        activity the organization wants to monitor. Solutions
-                        can be planned around those specific requirements.
+                        AI-assisted surveillance can help identify defined
+                        events or activity patterns and bring relevant
+                        information to the attention of security personnel,
+                        allowing them to assess the situation and follow
+                        established procedures.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Is AI surveillance suitable for large properties?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        AI-assisted surveillance can support larger properties
+                        and multiple surveillance areas where appropriate,
+                        subject to camera coverage, system capability and the
+                        organisation's security requirements.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Can AI surveillance be integrated with other security systems?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Integration depends on the systems involved and their
+                        compatibility. AI surveillance may complement CCTV,
+                        monitoring, access control and other security
+                        technologies where supported.
                     </p>
 
                 </details>
@@ -1249,9 +1309,8 @@ $theme_uri = get_template_directory_uri();
                     </h2>
 
                     <p>
-                        Talk with Advent Security about your property,
-                        surveillance environment, and how intelligent
-                        monitoring can support your security strategy.
+                        Talk with Advent Security about your property, surveillance environment
+                        and how intelligent monitoring can support your security strategy.
                     </p>
 
                 </div>
