@@ -575,6 +575,40 @@ function advent_security_assets()
         );
     }
 
+    /**
+     * -----------------------------------------------------
+     * Contact form
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('contact') ||
+        is_page_template('page-contact.php')
+    ) {
+        wp_enqueue_style(
+            'advent-contact',
+            get_template_directory_uri() . '/assets/css/contact.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
+    /**
+     * -----------------------------------------------------
+     * About Page
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('about') ||
+        is_page_template('page-about.php')
+    ) {
+        wp_enqueue_style(
+            'advent-about',
+            get_template_directory_uri() . '/assets/css/about.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
 
     /**
      * =====================================================

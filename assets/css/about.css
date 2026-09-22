@@ -1,0 +1,988 @@
+/* =========================================================
+   ADVENT SECURITY — ABOUT PAGE
+   Page-specific styles
+   Reuses global.css, components.css and security.css
+========================================================= */
+
+/* =========================================================
+   ABOUT HERO
+========================================================= */
+
+.about-hero {
+    position: relative;
+}
+
+.about-hero .hero-content {
+    min-height: 680px;
+    padding: 4vw 5vw 4vw 7vw;
+}
+
+.about-hero-inner {
+    max-width: 650px;
+}
+
+.about-hero-inner .eyebrow {
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+.about-hero-inner h1 {
+    max-width: 650px;
+    margin: 0;
+
+    font-size: clamp(52px, 6vw, 82px);
+    font-weight: 600;
+    line-height: 0.94;
+    letter-spacing: -3.5px;
+
+    color: var(--color-text);
+}
+
+.about-hero-inner h1 span {
+    display: block;
+    color: var(--color-primary);
+}
+
+.about-hero-inner p {
+    max-width: 580px;
+    margin: 30px 0 0;
+
+    font-size: 17px;
+    line-height: 1.7;
+
+    color: var(--color-text-muted);
+}
+
+.about-hero-image {
+    height: 680px;
+    overflow: hidden;
+}
+
+.about-hero-image img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+/* =========================================================
+   BRAND INTRODUCTION
+========================================================= */
+
+.about-introduction {
+    background: var(--color-bg);
+}
+
+.about-introduction-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.about-lead {
+    max-width: 850px;
+
+    margin: 0 auto 55px;
+
+    font-size: clamp(25px, 2.5vw, 36px);
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1.2px;
+
+    color: var(--color-text);
+}
+
+.about-introduction-image {
+    width: min(100%, 900px);
+    overflow: hidden;
+}
+
+.about-introduction-image img {
+    display: block;
+
+    width: 100%;
+    height: 500px;
+
+    object-fit: cover;
+}
+
+/* =========================================================
+   WHO WE ARE
+========================================================= */
+
+.about-who-we-are {
+    background: var(--color-bg);
+}
+
+.about-who-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.8fr);
+
+    gap: 90px;
+
+    align-items: center;
+}
+
+.about-who-content {
+    max-width: 620px;
+}
+
+.about-who-content .eyebrow {
+    display: inline-block;
+    margin-bottom: 22px;
+
+    color: var(--color-primary);
+}
+
+.about-who-content h2 {
+    max-width: 600px;
+
+    margin: 0 0 30px;
+
+    font-size: clamp(43px, 5vw, 64px);
+    font-weight: 600;
+    line-height: 0.96;
+    letter-spacing: -2.7px;
+
+    color: var(--color-text);
+}
+
+.about-who-content h2 span {
+    display: block;
+    color: var(--color-primary);
+}
+
+.about-who-content p {
+    max-width: 600px;
+
+    margin: 0 0 18px;
+
+    font-size: 15px;
+    line-height: 1.75;
+
+    color: var(--color-text-muted);
+}
+
+.about-who-content p:last-child {
+    margin-bottom: 0;
+}
+
+.about-who-image {
+    overflow: hidden;
+}
+
+.about-who-image img {
+    display: block;
+
+    width: 100%;
+    height: 480px;
+
+    object-fit: cover;
+
+    transition: transform 0.5s ease;
+}
+
+.about-who-image:hover img {
+    transform: scale(1.025);
+}
+
+/* =========================================================
+   EXPERTISE
+========================================================= */
+
+.about-expertise {
+    background: var(--color-bg);
+    padding-top: 0;
+}
+
+.about-expertise-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr);
+
+    gap: 85px;
+
+    align-items: center;
+}
+
+.about-expertise-image {
+    overflow: hidden;
+}
+
+.about-expertise-image img {
+    display: block;
+
+    width: 100%;
+    height: 470px;
+
+    object-fit: cover;
+
+    transition: transform 0.5s ease;
+}
+
+.about-expertise-image:hover img {
+    transform: scale(1.025);
+}
+
+.about-expertise-content {
+    max-width: 650px;
+}
+
+.about-expertise-content .eyebrow {
+    display: inline-block;
+
+    margin-bottom: 20px;
+
+    color: var(--color-primary);
+}
+
+.about-expertise-content h2 {
+    max-width: 600px;
+
+    margin: 0;
+
+    font-size: clamp(43px, 5vw, 64px);
+    font-weight: 600;
+    line-height: 0.96;
+    letter-spacing: -2.7px;
+
+    color: var(--color-text);
+}
+
+.about-expertise-content h2 span {
+    display: block;
+    color: var(--color-primary);
+}
+
+/* =========================================================
+   EXPERTISE STATS
+========================================================= */
+
+.about-stat-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 1px;
+
+    max-width: 620px;
+
+    margin-top: 45px;
+
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.about-stat {
+    min-height: 125px;
+
+    padding: 22px 25px;
+
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.about-stat strong {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+
+    color: var(--color-primary);
+}
+
+.about-stat strong span {
+    font-size: 24px;
+}
+
+.about-stat > span {
+    display: block;
+
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   INDUSTRIES
+========================================================= */
+
+.about-industries {
+    margin-top: 90px;
+}
+
+.about-industries .eyebrow {
+    display: inline-block;
+
+    margin-bottom: 25px;
+
+    color: var(--color-primary);
+}
+
+.about-industry-links {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+.about-industry-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 42px;
+
+    padding: 0 18px;
+
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+
+    color: var(--color-text);
+
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.7px;
+
+    text-decoration: none;
+
+    transition:
+        color 0.25s ease,
+        background-color 0.25s ease,
+        border-color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.about-industry-links a:hover {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+
+    color: var(--color-black);
+
+    transform: translateY(-2px);
+}
+
+/* =========================================================
+   INTEGRATED SECURITY CAPABILITY
+========================================================= */
+
+.about-capability {
+    background: var(--color-bg);
+    padding-top: 0;
+}
+
+.about-capability-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.8fr);
+
+    gap: 90px;
+
+    align-items: center;
+}
+
+.about-capability-content {
+    max-width: 650px;
+}
+
+.about-capability-content .eyebrow {
+    display: inline-block;
+
+    margin-bottom: 20px;
+
+    color: var(--color-primary);
+}
+
+.about-capability-content h2 {
+    max-width: 610px;
+
+    margin: 0 0 28px;
+
+    font-size: clamp(43px, 5vw, 64px);
+    font-weight: 600;
+    line-height: 0.96;
+    letter-spacing: -2.7px;
+
+    color: var(--color-text);
+}
+
+.about-capability-content h2 span {
+    display: block;
+    color: var(--color-primary);
+}
+
+.about-capability-content > p {
+    max-width: 610px;
+
+    margin: 0;
+
+    font-size: 15px;
+    line-height: 1.75;
+
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   CAPABILITY LINKS
+========================================================= */
+
+.about-capability-links {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 10px;
+
+    max-width: 600px;
+
+    margin-top: 32px;
+}
+
+.about-capability-links a {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    min-height: 48px;
+
+    padding: 0 15px;
+
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+
+    background: var(--color-surface);
+
+    color: var(--color-text);
+
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.3;
+
+    text-decoration: none;
+
+    transition:
+        color 0.25s ease,
+        background-color 0.25s ease,
+        border-color 0.25s ease;
+}
+
+.about-capability-links a > span {
+    color: var(--color-primary);
+}
+
+.about-capability-links a:hover {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+
+    color: var(--color-black);
+}
+
+.about-capability-links a:hover > span {
+    color: var(--color-black);
+}
+
+/* =========================================================
+   CAPABILITY IMAGE
+========================================================= */
+
+.about-capability-image {
+    overflow: hidden;
+}
+
+.about-capability-image img {
+    display: block;
+
+    width: 100%;
+    height: 560px;
+
+    object-fit: cover;
+
+    transition: transform 0.5s ease;
+}
+
+.about-capability-image:hover img {
+    transform: scale(1.025);
+}
+
+/* =========================================================
+   FINAL CTA
+========================================================= */
+
+.about-final-cta {
+    background: var(--color-primary);
+}
+
+.about-final-cta .cta-inner {
+    min-height: 210px;
+
+    gap: 50px;
+}
+
+.about-final-content {
+    max-width: 720px;
+}
+
+.about-final-content .eyebrow {
+    display: inline-block;
+
+    margin-bottom: 18px;
+
+    color: var(--color-black);
+}
+
+.about-final-content h2 {
+    margin: 0;
+
+    font-size: clamp(40px, 4.5vw, 58px);
+    font-weight: 600;
+    line-height: 0.96;
+    letter-spacing: -2.3px;
+
+    color: var(--color-black);
+}
+
+.about-final-content h2 span {
+    display: inline;
+    color: var(--color-black);
+}
+
+.about-final-content p {
+    max-width: 650px;
+
+    margin: 18px 0 0;
+
+    font-size: 15px;
+    line-height: 1.65;
+
+    color: rgba(0, 0, 0, 0.72);
+}
+
+.about-final-cta .advent-btn-dark {
+    flex-shrink: 0;
+
+    min-width: 220px;
+
+    background: var(--color-black);
+    border-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.about-final-cta .advent-btn-dark:hover {
+    background: var(--color-white);
+    border-color: var(--color-white);
+    color: var(--color-black);
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1199.98px) {
+    .about-hero .hero-content {
+        padding-left: 5vw;
+    }
+
+    .about-who-grid,
+    .about-capability-grid {
+        gap: 55px;
+    }
+
+    .about-expertise-grid {
+        gap: 55px;
+    }
+
+    .about-capability-image img {
+        height: 500px;
+    }
+}
+
+/* =========================================================
+   TABLET / SMALL LAPTOP
+========================================================= */
+
+@media (max-width: 991.98px) {
+    .about-hero .hero-content {
+        min-height: 580px;
+        padding: 70px 40px;
+    }
+
+    .about-hero-image {
+        height: 580px;
+    }
+
+    .about-hero-inner h1 {
+        font-size: 58px;
+        letter-spacing: -2.5px;
+    }
+
+    .about-introduction-image img {
+        height: 420px;
+    }
+
+    .about-who-grid,
+    .about-expertise-grid,
+    .about-capability-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .about-who-content,
+    .about-expertise-content,
+    .about-capability-content {
+        max-width: 750px;
+    }
+
+    .about-who-image {
+        max-width: 700px;
+    }
+
+    .about-expertise {
+        padding-top: 100px;
+    }
+
+    .about-expertise-image {
+        max-width: 700px;
+        order: 2;
+    }
+
+    .about-expertise-content {
+        order: 1;
+    }
+
+    .about-capability {
+        padding-top: 100px;
+    }
+
+    .about-capability-image {
+        max-width: 700px;
+    }
+
+    .about-final-cta .cta-inner {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 55px 0;
+    }
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767.98px) {
+    /* -----------------------------------------------------
+       HERO
+    ----------------------------------------------------- */
+
+    .about-hero .hero-content {
+        min-height: 480px;
+        padding: 60px 25px;
+    }
+
+    .about-hero-image {
+        height: 360px;
+    }
+
+    .about-hero-inner .eyebrow {
+        margin-bottom: 20px;
+    }
+
+    .about-hero-inner h1 {
+        font-size: 43px;
+        line-height: 0.96;
+        letter-spacing: -1.8px;
+    }
+
+    .about-hero-inner p {
+        margin-top: 24px;
+
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    /* -----------------------------------------------------
+       INTRODUCTION
+    ----------------------------------------------------- */
+
+    .about-introduction {
+        padding: 70px 0;
+    }
+
+    .about-lead {
+        margin-bottom: 38px;
+
+        font-size: 24px;
+        line-height: 1.22;
+        letter-spacing: -0.7px;
+    }
+
+    .about-introduction-image img {
+        height: 300px;
+    }
+
+    /* -----------------------------------------------------
+       WHO WE ARE
+    ----------------------------------------------------- */
+
+    .about-who-we-are {
+        padding: 70px 0;
+    }
+
+    .about-who-grid {
+        gap: 38px;
+    }
+
+    .about-who-content h2 {
+        font-size: 40px;
+        letter-spacing: -1.7px;
+    }
+
+    .about-who-content p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .about-who-image img {
+        height: 330px;
+    }
+
+    /* -----------------------------------------------------
+       EXPERTISE
+    ----------------------------------------------------- */
+
+    .about-expertise {
+        padding: 70px 0;
+    }
+
+    .about-expertise-grid {
+        gap: 38px;
+    }
+
+    .about-expertise-content h2 {
+        font-size: 40px;
+        letter-spacing: -1.7px;
+    }
+
+    .about-expertise-image {
+        order: 2;
+    }
+
+    .about-expertise-content {
+        order: 1;
+    }
+
+    .about-expertise-image img {
+        height: 300px;
+    }
+
+    .about-stat-grid {
+        margin-top: 32px;
+    }
+
+    .about-stat {
+        min-height: 105px;
+        padding: 18px 17px;
+    }
+
+    .about-stat strong {
+        font-size: 29px;
+    }
+
+    .about-stat strong span {
+        font-size: 20px;
+    }
+
+    .about-stat > span {
+        font-size: 10px;
+    }
+
+    /* -----------------------------------------------------
+       INDUSTRIES
+    ----------------------------------------------------- */
+
+    .about-industries {
+        margin-top: 55px;
+    }
+
+    .about-industry-links {
+        gap: 8px;
+    }
+
+    .about-industry-links a {
+        min-height: 38px;
+        padding: 0 14px;
+
+        font-size: 9px;
+    }
+
+    /* -----------------------------------------------------
+       CAPABILITY
+    ----------------------------------------------------- */
+
+    .about-capability {
+        padding: 70px 0;
+    }
+
+    .about-capability-grid {
+        gap: 38px;
+    }
+
+    .about-capability-content h2 {
+        font-size: 40px;
+        letter-spacing: -1.7px;
+    }
+
+    .about-capability-content > p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .about-capability-links {
+        grid-template-columns: 1fr;
+        gap: 8px;
+
+        margin-top: 28px;
+    }
+
+    .about-capability-links a {
+        min-height: 46px;
+        font-size: 11px;
+    }
+
+    .about-capability-image img {
+        height: 360px;
+    }
+
+    /* -----------------------------------------------------
+       FINAL CTA
+    ----------------------------------------------------- */
+
+    .about-final-cta .cta-inner {
+        min-height: 0;
+
+        padding: 50px 0;
+
+        gap: 30px;
+    }
+
+    .about-final-content h2 {
+        font-size: 37px;
+        letter-spacing: -1.5px;
+    }
+
+    .about-final-content p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .about-final-cta .advent-btn-dark {
+        width: 100%;
+        min-width: 0;
+
+        font-size: 11px;
+    }
+}
+
+/* =========================================================
+   THEME SUPPORT
+   Section backgrounds and foregrounds use theme variables.
+   No section is locked to black or white.
+========================================================= */
+
+.about-hero,
+.about-introduction,
+.about-who-we-are,
+.about-expertise,
+.about-capability {
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+
+.about-who-content h2,
+.about-expertise-content h2,
+.about-capability-content h2,
+.about-introduction .about-lead,
+.about-hero-inner h1 {
+    color: var(--color-text);
+}
+
+.about-who-content p,
+.about-capability-content > p,
+.about-hero-inner p,
+.about-section-heading p {
+    color: var(--color-text-muted);
+}
+
+.about-stat-grid,
+.about-stat {
+    border-color: var(--color-border);
+}
+
+.about-stat > span {
+    color: var(--color-text-muted);
+}
+
+.about-industry-links a {
+    border-color: var(--color-border);
+    color: var(--color-text);
+    background: transparent;
+}
+
+.about-capability-links a {
+    background: var(--color-surface);
+    border-color: var(--color-border);
+    color: var(--color-text);
+}
+
+.about-capability-links a:hover,
+.about-industry-links a:hover {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-black);
+}
+
+.about-capability-links a:hover > span {
+    color: var(--color-black);
+}
+
+/* =========================================================
+   DARK THEME — ONLY WHERE CONTRAST NEEDS EXPLICIT CONTROL
+========================================================= */
+
+.theme-dark .about-capability-links a {
+    background: var(--color-surface);
+    color: var(--color-text);
+}
+
+.theme-dark .about-capability-links a:hover,
+.theme-dark .about-industry-links a:hover {
+    background: var(--color-primary);
+    color: var(--color-black);
+}
+
+/* =========================================================
+   BRAND CTA
+   The final CTA intentionally remains Advent yellow.
+   This is a brand action block, not a locked dark section.
+========================================================= */
+
+.about-final-cta {
+    background: var(--color-primary);
+    color: var(--color-black);
+}
+
+.about-final-cta h2,
+.about-final-content h2,
+.about-final-content p,
+.about-final-content .eyebrow {
+    color: var(--color-black);
+}
