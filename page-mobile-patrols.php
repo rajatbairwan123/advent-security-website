@@ -30,27 +30,27 @@ get_header();
 
                             <h1>
                                 Mobile Patrol Security Services
-                                <span>Across Melbourne &amp; Surrounding Areas</span>
+                                <span>Across Australia</span>
                             </h1>
 
                             <p>
-                                Visible, responsive mobile patrols that help protect
-                                properties, monitor sites and respond to security
-                                concerns across Melbourne and surrounding areas.
+                                Professional mobile patrol services designed to help protect
+                                commercial properties, construction sites, industrial
+                                facilities, retail locations and other sites across Australia.
                             </p>
 
                             <div class="hero-actions">
                                 <a
                                     href="<?php echo esc_url(home_url('/contact/')); ?>"
                                     class="advent-btn">
-                                    Request a Security Assessment
+                                    REQUEST A SECURITY ASSESSMENT
                                     <b class="arrow">→</b>
                                 </a>
 
                                 <a
                                     href="<?php echo esc_url(home_url('/contact/')); ?>"
                                     class="advent-btn">
-                                    Contact Advent Security
+                                    CONTACT ADVENT SECURITY
                                     <b class="arrow">→</b>
                                 </a>
                             </div>
@@ -97,11 +97,10 @@ get_header();
                         </h2>
 
                         <p>
-                            Mobile patrols provide a flexible way to maintain
-                            a visible security presence across commercial
-                            properties, construction sites, industrial
-                            facilities, retail locations and other vulnerable
-                            environments.
+                            Mobile patrols provide a flexible way to maintain a visible security presence
+                            across commercial properties, construction sites, industrial
+                            facilities, retail locations and other environments where
+                            regular security checks are required.
                         </p>
 
                         <p>
@@ -113,10 +112,8 @@ get_header();
                         </p>
 
                         <p>
-                            Patrols can also complement existing security
-                            measures such as alarm systems, CCTV and access
-                            control, helping create a broader security strategy
-                            for your property.
+                            Patrols can also complement existing security measures such as alarm systems,
+                            CCTV and access control as part of a broader security strategy.
                         </p>
 
                     </div>
@@ -257,8 +254,8 @@ get_header();
                 <article class="mobile-patrol-coverage-item">
                     <h3>Commercial Properties</h3>
                     <p>
-                        Help maintain security around offices, business
-                        premises and commercial facilities outside normal
+                        Mobile patrols can provide scheduled security checks around offices, business
+                        premises and commercial facilities, including outside normal
                         operating hours.
                     </p>
                 </article>
@@ -427,17 +424,15 @@ get_header();
                     </h2>
 
                     <p>
-                        Mobile patrols can form part of a broader security
-                        strategy designed around the property. Advent Security
-                        can help integrate patrol activity with other security
-                        measures to provide a more coordinated approach to
-                        protecting your site.
+                        Mobile patrols can form part of a broader security strategy designed around
+                        the property. Advent Security can coordinate patrol activity
+                        with other security measures according to the requirements
+                        of the site.
                     </p>
 
                     <p>
-                        Our security solutions can incorporate personnel,
-                        electronic security and response services according to
-                        the requirements of the property.
+                        Security arrangements can incorporate personnel, electronic security
+                        and response services where appropriate.
                     </p>
                 </div>
 
@@ -754,7 +749,7 @@ get_header();
                 <a
                     href="<?php echo esc_url(home_url('/contact/')); ?>"
                     class="advent-btn advent-btn-dark">
-                    Request a Security Assessment <b class="arrow">→</b>
+                    REQUEST A SECURITY ASSESSMENT <b class="arrow">→</b>
                 </a>
 
             </div>

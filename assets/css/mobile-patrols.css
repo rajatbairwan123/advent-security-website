@@ -79,7 +79,7 @@
     height: 100%;
     display: block;
     object-fit: cover;
-    object-position: center;
+    object-position: 70% center;
 }
 
 /* =========================================================
@@ -140,6 +140,7 @@
     height: 100%;
     display: block;
     object-fit: cover;
+    object-position: 75% center;
 }
 
 /* =========================================================

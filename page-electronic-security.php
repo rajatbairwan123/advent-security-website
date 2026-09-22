@@ -70,11 +70,6 @@ get_header();
                     Visitor Management
                 </a>
             </li>
-            <li>
-                <a href="<?php echo esc_url(home_url('/electronic-security/mobile-patrols/')); ?>">
-                    Mobile Patrols
-                </a>
-            </li>
 
         </ul>
 

@@ -90,6 +90,12 @@ get_header();
                 </a>
             </li>
 
+            <li>
+                <a href="<?php echo esc_url(home_url('/security-services/mobile-patrols/')); ?>">
+                    Mobile Patrols
+                </a>
+            </li>
+
         </ul>
 
     </div>
