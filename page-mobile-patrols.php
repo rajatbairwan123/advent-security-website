@@ -15,37 +15,31 @@ get_header();
     <!-- =====================================================
          HERO
     ====================================================== -->
-
-    <section class="security-hero mobile-patrols-single">
+    <section class="security-hero mobile-patrols-hero">
 
         <div class="container-fluid px-0">
-
             <div class="row g-0 align-items-stretch">
 
                 <div class="col-lg-6">
-
                     <div class="hero-content">
-
                         <div class="hero-inner">
 
                             <span class="eyebrow">
-                                ELECTRONIC SECURITY
+                                SECURITY SERVICES
                             </span>
 
                             <h1>
-                                Mobile Patrol<br>
-                                <span>Security Services.</span>
+                                Mobile Patrol Security Services
+                                <span>Across Melbourne &amp; Surrounding Areas</span>
                             </h1>
 
                             <p>
-                                Visible, responsive mobile patrols that help
-                                protect properties, monitor sites and respond
-                                to security concerns across Melbourne and
-                                surrounding areas.
+                                Visible, responsive mobile patrols that help protect
+                                properties, monitor sites and respond to security
+                                concerns across Melbourne and surrounding areas.
                             </p>
 
                             <div class="hero-actions">
-
                                 <a
                                     href="<?php echo esc_url(home_url('/contact/')); ?>"
                                     class="advent-btn">
@@ -59,120 +53,42 @@ get_header();
                                     Contact Advent Security
                                     <b class="arrow">→</b>
                                 </a>
-
                             </div>
 
                         </div>
-
                     </div>
-
                 </div>
-
 
                 <div class="col-lg-6">
-
                     <div class="hero-image mobile-patrols-hero-image">
-
                         <img
                             src="<?php echo esc_url(
-                                        get_template_directory_uri()
-                                            . '/assets/images/mobile-patrols/mobile-patrols-hero.webp'
+                                        get_template_directory_uri() .
+                                            '/assets/images/mobile-patrols/mobile-patrols-hero.webp'
                                     ); ?>"
                             alt="Advent Security mobile patrol vehicle">
-
                     </div>
-
                 </div>
 
             </div>
-
         </div>
 
     </section>
 
 
     <!-- =====================================================
-         PROOF STRIP
-         Uses existing integrated-proof component
+         WHY MOBILE PATROLS
     ====================================================== -->
-
-    <section class="integrated-proof">
-
-        <div class="container-fluid px-0">
-
-            <div class="integrated-proof-grid">
-
-                <div class="integrated-proof-item">
-
-                    <span class="integrated-proof-label">
-                        MOBILE PATROLS
-                    </span>
-
-                    <strong>
-                        Visible security presence
-                    </strong>
-
-                </div>
-
-
-                <div class="integrated-proof-item">
-
-                    <span class="integrated-proof-label">
-                        RESPONSE
-                    </span>
-
-                    <strong>
-                        Support when concerns arise
-                    </strong>
-
-                </div>
-
-
-                <div class="integrated-proof-item">
-
-                    <span class="integrated-proof-label">
-                        AUSTRALIAN-OWNED
-                    </span>
-
-                    <strong>
-                        Established security provider
-                    </strong>
-
-                </div>
-
-
-                <div class="integrated-proof-item">
-
-                    <span class="integrated-proof-label">
-                        ASIAL
-                    </span>
-
-                    <strong>
-                        Platinum Level member
-                    </strong>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =====================================================
-         INTRODUCTION
-    ====================================================== -->
-
     <section class="content-section mobile-patrols-overview">
+
         <div class="container">
             <div class="row align-items-center g-5">
 
-                <!-- Content -->
                 <div class="col-lg-6">
                     <div class="section-content">
+
                         <span class="eyebrow">
-                            MOBILE PATROL SECURITY
+                            WHY MOBILE PATROLS
                         </span>
 
                         <h2>
@@ -190,10 +106,10 @@ get_header();
 
                         <p>
                             Advent Security mobile patrol officers can conduct
-                            scheduled or responsive site visits, checking
-                            access points, buildings, perimeter areas and
-                            other designated locations for signs of damage,
-                            intrusion, unauthorised access or unusual activity.
+                            scheduled or responsive site visits, checking access
+                            points, buildings, perimeter areas and other
+                            designated locations for signs of damage, intrusion,
+                            unauthorised access or unusual activity.
                         </p>
 
                         <p>
@@ -202,15 +118,16 @@ get_header();
                             control, helping create a broader security strategy
                             for your property.
                         </p>
+
                     </div>
                 </div>
 
-                <!-- Image -->
                 <div class="col-lg-6">
                     <div class="mobile-patrols-overview-image">
                         <img
                             src="<?php echo esc_url(
-                                        get_template_directory_uri() . '/assets/images/mobile-patrols/mobile-patrols-overview.webp'
+                                        get_template_directory_uri() .
+                                            '/assets/images/mobile-patrols/mobile-patrols-overview.webp'
                                     ); ?>"
                             alt="Advent Security mobile patrol officer inspecting a property">
                     </div>
@@ -218,22 +135,19 @@ get_header();
 
             </div>
         </div>
+
     </section>
 
 
     <!-- =====================================================
-         MOBILE PATROL SERVICES
+         PATROL SERVICES
     ====================================================== -->
-
     <section class="content-section mobile-patrol-services">
 
         <div class="container">
 
             <div class="mobile-patrol-section-intro">
-
-                <span class="eyebrow">
-                    PATROL SERVICES
-                </span>
+                <span class="eyebrow">PATROL SERVICES</span>
 
                 <h2>
                     Flexible patrols designed around
@@ -245,166 +159,71 @@ get_header();
                     property's operating hours, security requirements and
                     identified vulnerabilities.
                 </p>
-
             </div>
-
 
             <div class="mobile-patrol-services-grid">
 
-                <!-- Card -->
-
                 <article class="mobile-patrol-service-card">
-
-                    <div class="mobile-patrol-service-icon">
-
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M12 3 5 6v5c0 4.5 2.9 8.4 7 10 4.1-1.6 7-5.5 7-10V6l-7-3Z" />
-                        </svg>
-
-                    </div>
-
-                    <h3>
-                        Scheduled Patrols
-                    </h3>
-
+                    <span class="mobile-patrol-service-mark" aria-hidden="true"></span>
+                    <h3>Scheduled Patrols</h3>
                     <p>
                         Regular patrol visits provide a visible security
-                        presence and help identify potential security issues
-                        before they become larger problems.
+                        presence and help identify security concerns during
+                        scheduled site checks.
                     </p>
-
                 </article>
 
-
-                <!-- Card -->
-
                 <article class="mobile-patrol-service-card">
-
-                    <div class="mobile-patrol-service-icon">
-
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4" />
-                        </svg>
-
-                    </div>
-
-                    <h3>
-                        Alarm Response
-                    </h3>
-
+                    <span class="mobile-patrol-service-mark" aria-hidden="true"></span>
+                    <h3>Alarm Response</h3>
                     <p>
                         Mobile patrol officers can attend designated sites
                         following an alarm activation or other security alert,
                         subject to the agreed response arrangements.
                     </p>
-
                 </article>
 
-
-                <!-- Card -->
-
                 <article class="mobile-patrol-service-card">
-
-                    <div class="mobile-patrol-service-icon">
-
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <circle cx="8" cy="15" r="4" />
-                            <path d="m11 12 8-8m-2 0h2v2" />
-                        </svg>
-
-                    </div>
-
-                    <h3>
-                        Lock-Up &amp; Unlock Services
-                    </h3>
-
+                    <span class="mobile-patrol-service-mark" aria-hidden="true"></span>
+                    <h3>Lock-Up &amp; Unlock Services</h3>
                     <p>
                         Scheduled lock-up and unlock services can help
                         businesses maintain security around opening and
                         closing procedures.
                     </p>
-
                 </article>
 
-
-                <!-- Card -->
-
                 <article class="mobile-patrol-service-card">
-
-                    <div class="mobile-patrol-service-icon">
-
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M12 21s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z" />
-                            <circle cx="12" cy="9" r="2.5" />
-                        </svg>
-
-                    </div>
-
-                    <h3>
-                        Perimeter Checks
-                    </h3>
-
+                    <span class="mobile-patrol-service-mark" aria-hidden="true"></span>
+                    <h3>Perimeter Checks</h3>
                     <p>
                         Patrol officers can inspect external areas, entry
                         points, gates, fencing and other vulnerable locations
                         for signs of damage, intrusion or suspicious activity.
                     </p>
-
                 </article>
 
-
-                <!-- Card -->
-
                 <article class="mobile-patrol-service-card">
-
-                    <div class="mobile-patrol-service-icon">
-
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M20 15.5A8 8 0 0 1 8.5 4 8 8 0 1 0 20 15.5Z" />
-                        </svg>
-
-                    </div>
-
-                    <h3>
-                        After-Hours Security
-                    </h3>
-
+                    <span class="mobile-patrol-service-mark" aria-hidden="true"></span>
+                    <h3>After-Hours Security</h3>
                     <p>
                         Regular after-hours patrols provide additional
                         oversight when properties are unoccupied and may be
                         more vulnerable to unwanted activity.
                     </p>
-
                 </article>
 
-
-                <!-- Card -->
-
                 <article class="mobile-patrol-service-card">
-
-                    <div class="mobile-patrol-service-icon">
-
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M6 3h9l3 3v15H6V3Z" />
-                            <path d="M14 3v4h4M9 12h6M9 16h6" />
-                        </svg>
-
-                    </div>
-
-                    <h3>
-                        Incident Reporting
-                    </h3>
-
+                    <span class="mobile-patrol-service-mark" aria-hidden="true"></span>
+                    <h3>Incident Reporting</h3>
                     <p>
                         Patrol activities and identified security concerns can
                         be documented and reported according to your agreed
                         security procedures.
                     </p>
-
                 </article>
 
             </div>
-
         </div>
 
     </section>
@@ -413,16 +232,12 @@ get_header();
     <!-- =====================================================
          SECURITY COVERAGE
     ====================================================== -->
-
     <section class="content-section mobile-patrol-coverage">
 
         <div class="container">
 
             <div class="mobile-patrol-coverage-intro">
-
-                <span class="eyebrow">
-                    SECURITY COVERAGE
-                </span>
+                <span class="eyebrow">SECURITY COVERAGE</span>
 
                 <h2>
                     Practical protection for properties
@@ -435,112 +250,73 @@ get_header();
                     Patrol schedules and activities can be tailored to
                     the characteristics and security requirements of each site.
                 </p>
-
             </div>
-
 
             <div class="mobile-patrol-coverage-grid">
 
                 <article class="mobile-patrol-coverage-item">
-
-                    <h3>
-                        Commercial Properties
-                    </h3>
-
+                    <h3>Commercial Properties</h3>
                     <p>
                         Help maintain security around offices, business
                         premises and commercial facilities outside normal
                         operating hours.
                     </p>
-
                 </article>
 
-
                 <article class="mobile-patrol-coverage-item">
-
-                    <h3>
-                        Construction Sites
-                    </h3>
-
+                    <h3>Construction Sites</h3>
                     <p>
                         Regular patrols can help identify unauthorised access,
                         perimeter breaches, equipment concerns and other
                         security issues at active construction sites.
                     </p>
-
                 </article>
 
-
                 <article class="mobile-patrol-coverage-item">
-
-                    <h3>
-                        Industrial &amp; Warehousing
-                    </h3>
-
+                    <h3>Industrial &amp; Warehousing</h3>
                     <p>
                         Patrols can provide additional oversight of large
                         facilities, loading areas, yards, access points and
                         perimeter zones.
                     </p>
-
                 </article>
 
-
                 <article class="mobile-patrol-coverage-item">
-
-                    <h3>
-                        Retail Properties
-                    </h3>
-
+                    <h3>Retail Properties</h3>
                     <p>
                         Support retail sites with after-hours checks and
                         visible security presence around stores, shopping
                         facilities and associated property areas.
                     </p>
-
                 </article>
 
-
                 <article class="mobile-patrol-coverage-item">
-
-                    <h3>
-                        Vacant &amp; High-Risk Properties
-                    </h3>
-
+                    <h3>Vacant Properties</h3>
                     <p>
                         Scheduled visits can provide additional oversight for
                         vacant buildings and properties requiring regular
                         security checks.
                     </p>
-
                 </article>
 
-
                 <article class="mobile-patrol-coverage-item">
-
-                    <h3>
-                        Residential &amp; Strata Properties
-                    </h3>
-
+                    <h3>Residential &amp; Strata Properties</h3>
                     <p>
                         Mobile patrols can complement existing security
                         arrangements across selected residential developments
                         and common areas.
                     </p>
-
                 </article>
 
             </div>
-
         </div>
 
     </section>
 
 
     <!-- =====================================================
-         HOW MOBILE PATROLS WORK
+         OUR APPROACH
     ====================================================== -->
-
     <section class="content-section mobile-patrol-process">
 
         <div class="container">
@@ -548,10 +324,7 @@ get_header();
             <div class="mobile-patrol-process-grid">
 
                 <div class="mobile-patrol-process-intro">
-
-                    <span class="eyebrow">
-                        OUR APPROACH
-                    </span>
+                    <span class="eyebrow">OUR APPROACH</span>
 
                     <h2>
                         A patrol program built
@@ -563,262 +336,74 @@ get_header();
                         the property, its vulnerabilities and the times
                         when additional security presence is required.
                     </p>
-
                 </div>
-
 
                 <div class="mobile-patrol-process-list">
 
                     <div class="mobile-patrol-process-item">
-
                         <span class="mobile-patrol-process-marker"></span>
-
                         <div>
-
-                            <h3>
-                                Security Assessment
-                            </h3>
-
+                            <h3>Security Assessment</h3>
                             <p>
                                 We review the property, access points,
                                 perimeter areas and relevant security concerns
                                 to understand where patrol activity can
                                 provide value.
                             </p>
-
                         </div>
-
                     </div>
 
-
                     <div class="mobile-patrol-process-item">
-
                         <span class="mobile-patrol-process-marker"></span>
-
                         <div>
-
-                            <h3>
-                                Patrol Planning
-                            </h3>
-
+                            <h3>Patrol Planning</h3>
                             <p>
                                 Patrol frequency, timing, access requirements
                                 and inspection areas are established according
                                 to the property's security requirements.
                             </p>
-
                         </div>
-
                     </div>
 
-
                     <div class="mobile-patrol-process-item">
-
                         <span class="mobile-patrol-process-marker"></span>
-
                         <div>
-
-                            <h3>
-                                Site Patrols
-                            </h3>
-
+                            <h3>Site Patrols</h3>
                             <p>
                                 Security officers conduct scheduled or
                                 responsive visits, checking designated areas
                                 and looking for signs of intrusion, damage or
                                 unusual activity.
                             </p>
-
                         </div>
-
                     </div>
 
-
                     <div class="mobile-patrol-process-item">
-
                         <span class="mobile-patrol-process-marker"></span>
-
                         <div>
-
-                            <h3>
-                                Incident Response
-                            </h3>
-
+                            <h3>Incident Response</h3>
                             <p>
                                 Where a security concern is identified,
                                 officers follow the agreed response and
                                 escalation procedures.
                             </p>
-
                         </div>
-
                     </div>
 
-
                     <div class="mobile-patrol-process-item">
-
                         <span class="mobile-patrol-process-marker"></span>
-
                         <div>
-
-                            <h3>
-                                Reporting
-                            </h3>
-
+                            <h3>Reporting</h3>
                             <p>
                                 Relevant patrol activity and incidents are
                                 documented to provide visibility of security
                                 activity and identified concerns.
                             </p>
-
                         </div>
-
                     </div>
 
                 </div>
-
             </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =====================================================
-         WHERE WE PATROL
-    ====================================================== -->
-
-    <section class="content-section mobile-patrol-industries">
-
-        <div class="container">
-
-            <div class="mobile-patrol-industries-intro">
-
-                <span class="eyebrow">
-                    WHERE WE PATROL
-                </span>
-
-                <h2>
-                    Mobile security for a range
-                    <span>of property types.</span>
-                </h2>
-
-                <p>
-                    Every property has different access points, operating
-                    hours and security risks. Mobile patrol services can
-                    be structured around the specific requirements of the site.
-                </p>
-
-            </div>
-
-
-            <div class="mobile-patrol-industries-grid">
-
-                <div class="mobile-patrol-industry">
-
-                    <span>
-                        Commercial Properties
-                    </span>
-
-                    <span class="mobile-patrol-industry-arrow">
-                        →
-                    </span>
-
-                </div>
-
-
-                <div class="mobile-patrol-industry">
-
-                    <span>
-                        Construction Sites
-                    </span>
-
-                    <span class="mobile-patrol-industry-arrow">
-                        →
-                    </span>
-
-                </div>
-
-
-                <div class="mobile-patrol-industry">
-
-                    <span>
-                        Industrial Facilities
-                    </span>
-
-                    <span class="mobile-patrol-industry-arrow">
-                        →
-                    </span>
-
-                </div>
-
-
-                <div class="mobile-patrol-industry">
-
-                    <span>
-                        Warehouses &amp; Distribution Centres
-                    </span>
-
-                    <span class="mobile-patrol-industry-arrow">
-                        →
-                    </span>
-
-                </div>
-
-
-                <div class="mobile-patrol-industry">
-
-                    <span>
-                        Retail Properties
-                    </span>
-
-                    <span class="mobile-patrol-industry-arrow">
-                        →
-                    </span>
-
-                </div>
-
-
-                <div class="mobile-patrol-industry">
-
-                    <span>
-                        Vacant Properties
-                    </span>
-
-                    <span class="mobile-patrol-industry-arrow">
-                        →
-                    </span>
-
-                </div>
-
-
-                <div class="mobile-patrol-industry">
-
-                    <span>
-                        Residential Developments
-                    </span>
-
-                    <span class="mobile-patrol-industry-arrow">
-                        →
-                    </span>
-
-                </div>
-
-
-                <div class="mobile-patrol-industry">
-
-                    <span>
-                        Large Commercial Sites
-                    </span>
-
-                    <span class="mobile-patrol-industry-arrow">
-                        →
-                    </span>
-
-                </div>
-
-            </div>
-
         </div>
 
     </section>
@@ -827,18 +412,14 @@ get_header();
     <!-- =====================================================
          WHY ADVENT
     ====================================================== -->
-
-    <section class="content-section why-advent">
+    <section class="content-section mobile-patrol-why">
 
         <div class="container">
 
             <div class="mobile-patrol-why-grid">
 
                 <div class="mobile-patrol-why-content">
-
-                    <span class="eyebrow">
-                        WHY ADVENT
-                    </span>
+                    <span class="eyebrow">WHY ADVENT</span>
 
                     <h2>
                         Security presence backed by
@@ -846,11 +427,11 @@ get_header();
                     </h2>
 
                     <p>
-                        Mobile patrols are most effective when they form part
-                        of a security strategy designed around the property.
-                        Advent Security can help integrate patrol activity with
-                        other security measures to provide a more coordinated
-                        approach to protecting your site.
+                        Mobile patrols can form part of a broader security
+                        strategy designed around the property. Advent Security
+                        can help integrate patrol activity with other security
+                        measures to provide a more coordinated approach to
+                        protecting your site.
                     </p>
 
                     <p>
@@ -858,73 +439,46 @@ get_header();
                         electronic security and response services according to
                         the requirements of the property.
                     </p>
-
                 </div>
-
 
                 <div class="mobile-patrol-why-features">
 
                     <div class="mobile-patrol-why-feature">
-
-                        <h3>
-                            Visible Deterrence
-                        </h3>
-
+                        <h3>Visible Security Presence</h3>
                         <p>
                             Regular patrol activity creates a visible security
                             presence around your property.
                         </p>
-
                     </div>
 
-
                     <div class="mobile-patrol-why-feature">
-
-                        <h3>
-                            Flexible Coverage
-                        </h3>
-
+                        <h3>Flexible Coverage</h3>
                         <p>
                             Patrol schedules can be structured around your
                             operating hours, site conditions and security
                             requirements.
                         </p>
-
                     </div>
 
-
                     <div class="mobile-patrol-why-feature">
-
-                        <h3>
-                            Responsive Support
-                        </h3>
-
+                        <h3>Responsive Support</h3>
                         <p>
                             Mobile patrols can provide a physical response to
                             designated security alerts and incidents.
                         </p>
-
                     </div>
 
-
                     <div class="mobile-patrol-why-feature">
-
-                        <h3>
-                            Integrated Security
-                        </h3>
-
+                        <h3>Integrated Security</h3>
                         <p>
                             Patrol services can complement CCTV, alarm
                             monitoring, access control and other security
                             measures.
                         </p>
-
                     </div>
 
                 </div>
-
             </div>
-
         </div>
 
     </section>
@@ -932,20 +486,14 @@ get_header();
 
     <!-- =====================================================
          RELATED SERVICES
-         Uses existing security.css component
     ====================================================== -->
-
-    <section class="content-section related-services">
+    <section class="content-section related-services mobile-patrol-related">
 
         <div class="container">
 
             <div class="related-services-header">
-
                 <div>
-
-                    <span class="eyebrow">
-                        RELATED SERVICES
-                    </span>
+                    <span class="eyebrow">RELATED SERVICES</span>
 
                     <h2>
                         Explore our other<br>
@@ -957,158 +505,48 @@ get_header();
                         and response services to provide a more comprehensive
                         approach to protecting your property.
                     </p>
-
                 </div>
-
             </div>
-
 
             <div class="related-services-grid">
 
-                <a
-                    href="<?php echo esc_url(home_url('/alarm-monitoring/')); ?>"
-                    class="related-service-card">
-
-                    <span class="related-service-icon">
-
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4" />
-                        </svg>
-
-                    </span>
-
-                    <span class="related-service-title">
-                        Alarm Monitoring
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
+                <a href="<?php echo esc_url(home_url('/alarm-monitoring/')); ?>" class="related-service-card">
+                    <!-- <span class="related-service-icon" aria-hidden="true"></span> -->
+                    <span class="related-service-title">Alarm Monitoring</span>
+                    <span class="related-service-arrow">→</span>
                 </a>
 
-
-                <a
-                    href="<?php echo esc_url(home_url('/cctv-camera-systems/')); ?>"
-                    class="related-service-card">
-
-                    <span class="related-service-icon">
-
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M3 7h13l5 4v6H3V7Z" />
-                            <circle cx="9" cy="13" r="2.5" />
-                        </svg>
-
-                    </span>
-
-                    <span class="related-service-title">
-                        CCTV Camera Systems
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
+                <a href="<?php echo esc_url(home_url('/cctv-camera-systems/')); ?>" class="related-service-card">
+                    <!-- <span class="related-service-icon" aria-hidden="true"></span> -->
+                    <span class="related-service-title">CCTV Camera Systems</span>
+                    <span class="related-service-arrow">→</span>
                 </a>
 
-
-                <a
-                    href="<?php echo esc_url(home_url('/access-control/')); ?>"
-                    class="related-service-card">
-
-                    <span class="related-service-icon">
-
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <rect x="5" y="10" width="14" height="10" rx="1" />
-                            <path d="M8 10V7a4 4 0 0 1 8 0v3" />
-                        </svg>
-
-                    </span>
-
-                    <span class="related-service-title">
-                        Access Control
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
+                <a href="<?php echo esc_url(home_url('/access-control/')); ?>" class="related-service-card">
+                    <!-- <span class="related-service-icon" aria-hidden="true"></span> -->
+                    <span class="related-service-title">Access Control</span>
+                    <span class="related-service-arrow">→</span>
                 </a>
 
-
-                <a
-                    href="<?php echo esc_url(home_url('/remote-monitoring/')); ?>"
-                    class="related-service-card">
-
-                    <span class="related-service-icon">
-
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <circle cx="12" cy="12" r="8" />
-                            <path d="M12 8v4l3 2" />
-                        </svg>
-
-                    </span>
-
-                    <span class="related-service-title">
-                        Remote Monitoring
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
+                <a href="<?php echo esc_url(home_url('/remote-monitoring/')); ?>" class="related-service-card">
+                    <!-- <span class="related-service-icon" aria-hidden="true"></span> -->
+                    <span class="related-service-title">Remote Monitoring</span>
+                    <span class="related-service-arrow">→</span>
                 </a>
 
-
-                <a
-                    href="<?php echo esc_url(home_url('/emergency-response/')); ?>"
-                    class="related-service-card">
-
-                    <span class="related-service-icon">
-
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M12 3 4 7v5c0 4.2 3.4 8 8 9 4.6-1 8-4.8 8-9V7l-8-4Z" />
-                            <path d="M12 8v4l2 2" />
-                        </svg>
-
-                    </span>
-
-                    <span class="related-service-title">
-                        Emergency Response
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
+                <a href="<?php echo esc_url(home_url('/emergency-response/')); ?>" class="related-service-card">
+                    <!-- <span class="related-service-icon" aria-hidden="true"></span> -->
+                    <span class="related-service-title">Emergency Response</span>
+                    <span class="related-service-arrow">→</span>
                 </a>
 
-
-                <a
-                    href="<?php echo esc_url(home_url('/security-guard-services/')); ?>"
-                    class="related-service-card">
-
-                    <span class="related-service-icon">
-
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <circle cx="12" cy="8" r="3" />
-                            <path d="M6 20c.7-3.4 2.6-5 6-5s5.3 1.6 6 5" />
-                        </svg>
-
-                    </span>
-
-                    <span class="related-service-title">
-                        Security Guard Services
-                    </span>
-
-                    <span class="related-service-arrow">
-                        →
-                    </span>
-
+                <a href="<?php echo esc_url(home_url('/security-guard-services/')); ?>" class="related-service-card">
+                    <!-- <span class="related-service-icon" aria-hidden="true"></span> -->
+                    <span class="related-service-title">Security Guard Services</span>
+                    <span class="related-service-arrow">→</span>
                 </a>
 
             </div>
-
         </div>
 
     </section>
@@ -1117,54 +555,35 @@ get_header();
     <!-- =====================================================
          FAQ
     ====================================================== -->
-
-    <section class="faq-section">
+    <section class="faq-section mobile-patrol-faq">
 
         <div class="container">
 
             <div class="mobile-patrol-faq-grid">
 
                 <div class="mobile-patrol-faq-intro">
+                    <span class="eyebrow">MOBILE PATROLS FAQ</span>
 
-                    <span class="eyebrow">
-                        MOBILE PATROLS FAQ
-                    </span>
+                    <h2>
+                        Frequently asked
+                        <span>questions.</span>
+                    </h2>
 
-                    <div class="faq-header">
-
-                        <div>
-
-                            <h2>
-                                Frequently asked
-                                <span>questions.</span>
-                            </h2>
-
-                            <p class="faq-intro">
-                                Learn more about mobile patrol security
-                                services and how patrols can support your
-                                property's security requirements.
-                            </p>
-
-                        </div>
-
-                    </div>
-
+                    <p class="faq-intro">
+                        Learn more about mobile patrol security services and
+                        how patrols can support your property's security
+                        requirements.
+                    </p>
                 </div>
-
 
                 <div class="mobile-patrol-faq-list">
 
-
                     <details>
-
                         <summary>
                             What are mobile patrol security services?
-
                             <span>+</span>
                         </summary>
-
                         <div class="mobile-patrol-faq-answer">
-
                             <p>
                                 Mobile patrol security involves security
                                 officers visiting designated properties in
@@ -1172,22 +591,15 @@ get_header();
                                 conduct scheduled or responsive security
                                 checks.
                             </p>
-
                         </div>
-
                     </details>
 
-
                     <details>
-
                         <summary>
                             How often can a mobile patrol visit my property?
-
                             <span>+</span>
                         </summary>
-
                         <div class="mobile-patrol-faq-answer">
-
                             <p>
                                 Patrol frequency depends on the property's
                                 requirements, risk profile and agreed security
@@ -1195,22 +607,15 @@ get_header();
                                 regular intervals or arranged around specific
                                 operational requirements.
                             </p>
-
                         </div>
-
                     </details>
 
-
                     <details>
-
                         <summary>
                             Can mobile patrols respond to alarm activations?
-
                             <span>+</span>
                         </summary>
-
                         <div class="mobile-patrol-faq-answer">
-
                             <p>
                                 Mobile patrols can be incorporated into an
                                 agreed alarm response arrangement where
@@ -1218,22 +623,15 @@ get_header();
                                 security system, site requirements and
                                 contracted services.
                             </p>
-
                         </div>
-
                     </details>
 
-
                     <details>
-
                         <summary>
                             What does a mobile patrol officer check?
-
                             <span>+</span>
                         </summary>
-
                         <div class="mobile-patrol-faq-answer">
-
                             <p>
                                 Patrol activities can include checking
                                 designated entry points, gates, perimeter
@@ -1241,22 +639,15 @@ get_header();
                                 locations for signs of damage, intrusion or
                                 unusual activity.
                             </p>
-
                         </div>
-
                     </details>
 
-
                     <details>
-
                         <summary>
                             Can mobile patrols replace security guards?
-
                             <span>+</span>
                         </summary>
-
                         <div class="mobile-patrol-faq-answer">
-
                             <p>
                                 Mobile patrols and static security guards
                                 serve different purposes. Patrols provide
@@ -1265,81 +656,88 @@ get_header();
                                 on-site presence. The appropriate approach
                                 depends on the property's requirements.
                             </p>
-
                         </div>
-
                     </details>
 
-
                     <details>
-
                         <summary>
                             Can mobile patrols work with CCTV and alarms?
-
                             <span>+</span>
                         </summary>
-
                         <div class="mobile-patrol-faq-answer">
-
                             <p>
                                 Yes. Mobile patrols can complement CCTV,
                                 alarm monitoring, access control and other
                                 electronic security systems as part of an
                                 integrated security strategy.
                             </p>
-
                         </div>
-
                     </details>
 
-
                     <details>
-
                         <summary>
                             Are mobile patrols available after hours?
-
                             <span>+</span>
                         </summary>
-
                         <div class="mobile-patrol-faq-answer">
-
                             <p>
                                 Mobile patrol services can be structured to
                                 provide security checks outside normal
                                 operating hours, subject to the agreed patrol
                                 schedule and service requirements.
                             </p>
-
                         </div>
-
                     </details>
 
+                    <details>
+                        <summary>
+                            Can mobile patrols be scheduled for construction sites?
+                            <span>+</span>
+                        </summary>
+                        <div class="mobile-patrol-faq-answer">
+                            <p>
+                                Yes. Mobile patrols can be scheduled around
+                                construction site operating hours and security
+                                requirements, including checks of access
+                                points, perimeter areas, equipment and other
+                                designated locations.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details>
+                        <summary>
+                            Can mobile patrols be used for vacant properties?
+                            <span>+</span>
+                        </summary>
+                        <div class="mobile-patrol-faq-answer">
+                            <p>
+                                Yes. Scheduled patrol visits can provide
+                                additional oversight of vacant properties by
+                                checking designated access points, buildings,
+                                perimeter areas and other vulnerable locations.
+                            </p>
+                        </div>
+                    </details>
 
                 </div>
-
             </div>
-
         </div>
 
     </section>
 
 
     <!-- =====================================================
-         CTA
-         Uses existing security.css
+         FINAL CTA
     ====================================================== -->
-
-    <section class="assessment-cta">
+    <section class="assessment-cta mobile-patrol-cta">
 
         <div class="container">
 
             <div class="cta-inner">
 
                 <div>
-
-                    <span class="eyebrow">
-                        PROTECT YOUR PROPERTY
-                    </span>
+                    <span class="eyebrow">PROTECT YOUR PROPERTY</span>
 
                     <h2>
                         Add a visible security presence
@@ -1347,27 +745,23 @@ get_header();
                     </h2>
 
                     <p>
-                        Talk to Advent Security about a mobile patrol
-                        program designed around your property's location,
-                        operating hours and security requirements.
+                        Talk to Advent Security about a mobile patrol program
+                        designed around your property's location, operating
+                        hours and security requirements.
                     </p>
-
                 </div>
-
 
                 <a
                     href="<?php echo esc_url(home_url('/contact/')); ?>"
                     class="advent-btn advent-btn-dark">
-                    Request a Security Assessment
+                    Request a Security Assessment <b class="arrow">→</b>
                 </a>
 
             </div>
-
         </div>
 
     </section>
 
 </main>
-
 
 <?php get_footer(); ?>

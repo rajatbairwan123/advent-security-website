@@ -400,6 +400,10 @@
         gap: 12px;
     }
 
+    /* -----------------------------------------------------
+    BUTTONS
+    ----------------------------------------------------- */
+
     .advent-btn {
         width: 100%;
 
@@ -407,6 +411,25 @@
         min-height: 54px;
 
         padding: 0 18px;
+
+        gap: 20px;
+
+        font-size: 11px;
+        letter-spacing: 0.25px;
+    }
+
+    .advent-btn-dark {
+        width: 100%;
+
+        min-width: 0;
+        min-height: 54px;
+
+        padding: 0 18px;
+
+        gap: 20px;
+
+        font-size: 11px;
+        letter-spacing: 0.25px;
     }
 
     .hero-image {

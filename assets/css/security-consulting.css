@@ -578,7 +578,7 @@
 }
 
 .consulting-final-content {
-    text-align: center;
+    text-align: left;
 }
 
 .consulting-final-content .eyebrow {
@@ -588,7 +588,7 @@
 .consulting-final-content h2 {
     max-width: 850px;
 
-    margin: 0 auto 30px;
+    margin: 0 0 30px;
 
     color: var(--color-text);
 
@@ -599,9 +599,9 @@
 }
 
 .consulting-final-content p {
-    max-width: 720px;
+    max-width: 760px;
 
-    margin: 0 auto 18px;
+    margin: 0 0 18px;
 
     color: var(--color-text-muted);
 

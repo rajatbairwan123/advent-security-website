@@ -1,1032 +1,137 @@
 /* =========================================================
-   ADVENT SECURITY
-   MOBILE PATROLS
-   PAGE-SPECIFIC CSS
-
-   Depends on:
-   - global.css
-   - components.css
-   - security.css
+   MOBILE PATROLS PAGE
+   Advent Security
+   Based on TL-approved Mobile Patrols structure
 ========================================================= */
+
+.mobile-patrols-page {
+    overflow: hidden;
+}
+
+.mobile-patrols-page > section {
+    position: relative;
+    border-bottom: 1px solid var(--color-border);
+}
 
 /* =========================================================
    HERO
 ========================================================= */
-.mobile-patrols-single h1 {
+
+.mobile-patrols-hero {
+    padding: 0;
+    background: var(--color-bg);
+}
+
+.mobile-patrols-hero .hero-content {
+    min-height: 680px;
+    display: flex;
+    align-items: center;
+    padding: 4vw 3vw;
+}
+
+.mobile-patrols-hero .hero-inner {
+    max-width: 680px;
+}
+
+.mobile-patrols-hero .hero-inner .eyebrow {
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+.mobile-patrols-hero h1 {
+    max-width: 720px;
     margin: 0;
-
-    color: var(--color-text);
-
-    font-family: var(--font-primary);
-    font-size: clamp(50px, 5vw, 86px);
+    font-size: clamp(48px, 5.8vw, 78px);
     font-weight: 600;
-    line-height: 0.92;
-    letter-spacing: -3px;
-}
-.mobile-patrols-page .mobile-patrols-hero-image {
-    height: 600px;
-    overflow: hidden;
+    line-height: 0.96;
+    letter-spacing: -3.5px;
+    color: var(--color-text);
 }
 
-.mobile-patrols-page .mobile-patrols-hero-image img {
+.mobile-patrols-hero h1 span {
+    display: block;
+    color: var(--color-primary);
+}
+
+.mobile-patrols-hero .hero-inner > p {
+    max-width: 590px;
+    margin: 30px 0 0;
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+}
+
+.mobile-patrols-hero .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 34px;
+}
+
+.mobile-patrols-hero-image {
+    height: 720px;
+    overflow: hidden;
+    background: var(--color-surface);
+}
+
+.mobile-patrols-hero-image img {
     width: 100%;
     height: 100%;
     display: block;
     object-fit: cover;
-    object-position: 75% center;
-}
-
-.hero-actions {
-    display: flex;
-    align-items: center;
-
-    gap: 14px;
-
-    margin-top: 34px;
-
-    flex-wrap: wrap;
-}
-
-.hero-actions .advent-btn {
-    min-width: 235px;
-}
-
-.hero-actions .arrow {
-    font-size: 16px;
-    line-height: 1;
-
-    transition: transform 0.8s ease;
-}
-
-.hero-actions .advent-btn:hover .arrow {
-    transform: translateX(8px);
+    object-position: center;
 }
 
 /* =========================================================
-   INTRODUCTION
+   WHY MOBILE PATROLS
 ========================================================= */
 
 .mobile-patrols-overview {
+    padding: 115px 0;
     background: var(--color-bg);
 }
 
 .mobile-patrols-overview .section-content {
-    max-width: 760px;
+    max-width: 680px;
 }
 
-.mobile-patrols-overview .section-content h2 span,
+.mobile-patrols-overview .section-content .eyebrow {
+    display: inline-block;
+    margin-bottom: 23px;
+}
+
+.mobile-patrols-overview h2,
+.mobile-patrol-section-intro h2,
+.mobile-patrol-coverage-intro h2,
+.mobile-patrol-process-intro h2,
+.mobile-patrol-why-content h2 {
+    margin: 0;
+    font-size: clamp(43px, 5vw, 62px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -2.7px;
+    color: var(--color-text);
+}
+
+.mobile-patrols-overview h2 span,
 .mobile-patrol-section-intro h2 span,
 .mobile-patrol-coverage-intro h2 span,
 .mobile-patrol-process-intro h2 span,
-.mobile-patrol-industries-intro h2 span,
 .mobile-patrol-why-content h2 span,
 .mobile-patrol-faq-intro h2 span {
     color: var(--color-primary);
 }
 
-.mobile-patrols-overview .section-content p:last-child {
-    margin-bottom: 0;
-}
-
-/* =========================================================
-   SECTION INTRO
-========================================================= */
-
-.mobile-patrol-section-intro {
-    max-width: 800px;
-    margin-bottom: 50px;
-}
-
-.mobile-patrol-section-intro h2 {
-    margin: 18px 0 24px;
-
-    color: var(--color-text);
-
-    font-size: clamp(46px, 4vw, 58px);
-    font-weight: 600;
-    line-height: 0.96;
-    letter-spacing: -2px;
-}
-
-.mobile-patrol-section-intro p {
+.mobile-patrols-overview .section-content > p {
     max-width: 650px;
-
-    margin: 0;
-
-    color: var(--color-text-muted);
-
+    margin: 24px 0 0;
     font-size: 16px;
-    line-height: 1.65;
-}
-
-/* =========================================================
-   MOBILE PATROL SERVICES
-========================================================= */
-
-.mobile-patrol-services {
-    background: var(--color-surface-cards);
-}
-
-.mobile-patrol-services-grid {
-    display: grid;
-
-    grid-template-columns: repeat(3, 1fr);
-
-    gap: 14px;
-}
-
-/* =========================================================
-   SERVICE CARD
-========================================================= */
-
-.mobile-patrol-service-card {
-    min-height: 245px;
-
-    position: relative;
-
-    display: flex;
-    flex-direction: column;
-
-    padding: 30px;
-
-    background: var(--color-bg);
-
-    border: 1px solid var(--color-border);
-
-    overflow: hidden;
-
-    transition:
-        transform var(--transition-fast),
-        border-color var(--transition-normal),
-        box-shadow var(--transition-normal);
-}
-
-/* Gold hover layer */
-
-.mobile-patrol-service-card::before {
-    content: "";
-
-    position: absolute;
-    inset: 0;
-
-    background: var(--color-primary);
-
-    transform: scaleX(0);
-    transform-origin: left;
-
-    transition: transform var(--transition-normal);
-
-    z-index: 0;
-}
-
-/* Content above hover layer */
-
-.mobile-patrol-service-card > * {
-    position: relative;
-    z-index: 1;
-}
-
-/* =========================================================
-   SERVICE ICON
-========================================================= */
-
-.mobile-patrol-service-icon {
-    width: 50px;
-    height: 50px;
-
-    flex: 0 0 50px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin-bottom: 25px;
-
-    background: var(--color-surface);
-
-    border: 1px solid var(--color-border);
-
-    color: var(--color-primary);
-
-    transition:
-        background-color var(--transition-normal),
-        border-color var(--transition-normal),
-        color var(--transition-normal),
-        transform var(--transition-normal);
-}
-
-.mobile-patrol-service-icon svg {
-    width: 23px;
-    height: 23px;
-
-    fill: none;
-
-    stroke: currentColor;
-
-    stroke-width: 1.6;
-
-    stroke-linecap: round;
-    stroke-linejoin: round;
-}
-
-/* =========================================================
-   SERVICE CARD CONTENT
-========================================================= */
-
-.mobile-patrol-service-card h3 {
-    margin: 0 0 12px;
-
-    color: var(--color-text);
-
-    font-size: 19px;
-    font-weight: 600;
-
-    line-height: 1.3;
-}
-
-.mobile-patrol-service-card p {
-    margin: 0;
-
+    line-height: 1.8;
     color: var(--color-text-muted);
-
-    font-size: 15px;
-    line-height: 1.65;
-}
-
-/* =========================================================
-   SERVICE CARD HOVER
-========================================================= */
-
-.mobile-patrol-service-card:hover {
-    transform: translateY(-3px);
-
-    border-color: var(--color-primary);
-
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-}
-
-.mobile-patrol-service-card:hover::before {
-    transform: scaleX(1);
-}
-
-.mobile-patrol-service-card:hover h3,
-.mobile-patrol-service-card:hover p {
-    color: #050505;
-}
-
-.mobile-patrol-service-card:hover .mobile-patrol-service-icon {
-    background: rgba(255, 255, 255, 0.65);
-
-    border-color: rgba(0, 0, 0, 0.12);
-
-    color: #050505;
-
-    transform: scale(1.04);
-}
-
-/* =========================================================
-   SECURITY COVERAGE
-========================================================= */
-
-.mobile-patrol-coverage {
-    background: var(--color-bg);
-}
-
-.mobile-patrol-coverage-intro {
-    max-width: 800px;
-
-    margin-bottom: 50px;
-}
-
-.mobile-patrol-coverage-intro h2 {
-    margin: 18px 0 24px;
-
-    color: var(--color-text);
-
-    font-size: clamp(46px, 4vw, 58px);
-    font-weight: 600;
-    line-height: 0.96;
-    letter-spacing: -2px;
-}
-
-.mobile-patrol-coverage-intro p {
-    max-width: 650px;
-
-    margin: 0;
-
-    color: var(--color-text-muted);
-
-    font-size: 16px;
-    line-height: 1.65;
-}
-
-/* =========================================================
-   COVERAGE GRID
-========================================================= */
-
-.mobile-patrol-coverage-grid {
-    display: grid;
-
-    grid-template-columns: repeat(2, 1fr);
-
-    border-top: 1px solid var(--color-border);
-    border-left: 1px solid var(--color-border);
-}
-
-.mobile-patrol-coverage-item {
-    min-height: 190px;
-
-    padding: 30px;
-
-    background: var(--color-bg);
-
-    border-right: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border);
-
-    transition:
-        background-color var(--transition-normal),
-        border-color var(--transition-normal);
-}
-
-.mobile-patrol-coverage-item:hover {
-    background: var(--color-surface);
-
-    border-color: var(--color-primary);
-}
-
-.mobile-patrol-coverage-item h3 {
-    margin: 0 0 12px;
-
-    color: var(--color-text);
-
-    font-size: 19px;
-    font-weight: 600;
-
-    line-height: 1.3;
-}
-
-.mobile-patrol-coverage-item p {
-    max-width: 560px;
-
-    margin: 0;
-
-    color: var(--color-text-muted);
-
-    font-size: 15px;
-    line-height: 1.65;
-}
-
-/* =========================================================
-   PROCESS
-========================================================= */
-
-.mobile-patrol-process {
-    background: var(--color-surface-cards);
-}
-
-.mobile-patrol-process-grid {
-    display: grid;
-
-    grid-template-columns: minmax(280px, 0.8fr) minmax(0, 1.2fr);
-
-    gap: 80px;
-
-    align-items: start;
-}
-
-.mobile-patrol-process-intro {
-    position: sticky;
-
-    top: 100px;
-
-    max-width: 560px;
-}
-
-.mobile-patrol-process-intro h2 {
-    margin: 18px 0 24px;
-
-    color: var(--color-text);
-
-    font-size: clamp(46px, 4vw, 58px);
-    font-weight: 600;
-
-    line-height: 0.96;
-    letter-spacing: -2px;
-}
-
-.mobile-patrol-process-intro p {
-    max-width: 540px;
-
-    margin: 0;
-
-    color: var(--color-text-muted);
-
-    font-size: 16px;
-    line-height: 1.65;
-}
-
-/* =========================================================
-   PROCESS LIST
-========================================================= */
-
-.mobile-patrol-process-list {
-    border-top: 1px solid var(--color-border);
-}
-
-.mobile-patrol-process-item {
-    display: grid;
-
-    grid-template-columns: 14px 1fr;
-
-    gap: 22px;
-
-    padding: 28px 0;
-
-    border-bottom: 1px solid var(--color-border);
-}
-
-.mobile-patrol-process-marker {
-    width: 8px;
-    height: 8px;
-
-    margin-top: 7px;
-
-    border-radius: 50%;
-
-    background: var(--color-primary);
-}
-
-.mobile-patrol-process-item h3 {
-    margin: 0 0 10px;
-
-    color: var(--color-text);
-
-    font-size: 18px;
-    font-weight: 600;
-
-    line-height: 1.35;
-}
-
-.mobile-patrol-process-item p {
-    max-width: 650px;
-
-    margin: 0;
-
-    color: var(--color-text-muted);
-
-    font-size: 15px;
-    line-height: 1.65;
-}
-
-/* =========================================================
-   INDUSTRIES / WHERE WE PATROL
-========================================================= */
-
-.mobile-patrol-industries {
-    background: var(--color-bg);
-}
-
-.mobile-patrol-industries-intro {
-    max-width: 800px;
-
-    margin-bottom: 50px;
-}
-
-.mobile-patrol-industries-intro h2 {
-    margin: 18px 0 24px;
-
-    color: var(--color-text);
-
-    font-size: clamp(46px, 4vw, 58px);
-    font-weight: 600;
-
-    line-height: 0.96;
-    letter-spacing: -2px;
-}
-
-.mobile-patrol-industries-intro p {
-    max-width: 650px;
-
-    margin: 0;
-
-    color: var(--color-text-muted);
-
-    font-size: 16px;
-    line-height: 1.65;
-}
-
-/* =========================================================
-   INDUSTRY GRID
-========================================================= */
-
-.mobile-patrol-industries-grid {
-    display: grid;
-
-    grid-template-columns: repeat(2, 1fr);
-
-    border-top: 1px solid var(--color-border);
-    border-left: 1px solid var(--color-border);
-}
-
-.mobile-patrol-industry {
-    min-height: 82px;
-
-    display: flex;
-
-    align-items: center;
-    justify-content: space-between;
-
-    gap: 20px;
-
-    padding: 22px 24px;
-
-    background: var(--color-bg);
-
-    border-right: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border);
-
-    color: var(--color-text);
-
-    font-size: 15px;
-    font-weight: 600;
-
-    transition:
-        background-color var(--transition-normal),
-        border-color var(--transition-normal);
-}
-
-.mobile-patrol-industry:hover {
-    background: var(--color-surface);
-
-    border-color: var(--color-primary);
-}
-
-.mobile-patrol-industry-arrow {
-    flex: 0 0 auto;
-
-    color: var(--color-primary);
-
-    font-size: 20px;
-
-    transition: transform var(--transition-fast);
-}
-
-.mobile-patrol-industry:hover .mobile-patrol-industry-arrow {
-    transform: translateX(4px);
-}
-
-/* =========================================================
-   WHY ADVENT
-========================================================= */
-
-.mobile-patrols-page .why-advent {
-    background: var(--color-surface-cards);
-}
-
-.mobile-patrol-why-grid {
-    display: grid;
-
-    grid-template-columns: minmax(280px, 0.85fr) minmax(0, 1.15fr);
-
-    gap: 80px;
-
-    align-items: start;
-}
-
-.mobile-patrol-why-content {
-    max-width: 620px;
-}
-
-.mobile-patrol-why-content h2 {
-    margin: 18px 0 24px;
-
-    color: var(--color-text);
-
-    font-size: clamp(46px, 4vw, 58px);
-    font-weight: 600;
-
-    line-height: 0.96;
-    letter-spacing: -2px;
-}
-
-.mobile-patrol-why-content p {
-    max-width: 620px;
-
-    margin-bottom: 20px;
-
-    color: var(--color-text-muted);
-
-    font-size: 16px;
-    line-height: 1.65;
-}
-
-.mobile-patrol-why-content p:last-child {
-    margin-bottom: 0;
-}
-
-/* =========================================================
-   WHY ADVENT FEATURES
-========================================================= */
-
-.mobile-patrol-why-features {
-    display: grid;
-
-    grid-template-columns: repeat(2, 1fr);
-
-    border-top: 1px solid var(--color-border);
-    border-left: 1px solid var(--color-border);
-}
-
-.mobile-patrol-why-feature {
-    min-height: 190px;
-
-    padding: 28px;
-
-    background: var(--color-bg);
-
-    border-right: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border);
-}
-
-.mobile-patrol-why-feature h3 {
-    margin: 0 0 12px;
-
-    color: var(--color-text);
-
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.mobile-patrol-why-feature p {
-    margin: 0;
-
-    color: var(--color-text-muted);
-
-    font-size: 15px;
-    line-height: 1.65;
-}
-
-/* =========================================================
-   RELATED SERVICES
-========================================================= */
-
-/*
-    No custom Related Services CSS.
-
-    This page uses the existing styles from security.css:
-
-    .related-services
-    .related-services-header
-    .related-services-grid
-    .related-service-card
-    .related-service-icon
-    .related-service-title
-    .related-service-arrow
-*/
-
-/* =========================================================
-   FAQ
-========================================================= */
-
-.mobile-patrol-faq-grid {
-    display: grid;
-
-    grid-template-columns: minmax(280px, 0.75fr) minmax(0, 1.25fr);
-
-    gap: 80px;
-
-    align-items: start;
-}
-
-.mobile-patrol-faq-intro {
-    position: sticky;
-
-    top: 100px;
-
-    max-width: 520px;
-}
-
-.mobile-patrol-faq-intro .faq-header {
-    display: block;
-
-    margin-bottom: 0;
-}
-
-.mobile-patrol-faq-intro .faq-header h2 {
-    margin-top: 18px;
-}
-
-.mobile-patrol-faq-intro .faq-intro {
-    max-width: 500px;
-
-    margin: 20px 0 0;
-
-    color: var(--color-text-muted);
-
-    font-size: 15px;
-
-    line-height: 1.65;
-}
-
-/* =========================================================
-   FAQ LIST
-========================================================= */
-
-.mobile-patrol-faq-list {
-    border-top: 1px solid var(--color-border);
-}
-
-.mobile-patrol-faq-list details {
-    border-bottom: 1px solid var(--color-border);
-}
-
-.mobile-patrol-faq-list summary {
-    min-height: 74px;
-
-    display: flex;
-
-    align-items: center;
-    justify-content: space-between;
-
-    gap: 25px;
-
-    padding: 22px 0;
-
-    cursor: pointer;
-
-    list-style: none;
-
-    color: var(--color-text);
-
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.mobile-patrol-faq-list summary::-webkit-details-marker {
-    display: none;
-}
-
-.mobile-patrol-faq-list summary span {
-    flex: 0 0 auto;
-
-    color: var(--color-primary);
-
-    font-size: 24px;
-    font-weight: 300;
-
-    transition: transform var(--transition-fast);
-}
-
-.mobile-patrol-faq-list details[open] summary span {
-    transform: rotate(45deg);
-}
-
-.mobile-patrol-faq-answer {
-    padding: 0 45px 25px 0;
-}
-
-.mobile-patrol-faq-answer p {
-    max-width: 700px;
-
-    margin: 0;
-
-    color: var(--color-text-muted);
-
-    font-size: 15px;
-    line-height: 1.65;
-}
-
-/* =========================================================
-   CTA
-========================================================= */
-
-.mobile-patrols-page .assessment-cta h2 {
-    max-width: 850px;
-}
-
-.mobile-patrols-page .assessment-cta .cta-inner > div > p {
-    max-width: 720px;
-
-    margin: 18px 0 0;
-
-    color: #000000;
-
-    font-size: 15px;
-    line-height: 1.7;
-}
-
-/* =========================================================
-   DARK THEME
-========================================================= */
-
-.theme-dark .mobile-patrol-service-card,
-.theme-dark .mobile-patrol-coverage-item,
-.theme-dark .mobile-patrol-industry,
-.theme-dark .mobile-patrol-why-feature {
-    background: var(--color-bg);
-}
-
-.theme-dark .mobile-patrol-service-card:hover,
-.theme-dark .mobile-patrol-coverage-item:hover,
-.theme-dark .mobile-patrol-industry:hover {
-    border-color: var(--color-primary);
-}
-
-/* =========================================================
-   TABLET
-========================================================= */
-
-@media (max-width: 991.98px) {
-    .mobile-patrols-page .mobile-patrols-hero-image {
-        height: 620px;
-    }
-
-    .mobile-patrol-services-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .mobile-patrol-process-grid,
-    .mobile-patrol-why-grid,
-    .mobile-patrol-faq-grid {
-        grid-template-columns: 1fr;
-
-        gap: 50px;
-    }
-
-    .mobile-patrol-process-intro,
-    .mobile-patrol-faq-intro {
-        position: static;
-    }
-}
-
-/* =========================================================
-   MOBILE
-========================================================= */
-
-@media (max-width: 767.98px) {
-    .mobile-patrols-page .mobile-patrols-hero-image {
-        height: 480px;
-    }
-
-    /* Service cards */
-
-    .mobile-patrol-services-grid {
-        grid-template-columns: 1fr;
-    }
-
-    /* Coverage */
-
-    .mobile-patrol-coverage-grid {
-        grid-template-columns: 1fr;
-    }
-
-    /* Industries */
-
-    .mobile-patrol-industries-grid {
-        grid-template-columns: 1fr;
-    }
-
-    /* Why Advent */
-
-    .mobile-patrol-why-features {
-        grid-template-columns: 1fr;
-    }
-
-    /* Process */
-
-    .mobile-patrol-process-grid,
-    .mobile-patrol-why-grid,
-    .mobile-patrol-faq-grid {
-        gap: 40px;
-    }
-
-    .mobile-patrol-process-item {
-        grid-template-columns: 12px 1fr;
-
-        gap: 17px;
-
-        padding: 24px 0;
-    }
-
-    /* Cards */
-
-    .mobile-patrol-service-card {
-        min-height: auto;
-
-        padding: 25px;
-    }
-
-    .mobile-patrol-coverage-item {
-        min-height: auto;
-
-        padding: 25px;
-    }
-
-    .mobile-patrol-why-feature {
-        min-height: auto;
-
-        padding: 25px;
-    }
-
-    /* Industry */
-
-    .mobile-patrol-industry {
-        min-height: 72px;
-
-        padding: 19px 20px;
-
-        font-size: 14px;
-    }
-
-    /* FAQ */
-
-    .mobile-patrol-faq-list summary {
-        min-height: 68px;
-
-        font-size: 15px;
-    }
-
-    .mobile-patrol-faq-answer {
-        padding-right: 10px;
-    }
-
-    .hero-actions {
-        flex-direction: column;
-        align-items: stretch;
-    }
-    .hero-actions .advent-btn {
-        width: 100%;
-        min-width: 0;
-    }
-}
-
-/* =========================================================
-   SMALL MOBILE
-========================================================= */
-
-@media (max-width: 575.98px) {
-    .mobile-patrols-page .mobile-patrols-hero-image {
-        height: 380px;
-    }
-
-    .mobile-patrol-section-intro,
-    .mobile-patrol-coverage-intro,
-    .mobile-patrol-industries-intro {
-        margin-bottom: 35px;
-    }
-
-    .mobile-patrol-service-icon {
-        width: 44px;
-        height: 44px;
-
-        flex-basis: 44px;
-
-        margin-bottom: 22px;
-    }
-
-    .mobile-patrol-service-card h3 {
-        font-size: 18px;
-    }
-
-    .mobile-patrol-coverage-item {
-        padding: 22px;
-    }
-
-    .mobile-patrol-industry {
-        min-height: 65px;
-
-        padding: 17px;
-    }
-
-    .mobile-patrol-process-item {
-        padding: 22px 0;
-    }
-
-    .mobile-patrol-faq-list summary {
-        padding: 20px 0;
-    }
-}
-
-/* =========================================
-   MOBILE PATROLS - OVERVIEW
-========================================= */
-
-.mobile-patrols-overview .row {
-    align-items: center;
-}
-
-.mobile-patrols-overview .section-content {
-    max-width: 650px;
-}
-
-.mobile-patrols-overview .section-content h2 span {
-    display: block;
-    color: var(--color-primary);
 }
 
 .mobile-patrols-overview-image {
-    width: 100%;
-    height: 560px;
+    height: 620px;
     overflow: hidden;
 }
 
@@ -1035,39 +140,811 @@
     height: 100%;
     display: block;
     object-fit: cover;
-    object-position: 75% center;
 }
 
-/* =========================================
+/* =========================================================
+   PATROL SERVICES
+========================================================= */
+
+.mobile-patrol-services {
+    padding: 115px 0;
+    background: var(--color-bg-soft);
+}
+
+.mobile-patrol-section-intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    column-gap: 70px;
+    align-items: end;
+    margin-bottom: 58px;
+}
+
+.mobile-patrol-section-intro .eyebrow {
+    grid-column: 1 / -1;
+    margin-bottom: 23px;
+}
+
+.mobile-patrol-section-intro h2 {
+    max-width: 760px;
+}
+
+.mobile-patrol-section-intro > p {
+    max-width: 570px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--color-text-muted);
+}
+
+.mobile-patrol-services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.mobile-patrol-service-card {
+    min-height: 285px;
+    padding: 30px;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    transition:
+        transform 0.3s ease,
+        background-color 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.mobile-patrol-service-card:hover {
+    transform: translateY(-4px);
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.mobile-patrol-service-mark {
+    width: 48px;
+    height: 48px;
+    display: block;
+    position: relative;
+    border: 1px solid var(--color-border);
+}
+
+.mobile-patrol-service-mark::before,
+.mobile-patrol-service-mark::after {
+    content: "";
+    position: absolute;
+    background: currentColor;
+}
+
+.mobile-patrol-service-mark::before {
+    width: 18px;
+    height: 2px;
+    left: 14px;
+    top: 22px;
+}
+
+.mobile-patrol-service-mark::after {
+    width: 2px;
+    height: 18px;
+    left: 22px;
+    top: 14px;
+}
+
+.mobile-patrol-service-card h3 {
+    margin: 34px 0 0;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--color-text);
+    transition: color 0.3s ease;
+}
+
+.mobile-patrol-service-card p {
+    max-width: 330px;
+    margin: 12px 0 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+    transition: color 0.3s ease;
+}
+
+.mobile-patrol-service-card:hover h3,
+.mobile-patrol-service-card:hover p {
+    color: var(--color-dark);
+}
+
+/* =========================================================
+   SECURITY COVERAGE
+========================================================= */
+
+.mobile-patrol-coverage {
+    padding: 115px 0;
+    background: var(--color-bg);
+}
+
+.mobile-patrol-coverage-intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    column-gap: 70px;
+    align-items: end;
+    margin-bottom: 58px;
+}
+
+.mobile-patrol-coverage-intro .eyebrow {
+    grid-column: 1 / -1;
+    margin-bottom: 23px;
+}
+
+.mobile-patrol-coverage-intro h2 {
+    max-width: 760px;
+}
+
+.mobile-patrol-coverage-intro > p {
+    max-width: 570px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--color-text-muted);
+}
+
+.mobile-patrol-coverage-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.mobile-patrol-coverage-item {
+    min-height: 235px;
+    padding: 29px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    transition: background-color 0.3s ease;
+}
+
+.mobile-patrol-coverage-item:hover {
+    background: var(--color-bg-soft);
+}
+
+.mobile-patrol-coverage-item h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.mobile-patrol-coverage-item p {
+    max-width: 350px;
+    margin: 12px 0 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   OUR APPROACH
+========================================================= */
+
+.mobile-patrol-process {
+    padding: 115px 0;
+    background: var(--color-bg-soft);
+}
+
+.mobile-patrol-process-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+    gap: 90px;
+    align-items: start;
+}
+
+.mobile-patrol-process-intro .eyebrow {
+    display: inline-block;
+    margin-bottom: 23px;
+}
+
+.mobile-patrol-process-intro h2 {
+    max-width: 600px;
+}
+
+.mobile-patrol-process-intro > p {
+    max-width: 560px;
+    margin: 25px 0 0;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--color-text-muted);
+}
+
+.mobile-patrol-process-list {
+    border-top: 1px solid var(--color-border);
+}
+
+.mobile-patrol-process-item {
+    display: grid;
+    grid-template-columns: 18px 1fr;
+    gap: 20px;
+    padding: 24px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.mobile-patrol-process-marker {
+    width: 10px;
+    height: 10px;
+    margin-top: 6px;
+    border-radius: 50%;
+    background: var(--color-primary);
+}
+
+.mobile-patrol-process-item h3 {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.mobile-patrol-process-item p {
+    max-width: 650px;
+    margin: 8px 0 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   WHY ADVENT
+========================================================= */
+
+.mobile-patrol-why {
+    padding: 115px 0;
+    background: var(--color-bg);
+}
+
+.mobile-patrol-why-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+    gap: 90px;
+    align-items: start;
+}
+
+.mobile-patrol-why-content .eyebrow {
+    display: inline-block;
+    margin-bottom: 23px;
+}
+
+.mobile-patrol-why-content h2 {
+    max-width: 620px;
+}
+
+.mobile-patrol-why-content > p {
+    max-width: 650px;
+    margin: 25px 0 0;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--color-text-muted);
+}
+
+.mobile-patrol-why-features {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.mobile-patrol-why-feature {
+    min-height: 190px;
+    padding: 26px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.mobile-patrol-why-feature h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.mobile-patrol-why-feature p {
+    max-width: 320px;
+    margin: 10px 0 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   RELATED SERVICES
+========================================================= */
+
+.mobile-patrol-related {
+    padding: 110px 0;
+    background: var(--color-bg);
+}
+
+/* =========================================================
+   MOBILE PATROLS FAQ
+========================================================= */
+
+.mobile-patrol-faq {
+    background: var(--color-bg);
+}
+
+.mobile-patrol-faq-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.25fr);
+    gap: 80px;
+    align-items: start;
+}
+
+/* ---------------------------------------------------------
+   INTRO
+--------------------------------------------------------- */
+
+.mobile-patrol-faq-intro {
+    padding-right: 20px;
+}
+
+.mobile-patrol-faq-intro .eyebrow {
+    display: inline-block;
+    margin-bottom: 23px;
+}
+
+.mobile-patrol-faq-intro h2 {
+    max-width: 500px;
+
+    margin: 0;
+
+    font-size: clamp(43px, 5vw, 62px);
+    font-weight: 600;
+    line-height: 0.98;
+    letter-spacing: -2.7px;
+
+    color: var(--color-text);
+}
+
+.mobile-patrol-faq-intro h2 span {
+    display: block;
+    color: var(--color-primary);
+}
+
+.mobile-patrol-faq-intro .faq-intro {
+    max-width: 470px;
+
+    margin: 25px 0 0;
+
+    font-size: 16px;
+    line-height: 1.8;
+
+    color: var(--color-text-muted);
+}
+
+/* ---------------------------------------------------------
+   FAQ LIST
+--------------------------------------------------------- */
+
+.mobile-patrol-faq-list {
+    width: 100%;
+}
+
+.mobile-patrol-faq-list details {
+    border-top: 1px solid var(--color-border);
+}
+
+.mobile-patrol-faq-list details:last-child {
+    border-bottom: 1px solid var(--color-border);
+}
+
+/* ---------------------------------------------------------
+   QUESTION
+--------------------------------------------------------- */
+
+.mobile-patrol-faq-list summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 25px;
+
+    min-height: 70px;
+    padding: 20px 0;
+
+    cursor: pointer;
+    list-style: none;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+
+    color: var(--color-text);
+
+    transition: color var(--transition-fast);
+}
+
+.mobile-patrol-faq-list summary:hover {
+    color: var(--color-primary);
+}
+
+.mobile-patrol-faq-list summary::-webkit-details-marker {
+    display: none;
+}
+
+.mobile-patrol-faq-list summary::marker {
+    display: none;
+}
+
+/* ---------------------------------------------------------
+   PLUS ICON
+--------------------------------------------------------- */
+
+.mobile-patrol-faq-list summary span {
+    flex: 0 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 24px;
+    height: 24px;
+
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1;
+
+    color: var(--color-primary);
+
+    transition:
+        transform 0.3s ease,
+        color 0.3s ease;
+}
+
+/* Open state */
+
+.mobile-patrol-faq-list details[open] summary {
+    color: var(--color-primary);
+}
+
+.mobile-patrol-faq-list details[open] summary span {
+    transform: rotate(45deg);
+}
+
+/* ---------------------------------------------------------
+   ANSWER
+--------------------------------------------------------- */
+
+.mobile-patrol-faq-answer {
+    padding: 0 45px 25px 0;
+}
+
+.mobile-patrol-faq-answer p {
+    max-width: 760px;
+
+    margin: 0;
+
+    font-size: 14px;
+    line-height: 1.75;
+
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
+   FINAL CTA
+========================================================= */
+
+.mobile-patrol-cta {
+    padding: 95px 0;
+}
+
+.mobile-patrol-cta .cta-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.mobile-patrol-cta h2 {
+    max-width: 800px;
+    margin: 0 0 12px;
+    font-size: clamp(38px, 4.5vw, 55px);
+    line-height: 1;
+    color: var(--color-text);
+    font-weight: 600;
+}
+
+.mobile-patrol-cta p {
+    max-width: 700px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+}
+
+/* =========================================================
    TABLET
-========================================= */
+========================================================= */
 
 @media (max-width: 991.98px) {
-    .mobile-patrols-overview-image {
+    .mobile-patrols-hero .hero-content {
+        min-height: 560px;
+        padding: 80px 16px;
+    }
+
+    .mobile-patrols-hero-image {
         height: 500px;
     }
+
+    .mobile-patrols-overview,
+    .mobile-patrol-services,
+    .mobile-patrol-coverage,
+    .mobile-patrol-process,
+    .mobile-patrol-why,
+    .mobile-patrol-related {
+        padding: 90px 0;
+    }
+
+    .mobile-patrol-section-intro,
+    .mobile-patrol-coverage-intro {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .mobile-patrol-section-intro .eyebrow,
+    .mobile-patrol-coverage-intro .eyebrow {
+        grid-column: auto;
+        margin-bottom: 0;
+    }
+
+    .mobile-patrol-services-grid,
+    .mobile-patrol-coverage-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .mobile-patrol-process-grid,
+    .mobile-patrol-why-grid {
+        grid-template-columns: 1fr;
+        gap: 55px;
+    }
+
+    .mobile-patrol-faq-grid {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    .mobile-patrol-cta .cta-inner {
+        align-items: flex-start;
+        flex-direction: column;
+    }
 }
 
-/* =========================================
+/* =========================================================
    MOBILE
-========================================= */
+========================================================= */
 
 @media (max-width: 767.98px) {
-    .mobile-patrols-overview .row {
-        gap: 40px !important;
+    .mobile-patrols-hero .hero-content {
+        min-height: auto;
+        padding: 65px 16px 60px;
+    }
+
+    .mobile-patrols-hero h1 {
+        font-size: clamp(42px, 11vw, 58px);
+        letter-spacing: -2.5px;
+    }
+
+    .mobile-patrols-hero .hero-inner > p {
+        margin-top: 24px;
+        font-size: 16px;
+        line-height: 1.65;
+    }
+
+    .mobile-patrols-hero .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+        margin-top: 30px;
+    }
+
+    .mobile-patrols-hero .hero-actions .advent-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .mobile-patrols-hero-image {
+        height: 390px;
+    }
+
+    .mobile-patrols-overview,
+    .mobile-patrol-services,
+    .mobile-patrol-coverage,
+    .mobile-patrol-process,
+    .mobile-patrol-why,
+    .mobile-patrol-related {
+        padding: 75px 0;
+    }
+
+    .mobile-patrols-overview h2,
+    .mobile-patrol-section-intro h2,
+    .mobile-patrol-coverage-intro h2,
+    .mobile-patrol-process-intro h2,
+    .mobile-patrol-why-content h2,
+    .mobile-patrol-faq-intro h2 {
+        font-size: 39px;
+        letter-spacing: -2px;
     }
 
     .mobile-patrols-overview-image {
-        height: 420px;
+        height: 360px;
+    }
+
+    .mobile-patrol-services-grid,
+    .mobile-patrol-coverage-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .mobile-patrol-service-card {
+        min-height: 260px;
+        padding: 25px;
+    }
+
+    .mobile-patrol-coverage-item {
+        min-height: 210px;
+        padding: 25px;
+    }
+
+    .mobile-patrol-process-item {
+        gap: 15px;
+        padding: 20px 0;
+    }
+
+    .mobile-patrol-why-features {
+        grid-template-columns: 1fr;
+    }
+
+    .mobile-patrol-why-feature {
+        min-height: auto;
+        padding: 23px;
+    }
+
+    .mobile-patrol-faq-list summary {
+        font-size: 15px;
+    }
+
+    .mobile-patrol-faq-answer {
+        padding-right: 10px;
+    }
+
+    .mobile-patrol-cta {
+        padding: 75px 0;
+    }
+
+    .mobile-patrol-cta .cta-inner {
+        display: block;
+    }
+
+    .mobile-patrol-cta h2 {
+        font-size: 33px;
+        line-height: 1.02;
+    }
+
+    .mobile-patrol-cta .advent-btn {
+        width: 100%;
+        margin-top: 25px;
     }
 }
 
-/* =========================================
+/* =========================================================
    SMALL MOBILE
-========================================= */
+========================================================= */
 
 @media (max-width: 575.98px) {
+    .mobile-patrols-hero h1 {
+        font-size: 40px;
+        letter-spacing: -1.9px;
+    }
+
+    .mobile-patrols-hero-image {
+        height: 330px;
+    }
+
+    .mobile-patrols-overview h2,
+    .mobile-patrol-section-intro h2,
+    .mobile-patrol-coverage-intro h2,
+    .mobile-patrol-process-intro h2,
+    .mobile-patrol-why-content h2,
+    .mobile-patrol-faq-intro h2 {
+        font-size: 36px;
+        letter-spacing: -1.8px;
+    }
+
     .mobile-patrols-overview-image {
-        height: 350px;
+        height: 330px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .mobile-patrol-faq-grid {
+        grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+        gap: 50px;
+    }
+
+    .mobile-patrol-faq-intro h2 {
+        font-size: 48px;
+        letter-spacing: -2px;
+    }
+
+    .mobile-patrol-faq-intro .faq-intro {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .mobile-patrol-faq {
+        padding: 65px 0;
+    }
+
+    .mobile-patrol-faq-grid {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    /* -----------------------------------------------------
+       INTRO
+    ----------------------------------------------------- */
+
+    .mobile-patrol-faq-intro {
+        padding-right: 0;
+    }
+
+    .mobile-patrol-faq-intro .eyebrow {
+        margin-bottom: 20px;
+    }
+
+    .mobile-patrol-faq-intro h2 {
+        max-width: 100%;
+
+        font-size: 40px;
+        line-height: 0.98;
+        letter-spacing: -1.5px;
+    }
+
+    .mobile-patrol-faq-intro .faq-intro {
+        max-width: 100%;
+
+        margin-top: 20px;
+
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    /* -----------------------------------------------------
+       FAQ LIST
+    ----------------------------------------------------- */
+
+    .mobile-patrol-faq-list details {
+        border-top: 1px solid var(--color-border);
+    }
+
+    .mobile-patrol-faq-list summary {
+        min-height: 68px;
+
+        padding: 19px 0;
+
+        gap: 18px;
+
+        font-size: 14px;
+        line-height: 1.45;
+    }
+
+    .mobile-patrol-faq-list summary span {
+        width: 22px;
+        height: 22px;
+
+        font-size: 20px;
+    }
+
+    .mobile-patrol-faq-answer {
+        padding: 0 25px 22px 0;
+    }
+
+    .mobile-patrol-faq-answer p {
+        font-size: 13px;
+        line-height: 1.7;
     }
 }

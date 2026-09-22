@@ -466,104 +466,151 @@ get_header();
     </section>
 
     <!-- =========================================
-         05. INDUSTRIES
-    ========================================== -->
+     05. INDUSTRIES WE PROTECT
+========================================== -->
 
-    <section class="consulting-expertise-section">
-
-        <div class="consulting-expertise-overlay"></div>
+    <section class="content-section industries-section consulting-industries">
 
         <div class="container">
 
-            <div class="consulting-expertise-header">
+            <div class="industries-intro">
 
                 <span class="eyebrow">
-                    KEY AREAS OF EXPERTISE
+                    INDUSTRIES WE SUPPORT
                 </span>
 
                 <h2>
-                    Security consulting across
-                    different environments.
+                    Security consulting for
+                    <span>different environments.</span>
                 </h2>
+
+                <p>
+                    Security consulting requirements vary depending on the
+                    organisation, operating environment, assets, people and
+                    risks being considered. Advent can provide practical
+                    consulting support across a range of commercial and
+                    operational environments.
+                </p>
 
             </div>
 
 
-            <div class="consulting-expertise-grid">
+            <div class="row g-0 industry-grid">
 
+                <!-- Corporate & Commercial -->
+                <div class="col-md-6 col-lg-4">
 
-                <!-- Logistics -->
-                <div class="consulting-expertise-item">
+                    <article class="industry-card">
 
-                    <div class="consulting-expertise-icon">
-                        <span>▰</span>
-                    </div>
+                        <h3>
+                            Corporate &amp; Commercial
+                        </h3>
 
-                    <h3>
-                        Logistics
-                    </h3>
+                        <p>
+                            Security consulting for offices, commercial
+                            facilities, workplaces and business environments.
+                        </p>
 
-                    <p>
-                        Security considerations for logistics,
-                        transport and operational environments.
-                    </p>
-
-                </div>
-
-
-                <!-- Corporate -->
-                <div class="consulting-expertise-item">
-
-                    <div class="consulting-expertise-icon">
-                        <span>■</span>
-                    </div>
-
-                    <h3>
-                        Corporate
-                    </h3>
-
-                    <p>
-                        Security planning for corporate workplaces,
-                        businesses and commercial environments.
-                    </p>
+                    </article>
 
                 </div>
 
 
-                <!-- Health -->
-                <div class="consulting-expertise-item">
+                <!-- Warehousing & Logistics -->
+                <div class="col-md-6 col-lg-4">
 
-                    <div class="consulting-expertise-icon">
-                        <span>+</span>
-                    </div>
+                    <article class="industry-card">
 
-                    <h3>
-                        Health
-                    </h3>
+                        <h3>
+                            Warehousing &amp; Logistics
+                        </h3>
 
-                    <p>
-                        Security considerations for healthcare
-                        environments and the people within them.
-                    </p>
+                        <p>
+                            Security considerations for logistics facilities,
+                            access points, assets, vehicles and operational areas.
+                        </p>
+
+                    </article>
+
+                </div>
+
+
+                <!-- Healthcare -->
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="industry-card">
+
+                        <h3>
+                            Healthcare
+                        </h3>
+
+                        <p>
+                            Security planning for healthcare environments where
+                            people, access and operational requirements need
+                            careful consideration.
+                        </p>
+
+                    </article>
+
+                </div>
+
+
+                <!-- Retail -->
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="industry-card">
+
+                        <h3>
+                            Retail &amp; Shopping Centres
+                        </h3>
+
+                        <p>
+                            Security consulting for retail environments,
+                            customer areas, staff access, assets and
+                            day-to-day operations.
+                        </p>
+
+                    </article>
+
+                </div>
+
+
+                <!-- Construction -->
+                <div class="col-md-6 col-lg-4">
+
+                    <article class="industry-card">
+
+                        <h3>
+                            Construction
+                        </h3>
+
+                        <p>
+                            Security planning for construction environments,
+                            including site access, equipment, materials and
+                            changing site conditions.
+                        </p>
+
+                    </article>
 
                 </div>
 
 
                 <!-- Government -->
-                <div class="consulting-expertise-item">
+                <div class="col-md-6 col-lg-4">
 
-                    <div class="consulting-expertise-icon">
-                        <span>⌂</span>
-                    </div>
+                    <article class="industry-card">
 
-                    <h3>
-                        Government
-                    </h3>
+                        <h3>
+                            Government
+                        </h3>
 
-                    <p>
-                        Security planning for government facilities
-                        and operational environments.
-                    </p>
+                        <p>
+                            Security consulting for government facilities,
+                            access arrangements, operational environments and
+                            security requirements.
+                        </p>
+
+                    </article>
 
                 </div>
 
@@ -579,7 +626,7 @@ get_header();
 
     <section class="consulting-final-section">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row">
                 <div class="col-lg-9">
                     <div class="consulting-final-content">
                         <span class="eyebrow">FROM ASSESSMENT TO ACTION</span>
@@ -666,7 +713,6 @@ get_header();
 
     <!-- =========================================
          08. FAQ
-         Human-written FAQ for Security Consulting
     ========================================== -->
 
     <section class="faq-section">
