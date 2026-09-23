@@ -1,20 +1,31 @@
 /* =========================================================
    ADVENT SECURITY — ABOUT PAGE
-   Page-specific styles
+   Premium editorial styling
    Reuses global.css, components.css and security.css
 ========================================================= */
 
 /* =========================================================
-   ABOUT HERO
+   HERO
 ========================================================= */
 
 .about-hero {
-    position: relative;
+    background: var(--color-bg);
 }
 
 .about-hero .hero-content {
     min-height: 680px;
-    padding: 4vw 5vw 4vw 7vw;
+    padding: 4vw 6vw 4vw 8vw;
+    position: relative;
+}
+
+.about-hero .hero-content::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 12%;
+    width: 1px;
+    height: 76%;
+    background: var(--color-border);
 }
 
 .about-hero-inner {
@@ -22,19 +33,16 @@
 }
 
 .about-hero-inner .eyebrow {
-    display: inline-block;
-    margin-bottom: 24px;
+    margin-bottom: 28px;
 }
 
 .about-hero-inner h1 {
     max-width: 650px;
     margin: 0;
-
-    font-size: clamp(52px, 6vw, 82px);
+    font-size: clamp(55px, 6vw, 84px);
     font-weight: 600;
-    line-height: 0.94;
-    letter-spacing: -3.5px;
-
+    line-height: 0.91;
+    letter-spacing: -4px;
     color: var(--color-text);
 }
 
@@ -44,27 +52,95 @@
 }
 
 .about-hero-inner p {
-    max-width: 580px;
-    margin: 30px 0 0;
-
+    max-width: 570px;
+    margin: 34px 0 0;
     font-size: 17px;
     line-height: 1.7;
-
     color: var(--color-text-muted);
+}
+
+.about-hero-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-top: 42px;
+    padding-top: 20px;
+    border-top: 1px solid var(--color-border);
+}
+
+.about-hero-meta span {
+    position: relative;
+    padding-left: 14px;
+    color: var(--color-text-muted);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+}
+
+.about-hero-meta span::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+    background: var(--color-primary);
+    transform: translateY(-50%);
 }
 
 .about-hero-image {
     height: 680px;
+    position: relative;
     overflow: hidden;
+}
+
+.about-hero-image::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.02) 35%,
+        rgba(0, 0, 0, 0.52) 100%
+    );
+    pointer-events: none;
 }
 
 .about-hero-image img {
     display: block;
-
     width: 100%;
     height: 100%;
-
     object-fit: cover;
+    transition: transform 0.8s ease;
+    object-position: 100% center;
+}
+
+.about-hero-image:hover img {
+    transform: scale(1.025);
+}
+
+.about-hero-image-label {
+    position: absolute;
+    z-index: 2;
+    left: 35px;
+    bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #ffffff;
+}
+
+.about-hero-image-label span {
+    color: var(--color-primary);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+}
+
+.about-hero-image-label strong {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.4px;
 }
 
 /* =========================================================
@@ -72,6 +148,7 @@
 ========================================================= */
 
 .about-introduction {
+    padding: 125px 0 110px;
     background: var(--color-bg);
 }
 
@@ -79,35 +156,79 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
     text-align: center;
 }
 
+.about-introduction-content > .eyebrow {
+    margin-bottom: 26px;
+}
+
 .about-lead {
-    max-width: 850px;
-
-    margin: 0 auto 55px;
-
-    font-size: clamp(25px, 2.5vw, 36px);
+    max-width: 920px;
+    margin: 0 auto 60px;
+    font-size: clamp(27px, 3vw, 40px);
     font-weight: 600;
-    line-height: 1.2;
-    letter-spacing: -1.2px;
-
+    line-height: 1.16;
+    letter-spacing: -1.5px;
     color: var(--color-text);
 }
 
+.about-lead span {
+    color: var(--color-primary);
+}
+
 .about-introduction-image {
-    width: min(100%, 900px);
+    width: min(100%, 980px);
+    position: relative;
     overflow: hidden;
+}
+
+.about-introduction-image::before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 90px;
+    height: 4px;
+    background: var(--color-primary);
 }
 
 .about-introduction-image img {
     display: block;
-
     width: 100%;
-    height: 500px;
-
+    height: 510px;
     object-fit: cover;
+    transition: transform 0.7s ease;
+}
+
+.about-introduction-image:hover img {
+    transform: scale(1.02);
+}
+
+/* =========================================================
+   SECTION MARKER
+========================================================= */
+
+.about-section-marker {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 52px;
+    color: var(--color-text-muted);
+}
+
+.about-section-marker::before {
+    content: "";
+    width: 34px;
+    height: 1px;
+    background: var(--color-primary);
+}
+
+.about-section-marker span {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
 }
 
 /* =========================================================
@@ -115,39 +236,33 @@
 ========================================================= */
 
 .about-who-we-are {
-    background: var(--color-bg);
+    padding: 115px 0;
+    /* background: var(--color-surface); */
+    border-top: 1px solid var(--color-border);
 }
 
 .about-who-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 0.8fr);
-
-    gap: 90px;
-
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.82fr);
+    gap: clamp(55px, 8vw, 110px);
     align-items: center;
 }
 
 .about-who-content {
-    max-width: 620px;
+    max-width: 640px;
 }
 
 .about-who-content .eyebrow {
-    display: inline-block;
-    margin-bottom: 22px;
-
-    color: var(--color-primary);
+    margin-bottom: 23px;
 }
 
 .about-who-content h2 {
-    max-width: 600px;
-
-    margin: 0 0 30px;
-
-    font-size: clamp(43px, 5vw, 64px);
+    max-width: 610px;
+    margin: 0 0 32px;
+    font-size: clamp(46px, 5vw, 68px);
     font-weight: 600;
-    line-height: 0.96;
-    letter-spacing: -2.7px;
-
+    line-height: 0.94;
+    letter-spacing: -3px;
     color: var(--color-text);
 }
 
@@ -157,33 +272,36 @@
 }
 
 .about-who-content p {
-    max-width: 600px;
-
+    max-width: 590px;
     margin: 0 0 18px;
-
     font-size: 15px;
-    line-height: 1.75;
-
+    line-height: 1.8;
     color: var(--color-text-muted);
 }
 
-.about-who-content p:last-child {
-    margin-bottom: 0;
+.about-who-image {
+    position: relative;
+    overflow: hidden;
 }
 
-.about-who-image {
-    overflow: hidden;
+.about-who-image::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 55px;
+    height: 55px;
+    background: var(--color-primary);
+    z-index: 1;
 }
 
 .about-who-image img {
     display: block;
-
     width: 100%;
-    height: 480px;
-
+    height: 510px;
     object-fit: cover;
-
-    transition: transform 0.5s ease;
+    transition: transform 0.7s ease;
+    object-position: 90% center;
 }
 
 .about-who-image:hover img {
@@ -195,32 +313,38 @@
 ========================================================= */
 
 .about-expertise {
+    padding: 115px 0;
     background: var(--color-bg);
-    padding-top: 0;
 }
 
 .about-expertise-grid {
     display: grid;
-    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr);
-
-    gap: 85px;
-
+    grid-template-columns: minmax(0, 0.82fr) minmax(0, 1fr);
+    gap: clamp(55px, 8vw, 110px);
     align-items: center;
 }
 
 .about-expertise-image {
+    position: relative;
     overflow: hidden;
+}
+
+.about-expertise-image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70px;
+    height: 4px;
+    background: var(--color-primary);
 }
 
 .about-expertise-image img {
     display: block;
-
     width: 100%;
-    height: 470px;
-
+    height: 500px;
     object-fit: cover;
-
-    transition: transform 0.5s ease;
+    transition: transform 0.7s ease;
 }
 
 .about-expertise-image:hover img {
@@ -232,23 +356,16 @@
 }
 
 .about-expertise-content .eyebrow {
-    display: inline-block;
-
-    margin-bottom: 20px;
-
-    color: var(--color-primary);
+    margin-bottom: 22px;
 }
 
 .about-expertise-content h2 {
-    max-width: 600px;
-
+    max-width: 620px;
     margin: 0;
-
-    font-size: clamp(43px, 5vw, 64px);
+    font-size: clamp(46px, 5vw, 68px);
     font-weight: 600;
-    line-height: 0.96;
-    letter-spacing: -2.7px;
-
+    line-height: 0.94;
+    letter-spacing: -3px;
     color: var(--color-text);
 }
 
@@ -258,42 +375,39 @@
 }
 
 /* =========================================================
-   EXPERTISE STATS
+   STATS
 ========================================================= */
 
 .about-stat-grid {
     display: grid;
-
     grid-template-columns: repeat(2, minmax(0, 1fr));
-
-    gap: 1px;
-
     max-width: 620px;
-
-    margin-top: 45px;
-
+    margin-top: 48px;
     border-top: 1px solid var(--color-border);
     border-left: 1px solid var(--color-border);
 }
 
 .about-stat {
-    min-height: 125px;
-
-    padding: 22px 25px;
-
+    min-height: 132px;
+    padding: 24px 25px;
     border-right: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
+    transition:
+        background-color var(--transition-normal),
+        transform var(--transition-normal);
+}
+
+.about-stat:hover {
+    background: var(--color-surface);
 }
 
 .about-stat strong {
     display: block;
-
-    margin-bottom: 8px;
-
-    font-size: 36px;
+    margin-bottom: 9px;
+    font-size: 39px;
     font-weight: 600;
     line-height: 1;
-
+    letter-spacing: -1.5px;
     color: var(--color-primary);
 }
 
@@ -303,12 +417,10 @@
 
 .about-stat > span {
     display: block;
-
     font-size: 11px;
     font-weight: 600;
     line-height: 1.4;
-    letter-spacing: 0.2px;
-
+    letter-spacing: 0.02em;
     color: var(--color-text-muted);
 }
 
@@ -317,76 +429,89 @@
 ========================================================= */
 
 .about-industries {
-    margin-top: 90px;
+    margin-top: 105px;
+    padding-top: 45px;
+    border-top: 1px solid var(--color-border);
 }
 
-.about-industries .eyebrow {
-    display: inline-block;
+.about-industries-heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 28px;
+}
 
-    margin-bottom: 25px;
+.about-industries-heading .eyebrow {
+    margin: 0;
+}
 
-    color: var(--color-primary);
+.about-industries-heading p {
+    max-width: 480px;
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: 14px;
+    line-height: 1.65;
 }
 
 .about-industry-links {
-    display: flex;
-    flex-wrap: wrap;
-
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
 }
 
 .about-industry-links a {
-    display: inline-flex;
+    min-height: 72px;
+    display: flex;
     align-items: center;
-    justify-content: center;
-
-    min-height: 42px;
-
-    padding: 0 18px;
-
-    border: 1px solid var(--color-border);
-    border-radius: 999px;
-
+    justify-content: space-between;
+    gap: 15px;
+    padding: 0 20px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
     color: var(--color-text);
-
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 700;
-    line-height: 1;
-    letter-spacing: 0.7px;
-
+    letter-spacing: 0.09em;
     text-decoration: none;
-
     transition:
-        color 0.25s ease,
-        background-color 0.25s ease,
-        border-color 0.25s ease,
-        transform 0.25s ease;
+        background-color var(--transition-normal),
+        color var(--transition-normal),
+        border-color var(--transition-normal);
+}
+
+.about-industry-links a span {
+    color: var(--color-primary);
+    font-size: 15px;
+    transition: transform var(--transition-normal);
 }
 
 .about-industry-links a:hover {
     background: var(--color-primary);
     border-color: var(--color-primary);
-
     color: var(--color-black);
+}
 
-    transform: translateY(-2px);
+.about-industry-links a:hover span {
+    color: var(--color-black);
+    transform: translate(3px, -3px);
 }
 
 /* =========================================================
-   INTEGRATED SECURITY CAPABILITY
+   INTEGRATED CAPABILITY
 ========================================================= */
 
 .about-capability {
-    background: var(--color-bg);
-    padding-top: 0;
+    padding: 115px 0;
+    /* background: var(--color-surface); */
+    border-top: 1px solid var(--color-border);
 }
 
 .about-capability-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 0.8fr);
-
-    gap: 90px;
-
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.82fr);
+    gap: clamp(55px, 8vw, 110px);
     align-items: center;
 }
 
@@ -395,23 +520,16 @@
 }
 
 .about-capability-content .eyebrow {
-    display: inline-block;
-
-    margin-bottom: 20px;
-
-    color: var(--color-primary);
+    margin-bottom: 22px;
 }
 
 .about-capability-content h2 {
-    max-width: 610px;
-
-    margin: 0 0 28px;
-
-    font-size: clamp(43px, 5vw, 64px);
+    max-width: 620px;
+    margin: 0 0 30px;
+    font-size: clamp(46px, 5vw, 68px);
     font-weight: 600;
-    line-height: 0.96;
-    letter-spacing: -2.7px;
-
+    line-height: 0.94;
+    letter-spacing: -3px;
     color: var(--color-text);
 }
 
@@ -422,58 +540,37 @@
 
 .about-capability-content > p {
     max-width: 610px;
-
     margin: 0;
-
     font-size: 15px;
-    line-height: 1.75;
-
+    line-height: 1.8;
     color: var(--color-text-muted);
 }
 
-/* =========================================================
-   CAPABILITY LINKS
-========================================================= */
-
 .about-capability-links {
     display: grid;
-
     grid-template-columns: repeat(2, minmax(0, 1fr));
-
-    gap: 10px;
-
-    max-width: 600px;
-
-    margin-top: 32px;
+    gap: 8px;
+    max-width: 610px;
+    margin-top: 34px;
 }
 
 .about-capability-links a {
+    min-height: 50px;
     display: flex;
     align-items: center;
-
-    gap: 10px;
-
-    min-height: 48px;
-
+    gap: 11px;
     padding: 0 15px;
-
     border: 1px solid var(--color-border);
-    border-radius: 5px;
-
-    background: var(--color-surface);
-
+    background: var(--color-bg);
     color: var(--color-text);
-
     font-size: 11px;
     font-weight: 600;
-    line-height: 1.3;
-
     text-decoration: none;
-
     transition:
-        color 0.25s ease,
-        background-color 0.25s ease,
-        border-color 0.25s ease;
+        background-color var(--transition-normal),
+        border-color var(--transition-normal),
+        color var(--transition-normal),
+        transform var(--transition-fast);
 }
 
 .about-capability-links a > span {
@@ -483,31 +580,37 @@
 .about-capability-links a:hover {
     background: var(--color-primary);
     border-color: var(--color-primary);
-
     color: var(--color-black);
+    transform: translateY(-2px);
 }
 
 .about-capability-links a:hover > span {
     color: var(--color-black);
 }
 
-/* =========================================================
-   CAPABILITY IMAGE
-========================================================= */
-
 .about-capability-image {
+    position: relative;
     overflow: hidden;
+}
+
+.about-capability-image::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 65px;
+    height: 65px;
+    background: var(--color-primary);
+    z-index: 1;
 }
 
 .about-capability-image img {
     display: block;
-
     width: 100%;
     height: 560px;
-
     object-fit: cover;
-
-    transition: transform 0.5s ease;
+    transition: transform 0.7s ease;
+    object-position: 75% center;
 }
 
 .about-capability-image:hover img {
@@ -520,67 +623,86 @@
 
 .about-final-cta {
     background: var(--color-primary);
+    color: var(--color-black);
 }
 
 .about-final-cta .cta-inner {
-    min-height: 210px;
-
-    gap: 50px;
+    min-height: 230px;
+    gap: 55px;
 }
 
 .about-final-content {
-    max-width: 720px;
+    max-width: 760px;
 }
 
 .about-final-content .eyebrow {
-    display: inline-block;
-
-    margin-bottom: 18px;
-
+    margin-bottom: 17px;
     color: var(--color-black);
 }
 
 .about-final-content h2 {
     margin: 0;
-
-    font-size: clamp(40px, 4.5vw, 58px);
+    font-size: clamp(40px, 4.5vw, 60px);
     font-weight: 600;
     line-height: 0.96;
-    letter-spacing: -2.3px;
-
+    letter-spacing: -2.5px;
     color: var(--color-black);
 }
 
 .about-final-content h2 span {
-    display: inline;
     color: var(--color-black);
 }
 
 .about-final-content p {
     max-width: 650px;
-
     margin: 18px 0 0;
-
     font-size: 15px;
     line-height: 1.65;
-
     color: rgba(0, 0, 0, 0.72);
 }
 
 .about-final-cta .advent-btn-dark {
     flex-shrink: 0;
-
     min-width: 220px;
-
-    background: var(--color-black);
-    border-color: var(--color-black);
-    color: var(--color-white);
 }
 
-.about-final-cta .advent-btn-dark:hover {
-    background: var(--color-white);
-    border-color: var(--color-white);
-    color: var(--color-black);
+/* =========================================================
+   THEME SUPPORT
+========================================================= */
+
+.about-hero,
+.about-introduction,
+.about-who-we-are,
+.about-expertise,
+.about-capability {
+    color: var(--color-text);
+}
+
+/* .about-who-we-are,
+.about-capability {
+    background: var(--color-surface);
+} */
+
+.about-stat,
+.about-industry-links a,
+.about-capability-links a {
+    border-color: var(--color-border);
+}
+
+.theme-dark .about-hero-image::after {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.04) 35%,
+        rgba(0, 0, 0, 0.72) 100%
+    );
+}
+
+.theme-dark .about-stat:hover {
+    background: var(--color-surface-alt);
+}
+
+.theme-dark .about-capability-links a {
+    background: var(--color-bg);
 }
 
 /* =========================================================
@@ -590,14 +712,12 @@
 @media (max-width: 1199.98px) {
     .about-hero .hero-content {
         padding-left: 5vw;
+        padding-right: 5vw;
     }
 
     .about-who-grid,
+    .about-expertise-grid,
     .about-capability-grid {
-        gap: 55px;
-    }
-
-    .about-expertise-grid {
         gap: 55px;
     }
 
@@ -616,17 +736,25 @@
         padding: 70px 40px;
     }
 
+    .about-hero .hero-content::after {
+        display: none;
+    }
+
     .about-hero-image {
         height: 580px;
     }
 
     .about-hero-inner h1 {
-        font-size: 58px;
-        letter-spacing: -2.5px;
+        font-size: 60px;
+        letter-spacing: -2.8px;
+    }
+
+    .about-introduction {
+        padding: 95px 0;
     }
 
     .about-introduction-image img {
-        height: 420px;
+        height: 430px;
     }
 
     .about-who-grid,
@@ -639,19 +767,16 @@
     .about-who-content,
     .about-expertise-content,
     .about-capability-content {
-        max-width: 750px;
+        max-width: 760px;
     }
 
-    .about-who-image {
-        max-width: 700px;
-    }
-
-    .about-expertise {
-        padding-top: 100px;
+    .about-who-image,
+    .about-expertise-image,
+    .about-capability-image {
+        max-width: 720px;
     }
 
     .about-expertise-image {
-        max-width: 700px;
         order: 2;
     }
 
@@ -660,11 +785,17 @@
     }
 
     .about-capability {
-        padding-top: 100px;
+        padding: 95px 0;
     }
 
-    .about-capability-image {
-        max-width: 700px;
+    .about-industries-heading {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .about-industry-links {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .about-final-cta .cta-inner {
@@ -679,17 +810,13 @@
 ========================================================= */
 
 @media (max-width: 767.98px) {
-    /* -----------------------------------------------------
-       HERO
-    ----------------------------------------------------- */
-
     .about-hero .hero-content {
         min-height: 480px;
-        padding: 60px 25px;
+        padding: 58px 25px;
     }
 
     .about-hero-image {
-        height: 360px;
+        height: 380px;
     }
 
     .about-hero-inner .eyebrow {
@@ -697,91 +824,90 @@
     }
 
     .about-hero-inner h1 {
-        font-size: 43px;
-        line-height: 0.96;
-        letter-spacing: -1.8px;
+        font-size: 44px;
+        line-height: 0.95;
+        letter-spacing: -2px;
     }
 
     .about-hero-inner p {
         margin-top: 24px;
-
         font-size: 14px;
         line-height: 1.7;
     }
 
-    /* -----------------------------------------------------
-       INTRODUCTION
-    ----------------------------------------------------- */
+    .about-hero-meta {
+        gap: 12px 18px;
+        margin-top: 32px;
+        padding-top: 17px;
+    }
+
+    .about-hero-meta span {
+        font-size: 8px;
+    }
+
+    .about-hero-image-label {
+        left: 22px;
+        bottom: 23px;
+    }
+
+    .about-hero-image-label strong {
+        font-size: 17px;
+    }
 
     .about-introduction {
-        padding: 70px 0;
+        padding: 75px 0;
+    }
+
+    .about-introduction-content > .eyebrow {
+        margin-bottom: 20px;
     }
 
     .about-lead {
-        margin-bottom: 38px;
-
+        margin-bottom: 40px;
         font-size: 24px;
         line-height: 1.22;
-        letter-spacing: -0.7px;
+        letter-spacing: -0.8px;
     }
 
     .about-introduction-image img {
         height: 300px;
     }
 
-    /* -----------------------------------------------------
-       WHO WE ARE
-    ----------------------------------------------------- */
-
-    .about-who-we-are {
-        padding: 70px 0;
+    .about-section-marker {
+        margin-bottom: 35px;
     }
 
-    .about-who-grid {
+    .about-who-we-are,
+    .about-expertise,
+    .about-capability {
+        padding: 75px 0;
+    }
+
+    .about-who-grid,
+    .about-expertise-grid,
+    .about-capability-grid {
         gap: 38px;
     }
 
-    .about-who-content h2 {
+    .about-who-content h2,
+    .about-expertise-content h2,
+    .about-capability-content h2 {
         font-size: 40px;
-        letter-spacing: -1.7px;
+        letter-spacing: -1.8px;
     }
 
-    .about-who-content p {
+    .about-who-content p,
+    .about-capability-content > p {
         font-size: 14px;
-        line-height: 1.7;
+        line-height: 1.75;
     }
 
     .about-who-image img {
-        height: 330px;
-    }
-
-    /* -----------------------------------------------------
-       EXPERTISE
-    ----------------------------------------------------- */
-
-    .about-expertise {
-        padding: 70px 0;
-    }
-
-    .about-expertise-grid {
-        gap: 38px;
-    }
-
-    .about-expertise-content h2 {
-        font-size: 40px;
-        letter-spacing: -1.7px;
-    }
-
-    .about-expertise-image {
-        order: 2;
-    }
-
-    .about-expertise-content {
-        order: 1;
+        height: 340px;
     }
 
     .about-expertise-image img {
-        height: 300px;
+        height: 320px;
     }
 
     .about-stat-grid {
@@ -790,7 +916,7 @@
 
     .about-stat {
         min-height: 105px;
-        padding: 18px 17px;
+        padding: 18px 16px;
     }
 
     .about-stat strong {
@@ -798,63 +924,40 @@
     }
 
     .about-stat strong span {
-        font-size: 20px;
+        font-size: 19px;
     }
 
     .about-stat > span {
-        font-size: 10px;
-    }
-
-    /* -----------------------------------------------------
-       INDUSTRIES
-    ----------------------------------------------------- */
-
-    .about-industries {
-        margin-top: 55px;
-    }
-
-    .about-industry-links {
-        gap: 8px;
-    }
-
-    .about-industry-links a {
-        min-height: 38px;
-        padding: 0 14px;
-
         font-size: 9px;
     }
 
-    /* -----------------------------------------------------
-       CAPABILITY
-    ----------------------------------------------------- */
-
-    .about-capability {
-        padding: 70px 0;
+    .about-industries {
+        margin-top: 60px;
+        padding-top: 35px;
     }
 
-    .about-capability-grid {
-        gap: 38px;
+    .about-industries-heading p {
+        font-size: 13px;
     }
 
-    .about-capability-content h2 {
-        font-size: 40px;
-        letter-spacing: -1.7px;
+    .about-industry-links {
+        grid-template-columns: 1fr 1fr;
     }
 
-    .about-capability-content > p {
-        font-size: 14px;
-        line-height: 1.7;
+    .about-industry-links a {
+        min-height: 58px;
+        padding: 0 13px;
+        font-size: 9px;
     }
 
     .about-capability-links {
         grid-template-columns: 1fr;
         gap: 8px;
-
         margin-top: 28px;
     }
 
     .about-capability-links a {
-        min-height: 46px;
+        min-height: 47px;
         font-size: 11px;
     }
 
@@ -862,15 +965,9 @@
         height: 360px;
     }
 
-    /* -----------------------------------------------------
-       FINAL CTA
-    ----------------------------------------------------- */
-
     .about-final-cta .cta-inner {
         min-height: 0;
-
         padding: 50px 0;
-
         gap: 30px;
     }
 
@@ -887,102 +984,119 @@
     .about-final-cta .advent-btn-dark {
         width: 100%;
         min-width: 0;
-
         font-size: 11px;
     }
 }
 
 /* =========================================================
-   THEME SUPPORT
-   Section backgrounds and foregrounds use theme variables.
-   No section is locked to black or white.
+   SMALL MOBILE
 ========================================================= */
 
-.about-hero,
-.about-introduction,
-.about-who-we-are,
-.about-expertise,
-.about-capability {
+@media (max-width: 575.98px) {
+    .about-hero .hero-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about-hero-inner h1 {
+        font-size: 40px;
+    }
+
+    .about-hero-image {
+        height: 330px;
+    }
+
+    .about-introduction-image img,
+    .about-who-image img,
+    .about-expertise-image img,
+    .about-capability-image img {
+        height: 280px;
+    }
+
+    .about-industry-links a {
+        min-height: 54px;
+        font-size: 8px;
+    }
+
+    .about-capability-image img {
+        height: 310px;
+    }
+}
+
+/* =========================================================
+   TRUST / CREDENTIAL STRIP
+========================================================= */
+
+.about-trust-strip {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-top: 48px;
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.about-trust-item {
+    min-height: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 18px 16px;
+    text-align: center;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
     background: var(--color-bg);
-    color: var(--color-text);
+    transition:
+        background-color var(--transition-normal),
+        border-color var(--transition-normal);
 }
 
-.about-who-content h2,
-.about-expertise-content h2,
-.about-capability-content h2,
-.about-introduction .about-lead,
-.about-hero-inner h1 {
-    color: var(--color-text);
-}
-
-.about-who-content p,
-.about-capability-content > p,
-.about-hero-inner p,
-.about-section-heading p {
-    color: var(--color-text-muted);
-}
-
-.about-stat-grid,
-.about-stat {
-    border-color: var(--color-border);
-}
-
-.about-stat > span {
-    color: var(--color-text-muted);
-}
-
-.about-industry-links a {
-    border-color: var(--color-border);
-    color: var(--color-text);
-    background: transparent;
-}
-
-.about-capability-links a {
+.about-trust-item:hover {
     background: var(--color-surface);
-    border-color: var(--color-border);
+}
+
+.about-trust-item strong {
+    display: block;
+    margin: 0;
+    color: var(--color-primary);
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.13em;
+}
+
+.about-trust-item span {
+    display: block;
     color: var(--color-text);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.3;
 }
 
-.about-capability-links a:hover,
-.about-industry-links a:hover {
-    background: var(--color-primary);
-    border-color: var(--color-primary);
-    color: var(--color-black);
+@media (max-width: 991.98px) {
+    .about-trust-strip {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
-.about-capability-links a:hover > span {
-    color: var(--color-black);
-}
+@media (max-width: 767.98px) {
+    .about-trust-strip {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 32px;
+    }
 
-/* =========================================================
-   DARK THEME — ONLY WHERE CONTRAST NEEDS EXPLICIT CONTROL
-========================================================= */
+    .about-trust-item {
+        min-height: 82px;
+        padding: 14px 8px;
+    }
 
-.theme-dark .about-capability-links a {
-    background: var(--color-surface);
-    color: var(--color-text);
-}
+    .about-trust-item strong {
+        font-size: 8px;
+        letter-spacing: 0.09em;
+    }
 
-.theme-dark .about-capability-links a:hover,
-.theme-dark .about-industry-links a:hover {
-    background: var(--color-primary);
-    color: var(--color-black);
-}
-
-/* =========================================================
-   BRAND CTA
-   The final CTA intentionally remains Advent yellow.
-   This is a brand action block, not a locked dark section.
-========================================================= */
-
-.about-final-cta {
-    background: var(--color-primary);
-    color: var(--color-black);
-}
-
-.about-final-cta h2,
-.about-final-content h2,
-.about-final-content p,
-.about-final-content .eyebrow {
-    color: var(--color-black);
+    .about-trust-item span {
+        font-size: 9px;
+    }
 }

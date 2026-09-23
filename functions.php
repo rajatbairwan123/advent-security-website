@@ -551,8 +551,24 @@ function advent_security_assets()
         is_page_template('page-aviation-airports.php')
     ) {
         wp_enqueue_style(
-            'advent-industry',
+            'advent-aviation-airports',
             get_template_directory_uri() . '/assets/css/aviation-airports.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+    /**
+     * -----------------------------------------------------
+     * Manufacturing
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('manufacturing') ||
+        is_page_template('page-manufacturing.php')
+    ) {
+        wp_enqueue_style(
+            'advent-manufacturing',
+            get_template_directory_uri() . '/assets/css/manufacturing.css',
             array('advent-responsive'),
             '1.0.0'
         );

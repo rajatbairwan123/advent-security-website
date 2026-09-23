@@ -1,0 +1,1107 @@
+/* =========================================================
+   ADVENT SECURITY
+   MANUFACTURING INDUSTRY PAGE
+   Page-specific styles only
+   ========================================================= */
+
+/* =========================================================
+   01. MANUFACTURING HERO
+   ========================================================= */
+
+.manufacturing-hero {
+    position: relative;
+    min-height: 680px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.manufacturing-hero-media {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+.manufacturing-hero-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.manufacturing-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.78) 0%,
+        rgba(0, 0, 0, 0.58) 42%,
+        rgba(0, 0, 0, 0.18) 75%,
+        rgba(0, 0, 0, 0.05) 100%
+    );
+}
+
+.manufacturing-hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 760px;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.manufacturing-hero .eyebrow {
+    margin-bottom: 20px;
+}
+
+.manufacturing-hero h1 {
+    margin: 0 0 26px;
+    font-size: clamp(3rem, 5vw, 5.5rem);
+    line-height: 0.98;
+    letter-spacing: -0.045em;
+    font-weight: 700;
+}
+
+.manufacturing-hero h1 span {
+    color: var(--color-primary);
+}
+
+.manufacturing-hero-description {
+    max-width: 680px;
+    margin-bottom: 30px;
+    font-size: 1.08rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.88);
+}
+
+.manufacturing-hero-points {
+    display: grid;
+    gap: 12px;
+    margin: 0 0 34px;
+    padding: 0;
+    list-style: none;
+}
+
+.manufacturing-hero-points li {
+    position: relative;
+    padding-left: 28px;
+    color: rgba(255, 255, 255, 0.92);
+    line-height: 1.6;
+}
+
+.manufacturing-hero-points li::before {
+    content: "";
+    position: absolute;
+    top: 0.65em;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    transform: translateY(-50%);
+}
+
+.manufacturing-hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+/* =========================================================
+   02. PROOF / TRUST STRIP
+   ========================================================= */
+
+.manufacturing-proof-strip {
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    background: var(--color-bg);
+}
+
+.manufacturing-proof-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.manufacturing-proof-item {
+    min-height: 105px;
+    padding: 22px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-right: 1px solid var(--color-border);
+}
+
+.manufacturing-proof-item:last-child {
+    border-right: 0;
+}
+
+.manufacturing-proof-label {
+    margin-bottom: 5px;
+    color: var(--color-primary-dark);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.manufacturing-proof-item strong {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* =========================================================
+   03. ANSWER-FIRST SECTION
+   ========================================================= */
+
+.manufacturing-answer-section {
+    padding: 110px 0;
+}
+
+.manufacturing-answer-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.manufacturing-answer-inner h2 {
+    margin-bottom: 25px;
+}
+
+.manufacturing-answer-inner p {
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.08rem;
+    line-height: 1.8;
+}
+
+/* =========================================================
+   04. WHY MANUFACTURING SECURITY IS DIFFERENT
+   ========================================================= */
+
+.manufacturing-different-section {
+    padding: 110px 0;
+    background: var(--color-surface);
+}
+
+.manufacturing-section-heading {
+    max-width: 760px;
+    margin-bottom: 55px;
+}
+
+.manufacturing-section-heading h2 {
+    margin: 12px 0 18px;
+}
+
+.manufacturing-section-heading h2 span {
+    color: var(--color-primary);
+}
+
+.manufacturing-section-heading p {
+    max-width: 680px;
+}
+
+/* =========================================================
+   05. MANUFACTURING SITUATION CARDS
+   ========================================================= */
+
+.manufacturing-situations-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.manufacturing-situation-card {
+    position: relative;
+    padding: 32px;
+    min-height: 270px;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.manufacturing-situation-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--color-primary);
+    box-shadow: 0 16px 35px rgba(0, 0, 0, 0.08);
+}
+
+.manufacturing-situation-number {
+    display: block;
+    margin-bottom: 28px;
+    color: var(--color-primary);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+}
+
+.manufacturing-situation-card h3 {
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+}
+
+.manufacturing-situation-card p {
+    margin-bottom: 18px;
+    line-height: 1.65;
+}
+
+.manufacturing-situation-implication {
+    padding-top: 16px;
+    border-top: 1px solid var(--color-border);
+    font-size: 0.92rem;
+}
+
+.manufacturing-situation-implication strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.76rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+/* =========================================================
+   06. FACILITY / SITUATION SELECTOR
+   ========================================================= */
+
+.manufacturing-selector-section {
+    padding: 110px 0;
+}
+
+.manufacturing-selector-heading {
+    max-width: 700px;
+    margin-bottom: 45px;
+}
+
+.manufacturing-selector-heading h2 span {
+    color: var(--color-primary);
+}
+
+.manufacturing-selector-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+}
+
+.manufacturing-selector-card {
+    appearance: none;
+    width: 100%;
+    min-height: 180px;
+    padding: 25px 22px;
+    text-align: left;
+    background: var(--color-bg);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    cursor: pointer;
+    transition:
+        border-color 0.25s ease,
+        background 0.25s ease,
+        transform 0.25s ease;
+}
+
+.manufacturing-selector-card:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-3px);
+}
+
+.manufacturing-selector-card.is-active,
+.manufacturing-selector-card[aria-selected="true"] {
+    border-color: var(--color-primary);
+    background: var(--color-primary);
+    color: #111;
+}
+
+.manufacturing-selector-icon {
+    width: 42px;
+    height: 42px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+}
+
+.manufacturing-selector-card h3 {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.3;
+}
+
+.manufacturing-selector-panel {
+    margin-top: 20px;
+    padding: 35px;
+    border: 1px solid var(--color-border);
+    background: var(--color-surface);
+}
+
+.manufacturing-selector-panel h3 {
+    margin-bottom: 12px;
+}
+
+.manufacturing-selector-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+.manufacturing-selector-controls span {
+    display: inline-flex;
+    padding: 8px 12px;
+    border: 1px solid var(--color-border);
+    font-size: 0.8rem;
+}
+
+/* =========================================================
+   07. RISK → CONTROL MATRIX
+   ========================================================= */
+
+.manufacturing-risk-section {
+    padding: 110px 0;
+    background: var(--color-surface);
+}
+
+.manufacturing-risk-table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--color-border);
+}
+
+.manufacturing-risk-table {
+    width: 100%;
+    min-width: 760px;
+    border-collapse: collapse;
+}
+
+.manufacturing-risk-table th,
+.manufacturing-risk-table td {
+    padding: 20px 22px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid var(--color-border);
+    border-right: 1px solid var(--color-border);
+}
+
+.manufacturing-risk-table th:last-child,
+.manufacturing-risk-table td:last-child {
+    border-right: 0;
+}
+
+.manufacturing-risk-table tr:last-child td {
+    border-bottom: 0;
+}
+
+.manufacturing-risk-table th {
+    background: var(--color-text);
+    color: var(--color-bg);
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.manufacturing-risk-table td {
+    background: var(--color-bg);
+    line-height: 1.6;
+}
+
+.manufacturing-risk-table td:first-child {
+    font-weight: 700;
+}
+
+/* =========================================================
+   08. FIVE-LAYER SECURITY ARCHITECTURE
+   ========================================================= */
+
+.manufacturing-architecture-section {
+    padding: 110px 0;
+}
+
+.manufacturing-architecture-heading {
+    max-width: 760px;
+    margin-bottom: 50px;
+}
+
+.manufacturing-architecture-heading h2 span {
+    color: var(--color-primary);
+}
+
+.manufacturing-architecture-flow {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+}
+
+.manufacturing-layer-card {
+    position: relative;
+    padding: 32px 24px;
+    min-height: 250px;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+}
+
+.manufacturing-layer-card:not(:last-child)::after {
+    content: "→";
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    z-index: 2;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-primary);
+    color: #111;
+    font-size: 0.75rem;
+    transform: translateY(-50%);
+}
+
+.manufacturing-layer-number {
+    display: block;
+    margin-bottom: 25px;
+    color: var(--color-primary);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.manufacturing-layer-card h3 {
+    margin-bottom: 12px;
+    font-size: 1.15rem;
+}
+
+.manufacturing-layer-card p {
+    margin-bottom: 15px;
+    font-size: 0.92rem;
+    line-height: 1.6;
+}
+
+.manufacturing-layer-examples {
+    font-size: 0.82rem;
+    line-height: 1.55;
+    opacity: 0.8;
+}
+
+/* =========================================================
+   09. CAPABILITY HUB
+   ========================================================= */
+
+.manufacturing-capabilities-section {
+    padding: 110px 0;
+    background: var(--color-surface);
+}
+
+.manufacturing-capabilities-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.manufacturing-capability-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 270px;
+    padding: 30px;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease;
+}
+
+.manufacturing-capability-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--color-primary);
+}
+
+.manufacturing-capability-icon {
+    width: 46px;
+    height: 46px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-primary);
+    color: #111;
+    border-radius: 50%;
+}
+
+.manufacturing-capability-card h3 {
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+}
+
+.manufacturing-capability-card p {
+    margin-bottom: 22px;
+    font-size: 0.92rem;
+    line-height: 1.65;
+}
+
+.manufacturing-capability-link {
+    margin-top: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--color-text);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.manufacturing-capability-link span {
+    color: var(--color-primary-dark);
+    transition: transform 0.2s ease;
+}
+
+.manufacturing-capability-link:hover span {
+    transform: translateX(4px);
+}
+
+/* =========================================================
+   10. PEOPLE + TECHNOLOGY
+   ========================================================= */
+
+.manufacturing-integration-section {
+    padding: 110px 0;
+}
+
+.manufacturing-integration-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.manufacturing-integration-content h2 {
+    margin-bottom: 20px;
+}
+
+.manufacturing-integration-content h2 span {
+    color: var(--color-primary);
+}
+
+.manufacturing-integration-content > p {
+    margin-bottom: 30px;
+    line-height: 1.75;
+}
+
+.manufacturing-integration-list {
+    display: grid;
+    gap: 18px;
+}
+
+.manufacturing-integration-item {
+    display: grid;
+    grid-template-columns: 42px 1fr;
+    gap: 15px;
+    align-items: start;
+}
+
+.manufacturing-integration-item-icon {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary-dark);
+    border-radius: 50%;
+}
+
+.manufacturing-integration-item strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.manufacturing-integration-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.manufacturing-integration-media {
+    position: relative;
+}
+
+.manufacturing-integration-media img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+/* =========================================================
+   11. PROJECT PATHWAYS
+   ========================================================= */
+
+.manufacturing-pathways-section {
+    padding: 110px 0;
+    background: var(--color-surface);
+}
+
+.manufacturing-pathways-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.manufacturing-pathway-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 310px;
+    padding: 30px;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+}
+
+.manufacturing-pathway-card h3 {
+    margin: 15px 0 12px;
+    font-size: 1.2rem;
+}
+
+.manufacturing-pathway-card p {
+    line-height: 1.65;
+    font-size: 0.92rem;
+}
+
+.manufacturing-pathway-number {
+    color: var(--color-primary);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.manufacturing-pathway-link {
+    margin-top: auto;
+    padding-top: 20px;
+    color: var(--color-text);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* =========================================================
+   12. ASSESSMENT / PROOF SECTION
+   ========================================================= */
+
+.manufacturing-assessment-section {
+    padding: 110px 0;
+}
+
+.manufacturing-assessment-grid {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 70px;
+    align-items: start;
+}
+
+.manufacturing-assessment-content h2 span {
+    color: var(--color-primary);
+}
+
+.manufacturing-assessment-content p {
+    line-height: 1.75;
+}
+
+.manufacturing-assessment-list {
+    display: grid;
+    gap: 0;
+    border-top: 1px solid var(--color-border);
+}
+
+.manufacturing-assessment-item {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    gap: 20px;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.manufacturing-assessment-item strong {
+    font-size: 0.9rem;
+}
+
+.manufacturing-assessment-item span {
+    font-size: 0.9rem;
+    line-height: 1.55;
+}
+
+/* =========================================================
+   13. FAQ
+   ========================================================= */
+
+.manufacturing-faq-section {
+    padding: 110px 0;
+    background: var(--color-surface);
+}
+
+.manufacturing-faq-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.manufacturing-faq-item {
+    border-top: 1px solid var(--color-border);
+}
+
+.manufacturing-faq-item:last-child {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.manufacturing-faq-item summary {
+    position: relative;
+    padding: 25px 45px 25px 0;
+    cursor: pointer;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.manufacturing-faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.manufacturing-faq-item summary::after {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    color: var(--color-primary-dark);
+    font-size: 1.5rem;
+    font-weight: 400;
+    transform: translateY(-50%);
+}
+
+.manufacturing-faq-item[open] summary::after {
+    content: "−";
+}
+
+.manufacturing-faq-answer {
+    padding: 0 45px 25px 0;
+}
+
+.manufacturing-faq-answer p {
+    margin: 0;
+    line-height: 1.7;
+}
+
+/* =========================================================
+   14. FINAL CTA
+   ========================================================= */
+
+.manufacturing-final-cta {
+    padding: 100px 0;
+    background: var(--color-text);
+    color: var(--color-bg);
+}
+
+.manufacturing-final-cta-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.manufacturing-final-cta h2 {
+    margin-bottom: 20px;
+    color: var(--color-bg);
+}
+
+.manufacturing-final-cta h2 span {
+    color: var(--color-primary);
+}
+
+.manufacturing-final-cta p {
+    max-width: 720px;
+    margin: 0 auto 30px;
+    color: rgba(255, 255, 255, 0.78);
+    line-height: 1.75;
+}
+
+.manufacturing-final-cta-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+/* =========================================================
+   15. RELATED INDUSTRIES
+   ========================================================= */
+
+.manufacturing-related-section {
+    padding: 100px 0;
+}
+
+.manufacturing-related-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.manufacturing-related-card {
+    position: relative;
+    min-height: 170px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 1px solid var(--color-border);
+    background: var(--color-bg);
+    transition:
+        border-color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.manufacturing-related-card:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-3px);
+}
+
+.manufacturing-related-card h3 {
+    margin: 0 0 8px;
+    font-size: 1.1rem;
+}
+
+.manufacturing-related-card span {
+    color: var(--color-primary-dark);
+    font-size: 0.78rem;
+    font-weight: 700;
+}
+
+/* =========================================================
+   16. DARK THEME SUPPORT
+   ========================================================= */
+
+/*
+ * No fixed black/white section backgrounds are used except
+ * the intentional final CTA.
+ *
+ * Existing theme variables control the normal sections.
+ */
+
+.theme-dark .manufacturing-proof-item,
+.theme-dark .manufacturing-situation-card,
+.theme-dark .manufacturing-selector-card,
+.theme-dark .manufacturing-capability-card,
+.theme-dark .manufacturing-pathway-card,
+.theme-dark .manufacturing-related-card,
+.theme-dark .manufacturing-layer-card,
+.theme-dark .manufacturing-assessment-list,
+.theme-dark .manufacturing-integration-media {
+    box-shadow: none;
+}
+
+.theme-dark .manufacturing-hero-overlay {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.84) 0%,
+        rgba(0, 0, 0, 0.68) 45%,
+        rgba(0, 0, 0, 0.28) 100%
+    );
+}
+
+/* =========================================================
+   17. RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 1199.98px) {
+    .manufacturing-hero {
+        min-height: 620px;
+    }
+
+    .manufacturing-selector-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .manufacturing-capabilities-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .manufacturing-pathways-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .manufacturing-related-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 991.98px) {
+    .manufacturing-hero-content {
+        max-width: 680px;
+        padding: 80px 0;
+    }
+
+    .manufacturing-proof-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .manufacturing-proof-item:nth-child(2) {
+        border-right: 0;
+    }
+
+    .manufacturing-proof-item:nth-child(-n + 2) {
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .manufacturing-situations-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .manufacturing-selector-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .manufacturing-architecture-flow {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .manufacturing-layer-card {
+        min-height: auto;
+    }
+
+    .manufacturing-layer-card:not(:last-child)::after {
+        content: "↓";
+        top: auto;
+        right: 50%;
+        bottom: -17px;
+        transform: translateX(50%);
+    }
+
+    .manufacturing-integration-grid,
+    .manufacturing-assessment-grid {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    .manufacturing-related-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767.98px) {
+    .manufacturing-hero {
+        min-height: 650px;
+        align-items: flex-end;
+    }
+
+    .manufacturing-hero-content {
+        padding: 60px 0;
+    }
+
+    .manufacturing-hero h1 {
+        font-size: clamp(2.5rem, 11vw, 4rem);
+    }
+
+    .manufacturing-hero-description {
+        font-size: 1rem;
+    }
+
+    .manufacturing-hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .manufacturing-proof-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .manufacturing-proof-item {
+        min-height: 90px;
+        border-right: 0;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .manufacturing-proof-item:last-child {
+        border-bottom: 0;
+    }
+
+    .manufacturing-answer-section,
+    .manufacturing-different-section,
+    .manufacturing-selector-section,
+    .manufacturing-risk-section,
+    .manufacturing-architecture-section,
+    .manufacturing-capabilities-section,
+    .manufacturing-integration-section,
+    .manufacturing-pathways-section,
+    .manufacturing-assessment-section,
+    .manufacturing-faq-section,
+    .manufacturing-related-section {
+        padding: 75px 0;
+    }
+
+    .manufacturing-situations-grid,
+    .manufacturing-selector-grid,
+    .manufacturing-capabilities-grid,
+    .manufacturing-pathways-grid,
+    .manufacturing-related-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .manufacturing-situation-card,
+    .manufacturing-selector-card,
+    .manufacturing-capability-card,
+    .manufacturing-pathway-card {
+        min-height: auto;
+    }
+
+    .manufacturing-selector-panel {
+        padding: 25px;
+    }
+
+    .manufacturing-risk-table-wrap {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .manufacturing-risk-table {
+        min-width: 680px;
+    }
+
+    .manufacturing-assessment-item {
+        grid-template-columns: 1fr;
+        gap: 7px;
+    }
+
+    .manufacturing-final-cta {
+        padding: 75px 0;
+    }
+
+    .manufacturing-final-cta-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .manufacturing-hero {
+        min-height: 620px;
+    }
+
+    .manufacturing-hero-content {
+        padding: 45px 0;
+    }
+
+    .manufacturing-section-heading,
+    .manufacturing-selector-heading,
+    .manufacturing-architecture-heading {
+        margin-bottom: 35px;
+    }
+
+    .manufacturing-layer-card {
+        padding: 26px 22px;
+    }
+
+    .manufacturing-integration-item {
+        grid-template-columns: 36px 1fr;
+    }
+
+    .manufacturing-integration-item-icon {
+        width: 36px;
+        height: 36px;
+    }
+}

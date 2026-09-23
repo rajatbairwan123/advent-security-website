@@ -4,7 +4,7 @@
  * About Advent Security
  *
  * Custom About page template.
- *
+ * Premium editorial layout using the existing Advent design system.
  */
 
 get_header();
@@ -33,8 +33,8 @@ get_header();
                             </span>
 
                             <h1>
-                                About
-                                <span>Advent Security</span>
+                                Security built
+                                <span>around trust.</span>
                             </h1>
 
                             <p>
@@ -43,12 +43,17 @@ get_header();
                                 on three decades of trust.
                             </p>
 
+                            <div class="about-hero-meta" aria-label="Advent Security highlights">
+                                <span>INTEGRATED SECURITY</span>
+                                <span>FAMILY OPERATED</span>
+                                <span>AUSTRALIA WIDE</span>
+                            </div>
+
                         </div>
 
                     </div>
 
                 </div>
-
 
                 <div class="col-lg-6">
 
@@ -57,9 +62,14 @@ get_header();
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/about/about-hero.webp'
+                                            '/assets/images/about-us/about-img-3.webp'
                                     ); ?>"
                             alt="Advent Security">
+
+                        <div class="about-hero-image-label">
+                            <span>ADVENT SECURITY</span>
+                            <strong>Protecting what matters.</strong>
+                        </div>
 
                     </div>
 
@@ -82,11 +92,13 @@ get_header();
 
             <div class="about-introduction-content">
 
+                <span class="eyebrow">OUR STORY</span>
+
                 <p class="about-lead">
-                    For over three decades, Advent Security has been a
+                    For over <span>three decades</span>, Advent Security has been a
                     family-operated business committed to delivering
-                    integrated security solutions with vigilance, integrity,
-                    and an unwavering focus on the people we protect.
+                    <span>integrated security solutions</span> with vigilance,
+                    integrity, and an unwavering focus on the people we protect.
                 </p>
 
                 <div class="about-introduction-image">
@@ -94,7 +106,7 @@ get_header();
                     <img
                         src="<?php echo esc_url(
                                     get_template_directory_uri() .
-                                        '/assets/images/about/about-security-operations.webp'
+                                        '/assets/images/about-us/about-img-7.webp'
                                 ); ?>"
                         alt="Advent Security operations">
 
@@ -115,12 +127,16 @@ get_header();
 
         <div class="container">
 
+            <div class="about-section-marker">
+                <span>WHO WE ARE</span>
+            </div>
+
             <div class="about-who-grid">
 
                 <div class="about-who-content">
 
                     <span class="eyebrow">
-                        WHO WE ARE
+                        BUILT AROUND YOUR ENVIRONMENT
                     </span>
 
                     <h2>
@@ -149,7 +165,7 @@ get_header();
                     <img
                         src="<?php echo esc_url(
                                     get_template_directory_uri() .
-                                        '/assets/images/about/about-who-we-are.webp'
+                                        '/assets/images/about-us/about-img-5.webp'
                                 ); ?>"
                         alt="Advent Security team supporting client operations">
 
@@ -170,6 +186,10 @@ get_header();
 
         <div class="container">
 
+            <div class="about-section-marker">
+                <span>KEY AREAS OF EXPERTISE</span>
+            </div>
+
             <div class="about-expertise-grid">
 
                 <div class="about-expertise-image">
@@ -177,7 +197,7 @@ get_header();
                     <img
                         src="<?php echo esc_url(
                                     get_template_directory_uri() .
-                                        '/assets/images/about/about-expertise.webp'
+                                        '/assets/images/about-us/about-img-4.webp'
                                 ); ?>"
                         alt="Advent Security integrated security environment">
 
@@ -187,7 +207,7 @@ get_header();
                 <div class="about-expertise-content">
 
                     <span class="eyebrow">
-                        KEY AREAS OF EXPERTISE
+                        INTEGRATED CAPABILITY
                     </span>
 
                     <h2>
@@ -195,50 +215,50 @@ get_header();
                         <span>across every industry.</span>
                     </h2>
 
-
-                    <div class="about-stat-grid">
+                    <!-- <div class="about-stat-grid">
 
                         <div class="about-stat">
-
                             <strong>1,000<span>+</span></strong>
-
-                            <span>
-                                Security Professionals
-                            </span>
-
+                            <span>Security Professionals</span>
                         </div>
 
-
                         <div class="about-stat">
-
                             <strong>500<span>+</span></strong>
-
-                            <span>
-                                Sites Protected
-                            </span>
-
+                            <span>Sites Protected</span>
                         </div>
 
-
                         <div class="about-stat">
-
                             <strong>500<span>+</span></strong>
-
-                            <span>
-                                Sites Supported
-                            </span>
-
+                            <span>Sites Supported</span>
                         </div>
 
-
                         <div class="about-stat">
+                            <strong>3<span>+</span></strong>
+                            <span>Decades of Experience</span>
+                        </div>
 
-                            <strong>500<span>+</span></strong>
+                    </div> -->
 
-                            <span>
-                                Sites Protected
-                            </span>
+                    <div class="about-trust-strip" aria-label="Advent Security credentials">
 
+                        <div class="about-trust-item">
+                            <strong>36+ YEARS</strong>
+                            <span>Established experience</span>
+                        </div>
+
+                        <div class="about-trust-item">
+                            <strong>AUSTRALIAN-OWNED</strong>
+                            <span>Family business</span>
+                        </div>
+
+                        <div class="about-trust-item">
+                            <strong>ASIAL</strong>
+                            <span>Platinum Level member</span>
+                        </div>
+
+                        <div class="about-trust-item">
+                            <strong>ISO 27001:2022</strong>
+                            <span>Information security</span>
                         </div>
 
                     </div>
@@ -254,42 +274,46 @@ get_header();
 
             <div class="about-industries">
 
-                <span class="eyebrow">
-                    INDUSTRIES WE SUPPORT
-                </span>
+                <div class="about-industries-heading">
+                    <span class="eyebrow">INDUSTRIES WE SUPPORT</span>
+                    <p>
+                        Security solutions shaped around the environments,
+                        people and operational demands of our clients.
+                    </p>
+                </div>
 
                 <div class="about-industry-links">
 
                     <a href="<?php echo esc_url(home_url('/industries/logistics/')); ?>">
-                        LOGISTICS
+                        LOGISTICS <span aria-hidden="true">↗</span>
                     </a>
 
                     <a href="<?php echo esc_url(home_url('/industries/corporate/')); ?>">
-                        CORPORATE
+                        CORPORATE <span aria-hidden="true">↗</span>
                     </a>
 
                     <a href="<?php echo esc_url(home_url('/industries/healthcare/')); ?>">
-                        HEALTHCARE
+                        HEALTHCARE <span aria-hidden="true">↗</span>
                     </a>
 
                     <a href="<?php echo esc_url(home_url('/industries/government/')); ?>">
-                        GOVERNMENT
+                        GOVERNMENT <span aria-hidden="true">↗</span>
                     </a>
 
                     <a href="<?php echo esc_url(home_url('/industries/retail/')); ?>">
-                        RETAIL
+                        RETAIL <span aria-hidden="true">↗</span>
                     </a>
 
                     <a href="<?php echo esc_url(home_url('/industries/construction/')); ?>">
-                        CONSTRUCTION
+                        CONSTRUCTION <span aria-hidden="true">↗</span>
                     </a>
 
                     <a href="<?php echo esc_url(home_url('/industries/aviation/')); ?>">
-                        AVIATION
+                        AVIATION <span aria-hidden="true">↗</span>
                     </a>
 
                     <a href="<?php echo esc_url(home_url('/industries/maritime/')); ?>">
-                        MARITIME
+                        MARITIME <span aria-hidden="true">↗</span>
                     </a>
 
                 </div>
@@ -308,6 +332,10 @@ get_header();
     <section class="content-section about-capability">
 
         <div class="container">
+
+            <div class="about-section-marker">
+                <span>ONE INTEGRATED PARTNER</span>
+            </div>
 
             <div class="about-capability-grid">
 
@@ -329,7 +357,6 @@ get_header();
                         simplifies your security operations while raising
                         standards.
                     </p>
-
 
                     <div class="about-capability-links">
 
@@ -373,7 +400,7 @@ get_header();
                     <img
                         src="<?php echo esc_url(
                                     get_template_directory_uri() .
-                                        '/assets/images/about/about-integrated-security.webp'
+                                        '/assets/images/about-us/about-img-2.webp'
                                 ); ?>"
                         alt="Advent Security personnel">
 
@@ -418,7 +445,7 @@ get_header();
                     href="<?php echo esc_url(home_url('/contact/')); ?>"
                     class="advent-btn advent-btn-dark">
                     GET STARTED
-                    <span aria-hidden="true">→</span>
+                    <span class="btn-arrow" aria-hidden="true">→</span>
                 </a>
 
             </div>
