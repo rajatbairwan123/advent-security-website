@@ -43,10 +43,30 @@ get_header();
                                 on three decades of trust.
                             </p>
 
-                            <div class="about-hero-meta" aria-label="Advent Security highlights">
-                                <span>INTEGRATED SECURITY</span>
-                                <span>FAMILY OPERATED</span>
-                                <span>AUSTRALIA WIDE</span>
+                            <!-- Contact Proof Strip -->
+
+                            <div class="contact-proof-grid">
+
+                                <div class="contact-proof-item">
+                                    <strong>36+ YEARS</strong>
+                                    <span>Established experience</span>
+                                </div>
+
+                                <div class="contact-proof-item">
+                                    <strong>AUSTRALIAN-OWNED</strong>
+                                    <span>Family business</span>
+                                </div>
+
+                                <div class="contact-proof-item">
+                                    <strong>ASIAL</strong>
+                                    <span>Platinum Level member</span>
+                                </div>
+
+                                <div class="contact-proof-item">
+                                    <strong>ISO 27001:2022</strong>
+                                    <span>Information security</span>
+                                </div>
+
                             </div>
 
                         </div>
@@ -111,6 +131,305 @@ get_header();
                         alt="Advent Security operations">
 
                 </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =====================================================
+     ADVENT TIMELINE
+    ====================================================== -->
+
+    <section class="about-timeline-section">
+
+        <div class="container">
+
+            <div class="about-timeline-heading">
+
+                <span class="eyebrow">
+                    THE JOURNEY
+                </span>
+
+                <h2>
+                    The Advent Timeline
+                    <!-- <span>protecting what matters.</span> -->
+                </h2>
+
+                <p>
+                    From a single client in 1990 to a trusted security partner
+                    supporting organisations across Australia and New Zealand.
+                </p>
+
+            </div>
+
+
+            <div class="about-timeline">
+
+                <!-- 1990 -->
+
+                <article class="about-timeline-item">
+
+                    <div class="about-timeline-content">
+
+                        <span class="about-timeline-year">
+                            1990
+                        </span>
+
+                        <span class="about-timeline-label">
+                            WHEN IT BEGAN
+                        </span>
+
+                        <p>
+                            Peter (PJ) Benney founded Advent Security in May 1990. The business began with one client and a couple of casual security guards; the first client was Coles on Bourke Street, Melbourne.
+                        </p>
+
+                    </div>
+
+                    <div class="about-timeline-dot"></div>
+
+                </article>
+
+
+                <!-- 1990s – 2000s -->
+
+                <article class="about-timeline-item">
+
+                    <div class="about-timeline-content">
+
+                        <span class="about-timeline-year">
+                            1990s–2000s
+                        </span>
+
+                        <span class="about-timeline-label">
+                            GROWING BEYOND GUARDING
+                        </span>
+
+                        <p>
+                            Advent expanded from guard services into electronics, consulting and investigative services, while building relationships across industries including health, retail, finance, corporate and entertainment.
+                        </p>
+
+                    </div>
+
+                    <div class="about-timeline-dot"></div>
+
+                </article>
+
+
+                <!-- 2019 -->
+
+                <article class="about-timeline-item">
+
+                    <div class="about-timeline-content">
+
+                        <span class="about-timeline-year">
+                            2019
+                        </span>
+
+                        <span class="about-timeline-label">
+                            CUSTOMER RECOGNITION
+                        </span>
+
+                        <p>
+                            Advent Security VIC recorded 94.28% customer satisfaction in the 2019 Australian Achiever Awards for Australia’s Security Industry – Guard & Patrol Services.
+                        </p>
+
+                        <span class="about-timeline-badge">
+                            94.28% CUSTOMER SATISFACTION
+                        </span>
+
+                    </div>
+
+                    <div class="about-timeline-dot"></div>
+
+                </article>
+
+
+                <!-- 2020 -->
+
+                <article class="about-timeline-item">
+
+                    <div class="about-timeline-content">
+
+                        <span class="about-timeline-year">
+                            2020
+                        </span>
+
+                        <span class="about-timeline-label">
+                            30 YEARS OF ADVENT
+                        </span>
+
+                        <p>
+                            Advent celebrated its 30th year of trading, reflecting three decades of service and the people who helped build the business.
+                        </p>
+
+                    </div>
+
+                    <div class="about-timeline-dot"></div>
+
+                </article>
+
+
+                <!-- ASIAL -->
+
+                <article class="about-timeline-item">
+
+                    <div class="about-timeline-content">
+
+                        <span class="about-timeline-year">
+                            ASIAL
+                        </span>
+
+                        <span class="about-timeline-label">
+                            PLATINUM MEMBERSHIP
+                        </span>
+
+                        <p>
+                            Advent Security became a Platinum Level member of
+                            the Australian Security Industry Association Limited,
+                            reinforcing its commitment to professional security
+                            standards.
+                        </p>
+
+                    </div>
+
+                    <div class="about-timeline-dot"></div>
+
+                </article>
+
+
+                <!-- 2024 ISO -->
+
+                <article class="about-timeline-item">
+
+                    <div class="about-timeline-content">
+
+                        <span class="about-timeline-year">
+                            2024
+                        </span>
+
+                        <span class="about-timeline-label">
+                            ISO 27001:2022
+                        </span>
+
+                        <p>
+                            Advent announced official certification to ISO 27001:2022
+                            by Compass Assurance Services, covering its service delivery
+                            across Australia and New Zealand.
+                        </p>
+
+                        <div class="about-timeline-image">
+                            <img
+                                src="<?php echo esc_url(
+                                            get_template_directory_uri() .
+                                                '/assets/images/about-us/journey-img-1.png'
+                                        ); ?>"
+                                alt="Advent Security ISO 27001:2022 certification">
+                        </div>
+
+                    </div>
+
+                    <div class="about-timeline-dot"></div>
+
+                </article>
+
+
+                <!-- 2024 Recognition -->
+
+                <article class="about-timeline-item">
+
+                    <div class="about-timeline-content">
+
+                        <span class="about-timeline-year">
+                            2024
+                        </span>
+
+                        <span class="about-timeline-label">
+                            CUSTOMER RECOGNITION
+                        </span>
+
+                        <p>
+                            Advent Security Services scored 90.16% in the 2024
+                            Australian Achiever Awards for Australia’s Security Industry –
+                            Guard &amp; Patrol Services.
+                        </p>
+
+                        <div class="about-timeline-image">
+                            <img
+                                src="<?php echo esc_url(
+                                            get_template_directory_uri() .
+                                                '/assets/images/about-us/journey-img-2.jpg'
+                                        ); ?>"
+                                alt="Advent Security Australian Achiever Award 2024">
+                        </div>
+
+                    </div>
+
+                    <div class="about-timeline-dot"></div>
+
+                </article>
+
+
+                <!-- 2025 -->
+
+                <article class="about-timeline-item">
+
+                    <div class="about-timeline-content">
+
+                        <span class="about-timeline-year">
+                            2025
+                        </span>
+
+                        <span class="about-timeline-label">
+                            NATIONAL RECOGNITION
+                        </span>
+
+                        <p>
+                            Advent achieved 90.94% in the 2025 Australian Achiever
+                            Awards and received Highly Recommended status in the
+                            Guard &amp; Patrol Services category.
+                        </p>
+
+                        <div class="about-timeline-image">
+                            <img
+                                src="<?php echo esc_url(
+                                            get_template_directory_uri() .
+                                                '/assets/images/about-us/journey-img-3.png'
+                                        ); ?>"
+                                alt="Advent Security Australian Achiever Award 2025">
+                        </div>
+
+                    </div>
+
+                    <div class="about-timeline-dot"></div>
+
+                </article>
+
+
+                <!-- TODAY -->
+
+                <article class="about-timeline-item">
+
+                    <div class="about-timeline-content">
+
+                        <span class="about-timeline-year">
+                            TODAY
+                        </span>
+
+                        <span class="about-timeline-label">
+                            A STRONGER, SAFER AUSTRALIA
+                        </span>
+
+                        <p>
+                            Advent continues as an Australian-owned security business with integrated guard services, electronics, CCTV, access control, alarm monitoring and consulting capabilities across Australia and New Zealand.
+                        </p>
+
+                    </div>
+
+                    <div class="about-timeline-dot"></div>
+
+                </article>
 
             </div>
 
@@ -190,8 +509,10 @@ get_header();
                 <span>KEY AREAS OF EXPERTISE</span>
             </div>
 
+
             <div class="about-expertise-grid">
 
+                <!-- IMAGE -->
                 <div class="about-expertise-image">
 
                     <img
@@ -204,6 +525,7 @@ get_header();
                 </div>
 
 
+                <!-- CONTENT -->
                 <div class="about-expertise-content">
 
                     <span class="eyebrow">
@@ -215,106 +537,89 @@ get_header();
                         <span>across every industry.</span>
                     </h2>
 
-                    <!-- <div class="about-stat-grid">
 
-                        <div class="about-stat">
-                            <strong>1,000<span>+</span></strong>
-                            <span>Security Professionals</span>
+                    <!-- =================================================
+                     INDUSTRIES WE SUPPORT
+                    ================================================== -->
+
+                    <div class="about-industries">
+
+                        <div class="about-industries-heading">
+
+                            <!-- <span class="eyebrow">
+                                INDUSTRIES WE SUPPORT
+                            </span> -->
+
+                            <p>
+                                Security solutions shaped around the
+                                environments, people and operational demands
+                                of our clients.
+                            </p>
+
                         </div>
 
-                        <div class="about-stat">
-                            <strong>500<span>+</span></strong>
-                            <span>Sites Protected</span>
-                        </div>
 
-                        <div class="about-stat">
-                            <strong>500<span>+</span></strong>
-                            <span>Sites Supported</span>
-                        </div>
+                        <div class="about-industry-links">
 
-                        <div class="about-stat">
-                            <strong>3<span>+</span></strong>
-                            <span>Decades of Experience</span>
-                        </div>
+                            <a href="<?php echo esc_url(
+                                            home_url('/industries/logistics/')
+                                        ); ?>">
+                                <span>LOGISTICS</span>
+                                <span aria-hidden="true">↗</span>
+                            </a>
 
-                    </div> -->
+                            <a href="<?php echo esc_url(
+                                            home_url('/industries/corporate/')
+                                        ); ?>">
+                                <span>CORPORATE</span>
+                                <span aria-hidden="true">↗</span>
+                            </a>
 
-                    <div class="about-trust-strip" aria-label="Advent Security credentials">
+                            <a href="<?php echo esc_url(
+                                            home_url('/industries/healthcare/')
+                                        ); ?>">
+                                <span>HEALTHCARE</span>
+                                <span aria-hidden="true">↗</span>
+                            </a>
 
-                        <div class="about-trust-item">
-                            <strong>36+ YEARS</strong>
-                            <span>Established experience</span>
-                        </div>
+                            <a href="<?php echo esc_url(
+                                            home_url('/industries/government/')
+                                        ); ?>">
+                                <span>GOVERNMENT</span>
+                                <span aria-hidden="true">↗</span>
+                            </a>
 
-                        <div class="about-trust-item">
-                            <strong>AUSTRALIAN-OWNED</strong>
-                            <span>Family business</span>
-                        </div>
+                            <a href="<?php echo esc_url(
+                                            home_url('/industries/retail/')
+                                        ); ?>">
+                                <span>RETAIL</span>
+                                <span aria-hidden="true">↗</span>
+                            </a>
 
-                        <div class="about-trust-item">
-                            <strong>ASIAL</strong>
-                            <span>Platinum Level member</span>
-                        </div>
+                            <a href="<?php echo esc_url(
+                                            home_url('/industries/construction/')
+                                        ); ?>">
+                                <span>CONSTRUCTION</span>
+                                <span aria-hidden="true">↗</span>
+                            </a>
 
-                        <div class="about-trust-item">
-                            <strong>ISO 27001:2022</strong>
-                            <span>Information security</span>
+                            <a href="<?php echo esc_url(
+                                            home_url('/industries/aviation/')
+                                        ); ?>">
+                                <span>AVIATION</span>
+                                <span aria-hidden="true">↗</span>
+                            </a>
+
+                            <a href="<?php echo esc_url(
+                                            home_url('/industries/maritime/')
+                                        ); ?>">
+                                <span>MARITIME</span>
+                                <span aria-hidden="true">↗</span>
+                            </a>
+
                         </div>
 
                     </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- =================================================
-                 INDUSTRIES
-            ================================================== -->
-
-            <div class="about-industries">
-
-                <div class="about-industries-heading">
-                    <span class="eyebrow">INDUSTRIES WE SUPPORT</span>
-                    <p>
-                        Security solutions shaped around the environments,
-                        people and operational demands of our clients.
-                    </p>
-                </div>
-
-                <div class="about-industry-links">
-
-                    <a href="<?php echo esc_url(home_url('/industries/logistics/')); ?>">
-                        LOGISTICS <span aria-hidden="true">↗</span>
-                    </a>
-
-                    <a href="<?php echo esc_url(home_url('/industries/corporate/')); ?>">
-                        CORPORATE <span aria-hidden="true">↗</span>
-                    </a>
-
-                    <a href="<?php echo esc_url(home_url('/industries/healthcare/')); ?>">
-                        HEALTHCARE <span aria-hidden="true">↗</span>
-                    </a>
-
-                    <a href="<?php echo esc_url(home_url('/industries/government/')); ?>">
-                        GOVERNMENT <span aria-hidden="true">↗</span>
-                    </a>
-
-                    <a href="<?php echo esc_url(home_url('/industries/retail/')); ?>">
-                        RETAIL <span aria-hidden="true">↗</span>
-                    </a>
-
-                    <a href="<?php echo esc_url(home_url('/industries/construction/')); ?>">
-                        CONSTRUCTION <span aria-hidden="true">↗</span>
-                    </a>
-
-                    <a href="<?php echo esc_url(home_url('/industries/aviation/')); ?>">
-                        AVIATION <span aria-hidden="true">↗</span>
-                    </a>
-
-                    <a href="<?php echo esc_url(home_url('/industries/maritime/')); ?>">
-                        MARITIME <span aria-hidden="true">↗</span>
-                    </a>
 
                 </div>
 
@@ -333,9 +638,9 @@ get_header();
 
         <div class="container">
 
-            <div class="about-section-marker">
+            <!-- <div class="about-section-marker">
                 <span>ONE INTEGRATED PARTNER</span>
-            </div>
+            </div> -->
 
             <div class="about-capability-grid">
 

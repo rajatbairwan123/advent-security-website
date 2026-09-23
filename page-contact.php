@@ -46,6 +46,33 @@ get_header();
                                 environment.
                             </p>
 
+
+                            <!-- Contact Proof Strip -->
+
+                            <div class="contact-proof-grid">
+
+                                <div class="contact-proof-item">
+                                    <strong>36+ YEARS</strong>
+                                    <span>Established experience</span>
+                                </div>
+
+                                <div class="contact-proof-item">
+                                    <strong>AUSTRALIAN-OWNED</strong>
+                                    <span>Family business</span>
+                                </div>
+
+                                <div class="contact-proof-item">
+                                    <strong>ASIAL</strong>
+                                    <span>Platinum Level member</span>
+                                </div>
+
+                                <div class="contact-proof-item">
+                                    <strong>ISO 27001:2022</strong>
+                                    <span>Information security</span>
+                                </div>
+
+                            </div>
+
                         </div>
 
                     </div>
@@ -817,30 +844,6 @@ get_header();
                         </span>
 
                     </a>
-
-                    <div class="contact-proof-grid">
-
-                        <div class="contact-proof-item">
-                            <strong>36+ YEARS</strong>
-                            <span>Established experience</span>
-                        </div>
-
-                        <div class="contact-proof-item">
-                            <strong>AUSTRALIAN-OWNED</strong>
-                            <span>Family business</span>
-                        </div>
-
-                        <div class="contact-proof-item">
-                            <strong>ASIAL</strong>
-                            <span>Platinum Level member</span>
-                        </div>
-
-                        <div class="contact-proof-item">
-                            <strong>ISO 27001:2022</strong>
-                            <span>Information security</span>
-                        </div>
-
-                    </div>
 
                 </div>
 
