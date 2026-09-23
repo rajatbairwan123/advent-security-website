@@ -15,15 +15,13 @@ get_header();
          HERO
     ====================================================== -->
 
-    <section class="content-section manufacturing-hero">
+    <section class="security-hero industry-hero manufacturing-hero">
 
-        <div class="container">
+        <!-- LEFT CONTENT -->
+        <div class="security-hero-content">
+            <div class="container">
 
-            <div class="manufacturing-hero-grid">
-
-                <!-- CONTENT -->
-
-                <div class="manufacturing-hero-content">
+                <div class="security-hero-copy">
 
                     <span class="eyebrow">
                         INDUSTRIES → MANUFACTURING
@@ -69,44 +67,35 @@ get_header();
 
                     </div>
 
-                    <div class="manufacturing-hero-actions">
-
+                    <div class="security-hero-actions">
                         <a
                             href="<?php echo esc_url(home_url('/contact/')); ?>"
                             class="advent-btn advent-btn-primary">
                             Request a Manufacturing Security Assessment
                         </a>
-
-                        <a
-                            href="tel:1800464166"
-                            class="manufacturing-phone-link">
-                            Talk to Advent Security
-                            <span aria-hidden="true">→</span>
-                        </a>
-
                     </div>
 
                 </div>
 
+            </div>
+        </div>
 
-                <!-- IMAGE -->
 
-                <div class="manufacturing-hero-media">
+        <!-- RIGHT IMAGE -->
+        <div class="manufacturing-hero-media security-hero-media">
 
-                    <img
-                        src="<?php echo esc_url(
-                                    get_template_directory_uri() .
-                                        '/assets/images/manufacturing/manufacturing-hero.webp'
-                                ); ?>"
-                        alt="Australian manufacturing facility with production, warehouse and vehicle access areas"
-                        loading="eager">
+            <img
+                src="<?php echo esc_url(
+                            get_template_directory_uri() .
+                                '/assets/images/manufacturing/manufacturing-hero.webp'
+                        ); ?>"
+                alt="Australian manufacturing facility with production, warehouse and vehicle access areas"
+                loading="eager">
 
-                    <div class="manufacturing-hero-caption">
-                        <span>SECURITY BUILT AROUND OPERATIONS</span>
-                    </div>
+            <div class="manufacturing-hero-overlay"></div>
 
-                </div>
-
+            <div class="manufacturing-hero-caption">
+                <span>SECURITY BUILT AROUND OPERATIONS</span>
             </div>
 
         </div>
@@ -1632,147 +1621,43 @@ get_header();
          FINAL CTA
     ====================================================== -->
 
-    <section class="content-section manufacturing-final-cta">
+    <div class="industry-cta-band">
 
-        <div class="container">
+        <div class="container cta-inner">
 
-            <div class="manufacturing-final-cta-inner">
+            <div>
 
-                <div>
-
-                    <span class="eyebrow">
-                        REQUEST A MANUFACTURING SECURITY ASSESSMENT
-                    </span>
-
-                    <h2>
-                        Security should fit your manufacturing operation —
-                        <span>not force your operation to fit the security system.</span>
-                    </h2>
-
-                    <p>
-                        Tell Advent about your site, operating pattern and
-                        security requirements. The first step is a
-                        manufacturing security assessment focused on the
-                        areas, movements, assets and controls that matter
-                        to your operation.
-                    </p>
-
+                <div class="eyebrow">
+                    SECURITY ASSESSMENT
                 </div>
-
-
-                <div class="manufacturing-final-cta-actions">
-
-                    <a
-                        href="<?php echo esc_url(home_url('/contact/')); ?>"
-                        class="advent-btn advent-btn-primary">
-                        Request an Assessment
-                    </a>
-
-                    <a
-                        href="tel:1800464166"
-                        class="manufacturing-phone-link">
-                        1800 464 166
-                        <span aria-hidden="true">→</span>
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-
-    <!-- =====================================================
-         RELATED INDUSTRIES
-    ====================================================== -->
-
-    <section class="content-section manufacturing-related">
-
-        <div class="container">
-
-            <div class="manufacturing-section-heading">
-
-                <span class="eyebrow">
-                    RELATED INDUSTRIES
-                </span>
 
                 <h2>
-                    Security for other
-                    <span>operating environments.</span>
+                    Need help determining what your site actually
+                    requires?
                 </h2>
+
+                <p>
+                    Talk to an Advent security specialist about your
+                    operating environment, current controls and
+                    priorities.
+                </p>
 
             </div>
 
-
-            <div class="manufacturing-related-grid">
-
-                <a
-                    href="<?php echo esc_url(
-                                home_url('/industries/logistics-warehousing/')
-                            ); ?>"
-                    class="manufacturing-related-card">
-
-                    <span>
-                        Logistics &amp; Warehousing
-                    </span>
-
-                    <span aria-hidden="true">→</span>
-
-                </a>
-
+            <div class="industry-cta-buttons">
 
                 <a
-                    href="<?php echo esc_url(
-                                home_url('/industries/construction/')
-                            ); ?>"
-                    class="manufacturing-related-card">
-
-                    <span>
-                        Construction
-                    </span>
-
+                    class="advent-btn-dark"
+                    href="<?php echo esc_url(home_url('/contact/')); ?>">
+                    ASSESS MY SECURITY REQUIREMENTS
                     <span aria-hidden="true">→</span>
-
-                </a>
-
-
-                <a
-                    href="<?php echo esc_url(
-                                home_url('/industries/ports-maritime/')
-                            ); ?>"
-                    class="manufacturing-related-card">
-
-                    <span>
-                        Ports &amp; Maritime
-                    </span>
-
-                    <span aria-hidden="true">→</span>
-
-                </a>
-
-
-                <a
-                    href="<?php echo esc_url(
-                                home_url('/industries/critical-infrastructure/')
-                            ); ?>"
-                    class="manufacturing-related-card">
-
-                    <span>
-                        Critical Infrastructure
-                    </span>
-
-                    <span aria-hidden="true">→</span>
-
                 </a>
 
             </div>
 
         </div>
 
-    </section>
+    </div>
 
 
 </main>
