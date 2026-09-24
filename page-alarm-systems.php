@@ -369,13 +369,13 @@ get_header(); ?>
                         questions
                     </h2>
                 </div>
-                <a
+                <!-- <a
                     href="/faqs/"
                     style="
                                 color: var(--color-primary);
                                 font-size: 12px;
                                 font-weight: 800;
-                            ">View all FAQs</a>
+                            ">View all FAQs</a> -->
             </div>
             <div class="faq-list">
                 <details>

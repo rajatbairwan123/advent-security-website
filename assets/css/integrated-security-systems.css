@@ -13,15 +13,15 @@
     color: var(--color-text);
 }
 
-.integrated-security-page p {
-    color: var(--color-text-muted);
+.theme-dark .integrated-security-page p {
+    color: var(--color-dark);
 }
 
-.integrated-security-page h1,
+/* .integrated-security-page h1,
 .integrated-security-page h2,
 .integrated-security-page h3 {
     color: var(--color-text);
-}
+} */
 
 /* =========================================================
    HERO
@@ -319,7 +319,7 @@
 }
 
 .integrated-eco a:hover {
-    color: var(--color-primary);
+    color: var(--color-black);
 }
 
 /* =========================================================

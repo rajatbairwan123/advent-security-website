@@ -109,7 +109,7 @@
     padding: 18px 20px;
 
     background: var(--color-primary);
-    color: var(--color-dark);
+    color: var(--color-black);
 }
 
 .loss-hero-tag strong {
@@ -338,12 +338,12 @@
 .loss-risk-card:hover .loss-card-number,
 .loss-risk-card:hover h3,
 .loss-risk-card:hover p {
-    color: var(--color-dark);
+    color: var(--color-black);
 }
 
 .loss-risk-card:hover .loss-risk-icon {
-    border-color: var(--color-dark);
-    color: var(--color-dark);
+    border-color: var(--color-black);
+    color: var(--color-black);
 }
 
 /* =========================================================
@@ -588,14 +588,14 @@
 
 .loss-approach-card:hover .loss-approach-icon {
     border-color: rgba(0, 0, 0, 0.2);
-    color: var(--color-dark);
+    color: var(--color-black);
 }
 
 /* Content */
 
 .loss-approach-card:hover h3,
 .loss-approach-card:hover p {
-    color: var(--color-dark);
+    color: var(--color-black);
 }
 
 /* =========================================================
@@ -1429,11 +1429,11 @@
 .loss-technology-card:hover h3,
 .loss-technology-card:hover p,
 .loss-technology-card:hover .loss-technology-icon {
-    color: var(--color-dark);
+    color: var(--color-black);
 }
 
 .loss-technology-card:hover .loss-technology-icon {
-    border-color: var(--color-dark);
+    border-color: var(--color-black);
 }
 
 .loss-faq-intro {

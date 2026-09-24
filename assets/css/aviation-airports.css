@@ -1113,7 +1113,7 @@
    DARK THEME
 ========================================================= */
 
-.theme-dark .aviation-hero,
+/* .theme-dark .aviation-hero,
 .theme-dark .aviation-challenge,
 .theme-dark .aviation-solutions,
 .theme-dark .aviation-workflow,
@@ -1125,18 +1125,18 @@
 .theme-dark .aviation-asic,
 .theme-dark .aviation-why-advent {
     background: var(--color-surface);
-}
+} */
 
-.theme-dark .aviation-challenge-card,
+/* .theme-dark .aviation-challenge-card,
 .theme-dark .aviation-facility-card,
 .theme-dark .aviation-solution-card,
 .theme-dark .aviation-asic-panel {
     background: var(--color-surface-cards);
-}
+} */
 
-.theme-dark .aviation-solution-featured {
+/* .theme-dark .aviation-solution-featured {
     background: var(--color-surface);
-}
+} */
 
 /* =========================================================
    LARGE TABLET

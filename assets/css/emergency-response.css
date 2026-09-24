@@ -332,7 +332,7 @@
 
 .emergency-situation-card:hover .emergency-situation-icon {
     border-color: var(--color-border);
-    color: var(--color-dark);
+    color: var(--color-black);
 }
 
 /* Situation Content */
@@ -363,7 +363,7 @@
 
 .emergency-situation-card:hover h3,
 .emergency-situation-card:hover p {
-    color: var(--color-dark);
+    color: var(--color-black);
 }
 
 /* =========================================================
@@ -587,8 +587,8 @@
 }
 
 .emergency-process-card:hover .emergency-process-icon {
-    border-color: var(--color-border);
-    color: var(--color-dark);
+    /* border-color: var(--color-border); */
+    color: var(--color-black);
 }
 
 /* Process Text */
@@ -633,7 +633,7 @@
 .emergency-process-card:hover > div:last-child > span,
 .emergency-process-card:hover h3,
 .emergency-process-card:hover p {
-    color: var(--color-dark);
+    color: var(--color-black);
 }
 
 /* =========================================================
@@ -642,8 +642,8 @@
 
 .emergency-preparedness {
     padding: 115px 0;
-    background: var(--color-dark);
-    border-bottom-color: var(--color-dark);
+    /* background: var(--color-black); */
+    border-bottom-color: var(--color-black);
 }
 
 .emergency-preparedness-inner {

@@ -240,7 +240,11 @@
 }
 
 .retail-service-grid .service-card:hover p {
-    color: var(--color-text);
+    color: var(--color-black);
+}
+
+.retail-service-grid .service-card:hover h3 {
+    color: var(--color-black);
 }
 
 /* =========================================================
@@ -405,7 +409,10 @@
 }
 
 .retail-process .service-card:hover p {
-    color: var(--color-text);
+    color: var(--color-black);
+}
+.retail-process .service-card:hover h3 {
+    color: var(--color-black);
 }
 
 /* =========================================================

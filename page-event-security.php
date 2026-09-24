@@ -1009,10 +1009,6 @@ get_header();
 
                 </div>
 
-                <a href="<?php echo esc_url(home_url('/contact/')); ?>">
-                    Talk to Advent →
-                </a>
-
             </div>
 
 

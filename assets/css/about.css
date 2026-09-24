@@ -862,9 +862,9 @@
     background: var(--color-surface-alt);
 }
 
-.theme-dark .about-capability-links a {
+/* .theme-dark .about-capability-links a {
     background: var(--color-bg);
-}
+} */
 
 /* =========================================================
    TABLET

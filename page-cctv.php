@@ -399,13 +399,7 @@ get_header(); ?>
                     <div class="eyebrow">FAQs</div>
                     <h2>CCTV systems — frequently asked questions</h2>
                 </div>
-                <a
-                    href="/faqs/"
-                    style="
-                                color: var(--gold);
-                                font-size: 12px;
-                                font-weight: 800;
-                            ">View all FAQs</a>
+
             </div>
             <div class="faq-list">
                 <details>

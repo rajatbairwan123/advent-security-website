@@ -1069,6 +1069,7 @@
 .ai-industry-list strong {
     font-size: 17px;
     font-weight: 600;
+    color: var(--color-text);
 }
 
 .ai-industry-list span {
@@ -1258,7 +1259,7 @@
 }
 
 .ai-related .related-service-content > span {
-    color: var(--color-text-muted);
+    color: var(--color-text);
 
     font-size: 12px;
     line-height: 1.5;
