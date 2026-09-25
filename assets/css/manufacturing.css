@@ -102,7 +102,7 @@
 
     color: var(--color-text);
 
-    font-size: clamp(3.5rem, 5vw, 5.5rem);
+    font-size: clamp(52px, 5vw, 76px);
     font-weight: 700;
     line-height: 0.94;
 
@@ -211,7 +211,7 @@
     display: block;
 
     object-fit: cover;
-    object-position: center center;
+    object-position: 95% center;
 }
 
 /* =========================================================
@@ -405,67 +405,6 @@
     .manufacturing-hero .manufacturing-hero-media {
         min-height: 320px;
     }
-}
-
-/* =========================================================
-   02. PROOF / TRUST STRIP
-========================================================= */
-
-.manufacturing-proof-strip {
-    padding: 0;
-
-    background: var(--color-bg);
-
-    border-bottom: 1px solid var(--color-border);
-}
-
-.manufacturing-proof-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.manufacturing-proof-item {
-    min-height: 115px;
-
-    padding: 24px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    border-right: 1px solid var(--color-border);
-}
-
-.manufacturing-proof-item:last-child {
-    border-right: 0;
-}
-
-.manufacturing-proof-label {
-    margin-bottom: 7px;
-
-    color: var(--color-primary-dark);
-
-    font-size: 0.68rem;
-    font-weight: 700;
-
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-}
-
-.manufacturing-proof-item strong {
-    margin-bottom: 5px;
-
-    color: var(--color-text);
-
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-.manufacturing-proof-item small {
-    color: var(--color-text-muted);
-
-    font-size: 0.82rem;
-    line-height: 1.5;
 }
 
 /* =========================================================
@@ -713,6 +652,7 @@
     object-fit: cover;
 
     transition: transform 0.5s ease;
+    object-position: 85% center;
 }
 
 .manufacturing-facility-card:hover .manufacturing-facility-image img {
@@ -768,7 +708,7 @@
 
     gap: 9px;
 
-    margin-top: auto;
+    margin-top: 40px;
 
     color: var(--color-text);
 
@@ -1003,13 +943,10 @@
     border-radius: 50%;
 }
 
-.manufacturing-capability-icon span {
-    width: 8px;
-    height: 8px;
-
-    border: 2px solid #111;
-
-    border-radius: 50%;
+.manufacturing-capability-icon i {
+    font-size: 1rem;
+    line-height: 1;
+    color: var(--color-black);
 }
 
 .manufacturing-capability-content h3 {
@@ -1369,10 +1306,10 @@
     background: var(--color-primary);
     color: #000000;
 }
-
+/* 
 .manufacturing-page .industry-cta-band .cta-inner {
     align-items: center;
-}
+} */
 
 .manufacturing-page .industry-cta-band .eyebrow {
     margin-bottom: 8px;
@@ -1423,7 +1360,7 @@
    16. DARK THEME
 ========================================================= */
 
-.theme-dark .manufacturing-proof-item,
+/* .theme-dark .manufacturing-proof-item,
 .theme-dark .manufacturing-situation-card,
 .theme-dark .manufacturing-facility-card,
 .theme-dark .manufacturing-capability-card,
@@ -1438,7 +1375,7 @@
 .theme-dark .manufacturing-pathways,
 .theme-dark .manufacturing-faq {
     background: var(--color-surface);
-}
+} */
 
 /* =========================================================
    17. LARGE TABLET
@@ -1497,20 +1434,6 @@
         max-width: 760px;
 
         font-size: clamp(3rem, 8vw, 5rem);
-    }
-
-    /* PROOF */
-
-    .manufacturing-proof-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .manufacturing-proof-item:nth-child(2) {
-        border-right: 0;
-    }
-
-    .manufacturing-proof-item:nth-child(-n + 2) {
-        border-bottom: 1px solid var(--color-border);
     }
 
     /* DEFINITION */
@@ -1634,23 +1557,6 @@
 
     .manufacturing-hero-media {
         min-height: 380px;
-    }
-
-    /* PROOF */
-
-    .manufacturing-proof-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .manufacturing-proof-item {
-        min-height: 90px;
-
-        border-right: 0;
-        border-bottom: 1px solid var(--color-border);
-    }
-
-    .manufacturing-proof-item:last-child {
-        border-bottom: 0;
     }
 
     /* GENERAL SECTION SPACING */

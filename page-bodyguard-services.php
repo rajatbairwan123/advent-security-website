@@ -34,12 +34,9 @@ get_header();
                         <a href="<?php echo esc_url(home_url('/contact/')); ?>"
                             class="advent-btn advent-btn-primary">
                             Request a Confidential Consultation
+                            <b class="btn-arrow">→</b>
                         </a>
 
-                        <a href="#bodyguard-protection"
-                            class="advent-btn advent-btn-outline">
-                            Explore Protection Services
-                        </a>
                     </div>
                 </div>
 
@@ -62,7 +59,7 @@ get_header();
      PROOF / CREDIBILITY STRIP
     ========================================================= -->
     <section class="integrated-proof">
-        <div class="container-fluid integrated-proof-grid">
+        <div class="container integrated-proof-grid">
 
             <div class="integrated-proof-item">
                 <span class="integrated-proof-label">

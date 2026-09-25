@@ -336,21 +336,21 @@ get_header(); ?>
                 <div class="arch-links">
                     <a
                         class="arch-link"
-                        href="/advent-electronics/cctv-systems/">CCTV Systems</a><a
+                        href="/electronic-security/cctv-systems/">CCTV Systems</a><a
                         class="arch-link"
-                        href="/advent-electronics/video-analytics/">Video Analytics</a><a
+                        href="/electronic-security/video-analytics/">Video Analytics</a><a
                         class="arch-link"
-                        href="/advent-electronics/access-control/">Access Control</a><a
+                        href="/electronic-security/access-control/">Access Control</a><a
                         class="arch-link"
-                        href="/advent-electronics/alarm-systems/">Alarm Systems</a><a
+                        href="/electronic-security/alarm-systems/">Alarm Systems</a><a
                         class="arch-link"
-                        href="/advent-electronics/license-plate-recognition/">LPR / ANPR</a><a
+                        href="/electronic-security/license-plate-recognition/">LPR / ANPR</a><a
                         class="arch-link"
-                        href="/advent-electronics/boom-gates/">Boom Gates</a><a
+                        href="/electronic-security/boom-gates/">Boom Gates</a><a
                         class="arch-link"
-                        href="/advent-electronics/visitor-management/">Visitor Management</a><a
+                        href="/electronic-security/visitor-management/">Visitor Management</a><a
                         class="arch-link"
-                        href="/advent-electronics/integrated-security-solutions/">Integrated Security</a>
+                        href="/electronic-security/integrated-security-solutions/">Integrated Security</a>
                 </div>
             </div>
             <img

@@ -80,7 +80,7 @@ get_header();
          2. TRUST STRIP
     ====================================================== -->
     <section class="integrated-proof">
-        <div class="container-fluid integrated-proof-grid">
+        <div class="container integrated-proof-grid">
 
             <div class="integrated-proof-item">
                 <span class="integrated-proof-label">36+ YEARS</span>
@@ -354,7 +354,7 @@ get_header();
                     </div>
 
                     <a
-                        href="<?php echo esc_url(home_url('/advent-electronics/anpr/')); ?>"
+                        href="<?php echo esc_url(home_url('/electronic-security/anpr/')); ?>"
                         class="aviation-facility-link">
                         Explore ANPR &amp; Vehicle Access
                         <span aria-hidden="true">→</span>
@@ -472,7 +472,7 @@ get_header();
                     </div>
 
                     <a
-                        href="<?php echo esc_url(home_url('/advent-electronics/access-control/')); ?>"
+                        href="<?php echo esc_url(home_url('/electronic-security/access-control/')); ?>"
                         class="aviation-solution-link">
                         Explore Access Control
                         <span aria-hidden="true">→</span>
@@ -500,7 +500,7 @@ get_header();
                     </div>
 
                     <a
-                        href="<?php echo esc_url(home_url('/advent-electronics/cctv-systems/')); ?>"
+                        href="<?php echo esc_url(home_url('/electronic-security/cctv-systems/')); ?>"
                         class="aviation-solution-link">
                         Explore CCTV Systems
                         <span aria-hidden="true">→</span>
@@ -528,7 +528,7 @@ get_header();
                     </div>
 
                     <a
-                        href="<?php echo esc_url(home_url('/advent-electronics/anpr/')); ?>"
+                        href="<?php echo esc_url(home_url('/electronic-security/anpr/')); ?>"
                         class="aviation-solution-link">
                         Explore ANPR &amp; Vehicle Access
                         <span aria-hidden="true">→</span>
@@ -583,7 +583,7 @@ get_header();
                     </div>
 
                     <a
-                        href="<?php echo esc_url(home_url('/advent-electronics/visitor-management/')); ?>"
+                        href="<?php echo esc_url(home_url('/electronic-security/visitor-management/')); ?>"
                         class="aviation-solution-link">
                         Explore Visitor Management
                         <span aria-hidden="true">→</span>

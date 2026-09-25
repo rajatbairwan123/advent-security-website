@@ -47,12 +47,6 @@ get_header();
                                     <b class="arrow">→</b>
                                 </a>
 
-                                <a
-                                    href="<?php echo esc_url(home_url('/contact/')); ?>"
-                                    class="advent-btn">
-                                    CONTACT ADVENT SECURITY
-                                    <b class="arrow">→</b>
-                                </a>
                             </div>
 
                         </div>

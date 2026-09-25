@@ -72,6 +72,7 @@ get_header();
                             href="<?php echo esc_url(home_url('/contact/')); ?>"
                             class="advent-btn advent-btn-primary">
                             Request a Manufacturing Security Assessment
+                            <b class="btn-arrow">→</b>
                         </a>
                     </div>
 
@@ -87,7 +88,7 @@ get_header();
             <img
                 src="<?php echo esc_url(
                             get_template_directory_uri() .
-                                '/assets/images/manufacturing/manufacturing-hero.webp'
+                                '/assets/images/manufacturing/manufacturing-3.webp'
                         ); ?>"
                 alt="Australian manufacturing facility with production, warehouse and vehicle access areas"
                 loading="eager">
@@ -108,83 +109,30 @@ get_header();
          PROOF STRIP
     ====================================================== -->
 
-    <section class="content-section manufacturing-proof-strip">
+    <section class="integrated-proof">
+        <div class="container integrated-proof-grid">
 
-        <div class="container">
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">36+ YEARS</span>
+                <strong>Established experience</strong>
+            </div>
 
-            <div class="manufacturing-proof-grid">
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">AUSTRALIAN-OWNED</span>
+                <strong>Family business</strong>
+            </div>
 
-                <div class="manufacturing-proof-item">
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">ASIAL</span>
+                <strong>Platinum Level member</strong>
+            </div>
 
-                    <span class="manufacturing-proof-label">
-                        AUSTRALIAN-OWNED
-                    </span>
-
-                    <strong>
-                        Security solutions
-                    </strong>
-
-                    <small>
-                        Designed around local operating environments
-                    </small>
-
-                </div>
-
-
-                <div class="manufacturing-proof-item">
-
-                    <span class="manufacturing-proof-label">
-                        ESTABLISHED EXPERIENCE
-                    </span>
-
-                    <strong>
-                        Security capability
-                    </strong>
-
-                    <small>
-                        Integrated physical and electronic security
-                    </small>
-
-                </div>
-
-
-                <div class="manufacturing-proof-item">
-
-                    <span class="manufacturing-proof-label">
-                        INTEGRATED APPROACH
-                    </span>
-
-                    <strong>
-                        People + technology
-                    </strong>
-
-                    <small>
-                        Connected around your site's requirements
-                    </small>
-
-                </div>
-
-
-                <div class="manufacturing-proof-item">
-
-                    <span class="manufacturing-proof-label">
-                        AUSTRALIA-WIDE
-                    </span>
-
-                    <strong>
-                        Local capability
-                    </strong>
-
-                    <small>
-                        Supporting manufacturing environments across Australia
-                    </small>
-
-                </div>
-
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">ISO 27001:2022</span>
+                <strong>Information security</strong>
             </div>
 
         </div>
-
     </section>
 
 
@@ -275,7 +223,7 @@ get_header();
                 <article class="manufacturing-situation-card">
 
                     <div class="manufacturing-card-number">
-                        01
+
                     </div>
 
                     <h3>
@@ -300,7 +248,7 @@ get_header();
                 <article class="manufacturing-situation-card">
 
                     <div class="manufacturing-card-number">
-                        02
+
                     </div>
 
                     <h3>
@@ -324,7 +272,7 @@ get_header();
                 <article class="manufacturing-situation-card">
 
                     <div class="manufacturing-card-number">
-                        03
+
                     </div>
 
                     <h3>
@@ -348,11 +296,11 @@ get_header();
                 <article class="manufacturing-situation-card">
 
                     <div class="manufacturing-card-number">
-                        04
+
                     </div>
 
                     <h3>
-                        Large perimeter &amp; yard
+                        Large Perimeters &amp; Yards
                     </h3>
 
                     <p>
@@ -372,7 +320,7 @@ get_header();
                 <article class="manufacturing-situation-card">
 
                     <div class="manufacturing-card-number">
-                        05
+
                     </div>
 
                     <h3>
@@ -397,7 +345,7 @@ get_header();
                 <article class="manufacturing-situation-card">
 
                     <div class="manufacturing-card-number">
-                        06
+
                     </div>
 
                     <h3>
@@ -459,7 +407,7 @@ get_header();
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/manufacturing/manufacturing-plant.webp'
+                                            '/assets/images/manufacturing/manufacturing-2.webp'
                                     ); ?>"
                             alt="Manufacturing plant production environment"
                             loading="lazy">
@@ -467,9 +415,9 @@ get_header();
 
                     <div class="manufacturing-facility-content">
 
-                        <span class="eyebrow">
+                        <!-- <span class="eyebrow">
                             01
-                        </span>
+                        </span> -->
 
                         <h3>
                             Manufacturing Plant
@@ -488,7 +436,7 @@ get_header();
                         <a
                             href="<?php echo esc_url(home_url('/contact/')); ?>"
                             class="manufacturing-inline-link">
-                            Assess my manufacturing site
+                            Discuss This Security Requirement
                             <span aria-hidden="true">→</span>
                         </a>
 
@@ -503,7 +451,7 @@ get_header();
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/manufacturing/manufacturing-workshop.webp'
+                                            '/assets/images/manufacturing/manufacturing-6.webp'
                                     ); ?>"
                             alt="Industrial manufacturing workshop"
                             loading="lazy">
@@ -511,9 +459,9 @@ get_header();
 
                     <div class="manufacturing-facility-content">
 
-                        <span class="eyebrow">
+                        <!-- <span class="eyebrow">
                             02
-                        </span>
+                        </span> -->
 
                         <h3>
                             Factory / Workshop
@@ -531,7 +479,7 @@ get_header();
                         <a
                             href="<?php echo esc_url(home_url('/contact/')); ?>"
                             class="manufacturing-inline-link">
-                            Discuss factory security
+                            Discuss This Security Requirement
                             <span aria-hidden="true">→</span>
                         </a>
 
@@ -546,7 +494,7 @@ get_header();
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/manufacturing/manufacturing-warehouse.webp'
+                                            '/assets/images/manufacturing/manufacturing-5.webp'
                                     ); ?>"
                             alt="Manufacturing warehouse and dispatch area"
                             loading="lazy">
@@ -554,9 +502,9 @@ get_header();
 
                     <div class="manufacturing-facility-content">
 
-                        <span class="eyebrow">
+                        <!-- <span class="eyebrow">
                             03
-                        </span>
+                        </span> -->
 
                         <h3>
                             Warehouse / Finished Goods
@@ -574,7 +522,7 @@ get_header();
                         <a
                             href="<?php echo esc_url(home_url('/contact/')); ?>"
                             class="manufacturing-inline-link">
-                            Explore warehouse security
+                            Discuss This Security Requirement
                             <span aria-hidden="true">→</span>
                         </a>
 
@@ -589,7 +537,7 @@ get_header();
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/manufacturing/manufacturing-yard.webp'
+                                            '/assets/images/manufacturing/manufacturing-8.webp'
                                     ); ?>"
                             alt="Industrial manufacturing yard and perimeter"
                             loading="lazy">
@@ -597,9 +545,9 @@ get_header();
 
                     <div class="manufacturing-facility-content">
 
-                        <span class="eyebrow">
+                        <!-- <span class="eyebrow">
                             04
-                        </span>
+                        </span> -->
 
                         <h3>
                             Industrial Yard / Perimeter
@@ -618,7 +566,7 @@ get_header();
                         <a
                             href="<?php echo esc_url(home_url('/contact/')); ?>"
                             class="manufacturing-inline-link">
-                            Review perimeter security
+                            Discuss This Security Requirement
                             <span aria-hidden="true">→</span>
                         </a>
 
@@ -633,7 +581,7 @@ get_header();
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/manufacturing/manufacturing-multisite.webp'
+                                            '/assets/images/manufacturing/manufacturing-4.webp'
                                     ); ?>"
                             alt="Multiple manufacturing facilities"
                             loading="lazy">
@@ -641,9 +589,9 @@ get_header();
 
                     <div class="manufacturing-facility-content">
 
-                        <span class="eyebrow">
+                        <!-- <span class="eyebrow">
                             05
-                        </span>
+                        </span> -->
 
                         <h3>
                             Multi-Site Manufacturing
@@ -662,7 +610,7 @@ get_header();
                         <a
                             href="<?php echo esc_url(home_url('/contact/')); ?>"
                             class="manufacturing-inline-link">
-                            Discuss multi-site security
+                            Discuss This Security Requirement
                             <span aria-hidden="true">→</span>
                         </a>
 
@@ -719,7 +667,7 @@ get_header();
                     </div>
 
                     <div>
-                        SECURITY RESPONSE TO CONSIDER
+                        CONTROLS TO CONSIDER
                     </div>
 
                 </div>
@@ -890,7 +838,7 @@ get_header();
                 <p>
                     Advent's approach can bring security presence,
                     detection, verification, response and review together
-                    around the operating environment.
+                    around the operating environment and agreed workflow.
                 </p>
 
             </div>
@@ -900,7 +848,7 @@ get_header();
 
                 <article class="manufacturing-architecture-card">
 
-                    <span>01</span>
+                    <span></span>
 
                     <h3>
                         Deter
@@ -919,7 +867,7 @@ get_header();
 
                 <article class="manufacturing-architecture-card">
 
-                    <span>02</span>
+                    <span></span>
 
                     <h3>
                         Detect
@@ -938,7 +886,7 @@ get_header();
 
                 <article class="manufacturing-architecture-card">
 
-                    <span>03</span>
+                    <span></span>
 
                     <h3>
                         Verify
@@ -958,7 +906,7 @@ get_header();
 
                 <article class="manufacturing-architecture-card">
 
-                    <span>04</span>
+                    <span></span>
 
                     <h3>
                         Respond
@@ -977,7 +925,7 @@ get_header();
 
                 <article class="manufacturing-architecture-card">
 
-                    <span>05</span>
+                    <span></span>
 
                     <h3>
                         Record &amp; Review
@@ -1032,66 +980,88 @@ get_header();
             <div class="manufacturing-capability-grid">
 
                 <?php
+
                 $manufacturing_capabilities = [
+
                     [
                         'title' => 'CCTV & Surveillance',
                         'text'  => 'Coverage around entry points, production areas, yards, loading zones, warehouses and other priority locations.',
-                        'url'   => '/advent-electronics/cctv-systems/',
-                        'link'  => 'Explore CCTV Systems'
+                        'url'   => '/electronic-security/cctv-systems/',
+                        'link'  => 'Explore CCTV Systems',
+                        'icon'  => 'bi-camera-video'
                     ],
+
                     [
                         'title' => 'Access Control',
                         'text'  => 'Authorised access for staff, contractors, administration, plant and restricted areas.',
-                        'url'   => '/advent-electronics/access-control/',
-                        'link'  => 'Explore Access Control'
+                        'url'   => '/electronic-security/access-control/',
+                        'link'  => 'Explore Access Control',
+                        'icon'  => 'bi-shield-lock'
                     ],
+
                     [
                         'title' => 'Alarm Systems',
                         'text'  => 'Detection of defined intrusion events and appropriate escalation workflows.',
-                        'url'   => '/advent-electronics/alarm-systems/',
-                        'link'  => 'Explore Alarm Systems'
+                        'url'   => '/electronic-security/alarm-systems/',
+                        'link'  => 'Explore Alarm Systems',
+                        'icon'  => 'bi-bell'
                     ],
+
                     [
                         'title' => 'Alarm Monitoring',
                         'text'  => 'Connect alarm events to the monitoring and response model selected for the site.',
-                        'url'   => '/alarm-monitoring/',
-                        'link'  => 'Explore Alarm Monitoring'
+                        'url'   => '/electronic-security/alarm-monitoring/',
+                        'link'  => 'Explore Alarm Monitoring',
+                        'icon'  => 'bi-display'
                     ],
+
                     [
                         'title' => 'Video Analytics',
                         'text'  => 'Analytics where appropriate to identify defined events or patterns.',
-                        'url'   => '/advent-electronics/video-analytics/',
-                        'link'  => 'Explore Video Analytics'
+                        'url'   => '/electronic-security/video-analytics/',
+                        'link'  => 'Explore Video Analytics',
+                        'icon'  => 'bi-bar-chart-line'
                     ],
+
                     [
                         'title' => 'Visitor Management',
                         'text'  => 'Structured visitor and contractor arrival and access workflows.',
-                        'url'   => '/advent-electronics/visitor-management/',
-                        'link'  => 'Explore Visitor Management'
+                        'url'   => '/electronic-security/visitor-management/',
+                        'link'  => 'Explore Visitor Management',
+                        'icon'  => 'bi-person-check'
                     ],
+
                     [
                         'title' => 'License Plate Recognition',
                         'text'  => 'Vehicle identification and controlled movement where justified by the site use case.',
-                        'url'   => '/advent-electronics/license-plate-recognition/',
-                        'link'  => 'Explore LPR'
+                        'url'   => '/electronic-security/license-plate-recognition/',
+                        'link'  => 'Explore LPR',
+                        'icon'  => 'bi-car-front'
                     ],
+
                     [
                         'title' => 'Boom Gates',
                         'text'  => 'Controlled vehicle entry and exit at appropriate access points.',
-                        'url'   => '/advent-electronics/boom-gates/',
-                        'link'  => 'Explore Boom Gates'
+                        'url'   => '/electronic-security/boom-gates/',
+                        'link'  => 'Explore Boom Gates',
+                        'icon'  => 'bi-sign-stop'
                     ],
+
                 ];
+
                 ?>
+
 
                 <?php foreach ($manufacturing_capabilities as $capability) : ?>
 
                     <article class="manufacturing-capability-card">
 
-                        <div class="manufacturing-capability-icon"
+                        <div
+                            class="manufacturing-capability-icon"
                             aria-hidden="true">
-                            <span></span>
+                            <i class="bi <?php echo esc_attr($capability['icon']); ?>"></i>
                         </div>
+
 
                         <div class="manufacturing-capability-content">
 
@@ -1105,16 +1075,15 @@ get_header();
 
                         </div>
 
+
                         <a
                             href="<?php echo esc_url(
                                         home_url($capability['url'])
                                     ); ?>"
                             class="manufacturing-inline-link">
-
                             <?php echo esc_html($capability['link']); ?>
 
                             <span aria-hidden="true">→</span>
-
                         </a>
 
                     </article>
@@ -1144,7 +1113,7 @@ get_header();
                     <img
                         src="<?php echo esc_url(
                                     get_template_directory_uri() .
-                                        '/assets/images/manufacturing/manufacturing-security-planning.webp'
+                                        '/assets/images/manufacturing/manufacturing-7.webp'
                                 ); ?>"
                         alt="Security and facilities team reviewing manufacturing site security requirements"
                         loading="lazy">
@@ -1171,9 +1140,9 @@ get_header();
 
                     <p>
                         Advent Security can combine professional security
-                        personnel, electronic security and consulting
-                        capabilities to help organisations assess and
-                        strengthen their security requirements.
+                        personnel, electronic security and security consulting
+                        to help organisations assess and strengthen their
+                        security arrangements.
                     </p>
 
                     <div class="manufacturing-integration-points">
@@ -1241,7 +1210,7 @@ get_header();
             <div class="manufacturing-section-heading">
 
                 <span class="eyebrow">
-                    YOUR PROJECT
+                    YOUR SECURITY SITUATION
                 </span>
 
                 <h2>
@@ -1383,9 +1352,9 @@ get_header();
                     </h2>
 
                     <p>
-                        Where a publishable case study is not available,
-                        Advent can focus the conversation around the
-                        assessment itself.
+                        An assessment provides a practical starting point for
+                        understanding your site's security requirements,
+                        existing controls and priority areas.
                     </p>
 
                     <a
@@ -1400,7 +1369,7 @@ get_header();
                 <div class="manufacturing-assessment-list">
 
                     <div>
-                        <span>01</span>
+                        <span></span>
                         <strong>Site zones &amp; movement</strong>
                         <p>
                             Review how people, vehicles and materials move
@@ -1409,7 +1378,7 @@ get_header();
                     </div>
 
                     <div>
-                        <span>02</span>
+                        <span></span>
                         <strong>Existing infrastructure</strong>
                         <p>
                             Review current security systems and controls.
@@ -1417,7 +1386,7 @@ get_header();
                     </div>
 
                     <div>
-                        <span>03</span>
+                        <span></span>
                         <strong>Risk &amp; control gaps</strong>
                         <p>
                             Identify areas requiring additional attention.
@@ -1425,7 +1394,7 @@ get_header();
                     </div>
 
                     <div>
-                        <span>04</span>
+                        <span></span>
                         <strong>Recommended priorities</strong>
                         <p>
                             Establish practical next steps and an
@@ -1609,6 +1578,41 @@ get_header();
 
                 </details>
 
+
+                <details>
+
+                    <summary>
+                        Can manufacturing security support multiple shifts?
+                    </summary>
+
+                    <div>
+                        <p>
+                            Yes. Security arrangements can be planned around
+                            different operating periods, access patterns,
+                            staffing levels and after-hours requirements.
+                        </p>
+                    </div>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Can vehicle access be controlled at manufacturing sites?
+                    </summary>
+
+                    <div>
+                        <p>
+                            Yes. Vehicle access can incorporate controlled
+                            gates, boom gates, LPR, CCTV and access procedures
+                            where appropriate to the site's layout and
+                            operating requirements.
+                        </p>
+                    </div>
+
+                </details>
+
             </div>
 
         </div>
@@ -1649,7 +1653,7 @@ get_header();
                 <a
                     class="advent-btn-dark"
                     href="<?php echo esc_url(home_url('/contact/')); ?>">
-                    ASSESS MY SECURITY REQUIREMENTS
+                    REQUEST A MANUFACTURING SECURITY ASSESSMENT
                     <span aria-hidden="true">→</span>
                 </a>
 

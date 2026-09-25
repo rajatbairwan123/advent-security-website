@@ -42,12 +42,14 @@ get_header();
                     class="advent-btn"
                     href="#contact">
                     Book an Integrated Security Consultation
+                    <b class="btn-arrow">→</b>
                 </a>
 
                 <a
                     class="advent-btn"
                     href="#upgrade">
                     Request a Security Systems Assessment
+                    <b class="btn-arrow">→</b>
                 </a>
 
             </div>
@@ -69,7 +71,7 @@ get_header();
      PROOF / CREDIBILITY STRIP
     ========================================================= -->
     <section class="integrated-proof">
-        <div class="container-fluid integrated-proof-grid">
+        <div class="container integrated-proof-grid">
 
             <div class="integrated-proof-item">
                 <span class="integrated-proof-label">

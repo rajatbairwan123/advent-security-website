@@ -18,6 +18,326 @@ function advent_register_menus()
 
 add_action('after_setup_theme', 'advent_register_menus');
 
+/* =========================================================
+   ADVENT MEGA MENU WALKER
+========================================================= */
+
+class Advent_Mega_Menu_Walker extends Walker_Nav_Menu
+{
+    /**
+     * Store current parent menu title.
+     */
+    private $mega_parent = '';
+
+    /**
+     * Service information.
+     */
+    private function get_service_data($title)
+    {
+        $services = array(
+
+            /* ---------------------------------------------
+               SECURITY SERVICES
+            --------------------------------------------- */
+
+            'Security Guard Services' => array(
+                'icon' => 'bi-shield-check',
+                'description' => 'Professional security personnel for people, property and operations.',
+            ),
+
+            'Corporate Concierge Services' => array(
+                'icon' => 'bi-person-badge',
+                'description' => 'Front-of-house security and concierge support for corporate environments.',
+            ),
+
+            'Security Consulting' => array(
+                'icon' => 'bi-clipboard2-check',
+                'description' => 'Risk-led security advice, assessments and strategic planning.',
+            ),
+
+            'Retail Security' => array(
+                'icon' => 'bi-shop',
+                'description' => 'Security solutions designed to protect retail environments and assets.',
+            ),
+
+            'Construction Security' => array(
+                'icon' => 'bi-buildings',
+                'description' => 'Site security designed for construction projects, equipment and personnel.',
+            ),
+
+            'Event Security' => array(
+                'icon' => 'bi-calendar-event',
+                'description' => 'Security planning and personnel for events, venues and public gatherings.',
+            ),
+
+            'Gatehouse Security' => array(
+                'icon' => 'bi-door-open',
+                'description' => 'Controlled entry, visitor management and site access protection.',
+            ),
+
+            'Loss Prevention' => array(
+                'icon' => 'bi-bag-check',
+                'description' => 'Practical security measures to reduce theft, loss and operational risk.',
+            ),
+
+            'Emergency Response' => array(
+                'icon' => 'bi-exclamation-triangle',
+                'description' => 'Responsive security support for incidents, emergencies and critical situations.',
+            ),
+
+            'AI Surveillance' => array(
+                'icon' => 'bi-camera-video',
+                'description' => 'AI-enabled surveillance designed to improve detection and situational awareness.',
+            ),
+
+            'Drone Security' => array(
+                'icon' => 'bi-airplane',
+                'description' => 'Aerial surveillance capabilities for complex and large-scale environments.',
+            ),
+
+            'Bodyguard Services' => array(
+                'icon' => 'bi-shield-lock',
+                'description' => 'Discreet personal protection for individuals, executives and high-profile environments.',
+            ),
+
+            'Mobile Patrols' => array(
+                'icon' => 'bi-car-front',
+                'description' => 'Visible mobile security patrols for sites, properties and commercial environments.',
+            ),
+
+
+            /* ---------------------------------------------
+               ELECTRONIC SECURITY
+            --------------------------------------------- */
+
+            'Access Control' => array(
+                'icon' => 'bi-person-lock',
+                'description' => 'Manage and control access to buildings, sites and restricted areas.',
+            ),
+
+            'License Plate Recognition' => array(
+                'icon' => 'bi-card-text',
+                'description' => 'Automated vehicle identification and monitoring for controlled environments.',
+            ),
+
+            'CCTV' => array(
+                'icon' => 'bi-camera-video',
+                'description' => 'Reliable video surveillance for visibility, monitoring and incident response.',
+            ),
+
+            'Alarm Systems' => array(
+                'icon' => 'bi-bell',
+                'description' => 'Intrusion and alarm solutions designed to identify security events quickly.',
+            ),
+
+            'Cloud Monitoring' => array(
+                'icon' => 'bi-cloud-check',
+                'description' => 'Cloud-connected monitoring capabilities for security systems and sites.',
+            ),
+
+            'Video Analytics' => array(
+                'icon' => 'bi-graph-up-arrow',
+                'description' => 'Intelligent video analysis to identify activity, events and potential threats.',
+            ),
+
+            'Boom Gates' => array(
+                'icon' => 'bi-sign-stop',
+                'description' => 'Automated vehicle access control for entrances, facilities and secure sites.',
+            ),
+
+            'Integrated Security Systems' => array(
+                'icon' => 'bi-diagram-3',
+                'description' => 'Connected security technologies working together as one integrated system.',
+            ),
+
+            'Visitor Management' => array(
+                'icon' => 'bi-person-vcard',
+                'description' => 'Structured visitor registration, tracking and access management.',
+            ),
+        );
+
+        return isset($services[$title])
+            ? $services[$title]
+            : array(
+                'icon' => 'bi-shield',
+                'description' => 'Security solutions designed around your site, people and operational requirements.',
+            );
+    }
+
+
+    /**
+     * Start submenu.
+     */
+    public function start_lvl(&$output, $depth = 0, $args = null)
+    {
+        if ($depth === 0 && in_array($this->mega_parent, array(
+            'Security Services',
+            'Electronic Security'
+        ), true)) {
+
+            $parent_data = array(
+                'Security Services' => array(
+                    'label' => 'SECURITY SERVICES',
+                    'description' => 'Integrated protection for people, property and operations.'
+                ),
+
+                'Electronic Security' => array(
+                    'label' => 'ELECTRONIC SECURITY',
+                    'description' => 'Technology-led security systems designed around your site and risk profile.'
+                ),
+            );
+
+            $data = $parent_data[$this->mega_parent];
+
+            $output .= '<div class="advent-mega-menu">';
+
+            $output .= '<div class="advent-mega-header">';
+            $output .= '<span class="advent-mega-eyebrow">'
+                . esc_html($data['label'])
+                . '</span>';
+
+            $output .= '<p>'
+                . esc_html($data['description'])
+                . '</p>';
+
+            $output .= '</div>';
+
+            $output .= '<ul class="sub-menu advent-mega-grid">';
+
+            return;
+        }
+
+        $output .= '<ul class="sub-menu">';
+    }
+
+
+    /**
+     * End submenu.
+     */
+    public function end_lvl(&$output, $depth = 0, $args = null)
+    {
+        if ($depth === 0 && in_array($this->mega_parent, array(
+            'Security Services',
+            'Electronic Security'
+        ), true)) {
+
+            $output .= '</ul>';
+            $output .= '</div>';
+
+            return;
+        }
+
+        $output .= '</ul>';
+    }
+
+
+    /**
+     * Start menu item.
+     */
+    public function start_el(
+        &$output,
+        $item,
+        $depth = 0,
+        $args = null,
+        $id = 0
+    ) {
+
+        /*
+         * Store top-level mega menu parent.
+         */
+        if ($depth === 0) {
+            $this->mega_parent = $item->title;
+        }
+
+        /*
+         * Normal WordPress classes.
+         */
+        $classes = empty($item->classes)
+            ? array()
+            : (array) $item->classes;
+
+        $class_names = implode(
+            ' ',
+            array_filter($classes)
+        );
+
+        /*
+         * Menu item ID.
+         */
+        $item_id = 'menu-item-' . $item->ID;
+
+        /*
+         * ---------------------------------------------
+         * CHILD ITEMS INSIDE MEGA MENU
+         * ---------------------------------------------
+         */
+
+        if (
+            $depth === 1 &&
+            in_array($this->mega_parent, array(
+                'Security Services',
+                'Electronic Security'
+            ), true)
+        ) {
+
+            $service = $this->get_service_data($item->title);
+
+            $output .= '<li id="' . esc_attr($item_id) . '"';
+            $output .= ' class="' . esc_attr($class_names) . ' advent-mega-item">';
+
+            $output .= '<a href="' . esc_url($item->url) . '" class="advent-mega-link">';
+
+            $output .= '<span class="advent-mega-icon">';
+            $output .= '<i class="bi ' . esc_attr($service['icon']) . '" aria-hidden="true"></i>';
+            $output .= '</span>';
+
+            $output .= '<span class="advent-mega-content">';
+
+            $output .= '<span class="advent-mega-title">';
+            $output .= esc_html($item->title);
+            $output .= '</span>';
+
+            $output .= '<span class="advent-mega-description">';
+            $output .= esc_html($service['description']);
+            $output .= '</span>';
+
+            $output .= '</span>';
+
+            $output .= '</a>';
+
+            return;
+        }
+
+        /*
+         * ---------------------------------------------
+         * NORMAL MENU ITEMS
+         * ---------------------------------------------
+         */
+
+        $output .= '<li id="' . esc_attr($item_id) . '"';
+        $output .= ' class="' . esc_attr($class_names) . '">';
+
+        $output .= '<a href="' . esc_url($item->url) . '">';
+
+        $output .= esc_html($item->title);
+
+        $output .= '</a>';
+    }
+
+
+    /**
+     * End menu item.
+     */
+    public function end_el(
+        &$output,
+        $item,
+        $depth = 0,
+        $args = null
+    ) {
+
+        $output .= '</li>';
+    }
+}
 
 /**
  * ---------------------------------------------------------
@@ -480,7 +800,7 @@ function advent_security_assets()
      */
     if (
         is_page('integrated-security-systems') ||
-        is_page_template('integrated-security-systems.php')
+        is_page_template('page-integrated-security-systems.php')
     ) {
         wp_enqueue_style(
             'advent-integrated-security-systems',
@@ -569,6 +889,22 @@ function advent_security_assets()
         wp_enqueue_style(
             'advent-manufacturing',
             get_template_directory_uri() . '/assets/css/manufacturing.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+    /**
+     * -----------------------------------------------------
+     * Critical infrastructure
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('critical-infrastructure') ||
+        is_page_template('page-critical-infrastructure.php')
+    ) {
+        wp_enqueue_style(
+            'advent-critical-infrastructure',
+            get_template_directory_uri() . '/assets/css/critical-infrastructure.css',
             array('advent-responsive'),
             '1.0.0'
         );

@@ -62,7 +62,6 @@
 
             <!-- Navigation -->
             <nav class="main-navigation" aria-label="Primary Navigation">
-
                 <?php
                 wp_nav_menu(
                     array(
@@ -71,11 +70,11 @@
                         'menu_class'     => '',
                         'menu_id'        => '',
                         'fallback_cb'    => false,
-                        'depth'          => 1,
+                        'depth'          => 2,
+                        'walker'         => new Advent_Mega_Menu_Walker(),
                     )
                 );
                 ?>
-
             </nav>
 
             <!-- Header Actions -->

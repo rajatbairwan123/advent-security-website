@@ -47,20 +47,34 @@ get_header();
                 alt="Modern Australian commercial environment with integrated security infrastructure" />
         </div>
     </section>
-    <div class="industry-proof">
-        <div>
-            <strong>36+ years</strong><span>Established experience since 1990</span>
+    <!-- =====================================================
+         2. TRUST STRIP
+    ====================================================== -->
+    <section class="integrated-proof">
+        <div class="container integrated-proof-grid">
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">36+ YEARS</span>
+                <strong>Established experience</strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">AUSTRALIAN-OWNED</span>
+                <strong>Family business</strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">ASIAL</span>
+                <strong>Platinum Level member</strong>
+            </div>
+
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">ISO 27001:2022</span>
+                <strong>Information security</strong>
+            </div>
+
         </div>
-        <div>
-            <strong>Australian-owned</strong><span>Family business</span>
-        </div>
-        <div>
-            <strong>ASIAL</strong><span>Platinum Level membership</span>
-        </div>
-        <div>
-            <strong>ISO 27001:2022</strong><span>Information-security certification</span>
-        </div>
-    </div>
+    </section>
     <section class="industry-context">
         <div class="container">
             <div class="industry-section-head">
@@ -503,7 +517,7 @@ get_header();
                         Site visibility, surveillance and incident
                         review.
                     </p>
-                    <a href="<?php echo esc_url(home_url('/advent-electronics/cctv-systems/')); ?>">Explore CCTV Systems →</a>
+                    <a href="<?php echo esc_url(home_url('/electronic-security/cctv-systems/')); ?>">Explore CCTV Systems →</a>
                 </article>
                 <article class="industry-path">
                     <h3>Access Control</h3>
@@ -511,7 +525,7 @@ get_header();
                         Controlled entry, permissions and restricted
                         areas.
                     </p>
-                    <a href="<?php echo esc_url(home_url('/advent-electronics/access-control/')); ?>">Explore Access Control →</a>
+                    <a href="<?php echo esc_url(home_url('/electronic-security/access-control/')); ?>">Explore Access Control →</a>
                 </article>
                 <article class="industry-path">
                     <h3>Alarm Systems</h3>
@@ -519,12 +533,12 @@ get_header();
                         Intrusion and event detection with appropriate
                         workflows.
                     </p>
-                    <a href="<?php echo esc_url(home_url('/advent-electronics/alarm-systems/')); ?>">Explore Alarm Systems →</a>
+                    <a href="<?php echo esc_url(home_url('/electronic-security/alarm-systems/')); ?>">Explore Alarm Systems →</a>
                 </article>
                 <article class="industry-path">
                     <h3>Video Analytics</h3>
                     <p>Video intelligence and event detection.</p>
-                    <a href="<?php echo esc_url(home_url('/advent-electronics/video-analytics/')); ?>">Explore Video Analytics →</a>
+                    <a href="<?php echo esc_url(home_url('/electronic-security/video-analytics/')); ?>">Explore Video Analytics →</a>
                 </article>
                 <article class="industry-path">
                     <h3>Visitor Management</h3>
@@ -532,7 +546,7 @@ get_header();
                         Visitor and contractor arrival and access
                         workflows.
                     </p>
-                    <a href="<?php echo esc_url(home_url('/advent-electronics/visitor-management/')); ?>">Explore Visitor Management →</a>
+                    <a href="<?php echo esc_url(home_url('/electronic-security/visitor-management/')); ?>">Explore Visitor Management →</a>
                 </article>
                 <article class="industry-path">
                     <h3>License Plate Recognition</h3>
@@ -541,12 +555,12 @@ get_header();
                         workflows.
                     </p>
                     <a
-                        href="<?php echo esc_url(home_url('/advent-electronics/license-plate-recognition/')); ?>">Explore LPR →</a>
+                        href="<?php echo esc_url(home_url('/electronic-security/license-plate-recognition/')); ?>">Explore LPR →</a>
                 </article>
                 <article class="industry-path">
                     <h3>Boom Gates</h3>
                     <p>Physical vehicle entry control.</p>
-                    <a href="<?php echo esc_url(home_url('/advent-electronics/boom-gates/')); ?>">Explore Boom Gates →</a>
+                    <a href="<?php echo esc_url(home_url('/electronic-security/boom-gates/')); ?>">Explore Boom Gates →</a>
                 </article>
                 <article class="industry-path">
                     <h3>Cloud Monitoring</h3>
@@ -554,7 +568,7 @@ get_header();
                         Supported remote visibility and management of
                         connected security systems.
                     </p>
-                    <a href="<?php echo esc_url(home_url('/advent-electronics/cloud-monitoring/')); ?>">Explore Cloud Monitoring →</a>
+                    <a href="<?php echo esc_url(home_url('/electronic-security/cloud-monitoring/')); ?>">Explore Cloud Monitoring →</a>
                 </article>
             </div>
         </div>

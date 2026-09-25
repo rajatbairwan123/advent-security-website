@@ -899,40 +899,40 @@ get_header(); ?>
 
             <div class="boom-related">
 
-                <a href="/advent-electronics/access-control/">
+                <a href="/electronic-security/access-control/">
                     Access Control
                     <span>Credentials and controlled access</span>
                 </a>
 
-                <a href="/advent-electronics/cctv-systems/">
+                <a href="/electronic-security/cctv-systems/">
                     CCTV Systems
                     <span>
                         Visibility around entry and exit points
                     </span>
                 </a>
 
-                <a href="/advent-electronics/video-analytics/">
+                <a href="/electronic-security/video-analytics/">
                     Video Analytics
                     <span>
                         Selected event and vehicle workflows
                     </span>
                 </a>
 
-                <a href="/advent-electronics/alarm-systems/">
+                <a href="/electronic-security/alarm-systems/">
                     Alarm Systems
                     <span>
                         Alarm integration where compatible
                     </span>
                 </a>
 
-                <a href="/advent-electronics/cloud-monitoring/">
+                <a href="/electronic-security/cloud-monitoring/">
                     Cloud Monitoring
                     <span>
                         Cloud management where supported
                     </span>
                 </a>
 
-                <a href="/advent-electronics/integrated-security-solutions/">
+                <a href="/electronic-security/integrated-security-solutions/">
                     Integrated Security
                     <span>
                         Broader electronic-security architecture
