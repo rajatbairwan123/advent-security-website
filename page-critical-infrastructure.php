@@ -2,139 +2,70 @@
 
 /**
  * Template Name: Critical Infrastructure
- * Template Post Type: page
  */
 
 get_header();
 ?>
 
-<main id="main-content" class="critical-infrastructure-page">
+<main class="critical-infrastructure-page">
 
     <!-- =====================================================
-        HERO
+         01. HERO
     ====================================================== -->
-    <section class="security-hero ci-hero">
+    <section class="critical-hero">
 
-        <div class="container-fluid px-0">
+        <div class="critical-hero-grid">
 
-            <div class="row g-0 align-items-stretch">
+            <!-- LEFT CONTENT -->
+            <div class="critical-hero-content">
 
-                <!-- HERO CONTENT -->
-                <div class="col-lg-6">
+                <span class="eyebrow">
+                    CRITICAL INFRASTRUCTURE SECURITY
+                </span>
 
-                    <div class="hero-content">
+                <h1>
+                    Critical Infrastructure Security
+                    <span class="hero-highlight">
+                        Built Around the Assets That Keep Australia Moving.
+                    </span>
+                </h1>
 
-                        <div class="hero-inner">
+                <p>
+                    Critical infrastructure security requires more than protecting
+                    a perimeter. It requires a security approach that reflects how
+                    an asset operates, who needs access, where critical areas are
+                    located, and how security events should be detected, verified
+                    and escalated.
+                </p>
 
-                            <!-- Breadcrumb -->
-                            <!-- <nav class="security-breadcrumb" aria-label="Breadcrumb">
-                                <a href="<?php //echo esc_url(home_url('/')); 
-                                            ?>">
-                                    Home
-                                </a>
+                <p>
+                    Advent Security combines professional security personnel,
+                    electronic security, monitoring and risk-led planning across
+                    Oil & Gas, Energy & Utilities and Data Centres.
+                </p>
 
-                                <span>/</span>
+                <div class="critical-hero-actions">
 
-                                <a href="<?php //echo esc_url(home_url('/industries/')); 
-                                            ?>">
-                                    Industries
-                                </a>
-
-                                <span>/</span>
-
-                                <span aria-current="page">
-                                    Critical Infrastructure
-                                </span>
-                            </nav> -->
-
-                            <span class="eyebrow">
-                                Critical Infrastructure Security
-                            </span>
-
-                            <h1>
-                                Critical Infrastructure Security Built Around the Assets That Keep Australia Moving
-                            </h1>
-
-                            <p class="ci-hero-description">
-                                Critical infrastructure security requires more than protecting a perimeter.
-                                It requires a security architecture that reflects how an asset operates,
-                                who needs access, where the highest-consequence areas sit, and how security
-                                events should be detected, verified and escalated.
-                            </p>
-
-                            <p class="ci-hero-supporting">
-                                Advent Security combines professional security personnel, electronic security,
-                                monitoring and risk-led planning to help organisations protect critical
-                                operational environments across Oil &amp; Gas, Energy &amp; Utilities and
-                                Data Centres.
-                            </p>
-
-                            <!-- Hero Benefits -->
-                            <ul class="check-list ci-hero-benefits">
-
-                                <li>
-                                    Design security around asset criticality, operating patterns and site conditions.
-                                </li>
-
-                                <li>
-                                    Integrate CCTV, access control, alarms, monitoring and security personnel where appropriate.
-                                </li>
-
-                                <li>
-                                    Improve visibility across perimeters, restricted areas, entry points and operational zones.
-                                </li>
-
-                                <li>
-                                    Create a clear pathway from security assessment to implementation, monitoring and ongoing review.
-                                </li>
-
-                            </ul>
-
-                            <!-- Hero Buttons -->
-                            <div class="hero-buttons">
-
-                                <a
-                                    href="#critical-infrastructure-cta"
-                                    class="advent-btn"
-                                    data-ci-cta="hero-assessment"
-                                    data-ci-placement="hero">
-                                    Request a Critical Infrastructure Security Assessment
-                                    <span class="btn-arrow">→</span>
-                                </a>
-
-
-                            </div>
-
-                            <!-- Optional phone utility -->
-                            <!-- <a
-                                href="tel:1800464166"
-                                class="ci-hero-phone"
-                                data-ci-phone-placement="hero">
-                                <span>Or call</span>
-                                1800 464 166
-                            </a> -->
-
-                        </div>
-
-                    </div>
+                    <a href="<?php echo esc_url(home_url('/contact/')); ?>"
+                        class="advent-btn advent-btn-primary">
+                        REQUEST A SECURITY ASSESSMENT
+                        <span aria-hidden="true">→</span>
+                    </a>
 
                 </div>
 
-                <!-- HERO IMAGE -->
-                <div class="col-lg-6">
+            </div>
 
-                    <div class="hero-image ci-hero-image">
 
-                        <img
-                            src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/critical-infrastructure/critical-infrastructure-hero.webp'); ?>"
-                            alt="Australian critical infrastructure facility with controlled perimeter security"
-                            width="1600"
-                            height="900"
-                            fetchpriority="high">
+            <!-- RIGHT IMAGE -->
+            <div class="critical-hero-image">
 
-                    </div>
-
-                </div>
+                <img
+                    src="<?php echo esc_url(
+                                get_template_directory_uri() .
+                                    '/assets/images/critical-infrastructure/critical-infrastructure-hero.jpg'
+                            ); ?>"
+                    alt="Critical Infrastructure Security">
 
             </div>
 
@@ -142,2441 +73,209 @@ get_header();
 
     </section>
 
+    <!-- =========================================================
+     PROOF / CREDIBILITY STRIP
+    ========================================================= -->
+    <section class="integrated-proof">
+        <div class="container integrated-proof-grid">
 
-    <!-- =====================================================
-        PROOF STRIP
-    ====================================================== -->
-    <section class="integrated-proof ci-proof-strip">
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    36+ YEARS
+                </span>
 
-        <div class="container-fluid px-0">
+                <strong>
+                    Established experience
+                </strong>
+            </div>
 
-            <div class="integrated-proof-grid">
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    AUSTRALIAN-OWNED
+                </span>
 
-                <div class="integrated-proof-item">
+                <strong>
+                    Family business
+                </strong>
+            </div>
 
-                    <span class="integrated-proof-label">
-                        Integrated
-                    </span>
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    ASIAL
+                </span>
 
-                    <strong>
-                        Security Capability
-                    </strong>
+                <strong>
+                    Platinum Level member
+                </strong>
+            </div>
 
-                </div>
+            <div class="integrated-proof-item">
+                <span class="integrated-proof-label">
+                    ISO 27001:2022
+                </span>
 
-                <div class="integrated-proof-item">
-
-                    <span class="integrated-proof-label">
-                        Australia-wide
-                    </span>
-
-                    <strong>
-                        Service Positioning
-                    </strong>
-
-                </div>
-
-                <div class="integrated-proof-item">
-
-                    <span class="integrated-proof-label">
-                        30+ Years*
-                    </span>
-
-                    <strong>
-                        Experience
-                    </strong>
-
-                </div>
-
-                <div class="integrated-proof-item">
-
-                    <span class="integrated-proof-label">
-                        ASIAL*
-                    </span>
-
-                    <strong>
-                        Membership / Accreditation
-                    </strong>
-
-                </div>
-
+                <strong>
+                    Information security
+                </strong>
             </div>
 
         </div>
-
     </section>
 
 
     <!-- =====================================================
-        WHY CRITICAL INFRASTRUCTURE SECURITY IS DIFFERENT
+         02. SECURITY SERVICES
     ====================================================== -->
-    <section
-        id="why-critical-infrastructure"
-        class="content-section ci-why-section">
+    <section class="critical-solutions section-padding">
 
         <div class="container">
 
-            <div class="section-content ci-section-intro">
+            <div class="section-heading">
 
                 <span class="eyebrow">
-                    Why Critical Infrastructure Security Is Different
+                    SECURITY SERVICES
                 </span>
 
                 <h2>
-                    Security Designed Around Operational Continuity
+                    Integrated Security Services for Critical Infrastructure
                 </h2>
 
                 <p>
-                    Critical infrastructure security differs from standard commercial security
-                    because the consequences of disruption can extend beyond a single site.
-                    Security controls therefore need to support continuity, controlled access,
-                    remote-site visibility and coordinated incident response.
+                    Advent combines physical security, electronic security,
+                    monitoring and consulting to create security solutions
+                    aligned with the requirements of each critical environment.
                 </p>
 
             </div>
 
 
-            <div class="ci-principles-grid">
+            <div class="critical-solutions-grid">
 
-                <!-- Principle 01 -->
-                <article class="ci-principle-card">
+                <!-- Security Personnel -->
+                <div class="critical-solution-item">
 
-                    <span class="ci-principle-number">
-                        01
-                    </span>
-
-                    <h3>
-                        Continuity Matters
-                    </h3>
-
-                    <p>
-                        Security controls should protect the site without creating unnecessary
-                        operational bottlenecks.
-                    </p>
-
-                </article>
-
-
-                <!-- Principle 02 -->
-                <article class="ci-principle-card">
-
-                    <span class="ci-principle-number">
-                        02
-                    </span>
-
-                    <h3>
-                        Access Is Layered
-                    </h3>
-
-                    <p>
-                        Employees, contractors, visitors, service providers and emergency
-                        responders may require different permissions.
-                    </p>
-
-                </article>
-
-
-                <!-- Principle 03 -->
-                <article class="ci-principle-card">
-
-                    <span class="ci-principle-number">
-                        03
-                    </span>
-
-                    <h3>
-                        Sites Can Be Dispersed
-                    </h3>
-
-                    <p>
-                        Remote substations, pipelines, generation assets, industrial compounds
-                        and data-centre campuses can create long perimeters and difficult sightlines.
-                    </p>
-
-                </article>
-
-
-                <!-- Principle 04 -->
-                <article class="ci-principle-card">
-
-                    <span class="ci-principle-number">
-                        04
-                    </span>
-
-                    <h3>
-                        Security Is Interconnected
-                    </h3>
-
-                    <p>
-                        Physical access, CCTV, alarms, monitoring, procedures and people should
-                        work as one operating model rather than isolated controls.
-                    </p>
-
-                </article>
-
-            </div>
-
-
-            <!-- Regulatory note -->
-            <div class="ci-regulatory-note">
-
-                <span class="ci-regulatory-label">
-                    Regulatory context
-                </span>
-
-                <p>
-                    The SOCI Act applies to specified critical infrastructure assets and
-                    obligations depend on the asset, entity and current rules. Applicability
-                    should be assessed against the specific asset and current legislation
-                    where uncertain.
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =====================================================
-        THREE-SECTOR SELECTOR
-    ====================================================== -->
-    <section
-        id="critical-infrastructure-sectors"
-        class="content-section ci-sector-selector-section">
-
-        <div class="container">
-
-            <div class="ci-section-intro">
-
-                <span class="eyebrow">
-                    Choose Your Environment
-                </span>
-
-                <h2>
-                    Security Requirements Change by Environment
-                </h2>
-
-                <p>
-                    Select the environment that best matches your operational and security
-                    requirements.
-                </p>
-
-            </div>
-
-
-            <div
-                class="ci-sector-selector"
-                role="tablist"
-                aria-label="Critical infrastructure environments">
-
-                <!-- Oil & Gas -->
-                <button
-                    type="button"
-                    class="ci-sector-card is-active"
-                    id="ci-sector-tab-oil-gas"
-                    role="tab"
-                    aria-selected="true"
-                    aria-controls="ci-sector-oil-gas"
-                    data-sector="oil-gas">
-
-                    <span class="ci-sector-card-number">
-                        01
-                    </span>
-
-                    <div class="ci-sector-card-image">
-
-                        <img
-                            src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/critical-infrastructure/oil-gas.webp'); ?>"
-                            alt="Oil and gas facility with perimeter and access security"
-                            width="900"
-                            height="600"
-                            loading="lazy">
-
-                    </div>
-
-                    <div class="ci-sector-card-content">
-
-                        <h3>
-                            Oil &amp; Gas
-                        </h3>
-
-                        <p>
-                            How do we protect remote, high-consequence and access-sensitive facilities?
-                        </p>
-
-                        <span class="ci-sector-card-link">
-                            Explore Oil &amp; Gas Security
-                            <span>→</span>
-                        </span>
-
-                    </div>
-
-                </button>
-
-
-                <!-- Energy & Utilities -->
-                <button
-                    type="button"
-                    class="ci-sector-card"
-                    id="ci-sector-tab-energy"
-                    role="tab"
-                    aria-selected="false"
-                    aria-controls="ci-sector-energy"
-                    data-sector="energy">
-
-                    <span class="ci-sector-card-number">
-                        02
-                    </span>
-
-                    <div class="ci-sector-card-image">
-
-                        <img
-                            src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/critical-infrastructure/energy-utilities.webp'); ?>"
-                            alt="Energy infrastructure facility with controlled access and perimeter security"
-                            width="900"
-                            height="600"
-                            loading="lazy">
-
-                    </div>
-
-                    <div class="ci-sector-card-content">
-
-                        <h3>
-                            Energy &amp; Utilities
-                        </h3>
-
-                        <p>
-                            How do we protect assets that support continuous energy supply?
-                        </p>
-
-                        <span class="ci-sector-card-link">
-                            Explore Energy Infrastructure
-                            <span>→</span>
-                        </span>
-
-                    </div>
-
-                </button>
-
-
-                <!-- Data Centres -->
-                <button
-                    type="button"
-                    class="ci-sector-card"
-                    id="ci-sector-tab-data-centres"
-                    role="tab"
-                    aria-selected="false"
-                    aria-controls="ci-sector-data-centres"
-                    data-sector="data-centres">
-
-                    <span class="ci-sector-card-number">
-                        03
-                    </span>
-
-                    <div class="ci-sector-card-image">
-
-                        <img
-                            src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/critical-infrastructure/data-centre.webp'); ?>"
-                            alt="Data centre facility with controlled physical access"
-                            width="900"
-                            height="600"
-                            loading="lazy">
-
-                    </div>
-
-                    <div class="ci-sector-card-content">
-
-                        <h3>
-                            Data Centres
-                        </h3>
-
-                        <p>
-                            How do we protect a mission-critical facility without disrupting operations?
-                        </p>
-
-                        <span class="ci-sector-card-link">
-                            Explore Data Centre Security
-                            <span>→</span>
-                        </span>
-
-                    </div>
-
-                </button>
-
-            </div>
-
-            <!-- =====================================================
-            SECTOR MODULES
-            ====================================================== -->
-            <div class="ci-sector-modules">
-
-
-                <!-- =================================================
-                OIL & GAS
-                ================================================== -->
-                <article
-                    id="ci-sector-oil-gas"
-                    class="ci-sector-module ci-sector-module-oil-gas"
-                    data-sector-panel="oil-gas"
-                    role="tabpanel"
-                    aria-labelledby="ci-sector-tab-oil-gas">
-
-                    <div class="ci-sector-module-grid">
-
-                        <!-- IMAGE -->
-                        <div class="ci-sector-module-media">
-
-                            <div class="ci-sector-module-image">
-
-                                <img
-                                    src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/critical-infrastructure/oil-gas.webp'); ?>"
-                                    alt="Oil and gas facility with perimeter and access security"
-                                    width="1200"
-                                    height="900"
-                                    loading="lazy">
-
-                            </div>
-
-                        </div>
-
-
-                        <!-- CONTENT -->
-                        <div class="ci-sector-module-content">
-
-                            <span class="eyebrow">
-                                Oil &amp; Gas
-                            </span>
-
-                            <h2>
-                                Security for Oil &amp; Gas Facilities Where Access, Perimeter and Continuity Matter
-                            </h2>
-
-                            <p class="ci-sector-intro">
-                                Oil &amp; Gas environments can combine large sites, controlled access points,
-                                remote or isolated assets, contractors, high-value equipment and operational
-                                processes that cannot simply stop for a security event. Security design should
-                                account for perimeter integrity, access permissions, visibility and monitoring
-                                while fitting the site’s operational constraints.
-                            </p>
-
-
-                            <!-- KEY CONSIDERATIONS -->
-                            <div class="ci-sector-subsection">
-
-                                <h3>
-                                    Key Security Considerations
-                                </h3>
-
-                                <ul class="check-list ci-sector-checklist">
-
-                                    <li>
-                                        Perimeter integrity across large or irregular sites, storage areas,
-                                        pipelines and controlled compounds.
-                                    </li>
-
-                                    <li>
-                                        Controlled access for employees, contractors, visitors and specialist
-                                        service providers.
-                                    </li>
-
-                                    <li>
-                                        CCTV coverage of gates, yards, equipment zones and defined
-                                        security-critical areas.
-                                    </li>
-
-                                    <li>
-                                        Alarm and monitoring workflows that distinguish actionable security
-                                        events from routine operational activity.
-                                    </li>
-
-                                    <li>
-                                        Security procedures that support safe escalation without unnecessarily
-                                        interrupting production or maintenance.
-                                    </li>
-
-                                </ul>
-
-                            </div>
-
-
-                            <!-- SOLUTION ARCHITECTURE -->
-                            <div class="ci-sector-subsection">
-
-                                <h3>
-                                    Advent Solution Architecture
-                                </h3>
-
-                                <div class="ci-architecture-list">
-
-                                    <!-- Site visibility -->
-                                    <div class="ci-architecture-row">
-
-                                        <div class="ci-architecture-need">
-                                            Site Visibility
-                                        </div>
-
-                                        <div class="ci-architecture-layer">
-                                            CCTV / Surveillance / Video Analytics
-                                            <span>where appropriate</span>
-                                        </div>
-
-                                        <div class="ci-architecture-principle">
-                                            Prioritise critical zones, entry/exit points and known blind spots.
-                                        </div>
-
-                                    </div>
-
-
-                                    <!-- Entry control -->
-                                    <div class="ci-architecture-row">
-
-                                        <div class="ci-architecture-need">
-                                            Entry Control
-                                        </div>
-
-                                        <div class="ci-architecture-layer">
-                                            Access Control + Intercom / Visitor Processes
-                                        </div>
-
-                                        <div class="ci-architecture-principle">
-                                            Segment access by role, area and operating requirement.
-                                        </div>
-
-                                    </div>
-
-
-                                    <!-- Detection -->
-                                    <div class="ci-architecture-row">
-
-                                        <div class="ci-architecture-need">
-                                            Detection
-                                        </div>
-
-                                        <div class="ci-architecture-layer">
-                                            Alarm Systems + Defined Monitoring Workflow
-                                        </div>
-
-                                        <div class="ci-architecture-principle">
-                                            Configure detection and escalation around site-specific scenarios.
-                                        </div>
-
-                                    </div>
-
-
-                                    <!-- Human presence -->
-                                    <div class="ci-architecture-row">
-
-                                        <div class="ci-architecture-need">
-                                            Human Presence
-                                        </div>
-
-                                        <div class="ci-architecture-layer">
-                                            Security Guards / Patrols
-                                            <span>where required</span>
-                                        </div>
-
-                                        <div class="ci-architecture-principle">
-                                            Use personnel where presence, verification, response or operational
-                                            support adds value.
-                                        </div>
-
-                                    </div>
-
-
-                                    <!-- Risk-led planning -->
-                                    <div class="ci-architecture-row">
-
-                                        <div class="ci-architecture-need">
-                                            Risk-Led Planning
-                                        </div>
-
-                                        <div class="ci-architecture-layer">
-                                            Security Consulting / Risk Assessment
-                                        </div>
-
-                                        <div class="ci-architecture-principle">
-                                            Start with asset criticality, exposure and operational constraints.
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-
-                            <!-- CTA -->
-                            <div class="ci-sector-cta">
-
-                                <a
-                                    href="#critical-infrastructure-cta"
-                                    class="advent-btn"
-                                    data-ci-cta="oil-gas-assessment"
-                                    data-ci-sector="oil-gas">
-                                    Request an Oil &amp; Gas Security Assessment
-                                    <span class="btn-arrow">→</span>
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </article>
-
-
-
-                <!-- =================================================
-                ENERGY & UTILITIES
-                ================================================== -->
-                <article
-                    id="ci-sector-energy"
-                    class="ci-sector-module ci-sector-module-energy"
-                    data-sector-panel="energy"
-                    role="tabpanel"
-                    aria-labelledby="ci-sector-tab-energy">
-
-                    <div class="ci-sector-module-grid ci-sector-module-grid-reverse">
-
-                        <!-- IMAGE -->
-                        <div class="ci-sector-module-media">
-
-                            <div class="ci-sector-module-image">
-
-                                <img
-                                    src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/critical-infrastructure/energy-utilities.webp'); ?>"
-                                    alt="Energy infrastructure facility with controlled access and perimeter security"
-                                    width="1200"
-                                    height="900"
-                                    loading="lazy">
-
-                            </div>
-
-                        </div>
-
-
-                        <!-- CONTENT -->
-                        <div class="ci-sector-module-content">
-
-                            <span class="eyebrow">
-                                Energy &amp; Utilities
-                            </span>
-
-                            <h2>
-                                Security for Energy Infrastructure That Supports Continuous Service
-                            </h2>
-
-                            <p class="ci-sector-intro">
-                                Energy infrastructure may span generation, transmission, distribution and
-                                gas assets, often across remote or distributed locations. Physical security
-                                should therefore be scalable, site-specific and designed around the operational
-                                consequences of unauthorised access, theft, vandalism or interference.
-                            </p>
-
-
-                            <!-- KEY CONSIDERATIONS -->
-                            <div class="ci-sector-subsection">
-
-                                <h3>
-                                    Key Security Considerations
-                                </h3>
-
-                                <ul class="check-list ci-sector-checklist">
-
-                                    <li>
-                                        Remote and distributed assets can make routine patrol, surveillance
-                                        and incident verification difficult.
-                                    </li>
-
-                                    <li>
-                                        Substations, generation sites, compounds and access points may require
-                                        different security zones.
-                                    </li>
-
-                                    <li>
-                                        Unauthorised access, theft and vandalism can create operational and
-                                        safety consequences.
-                                    </li>
-
-                                    <li>
-                                        Contractor access and maintenance activity must be controlled without
-                                        unnecessarily slowing planned work.
-                                    </li>
-
-                                    <li>
-                                        Security controls should be scalable across a portfolio rather than
-                                        designed as disconnected single-site systems.
-                                    </li>
-
-                                </ul>
-
-                            </div>
-
-
-                            <!-- SOLUTION ARCHITECTURE -->
-                            <div class="ci-sector-subsection">
-
-                                <h3>
-                                    Advent Solution Architecture
-                                </h3>
-
-                                <div class="ci-architecture-list">
-
-                                    <!-- Distributed visibility -->
-                                    <div class="ci-architecture-row">
-
-                                        <div class="ci-architecture-need">
-                                            Distributed Visibility
-                                        </div>
-
-                                        <div class="ci-architecture-layer">
-                                            CCTV + Remote Monitoring
-                                            <span>where appropriate</span>
-                                        </div>
-
-                                        <div class="ci-architecture-principle">
-                                            Prioritise assets and zones according to consequence and exposure.
-                                        </div>
-
-                                    </div>
-
-
-                                    <!-- Perimeter protection -->
-                                    <div class="ci-architecture-row">
-
-                                        <div class="ci-architecture-need">
-                                            Perimeter Protection
-                                        </div>
-
-                                        <div class="ci-architecture-layer">
-                                            Access Control, Gates, Alarms &amp; Surveillance
-                                        </div>
-
-                                        <div class="ci-architecture-principle">
-                                            Use layered controls rather than relying on a single detection method.
-                                        </div>
-
-                                    </div>
-
-
-                                    <!-- Incident verification -->
-                                    <div class="ci-architecture-row">
-
-                                        <div class="ci-architecture-need">
-                                            Incident Verification
-                                        </div>
-
-                                        <div class="ci-architecture-layer">
-                                            Video Verification / Alarm Monitoring
-                                        </div>
-
-                                        <div class="ci-architecture-principle">
-                                            Create a clear detection → verification → escalation workflow.
-                                        </div>
-
-                                    </div>
-
-
-                                    <!-- On-ground response -->
-                                    <div class="ci-architecture-row">
-
-                                        <div class="ci-architecture-need">
-                                            On-Ground Response
-                                        </div>
-
-                                        <div class="ci-architecture-layer">
-                                            Guards / Mobile Patrols
-                                            <span>where appropriate</span>
-                                        </div>
-
-                                        <div class="ci-architecture-principle">
-                                            Match physical presence to site risk, geography and operating model.
-                                        </div>
-
-                                    </div>
-
-
-                                    <!-- Portfolio governance -->
-                                    <div class="ci-architecture-row">
-
-                                        <div class="ci-architecture-need">
-                                            Portfolio Governance
-                                        </div>
-
-                                        <div class="ci-architecture-layer">
-                                            Risk Assessment + Standardised Design Principles
-                                        </div>
-
-                                        <div class="ci-architecture-principle">
-                                            Create repeatable standards while allowing site-specific exceptions.
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-
-                            <!-- CTA -->
-                            <div class="ci-sector-cta">
-
-                                <a
-                                    href="#critical-infrastructure-cta"
-                                    class="advent-btn"
-                                    data-ci-cta="energy-assessment"
-                                    data-ci-sector="energy">
-                                    Request an Energy Infrastructure Security Assessment
-                                    <span class="btn-arrow">→</span>
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </article>
-
-
-
-                <!-- =================================================
-                DATA CENTRES
-                ================================================== -->
-                <article
-                    id="ci-sector-data-centres"
-                    class="ci-sector-module ci-sector-module-data-centres"
-                    data-sector-panel="data-centres"
-                    role="tabpanel"
-                    aria-labelledby="ci-sector-tab-data-centres">
-
-                    <div class="ci-sector-module-grid">
-
-                        <!-- IMAGE -->
-                        <div class="ci-sector-module-media">
-
-                            <div class="ci-sector-module-image">
-
-                                <img
-                                    src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/critical-infrastructure/data-centre.webp'); ?>"
-                                    alt="Data centre facility with controlled physical access"
-                                    width="1200"
-                                    height="900"
-                                    loading="lazy">
-
-                            </div>
-
-                        </div>
-
-
-                        <!-- CONTENT -->
-                        <div class="ci-sector-module-content">
-
-                            <span class="eyebrow">
-                                Data Centres
-                            </span>
-
-                            <h2>
-                                Physical Security for Data Centres Where Continuity Is the Operating Requirement
-                            </h2>
-
-                            <p class="ci-sector-intro">
-                                Data centres are physical facilities supporting digital services, sensitive
-                                information and business-critical operations. Physical security should be
-                                designed alongside the facility’s access model, operating procedures and
-                                resilience requirements, with clear differentiation between employees,
-                                contractors, visitors, deliveries and specialist maintenance teams.
-                            </p>
-
-
-                            <!-- KEY CONSIDERATIONS -->
-                            <div class="ci-sector-subsection">
-
-                                <h3>
-                                    Key Security Considerations
-                                </h3>
-
-                                <ul class="check-list ci-sector-checklist">
-
-                                    <li>
-                                        Strictly controlled entry to the site, buildings, secure rooms and
-                                        other restricted zones.
-                                    </li>
-
-                                    <li>
-                                        Clear differentiation between employees, contractors, visitors,
-                                        deliveries and maintenance teams.
-                                    </li>
-
-                                    <li>
-                                        CCTV coverage and auditability across approach routes, entrances,
-                                        service areas and defined security-critical zones.
-                                    </li>
-
-                                    <li>
-                                        Alarm and monitoring workflows that support rapid verification while
-                                        reducing unnecessary disruption.
-                                    </li>
-
-                                    <li>
-                                        Protection against unauthorised access, tampering, theft and interference
-                                        with critical facility systems.
-                                    </li>
-
-                                </ul>
-
-                            </div>
-
-
-                            <!-- SOLUTION ARCHITECTURE -->
-                            <div class="ci-sector-subsection">
-
-                                <h3>
-                                    Advent Solution Architecture
-                                </h3>
-
-                                <div class="ci-architecture-list">
-
-                                    <!-- Identity and access -->
-                                    <div class="ci-architecture-row">
-
-                                        <div class="ci-architecture-need">
-                                            Identity &amp; Access
-                                        </div>
-
-                                        <div class="ci-architecture-layer">
-                                            Access Control + Visitor Management
-                                        </div>
-
-                                        <div class="ci-architecture-principle">
-                                            Apply role- and zone-based access subject to client requirements.
-                                        </div>
-
-                                    </div>
-
-
-                                    <!-- Visual assurance -->
-                                    <div class="ci-architecture-row">
-
-                                        <div class="ci-architecture-need">
-                                            Visual Assurance
-                                        </div>
-
-                                        <div class="ci-architecture-layer">
-                                            CCTV / Surveillance
-                                        </div>
-
-                                        <div class="ci-architecture-principle">
-                                            Design for evidence quality and coverage of defined
-                                            security-critical areas.
-                                        </div>
-
-                                    </div>
-
-
-                                    <!-- Alarm response -->
-                                    <div class="ci-architecture-row">
-
-                                        <div class="ci-architecture-need">
-                                            Alarm Response
-                                        </div>
-
-                                        <div class="ci-architecture-layer">
-                                            Alarm Monitoring
-                                        </div>
-
-                                        <div class="ci-architecture-principle">
-                                            Define event classes and escalation pathways with the client.
-                                        </div>
-
-                                    </div>
-
-
-                                    <!-- On-site security -->
-                                    <div class="ci-architecture-row">
-
-                                        <div class="ci-architecture-need">
-                                            On-Site Security
-                                        </div>
-
-                                        <div class="ci-architecture-layer">
-                                            Security Personnel / Concierge / Patrols
-                                            <span>where required</span>
-                                        </div>
-
-                                        <div class="ci-architecture-principle">
-                                            Integrate human verification with facility procedures.
-                                        </div>
-
-                                    </div>
-
-
-                                    <!-- Integrated oversight -->
-                                    <div class="ci-architecture-row">
-
-                                        <div class="ci-architecture-need">
-                                            Integrated Oversight
-                                        </div>
-
-                                        <div class="ci-architecture-layer">
-                                            Electronic Security Integration
-                                        </div>
-
-                                        <div class="ci-architecture-principle">
-                                            Connect access, video, alarms and monitoring into an
-                                            operationally coherent model.
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-
-                            <!-- CTA -->
-                            <div class="ci-sector-cta">
-
-                                <a
-                                    href="#critical-infrastructure-cta"
-                                    class="advent-btn"
-                                    data-ci-cta="data-centre-assessment"
-                                    data-ci-sector="data-centres">
-                                    Request a Data Centre Physical Security Assessment
-                                    <span class="btn-arrow">→</span>
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- =====================================================
-        INTEGRATED SECURITY ARCHITECTURE
-    ====================================================== -->
-    <section
-        id="integrated-security-architecture"
-        class="content-section ci-architecture-section">
-
-        <div class="container">
-
-            <!-- SECTION INTRO -->
-            <div class="ci-section-intro ci-architecture-intro">
-
-                <span class="eyebrow">
-                    Integrated Security Architecture
-                </span>
-
-                <h2>
-                    One Security Methodology. Configured Around Your Environment.
-                </h2>
-
-                <p>
-                    Advent's approach is built around integrating the right security layers
-                    for the asset, operating environment and identified risks. The configuration
-                    can change by sector, while the underlying methodology remains consistent.
-                </p>
-
-            </div>
-
-
-            <!-- =================================================
-                    SECTOR PATHWAYS
-                    ================================================== -->
-            <div
-                class="ci-architecture-pathways"
-                aria-label="Sector pathways into the integrated security architecture">
-
-                <div class="ci-pathway-source">
-
-                    <span class="ci-pathway-dot"></span>
-
-                    <span>
-                        Oil &amp; Gas
-                    </span>
-
-                </div>
-
-
-                <div class="ci-pathway-source">
-
-                    <span class="ci-pathway-dot"></span>
-
-                    <span>
-                        Energy &amp; Utilities
-                    </span>
-
-                </div>
-
-
-                <div class="ci-pathway-source">
-
-                    <span class="ci-pathway-dot"></span>
-
-                    <span>
-                        Data Centres
-                    </span>
-
-                </div>
-
-
-                <div class="ci-pathway-connector">
-
-                    <span></span>
-                    <span></span>
-                    <span></span>
-
-                </div>
-
-
-                <div class="ci-pathway-destination">
-
-                    <span class="ci-pathway-destination-label">
-                        Integrated Security Architecture
-                    </span>
-
-                    <span class="ci-pathway-arrow">
-                        ↓
-                    </span>
-
-                </div>
-
-            </div>
-
-
-            <!-- =================================================
-                    SIX SECURITY LAYERS
-                    ================================================== -->
-            <div class="ci-architecture-layers">
-
-
-                <!-- LAYER 01 -->
-                <article class="ci-architecture-layer-card">
-
-                    <div class="ci-layer-number">
-                        01
-                    </div>
-
-                    <div class="ci-layer-main">
-
-                        <div class="ci-layer-heading">
-
-                            <span class="ci-layer-kicker">
-                                Foundation
-                            </span>
-
-                            <h3>
-                                Security Strategy
-                            </h3>
-
-                        </div>
-
-                        <div class="ci-layer-components">
-
-                            <span>
-                                Risk assessment
-                            </span>
-
-                            <span>
-                                Site survey
-                            </span>
-
-                            <span>
-                                Threat / hazard review
-                            </span>
-
-                        </div>
-
-                        <p>
-                            Defines what must be protected, from what and under which
-                            operating constraints.
-                        </p>
-
-                    </div>
-
-                    <div class="ci-layer-flow">
-                        ↓
-                    </div>
-
-                </article>
-
-
-                <!-- LAYER 02 -->
-                <article class="ci-architecture-layer-card">
-
-                    <div class="ci-layer-number">
-                        02
-                    </div>
-
-                    <div class="ci-layer-main">
-
-                        <div class="ci-layer-heading">
-
-                            <span class="ci-layer-kicker">
-                                Controlled Boundary
-                            </span>
-
-                            <h3>
-                                Perimeter &amp; Entry
-                            </h3>
-
-                        </div>
-
-                        <div class="ci-layer-components">
-
-                            <span>
-                                Gates
-                            </span>
-
-                            <span>
-                                Intercoms
-                            </span>
-
-                            <span>
-                                Access control
-                            </span>
-
-                            <span>
-                                Vehicle controls
-                            </span>
-
-                        </div>
-
-                        <p>
-                            Creates controlled entry points and defined detection boundaries.
-                        </p>
-
-                    </div>
-
-                    <div class="ci-layer-flow">
-                        ↓
-                    </div>
-
-                </article>
-
-
-                <!-- LAYER 03 -->
-                <article class="ci-architecture-layer-card">
-
-                    <div class="ci-layer-number">
-                        03
-                    </div>
-
-                    <div class="ci-layer-main">
-
-                        <div class="ci-layer-heading">
-
-                            <span class="ci-layer-kicker">
-                                Detection
-                            </span>
-
-                            <h3>
-                                Detection &amp; Visibility
-                            </h3>
-
-                        </div>
-
-                        <div class="ci-layer-components">
-
-                            <span>
-                                CCTV
-                            </span>
-
-                            <span>
-                                Video analytics
-                            </span>
-
-                            <span>
-                                Intrusion alarms
-                            </span>
-
-                        </div>
-
-                        <p>
-                            Detects and records defined security events.
-                        </p>
-
-                    </div>
-
-                    <div class="ci-layer-flow">
-                        ↓
-                    </div>
-
-                </article>
-
-
-                <!-- LAYER 04 -->
-                <article class="ci-architecture-layer-card">
-
-                    <div class="ci-layer-number">
-                        04
-                    </div>
-
-                    <div class="ci-layer-main">
-
-                        <div class="ci-layer-heading">
-
-                            <span class="ci-layer-kicker">
-                                Assessment
-                            </span>
-
-                            <h3>
-                                Verification &amp; Monitoring
-                            </h3>
-
-                        </div>
-
-                        <div class="ci-layer-components">
-
-                            <span>
-                                Alarm monitoring
-                            </span>
-
-                            <span>
-                                Video verification
-                            </span>
-
-                            <span>
-                                Control-room workflows
-                            </span>
-
-                        </div>
-
-                        <p>
-                            Turns alerts into assessed events and defined escalation.
-                        </p>
-
-                    </div>
-
-                    <div class="ci-layer-flow">
-                        ↓
-                    </div>
-
-                </article>
-
-
-                <!-- LAYER 05 -->
-                <article class="ci-architecture-layer-card">
-
-                    <div class="ci-layer-number">
-                        05
-                    </div>
-
-                    <div class="ci-layer-main">
-
-                        <div class="ci-layer-heading">
-
-                            <span class="ci-layer-kicker">
-                                Response
-                            </span>
-
-                            <h3>
-                                People &amp; Response
-                            </h3>
-
-                        </div>
-
-                        <div class="ci-layer-components">
-
-                            <span>
-                                Security officers
-                            </span>
-
-                            <span>
-                                Patrols
-                            </span>
-
-                            <span>
-                                Incident procedures
-                            </span>
-
-                        </div>
-
-                        <p>
-                            Adds human judgement, presence, verification and response
-                            where required.
-                        </p>
-
-                    </div>
-
-                    <div class="ci-layer-flow">
-                        ↓
-                    </div>
-
-                </article>
-
-
-                <!-- LAYER 06 -->
-                <article class="ci-architecture-layer-card ci-architecture-layer-card-final">
-
-                    <div class="ci-layer-number">
-                        06
-                    </div>
-
-                    <div class="ci-layer-main">
-
-                        <div class="ci-layer-heading">
-
-                            <span class="ci-layer-kicker">
-                                Ongoing Assurance
-                            </span>
-
-                            <h3>
-                                Governance &amp; Improvement
-                            </h3>
-
-                        </div>
-
-                        <div class="ci-layer-components">
-
-                            <span>
-                                Reporting
-                            </span>
-
-                            <span>
-                                Maintenance
-                            </span>
-
-                            <span>
-                                Testing
-                            </span>
-
-                            <span>
-                                Review
-                            </span>
-
-                        </div>
-
-                        <p>
-                            Keeps the security model aligned with changing assets
-                            and operating conditions.
-                        </p>
-
-                    </div>
-
-                    <div class="ci-layer-flow ci-layer-flow-final">
-                        ✓
-                    </div>
-
-                </article>
-
-
-            </div>
-
-
-            <!-- ARCHITECTURE CLOSING MESSAGE -->
-            <div class="ci-architecture-closing">
-
-                <div class="ci-architecture-closing-line"></div>
-
-                <div class="ci-architecture-closing-content">
-
-                    <span class="eyebrow">
-                        The Advent Principle
-                    </span>
-
-                    <h3>
-                        The right combination of controls depends on the asset,
-                        environment and risk.
-                    </h3>
-
-                    <p>
-                        Existing security infrastructure can also be assessed before
-                        deciding whether components should be retained, integrated,
-                        upgraded or replaced.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- =====================================================
-     CORE CAPABILITIES MATRIX
-    ====================================================== -->
-    <section
-        id="critical-infrastructure-capabilities"
-        class="content-section ci-capabilities-section">
-
-        <div class="container">
-
-            <!-- SECTION INTRO -->
-            <div class="ci-section-intro ci-capabilities-intro">
-
-                <span class="eyebrow">
-                    Core Capabilities
-                </span>
-
-                <h2>
-                    Security Capabilities That Work Together
-                </h2>
-
-                <p>
-                    Critical infrastructure security rarely depends on a single control.
-                    Advent brings together physical security, electronic security, monitoring
-                    and risk-led planning to create a coordinated security environment around
-                    the needs of each site.
-                </p>
-
-            </div>
-
-
-            <!-- =================================================
-             CAPABILITY MATRIX
-        ================================================== -->
-            <div class="ci-capability-matrix">
-
-
-                <!-- MATRIX HEADER -->
-                <div class="ci-capability-matrix-header">
+                    <i class="bi bi-person-badge"></i>
 
                     <div>
-                        Capability
-                    </div>
 
-                    <div>
-                        Critical-Infrastructure Application
-                    </div>
+                        <h3>
+                            Security Personnel
+                        </h3>
 
-                    <div>
-                        Explore
+                        <p>
+                            Professional security personnel and patrols where
+                            physical presence, verification and operational
+                            support add value.
+                        </p>
+
                     </div>
 
                 </div>
-
-
-                <!-- =================================================
-                 01 CCTV
-            ================================================== -->
-                <article class="ci-capability-row">
-
-                    <div class="ci-capability-name">
-
-                        <span class="ci-capability-number">
-                            01
-                        </span>
-
-                        <div>
-
-                            <h3>
-                                CCTV &amp; Surveillance
-                            </h3>
-
-                            <span class="ci-capability-type">
-                                Visual Security
-                            </span>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="ci-capability-application">
-
-                        <p>
-                            Perimeter, entry points, restricted areas, yards,
-                            service zones and incident evidence.
-                        </p>
-
-                    </div>
-
-
-                    <div class="ci-capability-action">
-
-                        <a
-                            href="<?php echo esc_url(home_url('/electronic-security/cctv/')); ?>"
-                            class="ci-capability-link">
-                            <span>
-                                CCTV Systems
-                            </span>
-
-                            <span class="ci-capability-arrow">
-                                →
-                            </span>
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- =================================================
-                 02 VIDEO ANALYTICS
-            ================================================== -->
-                <article class="ci-capability-row">
-
-                    <div class="ci-capability-name">
-
-                        <span class="ci-capability-number">
-                            02
-                        </span>
-
-                        <div>
-
-                            <h3>
-                                Video Analytics
-                            </h3>
-
-                            <span class="ci-capability-type">
-                                Intelligent Detection
-                            </span>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="ci-capability-application">
-
-                        <p>
-                            Defined-zone event detection and operational visibility
-                            where supported by the selected platform.
-                        </p>
-
-                    </div>
-
-
-                    <div class="ci-capability-action">
-
-                        <a
-                            href="<?php echo esc_url(home_url('/electronic-security/video-analytics/')); ?>"
-                            class="ci-capability-link">
-                            <span>
-                                Video Analytics
-                            </span>
-
-                            <span class="ci-capability-arrow">
-                                →
-                            </span>
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- =================================================
-                 03 ACCESS CONTROL
-            ================================================== -->
-                <article class="ci-capability-row">
-
-                    <div class="ci-capability-name">
-
-                        <span class="ci-capability-number">
-                            03
-                        </span>
-
-                        <div>
-
-                            <h3>
-                                Access Control
-                            </h3>
-
-                            <span class="ci-capability-type">
-                                Entry &amp; Identity
-                            </span>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="ci-capability-application">
-
-                        <p>
-                            Role-based access to buildings, rooms, compounds
-                            and restricted areas.
-                        </p>
-
-                    </div>
-
-
-                    <div class="ci-capability-action">
-
-                        <a
-                            href="<?php echo esc_url(home_url('/electronic-security/access-control/')); ?>"
-                            class="ci-capability-link">
-                            <span>
-                                Access Control
-                            </span>
-
-                            <span class="ci-capability-arrow">
-                                →
-                            </span>
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- =================================================
-                 04 ALARM SYSTEMS
-            ================================================== -->
-                <article class="ci-capability-row">
-
-                    <div class="ci-capability-name">
-
-                        <span class="ci-capability-number">
-                            04
-                        </span>
-
-                        <div>
-
-                            <h3>
-                                Alarm Systems / Monitoring
-                            </h3>
-
-                            <span class="ci-capability-type">
-                                Detection &amp; Escalation
-                            </span>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="ci-capability-application">
-
-                        <p>
-                            Detection and escalation for defined security events.
-                        </p>
-
-                    </div>
-
-
-                    <div class="ci-capability-action">
-
-                        <a
-                            href="<?php echo esc_url(home_url('/electronic-security/alarm-systems/')); ?>"
-                            class="ci-capability-link">
-                            <span>
-                                Alarm Systems / Monitoring
-                            </span>
-
-                            <span class="ci-capability-arrow">
-                                →
-                            </span>
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- =================================================
-                 05 VISITOR MANAGEMENT
-            ================================================== -->
-                <article class="ci-capability-row">
-
-                    <div class="ci-capability-name">
-
-                        <span class="ci-capability-number">
-                            05
-                        </span>
-
-                        <div>
-
-                            <h3>
-                                Visitor Management
-                            </h3>
-
-                            <span class="ci-capability-type">
-                                Visitor &amp; Contractor Access
-                            </span>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="ci-capability-application">
-
-                        <p>
-                            Structured visitor and contractor arrival
-                            and access processes.
-                        </p>
-
-                    </div>
-
-
-                    <div class="ci-capability-action">
-
-                        <a
-                            href="<?php echo esc_url(home_url('/visitor-management/')); ?>"
-                            class="ci-capability-link">
-                            <span>
-                                Visitor Management
-                            </span>
-
-                            <span class="ci-capability-arrow">
-                                →
-                            </span>
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- =================================================
-                 06 SECURITY GUARDS
-            ================================================== -->
-                <article class="ci-capability-row">
-
-                    <div class="ci-capability-name">
-
-                        <span class="ci-capability-number">
-                            06
-                        </span>
-
-                        <div>
-
-                            <h3>
-                                Security Guard Services
-                            </h3>
-
-                            <span class="ci-capability-type">
-                                Physical Security
-                            </span>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="ci-capability-application">
-
-                        <p>
-                            Static guarding, patrols, gatehouse support or
-                            operational security roles where required.
-                        </p>
-
-                    </div>
-
-
-                    <div class="ci-capability-action">
-
-                        <a
-                            href="<?php echo esc_url(home_url('/security-guard-services/')); ?>"
-                            class="ci-capability-link">
-                            <span>
-                                Security Guard Services
-                            </span>
-
-                            <span class="ci-capability-arrow">
-                                →
-                            </span>
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- =================================================
-                 07 CONSULTING
-            ================================================== -->
-                <article class="ci-capability-row">
-
-                    <div class="ci-capability-name">
-
-                        <span class="ci-capability-number">
-                            07
-                        </span>
-
-                        <div>
-
-                            <h3>
-                                Security Consulting / Risk Assessment
-                            </h3>
-
-                            <span class="ci-capability-type">
-                                Strategy &amp; Risk
-                            </span>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="ci-capability-application">
-
-                        <p>
-                            Site assessment, risk identification, control design
-                            and improvement planning.
-                        </p>
-
-                    </div>
-
-
-                    <div class="ci-capability-action">
-
-                        <a
-                            href="<?php echo esc_url(home_url('/security-consulting/')); ?>"
-                            class="ci-capability-link">
-                            <span>
-                                Security Consulting
-                            </span>
-
-                            <span class="ci-capability-arrow">
-                                →
-                            </span>
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- =================================================
-                 08 INTEGRATED SECURITY
-            ================================================== -->
-                <article class="ci-capability-row ci-capability-row-featured">
-
-                    <div class="ci-capability-name">
-
-                        <span class="ci-capability-number">
-                            08
-                        </span>
-
-                        <div>
-
-                            <h3>
-                                Integrated Security Solutions
-                            </h3>
-
-                            <span class="ci-capability-type">
-                                Integrated Architecture
-                            </span>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="ci-capability-application">
-
-                        <p>
-                            Coordinated electronic and physical security
-                            architecture across the site or portfolio.
-                        </p>
-
-                    </div>
-
-
-                    <div class="ci-capability-action">
-
-                        <a
-                            href="<?php echo esc_url(home_url('/electronic-security/integrated-security-solutions/')); ?>"
-                            class="ci-capability-link">
-                            <span>
-                                Integrated Security Solutions
-                            </span>
-
-                            <span class="ci-capability-arrow">
-                                →
-                            </span>
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-            </div>
-
-
-            <!-- CAPABILITY CLOSING -->
-            <div class="ci-capabilities-note">
-
-                <span class="ci-capabilities-note-marker"></span>
-
-                <p>
-                    The appropriate combination of capabilities should be determined
-                    through site-specific risk assessment, operational requirements
-                    and the characteristics of the asset.
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- =====================================================
-     HOW ADVENT APPROACHES A PROJECT
-    ====================================================== -->
-    <section
-        id="project-approach"
-        class="content-section ci-project-approach-section">
-
-        <div class="container">
-
-            <!-- SECTION INTRO -->
-            <div class="ci-section-intro ci-project-approach-intro">
-
-                <span class="eyebrow">
-                    Our Approach
-                </span>
-
-                <h2>
-                    How Advent Approaches a Project
-                </h2>
-
-                <p>
-                    Critical infrastructure security is developed as a structured process,
-                    from understanding the environment and risk through to deployment,
-                    monitoring and ongoing improvement.
-                </p>
-
-            </div>
-
-
-            <!-- =================================================
-             PROJECT JOURNEY
-        ================================================== -->
-            <div class="ci-project-journey">
-
-
-                <!-- STEP 01 -->
-                <article class="ci-project-step">
-
-                    <div class="ci-project-step-marker">
-                        <span>01</span>
-                    </div>
-
-                    <div class="ci-project-step-content">
-
-                        <span class="ci-project-step-label">
-                            Understand
-                        </span>
-
-                        <h3>
-                            Assess
-                        </h3>
-
-                        <p>
-                            Understand the site, assets, operating environment,
-                            risks and existing security arrangements.
-                        </p>
-
-                    </div>
-
-                </article>
-
-
-                <!-- STEP 02 -->
-                <article class="ci-project-step">
-
-                    <div class="ci-project-step-marker">
-                        <span>02</span>
-                    </div>
-
-                    <div class="ci-project-step-content">
-
-                        <span class="ci-project-step-label">
-                            Plan
-                        </span>
-
-                        <h3>
-                            Design
-                        </h3>
-
-                        <p>
-                            Develop a security approach aligned with the identified
-                            risks, operational requirements and site conditions.
-                        </p>
-
-                    </div>
-
-                </article>
-
-
-                <!-- STEP 03 -->
-                <article class="ci-project-step">
-
-                    <div class="ci-project-step-marker">
-                        <span>03</span>
-                    </div>
-
-                    <div class="ci-project-step-content">
-
-                        <span class="ci-project-step-label">
-                            Connect
-                        </span>
-
-                        <h3>
-                            Integrate
-                        </h3>
-
-                        <p>
-                            Bring the required security technologies, processes
-                            and people together into a coordinated system.
-                        </p>
-
-                    </div>
-
-                </article>
-
-
-                <!-- STEP 04 -->
-                <article class="ci-project-step">
-
-                    <div class="ci-project-step-marker">
-                        <span>04</span>
-                    </div>
-
-                    <div class="ci-project-step-content">
-
-                        <span class="ci-project-step-label">
-                            Implement
-                        </span>
-
-                        <h3>
-                            Deploy
-                        </h3>
-
-                        <p>
-                            Implement the agreed security measures with consideration
-                            for the operational environment and site requirements.
-                        </p>
-
-                    </div>
-
-                </article>
-
-
-                <!-- STEP 05 -->
-                <article class="ci-project-step">
-
-                    <div class="ci-project-step-marker">
-                        <span>05</span>
-                    </div>
-
-                    <div class="ci-project-step-content">
-
-                        <span class="ci-project-step-label">
-                            Operate
-                        </span>
-
-                        <h3>
-                            Monitor
-                        </h3>
-
-                        <p>
-                            Maintain visibility over security events, operational
-                            performance and defined response requirements.
-                        </p>
-
-                    </div>
-
-                </article>
-
-
-                <!-- STEP 06 -->
-                <article class="ci-project-step ci-project-step-final">
-
-                    <div class="ci-project-step-marker">
-                        <span>06</span>
-                    </div>
-
-                    <div class="ci-project-step-content">
-
-                        <span class="ci-project-step-label">
-                            Evolve
-                        </span>
-
-                        <h3>
-                            Improve
-                        </h3>
-
-                        <p>
-                            Review performance, identify improvements and keep the
-                            security model aligned with changing requirements.
-                        </p>
-
-                    </div>
-
-                </article>
-
-
-            </div>
-
-
-            <!-- APPROACH STATEMENT -->
-            <div class="ci-project-approach-statement">
-
-                <div class="ci-project-approach-statement-mark"></div>
-
-                <div>
-
-                    <span class="eyebrow">
-                        Continuous Security
-                    </span>
-
-                    <h3>
-                        Security is treated as an ongoing process, not a one-time installation.
-                    </h3>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- =====================================================
-     TECHNOLOGY & SYSTEMS
-    ====================================================== -->
-    <section
-        id="technology-systems"
-        class="content-section ci-technology-section">
-
-        <div class="container">
-
-            <!-- SECTION INTRO -->
-            <div class="ci-section-intro ci-technology-intro">
-
-                <span class="eyebrow">
-                    Technology &amp; Systems
-                </span>
-
-                <h2>
-                    Technology Configured Around the Security Requirement
-                </h2>
-
-                <p>
-                    Advent brings together security technologies according to the
-                    requirements of the site, asset and operating environment.
-                    The objective is a coordinated security system rather than
-                    isolated technology deployments.
-                </p>
-
-            </div>
-
-
-            <!-- =================================================
-             TECHNOLOGY GRID
-        ================================================== -->
-            <div class="ci-technology-grid">
 
 
                 <!-- CCTV -->
-                <article class="ci-technology-item">
+                <div class="critical-solution-item">
 
-                    <div class="ci-technology-item-top">
+                    <i class="bi bi-camera-video"></i>
 
-                        <span class="ci-technology-number">
-                            01
-                        </span>
+                    <div>
 
-                        <span class="ci-technology-category">
-                            Visibility
-                        </span>
+                        <h3>
+                            CCTV & Surveillance
+                        </h3>
 
-                    </div>
-
-                    <h3>
-                        CCTV &amp; Video Surveillance
-                    </h3>
-
-                    <p>
-                        Security cameras and surveillance infrastructure
-                        supporting visibility across defined areas.
-                    </p>
-
-                </article>
-
-
-                <!-- VIDEO ANALYTICS -->
-                <article class="ci-technology-item">
-
-                    <div class="ci-technology-item-top">
-
-                        <span class="ci-technology-number">
-                            02
-                        </span>
-
-                        <span class="ci-technology-category">
-                            Detection
-                        </span>
+                        <p>
+                            Surveillance designed to improve visibility across
+                            perimeters, entry points, restricted areas and
+                            security-critical zones.
+                        </p>
 
                     </div>
-
-                    <h3>
-                        Video Analytics
-                    </h3>
-
-                    <p>
-                        Technology that can support defined event detection
-                        and enhanced operational visibility.
-                    </p>
-
-                </article>
-
-
-                <!-- ACCESS CONTROL -->
-                <article class="ci-technology-item">
-
-                    <div class="ci-technology-item-top">
-
-                        <span class="ci-technology-number">
-                            03
-                        </span>
-
-                        <span class="ci-technology-category">
-                            Access
-                        </span>
-
-                    </div>
-
-                    <h3>
-                        Access Control
-                    </h3>
-
-                    <p>
-                        Controlled access to buildings, rooms, compounds
-                        and restricted areas.
-                    </p>
-
-                </article>
-
-
-                <!-- ALARM -->
-                <article class="ci-technology-item">
-
-                    <div class="ci-technology-item-top">
-
-                        <span class="ci-technology-number">
-                            04
-                        </span>
-
-                        <span class="ci-technology-category">
-                            Alerting
-                        </span>
-
-                    </div>
-
-                    <h3>
-                        Alarm Systems
-                    </h3>
-
-                    <p>
-                        Detection and alerting for defined security events
-                        requiring assessment or escalation.
-                    </p>
-
-                </article>
-
-
-                <!-- MONITORING -->
-                <article class="ci-technology-item">
-
-                    <div class="ci-technology-item-top">
-
-                        <span class="ci-technology-number">
-                            05
-                        </span>
-
-                        <span class="ci-technology-category">
-                            Monitoring
-                        </span>
-
-                    </div>
-
-                    <h3>
-                        Monitoring &amp; Verification
-                    </h3>
-
-                    <p>
-                        Monitoring and verification processes that help
-                        turn security alerts into assessed events.
-                    </p>
-
-                </article>
-
-
-                <!-- INTEGRATION -->
-                <article class="ci-technology-item ci-technology-item-featured">
-
-                    <div class="ci-technology-item-top">
-
-                        <span class="ci-technology-number">
-                            06
-                        </span>
-
-                        <span class="ci-technology-category">
-                            Integration
-                        </span>
-
-                    </div>
-
-                    <h3>
-                        Integrated Security Systems
-                    </h3>
-
-                    <p>
-                        Coordinated security technologies configured to
-                        operate as part of the wider security architecture.
-                    </p>
-
-                </article>
-
-
-            </div>
-
-
-            <!-- =================================================
-             INTEGRATION STATEMENT
-        ================================================== -->
-            <div class="ci-technology-integration">
-
-                <div class="ci-technology-integration-visual">
-
-                    <span class="ci-integration-node ci-node-01"></span>
-                    <span class="ci-integration-node ci-node-02"></span>
-                    <span class="ci-integration-node ci-node-03"></span>
-                    <span class="ci-integration-node ci-node-04"></span>
-
-                    <span class="ci-integration-core">
-                        ADVENT
-                    </span>
 
                 </div>
 
 
-                <div class="ci-technology-integration-content">
+                <!-- Access Control -->
+                <div class="critical-solution-item">
 
-                    <span class="eyebrow">
-                        Integrated Approach
-                    </span>
+                    <i class="bi bi-door-open"></i>
 
-                    <h3>
-                        Systems are selected and configured according to the
-                        security requirement.
-                    </h3>
+                    <div>
 
-                    <p>
-                        Where appropriate, existing infrastructure can be assessed
-                        alongside new requirements so that the resulting security
-                        environment reflects the asset, operating conditions and
-                        identified risks.
-                    </p>
+                        <h3>
+                            Access Control
+                        </h3>
+
+                        <p>
+                            Controlled access for employees, contractors,
+                            visitors, service providers and restricted areas.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Alarm Monitoring -->
+                <div class="critical-solution-item">
+
+                    <i class="bi bi-bell"></i>
+
+                    <div>
+
+                        <h3>
+                            Alarm & Monitoring
+                        </h3>
+
+                        <p>
+                            Alarm and monitoring workflows designed around
+                            site-specific security events and escalation needs.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Remote Monitoring -->
+                <div class="critical-solution-item">
+
+                    <i class="bi bi-broadcast"></i>
+
+                    <div>
+
+                        <h3>
+                            Remote Monitoring
+                        </h3>
+
+                        <p>
+                            Security oversight for distributed facilities,
+                            remote assets and environments where visibility
+                            can be challenging.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Consulting -->
+                <div class="critical-solution-item">
+
+                    <i class="bi bi-clipboard-check"></i>
+
+                    <div>
+
+                        <h3>
+                            Security Consulting
+                        </h3>
+
+                        <p>
+                            Risk-led assessment and planning to help determine
+                            the appropriate security controls for each site.
+                        </p>
+
+                    </div>
 
                 </div>
 
@@ -2586,288 +285,236 @@ get_header();
 
     </section>
 
+
     <!-- =====================================================
-     ILLUSTRATIVE SECURITY SCENARIOS
+         03. TRUST / PROOF STRIP
     ====================================================== -->
-    <section
-        id="security-scenarios"
-        class="content-section ci-scenarios-section">
+    <section class="critical-proof">
 
         <div class="container">
 
-            <!-- SECTION INTRO -->
-            <div class="ci-section-intro ci-scenarios-intro">
+            <div class="critical-proof-grid">
+
+                <div class="critical-proof-item">
+
+                    <span class="critical-proof-icon">
+                        <i class="bi bi-shield-check"></i>
+                    </span>
+
+                    <div>
+                        <h3>
+                            Integrated Capability
+                        </h3>
+
+                        <p>
+                            Security personnel, surveillance, alarms,
+                            access control, monitoring and consulting.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="critical-proof-item">
+
+                    <span class="critical-proof-icon">
+                        <i class="bi bi-geo-alt"></i>
+                    </span>
+
+                    <div>
+                        <h3>
+                            Australia-Wide Positioning
+                        </h3>
+
+                        <p>
+                            Security solutions designed around the operating
+                            requirements of each environment.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="critical-proof-item">
+
+                    <span class="critical-proof-icon">
+                        <i class="bi bi-diagram-3"></i>
+                    </span>
+
+                    <div>
+                        <h3>
+                            Integrated Approach
+                        </h3>
+
+                        <p>
+                            People, technology and procedures working together
+                            as one security environment.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="critical-proof-item">
+
+                    <span class="critical-proof-icon">
+                        <i class="bi bi-clipboard2-check"></i>
+                    </span>
+
+                    <div>
+                        <h3>
+                            Risk-Led Planning
+                        </h3>
+
+                        <p>
+                            Security requirements considered around asset
+                            criticality, exposure and operating conditions.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         04. CRITICAL INFRASTRUCTURE ENVIRONMENTS
+         NEW SECTION
+    ====================================================== -->
+    <section class="critical-environments section-padding">
+
+        <div class="container">
+
+            <div class="section-heading">
 
                 <span class="eyebrow">
-                    Illustrative Security Scenarios
+                    CRITICAL ENVIRONMENTS
                 </span>
 
                 <h2>
-                    Security Architecture Applied to Real Operating Environments
+                    Security Designed for Critical Operating Environments
                 </h2>
 
                 <p>
-                    Different critical-infrastructure environments create different
-                    security requirements. Advent's approach can be configured around
-                    the specific operating context, existing controls and identified risks.
+                    Different infrastructure environments create different
+                    operational and security requirements. Advent's approach
+                    adapts to the characteristics of each site.
                 </p>
 
             </div>
 
 
-            <!-- =================================================
-             SCENARIO GRID
-            ================================================== -->
-            <div class="ci-scenarios-grid">
+            <div class="critical-environment-grid">
 
+                <!-- OIL & GAS -->
+                <article class="critical-environment-card">
 
-                <!-- 01 REMOTE ASSET -->
-                <article class="ci-scenario-card">
+                    <div class="critical-environment-image">
 
-                    <div class="ci-scenario-header">
-
-                        <span class="ci-scenario-number">
-                            01
-                        </span>
-
-                        <span class="ci-scenario-label">
-                            Site Exposure
-                        </span>
+                        <img
+                            src="<?php echo esc_url(
+                                        get_template_directory_uri() .
+                                            '/assets/images/critical-infrastructure/oil-gas.jpg'
+                                    ); ?>"
+                            alt="Oil and gas facility with perimeter and access security">
 
                     </div>
 
-                    <h3>
-                        Remote Asset / Low Natural Surveillance
-                    </h3>
+                    <div class="critical-environment-content">
 
-                    <p>
-                        Layer perimeter controls, surveillance, alarms and planned
-                        patrol/response arrangements appropriate to the location.
-                    </p>
-
-                    <a
-                        href="<?php echo esc_url(home_url('/contact/')); ?>"
-                        class="ci-scenario-link">
-                        <span>
-                            Assess a Remote-Site Security Model
+                        <span class="eyebrow">
+                            OIL & GAS
                         </span>
 
-                        <span class="ci-scenario-arrow">
-                            →
-                        </span>
-                    </a>
+                        <h3>
+                            Security for Oil & Gas Facilities Where Access, Perimeter and Continuity Matter
+                        </h3>
+
+                        <p>
+                            Large sites, controlled access points, contractors,
+                            equipment and operational processes require security
+                            designed around perimeter integrity, visibility,
+                            access and monitoring.
+                        </p>
+
+                    </div>
 
                 </article>
 
 
-                <!-- 02 HIGH-CONSEQUENCE ACCESS -->
-                <article class="ci-scenario-card">
+                <!-- ENERGY & UTILITIES -->
+                <article class="critical-environment-card">
 
-                    <div class="ci-scenario-header">
+                    <div class="critical-environment-image">
 
-                        <span class="ci-scenario-number">
-                            02
-                        </span>
-
-                        <span class="ci-scenario-label">
-                            Access Control
-                        </span>
+                        <img
+                            src="<?php echo esc_url(
+                                        get_template_directory_uri() .
+                                            '/assets/images/critical-infrastructure/energy-utilities.jpg'
+                                    ); ?>"
+                            alt="Energy infrastructure facility with controlled access">
 
                     </div>
 
-                    <h3>
-                        High-Consequence Access Point
-                    </h3>
+                    <div class="critical-environment-content">
 
-                    <p>
-                        Combine controlled entry, identity verification, CCTV
-                        and defined escalation procedures.
-                    </p>
-
-                    <a
-                        href="<?php echo esc_url(home_url('/electronic-security/access-control/')); ?>"
-                        class="ci-scenario-link">
-                        <span>
-                            Review Access-Control Architecture
+                        <span class="eyebrow">
+                            ENERGY & UTILITIES
                         </span>
 
-                        <span class="ci-scenario-arrow">
-                            →
-                        </span>
-                    </a>
+                        <h3>
+                            Security for Energy Infrastructure That Supports Continuous Service
+                        </h3>
+
+                        <p>
+                            Generation, transmission, distribution and remote
+                            infrastructure can span large or distributed areas,
+                            requiring visibility, controlled access and practical
+                            monitoring.
+                        </p>
+
+                    </div>
 
                 </article>
 
 
-                <!-- 03 CONTRACTOR -->
-                <article class="ci-scenario-card">
+                <!-- DATA CENTRES -->
+                <article class="critical-environment-card">
 
-                    <div class="ci-scenario-header">
+                    <div class="critical-environment-image">
 
-                        <span class="ci-scenario-number">
-                            03
-                        </span>
-
-                        <span class="ci-scenario-label">
-                            Site Operations
-                        </span>
-
-                    </div>
-
-                    <h3>
-                        Contractor-Intensive Site
-                    </h3>
-
-                    <p>
-                        Create clear arrival, authorisation and restricted-zone
-                        workflows without unnecessarily disrupting work.
-                    </p>
-
-                    <a
-                        href="<?php echo esc_url(home_url('/contact/')); ?>"
-                        class="ci-scenario-link">
-                        <span>
-                            Review Contractor / Visitor Security
-                        </span>
-
-                        <span class="ci-scenario-arrow">
-                            →
-                        </span>
-                    </a>
-
-                </article>
-
-
-                <!-- 04 MULTI-SITE -->
-                <article class="ci-scenario-card">
-
-                    <div class="ci-scenario-header">
-
-                        <span class="ci-scenario-number">
-                            04
-                        </span>
-
-                        <span class="ci-scenario-label">
-                            Portfolio Security
-                        </span>
+                        <img
+                            src="<?php echo esc_url(
+                                        get_template_directory_uri() .
+                                            '/assets/images/critical-infrastructure/data-centre.jpg'
+                                    ); ?>"
+                            alt="Data centre facility with controlled physical access">
 
                     </div>
 
-                    <h3>
-                        Multi-Site Portfolio
-                    </h3>
+                    <div class="critical-environment-content">
 
-                    <p>
-                        Standardise principles, reporting and technology architecture
-                        while allowing site-specific risk differences.
-                    </p>
-
-                    <a
-                        href="<?php echo esc_url(home_url('/contact/')); ?>"
-                        class="ci-scenario-link">
-                        <span>
-                            Discuss a Multi-Site Security Programme
+                        <span class="eyebrow">
+                            DATA CENTRES
                         </span>
 
-                        <span class="ci-scenario-arrow">
-                            →
-                        </span>
-                    </a>
+                        <h3>
+                            Physical Security for Mission-Critical Data Environments
+                        </h3>
 
-                </article>
-
-
-                <!-- 05 EXISTING SYSTEM -->
-                <article class="ci-scenario-card">
-
-                    <div class="ci-scenario-header">
-
-                        <span class="ci-scenario-number">
-                            05
-                        </span>
-
-                        <span class="ci-scenario-label">
-                            System Upgrade
-                        </span>
+                        <p>
+                            Data centres require controlled physical access,
+                            protection of restricted areas and security processes
+                            that support operational continuity.
+                        </p>
 
                     </div>
 
-                    <h3>
-                        Existing System Upgrade
-                    </h3>
-
-                    <p>
-                        Assess current CCTV, alarms and access control before deciding
-                        whether to retain, integrate, selectively upgrade or replace.
-                    </p>
-
-                    <a
-                        href="<?php echo esc_url(home_url('/electronic-security/')); ?>"
-                        class="ci-scenario-link">
-                        <span>
-                            Request an Electronic-Security Review
-                        </span>
-
-                        <span class="ci-scenario-arrow">
-                            →
-                        </span>
-                    </a>
-
                 </article>
-
-
-                <!-- 06 SECURITY EVENT -->
-                <article class="ci-scenario-card ci-scenario-card-featured">
-
-                    <div class="ci-scenario-header">
-
-                        <span class="ci-scenario-number">
-                            06
-                        </span>
-
-                        <span class="ci-scenario-label">
-                            Investigation
-                        </span>
-
-                    </div>
-
-                    <h3>
-                        Security Event Investigation
-                    </h3>
-
-                    <p>
-                        Use recorded video, access events, alarm history and incident
-                        reporting to reconstruct what happened.
-                    </p>
-
-                    <a
-                        href="<?php echo esc_url(home_url('/contact/')); ?>"
-                        class="ci-scenario-link">
-                        <span>
-                            Request a Security Systems Assessment
-                        </span>
-
-                        <span class="ci-scenario-arrow">
-                            →
-                        </span>
-                    </a>
-
-                </article>
-
-
-            </div>
-
-
-            <!-- SCENARIO NOTE -->
-            <div class="ci-scenarios-note">
-
-                <span class="ci-scenarios-note-line"></span>
-
-                <p>
-                    These scenarios are illustrative. The appropriate security model
-                    should be determined through site-specific assessment and operational
-                    requirements.
-                </p>
 
             </div>
 
@@ -2875,249 +522,646 @@ get_header();
 
     </section>
 
-    <!-- =====================================================
-    FREQUENTLY ASKED QUESTIONS
-    ====================================================== -->
 
-    <section class="faq-section ci-faq-section">
+    <!-- =====================================================
+         05. WHY CRITICAL INFRASTRUCTURE IS DIFFERENT
+         NEW SECTION
+    ====================================================== -->
+    <section class="critical-different section-padding">
 
         <div class="container">
 
-            <div class="faq-header">
+            <div class="critical-different-grid">
 
-                <div>
+                <div class="critical-different-content">
 
                     <span class="eyebrow">
-                        FAQs
+                        CRITICAL INFRASTRUCTURE SECURITY
                     </span>
 
                     <h2>
-                        Questions about critical<br class="d-none d-md-block">
-                        infrastructure security
+                        Why Critical Infrastructure Security Is Different
                     </h2>
 
-                </div>
-
-                <div class="faq-intro">
+                    <p>
+                        Critical infrastructure security differs from standard
+                        commercial security because the consequences of disruption
+                        can extend beyond a single site.
+                    </p>
 
                     <p>
-                        Clear answers to common questions about aviation
-                        security services, ASIC requirements, access control,
-                        surveillance and security consulting.
+                        Security controls therefore need to support continuity,
+                        controlled access, remote-site visibility and coordinated
+                        incident response.
                     </p>
 
                 </div>
+
+
+                <div class="critical-different-list">
+
+                    <!-- Continuity -->
+                    <div class="critical-different-item">
+
+                        <span class="critical-different-icon">
+                            <i class="bi bi-arrow-repeat"></i>
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Continuity Matters
+                            </h3>
+
+                            <p>
+                                Security controls should protect the site without
+                                creating unnecessary operational bottlenecks.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Layered Access -->
+                    <div class="critical-different-item">
+
+                        <span class="critical-different-icon">
+                            <i class="bi bi-person-lock"></i>
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Access Is Layered
+                            </h3>
+
+                            <p>
+                                Employees, contractors, visitors, service providers
+                                and emergency responders may require different
+                                permissions.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Distributed Sites -->
+                    <div class="critical-different-item">
+
+                        <span class="critical-different-icon">
+                            <i class="bi bi-pin-map"></i>
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Sites Can Be Dispersed
+                            </h3>
+
+                            <p>
+                                Remote assets and large facilities can create long
+                                perimeters and difficult sightlines.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Interconnected -->
+                    <div class="critical-different-item">
+
+                        <span class="critical-different-icon">
+                            <i class="bi bi-diagram-3"></i>
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Security Is Interconnected
+                            </h3>
+
+                            <p>
+                                Physical access, CCTV, alarms, monitoring,
+                                procedures and people should work together.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         06. HOW ADVENT APPROACHES A PROJECT
+    ====================================================== -->
+    <section class="critical-process section-padding">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    OUR PROCESS
+                </span>
+
+                <h2>
+                    How Advent Approaches a Critical Infrastructure Project
+                </h2>
+
+                <p>
+                    Every project begins with understanding the asset,
+                    operating environment and security requirements before
+                    defining the appropriate security approach.
+                </p>
+
+            </div>
+
+
+            <div class="critical-process-grid">
+
+                <div class="critical-process-item">
+
+                    <span class="critical-process-icon">
+                        <i class="bi bi-search"></i>
+                    </span>
+
+                    <h3>
+                        Understand
+                    </h3>
+
+                    <p>
+                        Understand the asset, environment and operating requirements.
+                    </p>
+
+                </div>
+
+
+                <div class="critical-process-item">
+
+                    <span class="critical-process-icon">
+                        <i class="bi bi-bullseye"></i>
+                    </span>
+
+                    <h3>
+                        Identify
+                    </h3>
+
+                    <p>
+                        Identify security-critical zones, access points and assets.
+                    </p>
+
+                </div>
+
+
+                <div class="critical-process-item">
+
+                    <span class="critical-process-icon">
+                        <i class="bi bi-clipboard-data"></i>
+                    </span>
+
+                    <h3>
+                        Assess
+                    </h3>
+
+                    <p>
+                        Review existing controls, exposure and operational constraints.
+                    </p>
+
+                </div>
+
+
+                <div class="critical-process-item">
+
+                    <span class="critical-process-icon">
+                        <i class="bi bi-diagram-3"></i>
+                    </span>
+
+                    <h3>
+                        Design
+                    </h3>
+
+                    <p>
+                        Develop an integrated security approach appropriate to the site.
+                    </p>
+
+                </div>
+
+
+                <div class="critical-process-item">
+
+                    <span class="critical-process-icon">
+                        <i class="bi bi-check2-square"></i>
+                    </span>
+
+                    <h3>
+                        Implement
+                    </h3>
+
+                    <p>
+                        Implement and validate the selected security controls.
+                    </p>
+
+                </div>
+
+
+                <div class="critical-process-item">
+
+                    <span class="critical-process-icon">
+                        <i class="bi bi-arrow-clockwise"></i>
+                    </span>
+
+                    <h3>
+                        Review
+                    </h3>
+
+                    <p>
+                        Review the security environment and identify opportunities
+                        for ongoing improvement.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         07. WHY ADVENT
+    ====================================================== -->
+    <section class="critical-why section-padding">
+
+        <div class="container">
+
+            <div class="critical-why-grid">
+
+                <div class="critical-why-content">
+
+                    <span class="eyebrow">
+                        WHY ADVENT
+                    </span>
+
+                    <h2>
+                        Security That Supports Operational Continuity
+                    </h2>
+
+                    <p>
+                        Advent brings together professional security personnel,
+                        electronic security, monitoring and consulting to create
+                        a coordinated security environment.
+                    </p>
+
+                    <p>
+                        Our approach can be structured around the operating
+                        environment, asset criticality, access requirements and
+                        existing security controls.
+                    </p>
+
+                </div>
+
+
+                <div class="critical-why-points">
+
+                    <div class="critical-why-point">
+
+                        <i class="bi bi-check-circle"></i>
+
+                        <span>
+                            Integrated physical and electronic security
+                        </span>
+
+                    </div>
+
+
+                    <div class="critical-why-point">
+
+                        <i class="bi bi-check-circle"></i>
+
+                        <span>
+                            Risk-led security planning
+                        </span>
+
+                    </div>
+
+
+                    <div class="critical-why-point">
+
+                        <i class="bi bi-check-circle"></i>
+
+                        <span>
+                            Security personnel and technology
+                        </span>
+
+                    </div>
+
+
+                    <div class="critical-why-point">
+
+                        <i class="bi bi-check-circle"></i>
+
+                        <span>
+                            Site-specific security solutions
+                        </span>
+
+                    </div>
+
+
+                    <div class="critical-why-point">
+
+                        <i class="bi bi-check-circle"></i>
+
+                        <span>
+                            Assessment, implementation and ongoing review
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         08. RELATED SERVICES
+    ====================================================== -->
+
+    <?php
+
+    get_template_part(
+        'partials/related-services',
+        null,
+        array(
+
+            'title' => 'Related Security Services',
+
+            'services' => array(
+
+                array(
+                    'title' => 'Security Guard Services',
+                    'url'   => home_url('/security-guard-services/')
+                ),
+
+                array(
+                    'title' => 'Remote Monitoring',
+                    'url'   => home_url('/remote-monitoring/')
+                ),
+
+                array(
+                    'title' => 'AI Surveillance',
+                    'url'   => home_url('/ai-surveillance/')
+                ),
+
+                array(
+                    'title' => 'Security Consulting',
+                    'url'   => home_url('/security-consulting/')
+                )
+
+            )
+
+        )
+
+    );
+
+    ?>
+
+
+    <!-- =====================================================
+         09. FAQ
+    ====================================================== -->
+    <section class="critical-faq section-padding">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    FAQ
+                </span>
+
+                <h2>
+                    Critical Infrastructure Security FAQs
+                </h2>
 
             </div>
 
 
             <div class="faq-list">
 
-                <div class="faq-item">
 
-                    <button class="faq-question" type="button" aria-expanded="false">
+                <!-- FAQ 01 -->
+                <details class="faq-item">
 
-                        <span> What is critical infrastructure security?</span>
+                    <summary>
 
-                        <span class="faq-icon" aria-hidden="true">+</span>
+                        What is critical infrastructure security?
 
-                    </button>
+                        <span>+</span>
 
-                    <div class="faq-answer">
-
-                        <p>
-                            Critical infrastructure security is the coordinated protection
-                            of facilities, people, access points, physical assets, technology
-                            and operating processes whose disruption could have significant
-                            consequences. In Australia, the SOCI framework defines specific
-                            sectors and asset classes; exact obligations depend on the asset
-                            and entity.
-                        </p>
-
-                    </div>
-
-                </div>
-
-
-                <div class="faq-item">
-
-                    <button class="faq-question" type="button" aria-expanded="false">
-
-                        <span>
-                            Which industries are covered on this Advent page?
-                        </span>
-
-                        <span class="faq-icon" aria-hidden="true">+</span>
-
-                    </button>
+                    </summary>
 
                     <div class="faq-answer">
 
                         <p>
-                            This page is intentionally focused on Oil &amp; Gas,
-                            Energy &amp; Utilities and Data Centres. Other sectors
-                            should have their own dedicated industry pages where appropriate.
+                            Critical infrastructure security is the coordinated
+                            protection of facilities, people, access points,
+                            physical assets, technology and operating processes
+                            whose disruption could have significant consequences.
                         </p>
 
                     </div>
 
-                </div>
+                </details>
 
 
-                <div class="faq-item">
+                <!-- FAQ 02 -->
+                <details class="faq-item">
 
-                    <button class="faq-question" type="button" aria-expanded="false">
+                    <summary>
 
-                        <span>Does every energy or gas facility fall under the SOCI Act?</span>
+                        Which industries are covered on this Advent page?
 
-                        <span class="faq-icon" aria-hidden="true">+</span>
+                        <span>+</span>
 
-                    </button>
+                    </summary>
 
                     <div class="faq-answer">
 
                         <p>
-                            No. The SOCI Act applies to defined critical-infrastructure
-                            assets and asset classes. Applicability depends on the specific
-                            asset, entity and current legislation and rules. A formal
-                            assessment should be used where applicability is uncertain.
+                            This page focuses on Oil & Gas, Energy & Utilities
+                            and Data Centres. Other sectors can be addressed
+                            through their relevant dedicated industry pages.
                         </p>
 
                     </div>
 
-                </div>
+                </details>
 
 
-                <div class="faq-item">
+                <!-- FAQ 03 -->
+                <details class="faq-item">
 
-                    <button class="faq-question" type="button" aria-expanded="false">
+                    <summary>
 
-                        <span>
-                            What security systems are relevant to critical infrastructure?
-                        </span>
+                        Does every energy or gas facility fall under the SOCI Act?
 
-                        <span class="faq-icon" aria-hidden="true">+</span>
+                        <span>+</span>
 
-                    </button>
+                    </summary>
 
                     <div class="faq-answer">
 
                         <p>
-                            Depending on the site, relevant layers can include CCTV and
-                            surveillance, video analytics, access control, alarm systems,
-                            monitoring, visitor management, security personnel, patrols
-                            and security consulting. The appropriate combination should be
-                            determined through site-specific risk assessment.
+                            No. The SOCI Act applies to defined critical
+                            infrastructure assets and asset classes. Applicability
+                            depends on the specific asset, entity and current
+                            legislation and rules.
                         </p>
 
                     </div>
 
-                </div>
+                </details>
 
 
-                <div class="faq-item">
+                <!-- FAQ 04 -->
+                <details class="faq-item">
 
-                    <button class="faq-question" type="button" aria-expanded="false">
+                    <summary>
 
-                        <span>
-                            Can Advent integrate physical security with electronic security?
-                        </span>
+                        What security systems are relevant to critical infrastructure?
 
-                        <span class="faq-icon" aria-hidden="true">+</span>
+                        <span>+</span>
 
-                    </button>
+                    </summary>
 
                     <div class="faq-answer">
 
                         <p>
-                            Advent’s service positioning combines security personnel with
-                            electronic security technologies such as CCTV, alarms and access
-                            control. The exact integration architecture should be confirmed
-                            for each project.
+                            Depending on the site, relevant security layers can
+                            include CCTV and surveillance, access control,
+                            alarm systems, monitoring, visitor management,
+                            security personnel, patrols and security consulting.
                         </p>
 
                     </div>
 
-                </div>
+                </details>
 
 
-                <div class="faq-item">
+                <!-- FAQ 05 -->
+                <details class="faq-item">
 
-                    <button class="faq-question" type="button" aria-expanded="false">
+                    <summary>
 
-                        <span>
-                            Can security be standardised across multiple critical sites?
-                        </span>
+                        Can Advent integrate physical security with electronic security?
 
-                        <span class="faq-icon" aria-hidden="true">+</span>
+                        <span>+</span>
 
-                    </button>
+                    </summary>
 
                     <div class="faq-answer">
 
                         <p>
-                            Yes. A multi-site programme can use common design principles,
-                            reporting and governance while allowing individual sites to
-                            retain controls appropriate to their operating environment
-                            and risk.
+                            Advent's service positioning combines security
+                            personnel with electronic security technologies
+                            such as CCTV, alarms and access control. The exact
+                            integration approach is confirmed for each project.
                         </p>
 
                     </div>
 
-                </div>
+                </details>
 
 
-                <div class="faq-item">
+                <!-- FAQ 06 -->
+                <details class="faq-item">
 
-                    <button class="faq-question" type="button" aria-expanded="false">
+                    <summary>
 
-                        <span>
-                            Do data centres need physical security as well as cyber security?
-                        </span>
+                        Can security be standardised across multiple critical sites?
 
-                        <span class="faq-icon" aria-hidden="true">+</span>
+                        <span>+</span>
 
-                    </button>
+                    </summary>
 
                     <div class="faq-answer">
 
                         <p>
-                            Yes. Physical access to facilities, restricted rooms and
-                            equipment can affect the confidentiality, integrity and
-                            availability of systems and data. Physical security should
-                            therefore be designed alongside, not instead of, cyber and
-                            operational controls.
+                            Yes. A multi-site programme can use common design
+                            principles, reporting and governance while allowing
+                            individual sites to retain controls appropriate to
+                            their operating environment and risk.
                         </p>
 
                     </div>
 
-                </div>
+                </details>
 
 
-                <div class="faq-item">
+                <!-- FAQ 07 -->
+                <details class="faq-item">
 
-                    <button class="faq-question" type="button" aria-expanded="false">
+                    <summary>
 
-                        <span>
-                            Can Advent assess an existing security system rather than replace it?
-                        </span>
+                        Do data centres need physical security as well as cyber security?
 
-                        <span class="faq-icon" aria-hidden="true">+</span>
+                        <span>+</span>
 
-                    </button>
+                    </summary>
 
                     <div class="faq-answer">
 
                         <p>
-                            Yes. Assessment and selective upgrade should be considered
-                            valid pathways. Existing CCTV, alarms, access control,
-                            monitoring and procedures should be reviewed before deciding
-                            whether to retain, integrate, upgrade or replace components.
+                            Yes. Physical access to facilities, restricted rooms
+                            and equipment can affect the confidentiality,
+                            integrity and availability of systems and data.
+                            Physical security should therefore be designed
+                            alongside cyber and operational controls.
                         </p>
 
                     </div>
 
-                </div>
+                </details>
+
+
+                <!-- FAQ 08 -->
+                <details class="faq-item">
+
+                    <summary>
+
+                        Can Advent assess an existing security system rather than replace it?
+
+                        <span>+</span>
+
+                    </summary>
+
+                    <div class="faq-answer">
+
+                        <p>
+                            Yes. Existing CCTV, alarms, access control,
+                            monitoring and procedures can be reviewed before
+                            deciding whether components should be retained,
+                            integrated, upgraded or replaced.
+                        </p>
+
+                    </div>
+
+                </details>
 
             </div>
 
@@ -3125,22 +1169,20 @@ get_header();
 
     </section>
 
+
     <!-- =====================================================
-     FINAL CTA
-====================================================== -->
-    <section
-        id="critical-infrastructure-cta"
-        class="assessment-cta ci-final-cta">
+         10. FINAL CTA
+    ====================================================== -->
+    <section class="critical-cta">
 
         <div class="container">
 
-            <div class="cta-inner ci-cta-inner">
+            <div class="critical-cta-inner">
 
-                <!-- CTA CONTENT -->
-                <div class="ci-cta-content">
+                <div>
 
                     <span class="eyebrow">
-                        Security Assessment
+                        CRITICAL INFRASTRUCTURE SECURITY
                     </span>
 
                     <h2>
@@ -3148,28 +1190,20 @@ get_header();
                     </h2>
 
                     <p>
-                        Whether you are assessing a new facility, upgrading an existing
-                        security environment, standardising controls across multiple sites
-                        or reviewing the effectiveness of your current arrangements,
-                        Advent can help define a practical next step.
+                        Whether you are assessing a new facility, upgrading an
+                        existing security environment, standardising controls
+                        across multiple sites or reviewing your current
+                        arrangements, Advent can help define a practical next step.
                     </p>
 
                 </div>
 
 
-                <!-- CTA ACTIONS -->
-                <div class="ci-cta-actions">
+                <div class="critical-cta-action">
 
-                    <a
-                        href="<?php echo esc_url(home_url('/contact/')); ?>"
+                    <a href="<?php echo esc_url(home_url('/contact/')); ?>"
                         class="advent-btn-dark">
-                        <span>
-                            Request a Critical Infrastructure Security Assessment
-                        </span>
-
-                        <span class="btn-arrow">
-                            →
-                        </span>
+                        Request a Security Assessment
                     </a>
 
                 </div>
@@ -3183,6 +1217,4 @@ get_header();
 
 </main>
 
-<?php
-get_footer();
-?>
+<?php get_footer(); ?>

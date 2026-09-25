@@ -29,8 +29,11 @@ class Advent_Mega_Menu_Walker extends Walker_Nav_Menu
      */
     private $mega_parent = '';
 
+
     /**
-     * Service information.
+     * -----------------------------------------------------
+     * Menu item information
+     * -----------------------------------------------------
      */
     private function get_service_data($title)
     {
@@ -154,8 +157,43 @@ class Advent_Mega_Menu_Walker extends Walker_Nav_Menu
                 'icon' => 'bi-person-vcard',
                 'description' => 'Structured visitor registration, tracking and access management.',
             ),
+
+
+            /* ---------------------------------------------
+               INDUSTRIES
+            --------------------------------------------- */
+
+            'Aviation Airports' => array(
+                'icon' => 'bi-airplane',
+                'description' => 'Integrated security solutions for aviation facilities, terminals and critical operations.',
+            ),
+
+            'Critical Infrastructure' => array(
+                'icon' => 'bi-buildings',
+                'description' => 'Security solutions designed to protect critical assets, infrastructure and essential operations.',
+            ),
+
+            'Manufacturing' => array(
+                'icon' => 'bi-gear',
+                'description' => 'Security solutions designed to protect manufacturing facilities, people and production operations.',
+            ),
+
+
+            /* ---------------------------------------------
+               RESOURCES
+            --------------------------------------------- */
+
+            'News & Insights' => array(
+                'icon' => 'bi-journal-text',
+                'description' => 'Security news, industry trends, practical guidance and insights from Advent Security.',
+            ),
+
         );
 
+
+        /**
+         * Return requested item data.
+         */
         return isset($services[$title])
             ? $services[$title]
             : array(
@@ -166,16 +204,34 @@ class Advent_Mega_Menu_Walker extends Walker_Nav_Menu
 
 
     /**
-     * Start submenu.
+     * -----------------------------------------------------
+     * Start submenu
+     * -----------------------------------------------------
      */
     public function start_lvl(&$output, $depth = 0, $args = null)
     {
-        if ($depth === 0 && in_array($this->mega_parent, array(
-            'Security Services',
-            'Electronic Security'
-        ), true)) {
+        /**
+         * Mega menu parents.
+         */
+        if (
+            $depth === 0 &&
+            in_array(
+                $this->mega_parent,
+                array(
+                    'Security Services',
+                    'Electronic Security',
+                    'Industries',
+                    'Resources'
+                ),
+                true
+            )
+        ) {
 
+            /**
+             * Header information for each mega menu.
+             */
             $parent_data = array(
+
                 'Security Services' => array(
                     'label' => 'SECURITY SERVICES',
                     'description' => 'Integrated protection for people, property and operations.'
@@ -185,13 +241,37 @@ class Advent_Mega_Menu_Walker extends Walker_Nav_Menu
                     'label' => 'ELECTRONIC SECURITY',
                     'description' => 'Technology-led security systems designed around your site and risk profile.'
                 ),
+
+                'Industries' => array(
+                    'label' => 'INDUSTRIES',
+                    'description' => 'Security solutions designed around the environments, risks and operations of your industry.'
+                ),
+
+                'Resources' => array(
+                    'label' => 'RESOURCES',
+                    'description' => 'Security insights, information and practical resources to help you stay informed.'
+                ),
+
             );
 
+
+            /**
+             * Get current parent data.
+             */
             $data = $parent_data[$this->mega_parent];
 
+
+            /**
+             * Mega menu wrapper.
+             */
             $output .= '<div class="advent-mega-menu">';
 
+
+            /**
+             * Mega menu header.
+             */
             $output .= '<div class="advent-mega-header">';
+
             $output .= '<span class="advent-mega-eyebrow">'
                 . esc_html($data['label'])
                 . '</span>';
@@ -202,24 +282,47 @@ class Advent_Mega_Menu_Walker extends Walker_Nav_Menu
 
             $output .= '</div>';
 
+
+            /**
+             * Mega menu items.
+             */
             $output .= '<ul class="sub-menu advent-mega-grid">';
+
 
             return;
         }
 
+
+        /**
+         * Normal WordPress submenu.
+         */
         $output .= '<ul class="sub-menu">';
     }
 
 
     /**
-     * End submenu.
+     * -----------------------------------------------------
+     * End submenu
+     * -----------------------------------------------------
      */
     public function end_lvl(&$output, $depth = 0, $args = null)
     {
-        if ($depth === 0 && in_array($this->mega_parent, array(
-            'Security Services',
-            'Electronic Security'
-        ), true)) {
+        /**
+         * Close mega menu.
+         */
+        if (
+            $depth === 0 &&
+            in_array(
+                $this->mega_parent,
+                array(
+                    'Security Services',
+                    'Electronic Security',
+                    'Industries',
+                    'Resources'
+                ),
+                true
+            )
+        ) {
 
             $output .= '</ul>';
             $output .= '</div>';
@@ -227,12 +330,18 @@ class Advent_Mega_Menu_Walker extends Walker_Nav_Menu
             return;
         }
 
+
+        /**
+         * Close normal submenu.
+         */
         $output .= '</ul>';
     }
 
 
     /**
-     * Start menu item.
+     * -----------------------------------------------------
+     * Start menu item
+     * -----------------------------------------------------
      */
     public function start_el(
         &$output,
@@ -242,91 +351,164 @@ class Advent_Mega_Menu_Walker extends Walker_Nav_Menu
         $id = 0
     ) {
 
-        /*
+        /**
          * Store top-level mega menu parent.
          */
         if ($depth === 0) {
             $this->mega_parent = $item->title;
         }
 
-        /*
+
+        /**
          * Normal WordPress classes.
          */
         $classes = empty($item->classes)
             ? array()
             : (array) $item->classes;
 
+
         $class_names = implode(
             ' ',
             array_filter($classes)
         );
 
-        /*
+
+        /**
          * Menu item ID.
          */
         $item_id = 'menu-item-' . $item->ID;
 
-        /*
+
+        /**
          * ---------------------------------------------
          * CHILD ITEMS INSIDE MEGA MENU
          * ---------------------------------------------
          */
-
         if (
             $depth === 1 &&
-            in_array($this->mega_parent, array(
-                'Security Services',
-                'Electronic Security'
-            ), true)
+            in_array(
+                $this->mega_parent,
+                array(
+                    'Security Services',
+                    'Electronic Security',
+                    'Industries',
+                    'Resources'
+                ),
+                true
+            )
         ) {
 
+            /**
+             * Get item information.
+             */
             $service = $this->get_service_data($item->title);
 
+
+            /**
+             * Start item.
+             */
             $output .= '<li id="' . esc_attr($item_id) . '"';
-            $output .= ' class="' . esc_attr($class_names) . ' advent-mega-item">';
 
-            $output .= '<a href="' . esc_url($item->url) . '" class="advent-mega-link">';
+            $output .= ' class="'
+                . esc_attr($class_names)
+                . ' advent-mega-item">';
 
+
+            /**
+             * Link.
+             */
+            $output .= '<a href="'
+                . esc_url($item->url)
+                . '" class="advent-mega-link">';
+
+
+            /**
+             * Icon.
+             */
             $output .= '<span class="advent-mega-icon">';
-            $output .= '<i class="bi ' . esc_attr($service['icon']) . '" aria-hidden="true"></i>';
+
+            $output .= '<i class="bi '
+                . esc_attr($service['icon'])
+                . '" aria-hidden="true"></i>';
+
             $output .= '</span>';
 
+
+            /**
+             * Content.
+             */
             $output .= '<span class="advent-mega-content">';
 
+
+            /**
+             * Title.
+             */
             $output .= '<span class="advent-mega-title">';
+
             $output .= esc_html($item->title);
+
             $output .= '</span>';
 
+
+            /**
+             * Description.
+             */
             $output .= '<span class="advent-mega-description">';
+
             $output .= esc_html($service['description']);
-            $output .= '</span>';
 
             $output .= '</span>';
 
+
+            $output .= '</span>';
+
+
+            /**
+             * Close link.
+             */
             $output .= '</a>';
 
+
+            /**
+             * Important:
+             * Do not add </li> here because end_el()
+             * handles it.
+             */
             return;
         }
 
-        /*
+
+        /**
          * ---------------------------------------------
          * NORMAL MENU ITEMS
          * ---------------------------------------------
          */
-
         $output .= '<li id="' . esc_attr($item_id) . '"';
-        $output .= ' class="' . esc_attr($class_names) . '">';
 
-        $output .= '<a href="' . esc_url($item->url) . '">';
+        $output .= ' class="'
+            . esc_attr($class_names)
+            . '">';
+
+
+        /**
+         * Normal link.
+         */
+        $output .= '<a href="'
+            . esc_url($item->url)
+            . '">';
+
 
         $output .= esc_html($item->title);
+
 
         $output .= '</a>';
     }
 
 
     /**
-     * End menu item.
+     * -----------------------------------------------------
+     * End menu item
+     * -----------------------------------------------------
      */
     public function end_el(
         &$output,
@@ -338,6 +520,144 @@ class Advent_Mega_Menu_Walker extends Walker_Nav_Menu
         $output .= '</li>';
     }
 }
+
+/* =========================================================
+   INSIGHTS CUSTOM POST TYPE
+========================================================= */
+/**
+ * ---------------------------------------------------------
+ * Theme Setup
+ * ---------------------------------------------------------
+ *
+ * Enable WordPress features used by the Advent theme.
+ */
+function advent_theme_setup()
+{
+    // Enable Featured Images
+    add_theme_support('post-thumbnails');
+}
+
+add_action('after_setup_theme', 'advent_theme_setup');
+/**
+ * ---------------------------------------------------------
+ * Register Insights
+ * ---------------------------------------------------------
+ */
+function advent_register_insight_post_type()
+{
+    $labels = array(
+        'name'                  => __('Insights', 'advent-security'),
+        'singular_name'         => __('Insight', 'advent-security'),
+        'menu_name'             => __('Insights', 'advent-security'),
+        'name_admin_bar'        => __('Insight', 'advent-security'),
+        'add_new'               => __('Add New', 'advent-security'),
+        'add_new_item'          => __('Add New Insight', 'advent-security'),
+        'new_item'              => __('New Insight', 'advent-security'),
+        'edit_item'             => __('Edit Insight', 'advent-security'),
+        'view_item'             => __('View Insight', 'advent-security'),
+        'all_items'             => __('All Insights', 'advent-security'),
+        'search_items'          => __('Search Insights', 'advent-security'),
+        'not_found'             => __('No insights found.', 'advent-security'),
+        'not_found_in_trash'    => __('No insights found in Trash.', 'advent-security'),
+    );
+
+    $args = array(
+        'labels' => $labels,
+
+        'public' => true,
+
+        'show_ui' => true,
+
+        'show_in_menu' => true,
+
+        'show_in_rest' => true,
+
+        'menu_icon' => 'dashicons-edit-page',
+
+        'supports' => array(
+            'title',
+            'editor',
+            'thumbnail',
+            'excerpt',
+            'author',
+            'revisions',
+        ),
+
+        'has_archive' => true,
+
+        'rewrite' => array(
+            'slug' => 'resources/news-insights',
+            'with_front' => false,
+        ),
+
+        'query_var' => true,
+
+        'publicly_queryable' => true,
+    );
+
+    register_post_type(
+        'insight',
+        $args
+    );
+}
+
+add_action(
+    'init',
+    'advent_register_insight_post_type'
+);
+
+
+/**
+ * ---------------------------------------------------------
+ * Register Insight Categories
+ * ---------------------------------------------------------
+ */
+function advent_register_insight_taxonomy()
+{
+    $labels = array(
+        'name'              => __('Insight Categories', 'advent-security'),
+        'singular_name'     => __('Insight Category', 'advent-security'),
+        'search_items'      => __('Search Insight Categories', 'advent-security'),
+        'all_items'         => __('All Insight Categories', 'advent-security'),
+        'parent_item'       => __('Parent Insight Category', 'advent-security'),
+        'parent_item_colon' => __('Parent Insight Category:', 'advent-security'),
+        'edit_item'         => __('Edit Insight Category', 'advent-security'),
+        'update_item'       => __('Update Insight Category', 'advent-security'),
+        'add_new_item'      => __('Add New Insight Category', 'advent-security'),
+        'new_item_name'     => __('New Insight Category Name', 'advent-security'),
+        'menu_name'         => __('Categories', 'advent-security'),
+    );
+
+    $args = array(
+        'labels' => $labels,
+
+        'public' => true,
+
+        'hierarchical' => true,
+
+        'show_ui' => true,
+
+        'show_admin_column' => true,
+
+        'show_in_rest' => true,
+
+        'rewrite' => array(
+            'slug' => 'resources/news-insights/category',
+            'with_front' => false,
+        ),
+    );
+
+    register_taxonomy(
+        'insight_category',
+        array('insight'),
+        $args
+    );
+}
+
+add_action(
+    'init',
+    'advent_register_insight_taxonomy'
+);
 
 /**
  * ---------------------------------------------------------
@@ -961,6 +1281,24 @@ function advent_security_assets()
         );
     }
 
+    /**
+     * ---------------------------------------------------------
+     * News & Insights
+     * ---------------------------------------------------------
+     */
+    if (
+        is_post_type_archive('insight') ||
+        is_singular('insight') ||
+        is_tax('insight_category')
+    ) {
+        wp_enqueue_style(
+            'advent-insights',
+            get_template_directory_uri() . '/assets/css/insights.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
 
     /**
      * =====================================================
@@ -987,3 +1325,25 @@ function advent_security_assets()
 }
 
 add_action('wp_enqueue_scripts', 'advent_security_assets');
+
+
+/**
+ * ---------------------------------------------------------
+ * Insights Archive - Posts Per Page
+ * ---------------------------------------------------------
+ */
+function advent_insights_archive_posts_per_page($query)
+{
+    if (
+        !is_admin() &&
+        $query->is_main_query() &&
+        $query->is_post_type_archive('insight')
+    ) {
+        $query->set('posts_per_page', 10);
+    }
+}
+
+add_action(
+    'pre_get_posts',
+    'advent_insights_archive_posts_per_page'
+);
