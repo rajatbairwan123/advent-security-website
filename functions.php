@@ -4,8 +4,6 @@
  * ---------------------------------------------------------
  * Theme Navigation
  * ---------------------------------------------------------
- *
- * Register the primary navigation menu used in the header.
  */
 function advent_register_menus()
 {
@@ -24,17 +22,9 @@ add_action('after_setup_theme', 'advent_register_menus');
 
 class Advent_Mega_Menu_Walker extends Walker_Nav_Menu
 {
-    /**
-     * Store current parent menu title.
-     */
+
     private $mega_parent = '';
 
-
-    /**
-     * -----------------------------------------------------
-     * Menu item information
-     * -----------------------------------------------------
-     */
     private function get_service_data($title)
     {
         $services = array(
@@ -176,6 +166,11 @@ class Advent_Mega_Menu_Walker extends Walker_Nav_Menu
             'Manufacturing' => array(
                 'icon' => 'bi-gear',
                 'description' => 'Security solutions designed to protect manufacturing facilities, people and production operations.',
+            ),
+
+            'Healthcare' => array(
+                'icon' => 'bi-hospital',
+                'description' => 'Security solutions designed around healthcare facilities, people, access and operational requirements.',
             ),
 
 
@@ -524,13 +519,7 @@ class Advent_Mega_Menu_Walker extends Walker_Nav_Menu
 /* =========================================================
    INSIGHTS CUSTOM POST TYPE
 ========================================================= */
-/**
- * ---------------------------------------------------------
- * Theme Setup
- * ---------------------------------------------------------
- *
- * Enable WordPress features used by the Advent theme.
- */
+
 function advent_theme_setup()
 {
     // Enable Featured Images
@@ -674,9 +663,6 @@ function advent_security_assets()
      * -----------------------------------------------------
      * Google Font - Inter
      * -----------------------------------------------------
-     *
-     * Main and ONLY font used throughout the
-     * Advent Security website.
      */
     wp_enqueue_style(
         'advent-security-inter',
@@ -1225,6 +1211,22 @@ function advent_security_assets()
         wp_enqueue_style(
             'advent-critical-infrastructure',
             get_template_directory_uri() . '/assets/css/critical-infrastructure.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+    /**
+     * -----------------------------------------------------
+     * healthcare-security
+     * -----------------------------------------------------
+     */
+    if (
+        is_page('healthcare-security') ||
+        is_page_template('page-healthcare-security.php')
+    ) {
+        wp_enqueue_style(
+            'advent-healthcare-security',
+            get_template_directory_uri() . '/assets/css/healthcare-security.css',
             array('advent-responsive'),
             '1.0.0'
         );

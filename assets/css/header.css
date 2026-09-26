@@ -107,7 +107,7 @@
 .main-navigation {
     display: flex;
     align-items: center;
-    padding: 20px 0px 25px 0px;
+    /* padding: 20px 0px 25px 0px; */
 }
 
 .main-navigation > ul {
