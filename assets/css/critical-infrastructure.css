@@ -95,13 +95,8 @@
 
 .critical-hero-grid {
     display: grid;
-
-    grid-template-columns:
-        minmax(0, 46%)
-        minmax(0, 54%);
-
+    grid-template-columns: minmax(0, 46%) minmax(0, 54%);
     width: 100%;
-
     min-height: 870px;
 }
 

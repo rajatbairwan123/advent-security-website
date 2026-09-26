@@ -150,7 +150,7 @@ class Advent_Mega_Menu_Walker extends Walker_Nav_Menu
 
 
             /* ---------------------------------------------
-               INDUSTRIES
+            INDUSTRIES
             --------------------------------------------- */
 
             'Aviation Airports' => array(
@@ -158,19 +158,39 @@ class Advent_Mega_Menu_Walker extends Walker_Nav_Menu
                 'description' => 'Integrated security solutions for aviation facilities, terminals and critical operations.',
             ),
 
-            'Critical Infrastructure' => array(
-                'icon' => 'bi-buildings',
-                'description' => 'Security solutions designed to protect critical assets, infrastructure and essential operations.',
-            ),
-
             'Manufacturing' => array(
                 'icon' => 'bi-gear',
                 'description' => 'Security solutions designed to protect manufacturing facilities, people and production operations.',
             ),
 
-            'Healthcare' => array(
+            'Critical Infrastructure' => array(
+                'icon' => 'bi-buildings',
+                'description' => 'Security solutions designed to protect critical assets, infrastructure and essential operations.',
+            ),
+
+            'Healthcare And Aged Care' => array(
                 'icon' => 'bi-hospital',
                 'description' => 'Security solutions designed around healthcare facilities, people, access and operational requirements.',
+            ),
+
+            'Shopping Centres And Retail' => array(
+                'icon' => 'bi-shop',
+                'description' => 'Security solutions designed around retail environments, customers, staff and operational requirements.',
+            ),
+
+            'Government Security' => array(
+                'icon' => 'bi-bank',
+                'description' => 'Security solutions designed around government facilities, people, access and operational requirements.',
+            ),
+
+            'Education Industry' => array(
+                'icon' => 'bi-mortarboard',
+                'description' => 'Security solutions designed around schools, campuses, students and operational requirements.',
+            ),
+
+            'Logistics Warehousing' => array(
+                'icon' => 'bi-box-seam',
+                'description' => 'Security solutions designed around warehouses, distribution facilities, people and goods movement.',
             ),
 
 
@@ -184,7 +204,6 @@ class Advent_Mega_Menu_Walker extends Walker_Nav_Menu
             ),
 
         );
-
 
         /**
          * Return requested item data.
@@ -1227,6 +1246,70 @@ function advent_security_assets()
         wp_enqueue_style(
             'advent-healthcare-security',
             get_template_directory_uri() . '/assets/css/healthcare-security.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
+    /**
+     * Shopping Centres & Retail Industry CSS
+     */
+    if (
+        is_page('shopping-centres-retail-industry') ||
+        is_page_template('page-shopping-centres-retail-industry.php')
+    ) {
+        wp_enqueue_style(
+            'advent-shopping-centres-retail-industry',
+            get_template_directory_uri() . '/assets/css/shopping-centres-retail-industry.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
+    /**
+     * Government security
+     */
+
+    if (
+        is_page('government-security') ||
+        is_page_template('page-government-security.php')
+    ) {
+        wp_enqueue_style(
+            'advent-government-security',
+            get_template_directory_uri() . '/assets/css/government-security.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+
+    /**
+     * Education industry
+     */
+
+    if (
+        is_page('education-industry') ||
+        is_page_template('page-education-industry.php')
+    ) {
+
+        wp_enqueue_style(
+            'advent-education-industry',
+            get_template_directory_uri() . '/assets/css/education-industry.css',
+            array('advent-responsive'),
+            '1.0.0'
+        );
+    }
+    /**
+     * Education industry
+     */
+
+    if (
+        is_page('logistics-warehousing') ||
+        is_page_template('page-logistics-warehousing.php')
+    ) {
+
+        wp_enqueue_style(
+            'advent-logistics-warehousing',
+            get_template_directory_uri() . '/assets/css/logistics-warehousing.css',
             array('advent-responsive'),
             '1.0.0'
         );

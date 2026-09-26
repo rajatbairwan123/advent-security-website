@@ -71,7 +71,7 @@ get_header();
                         <img
                             src="<?php echo esc_url(
                                         get_template_directory_uri() .
-                                            '/assets/images/healthcare/healthcare-security-hero.jpg'
+                                            '/assets/images/healthcare/healthcare_hero.webp'
                                     ); ?>"
                             alt="Healthcare security services">
 
@@ -195,7 +195,7 @@ get_header();
                             <img
                                 src="<?php echo esc_url(
                                             get_template_directory_uri() .
-                                                '/assets/images/healthcare/healthcare-security-approach.jpg'
+                                                '/assets/images/healthcare/healthcare_image_2.webp'
                                         ); ?>"
                                 alt="Healthcare security environment"
                                 loading="lazy">
@@ -983,7 +983,7 @@ get_header();
                     <img
                         src="<?php echo esc_url(
                                     get_template_directory_uri() .
-                                        '/assets/images/healthcare/healthcare-advent-security.jpg'
+                                        '/assets/images/healthcare/healthcare_image_3.webp'
                                 ); ?>"
                         alt="Advent Security healthcare security officer"
                         loading="lazy">

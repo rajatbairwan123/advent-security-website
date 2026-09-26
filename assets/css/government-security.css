@@ -1,0 +1,674 @@
+/* =========================================================
+   GOVERNMENT SECURITY PAGE
+========================================================= */
+
+.government-security-page {
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.government-hero {
+    /* padding: 40px 0 0; */
+    border-bottom: 1px solid var(--color-border);
+}
+
+.government-hero-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    min-height: 620px;
+}
+
+.government-hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 70px 70px 70px;
+}
+
+.government-hero-content h1 {
+    max-width: 700px;
+    margin: 15px 0 25px;
+    font-size: clamp(48px, 5vw, 76px);
+    line-height: 0.98;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+}
+
+.government-hero-content h1 span,
+.government-hero-page h2 span {
+    color: var(--color-primary);
+}
+
+.government-hero-content p {
+    max-width: 650px;
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.government-hero-content .btn {
+    align-self: flex-start;
+    margin-top: 18px;
+}
+
+.government-hero-image {
+    min-height: 620px;
+    overflow: hidden;
+}
+
+.government-hero-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* =========================================================
+   PROOF STRIP
+========================================================= */
+
+.government-hero .proof-strip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.government-hero .proof-item {
+    min-height: 90px;
+    padding: 22px 25px;
+    border-right: 1px solid var(--color-border);
+}
+
+.government-hero .proof-item:last-child {
+    border-right: 0;
+}
+
+.government-hero .proof-item strong,
+.government-hero .proof-item span {
+    display: block;
+}
+
+.government-hero .proof-item strong {
+    margin-bottom: 6px;
+    color: var(--color-primary);
+    font-size: 13px;
+    letter-spacing: 0.08em;
+}
+
+.government-hero .proof-item span {
+    color: var(--color-text-light);
+    font-size: 11px;
+    line-height: 1.4;
+}
+
+/* =========================================================
+   COMMON SECTION
+========================================================= */
+
+.government-security-page .content-section {
+    padding: 105px 0;
+}
+
+.government-security-page .section-head {
+    display: grid;
+    grid-template-columns: 52% 48%;
+    gap: 50px;
+    align-items: start;
+    margin-bottom: 55px;
+}
+
+.government-security-page .section-head h2 {
+    max-width: 800px;
+    margin: 12px 0 0;
+    font-size: clamp(40px, 4.5vw, 64px);
+    line-height: 1;
+    letter-spacing: -0.04em;
+    font-weight: 600;
+}
+
+.government-security-page .section-head h2 span {
+    color: var(--color-primary);
+}
+
+.government-security-page .section-head > p {
+    margin: 45px 0 0;
+    color: var(--color-text-light);
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+/* =========================================================
+   FACILITIES
+========================================================= */
+
+.government-intro-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.government-intro-content p {
+    max-width: 680px;
+    margin: 0 0 22px;
+    color: var(--color-text-light);
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.government-intro-image {
+    min-height: 390px;
+}
+
+.government-intro-image img {
+    width: 100%;
+    height: 100%;
+    min-height: 390px;
+    display: block;
+    object-fit: cover;
+}
+
+.government-requirements-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.government-requirements-grid article {
+    padding: 30px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.government-requirements-grid h3 {
+    margin: 12px 0 18px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.government-requirements-grid p {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* =========================================================
+   PRACTICAL MODEL
+========================================================= */
+
+.government-model {
+    background: var(--color-surface);
+}
+
+.government-model-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.government-model-grid article {
+    min-height: 290px;
+    padding: 30px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.government-model-grid h3 {
+    margin: 14px 0 18px;
+    font-size: 21px;
+    line-height: 1.25;
+    font-weight: 500;
+}
+
+.government-model-grid p {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* =========================================================
+   SECURITY BY AREA
+========================================================= */
+
+.government-area-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.government-area-grid article {
+    min-height: 190px;
+    padding: 30px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.government-area-grid h3 {
+    margin: 0 0 15px;
+    font-size: 19px;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+.government-area-grid p {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* =========================================================
+   INTEGRATED SECURITY
+========================================================= */
+
+.government-integrated {
+    background: var(--color-surface);
+}
+
+.government-integrated-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.government-integrated-grid article {
+    min-height: 210px;
+    padding: 30px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.government-integrated-grid article:last-child {
+    grid-column: span 2;
+}
+
+.government-integrated-grid h3 {
+    margin: 13px 0 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.government-integrated-grid p {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* =========================================================
+   WHY ADVENT
+========================================================= */
+
+.government-why-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.government-why-grid article {
+    min-height: 260px;
+    padding: 30px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.government-why-grid h3 {
+    margin: 14px 0 18px;
+    font-size: 21px;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+.government-why-grid p {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* =========================================================
+   OTHER INDUSTRIES
+========================================================= */
+
+/* .government-industries {
+    background: var(--color-surface);
+} */
+
+.government-industry-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.government-industry-grid article {
+    min-height: 180px;
+    padding: 30px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.government-industry-grid h3 {
+    margin: 0 0 14px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.government-industry-grid p {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* =========================================================
+   APPROACH
+========================================================= */
+
+.government-approach-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.government-approach-grid article {
+    min-height: 230px;
+    padding: 30px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.government-approach-grid h3 {
+    margin: 14px 0 16px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.government-approach-grid p {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* =========================================================
+   RELATED SERVICES
+========================================================= */
+
+/* .government-related {
+    background: var(--color-surface);
+} */
+
+.related-services-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+
+.related-services-list a {
+    display: block;
+    padding: 22px 25px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-text);
+    font-size: 15px;
+    text-decoration: none;
+    transition: all var(--transition-normal);
+}
+
+.related-services-list a:hover {
+    color: var(--color-primary);
+}
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.government-cta {
+    padding: 85px 0;
+    background: #111;
+    color: #fff;
+}
+
+.government-cta-inner {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 60px;
+    align-items: center;
+}
+
+.government-cta h2 {
+    max-width: 750px;
+    margin: 12px 0 20px;
+    font-size: clamp(38px, 4vw, 58px);
+    line-height: 1;
+    letter-spacing: -0.04em;
+}
+
+.government-cta h2 span {
+    color: var(--color-primary);
+}
+
+.government-cta p {
+    max-width: 760px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 15px;
+    line-height: 1.75;
+}
+
+.government-cta .btn {
+    white-space: nowrap;
+}
+
+/* =========================================================
+   FAQ
+========================================================= */
+
+.government-faq {
+    padding-bottom: 120px !important;
+}
+
+.government-faq .industry-faq {
+    border-top: 1px solid var(--color-border);
+}
+
+.government-faq .industry-faq details {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.government-faq .industry-faq summary {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 72px;
+    padding: 22px 50px 22px 0;
+    cursor: pointer;
+    list-style: none;
+    color: var(--color-text);
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.government-faq .industry-faq summary::-webkit-details-marker {
+    display: none;
+}
+
+.government-faq .industry-faq summary::marker {
+    display: none;
+}
+
+.government-faq .industry-faq summary::after {
+    content: "+";
+    position: absolute;
+    top: 21px;
+    right: 0;
+    color: var(--color-primary);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1;
+    transition: transform var(--transition-normal);
+}
+
+.government-faq .industry-faq details[open] summary::after {
+    transform: rotate(45deg);
+}
+
+.government-faq .industry-faq summary:hover {
+    color: var(--color-primary);
+}
+
+.government-faq .industry-faq details p {
+    max-width: 850px;
+    margin: 0;
+    padding: 0 60px 25px 0;
+    color: var(--color-text-light);
+    font-size: 15px;
+    line-height: 1.75;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1100px) {
+    .government-hero-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .government-model-grid,
+    .government-approach-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .government-requirements-grid,
+    .government-integrated-grid,
+    .government-why-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .government-area-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .government-hero {
+        padding-top: 20px;
+    }
+
+    .government-hero-grid,
+    .government-intro-grid,
+    .government-security-page .section-head,
+    .government-cta-inner {
+        grid-template-columns: 1fr;
+    }
+
+    .government-hero-content {
+        padding: 45px 0;
+    }
+
+    .government-hero-content h1 {
+        font-size: 48px;
+    }
+
+    .government-hero-image {
+        min-height: 400px;
+    }
+
+    .government-hero .proof-strip {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .government-hero .proof-item:nth-child(2) {
+        border-right: 0;
+    }
+
+    .government-security-page .content-section {
+        padding: 75px 0;
+    }
+
+    .government-security-page .section-head {
+        gap: 15px;
+        margin-bottom: 40px;
+    }
+
+    .government-security-page .section-head > p {
+        margin-top: 0;
+    }
+
+    .government-requirements-grid,
+    .government-model-grid,
+    .government-area-grid,
+    .government-integrated-grid,
+    .government-why-grid,
+    .government-industry-grid,
+    .government-approach-grid,
+    .related-services-list {
+        grid-template-columns: 1fr;
+    }
+
+    .government-integrated-grid article:last-child {
+        grid-column: auto;
+    }
+
+    .government-cta {
+        padding: 65px 0;
+    }
+
+    .government-cta-inner {
+        gap: 30px;
+    }
+
+    .government-cta .btn {
+        justify-self: start;
+        white-space: normal;
+    }
+}
+
+@media (max-width: 480px) {
+    .government-hero-content h1 {
+        font-size: 40px;
+    }
+
+    .government-security-page .section-head h2 {
+        font-size: 38px;
+    }
+
+    .government-hero .proof-strip {
+        grid-template-columns: 1fr;
+    }
+
+    .government-hero .proof-item {
+        border-right: 0;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .government-hero .proof-item:last-child {
+        border-bottom: 0;
+    }
+}
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 38px;
+}
